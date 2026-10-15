@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Staatsexamen Chinees · eigen oefenblad</title>
+<style>
+  :root {
+    --papier: #F4EFE6;
+    --inkt: #222222;
+    --bij: #5C564F;
+    --lijn: #d9d0c3;
+    --rood: #D62828;
+    --groen: #1A9E6E;
+    --blauw: #1E6FD9;
+    --vlak: #EDE6DA;
+    --goed: #E5F4EC;
+    --mis: #FDECEE;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--papier); color: var(--inkt); }
+  body {
+    font: 18px/1.45 "Segoe UI", "Microsoft YaHei", sans-serif;
+    padding: 72px 16px 48px;
+  }
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 2;
+    display: flex; gap: 6px; flex-wrap: wrap;
+    padding: 8px 12px; background: #E7E0D4; border-bottom: 1px solid var(--lijn);
+  }
+  nav button, button {
+    font: 16px/1 "Segoe UI", sans-serif;
+    min-height: 44px; padding: 0 14px;
+    border: 1px solid #222; border-radius: 8px;
+    background: var(--papier); color: var(--inkt); cursor: pointer;
+  }
+  nav button.aan, button.aan { background: var(--inkt); color: var(--papier); }
+  main { max-width: 720px; margin: 0 auto; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 22px; margin: 28px 0 8px; }
+  p { margin: 0 0 12px; }
+  .bij { color: var(--bij); font-size: 16px; }
+  .kaart {
+    background: var(--vlak); border: 1px solid var(--lijn);
+    border-radius: 12px; padding: 16px; margin: 0 0 14px;
+  }
+  .hz { color: var(--rood); font-size: 32px; line-height: 1.35; font-weight: 600; }
+  .py { color: var(--groen); font-size: 16px; margin-top: 2px; }
+  .rij { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 8px 0; }
+  .keuze { text-align: left; }
+  .keuze.goed { background: var(--goed); border-color: var(--groen); }
+  .keuze.mis { background: var(--mis); border-color: var(--rood); }
+  textarea {
+    width: 100%; min-height: 160px; font: 28px/1.4 "Microsoft YaHei", sans-serif;
+    color: var(--rood); background: #fffdf8; border: 1px solid var(--lijn);
+    border-radius: 10px; padding: 12px;
+  }
+  .punt { display: flex; gap: 8px; align-items: flex-start; margin: 6px 0; }
+  .vink { width: 22px; height: 22px; border-radius: 50%; border: 2px solid var(--bij); flex: none; margin-top: 2px; }
+  .vink.aan { background: var(--groen); border-color: var(--groen); }
+  .klok { font-size: 56px; letter-spacing: 1px; margin: 8px 0; }
+  .fase { color: var(--blauw); font-weight: 700; }
+  table { width: 100%; border-collapse: collapse; }
+  td { border-bottom: 1px solid var(--lijn); padding: 8px 4px; vertical-align: middle; }
+  td.tijd { color: var(--blauw); font-weight: 700; width: 7em; }
+  .tafel {
+    width: 180px; height: 180px; margin: 8px auto; position: relative;
+    border: 8px solid var(--inkt); border-radius: 50%; background: #fffdf8;
+  }
+  .wijzer {
+    position: absolute; left: 50%; top: 50%; background: var(--inkt);
+    transform-origin: bottom center;
+  }
+  .uur { width: 6px; height: 48px; margin-left: -3px; }
+  .min { width: 3px; height: 68px; margin-left: -1px; background: var(--rood); }
+  .kom { text-align: center; color: var(--rood); font-size: 40px; font-weight: 700; margin-top: 8px; }
+  .verborgen .py, body.examen .py { display: none; }
+  .score { font-variant-numeric: tabular-nums; }
+  select, input.typ, input.zoek {
+    font: 18px/1.4 "Segoe UI", "Microsoft YaHei", sans-serif;
+    color: var(--inkt); background: #fffdf8;
+    border: 1px solid #222; border-radius: 8px;
+    min-height: 44px; max-width: 100%;
+  }
+  input.typ { width: 100%; font-size: 32px; color: var(--rood); padding: 10px; }
+  input.zoek { width: 100%; padding: 8px 12px; }
+  .groot { font-size: 56px; line-height: 1.15; color: var(--rood); font-weight: 700; margin: 8px 0; }
+  .vraag { font-size: 26px; margin: 8px 0; }
+  .balk { height: 8px; background: #e7e0d4; border-radius: 4px; margin: 8px 0; }
+  .balk div { height: 8px; background: var(--groen); border-radius: 4px; }
+  .lijst { display: flex; justify-content: space-between; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--lijn); }
+</style>
+</head>
+<body>
+<nav>
+  <button type="button" data-scherm="kruip" class="aan">Kruip</button>
+  <button type="button" data-scherm="loop">Loop</button>
+  <button type="button" data-scherm="ren">Ren</button>
+  <button type="button" data-scherm="boek">Boek</button>
+  <button type="button" data-scherm="examen">Examen</button>
+  <button type="button" id="pinyin">Verberg pinyin</button>
+</nav>
+<main id="app"></main>
+<script>
+const SLEUTEL = "staatsexamen_a1_v1";
+const stand = Object.assign({ goed: {}, pinyin: true }, JSON.parse(localStorage.getItem(SLEUTEL) || "{}"));
+const NAMEN = ["Saidy", "Shi", "Terrence"];
+function leegWerk() {
+  return {
+    kruipGoed: {}, loopGoed: {}, renGoed: {}, loopAt: {}, paraAt: {},
+    renOpen: {}, ch: "1", renDeel: "schrijf", gesprek: "", zoek: "",
+    gehaald: {}, kaart: null, loopKaart: null, renSet: null,
+    paraZien: null, paraTyp: "", agendaZin: ""
+  };
+}
+if (!stand.per) {
+  const sa = leegWerk();
+  ["kruipGoed", "loopGoed", "renGoed", "loopAt", "paraAt", "renOpen"].forEach(k => {
+    if (stand[k] && typeof stand[k] === "object") sa[k] = stand[k];
+  });
+  if (stand.ch) sa.ch = stand.ch;
+  if (stand.renDeel) sa.renDeel = stand.renDeel;
+  stand.per = { Saidy: sa, Shi: leegWerk(), Terrence: leegWerk() };
+}
+stand.wie = NAMEN.indexOf(stand.wie) >= 0 ? stand.wie : "Saidy";
+NAMEN.forEach(n => { if (!stand.per[n]) stand.per[n] = leegWerk(); });
+function nu() {
+  if (!stand.per[stand.wie]) stand.per[stand.wie] = leegWerk();
+  const p = stand.per[stand.wie];
+  if (!p.gehaald) p.gehaald = {};
+  return p;
+}
+function bewaar() { localStorage.setItem(SLEUTEL, JSON.stringify(stand)); }
+
+const LEES = [
+  {
+    id: "brief",
+    titel: "Tekst 1 · een briefje",
+    regels: [
+      ["小月：", ""],
+      ["今天下雨。", "jīn tiān xià yǔ"],
+      ["我在家。", "wǒ zài jiā"],
+      ["我在喝茶。", "wǒ zài hē chá"],
+      ["你来吗？", "nǐ lái ma"],
+      ["小文", "Xiǎo Wén"]
+    ],
+    vragen: [
+      ["Wat voor tekst is dit?", ["een briefje", "een menu", "een rooster"], 0],
+      ["Waar is Xiao Wen?", ["thuis", "op school", "in de winkel"], 0],
+      ["Wat drinkt Xiao Wen?", ["thee", "water", "koffie"], 0],
+      ["Wat vraagt hij aan Xiao Yue?", ["of ze komt", "hoe laat het is", "hoe ze heet"], 0]
+    ]
+  },
+  {
+    id: "rooster",
+    titel: "Tekst 2 · een daglijst",
+    rooster: [
+      ["八点", "bā diǎn", "中文", "Zhōngwén"],
+      ["十点", "shí diǎn", "喝茶", "hē chá"],
+      ["十二点", "shí'èr diǎn", "吃饭", "chī fàn"]
+    ],
+    vragen: [
+      ["Wat voor tekst is dit?", ["een rooster", "een briefje", "een menukaart"], 0],
+      ["Hoe laat is de les Chinees?", ["acht uur", "tien uur", "twaalf uur"], 0],
+      ["Wat doen ze om tien uur?", ["thee drinken", "eten", "schrijven"], 0],
+      ["Wat doen ze om twaalf uur?", ["eten", "thee drinken", "slapen"], 0]
+    ]
+  },
+  {
+    id: "wie",
+    titel: "Tekst 3 · wie ben ik",
+    regels: [
+      ["我叫安安。", "wǒ jiào Ān'ān"],
+      ["我是学生。", "wǒ shì xuéshēng"],
+      ["我住在荷兰。", "wǒ zhù zài Hélán"],
+      ["我喜欢中文。", "wǒ xǐhuan Zhōngwén"],
+      ["中文很难。", "Zhōngwén hěn nán"]
+    ],
+    vragen: [
+      ["Hoe heet deze persoon?", ["Anan", "Xiaowen", "Chen"], 0],
+      ["Wat is Anan?", ["student", "leraar", "dokter"], 0],
+      ["Waar woont Anan?", ["in Nederland", "in China", "op school"], 0],
+      ["Wat zegt Anan over Chinees?", ["het is moeilijk", "het is makkelijk", "het is klaar"], 0]
+    ]
+  }
+];
+
+const HOOR = [
+  {
+    id: "klok",
+    titel: "Kijk en hoor · de klok",
+    kijk: "klok",
+    zin: ["我们三点喝茶。", "wǒmen sān diǎn hē chá"],
+    stukken: ["我们三点喝茶"],
+    vraag: "Hoe laat drinken ze thee, en wat?",
+    keuzes: ["drie uur, thee", "twee uur, water", "vijf uur, rijst"],
+    goed: 0
+  },
+  {
+    id: "thuis",
+    titel: "Hoor · thuis",
+    zin: ["妈妈在家。爸爸不在。", "māma zài jiā. bàba bú zài"],
+    stukken: ["妈妈在家", "爸爸不在"],
+    vraag: "Wie is thuis?",
+    keuzes: ["mama", "papa", "allebei"],
+    goed: 0
+  },
+  {
+    id: "eten",
+    titel: "Hoor · eten",
+    zin: ["现在两点。我们三点吃饭。", "xiànzài liǎng diǎn. wǒmen sān diǎn chī fàn"],
+    stukken: ["现在两点", "我们三点吃饭"],
+    vraag: "Hoe laat eten ze?",
+    keuzes: ["drie uur", "twee uur", "vier uur"],
+    goed: 0
+  },
+  {
+    id: "zit",
+    titel: "Hoor · aan tafel",
+    zin: ["请坐。请喝茶。", "qǐng zuò. qǐng hē chá"],
+    stukken: ["请坐", "请喝茶"],
+    vraag: "Wat vraagt de spreker daarna?",
+    keuzes: ["thee te drinken", "te gaan", "een naam"],
+    goed: 0
+  }
+];
+
+const SCHRIJF = {
+  situatie: "Je vriend Chen is jarig. Je typt hem een kort bericht.",
+  punten: [
+    ["Groet Chen.", ["陈"]],
+    ["Zeg dat vandaag zijn verjaardag is.", ["生日"]],
+    ["Wens hem een fijne verjaardag.", ["生日快乐", "恭喜"]],
+    ["Vraag of hij van thee houdt.", ["茶"]],
+    ["Neem afscheid.", ["再见", "谢谢"]]
+  ],
+  model: [
+    ["陈，你好！", "Chén, nǐ hǎo"],
+    ["今天是你的生日。", "jīn tiān shì nǐ de shēngrì"],
+    ["生日快乐！", "shēngrì kuàilè"],
+    ["你喜欢茶吗？", "nǐ xǐhuan chá ma"],
+    ["再见！", "zài jiàn"]
+  ]
+};
+
+const PAPIER = {
+  situatie: "Je bent in de bibliotheek. Je laat een briefje achter voor je klasgenoot Lin.",
+  punten: [
+    "Groet Lin.",
+    "Zeg dat je nu in de bibliotheek bent.",
+    "Zeg dat je een boek leest.",
+    "Vraag of hij om vijf uur tijd heeft.",
+    "Zeg dat je op hem wacht."
+  ],
+  model: [
+    ["林，你好！", "Lín, nǐ hǎo"],
+    ["我现在在图书馆。", "wǒ xiànzài zài túshūguǎn"],
+    ["我在看书。", "wǒ zài kàn shū"],
+    ["你五点有时间吗？", "nǐ wǔ diǎn yǒu shíjiān ma"],
+    ["我等你。", "wǒ děng nǐ"]
+  ]
+};
+
+const MOND = [
+  {
+    naam: "Presentatie",
+    tot: 8 * 60,
+    tekst: "Zeg hardop: je naam, dat je in Nederland woont, dat je Chinees leert, en één ding dat je lekker vindt.",
+    stukken: [
+      ["大家好。", "dàjiā hǎo"],
+      ["我住在荷兰。", "wǒ zhù zài Hélán"],
+      ["我学习中文。", "wǒ xuéxí Zhōngwén"],
+      ["我喜欢茶。", "wǒ xǐhuan chá"]
+    ]
+  },
+  {
+    naam: "Gesprek",
+    tot: 18 * 60,
+    tekst: "Je hoort een vraag. Antwoord hardop. Daarna mag je een voorbeeld horen.",
+    stukken: [
+      ["你叫什么名字？", "nǐ jiào shénme míngzi"],
+      ["你住在哪儿？", "nǐ zhù zài nǎr"],
+      ["你喜欢什么？", "nǐ xǐhuan shénme"]
+    ],
+    voorbeelden: [
+      ["我叫……", "wǒ jiào …"],
+      ["我住在荷兰。", "wǒ zhù zài Hélán"],
+      ["我喜欢茶。", "wǒ xǐhuan chá"]
+    ]
+  },
+  {
+    naam: "Cultuur",
+    tot: 25 * 60,
+    tekst: "Dit deel zeg je in het Nederlands. Geen boek, geen film, geen acteur.",
+    kaarten: [
+      ["Vier tonen", "Mandarijn heeft vier tonen. Dezelfde klank met een andere toon is een ander woord. Noem hardop dat de toon de betekenis verandert."],
+      ["春节 Chūnjié", "Het Lentefestival is het Chinese nieuwjaar, op de eerste dag van de maankalender. Families eten dan samen. Zeg dat hardop."],
+      ["Een karakter", "Een karakter is een teken met een betekenis. Een letter is alleen een klank. Zeg dat verschil hardop."]
+    ]
+  }
+];
+
+function zegKlankMis() {
+  let m = document.getElementById("klankmis");
+  if (!m) {
+    m = document.createElement("p");
+    m.id = "klankmis";
+    m.className = "bij";
+    document.getElementById("app").prepend(m);
+  }
+  m.hidden = false;
+  m.textContent = "Spraak niet beschikbaar in deze browser.";
+}
+function hoor(hz, knop) {
+  if (!("speechSynthesis" in window)) { zegKlankMis(); return; }
+  speechSynthesis.cancel();
+  const u = new SpeechSynthesisUtterance(hz);
+  u.lang = "zh-CN"; u.rate = 0.8;
+  const v = speechSynthesis.getVoices().find(x => /^zh[-_]CN/i.test(x.lang)) || speechSynthesis.getVoices().find(x => /^zh/i.test(x.lang));
+  if (v) u.voice = v;
+  if (knop) knop.disabled = true;
+  u.onend = u.onerror = () => { if (knop) knop.disabled = false; };
+  speechSynthesis.speak(u);
+}
+
+function markeer(id, juist) {
+  stand.goed[id] = !!juist;
+  bewaar();
+}
+
+function pyZicht() { return stand.pinyin ? "" : " verborgen"; }
+
+function regelsHtml(regels) {
+  return regels.map(([hz, py]) =>
+    `<div class="rij"><div><div class="hz">${hz}</div><div class="py">${py}</div></div>` +
+    (py ? `<button type="button" data-hoor="${hz.replace(/[，。？！]/g, "")}">Hoor</button>` : "") +
+    `</div>`
+  ).join("");
+}
+
+function vragenHtml(bron, vragen) {
+  return vragen.map((v, i) => {
+    const id = bron + "-" + i;
+    const gekozen = stand.goed[id];
+    const knoppen = v[1].map((k, n) => {
+      let klas = "keuze";
+      if (gekozen === true && n === v[2]) klas += " goed";
+      if (gekozen === false && n === v[2]) klas += " goed";
+      return `<button type="button" class="${klas}" data-keuze="${id}" data-n="${n}" data-goed="${v[2]}">${k}</button>`;
+    }).join("");
+    return `<div class="kaart"><p>${v[0]}</p><div class="rij">${knoppen}</div></div>`;
+  }).join("");
+}
+
+function tekenPoort() {
+  const n = Object.values(stand.goed).filter(Boolean).length;
+  const tal = Object.keys(stand.goed).length;
+  return `
+    <h1>Staatsexamen Chinees</h1>
+    <p>Eigen oefenblad. Elementair, vwo, niveau A1. Geen examen-pdf, geen scan, geen acteur.</p>
+    <p class="bij">De echte opgaven, de officiële tijd en de beoordeling blijven bij DUO, vakinformatie staatsexamen vo, Chinese taal en cultuur elementair vwo. Dit blad kopieert die opgaven niet.</p>
+    <div class="kaart">
+      <p class="score">Bijgehouden: ${n} goed van ${tal} gekozen.</p>
+      <p>A Lezen, op het schriftelijk deel.</p>
+      <p>B Kijken en luisteren, op het mondeling.</p>
+      <p>C Gesprek en spreken, op het mondeling.</p>
+      <p>D Schrijven op een scherm en op papier, op het schriftelijk deel.</p>
+      <p>E Cultuur, op het mondeling, in het Nederlands.</p>
+      <p class="bij">Het mondeling duurt 25 minuten, zonder de voorbereiding van de casus. Schrijven wordt bekeken op inhoud, aantal woorden, grammatica, woordenschat, spelling en samenhang. Dit blad telt alleen of jouw punten in de tekst staan.</p>
+    </div>
+    <p class="bij">Pinyin zet je aan en uit in de balk.</p>`;
+}
+
+function tekenLees() {
+  const blokken = LEES.map(t => {
+    let lijf = "";
+    if (t.rooster) {
+      lijf = `<table>${t.rooster.map(r =>
+        `<tr><td class="tijd"><div class="hz">${r[0]}</div><div class="py">${r[1]}</div></td>` +
+        `<td><div class="hz">${r[2]}</div><div class="py">${r[3]}</div></td>` +
+        `<td><button type="button" data-hoor="${r[0]}">Hoor</button> <button type="button" data-hoor="${r[2]}">Hoor</button></td></tr>`
+      ).join("")}</table>`;
+    } else lijf = regelsHtml(t.regels);
+    return `<h2>${t.titel}</h2><div class="kaart${pyZicht()}">${lijf}</div>${vragenHtml(t.id, t.vragen)}`;
+  }).join("");
+  return `<h1>Lees</h1><p class="bij">Lees eerst. Kies daarna. Een miss toont het goede antwoord, je mag opnieuw.</p>${blokken}`;
+}
+
+function tekenHoor() {
+  const blokken = HOOR.map(h => {
+    const id = h.id;
+    const gezien = stand.goed[id] !== undefined;
+    const kijk = h.kijk === "klok" ? `<div class="tafel" aria-hidden="true"><div class="wijzer uur" style="transform:rotate(90deg)"></div><div class="wijzer min"></div></div><div class="kom">茶</div>` : "";
+    const knoppen = h.keuzes.map((k, n) => {
+      let klas = "keuze";
+      if (gezien && n === h.goed) klas += " goed";
+      return `<button type="button" class="${klas}" data-keuze="${id}" data-n="${n}" data-goed="${h.goed}">${k}</button>`;
+    }).join("");
+    const open = gezien ? `<div class="hz">${h.zin[0]}</div><div class="py">${h.zin[1]}</div>` : `<p class="bij">De zin blijft dicht tot je kiest.</p>`;
+    const stukken = h.stukken.map(s => `<button type="button" data-hoor="${s}">Hoor</button>`).join(" ");
+    return `<h2>${h.titel}</h2><div class="kaart${pyZicht()}">${kijk}<div class="rij">${stukken}</div>${open}<p>${h.vraag}</p><div class="rij">${knoppen}</div></div>`;
+  }).join("");
+  return `<h1>Hoor</h1><p id="klankmis" class="bij" hidden>Spraak niet beschikbaar in deze browser.</p><p class="bij">De stem is de bestaande klank van dit bord. Geen acteur, geen examenopname.</p>${blokken}`;
+}
+
+function puntStaat(tekst, groep) {
+  return groep.some(w => tekst.includes(w));
+}
+
+function tekenSchrijf() {
+  const tekst = stand.schrijf || "";
+  const punten = SCHRIJF.punten.map(([zin, groep]) => {
+    const aan = puntStaat(tekst, groep) ? " aan" : "";
+    return `<div class="punt"><div class="vink${aan}"></div><div>${zin}</div></div>`;
+  }).join("");
+  const n = [...tekst].filter(ch => ch >= "\u3400" && ch <= "\u9fff").length;
+  const model = stand.toonModel ? `<div class="kaart${pyZicht()}"><p class="bij">Eigen voorbeeld, geen examenantwoord.</p>${regelsHtml(SCHRIJF.model)}</div>` : "";
+  return `<h1>Schrijf op het scherm</h1>
+    <div class="kaart"><p>${SCHRIJF.situatie}</p>${punten}<p class="bij">Minstens vijftien tekens. De stip telt of het punt erin staat, niet de grammatica en niet de volgorde.</p></div>
+    <textarea id="schrijf" placeholder="Typ hier in het Chinees."></textarea>
+    <p class="bij score">${n} tekens</p>
+    <p><button type="button" id="model">${stand.toonModel ? "Verberg voorbeeld" : "Toon eigen voorbeeld"}</button></p>
+    ${model}`;
+}
+
+function tekenPapier() {
+  const lijst = PAPIER.punten.map((p, i) => {
+    const aan = stand.goed["papier-" + i] ? " aan" : "";
+    return `<div class="punt"><button type="button" class="vink${aan}" data-papier="${i}" aria-label="punt ${i + 1}"></button><div>${i + 1}. ${p}</div></div>`;
+  }).join("");
+  const model = stand.toonPapier ? `<div class="kaart${pyZicht()}"><p class="bij">Eigen voorbeeld. Schrijf het zijne niet over tot je het jouwe af hebt.</p>${regelsHtml(PAPIER.model)}</div>` : "";
+  return `<h1>Schrijf op papier</h1>
+    <div class="kaart"><p>${PAPIER.situatie}</p><p>Pak papier en pen. Werk de vijf punten af, in deze volgorde.</p>${lijst}</div>
+    <p><button type="button" id="papierklok">Start 15 minuten</button> <span id="papierrest" class="fase"></span></p>
+    <p><button type="button" id="papiermodel">${stand.toonPapier ? "Verberg voorbeeld" : "Ik heb geschreven"}</button></p>
+    ${model}`;
+}
+
+let mondTimer = null;
+let mondRest = 25 * 60;
+let papierTimer = null;
+
+function faseNu(sec) {
+  const voorbij = 25 * 60 - sec;
+  if (voorbij < 8 * 60) return "Presentatie";
+  if (voorbij < 18 * 60) return "Gesprek";
+  return "Cultuur";
+}
+
+function tekenMond() {
+  const mm = String(Math.floor(mondRest / 60)).padStart(2, "0");
+  const ss = String(mondRest % 60).padStart(2, "0");
+  const blokken = MOND.map(b => {
+    let lijf = `<p>${b.tekst}</p>`;
+    if (b.stukken) {
+      lijf += b.stukken.map(([hz, py]) =>
+        `<div class="rij${pyZicht()}"><div><div class="hz">${hz}</div><div class="py">${py}</div></div><button type="button" data-hoor="${hz.replace(/[。？]/g, "")}">Hoor</button></div>`
+      ).join("");
+    }
+    if (b.voorbeelden) {
+      lijf += `<p class="bij">Voorbeelden, pas na jouw antwoord.</p>` + b.voorbeelden.map(([hz, py]) =>
+        `<div class="rij${pyZicht()}"><div><div class="hz">${hz}</div><div class="py">${py}</div></div>` +
+        (hz.includes("……") ? "" : `<button type="button" data-hoor="${hz.replace(/[。？]/g, "")}">Hoor</button>`) +
+        `</div>`
+      ).join("");
+    }
+    if (b.kaarten) {
+      lijf += b.kaarten.map(([kop, zin]) => `<div class="kaart"><p><b>${kop}</b></p><p>${zin}</p></div>`).join("");
+    }
+    return `<h2>${b.naam}</h2><div class="kaart">${lijf}</div>`;
+  }).join("");
+  return `<h1>Mondeling</h1>
+    <p class="bij">Oefenklok van 25 minuten. Op het examen komt daar de voorbereiding van de casus nog bij.</p>
+    <p id="klankmis" class="bij" hidden>Spraak niet beschikbaar in deze browser.</p>
+    <div class="kaart"><div class="klok" id="klok">${mm}:${ss}</div><p class="fase" id="fase">${faseNu(mondRest)}</p>
+    <div class="rij"><button type="button" id="startmond">Start</button><button type="button" id="stopmond">Pauze</button><button type="button" id="resetmond">Opnieuw</button></div></div>
+    ${blokken}`;
+}
+
+let BOEK = null;
+const VOLGORDE = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","AZ"];
+function esc(s) {
+  return String(s == null ? "" : s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+}
+function schud(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const t = a[i]; a[i] = a[j]; a[j] = t;
+  }
+  return a;
+}
+function zegVan(c) { return String(c).replace(/\(([^)]*)\)/g, "$1"); }
+function skelet(p) {
+  const t = {ā:"a",á:"a",ǎ:"a",à:"a",ē:"e",é:"e",ě:"e",è:"e",ī:"i",í:"i",ǐ:"i",ì:"i",ō:"o",ó:"o",ǒ:"o",ò:"o",ū:"u",ú:"u",ǔ:"u",ù:"u",ǖ:"v",ǘ:"v",ǚ:"v",ǜ:"v",ü:"v"};
+  return [...String(p).toLowerCase().replace(/[()]/g, "")].map(ch => t[ch] || ch).join("").replace(/[^a-z]/g, "");
+}
+function woordenVan(ch) {
+  if (!BOEK) return [];
+  if (ch === "alle") return BOEK.woorden;
+  return BOEK.woorden.filter(w => String(w.ch) === String(ch));
+}
+function zinnenVan(ch) {
+  if (!BOEK) return [];
+  if (ch === "alle") return BOEK.zinnen;
+  return BOEK.zinnen.filter(z => String(z.ch) === String(ch));
+}
+function paraLijst() {
+  return woordenVan(nu().ch).slice().sort((a, b) => VOLGORDE.indexOf(String(a.ch)) - VOLGORDE.indexOf(String(b.ch)) || a.id - b.id);
+}
+function balk(goed, totaal) {
+  const pct = totaal ? Math.round(100 * goed / totaal) : 0;
+  return `<div class="balk" aria-hidden="true"><div style="width:${pct}%"></div></div><p class="bij score">${goed} van ${totaal}</p>`;
+}
+function kiesHtml() {
+  if (!BOEK) return "";
+  const namen = BOEK.hoofdstukken || {};
+  const opts = [["alle", "Heel boek"]].concat(VOLGORDE.map(id => [id, namen[id] || id]));
+  return `<p><label class="bij">Hoofdstuk <select id="ch">${opts.map(([id, naam]) => {
+    const n = woordenVan(id).length;
+    const z = zinnenVan(id).length;
+    const label = `${naam} · ${n} woorden` + (z ? ` · ${z} zinnen` : "");
+    return `<option value="${id}"${String(nu().ch) === id ? " selected" : ""}>${esc(label)}</option>`;
+  }).join("")}</select></label></p>`;
+}
+function ladenOf(tekenStuk) {
+  if (!BOEK) return `<h1>Boek</h1><p>De woorden worden geladen.</p>`;
+  if (BOEK.fout) return `<h1>Boek</h1><p>De woordenlijst is niet geladen. Het bord op poort 8770 moet aan staan.</p>`;
+  return tekenStuk();
+}
+function broers(woord) {
+  const s = skelet(woord.p);
+  if (!s) return [];
+  return BOEK.woorden.filter(w => w.id !== woord.id && skelet(w.p) === s);
+}
+function kiesDrie(woord, veld, extra) {
+  const pool = woordenVan(nu().ch);
+  const bron = pool.length > 4 ? pool : BOEK.woorden;
+  const kop = [woord];
+  extra.forEach(e => {
+    if (e && e.id !== woord.id && e[veld] !== woord[veld] && !kop.some(x => x.id === e.id)) kop.push(e);
+  });
+  schud(bron.filter(w => w.id !== woord.id && w[veld] !== woord[veld])).forEach(w => {
+    if (kop.length >= 3) return;
+    if (!kop.some(x => x[veld] === w[veld])) kop.push(w);
+  });
+  return schud(kop).slice(0, 3);
+}
+function maakKruip() {
+  const pool = woordenVan(nu().ch);
+  const bron = pool.length ? pool : BOEK.woorden;
+  const woord = bron[Math.floor(Math.random() * bron.length)];
+  const sib = broers(woord);
+  const soort = sib.length && Math.random() < 0.55 ? "klank" : ["herken", "teken", "klank"][Math.floor(Math.random() * 3)];
+  const veld = soort === "herken" ? "nl" : "c";
+  const drie = kiesDrie(woord, veld, soort === "klank" ? sib.slice(0, 1) : []);
+  nu().kaart = { soort, id: woord.id, keuzes: drie.map(w => ({ id: w.id, t: w[veld] })), gekozen: null };
+  bewaar();
+}
+function telGoed(obj) {
+  return Object.values(obj || {}).filter(Boolean).length;
+}
+function profielHtml() {
+  const p = nu();
+  const knoppen = NAMEN.map(n => `<button type="button" data-wie="${n}" class="${n === stand.wie ? "aan" : ""}">${n}</button>`).join("");
+  return `<div class="rij">${knoppen}</div>
+    <p class="bij">${stand.wie} · kruip ${telGoed(p.kruipGoed)} · loop ${telGoed(p.loopGoed)} · hoofd ${telGoed(p.renGoed)} · gehaald ${telGoed(p.gehaald)}</p>
+    <p class="bij">${esc(p.agendaZin || "")}</p>`;
+}
+function gehaaldKnop(sleutel, titel) {
+  const al = nu().gehaald[sleutel];
+  if (al && al.agenda) return `<p class="bij">Gehaald. Zes herhalingen staan in de agenda.</p>`;
+  if (al) return `<p class="bij">Gehaald. Agenda nog niet gezet.</p><p><button type="button" id="gehaald" data-sleutel="${esc(sleutel)}" data-titel="${esc(titel)}">Zet de herhaling opnieuw</button></p>`;
+  return `<p><button type="button" id="gehaald" data-sleutel="${esc(sleutel)}" data-titel="${esc(titel)}">Gehaald</button></p>`;
+}
+function tekenKruip() {
+  return ladenOf(() => {
+    if (!nu().kaart || !BOEK.woorden.some(w => w.id === nu().kaart.id)) maakKruip();
+    const w = BOEK.woorden.find(x => x.id === nu().kaart.id);
+    const pool = woordenVan(nu().ch);
+    const goed = pool.filter(x => nu().kruipGoed[x.id]).length;
+    const open = nu().kaart.gekozen == null;
+    const kop = nu().kaart.soort === "herken" ? "Welk woord is dit?" : nu().kaart.soort === "teken" ? "Welk teken is dit?" : "Welk teken hoor je?";
+    let doel = "";
+    if (nu().kaart.soort === "herken") doel = `<div class="groot">${esc(w.c)}</div><div class="py">${esc(w.p)}</div>`;
+    else if (nu().kaart.soort === "teken") doel = `<div class="vraag">${esc(w.nl)}</div>`;
+    else doel = `<p class="bij">Eerst horen. De toon telt.</p>`;
+    if (!open) doel += `<div class="groot">${esc(w.c)}</div><div class="py">${esc(w.p)}</div><p>${esc(w.nl)}</p>`;
+    const knoppen = nu().kaart.keuzes.map(k => {
+      let klas = "keuze";
+      if (!open && k.id === w.id) klas += " goed";
+      else if (!open && k.id === nu().kaart.gekozen) klas += " mis";
+      return `<button type="button" class="${klas}" data-kid="${k.id}">${esc(k.t)}</button>`;
+    }).join("");
+    return `<h1>Kruip</h1>
+      <p class="bij">Geluid, teken of basiswoord. Eén kaart.</p>
+      ${kiesHtml()}${balk(goed, pool.length)}
+      <div class="kaart${pyZicht()}"><p>${kop}</p>${doel}
+        <div class="rij"><button type="button" data-hoor="${esc(zegVan(w.c))}">Hoor</button></div>
+        <div class="rij">${knoppen}</div>
+      </div>
+      ${!open && nu().kaart.gekozen === w.id ? gehaaldKnop(stand.wie + ":kruip:" + w.id, w.c + " · " + w.nl) : ""}
+      <p><button type="button" id="kruip-volgende">Volgende</button></p>`;
+  });
+}
+function loopZorg() {
+  const lijst = zinnenVan(nu().ch);
+  const i = nu().loopAt[nu().ch] || 0;
+  if (!lijst.length || i >= lijst.length) return { lijst, i, kaart: null };
+  if (!nu().loopKaart || nu().loopKaart.ch !== nu().ch || nu().loopKaart.i !== i) {
+    const z = lijst[i];
+    nu().loopKaart = {
+      ch: nu().ch, i, nl: z.nl, p: z.p, c: z.c,
+      keuzes: schud([{ c: z.c, goed: true }, { c: z.fout[0], goed: false }, { c: z.fout[1], goed: false }]),
+      gekozen: null
+    };
+    bewaar();
+  }
+  return { lijst, i, kaart: nu().loopKaart };
+}
+function tekenLoop() {
+  return ladenOf(() => {
+    const { lijst, i, kaart } = loopZorg();
+    const gezien = lijst.filter((_, n) => nu().loopGoed[nu().ch + ":" + n]).length;
+    if (!lijst.length) {
+      return `<h1>Loop</h1>${kiesHtml()}<p>Dit stuk heeft woorden, en nog geen zinnen. Kies hoofdstuk 1 tot 15, of heel boek.</p>`;
+    }
+    if (!kaart) {
+      return `<h1>Loop</h1><p class="bij">De zin. Drie vormen, één klopt.</p>${kiesHtml()}${balk(gezien, lijst.length)}
+        <div class="kaart"><p>Dit stuk is rond.</p><button type="button" id="loop-opnieuw">Opnieuw</button></div>`;
+    }
+    const open = kaart.gekozen == null;
+    const knoppen = kaart.keuzes.map((k, n) => {
+      let klas = "keuze";
+      if (!open && k.goed) klas += " goed";
+      else if (!open && n === kaart.gekozen) klas += " mis";
+      return `<button type="button" class="${klas}" data-lid="${n}">${esc(k.c)}</button>`;
+    }).join("");
+    const na = open ? "" : `<div class="py">${esc(kaart.p)}</div><div class="rij"><button type="button" data-hoor="${esc(kaart.c)}">Hoor de zin</button></div>`;
+    const wet = nu().ch !== "alle" && BOEK.wet ? BOEK.wet[nu().ch] : "";
+    return `<h1>Loop</h1>
+      <p class="bij">De zin. Drie vormen, één klopt.</p>
+      ${kiesHtml()}${balk(gezien, lijst.length)}
+      <div class="kaart${pyZicht()}"><p class="bij">Zin ${i + 1} van ${lijst.length}</p>
+        ${wet ? `<p>${esc(wet)}</p>` : ""}
+        <div class="vraag">${esc(kaart.nl)}</div>
+        <div class="rij">${knoppen}</div>${na}
+      </div>
+      ${!open && kaart.keuzes[kaart.gekozen] && kaart.keuzes[kaart.gekozen].goed ? gehaaldKnop(stand.wie + ":loop:" + nu().ch + ":" + i, kaart.nl) : ""}
+      <p><button type="button" id="loop-volgende">Volgende</button></p>`;
+  });
+}
+function renZinnen() {
+  const lijst = zinnenVan(nu().ch);
+  if (nu().renSet && nu().renSet.ch === nu().ch && nu().renSet.items && nu().renSet.items.length) return nu().renSet.items;
+  let items = [];
+  if (nu().ch === "alle") {
+    const per = {};
+    BOEK.zinnen.forEach(z => { (per[z.ch] = per[z.ch] || []).push(z); });
+    schud(Object.keys(per)).slice(0, 4).forEach(c => {
+      const rij = per[c];
+      items.push(rij[Math.floor(Math.random() * rij.length)]);
+    });
+  } else items = schud(lijst).slice(0, 4);
+  nu().renSet = { ch: nu().ch, items };
+  bewaar();
+  return items;
+}
+function kernVan(c) {
+  const weg = new Set([..."我你他她们是的了吗很在有不也都"]);
+  const alle = [...c].filter(ch => ch >= "\u3400" && ch <= "\u9fff");
+  const kern = alle.filter(ch => !weg.has(ch));
+  return kern.length >= 2 ? kern : alle;
+}
+function heeftVolgorde(tekst, tekens) {
+  let p = 0;
+  for (const ch of tekst) {
+    if (ch === tekens[p]) p += 1;
+    if (p === tekens.length) return true;
+  }
+  return tekens.length === 0;
+}
+function tref(typed, w) {
+  const t = String(typed || "").replace(/\s/g, "");
+  const vol = zegVan(w.c);
+  const kort = String(w.c).replace(/\([^)]*\)/g, "");
+  return t === vol || t === kort || t === w.c;
+}
+function tekenRen() {
+  return ladenOf(() => {
+    const deel = nu().renDeel;
+    const knoppen = `<div class="rij">
+      <button type="button" id="ren-schrijf">Schrijven</button>
+      <button type="button" id="ren-spreken">Spreken</button>
+      <button type="button" id="ren-parate">Uit het hoofd</button>
+    </div>`;
+    if (deel === "parate") return knoppen + tekenParate();
+    const items = renZinnen();
+    if (!items.length) {
+      return `<h1>Ren</h1><p class="bij">Een gesprek, of het boek uit het hoofd.</p>${kiesHtml()}${knoppen}
+        <p>Dit stuk heeft nog geen zinnen. Kies hoofdstuk 1 tot 15, of ga uit het hoofd.</p>`;
+    }
+    if (deel === "spreken") {
+      const blokken = items.map((z, n) => {
+        const open = nu().renOpen[n];
+        const zin = open ? `<div class="hz">${esc(z.c)}</div><div class="py">${esc(z.p)}</div><button type="button" data-hoor="${esc(z.c)}">Hoor</button>` : `<button type="button" data-open="${n}">Ik heb het gezegd</button>`;
+        return `<div class="kaart${pyZicht()}"><p>${n + 1}. ${esc(z.nl)}</p>${zin}</div>`;
+      }).join("");
+      const zegKlaar = items.every((_, n) => nu().renOpen[n]);
+      const zegHaal = zegKlaar ? gehaaldKnop(stand.wie + ":spreken:" + nu().ch + ":" + items.map(z => z.c).join("|"), "gesprek hardop") : "";
+      return `<h1>Ren · spreken</h1>
+        <p class="bij">Zeg het gesprek hardop. De zin komt pas daarna.</p>
+        ${kiesHtml()}${knoppen}${blokken}
+        ${zegHaal}
+        <p><button type="button" id="ren-nieuw">Andere vier</button></p>`;
+    }
+    const punten = items.map(z => {
+      const kern = kernVan(z.c);
+      const aan = heeftVolgorde(nu().gesprek || "", kern) ? " aan" : "";
+      return `<div class="punt" data-kern="${esc(kern.join(""))}"><div class="vink${aan}"></div><div>${esc(z.nl)}</div></div>`;
+    }).join("");
+    const schrijfKlaar = items.every(z => heeftVolgorde(nu().gesprek || "", kernVan(z.c)));
+    const schrijfHaal = schrijfKlaar ? gehaaldKnop(stand.wie + ":schrijf:" + nu().ch + ":" + items.map(z => z.c).join("|"), "gesprek") : "";
+    return `<h1>Ren · schrijven</h1>
+      <p class="bij">Schrijf één gesprek. De vier punten moeten erin staan, in je eigen zinnen.</p>
+      ${kiesHtml()}${knoppen}
+      <div class="kaart">${punten}</div>
+      <textarea id="gesprek" placeholder="Typ het gesprek in het Chinees."></textarea>
+      ${schrijfHaal}
+      <p><button type="button" id="ren-nieuw">Andere vier</button></p>`;
+  });
+}
+function tekenParate() {
+  const lijst = paraLijst();
+  const goed = lijst.filter(w => nu().renGoed[w.id]).length;
+  const i = nu().paraAt[nu().ch] || 0;
+  if (!lijst.length) return `<h1>Ren · uit het hoofd</h1>${kiesHtml()}<p>Geen woorden in dit stuk.</p>`;
+  if (i >= lijst.length) {
+    return `<h1>Ren · uit het hoofd</h1><p class="bij">Het boek in één keer. Nederlands eerst, het teken uit het hoofd.</p>
+      ${kiesHtml()}${balk(goed, lijst.length)}
+      <div class="kaart"><p>Dit stuk is rond.</p><button type="button" id="para-opnieuw">Opnieuw</button></div>`;
+  }
+  const w = lijst[i];
+  const gezien = nu().paraZien === w.id;
+  const na = gezien ? `<div class="groot">${esc(w.c)}</div><div class="py">${esc(w.p)}</div><p>${nu().renGoed[w.id] ? "Klopt." : "Dit was het teken."}</p><button type="button" data-hoor="${esc(zegVan(w.c))}">Hoor</button>` : "";
+  return `<h1>Ren · uit het hoofd</h1>
+    <p class="bij">Het boek in één keer. Nederlands eerst, het teken uit het hoofd.</p>
+    ${kiesHtml()}${balk(goed, lijst.length)}
+    <div class="kaart${pyZicht()}"><p class="bij">Woord ${i + 1} van ${lijst.length}</p>
+      <div class="vraag">${esc(w.nl)}</div>
+      <input class="typ" id="parate" autocomplete="off" placeholder="Typ het teken">
+      ${na}
+    </div>
+    ${gezien && nu().renGoed[w.id] ? gehaaldKnop(stand.wie + ":hoofd:" + w.id, w.c + " · " + w.nl) : ""}
+    <p><button type="button" id="para-check">Kijk</button> <button type="button" id="para-volgende">Volgende</button></p>`;
+}
+function boekRijen() {
+  const q = (nu().zoek || "").trim().toLowerCase();
+  const rij = woordenVan(nu().ch).filter(w => {
+    if (!q) return true;
+    return w.nl.toLowerCase().includes(q) || w.p.toLowerCase().includes(q) || w.c.includes(q);
+  });
+  if (!rij.length) return `<p>Geen woord.</p>`;
+  return rij.map(w => `<div class="lijst${pyZicht()}"><div><div class="hz">${esc(w.c)}</div><div class="py">${esc(w.p)}</div><div>${esc(w.nl)}</div></div><button type="button" data-hoor="${esc(zegVan(w.c))}">Hoor</button></div>`).join("");
+}
+function tekenBoek() {
+  return ladenOf(() => {
+    const n = woordenVan(nu().ch).length;
+    return `<h1>Boek</h1>
+      <p class="bij">${BOEK.woorden.length} woorden. ${BOEK.zinnen.length} zinnen. Vijftien hoofdstukken plus A-Z.</p>
+      ${kiesHtml()}
+      <p><input class="zoek" id="zoekboek" placeholder="Zoek een woord" value="${esc(nu().zoek || "")}"></p>
+      <p class="bij">${n} in dit stuk</p>
+      <div id="boeklijst">${boekRijen()}</div>`;
+  });
+}
+function tekenExamen() {
+  return `<h1>Examen</h1>
+    <p>De vorm van het college-examen. Korte eigen stof, naast het boek.</p>
+    <div class="rij">
+      <button type="button" data-scherm="lees">Lees</button>
+      <button type="button" data-scherm="hoor">Hoor</button>
+      <button type="button" data-scherm="schrijf">Schrijf</button>
+      <button type="button" data-scherm="papier">Papier</button>
+      <button type="button" data-scherm="mond">Mond</button>
+    </div>`;
+}
+
+const SCHERMEN = {
+  kruip: tekenKruip, loop: tekenLoop, ren: tekenRen, boek: tekenBoek, examen: tekenExamen,
+  poort: tekenPoort, lees: tekenLees, hoor: tekenHoor, schrijf: tekenSchrijf, papier: tekenPapier, mond: tekenMond
+};
+let scherm = "kruip";
+
+function lucht() {
+  const nav = document.querySelector("nav");
+  document.body.style.paddingTop = (nav.offsetHeight + 12) + "px";
+}
+const EXAMEN = new Set(["examen", "poort", "lees", "hoor", "schrijf", "papier", "mond"]);
+function teken() {
+  document.getElementById("app").innerHTML = profielHtml() + SCHERMEN[scherm]();
+  document.querySelectorAll("nav button").forEach(b => {
+    const aan = b.dataset.scherm === scherm || (b.dataset.scherm === "examen" && EXAMEN.has(scherm));
+    b.classList.toggle("aan", aan);
+  });
+  const p = document.getElementById("pinyin");
+  if (p) p.textContent = stand.pinyin ? "Verberg pinyin" : "Toon pinyin";
+  const vak = document.getElementById("schrijf");
+  if (vak) vak.value = stand.schrijf || "";
+  const gesprek = document.getElementById("gesprek");
+  if (gesprek) gesprek.value = nu().gesprek || "";
+  const para = document.getElementById("parate");
+  if (para) para.value = nu().paraTyp || "";
+  lucht();
+}
+window.addEventListener("resize", lucht);
+
+document.body.addEventListener("click", (e) => {
+  const t = e.target.closest("button");
+  if (!t) return;
+  if (t.dataset.wie) {
+    stand.wie = t.dataset.wie;
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.id === "gehaald") {
+    const sleutel = t.dataset.sleutel;
+    const titel = t.dataset.titel;
+    nu().agendaZin = "Herhaling wordt gezet.";
+    bewaar();
+    teken();
+    try {
+      const g = JSON.parse(localStorage.getItem("staatsexamen-gehaald") || "{}");
+      g[sleutel] = { titel: titel, wie: stand.wie, tempo: scherm, datum: new Date().toISOString(), agenda: false };
+      localStorage.setItem("staatsexamen-gehaald", JSON.stringify(g));
+      nu().gehaald[sleutel] = { agenda: false };
+      nu().agendaZin = "Bewaard op dit toestel (geen agenda in de losse versie).";
+    } catch (e) { nu().agendaZin = "Bewaren lukt niet in deze browser."; }
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.dataset.scherm) {
+    location.hash = t.dataset.scherm;
+    return;
+  }
+  if (t.dataset.hoor) { hoor(t.dataset.hoor, t); return; }
+  if (t.dataset.keuze) {
+    const juist = Number(t.dataset.n) === Number(t.dataset.goed);
+    markeer(t.dataset.keuze, juist);
+    teken();
+    return;
+  }
+  if (t.id === "pinyin") { stand.pinyin = !stand.pinyin; bewaar(); teken(); return; }
+  if (t.id === "model") { stand.toonModel = !stand.toonModel; bewaar(); teken(); return; }
+  if (t.id === "papiermodel") { stand.toonPapier = !stand.toonPapier; bewaar(); teken(); return; }
+  if (t.dataset.papier != null) {
+    const id = "papier-" + t.dataset.papier;
+    stand.goed[id] = !stand.goed[id];
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.dataset.kid) {
+    const id = Number(t.dataset.kid);
+    nu().kaart.gekozen = id;
+    nu().kruipGoed[nu().kaart.id] = id === nu().kaart.id;
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.dataset.lid != null) {
+    const n = Number(t.dataset.lid);
+    nu().loopKaart.gekozen = n;
+    nu().loopGoed[nu().ch + ":" + nu().loopKaart.i] = !!nu().loopKaart.keuzes[n].goed;
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.dataset.open != null) {
+    nu().renOpen[t.dataset.open] = true;
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.id === "kruip-volgende") { nu().kaart = null; bewaar(); teken(); return; }
+  if (t.id === "loop-volgende") {
+    if (nu().loopKaart) nu().loopAt[nu().ch] = nu().loopKaart.i + 1;
+    nu().loopKaart = null;
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.id === "loop-opnieuw") { nu().loopAt[nu().ch] = 0; nu().loopKaart = null; bewaar(); teken(); return; }
+  if (t.id === "ren-schrijf") { nu().renDeel = "schrijf"; bewaar(); teken(); return; }
+  if (t.id === "ren-spreken") { nu().renDeel = "spreken"; bewaar(); teken(); return; }
+  if (t.id === "ren-parate") { nu().renDeel = "parate"; bewaar(); teken(); return; }
+  if (t.id === "ren-nieuw") {
+    nu().renSet = null;
+    nu().renOpen = {};
+    nu().gesprek = "";
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.id === "para-check") {
+    const lijst = paraLijst();
+    const i = nu().paraAt[nu().ch] || 0;
+    const w = lijst[i];
+    const vak = document.getElementById("parate");
+    nu().paraTyp = vak ? vak.value : "";
+    if (w) {
+      nu().paraZien = w.id;
+      nu().renGoed[w.id] = tref(nu().paraTyp, w);
+    }
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.id === "para-volgende") {
+    nu().paraAt[nu().ch] = (nu().paraAt[nu().ch] || 0) + 1;
+    nu().paraZien = null;
+    nu().paraTyp = "";
+    bewaar();
+    teken();
+    return;
+  }
+  if (t.id === "para-opnieuw") { nu().paraAt[nu().ch] = 0; nu().paraZien = null; nu().paraTyp = ""; bewaar(); teken(); return; }
+  if (t.id === "startmond") startMond();
+  if (t.id === "stopmond") stopMond();
+  if (t.id === "resetmond") { stopMond(); mondRest = 25 * 60; teken(); }
+  if (t.id === "papierklok") startPapier();
+});
+
+document.body.addEventListener("change", (e) => {
+  if (e.target.id !== "ch") return;
+  nu().ch = e.target.value;
+  nu().kaart = null;
+  nu().loopKaart = null;
+  nu().renSet = null;
+  nu().renOpen = {};
+  nu().gesprek = "";
+  nu().paraZien = null;
+  nu().paraTyp = "";
+  bewaar();
+  teken();
+});
+
+document.body.addEventListener("input", (e) => {
+  if (e.target.id === "schrijf") {
+    stand.schrijf = e.target.value;
+    bewaar();
+    const n = [...stand.schrijf].filter(ch => ch >= "\u3400" && ch <= "\u9fff").length;
+    const score = document.querySelector(".score");
+    if (score) score.textContent = n + " tekens";
+    document.querySelectorAll("#app .punt").forEach((rij, i) => {
+      const aan = puntStaat(stand.schrijf, SCHRIJF.punten[i][1]);
+      rij.querySelector(".vink").classList.toggle("aan", aan);
+    });
+    return;
+  }
+  if (e.target.id === "gesprek") {
+    nu().gesprek = e.target.value;
+    bewaar();
+    document.querySelectorAll("[data-kern]").forEach(rij => {
+      rij.querySelector(".vink").classList.toggle("aan", heeftVolgorde(nu().gesprek, [...rij.dataset.kern]));
+    });
+    return;
+  }
+  if (e.target.id === "parate") { nu().paraTyp = e.target.value; return; }
+  if (e.target.id === "zoekboek") {
+    nu().zoek = e.target.value;
+    const lijst = document.getElementById("boeklijst");
+    if (lijst) lijst.innerHTML = boekRijen();
+  }
+});
+
+function startMond() {
+  if (mondTimer) return;
+  mondTimer = setInterval(() => {
+    if (mondRest > 0) mondRest -= 1;
+    const klok = document.getElementById("klok");
+    const fase = document.getElementById("fase");
+    if (!klok) { stopMond(); return; }
+    klok.textContent = String(Math.floor(mondRest / 60)).padStart(2, "0") + ":" + String(mondRest % 60).padStart(2, "0");
+    if (fase) fase.textContent = faseNu(mondRest);
+    if (mondRest <= 0) stopMond();
+  }, 1000);
+}
+function stopMond() { clearInterval(mondTimer); mondTimer = null; }
+
+let papierRest = 15 * 60;
+function startPapier() {
+  if (papierTimer) return;
+  papierTimer = setInterval(() => {
+    if (papierRest > 0) papierRest -= 1;
+    const el = document.getElementById("papierrest");
+    if (!el) { clearInterval(papierTimer); papierTimer = null; return; }
+    el.textContent = String(Math.floor(papierRest / 60)).padStart(2, "0") + ":" + String(papierRest % 60).padStart(2, "0");
+    if (papierRest <= 0) { clearInterval(papierTimer); papierTimer = null; }
+  }, 1000);
+}
+
+window.addEventListener("hashchange", () => {
+  const h = location.hash.slice(1);
+  if (!SCHERMEN[h]) return;
+  stopMond();
+  clearInterval(papierTimer);
+  papierTimer = null;
+  scherm = h;
+  teken();
+});
+const startH = location.hash.slice(1);
+if (SCHERMEN[startH]) scherm = startH;
+teken();
+function mengAgenda(zak) {
+  if (!zak || typeof zak !== "object") return;
+  NAMEN.forEach(wie => {
+    if (!stand.per[wie]) stand.per[wie] = leegWerk();
+    if (!stand.per[wie].gehaald) stand.per[wie].gehaald = {};
+  });
+  Object.keys(zak).forEach(sleutel => {
+    const rec = zak[sleutel];
+    const wie = NAMEN.find(n => sleutel.startsWith(n + ":"));
+    if (!wie || !rec || typeof rec !== "object") return;
+    stand.per[wie].gehaald[sleutel] = { agenda: !!rec.agenda };
+  });
+  bewaar();
+}
+try { const g = JSON.parse(localStorage.getItem("staatsexamen-gehaald") || "{}"); mengAgenda(g); } catch (e) {}
+BOEK = {"hoofdstukken": {"1": "Getallen", "2": "Datum", "3": "Verjaardag", "4": "Tijd", "5": "Begroeting", "6": "Familie", "7": "Telefoon", "8": "Beroepen", "9": "Visite", "10": "Kleuren", "11": "Kleding", "12": "Uiterlijk", "13": "Routine", "14": "Hobby's", "15": "Huisdieren", "all": "A-Z"}, "wet": {"1": "Getallen worden wiskundig gestapeld. [Tiental] + [Eenheid] = 十一 (11)", "2": "Chinees filtert ALTIJD van groot naar klein. Jaar, dan Maand, dan Dag. [Jaar] 年 + [Maand] 月 + [Dag] 日", "3": "Een vraagwoord (Wat, Wie, Waar) staat op exact dezelfde plek als het antwoord. Je heet wat naam? (你叫什么名字)", "4": "De Tijd staat ALTIJD vóór het werkwoord. [Subj] + [Tijd] + [Actie]", "5": "Zet 吗 (ma) aan het einde van een zin voor een Ja/Nee vraag. [Normale Zin] + 吗？", "6": "Gebruik 没 (méi) om 'hebben' (有) te ontkennen. Gebruik 不 (bù) voor acties. 没有 (Méiyǒu) = Heb niet 不是 (Bú shì) = Ben niet", "7": "Lees cijfer voor cijfer. '1' is 幺 (Yāo). 幺幺零 (110)", "8": "Gebruik 是 (shì) uitsluitend om Nouns te koppelen (A = B). [Noun A] + 是 + [Noun B]", "9": "Zet 请 (qǐng) vóór het werkwoord voor een beleefd verzoek. 请 + [Werkwoord] = 请坐 (Ga zitten)", "10": "Het partikel 的 (de) koppelt een eigenaar aan een bezit. [Eigenaar] + 的 + [Object]", "11": "Bovenlichaam = 件 (jiàn). Onderlichaam = 条 (tiáo). [Getal] + 件/条 + [Kledingstuk]", "12": "Gebruik 很 (hěn) i.p.v. 'zijn' bij beschrijvingen. [Subj] + 很 + [Adjectief]", "13": "Subject + Tijd + Werkwoord + Object. [S] + [Tijd] + [V] + [O]", "14": "Werkwoorden zoals 喜欢 kunnen direct gevolgd worden door een andere actie. [Subj] + 喜欢/去 + [Actie]", "15": "Tussen getal en object staat ALTIJD een maatwoord. [Getal] + 只/条 + [Dier]"}, "woorden": [{"id": 1, "ch": "AZ", "c": "阿", "p": "ā", "nl": "voorvoegsel"}, {"id": 2, "ch": "AZ", "c": "阿姨", "p": "āyí", "nl": "tante"}, {"id": 3, "ch": "12", "c": "矮", "p": "ǎi", "nl": "kort (lengte)"}, {"id": 4, "ch": "14", "c": "爱好", "p": "àihào", "nl": "hobby"}, {"id": 5, "ch": "1", "c": "八", "p": "bā", "nl": "acht"}, {"id": 6, "ch": "6", "c": "爸(爸)", "p": "bà(ba)", "nl": "vader"}, {"id": 7, "ch": "10", "c": "白", "p": "bái", "nl": "wit"}, {"id": 8, "ch": "10", "c": "白色", "p": "báisè", "nl": "wit (kleur)"}, {"id": 9, "ch": "AZ", "c": "班", "p": "bān", "nl": "dienst / klas"}, {"id": 10, "ch": "AZ", "c": "北京", "p": "Běijīng", "nl": "Peking"}, {"id": 11, "ch": "AZ", "c": "鼻", "p": "bí", "nl": "neus"}, {"id": 12, "ch": "AZ", "c": "鼻子", "p": "bízi", "nl": "neus"}, {"id": 13, "ch": "AZ", "c": "不见", "p": "bújiàn", "nl": "verdwijnen"}, {"id": 14, "ch": "AZ", "c": "步", "p": "bù", "nl": "stap"}, {"id": 15, "ch": "AZ", "c": "不", "p": "bù", "nl": "nee / niet"}, {"id": 16, "ch": "AZ", "c": "差", "p": "chà", "nl": "tekortkomen"}, {"id": 17, "ch": "12", "c": "长", "p": "cháng", "nl": "lang"}, {"id": 18, "ch": "11", "c": "长裤", "p": "chángkù", "nl": "lange broek"}, {"id": 19, "ch": "AZ", "c": "常常", "p": "chángcháng", "nl": "vaak"}, {"id": 20, "ch": "AZ", "c": "常", "p": "cháng", "nl": "gewoon / vaak"}, {"id": 21, "ch": "14", "c": "唱歌", "p": "chàng gē", "nl": "zingen"}, {"id": 22, "ch": "AZ", "c": "车", "p": "chē", "nl": "voertuig"}, {"id": 23, "ch": "11", "c": "衬衫", "p": "chènshān", "nl": "overhemd"}, {"id": 24, "ch": "AZ", "c": "橙", "p": "chéng", "nl": "oranje / sinaasappel"}, {"id": 25, "ch": "10", "c": "橙色", "p": "chéngsè", "nl": "oranje (kleur)"}, {"id": 26, "ch": "13", "c": "吃", "p": "chī", "nl": "eten"}, {"id": 27, "ch": "15", "c": "宠物", "p": "chǒngwù", "nl": "huisdier"}, {"id": 28, "ch": "AZ", "c": "出", "p": "chū", "nl": "naar buiten"}, {"id": 29, "ch": "3", "c": "出生", "p": "chūshēng", "nl": "geboren worden"}, {"id": 30, "ch": "11", "c": "穿", "p": "chuān", "nl": "kleding dragen"}, {"id": 31, "ch": "AZ", "c": "床", "p": "chuáng", "nl": "bed"}, {"id": 32, "ch": "14", "c": "打", "p": "dǎ", "nl": "spelen (hand)"}, {"id": 33, "ch": "14", "c": "打篮球", "p": "dǎ lánqiú", "nl": "basketbal spelen"}, {"id": 34, "ch": "AZ", "c": "大", "p": "dà", "nl": "groot"}, {"id": 35, "ch": "AZ", "c": "大学", "p": "dàxué", "nl": "universiteit"}, {"id": 36, "ch": "AZ", "c": "大学生", "p": "dàxuéshēng", "nl": "student (uni)"}, {"id": 37, "ch": "AZ", "c": "大月", "p": "dàyuè", "nl": "maand (31 dagen)"}, {"id": 38, "ch": "AZ", "c": "但是", "p": "dànshì", "nl": "maar"}, {"id": 39, "ch": "10", "c": "的", "p": "de", "nl": "van (bezit)"}, {"id": 40, "ch": "AZ", "c": "等", "p": "děng", "nl": "wachten / enz."}, {"id": 41, "ch": "AZ", "c": "等等", "p": "děngděng", "nl": "enzovoort"}, {"id": 42, "ch": "AZ", "c": "地", "p": "dì", "nl": "grond"}, {"id": 43, "ch": "AZ", "c": "地铁", "p": "dìtiě", "nl": "metro"}, {"id": 44, "ch": "6", "c": "弟(弟)", "p": "dì(di)", "nl": "jongere broer"}, {"id": 45, "ch": "4", "c": "点", "p": "diǎn", "nl": "uur (tijd)"}, {"id": 46, "ch": "AZ", "c": "电", "p": "diàn", "nl": "elektriciteit"}, {"id": 47, "ch": "7", "c": "电话", "p": "diànhuà", "nl": "telefoon"}, {"id": 48, "ch": "AZ", "c": "动", "p": "dòng", "nl": "bewegen"}, {"id": 49, "ch": "15", "c": "动物", "p": "dòngwù", "nl": "dier"}, {"id": 50, "ch": "AZ", "c": "都", "p": "dōu", "nl": "beide / allemaal"}, {"id": 51, "ch": "AZ", "c": "独生女", "p": "dúshēngnǚ", "nl": "enige dochter"}, {"id": 52, "ch": "AZ", "c": "独生子", "p": "dúshēngzǐ", "nl": "enige zoon"}, {"id": 53, "ch": "12", "c": "短", "p": "duǎn", "nl": "kort (lengte)"}, {"id": 54, "ch": "11", "c": "短裤", "p": "duǎnkù", "nl": "korte broek"}, {"id": 55, "ch": "AZ", "c": "多", "p": "duō", "nl": "veel"}, {"id": 56, "ch": "3", "c": "多大", "p": "duō dà", "nl": "hoe oud"}, {"id": 57, "ch": "7", "c": "多少", "p": "duōshao", "nl": "hoeveel"}, {"id": 58, "ch": "AZ", "c": "儿子", "p": "érzi", "nl": "zoon"}, {"id": 59, "ch": "AZ", "c": "耳朵", "p": "ěrduo", "nl": "oor"}, {"id": 60, "ch": "1", "c": "二", "p": "èr", "nl": "twee"}, {"id": 61, "ch": "AZ", "c": "头发", "p": "tóufa", "nl": "hoofdhaar"}, {"id": 62, "ch": "AZ", "c": "饭", "p": "fàn", "nl": "maaltijd"}, {"id": 63, "ch": "AZ", "c": "放学", "p": "fàngxué", "nl": "school is uit"}, {"id": 64, "ch": "AZ", "c": "非常", "p": "fēicháng", "nl": "extreem / heel"}, {"id": 65, "ch": "4", "c": "分", "p": "fēn", "nl": "minuut"}, {"id": 66, "ch": "10", "c": "粉色", "p": "fěnsè", "nl": "roze"}, {"id": 67, "ch": "11", "c": "衣服", "p": "yīfu", "nl": "kleding"}, {"id": 68, "ch": "12", "c": "高", "p": "gāo", "nl": "lang (postuur)"}, {"id": 69, "ch": "6", "c": "哥(哥)", "p": "gē(ge)", "nl": "oudere broer"}, {"id": 70, "ch": "AZ", "c": "歌", "p": "gē", "nl": "lied"}, {"id": 71, "ch": "AZ", "c": "个", "p": "gè", "nl": "maatwoord (algemeen)"}, {"id": 72, "ch": "AZ", "c": "跟", "p": "gēn", "nl": "met"}, {"id": 73, "ch": "8", "c": "工作", "p": "gōngzuò", "nl": "werk / baan"}, {"id": 74, "ch": "AZ", "c": "公共", "p": "gōnggòng", "nl": "openbaar"}, {"id": 75, "ch": "15", "c": "狗", "p": "gǒu", "nl": "hond"}, {"id": 76, "ch": "13", "c": "水果", "p": "shuǐguǒ", "nl": "fruit"}, {"id": 77, "ch": "AZ", "c": "还", "p": "hái", "nl": "ook / bovendien"}, {"id": 78, "ch": "5", "c": "好", "p": "hǎo", "nl": "goed"}, {"id": 79, "ch": "12", "c": "好看", "p": "hǎokàn", "nl": "knap / mooi"}, {"id": 80, "ch": "9", "c": "好朋友", "p": "hǎopéngyou", "nl": "goede vriend"}, {"id": 81, "ch": "AZ", "c": "号", "p": "hào", "nl": "dag / nummer"}, {"id": 82, "ch": "7", "c": "号码", "p": "hàomǎ", "nl": "nummer"}, {"id": 83, "ch": "13", "c": "喝", "p": "hē", "nl": "drinken"}, {"id": 84, "ch": "AZ", "c": "和", "p": "hé", "nl": "en (tussen Nouns)"}, {"id": 85, "ch": "10", "c": "黑色", "p": "hēisè", "nl": "zwart"}, {"id": 86, "ch": "12", "c": "很", "p": "hěn", "nl": "erg / heel"}, {"id": 87, "ch": "10", "c": "红色", "p": "hóngsè", "nl": "rood"}, {"id": 88, "ch": "10", "c": "黄色", "p": "huángsè", "nl": "geel"}, {"id": 89, "ch": "10", "c": "灰色", "p": "huīsè", "nl": "grijs"}, {"id": 90, "ch": "AZ", "c": "会", "p": "huì", "nl": "kunnen"}, {"id": 91, "ch": "AZ", "c": "混血儿", "p": "hùnxuè'ér", "nl": "persoon v. gemengde afkomst"}, {"id": 92, "ch": "AZ", "c": "机器", "p": "jīqì", "nl": "machine"}, {"id": 93, "ch": "AZ", "c": "机器人", "p": "jīqìrén", "nl": "robot"}, {"id": 94, "ch": "AZ", "c": "年级", "p": "niánjí", "nl": "leerjaar / klas"}, {"id": 95, "ch": "3", "c": "几", "p": "jǐ", "nl": "hoeveel (<10)"}, {"id": 96, "ch": "6", "c": "家", "p": "jiā", "nl": "familie / thuis"}, {"id": 97, "ch": "AZ", "c": "见", "p": "jiàn", "nl": "ontmoeten"}, {"id": 98, "ch": "AZ", "c": "脚", "p": "jiǎo", "nl": "voet"}, {"id": 99, "ch": "5", "c": "叫", "p": "jiào", "nl": "heten / roepen"}, {"id": 100, "ch": "6", "c": "姐(姐)", "p": "jiě(jie)", "nl": "oudere zus"}, {"id": 101, "ch": "AZ", "c": "今年", "p": "jīnnián", "nl": "dit jaar"}, {"id": 102, "ch": "2", "c": "今天", "p": "jīntiān", "nl": "vandaag"}, {"id": 103, "ch": "9", "c": "进", "p": "jìn", "nl": "binnenkomen"}, {"id": 104, "ch": "AZ", "c": "经理", "p": "jīnglǐ", "nl": "manager"}, {"id": 105, "ch": "1", "c": "九", "p": "jiǔ", "nl": "negen"}, {"id": 106, "ch": "AZ", "c": "开车", "p": "kāichē", "nl": "autorijden"}, {"id": 107, "ch": "AZ", "c": "看", "p": "kàn", "nl": "kijken / zien"}, {"id": 108, "ch": "14", "c": "看书", "p": "kàn shū", "nl": "boek lezen"}, {"id": 109, "ch": "AZ", "c": "可爱", "p": "kě'ài", "nl": "schattig / lief"}, {"id": 110, "ch": "4", "c": "刻", "p": "kè", "nl": "een kwartier"}, {"id": 111, "ch": "AZ", "c": "课", "p": "kè", "nl": "les / klas"}, {"id": 112, "ch": "11", "c": "裤子", "p": "kùzi", "nl": "broek"}, {"id": 113, "ch": "3", "c": "快乐", "p": "kuàilè", "nl": "gelukkig / blij"}, {"id": 114, "ch": "AZ", "c": "来", "p": "lái", "nl": "komen"}, {"id": 115, "ch": "10", "c": "蓝色", "p": "lánsè", "nl": "blauw"}, {"id": 116, "ch": "AZ", "c": "篮球", "p": "lánqiú", "nl": "basketbal"}, {"id": 117, "ch": "8", "c": "老师", "p": "lǎoshī", "nl": "leraar"}, {"id": 118, "ch": "4", "c": "两", "p": "liǎng", "nl": "twee (hoeveelheid)"}, {"id": 119, "ch": "AZ", "c": "脸", "p": "liǎn", "nl": "gezicht"}, {"id": 120, "ch": "1", "c": "零", "p": "líng", "nl": "nul"}, {"id": 121, "ch": "1", "c": "六", "p": "liù", "nl": "zes"}, {"id": 122, "ch": "AZ", "c": "路", "p": "lù", "nl": "weg / straat"}, {"id": 123, "ch": "AZ", "c": "律师", "p": "lǜshī", "nl": "advocaat"}, {"id": 124, "ch": "10", "c": "绿色", "p": "lǜsè", "nl": "groen"}, {"id": 125, "ch": "6", "c": "妈(妈)", "p": "mā(ma)", "nl": "moeder"}, {"id": 126, "ch": "AZ", "c": "吗", "p": "ma", "nl": "vraagpartikel"}, {"id": 127, "ch": "AZ", "c": "忙", "p": "máng", "nl": "druk"}, {"id": 128, "ch": "15", "c": "猫", "p": "māo", "nl": "kat"}, {"id": 129, "ch": "AZ", "c": "毛衣", "p": "máoyī", "nl": "trui"}, {"id": 130, "ch": "6", "c": "没有", "p": "méiyǒu", "nl": "niet hebben"}, {"id": 131, "ch": "AZ", "c": "每天", "p": "měitiān", "nl": "elke dag"}, {"id": 132, "ch": "AZ", "c": "美国", "p": "Měiguó", "nl": "Amerika"}, {"id": 133, "ch": "6", "c": "妹(妹)", "p": "mèi(mei)", "nl": "jongere zus"}, {"id": 134, "ch": "AZ", "c": "秘书", "p": "mìshū", "nl": "secretaresse"}, {"id": 135, "ch": "5", "c": "名字", "p": "míngzi", "nl": "naam"}, {"id": 136, "ch": "2", "c": "明天", "p": "míngtiān", "nl": "morgen"}, {"id": 137, "ch": "AZ", "c": "哪儿", "p": "nǎr", "nl": "waar"}, {"id": 138, "ch": "AZ", "c": "那", "p": "nà", "nl": "dat / die"}, {"id": 139, "ch": "AZ", "c": "那儿", "p": "nàr", "nl": "daar"}, {"id": 140, "ch": "AZ", "c": "呢", "p": "ne", "nl": "partikel"}, {"id": 141, "ch": "5", "c": "你", "p": "nǐ", "nl": "jij"}, {"id": 142, "ch": "AZ", "c": "你们", "p": "nǐmen", "nl": "jullie"}, {"id": 143, "ch": "2", "c": "年", "p": "nián", "nl": "jaar"}, {"id": 144, "ch": "15", "c": "鸟", "p": "niǎo", "nl": "vogel"}, {"id": 145, "ch": "AZ", "c": "您", "p": "nín", "nl": "u (beleefd)"}, {"id": 146, "ch": "AZ", "c": "牛仔裤", "p": "niúzǎikù", "nl": "spijkerbroek"}, {"id": 147, "ch": "AZ", "c": "女儿", "p": "nǚ'ér", "nl": "dochter"}, {"id": 148, "ch": "12", "c": "胖", "p": "pàng", "nl": "dik"}, {"id": 149, "ch": "AZ", "c": "跑步", "p": "pǎobù", "nl": "hardlopen"}, {"id": 150, "ch": "9", "c": "朋友", "p": "péngyou", "nl": "vriend"}, {"id": 151, "ch": "AZ", "c": "皮鞋", "p": "píxié", "nl": "leren schoenen"}, {"id": 152, "ch": "1", "c": "七", "p": "qī", "nl": "zeven"}, {"id": 153, "ch": "13", "c": "起床", "p": "qǐchuáng", "nl": "opstaan"}, {"id": 154, "ch": "AZ", "c": "汽车", "p": "qìchē", "nl": "auto"}, {"id": 155, "ch": "9", "c": "请", "p": "qǐng", "nl": "alstublieft"}, {"id": 156, "ch": "13", "c": "去", "p": "qù", "nl": "gaan"}, {"id": 157, "ch": "11", "c": "裙子", "p": "qúnzi", "nl": "rok"}, {"id": 158, "ch": "AZ", "c": "人", "p": "rén", "nl": "persoon"}, {"id": 159, "ch": "2", "c": "日", "p": "rì", "nl": "dag (datum)"}, {"id": 160, "ch": "1", "c": "三", "p": "sān", "nl": "drie"}, {"id": 161, "ch": "AZ", "c": "商人", "p": "shāngrén", "nl": "zakenman"}, {"id": 162, "ch": "AZ", "c": "上班", "p": "shàngbān", "nl": "naar werk gaan"}, {"id": 163, "ch": "AZ", "c": "上课", "p": "shàngkè", "nl": "naar les gaan"}, {"id": 164, "ch": "4", "c": "上午", "p": "shàngwǔ", "nl": "ochtend (9-12)"}, {"id": 165, "ch": "13", "c": "上学", "p": "shàngxué", "nl": "naar school gaan"}, {"id": 166, "ch": "AZ", "c": "谁", "p": "shéi", "nl": "wie"}, {"id": 167, "ch": "AZ", "c": "身体", "p": "shēntǐ", "nl": "lichaam"}, {"id": 168, "ch": "5", "c": "什么", "p": "shénme", "nl": "wat"}, {"id": 169, "ch": "3", "c": "生日", "p": "shēngrì", "nl": "verjaardag"}, {"id": 170, "ch": "1", "c": "十", "p": "shí", "nl": "tien"}, {"id": 171, "ch": "AZ", "c": "是", "p": "shì", "nl": "zijn"}, {"id": 172, "ch": "AZ", "c": "手", "p": "shǒu", "nl": "hand"}, {"id": 173, "ch": "7", "c": "手机", "p": "shǒujī", "nl": "mobiele telefoon"}, {"id": 174, "ch": "12", "c": "瘦", "p": "shòu", "nl": "dun"}, {"id": 175, "ch": "AZ", "c": "书", "p": "shū", "nl": "boek"}, {"id": 176, "ch": "13", "c": "水", "p": "shuǐ", "nl": "water"}, {"id": 177, "ch": "13", "c": "睡觉", "p": "shuìjiào", "nl": "slapen"}, {"id": 178, "ch": "1", "c": "四", "p": "sì", "nl": "vier"}, {"id": 179, "ch": "3", "c": "岁", "p": "suì", "nl": "jaar (leeftijd)"}, {"id": 180, "ch": "AZ", "c": "他", "p": "tā", "nl": "hij"}, {"id": 181, "ch": "AZ", "c": "他们", "p": "tāmen", "nl": "zij (hen)"}, {"id": 182, "ch": "AZ", "c": "她", "p": "tā", "nl": "zij (haar)"}, {"id": 183, "ch": "AZ", "c": "踢足球", "p": "tī zúqiú", "nl": "voetballen"}, {"id": 184, "ch": "AZ", "c": "跳舞", "p": "tiàowǔ", "nl": "dansen"}, {"id": 185, "ch": "14", "c": "听音乐", "p": "tīng yīnyuè", "nl": "muziek luisteren"}, {"id": 186, "ch": "AZ", "c": "同学", "p": "tóngxué", "nl": "klasgenoot"}, {"id": 187, "ch": "AZ", "c": "头", "p": "tóu", "nl": "hoofd"}, {"id": 188, "ch": "AZ", "c": "腿", "p": "tuǐ", "nl": "been"}, {"id": 189, "ch": "AZ", "c": "T恤", "p": "T xù", "nl": "T-shirt"}, {"id": 190, "ch": "AZ", "c": "外套", "p": "wàitào", "nl": "jas / mantel"}, {"id": 191, "ch": "AZ", "c": "玩儿", "p": "wánr", "nl": "spelen"}, {"id": 192, "ch": "AZ", "c": "晚饭", "p": "wǎnfàn", "nl": "avondeten"}, {"id": 193, "ch": "4", "c": "晚上", "p": "wǎnshang", "nl": "avond"}, {"id": 194, "ch": "AZ", "c": "尾巴", "p": "wěiba", "nl": "staart"}, {"id": 195, "ch": "AZ", "c": "我", "p": "wǒ", "nl": "ik / mij"}, {"id": 196, "ch": "AZ", "c": "我们", "p": "wǒmen", "nl": "wij / ons"}, {"id": 197, "ch": "1", "c": "五", "p": "wǔ", "nl": "vijf"}, {"id": 198, "ch": "AZ", "c": "午饭", "p": "wǔfàn", "nl": "lunch"}, {"id": 199, "ch": "14", "c": "喜欢", "p": "xǐhuan", "nl": "houden van"}, {"id": 200, "ch": "4", "c": "下午", "p": "xiàwǔ", "nl": "middag (13-18)"}, {"id": 201, "ch": "4", "c": "现在", "p": "xiànzài", "nl": "nu"}, {"id": 202, "ch": "AZ", "c": "小", "p": "xiǎo", "nl": "klein"}, {"id": 203, "ch": "AZ", "c": "小学生", "p": "xiǎoxuéshēng", "nl": "basisschoolleerling"}, {"id": 204, "ch": "AZ", "c": "校服", "p": "xiàofú", "nl": "schooluniform"}, {"id": 205, "ch": "11", "c": "鞋", "p": "xié", "nl": "schoenen"}, {"id": 206, "ch": "5", "c": "谢谢", "p": "xièxie", "nl": "dankjewel"}, {"id": 207, "ch": "2", "c": "星期", "p": "xīngqī", "nl": "week"}, {"id": 208, "ch": "AZ", "c": "星期天", "p": "xīngqītiān", "nl": "zondag"}, {"id": 209, "ch": "8", "c": "学生", "p": "xuésheng", "nl": "student"}, {"id": 210, "ch": "13", "c": "学校", "p": "xuéxiào", "nl": "school"}, {"id": 211, "ch": "AZ", "c": "颜色", "p": "yánsè", "nl": "kleur"}, {"id": 212, "ch": "AZ", "c": "眼睛", "p": "yǎnjing", "nl": "oog"}, {"id": 213, "ch": "AZ", "c": "也", "p": "yě", "nl": "ook"}, {"id": 214, "ch": "8", "c": "医生", "p": "yīshēng", "nl": "dokter"}, {"id": 215, "ch": "AZ", "c": "一会儿", "p": "yíhuìr", "nl": "een tijdje"}, {"id": 216, "ch": "AZ", "c": "一家人", "p": "yì jiā rén", "nl": "één familie"}, {"id": 217, "ch": "AZ", "c": "一起", "p": "yìqǐ", "nl": "samen"}, {"id": 218, "ch": "AZ", "c": "音乐", "p": "yīnyuè", "nl": "muziek"}, {"id": 219, "ch": "AZ", "c": "银行", "p": "yínháng", "nl": "bank"}, {"id": 220, "ch": "AZ", "c": "英国", "p": "Yīngguó", "nl": "Groot-Brittannië"}, {"id": 221, "ch": "AZ", "c": "游泳", "p": "yóuyǒng", "nl": "zwemmen"}, {"id": 222, "ch": "6", "c": "有", "p": "yǒu", "nl": "hebben"}, {"id": 223, "ch": "2", "c": "月", "p": "yuè", "nl": "maand"}, {"id": 224, "ch": "14", "c": "运动", "p": "yùndòng", "nl": "sport"}, {"id": 225, "ch": "AZ", "c": "再见", "p": "zàijiàn", "nl": "tot ziens"}, {"id": 226, "ch": "AZ", "c": "在", "p": "zài", "nl": "in / op / aan"}, {"id": 227, "ch": "AZ", "c": "早饭", "p": "zǎofàn", "nl": "ontbijt"}, {"id": 228, "ch": "4", "c": "早上", "p": "zǎoshang", "nl": "vroege ochtend"}, {"id": 229, "ch": "AZ", "c": "怎么", "p": "zěnme", "nl": "hoe"}, {"id": 230, "ch": "AZ", "c": "这", "p": "zhè", "nl": "dit"}, {"id": 231, "ch": "AZ", "c": "真", "p": "zhēn", "nl": "echt / werkelijk"}, {"id": 232, "ch": "15", "c": "只", "p": "zhī", "nl": "maatwoord (dieren)"}, {"id": 233, "ch": "AZ", "c": "中国", "p": "Zhōngguó", "nl": "China"}, {"id": 234, "ch": "4", "c": "中午", "p": "zhōngwǔ", "nl": "middag (12-13)"}, {"id": 235, "ch": "AZ", "c": "中学", "p": "zhōngxué", "nl": "middelbare school"}, {"id": 236, "ch": "AZ", "c": "住", "p": "zhù", "nl": "wonen / leven"}, {"id": 237, "ch": "AZ", "c": "自行车", "p": "zìxíngchē", "nl": "fiets"}, {"id": 238, "ch": "10", "c": "棕色", "p": "zōngsè", "nl": "bruin"}, {"id": 239, "ch": "AZ", "c": "走路", "p": "zǒulù", "nl": "wandelen"}, {"id": 240, "ch": "AZ", "c": "嘴巴", "p": "zuǐba", "nl": "mond"}, {"id": 241, "ch": "AZ", "c": "昨天", "p": "zuótiān", "nl": "gisteren"}, {"id": 242, "ch": "9", "c": "坐", "p": "zuò", "nl": "zitten"}, {"id": 243, "ch": "8", "c": "做", "p": "zuò", "nl": "doen / maken"}, {"id": 244, "ch": "AZ", "c": "坐地铁", "p": "zuò dìtiě", "nl": "de metro nemen"}, {"id": 245, "ch": "1", "c": "一", "p": "yī", "nl": "een"}, {"id": 246, "ch": "1", "c": "百", "p": "bǎi", "nl": "honderd"}, {"id": 247, "ch": "1", "c": "千", "p": "qiān", "nl": "duizend"}, {"id": 248, "ch": "1", "c": "万", "p": "wàn", "nl": "tienduizend"}, {"id": 249, "ch": "1", "c": "十一", "p": "shíyī", "nl": "elf"}, {"id": 250, "ch": "1", "c": "十二", "p": "shí'èr", "nl": "twaalf"}, {"id": 251, "ch": "1", "c": "二十", "p": "èrshí", "nl": "twintig"}, {"id": 252, "ch": "1", "c": "三十", "p": "sānshí", "nl": "dertig"}, {"id": 253, "ch": "1", "c": "对", "p": "duì", "nl": "juist"}, {"id": 254, "ch": "1", "c": "错", "p": "cuò", "nl": "fout"}, {"id": 255, "ch": "1", "c": "半", "p": "bàn", "nl": "half"}, {"id": 256, "ch": "2", "c": "星期一", "p": "xīngqīyī", "nl": "maandag"}, {"id": 257, "ch": "2", "c": "星期二", "p": "xīngqī'èr", "nl": "dinsdag"}, {"id": 258, "ch": "2", "c": "星期三", "p": "xīngqīsān", "nl": "woensdag"}, {"id": 259, "ch": "2", "c": "星期四", "p": "xīngqīsì", "nl": "donderdag"}, {"id": 260, "ch": "2", "c": "星期五", "p": "xīngqīwǔ", "nl": "vrijdag"}, {"id": 261, "ch": "2", "c": "星期六", "p": "xīngqīliù", "nl": "zaterdag"}, {"id": 262, "ch": "2", "c": "一月", "p": "yīyuè", "nl": "januari"}, {"id": 263, "ch": "2", "c": "二月", "p": "èryuè", "nl": "februari"}, {"id": 264, "ch": "2", "c": "三月", "p": "sānyuè", "nl": "maart"}, {"id": 265, "ch": "2", "c": "四月", "p": "sìyuè", "nl": "april"}, {"id": 266, "ch": "2", "c": "五月", "p": "wǔyuè", "nl": "mei"}, {"id": 267, "ch": "2", "c": "六月", "p": "liùyuè", "nl": "juni"}, {"id": 268, "ch": "2", "c": "七月", "p": "qīyuè", "nl": "juli"}, {"id": 269, "ch": "2", "c": "八月", "p": "bāyuè", "nl": "augustus"}, {"id": 270, "ch": "2", "c": "九月", "p": "jiǔyuè", "nl": "september"}, {"id": 271, "ch": "2", "c": "十月", "p": "shíyuè", "nl": "oktober"}, {"id": 272, "ch": "2", "c": "十一月", "p": "shíyīyuè", "nl": "november"}, {"id": 273, "ch": "2", "c": "十二月", "p": "shí'èryuè", "nl": "december"}, {"id": 274, "ch": "2", "c": "几号", "p": "jǐ hào", "nl": "welke datum"}, {"id": 275, "ch": "2", "c": "去年", "p": "qùnián", "nl": "vorig jaar"}, {"id": 276, "ch": "2", "c": "明年", "p": "míngnián", "nl": "volgend jaar"}, {"id": 277, "ch": "3", "c": "祝你生日快乐", "p": "zhù nǐ shēngrì kuàilè", "nl": "gelukkige verjaardag"}, {"id": 278, "ch": "5", "c": "你好", "p": "nǐ hǎo", "nl": "hallo"}, {"id": 279, "ch": "5", "c": "您好", "p": "nín hǎo", "nl": "hallo (beleefd)"}, {"id": 280, "ch": "5", "c": "你们好", "p": "nǐmen hǎo", "nl": "hallo jullie"}, {"id": 281, "ch": "5", "c": "不客气", "p": "bú kèqi", "nl": "graag gedaan"}, {"id": 282, "ch": "5", "c": "对不起", "p": "duìbuqǐ", "nl": "sorry"}, {"id": 283, "ch": "5", "c": "没关系", "p": "méi guānxi", "nl": "geen probleem"}, {"id": 284, "ch": "5", "c": "欢迎", "p": "huānyíng", "nl": "welkom"}, {"id": 285, "ch": "5", "c": "认识", "p": "rènshi", "nl": "kennen"}, {"id": 286, "ch": "5", "c": "高兴", "p": "gāoxìng", "nl": "blij"}, {"id": 287, "ch": "5", "c": "法国", "p": "Fǎguó", "nl": "Frankrijk"}, {"id": 288, "ch": "5", "c": "德国", "p": "Déguó", "nl": "Duitsland"}, {"id": 289, "ch": "5", "c": "日本", "p": "Rìběn", "nl": "Japan"}, {"id": 290, "ch": "5", "c": "韩国", "p": "Hánguó", "nl": "Korea"}, {"id": 291, "ch": "5", "c": "中国人", "p": "Zhōngguórén", "nl": "Chinese"}, {"id": 292, "ch": "5", "c": "美国人", "p": "Měiguórén", "nl": "Amerikaan"}, {"id": 293, "ch": "5", "c": "英国人", "p": "Yīngguórén", "nl": "Brit"}, {"id": 294, "ch": "6", "c": "爷爷", "p": "yéye", "nl": "opa"}, {"id": 295, "ch": "6", "c": "奶奶", "p": "nǎinai", "nl": "oma"}, {"id": 296, "ch": "6", "c": "外公", "p": "wàigōng", "nl": "opa (moeders kant)"}, {"id": 297, "ch": "6", "c": "外婆", "p": "wàipó", "nl": "oma (moeders kant)"}, {"id": 298, "ch": "6", "c": "爸爸", "p": "bàba", "nl": "papa"}, {"id": 299, "ch": "6", "c": "妈妈", "p": "māma", "nl": "mama"}, {"id": 300, "ch": "6", "c": "哥哥", "p": "gēge", "nl": "oudere broer"}, {"id": 301, "ch": "6", "c": "姐姐", "p": "jiějie", "nl": "oudere zus"}, {"id": 302, "ch": "6", "c": "弟弟", "p": "dìdi", "nl": "jongere broer"}, {"id": 303, "ch": "6", "c": "妹妹", "p": "mèimei", "nl": "jongere zus"}, {"id": 304, "ch": "7", "c": "打电话", "p": "dǎ diànhuà", "nl": "bellen"}, {"id": 305, "ch": "8", "c": "护士", "p": "hùshi", "nl": "verpleegkundige"}, {"id": 306, "ch": "8", "c": "司机", "p": "sījī", "nl": "chauffeur"}, {"id": 307, "ch": "8", "c": "警察", "p": "jǐngchá", "nl": "politieagent"}, {"id": 308, "ch": "8", "c": "售货员", "p": "shòhuòyuán", "nl": "verkoper"}, {"id": 309, "ch": "8", "c": "工程师", "p": "gōngchéngshī", "nl": "ingenieur"}, {"id": 310, "ch": "9", "c": "茶", "p": "chá", "nl": "thee"}, {"id": 311, "ch": "9", "c": "喝茶", "p": "hē chá", "nl": "thee drinken"}, {"id": 312, "ch": "9", "c": "一块儿", "p": "yíkuàir", "nl": "samen"}, {"id": 313, "ch": "11", "c": "件", "p": "jiàn", "nl": "maatwoord (kleding boven)"}, {"id": 314, "ch": "11", "c": "条", "p": "tiáo", "nl": "maatwoord (broek)"}, {"id": 315, "ch": "11", "c": "双", "p": "shuāng", "nl": "paar (schoenen)"}, {"id": 316, "ch": "11", "c": "袜子", "p": "wàzi", "nl": "sokken"}, {"id": 317, "ch": "11", "c": "帽子", "p": "màozi", "nl": "hoed / pet"}, {"id": 318, "ch": "11", "c": "手表", "p": "shǒubiǎo", "nl": "horloge"}, {"id": 319, "ch": "11", "c": "漂亮", "p": "piàoliang", "nl": "mooi"}, {"id": 320, "ch": "11", "c": "贵", "p": "guì", "nl": "duur"}, {"id": 321, "ch": "11", "c": "便宜", "p": "piányi", "nl": "goedkoop"}, {"id": 322, "ch": "13", "c": "牛奶", "p": "niúnǎi", "nl": "melk"}, {"id": 323, "ch": "13", "c": "面包", "p": "miànbāo", "nl": "brood"}, {"id": 324, "ch": "13", "c": "米饭", "p": "mǐfàn", "nl": "rijst"}, {"id": 325, "ch": "13", "c": "菜", "p": "cài", "nl": "gerecht / groente"}, {"id": 326, "ch": "13", "c": "鸡蛋", "p": "jīdàn", "nl": "ei"}, {"id": 327, "ch": "13", "c": "包子", "p": "bāozi", "nl": "gestoomd broodje"}, {"id": 328, "ch": "13", "c": "面条", "p": "miàntiáo", "nl": "noedels"}, {"id": 329, "ch": "14", "c": "足球", "p": "zúqiú", "nl": "voetbal"}, {"id": 330, "ch": "14", "c": "乒乓球", "p": "pīngpāngqiú", "nl": "tafeltennis"}, {"id": 331, "ch": "15", "c": "兔子", "p": "tùzi", "nl": "konijn"}, {"id": 332, "ch": "15", "c": "鱼", "p": "yú", "nl": "vis"}, {"id": 333, "ch": "15", "c": "马", "p": "mǎ", "nl": "paard"}, {"id": 334, "ch": "15", "c": "牛", "p": "niú", "nl": "koe"}, {"id": 335, "ch": "15", "c": "猪", "p": "zhū", "nl": "varken"}, {"id": 336, "ch": "15", "c": "鸡", "p": "jī", "nl": "kip"}, {"id": 337, "ch": "15", "c": "熊猫", "p": "xióngmāo", "nl": "panda"}], "zinnen": [{"ch": "1", "nl": "Het getal 25", "c": "二十五", "p": "Èr shí wǔ", "fout": ["五十二", "二五"]}, {"ch": "1", "nl": "Het getal 13", "c": "十三", "p": "Shísān", "fout": ["三十", "一三"]}, {"ch": "1", "nl": "Het getal 47", "c": "四十七", "p": "Sìshíqī", "fout": ["七十四", "四七"]}, {"ch": "1", "nl": "Het getal 99", "c": "九十九", "p": "Jiǔshíjiǔ", "fout": ["十九九", "九九"]}, {"ch": "1", "nl": "Het getal 100", "c": "一百", "p": "Yìbǎi", "fout": ["一零零", "百一"]}, {"ch": "1", "nl": "Het getal 33", "c": "三十三", "p": "Sānshísān", "fout": ["十三", "三三十"]}, {"ch": "1", "nl": "Het getal 58", "c": "五十八", "p": "Wǔshíbā", "fout": ["八十五", "五八"]}, {"ch": "1", "nl": "Het getal 72", "c": "七十二", "p": "Qīshí'èr", "fout": ["二七", "七二"]}, {"ch": "1", "nl": "Het getal 16", "c": "十六", "p": "Shíliù", "fout": ["六十", "一六"]}, {"ch": "1", "nl": "Het getal 41", "c": "四十一", "p": "Sìshíyī", "fout": ["一四", "十四一"]}, {"ch": "1", "nl": "Het getal 88", "c": "八十八", "p": "Bāshíbā", "fout": ["十八八", "八八"]}, {"ch": "1", "nl": "Het getal 55", "c": "五十五", "p": "Wǔshíwǔ", "fout": ["十五五", "五五"]}, {"ch": "1", "nl": "Het getal 19", "c": "十九", "p": "Shíjiǔ", "fout": ["九十", "一九"]}, {"ch": "1", "nl": "Het getal 64", "c": "六十四", "p": "Liùshísì", "fout": ["四十六", "六四"]}, {"ch": "1", "nl": "Het getal 31", "c": "三十一", "p": "Sānshíyī", "fout": ["一三", "十三一"]}, {"ch": "1", "nl": "De eerste plaats", "c": "第一", "p": "Dìyī", "fout": ["一第", "第的一"]}, {"ch": "1", "nl": "Het getal 12", "c": "十二", "p": "Shí'èr", "fout": ["二十", "一二"]}, {"ch": "1", "nl": "Het getal 67", "c": "六十七", "p": "Liùshíqī", "fout": ["七十六", "六七"]}, {"ch": "1", "nl": "Het getal 200", "c": "二百", "p": "Èrbǎi", "fout": ["两百", "二零零"]}, {"ch": "1", "nl": "Het getal 45", "c": "四十五", "p": "Sìshíwǔ", "fout": ["五十四", "四五"]}, {"ch": "1", "nl": "Het getal 28", "c": "二十八", "p": "Èrshíbā", "fout": ["八十二", "二八"]}, {"ch": "1", "nl": "Het getal 70", "c": "七十", "p": "Qīshí", "fout": ["十七", "七零"]}, {"ch": "1", "nl": "Het getal 96", "c": "九十六", "p": "Jiǔshíliù", "fout": ["六十九", "九六"]}, {"ch": "1", "nl": "Het getal 21", "c": "二十一", "p": "Èrshíyī", "fout": ["十二", "二一"]}, {"ch": "1", "nl": "Het getal 50", "c": "五十", "p": "Wǔshí", "fout": ["十五", "五零"]}, {"ch": "2", "nl": "28 Mei", "c": "五月二十八日", "p": "Wǔ yuè èrshíbā rì", "fout": ["二十八日五月", "月五日二十八"]}, {"ch": "2", "nl": "15 maart 2024", "c": "二零二四年三月十五日", "p": "Èr líng èr sì nián sān yuè shíwǔ rì", "fout": ["十五年三月二零二四日", "二零二四日月十五日三"]}, {"ch": "2", "nl": "1 januari", "c": "一月一日", "p": "Yī yuè yī rì", "fout": ["一日一月", "月年一日"]}, {"ch": "2", "nl": "Maandag", "c": "星期一", "p": "Xīngqīyī", "fout": ["星期一", "一星期"]}, {"ch": "2", "nl": "Vandaag is woensdag", "c": "今天是星期三。", "p": "Jīntiān shì xīngqīsān.", "fout": ["星期三今天是。", "今天星期三是。"]}, {"ch": "2", "nl": "Morgen is vrijdag", "c": "明天是星期五。", "p": "Míngtiān shì xīngqīwǔ.", "fout": ["是明天星期五。", "明天星期五是。"]}, {"ch": "2", "nl": "3 juli", "c": "七月三日", "p": "Qī yuè sān rì", "fout": ["三日七月", "七月年三日"]}, {"ch": "2", "nl": "12 oktober", "c": "十月十二日", "p": "Shí yuè shí'èr rì", "fout": ["十二日十月", "日月十二日十"]}, {"ch": "2", "nl": "Welke datum is het?", "c": "今天几号？", "p": "Jīntiān jǐ hào?", "fout": ["几号今天？", "今天是几号吗？"]}, {"ch": "2", "nl": "Zondag", "c": "星期天", "p": "Xīngqītiān", "fout": ["天星期", "星期七天"]}, {"ch": "2", "nl": "6 juni 2025", "c": "二零二五年六月六日", "p": "Èr líng èr wǔ nián liù yuè liù rì", "fout": ["六年六月二零二五日", "二零二五日月六日六"]}, {"ch": "2", "nl": "22 augustus", "c": "八月二十二日", "p": "Bā yuè èrshí'èr rì", "fout": ["二十二日八月", "八月日二十二"]}, {"ch": "2", "nl": "Gisteren was zaterdag", "c": "昨天是星期六。", "p": "Zuótiān shì xīngqīliù.", "fout": ["星期六昨天是。", "是昨天星期六。"]}, {"ch": "2", "nl": "9 september", "c": "九月九日", "p": "Jiǔ yuè jiǔ rì", "fout": ["九日九月", "九月年九日"]}, {"ch": "2", "nl": "Dinsdag", "c": "星期二", "p": "Xīngqī'èr", "fout": ["二星期", "星期二月二"]}, {"ch": "2", "nl": "31 december", "c": "十二月三十一日", "p": "Shí'èryuè sānshíyī rì", "fout": ["三十一日十二月", "十二月日三十一"]}, {"ch": "2", "nl": "Volgend jaar", "c": "明年", "p": "Míngnián", "fout": ["年明", "明年是"]}, {"ch": "2", "nl": "Vorig jaar", "c": "去年", "p": "Qùnián", "fout": ["年去", "去年在"]}, {"ch": "2", "nl": "4 april 2010", "c": "二零一零年四月四日", "p": "Èr líng yī líng nián sì yuè sì rì", "fout": ["四年四月二零一零日", "二零一零日月四日四"]}, {"ch": "2", "nl": "Donderdag", "c": "星期四", "p": "Xīngqīsì", "fout": ["四星期", "星期四月四"]}, {"ch": "2", "nl": "7 februari", "c": "二月七日", "p": "Èr yuè qī rì", "fout": ["七日二月", "二月年七日"]}, {"ch": "2", "nl": "Deze maand", "c": "这个月", "p": "Zhège yuè", "fout": ["月这个", "这个月是"]}, {"ch": "2", "nl": "18 november", "c": "十一月十八日", "p": "Shíyī yuè shíbā rì", "fout": ["十八日十一月", "十一月日十八"]}, {"ch": "2", "nl": "Wanneer?", "c": "什么时候？", "p": "Shénme shíhou?", "fout": ["时候什么？", "什么是时候？"]}, {"ch": "2", "nl": "20 mei 2023", "c": "二零二三年五月二十日", "p": "Èr líng èr sān nián wǔ yuè èrshí rì", "fout": ["二十年五月二零二三日", "二零二三年日月二十"]}, {"ch": "3", "nl": "Hoe oud ben jij?", "c": "你多大？", "p": "Nǐ duō dà?", "fout": ["多大是你？", "你是多大？"]}, {"ch": "3", "nl": "Hoe heet jij?", "c": "你叫什么名字？", "p": "Nǐ jiào shénme míngzi?", "fout": ["名字叫什么你？", "你名字叫什么？"]}, {"ch": "3", "nl": "Hoe oud is hij?", "c": "他多大？", "p": "Tā duō dà?", "fout": ["多大是他？", "他几岁是？"]}, {"ch": "3", "nl": "Wat is je naam?", "c": "你的名字是什么？", "p": "Nǐ de míngzi shì shénme?", "fout": ["什么是你的名字？", "你名字是什么的？"]}, {"ch": "3", "nl": "Hoe oud is zij?", "c": "她几岁？", "p": "Tā jǐ suì?", "fout": ["几岁是她？", "她几是岁？"]}, {"ch": "3", "nl": "Wie ben jij?", "c": "你是谁？", "p": "Nǐ shì shéi?", "fout": ["是谁你？", "你谁是？"]}, {"ch": "3", "nl": "Waar woon je?", "c": "你住在哪儿？", "p": "Nǐ zhù zài nǎr?", "fout": ["在哪儿住你？", "你住哪儿在？"]}, {"ch": "3", "nl": "Hoe oud is je broer?", "c": "你哥哥多大？", "p": "Nǐ gēge duō dà?", "fout": ["多大是你哥哥？", "你哥哥几岁是？"]}, {"ch": "3", "nl": "Wanneer is je verjaardag?", "c": "你的生日是什么时候？", "p": "Nǐ de shēngrì shì shénme shíhou?", "fout": ["什么时候是你的生日？", "你生日什么时候是？"]}, {"ch": "3", "nl": "Hoe oud ben je dit jaar?", "c": "你今年多大？", "p": "Nǐ jīnnián duō dà?", "fout": ["今年多大是你？", "你多大今年？"]}, {"ch": "3", "nl": "Wat is haar naam?", "c": "她叫什么名字？", "p": "Tā jiào shénme míngzi?", "fout": ["什么名字叫她？", "她叫名字什么？"]}, {"ch": "3", "nl": "Hoeveel jaar ben je?", "c": "你几岁？", "p": "Nǐ jǐ suì?", "fout": ["几岁是你？", "你岁几？"]}, {"ch": "3", "nl": "Waar kom je vandaan?", "c": "你是哪国人？", "p": "Nǐ shì nǎ guó rén?", "fout": ["哪国人是你是？", "你哪国人是？"]}, {"ch": "3", "nl": "Wie is dat?", "c": "他是谁？", "p": "Tā shì shéi?", "fout": ["是谁他？", "他谁是？"]}, {"ch": "3", "nl": "Hoe oud is je zus?", "c": "你姐姐几岁？", "p": "Nǐ jiějie jǐ suì?", "fout": ["几岁是你姐姐？", "你姐姐几岁是？"]}, {"ch": "3", "nl": "Wat doe je graag?", "c": "你喜欢什么？", "p": "Nǐ xǐhuan shénme?", "fout": ["什么是你喜欢？", "你什么喜欢？"]}, {"ch": "3", "nl": "Waar is de school?", "c": "学校在哪儿？", "p": "Xuéxiào zài nǎr?", "fout": ["在哪儿学校？", "学校在哪儿是？"]}, {"ch": "3", "nl": "Hoe oud is je vader?", "c": "你爸爸多大？", "p": "Nǐ bàba duō dà?", "fout": ["多大你爸爸？", "你爸爸几岁是？"]}, {"ch": "3", "nl": "Wat is zijn naam?", "c": "他叫什么名字？", "p": "Tā jiào shénme míngzi?", "fout": ["名字什么叫他？", "他名字什么？"]}, {"ch": "3", "nl": "Waar ben je?", "c": "你在哪儿？", "p": "Nǐ zài nǎr?", "fout": ["在哪儿你？", "你哪儿在？"]}, {"ch": "3", "nl": "Hoe oud is ze?", "c": "她今年几岁？", "p": "Tā jīnnián jǐ suì?", "fout": ["今年几岁是她？", "她几岁今年？"]}, {"ch": "3", "nl": "Welke dag is het vandaag?", "c": "今天星期几？", "p": "Jīntiān xīngqī jǐ?", "fout": ["星期几今天？", "今天几是星期？"]}, {"ch": "3", "nl": "Hoe heet je vriend?", "c": "你的朋友叫什么名字？", "p": "Nǐ de péngyou jiào shénme míngzi?", "fout": ["叫什么名字你的朋友？", "你朋友名字叫什么？"]}, {"ch": "3", "nl": "Hoeveel jaar is hij?", "c": "他几岁了？", "p": "Tā jǐ suì le?", "fout": ["几岁了是他？", "他岁几了？"]}, {"ch": "3", "nl": "Waar woont hij?", "c": "他住在哪儿？", "p": "Tā zhù zài nǎr?", "fout": ["在哪儿住他？", "他住哪儿在？"]}, {"ch": "4", "nl": "Ik ga om 8 uur naar school.", "c": "我八点去学校。", "p": "Wǒ bā diǎn qù xuéxiào.", "fout": ["我去学校八点。", "我八点去。"]}, {"ch": "4", "nl": "Ik sta om 7 uur op.", "c": "我七点起床。", "p": "Wǒ qī diǎn qǐchuáng.", "fout": ["我起床七点。", "起床我七点。"]}, {"ch": "4", "nl": "Ik ga om half negen eten.", "c": "我八点半吃饭。", "p": "Wǒ bā diǎn bàn chīfàn.", "fout": ["我吃饭八点半。", "八点半我吃。"]}, {"ch": "4", "nl": "Zij gaat om 3 uur naar huis.", "c": "她三点回家。", "p": "Tā sān diǎn huí jiā.", "fout": ["她回家三点。", "三点她回家。"]}, {"ch": "4", "nl": "Wij gaan om 12 uur lunchen.", "c": "我们十二点吃午饭。", "p": "Wǒmen shí'èr diǎn chī wǔfàn.", "fout": ["我们吃午饭十二点。", "十二点我们吃。"]}, {"ch": "4", "nl": "Hij leest om 9 uur 's avonds.", "c": "他晚上九点看书。", "p": "Tā wǎnshang jiǔ diǎn kàn shū.", "fout": ["他看书晚上九点。", "晚上他九点书看。"]}, {"ch": "4", "nl": "Ik drink om 8 uur water.", "c": "我八点喝水。", "p": "Wǒ bā diǎn hē shuǐ.", "fout": ["我喝水八点。", "喝水我八点。"]}, {"ch": "4", "nl": "Zij gaat om 6 uur naar school.", "c": "她六点上学。", "p": "Tā liù diǎn shàngxué.", "fout": ["她上学六点。", "上学她六点。"]}, {"ch": "4", "nl": "Ik sport om 5 uur.", "c": "我五点运动。", "p": "Wǒ wǔ diǎn yùndòng.", "fout": ["我运动五点。", "运动我五点。"]}, {"ch": "4", "nl": "Hij gaat om 10 uur slapen.", "c": "他十点睡觉。", "p": "Tā shí diǎn shuìjiào.", "fout": ["他睡觉十点。", "睡觉他十点。"]}, {"ch": "4", "nl": "Ik ontbijt om 7 uur 15.", "c": "我七点十五分吃早饭。", "p": "Wǒ qī diǎn shíwǔ fēn chī zǎofàn.", "fout": ["我吃早饭七点十五分。", "七点十五分我吃早饭。"]}, {"ch": "4", "nl": "Zij kijkt om 8 uur tv.", "c": "她八点看电视。", "p": "Tā bā diǎn kàn diànshì.", "fout": ["她看电视八点。", "电视她八点看。"]}, {"ch": "4", "nl": "Wij gaan om 4 uur naar huis.", "c": "我们四点回家。", "p": "Wǒmen sì diǎn huí jiā.", "fout": ["我们回家四点。", "四点回家我们。"]}, {"ch": "4", "nl": "Hoe laat is het nu?", "c": "现在几点？", "p": "Xiànzài jǐ diǎn?", "fout": ["几点现在？", "现在点几？"]}, {"ch": "4", "nl": "Ik ga om 2 uur naar de bibliotheek.", "c": "我两点去图书馆。", "p": "Wǒ liǎng diǎn qù túshūguǎn.", "fout": ["我去图书馆两点。", "两点我去。"]}, {"ch": "4", "nl": "Zij eet om 12 uur 's middags.", "c": "她中午十二点吃饭。", "p": "Tā zhōngwǔ shí'èr diǎn chīfàn.", "fout": ["她吃饭中午十二点。", "中午十二点她吃。"]}, {"ch": "4", "nl": "Ik ga om 9 uur naar werk.", "c": "我九点上班。", "p": "Wǒ jiǔ diǎn shàngbān.", "fout": ["我上班九点。", "上班我九点。"]}, {"ch": "4", "nl": "Hij speelt om 4 uur voetbal.", "c": "他四点踢足球。", "p": "Tā sì diǎn tī zúqiú.", "fout": ["他踢足球四点。", "足球他四点踢。"]}, {"ch": "4", "nl": "Ik ga om 11 uur slapen.", "c": "我十一点睡觉。", "p": "Wǒ shíyī diǎn shuìjiào.", "fout": ["我睡觉十一点。", "睡觉十一点我。"]}, {"ch": "4", "nl": "Zij drinkt om 3 uur thee.", "c": "她三点喝茶。", "p": "Tā sān diǎn hē chá.", "fout": ["她喝茶三点。", "茶她三点喝。"]}, {"ch": "4", "nl": "Ik leer om 7 uur Chinees.", "c": "我七点学汉语。", "p": "Wǒ qī diǎn xué Hànyǔ.", "fout": ["我学汉语七点。", "汉语我七点学。"]}, {"ch": "4", "nl": "Hij gaat om 6 uur 30 opstaan.", "c": "他六点三十分起床。", "p": "Tā liù diǎn sānshí fēn qǐchuáng.", "fout": ["他起床六点三十分。", "六点三十分他起床。"]}, {"ch": "4", "nl": "Wij eten om 7 uur 's avonds.", "c": "我们七点吃晚饭。", "p": "Wǒmen qī diǎn chī wǎnfàn.", "fout": ["我们吃晚饭七点。", "晚饭我们七点吃。"]}, {"ch": "4", "nl": "Ik ga om 1 uur naar bed.", "c": "我一点睡觉。", "p": "Wǒ yī diǎn shuìjiào.", "fout": ["我睡觉一点。", "一点睡我。"]}, {"ch": "4", "nl": "Zij gaat om 8 uur naar school.", "c": "她八点上学。", "p": "Tā bā diǎn shàngxué.", "fout": ["她上学八点。", "上学八点她。"]}, {"ch": "5", "nl": "Ben jij docent?", "c": "你是老师吗？", "p": "Nǐ shì lǎoshī ma?", "fout": ["是你老师？", "你是老师什么？"]}, {"ch": "5", "nl": "Ben jij student?", "c": "你是学生吗？", "p": "Nǐ shì xuésheng ma?", "fout": ["学生你是吗？", "你吗是学生？"]}, {"ch": "5", "nl": "Is hij dokter?", "c": "他是医生吗？", "p": "Tā shì yīshēng ma?", "fout": ["医生他是吗？", "他吗是医生？"]}, {"ch": "5", "nl": "Ben jij Amerikaan?", "c": "你是美国人吗？", "p": "Nǐ shì Měiguórén ma?", "fout": ["美国人你是吗？", "你吗是美国人？"]}, {"ch": "5", "nl": "Is zij je vriendin?", "c": "她是你的朋友吗？", "p": "Tā shì nǐ de péngyou ma?", "fout": ["朋友她是你的吗？", "她吗是你的朋友？"]}, {"ch": "5", "nl": "Hou je van China?", "c": "你喜欢中国吗？", "p": "Nǐ xǐhuan Zhōngguó ma?", "fout": ["中国你喜欢吗？", "你吗喜欢中国？"]}, {"ch": "5", "nl": "Ben jij moe?", "c": "你累吗？", "p": "Nǐ lèi ma?", "fout": ["累你吗？", "你吗累？"]}, {"ch": "5", "nl": "Is hij druk?", "c": "他忙吗？", "p": "Tā máng ma?", "fout": ["忙他吗？", "他吗忙？"]}, {"ch": "5", "nl": "Ben jij gelukkig?", "c": "你高兴吗？", "p": "Nǐ gāoxìng ma?", "fout": ["高兴你吗？", "你吗高兴？"]}, {"ch": "5", "nl": "Ken je hem?", "c": "你认识他吗？", "p": "Nǐ rènshi tā ma?", "fout": ["认识你他吗？", "你吗认识他？"]}, {"ch": "5", "nl": "Woon je in Peking?", "c": "你住在北京吗？", "p": "Nǐ zhù zài Běijīng ma?", "fout": ["北京你住在吗？", "你吗住在北京？"]}, {"ch": "5", "nl": "Ben jij Chinees?", "c": "你是中国人吗？", "p": "Nǐ shì Zhōngguórén ma?", "fout": ["中国人你是吗？", "你吗是中国人？"]}, {"ch": "5", "nl": "Hou je van voetbal?", "c": "你喜欢足球吗？", "p": "Nǐ xǐhuan zúqiú ma?", "fout": ["足球你喜欢吗？", "你吗喜欢足球？"]}, {"ch": "5", "nl": "Is zij mooi?", "c": "她漂亮吗？", "p": "Tā piàoliang ma?", "fout": ["漂亮她吗？", "她吗漂亮？"]}, {"ch": "5", "nl": "Heb je een kat?", "c": "你有猫吗？", "p": "Nǐ yǒu māo ma?", "fout": ["猫你有吗？", "你吗有猫？"]}, {"ch": "5", "nl": "Ga je naar school?", "c": "你上学吗？", "p": "Nǐ shàngxué ma?", "fout": ["上学你吗？", "你吗上学？"]}, {"ch": "5", "nl": "Drink je koffie?", "c": "你喝咖啡吗？", "p": "Nǐ hē kāfēi ma?", "fout": ["咖啡你喝吗？", "你吗喝咖啡？"]}, {"ch": "5", "nl": "Is hij je broer?", "c": "他是你哥哥吗？", "p": "Tā shì nǐ gēge ma?", "fout": ["哥哥他是你的吗？", "他吗是你哥哥？"]}, {"ch": "5", "nl": "Ben jij Engels?", "c": "你是英国人吗？", "p": "Nǐ shì Yīngguórén ma?", "fout": ["英国人你是吗？", "你吗是英国人？"]}, {"ch": "5", "nl": "Wil je thee?", "c": "你喝茶吗？", "p": "Nǐ hē chá ma?", "fout": ["茶你喝吗？", "你吗喝茶？"]}, {"ch": "5", "nl": "Is dit goed?", "c": "这个好吗？", "p": "Zhège hǎo ma?", "fout": ["好这个吗？", "这个吗好？"]}, {"ch": "5", "nl": "Ben jij zijn vriend?", "c": "你是他的朋友吗？", "p": "Nǐ shì tā de péngyou ma?", "fout": ["朋友你是他的吗？", "你吗是他的朋友？"]}, {"ch": "5", "nl": "Ga je morgen naar school?", "c": "你明天上学吗？", "p": "Nǐ míngtiān shàngxué ma?", "fout": ["上学你明天吗？", "你明天吗上学？"]}, {"ch": "5", "nl": "Hou je van muziek?", "c": "你喜欢音乐吗？", "p": "Nǐ xǐhuan yīnyuè ma?", "fout": ["音乐你喜欢吗？", "你吗喜欢音乐？"]}, {"ch": "5", "nl": "Is zij lerares?", "c": "她是老师吗？", "p": "Tā shì lǎoshī ma?", "fout": ["老师她是吗？", "她吗是老师？"]}, {"ch": "6", "nl": "Ik heb geen kat.", "c": "我没有猫。", "p": "Wǒ méiyǒu māo.", "fout": ["我不有猫。", "没我有猫。"]}, {"ch": "6", "nl": "Ik heb geen hond.", "c": "我没有狗。", "p": "Wǒ méiyǒu gǒu.", "fout": ["我不有狗。", "狗我没有有。"]}, {"ch": "6", "nl": "Ik ben geen student.", "c": "我不是学生。", "p": "Wǒ bú shì xuésheng.", "fout": ["我没是学生。", "不我是学生。"]}, {"ch": "6", "nl": "Ik heb geen tijd.", "c": "我没有时间。", "p": "Wǒ méiyǒu shíjiān.", "fout": ["我不有时间。", "时间没我有。"]}, {"ch": "6", "nl": "Zij heeft geen broer.", "c": "她没有哥哥。", "p": "Tā méiyǒu gēge.", "fout": ["她不有哥哥。", "没她有哥哥。"]}, {"ch": "6", "nl": "Ik ga niet naar school.", "c": "我不上学。", "p": "Wǒ bù shàngxué.", "fout": ["我没上学。", "不我上学。"]}, {"ch": "6", "nl": "Hij drinkt geen koffie.", "c": "他不喝咖啡。", "p": "Tā bù hē kāfēi.", "fout": ["他没喝咖啡。", "咖啡他不喝。"]}, {"ch": "6", "nl": "Wij hebben geen kinderen.", "c": "我们没有孩子。", "p": "Wǒmen méiyǒu háizi.", "fout": ["我们不有孩子。", "孩子没我们有。"]}, {"ch": "6", "nl": "Ik ben niet moe.", "c": "我不累。", "p": "Wǒ bù lèi.", "fout": ["我没累。", "累我不。"]}, {"ch": "6", "nl": "Zij heeft geen auto.", "c": "她没有汽车。", "p": "Tā méiyǒu qìchē.", "fout": ["她不有汽车。", "汽车没她有。"]}, {"ch": "6", "nl": "Ik eet geen vlees.", "c": "我不吃肉。", "p": "Wǒ bù chī ròu.", "fout": ["我没吃肉。", "肉我不吃。"]}, {"ch": "6", "nl": "Hij heeft geen zus.", "c": "他没有姐姐。", "p": "Tā méiyǒu jiějie.", "fout": ["他不有姐姐。", "姐姐没他有。"]}, {"ch": "6", "nl": "Ik ben geen leraar.", "c": "我不是老师。", "p": "Wǒ bú shì lǎoshī.", "fout": ["我没是老师。", "老师我不是。"]}, {"ch": "6", "nl": "Wij hebben geen huisdier.", "c": "我们没有宠物。", "p": "Wǒmen méiyǒu chǒngwù.", "fout": ["我们不有宠物。", "宠物没我们有。"]}, {"ch": "6", "nl": "Zij gaat niet slapen.", "c": "她不睡觉。", "p": "Tā bù shuìjiào.", "fout": ["她没睡觉。", "睡觉她不。"]}, {"ch": "6", "nl": "Ik heb geen geld.", "c": "我没有钱。", "p": "Wǒ méiyǒu qián.", "fout": ["我不有钱。", "钱没我有。"]}, {"ch": "6", "nl": "Hij is geen dokter.", "c": "他不是医生。", "p": "Tā bú shì yīshēng.", "fout": ["他没是医生。", "医生他不是。"]}, {"ch": "6", "nl": "Ik drink geen melk.", "c": "我不喝牛奶。", "p": "Wǒ bù hē niúnǎi.", "fout": ["我没喝牛奶。", "牛奶我不喝。"]}, {"ch": "6", "nl": "Zij heeft geen vogel.", "c": "她没有鸟。", "p": "Tā méiyǒu niǎo.", "fout": ["她不有鸟。", "鸟没她有。"]}, {"ch": "6", "nl": "Ik ben niet druk.", "c": "我不忙。", "p": "Wǒ bù máng.", "fout": ["我没忙。", "忙我不。"]}, {"ch": "6", "nl": "Hij heeft geen boek.", "c": "他没有书。", "p": "Tā méiyǒu shū.", "fout": ["他不有书。", "书没他有。"]}, {"ch": "6", "nl": "Ik ga niet werken.", "c": "我不工作。", "p": "Wǒ bù gōngzuò.", "fout": ["我没工作。", "工作我不。"]}, {"ch": "6", "nl": "Wij hebben geen fiets.", "c": "我们没有自行车。", "p": "Wǒmen méiyǒu zìxíngchē.", "fout": ["我们不有自行车。", "自行车没我们有。"]}, {"ch": "6", "nl": "Zij is geen student.", "c": "她不是学生。", "p": "Tā bú shì xuésheng.", "fout": ["她没是学生。", "学生她不是。"]}, {"ch": "6", "nl": "Ik eet geen rijst.", "c": "我不吃米饭。", "p": "Wǒ bù chī mǐfàn.", "fout": ["我没吃米饭。", "米饭我不吃。"]}, {"ch": "7", "nl": "110 (Telefoon)", "c": "幺幺零。", "p": "Yāo yāo líng.", "fout": ["一一零。", "一百一十。"]}, {"ch": "7", "nl": "119 (Brandweer)", "c": "幺幺九。", "p": "Yāo yāo jiǔ.", "fout": ["一一九。", "一百一十九。"]}, {"ch": "7", "nl": "120 (Ambulance)", "c": "幺二零。", "p": "Yāo èr líng.", "fout": ["一二零。", "一百二十。"]}, {"ch": "7", "nl": "Telefoon 13812345678", "c": "一三八一二三四五六七八。", "p": "Yī sān bā yī èr sān sì wǔ liù qī bā.", "fout": ["一三八一二三四五六八七。", "一三八一二三四五七八六。"]}, {"ch": "7", "nl": "Nummer 114", "c": "幺幺四。", "p": "Yāo yāo sì.", "fout": ["一一四。", "一百十四。"]}, {"ch": "7", "nl": "Nummer 10086", "c": "一零零八六。", "p": "Yī líng líng bā liù.", "fout": ["一万零八十六。", "一零零八十六。"]}, {"ch": "7", "nl": "Nummer 911", "c": "九幺幺。", "p": "Jiǔ yāo yāo.", "fout": ["九一一。", "九百一十一。"]}, {"ch": "7", "nl": "Nummer 520", "c": "五二零。", "p": "Wǔ èr líng.", "fout": ["五百二十。", "五零二零。"]}, {"ch": "7", "nl": "Nummer 321", "c": "三二一。", "p": "Sān èr yī.", "fout": ["三百二十一。", "三一二。"]}, {"ch": "7", "nl": "Nummer 618", "c": "六幺八。", "p": "Liù yāo bā.", "fout": ["六一八。", "六百十八。"]}, {"ch": "7", "nl": "Nummer 886", "c": "八八六。", "p": "Bā bā liù.", "fout": ["八百八十六。", "八六八。"]}, {"ch": "7", "nl": "Nummer 007", "c": "零零七。", "p": "Líng líng qī.", "fout": ["零七。", "七零零。"]}, {"ch": "7", "nl": "Nummer 168", "c": "幺六八。", "p": "Yāo liù bā.", "fout": ["一六八。", "一百六十八。"]}, {"ch": "7", "nl": "Nummer 2345", "c": "二三四五。", "p": "Èr sān sì wǔ.", "fout": ["二千三百四十五。", "二三五四。"]}, {"ch": "7", "nl": "Nummer 101", "c": "幺零幺。", "p": "Yāo líng yāo.", "fout": ["一零一。", "一百零一。"]}, {"ch": "7", "nl": "Nummer 8888", "c": "八八八八。", "p": "Bā bā bā bā.", "fout": ["八千八百八十八。", "八八八。"]}, {"ch": "7", "nl": "Nummer 1314", "c": "一三一四。", "p": "Yī sān yī sì.", "fout": ["一千三百一十四。", "一三四一。"]}, {"ch": "7", "nl": "Nummer 555", "c": "五五五。", "p": "Wǔ wǔ wǔ.", "fout": ["五百五十五。", "五零五。"]}, {"ch": "7", "nl": "Nummer 404", "c": "四零四。", "p": "Sì líng sì.", "fout": ["四百零四。", "四四零。"]}, {"ch": "7", "nl": "Nummer 666", "c": "六六六。", "p": "Liù liù liù.", "fout": ["六百六十六。", "六零六。"]}, {"ch": "7", "nl": "Nummer 199", "c": "一九九。", "p": "Yī jiǔ jiǔ.", "fout": ["一百九十九。", "一九九零。"]}, {"ch": "7", "nl": "Nummer 258", "c": "二五八。", "p": "Èr wǔ bā.", "fout": ["二百五十八。", "二八五。"]}, {"ch": "7", "nl": "Nummer 147", "c": "一四七。", "p": "Yī sì qī.", "fout": ["一百四十七。", "一七四。"]}, {"ch": "7", "nl": "Nummer 369", "c": "三六九。", "p": "Sān liù jiǔ.", "fout": ["三百六十九。", "三九六。"]}, {"ch": "7", "nl": "Nummer 753", "c": "七五三。", "p": "Qī wǔ sān.", "fout": ["七百五十三。", "七三五。"]}, {"ch": "8", "nl": "Ik ben geen dokter.", "c": "我不是医生。", "p": "Wǒ bú shì yīshēng.", "fout": ["我没是医生。", "不我是医生。"]}, {"ch": "8", "nl": "Ik ben leraar.", "c": "我是老师。", "p": "Wǒ shì lǎoshī.", "fout": ["老师是。", "我老师是。"]}, {"ch": "8", "nl": "Zij is student.", "c": "她是学生。", "p": "Tā shì xuésheng.", "fout": ["学生她是。", "是她学生。"]}, {"ch": "8", "nl": "Hij is dokter.", "c": "他是医生。", "p": "Tā shì yīshēng.", "fout": ["医生是。", "是他医生。"]}, {"ch": "8", "nl": "Ik ben Amerikaan.", "c": "我是美国人。", "p": "Wǒ shì Měiguórén.", "fout": ["美国人是我。", "我美国人是。"]}, {"ch": "8", "nl": "Zij is verpleegkundige.", "c": "她是护士。", "p": "Tā shì hùshi.", "fout": ["护士她是。", "是她护士。"]}, {"ch": "8", "nl": "Hij is chauffeur.", "c": "他是司机。", "p": "Tā shì sījī.", "fout": ["司机他是。", "是他司机。"]}, {"ch": "8", "nl": "Ik ben Chinees.", "c": "我是中国人。", "p": "Wǒ shì Zhōngguórén.", "fout": ["中国人是我。", "我中国人是。"]}, {"ch": "8", "nl": "Zij is ingenieur.", "c": "她是工程师。", "p": "Tā shì gōngchéngshī.", "fout": ["工程师她是。", "是她工程师。"]}, {"ch": "8", "nl": "Hij is politieagent.", "c": "他是警察。", "p": "Tā shì jǐngchá.", "fout": ["警察他是。", "是他警察。"]}, {"ch": "8", "nl": "Ik ben Brit.", "c": "我是英国人。", "p": "Wǒ shì Yīngguórén.", "fout": ["英国人是我。", "我英国人是。"]}, {"ch": "8", "nl": "Zij is verkoper.", "c": "她是售货员。", "p": "Tā shì shòhuòyuán.", "fout": ["售货员她是。", "是她售货员。"]}, {"ch": "8", "nl": "Hij is manager.", "c": "他是经理。", "p": "Tā shì jīnglǐ.", "fout": ["经理他是。", "是他经理。"]}, {"ch": "8", "nl": "Ik ben advocaat.", "c": "我是律师。", "p": "Wǒ shì lǜshī.", "fout": ["律师是我。", "我律师是。"]}, {"ch": "8", "nl": "Zij is secretaresse.", "c": "她是秘书。", "p": "Tā shì mìshū.", "fout": ["秘书她是。", "是她秘书。"]}, {"ch": "8", "nl": "Hij is zakenman.", "c": "他是商人。", "p": "Tā shì shāngrén.", "fout": ["商人他是。", "是他商人。"]}, {"ch": "8", "nl": "Ik ben student.", "c": "我是学生。", "p": "Wǒ shì xuésheng.", "fout": ["学生是我。", "我学生是。"]}, {"ch": "8", "nl": "Zij is Frans.", "c": "她是法国人。", "p": "Tā shì Fǎguórén.", "fout": ["法国人她是。", "是她法国人。"]}, {"ch": "8", "nl": "Hij is Duits.", "c": "他是德国人。", "p": "Tā shì Déguórén.", "fout": ["德国人他是。", "是他德国人。"]}, {"ch": "8", "nl": "Ik ben geen ingenieur.", "c": "我不是工程师。", "p": "Wǒ bú shì gōngchéngshī.", "fout": ["我没是工程师。", "工程师我不是。"]}, {"ch": "8", "nl": "Zij is Japanse.", "c": "她是日本人。", "p": "Tā shì Rìběnrén.", "fout": ["日本人她是。", "是她日本人。"]}, {"ch": "8", "nl": "Hij is Koreaan.", "c": "他是韩国人。", "p": "Tā shì Hánguórén.", "fout": ["韩国人他是。", "是他韩国人。"]}, {"ch": "8", "nl": "Ik ben basisschoolleerling.", "c": "我是小学生。", "p": "Wǒ shì xiǎoxuéshēng.", "fout": ["小学生是我。", "我小学生是。"]}, {"ch": "8", "nl": "Zij is universiteitsstudent.", "c": "她是大学生。", "p": "Tā shì dàxuéshēng.", "fout": ["大学生她是。", "是她大学生。"]}, {"ch": "8", "nl": "Hij is mijn vriend.", "c": "他是我的朋友。", "p": "Tā shì wǒ de péngyou.", "fout": ["朋友他是我。", "他我朋友是。"]}, {"ch": "9", "nl": "Ga zitten aub.", "c": "请坐。", "p": "Qǐng zuò.", "fout": ["坐请。", "请是坐。"]}, {"ch": "9", "nl": "Drink thee aub.", "c": "请喝茶。", "p": "Qǐng hē chá.", "fout": ["茶请喝。", "喝请茶。"]}, {"ch": "9", "nl": "Kom binnen aub.", "c": "请进。", "p": "Qǐng jìn.", "fout": ["进请。", "请是进。"]}, {"ch": "9", "nl": "Ga zitten hier.", "c": "请坐这儿。", "p": "Qǐng zuò zhèr.", "fout": ["坐这儿请。", "这儿请坐。"]}, {"ch": "9", "nl": "Wacht even aub.", "c": "请等一下。", "p": "Qǐng děng yíxià.", "fout": ["等一下请。", "请等一下。"]}, {"ch": "9", "nl": "Spreek Chinees aub.", "c": "请说汉语。", "p": "Qǐng shuō Hànyǔ.", "fout": ["汉语请说。", "说请汉语。"]}, {"ch": "9", "nl": "Kijk hier aub.", "c": "请看这儿。", "p": "Qǐng kàn zhèr.", "fout": ["这儿请看。", "看请这儿。"]}, {"ch": "9", "nl": "Ga weg aub.", "c": "请出去。", "p": "Qǐng chūqù.", "fout": ["出去请。", "请是出去。"]}, {"ch": "9", "nl": "Help me aub.", "c": "请帮助我。", "p": "Qǐng bāngzhù wǒ.", "fout": ["帮助我请。", "我请帮助。"]}, {"ch": "9", "nl": "Kom hier aub.", "c": "请来这儿。", "p": "Qǐng lái zhèr.", "fout": ["来这儿请。", "这儿请来。"]}, {"ch": "9", "nl": "Lees dit aub.", "c": "请读这个。", "p": "Qǐng dú zhège.", "fout": ["这个请读。", "读请这个。"]}, {"ch": "9", "nl": "Schrijf dit aub.", "c": "请写这个。", "p": "Qǐng xiě zhège.", "fout": ["这个请写。", "写请这个。"]}, {"ch": "9", "nl": "Luister aub.", "c": "请听。", "p": "Qǐng tīng.", "fout": ["听请。", "请是听。"]}, {"ch": "9", "nl": "Ga staan aub.", "c": "请站起来。", "p": "Qǐng zhàn qǐlái.", "fout": ["站起来请。", "请起来站。"]}, {"ch": "9", "nl": "Ga hier zitten.", "c": "请坐这里。", "p": "Qǐng zuò zhèlǐ.", "fout": ["坐这里请。", "这里请坐。"]}, {"ch": "9", "nl": "Drink water aub.", "c": "请喝水。", "p": "Qǐng hē shuǐ.", "fout": ["水请喝。", "喝请水。"]}, {"ch": "9", "nl": "Kom mee aub.", "c": "请跟我来。", "p": "Qǐng gēn wǒ lái.", "fout": ["跟我来请。", "我来跟我请。"]}, {"ch": "9", "nl": "Wacht hier aub.", "c": "请在这儿等。", "p": "Qǐng zài zhèr děng.", "fout": ["在这儿等请。", "等请在这儿。"]}, {"ch": "9", "nl": "Spreek langzaam aub.", "c": "请慢一点儿说。", "p": "Qǐng màn yìdiǎnr shuō.", "fout": ["慢一点儿说请。", "说请慢一点儿。"]}, {"ch": "9", "nl": "Open het aub.", "c": "请开门。", "p": "Qǐng kāi mén.", "fout": ["开门请。", "门请开。"]}, {"ch": "9", "nl": "Sluit het aub.", "c": "请关门。", "p": "Qǐng guān mén.", "fout": ["关门请。", "门请关。"]}, {"ch": "9", "nl": "Ga rusten aub.", "c": "请休息。", "p": "Qǐng xiūxi.", "fout": ["休息请。", "请是休息。"]}, {"ch": "9", "nl": "Begin aub.", "c": "请开始。", "p": "Qǐng kāishǐ.", "fout": ["开始请。", "请是开始。"]}, {"ch": "9", "nl": "Antwoord aub.", "c": "请回答。", "p": "Qǐng huídá.", "fout": ["回答请。", "请是回答。"]}, {"ch": "9", "nl": "Herhaal aub.", "c": "请再说一次。", "p": "Qǐng zài shuō yí cì.", "fout": ["再说一次请。", "一次请再说。"]}, {"ch": "10", "nl": "Zijn kleding.", "c": "他的衣服。", "p": "Tā de yīfu.", "fout": ["衣服的他。", "他衣服的。"]}, {"ch": "10", "nl": "Mijn boek.", "c": "我的书。", "p": "Wǒ de shū.", "fout": ["书的我。", "我书的。"]}, {"ch": "10", "nl": "Haar kat.", "c": "她的猫。", "p": "Tā de māo.", "fout": ["猫的她。", "她猫的。"]}, {"ch": "10", "nl": "Onze school.", "c": "我们的学校。", "p": "Wǒmen de xuéxiào.", "fout": ["学校我们的。", "我们学校的。"]}, {"ch": "10", "nl": "Mijn naam.", "c": "我的名字。", "p": "Wǒ de míngzi.", "fout": ["名字我的。", "我名字。"]}, {"ch": "10", "nl": "Zijn hond.", "c": "他的狗。", "p": "Tā de gǒu.", "fout": ["狗的他。", "他狗。"]}, {"ch": "10", "nl": "Mijn familie.", "c": "我的家。", "p": "Wǒ de jiā.", "fout": ["家的我。", "我家。"]}, {"ch": "10", "nl": "Haar telefoon.", "c": "她的手机。", "p": "Tā de shǒujī.", "fout": ["手机她的。", "她手机。"]}, {"ch": "10", "nl": "Mijn vriend.", "c": "我的朋友。", "p": "Wǒ de péngyou.", "fout": ["朋友我的。", "我朋友。"]}, {"ch": "10", "nl": "Zijn broer.", "c": "他的哥哥。", "p": "Tā de gēge.", "fout": ["哥哥他的。", "他哥哥。"]}, {"ch": "10", "nl": "Mijn moeder.", "c": "我的妈妈。", "p": "Wǒ de māma.", "fout": ["妈妈我的。", "我妈妈。"]}, {"ch": "10", "nl": "Haar schoenen.", "c": "她的鞋。", "p": "Tā de xié.", "fout": ["鞋她的。", "她鞋。"]}, {"ch": "10", "nl": "Mijn fiets.", "c": "我的自行车。", "p": "Wǒ de zìxíngchē.", "fout": ["自行车我的。", "我自行车。"]}, {"ch": "10", "nl": "Zijn auto.", "c": "他的汽车。", "p": "Tā de qìchē.", "fout": ["汽车他的。", "他汽车。"]}, {"ch": "10", "nl": "Mijn hobby.", "c": "我的爱好。", "p": "Wǒ de àihào.", "fout": ["爱好我的。", "我爱好。"]}, {"ch": "10", "nl": "Haar verjaardag.", "c": "她的生日。", "p": "Tā de shēngrì.", "fout": ["生日她的。", "她生日。"]}, {"ch": "10", "nl": "Mijn tas.", "c": "我的书包。", "p": "Wǒ de shūbāo.", "fout": ["书包我的。", "我书包。"]}, {"ch": "10", "nl": "Zijn kamer.", "c": "他的房间。", "p": "Tā de fángjiān.", "fout": ["房间他的。", "他房间。"]}, {"ch": "10", "nl": "Onze leraar.", "c": "我们的老师。", "p": "Wǒmen de lǎoshī.", "fout": ["老师我们的。", "我们老师。"]}, {"ch": "10", "nl": "Mijn broer.", "c": "我的弟弟。", "p": "Wǒ de dìdi.", "fout": ["弟弟我的。", "我弟弟。"]}, {"ch": "10", "nl": "Haar zus.", "c": "她的姐姐。", "p": "Tā de jiějie.", "fout": ["姐姐她的。", "她姐姐。"]}, {"ch": "10", "nl": "Mijn vader.", "c": "我的爸爸。", "p": "Wǒ de bàba.", "fout": ["爸爸我的。", "我爸爸。"]}, {"ch": "10", "nl": "Zijn nummer.", "c": "他的号码。", "p": "Tā de hàomǎ.", "fout": ["号码他的。", "他号码。"]}, {"ch": "10", "nl": "Mijn huisdier.", "c": "我的宠物。", "p": "Wǒ de chǒngwù.", "fout": ["宠物我的。", "我宠物。"]}, {"ch": "10", "nl": "Haar hobby.", "c": "她的爱好。", "p": "Tā de àihào.", "fout": ["爱好她的。", "她爱好。"]}, {"ch": "11", "nl": "Één broek.", "c": "一条裤子。", "p": "Yì tiáo kùzi.", "fout": ["一件裤子。", "一裤子。"]}, {"ch": "11", "nl": "Één shirt.", "c": "一件衬衫。", "p": "Yí jiàn chènshān.", "fout": ["一条衬衫。", "一衬衫。"]}, {"ch": "11", "nl": "Één rok.", "c": "一条裙子。", "p": "Yì tiáo qúnzi.", "fout": ["一件裙子。", "一裙子。"]}, {"ch": "11", "nl": "Twee schoenen.", "c": "一双鞋。", "p": "Yì shuāng xié.", "fout": ["两鞋。", "二双鞋。"]}, {"ch": "11", "nl": "Één trui.", "c": "一件毛衣。", "p": "Yí jiàn máoyī.", "fout": ["一条毛衣。", "一毛衣。"]}, {"ch": "11", "nl": "Één jas.", "c": "一件外套。", "p": "Yí jiàn wàitào.", "fout": ["一条外套。", "一外套。"]}, {"ch": "11", "nl": "Drie sokken.", "c": "三双袜子。", "p": "Sān shuāng wàzi.", "fout": ["三件袜子。", "三袜子。"]}, {"ch": "11", "nl": "Één lange broek.", "c": "一条长裤。", "p": "Yì tiáo chángkù.", "fout": ["一件长裤。", "一长裤。"]}, {"ch": "11", "nl": "Één korte broek.", "c": "一条短裤。", "p": "Yì tiáo duǎnkù.", "fout": ["一件短裤。", "一短裤。"]}, {"ch": "11", "nl": "Twee overhemden.", "c": "两件衬衫。", "p": "Liǎng jiàn chènshān.", "fout": ["二件衬衫。", "两衬衫。"]}, {"ch": "11", "nl": "Één pet.", "c": "一顶帽子。", "p": "Yì dǐng màozi.", "fout": ["一件帽子。", "一帽子。"]}, {"ch": "11", "nl": "Één horloge.", "c": "一块手表。", "p": "Yí kuài shǒubiǎo.", "fout": ["一条手表。", "一手表。"]}, {"ch": "11", "nl": "Vijf broeken.", "c": "五条裤子。", "p": "Wǔ tiáo kùzi.", "fout": ["五件裤子。", "五裤子。"]}, {"ch": "11", "nl": "Drie rokken.", "c": "三条裙子。", "p": "Sān tiáo qúnzi.", "fout": ["三件裙子。", "三裙子。"]}, {"ch": "11", "nl": "Één T-shirt.", "c": "一件T恤。", "p": "Yí jiàn T xù.", "fout": ["一条T恤。", "一T恤。"]}, {"ch": "11", "nl": "Twee truien.", "c": "两件毛衣。", "p": "Liǎng jiàn máoyī.", "fout": ["二件毛衣。", "两毛衣。"]}, {"ch": "11", "nl": "Vier schoenen.", "c": "四双鞋。", "p": "Sì shuāng xié.", "fout": ["四件鞋。", "四鞋。"]}, {"ch": "11", "nl": "Één spijkerbroek.", "c": "一条牛仔裤。", "p": "Yì tiáo niúzǎikù.", "fout": ["一件牛仔裤。", "一牛仔裤。"]}, {"ch": "11", "nl": "Twee jassen.", "c": "两件外套。", "p": "Liǎng jiàn wàitào.", "fout": ["二件外套。", "两外套。"]}, {"ch": "11", "nl": "Één schooluniform.", "c": "一件校服。", "p": "Yí jiàn xiàofú.", "fout": ["一条校服。", "一校服。"]}, {"ch": "11", "nl": "Drie broeken.", "c": "三条裤子。", "p": "Sān tiáo kùzi.", "fout": ["三件裤子。", "三裤子。"]}, {"ch": "11", "nl": "Twee petten.", "c": "两顶帽子。", "p": "Liǎng dǐng màozi.", "fout": ["两件帽子。", "两帽子。"]}, {"ch": "11", "nl": "Één paar sokken.", "c": "一双袜子。", "p": "Yì shuāng wàzi.", "fout": ["一件袜子。", "一袜子。"]}, {"ch": "11", "nl": "Zes shirts.", "c": "六件衬衫。", "p": "Liù jiàn chènshān.", "fout": ["六条衬衫。", "六衬衫。"]}, {"ch": "11", "nl": "Twee horloges.", "c": "两块手表。", "p": "Liǎng kuài shǒubiǎo.", "fout": ["两条手表。", "两手表。"]}, {"ch": "12", "nl": "Mijn broer is erg lang.", "c": "哥哥很高。", "p": "Gēge hěn gāo.", "fout": ["哥哥是高。", "哥哥是很高。"]}, {"ch": "12", "nl": "Zij is erg mooi.", "c": "她很漂亮。", "p": "Tā hěn piàoliang.", "fout": ["她是漂亮。", "她是很漂亮。"]}, {"ch": "12", "nl": "Hij is erg dun.", "c": "他很瘦。", "p": "Tā hěn shòu.", "fout": ["他是瘦。", "他是很瘦。"]}, {"ch": "12", "nl": "Zij is erg dik.", "c": "她很胖。", "p": "Tā hěn pàng.", "fout": ["她是胖。", "她是很胖。"]}, {"ch": "12", "nl": "Hij is erg knap.", "c": "他很好看。", "p": "Tā hěn hǎokàn.", "fout": ["他是好看。", "他是很好看。"]}, {"ch": "12", "nl": "Zij is erg kort.", "c": "她很矮。", "p": "Tā hěn ǎi.", "fout": ["她是矮。", "她是很矮。"]}, {"ch": "12", "nl": "Hij is erg lang (haar).", "c": "他的头发很长。", "p": "Tā de tóufa hěn cháng.", "fout": ["他头发是很长。", "他的头发长很。"]}, {"ch": "12", "nl": "Zij is erg schattig.", "c": "她很可爱。", "p": "Tā hěn kě'ài.", "fout": ["她是可爱。", "她是很可爱。"]}, {"ch": "12", "nl": "Hij is erg slim.", "c": "他很聪明。", "p": "Tā hěn cōngming.", "fout": ["他是聪明。", "他是很聪明。"]}, {"ch": "12", "nl": "Mijn zus is erg lang.", "c": "姐姐很高。", "p": "Jiějie hěn gāo.", "fout": ["姐姐是高。", "姐姐是很高。"]}, {"ch": "12", "nl": "Hij is erg jong.", "c": "他很年轻。", "p": "Tā hěn niánqīng.", "fout": ["他是年轻。", "他是很年轻。"]}, {"ch": "12", "nl": "Zij is erg groot.", "c": "她很大。", "p": "Tā hěn dà.", "fout": ["她是大。", "她是很大。"]}, {"ch": "12", "nl": "Hij is erg klein.", "c": "他很小。", "p": "Tā hěn xiǎo.", "fout": ["他是小。", "他是很小。"]}, {"ch": "12", "nl": "Zij heeft grote ogen.", "c": "她的眼睛很大。", "p": "Tā de yǎnjing hěn dà.", "fout": ["她眼睛是很大。", "她的眼睛大很。"]}, {"ch": "12", "nl": "Hij is erg oud.", "c": "他很老。", "p": "Tā hěn lǎo.", "fout": ["他是老。", "他是很老。"]}, {"ch": "12", "nl": "Zij is erg moe.", "c": "她很累。", "p": "Tā hěn lèi.", "fout": ["她是累。", "她是很累。"]}, {"ch": "12", "nl": "Hij is erg druk.", "c": "他很忙。", "p": "Tā hěn máng.", "fout": ["他是忙。", "他是很忙。"]}, {"ch": "12", "nl": "Zij is erg blij.", "c": "她很高兴。", "p": "Tā hěn gāoxìng.", "fout": ["她是高兴。", "她是很高兴。"]}, {"ch": "12", "nl": "Hij is erg gelukkig.", "c": "他很快乐。", "p": "Tā hěn kuàilè.", "fout": ["他是快乐。", "他是很快乐。"]}, {"ch": "12", "nl": "Zij is erg aardig.", "c": "她很好。", "p": "Tā hěn hǎo.", "fout": ["她是好。", "她是很好。"]}, {"ch": "12", "nl": "Hij is erg snel.", "c": "他很快。", "p": "Tā hěn kuài.", "fout": ["他是快。", "他是很快。"]}, {"ch": "12", "nl": "Zij is erg langzaam.", "c": "她很慢。", "p": "Tā hěn màn.", "fout": ["她是慢。", "她是很慢。"]}, {"ch": "12", "nl": "Hij is erg sterk.", "c": "他很强。", "p": "Tā hěn qiáng.", "fout": ["他是强。", "他是很强。"]}, {"ch": "12", "nl": "Zij heeft kort haar.", "c": "她的头发很短。", "p": "Tā de tóufa hěn duǎn.", "fout": ["她头发是很短。", "她的头发短很。"]}, {"ch": "12", "nl": "Hij ziet er goed uit.", "c": "他长得很好看。", "p": "Tā zhǎng de hěn hǎokàn.", "fout": ["他长得很是好看。", "他长得好看很。"]}, {"ch": "13", "nl": "Ik sta vandaag om 7 uur op.", "c": "我今天七点起床。", "p": "Wǒ jīntiān qī diǎn qǐchuáng.", "fout": ["我起床七点今天。", "我七点起床今天。"]}, {"ch": "13", "nl": "Ik ga morgen naar school.", "c": "我明天上学。", "p": "Wǒ míngtiān shàngxué.", "fout": ["我上学明天。", "明天我上学。"]}, {"ch": "13", "nl": "Zij eet 's ochtends brood.", "c": "她早上吃面包。", "p": "Tā zǎoshang chī miànbāo.", "fout": ["她吃面包早上。", "早上她面包吃。"]}, {"ch": "13", "nl": "Hij drinkt 's avonds water.", "c": "他晚上喝水。", "p": "Tā wǎnshang hē shuǐ.", "fout": ["他喝水晚上。", "晚上他水喝。"]}, {"ch": "13", "nl": "Ik lees vandaag een boek.", "c": "我今天看书。", "p": "Wǒ jīntiān kàn shū.", "fout": ["我看书今天。", "今天我看书。"]}, {"ch": "13", "nl": "Zij gaat om 6 uur sporten.", "c": "她六点运动。", "p": "Tā liù diǎn yùndòng.", "fout": ["她运动六点。", "六点她运动。"]}, {"ch": "13", "nl": "Hij eet om 12 uur lunch.", "c": "他中午吃午饭。", "p": "Tā zhōngwǔ chī wǔfàn.", "fout": ["他吃午饭中午。", "中午他午饭吃。"]}, {"ch": "13", "nl": "Ik ga elke dag naar school.", "c": "我每天上学。", "p": "Wǒ měitiān shàngxué.", "fout": ["我上学每天。", "每天我上学。"]}, {"ch": "13", "nl": "Zij drinkt 's ochtends melk.", "c": "她早上喝牛奶。", "p": "Tā zǎoshang hē niúnǎi.", "fout": ["她喝牛奶早上。", "早上她牛奶喝。"]}, {"ch": "13", "nl": "Hij gaat om 10 uur slapen.", "c": "他十点睡觉。", "p": "Tā shí diǎn shuìjiào.", "fout": ["他睡觉十点。", "十点他睡觉。"]}, {"ch": "13", "nl": "Ik eet om 7 uur ontbijt.", "c": "我七点吃早饭。", "p": "Wǒ qī diǎn chī zǎofàn.", "fout": ["我吃早饭七点。", "七点我早饭吃。"]}, {"ch": "13", "nl": "Zij kijkt 's avonds tv.", "c": "她晚上看电视。", "p": "Tā wǎnshang kàn diànshì.", "fout": ["她看电视晚上。", "晚上她电视看。"]}, {"ch": "13", "nl": "Hij gaat om 8 uur naar werk.", "c": "他八点上班。", "p": "Tā bā diǎn shàngbān.", "fout": ["他上班八点。", "八点他上班。"]}, {"ch": "13", "nl": "Ik speel vandaag voetbal.", "c": "我今天踢足球。", "p": "Wǒ jīntiān tī zúqiú.", "fout": ["我踢足球今天。", "今天我足球踢。"]}, {"ch": "13", "nl": "Zij eet 's middags rijst.", "c": "她下午吃米饭。", "p": "Tā xiàwǔ chī mǐfàn.", "fout": ["她吃米饭下午。", "下午她米饭吃。"]}, {"ch": "13", "nl": "Hij leert elke dag Chinees.", "c": "他每天学汉语。", "p": "Tā měitiān xué Hànyǔ.", "fout": ["他学汉语每天。", "每天他汉语学。"]}, {"ch": "13", "nl": "Ik ga om 3 uur naar huis.", "c": "我三点回家。", "p": "Wǒ sān diǎn huí jiā.", "fout": ["我回家三点。", "三点我回家。"]}, {"ch": "13", "nl": "Zij eet fruit na school.", "c": "她放学吃水果。", "p": "Tā fàngxué chī shuǐguǒ.", "fout": ["她吃水果放学。", "放学她水果吃。"]}, {"ch": "13", "nl": "Hij drinkt om 9 uur thee.", "c": "他九点喝茶。", "p": "Tā jiǔ diǎn hē chá.", "fout": ["他喝茶九点。", "九点他茶喝。"]}, {"ch": "13", "nl": "Ik ga gisteren naar school.", "c": "我昨天上学。", "p": "Wǒ zuótiān shàngxué.", "fout": ["我上学昨天。", "昨天我上学。"]}, {"ch": "13", "nl": "Zij eet om 6 uur avondeten.", "c": "她六点吃晚饭。", "p": "Tā liù diǎn chī wǎnfàn.", "fout": ["她吃晚饭六点。", "六点她晚饭吃。"]}, {"ch": "13", "nl": "Hij staat om 6 uur op.", "c": "他六点起床。", "p": "Tā liù diǎn qǐchuáng.", "fout": ["他起床六点。", "六点他起床。"]}, {"ch": "13", "nl": "Ik zwem vandaag.", "c": "我今天游泳。", "p": "Wǒ jīntiān yóuyǒng.", "fout": ["我游泳今天。", "今天我游泳。"]}, {"ch": "13", "nl": "Zij gaat na school naar huis.", "c": "她放学回家。", "p": "Tā fàngxué huí jiā.", "fout": ["她回家放学。", "放学她家回。"]}, {"ch": "13", "nl": "Hij eet om 8 uur ei.", "c": "他八点吃鸡蛋。", "p": "Tā bā diǎn chī jīdàn.", "fout": ["他吃鸡蛋八点。", "八点他鸡蛋吃。"]}, {"ch": "14", "nl": "Ik houd van muziek luisteren.", "c": "我喜欢听音乐。", "p": "Wǒ xǐhuan tīng yīnyuè.", "fout": ["我听音乐喜欢。", "喜欢我听音乐。"]}, {"ch": "14", "nl": "Ik houd van voetballen.", "c": "我喜欢踢足球。", "p": "Wǒ xǐhuan tī zúqiú.", "fout": ["我踢足球喜欢。", "喜欢我踢足球。"]}, {"ch": "14", "nl": "Ik houd van boeken lezen.", "c": "我喜欢看书。", "p": "Wǒ xǐhuan kàn shū.", "fout": ["我看书喜欢。", "喜欢我看书。"]}, {"ch": "14", "nl": "Ik houd van zwemmen.", "c": "我喜欢游泳。", "p": "Wǒ xǐhuan yóuyǒng.", "fout": ["我游泳喜欢。", "喜欢我游泳。"]}, {"ch": "14", "nl": "Ik houd van dansen.", "c": "我喜欢跳舞。", "p": "Wǒ xǐhuan tiàowǔ.", "fout": ["我跳舞喜欢。", "喜欢我跳舞。"]}, {"ch": "14", "nl": "Ik houd van zingen.", "c": "我喜欢唱歌。", "p": "Wǒ xǐhuan chàng gē.", "fout": ["我唱歌喜欢。", "喜欢我唱歌。"]}, {"ch": "14", "nl": "Ik houd van basketbal.", "c": "我喜欢打篮球。", "p": "Wǒ xǐhuan dǎ lánqiú.", "fout": ["我打篮球喜欢。", "喜欢我打篮球。"]}, {"ch": "14", "nl": "Zij houdt van tafeltennis.", "c": "她喜欢打乒乓球。", "p": "Tā xǐhuan dǎ pīngpāngqiú.", "fout": ["她打乒乓球喜欢。", "喜欢她打乒乓球。"]}, {"ch": "14", "nl": "Hij houdt van hardlopen.", "c": "他喜欢跑步。", "p": "Tā xǐhuan pǎobù.", "fout": ["他跑步喜欢。", "喜欢他跑步。"]}, {"ch": "14", "nl": "Ik houd van films kijken.", "c": "我喜欢看电影。", "p": "Wǒ xǐhuan kàn diànyǐng.", "fout": ["我看电影喜欢。", "喜欢我看电影。"]}, {"ch": "14", "nl": "Zij houdt van tekenen.", "c": "她喜欢画画。", "p": "Tā xǐhuan huà huà.", "fout": ["她画画喜欢。", "喜欢她画画。"]}, {"ch": "14", "nl": "Hij houdt van gamen.", "c": "他喜欢玩儿游戏。", "p": "Tā xǐhuan wánr yóuxì.", "fout": ["他玩儿游戏喜欢。", "喜欢他玩儿游戏。"]}, {"ch": "14", "nl": "Ik houd van Chinees leren.", "c": "我喜欢学汉语。", "p": "Wǒ xǐhuan xué Hànyǔ.", "fout": ["我学汉语喜欢。", "喜欢我学汉语。"]}, {"ch": "14", "nl": "Zij houdt van wandelen.", "c": "她喜欢走路。", "p": "Tā xǐhuan zǒulù.", "fout": ["她走路喜欢。", "喜欢她走路。"]}, {"ch": "14", "nl": "Hij houdt van autorijden.", "c": "他喜欢开车。", "p": "Tā xǐhuan kāichē.", "fout": ["他开车喜欢。", "喜欢他开车。"]}, {"ch": "14", "nl": "Ik houd van sport.", "c": "我喜欢运动。", "p": "Wǒ xǐhuan yùndòng.", "fout": ["我运动喜欢。", "喜欢我运动。"]}, {"ch": "14", "nl": "Zij houdt van fietsen.", "c": "她喜欢骑自行车。", "p": "Tā xǐhuan qí zìxíngchē.", "fout": ["她骑自行车喜欢。", "喜欢她骑自行车。"]}, {"ch": "14", "nl": "Hij houdt van reizen.", "c": "他喜欢旅游。", "p": "Tā xǐhuan lǚyóu.", "fout": ["他旅游喜欢。", "喜欢他旅游。"]}, {"ch": "14", "nl": "Ik houd van foto's maken.", "c": "我喜欢拍照。", "p": "Wǒ xǐhuan pāizhào.", "fout": ["我拍照喜欢。", "喜欢我拍照。"]}, {"ch": "14", "nl": "Zij houdt van koken.", "c": "她喜欢做饭。", "p": "Tā xǐhuan zuòfàn.", "fout": ["她做饭喜欢。", "喜欢她做饭。"]}, {"ch": "14", "nl": "Hij houdt van vissen.", "c": "他喜欢钓鱼。", "p": "Tā xǐhuan diào yú.", "fout": ["他钓鱼喜欢。", "喜欢他钓鱼。"]}, {"ch": "14", "nl": "Ik houd van piano spelen.", "c": "我喜欢弹钢琴。", "p": "Wǒ xǐhuan tán gāngqín.", "fout": ["我弹钢琴喜欢。", "喜欢我弹钢琴。"]}, {"ch": "14", "nl": "Zij houdt van tennis.", "c": "她喜欢打网球。", "p": "Tā xǐhuan dǎ wǎngqiú.", "fout": ["她打网球喜欢。", "喜欢她打网球。"]}, {"ch": "14", "nl": "Hij houdt van schaken.", "c": "他喜欢下棋。", "p": "Tā xǐhuan xià qí.", "fout": ["他下棋喜欢。", "喜欢他下棋。"]}, {"ch": "14", "nl": "Ik houd van internetten.", "c": "我喜欢上网。", "p": "Wǒ xǐhuan shàngwǎng.", "fout": ["我上网喜欢。", "喜欢我上网。"]}, {"ch": "15", "nl": "Twee honden.", "c": "两只狗。", "p": "Liǎng zhī gǒu.", "fout": ["二只狗。", "两狗。"]}, {"ch": "15", "nl": "Drie katten.", "c": "三只猫。", "p": "Sān zhī māo.", "fout": ["三猫。", "三只猫。"]}, {"ch": "15", "nl": "Eén vogel.", "c": "一只鸟。", "p": "Yì zhī niǎo.", "fout": ["一鸟。", "一条鸟。"]}, {"ch": "15", "nl": "Twee konijnen.", "c": "两只兔子。", "p": "Liǎng zhī tùzi.", "fout": ["二只兔子。", "两兔子。"]}, {"ch": "15", "nl": "Eén panda.", "c": "一只熊猫。", "p": "Yì zhī xióngmāo.", "fout": ["一熊猫。", "一条熊猫。"]}, {"ch": "15", "nl": "Drie vissen.", "c": "三条鱼。", "p": "Sān tiáo yú.", "fout": ["三只鱼。", "三鱼。"]}, {"ch": "15", "nl": "Twee paarden.", "c": "两匹马。", "p": "Liǎng pǐ mǎ.", "fout": ["二匹马。", "两马。"]}, {"ch": "15", "nl": "Vijf kippen.", "c": "五只鸡。", "p": "Wǔ zhī jī.", "fout": ["五鸡。", "五条鸡。"]}, {"ch": "15", "nl": "Eén koe.", "c": "一头牛。", "p": "Yì tóu niú.", "fout": ["一牛。", "一只牛。"]}, {"ch": "15", "nl": "Twee varkens.", "c": "两头猪。", "p": "Liǎng tóu zhū.", "fout": ["二头猪。", "两猪。"]}, {"ch": "15", "nl": "Vier honden.", "c": "四只狗。", "p": "Sì zhī gǒu.", "fout": ["四狗。", "二只狗。"]}, {"ch": "15", "nl": "Eén tijger.", "c": "一只老虎。", "p": "Yì zhī lǎohǔ.", "fout": ["一老虎。", "一条老虎。"]}, {"ch": "15", "nl": "Twee olifanten.", "c": "两头大象。", "p": "Liǎng tóu dàxiàng.", "fout": ["二头大象。", "两大象。"]}, {"ch": "15", "nl": "Drie muizen.", "c": "三只老鼠。", "p": "Sān zhī lǎoshǔ.", "fout": ["三老鼠。", "三条老鼠。"]}, {"ch": "15", "nl": "Eén beer.", "c": "一只熊。", "p": "Yì zhī xióng.", "fout": ["一熊。", "一条熊。"]}, {"ch": "15", "nl": "Twee schapen.", "c": "两只羊。", "p": "Liǎng zhī yáng.", "fout": ["二只羊。", "两羊。"]}, {"ch": "15", "nl": "Vijf vogels.", "c": "五只鸟。", "p": "Wǔ zhī niǎo.", "fout": ["五鸟。", "五条鸟。"]}, {"ch": "15", "nl": "Eén slang.", "c": "一条蛇。", "p": "Yì tiáo shé.", "fout": ["一只蛇。", "一蛇。"]}, {"ch": "15", "nl": "Twee eenden.", "c": "两只鸭子。", "p": "Liǎng zhī yāzi.", "fout": ["二只鸭子。", "两鸭子。"]}, {"ch": "15", "nl": "Drie huisdieren.", "c": "三只宠物。", "p": "Sān zhī chǒngwù.", "fout": ["三宠物。", "三条宠物。"]}, {"ch": "15", "nl": "Eén muis.", "c": "一只老鼠。", "p": "Yì zhī lǎoshǔ.", "fout": ["一老鼠。", "一条老鼠。"]}, {"ch": "15", "nl": "Twee vissen in water.", "c": "两条鱼。", "p": "Liǎng tiáo yú.", "fout": ["二条鱼。", "两鱼。"]}, {"ch": "15", "nl": "Vier katten.", "c": "四只猫。", "p": "Sì zhī māo.", "fout": ["四猫。", "二只猫。"]}, {"ch": "15", "nl": "Eén dier.", "c": "一只动物。", "p": "Yì zhī dòngwù.", "fout": ["一动物。", "一条动物。"]}, {"ch": "15", "nl": "Twee huisdieren thuis.", "c": "两只宠物。", "p": "Liǎng zhī chǒngwù.", "fout": ["二只宠物。", "两宠物。"]}]};
+teken();
+</script>
+</body>
+</html>
