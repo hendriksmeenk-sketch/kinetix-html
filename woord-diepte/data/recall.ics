@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WOORD DIEPTE 3.5//NL
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Mandarin Recall
+BEGIN:VEVENT
+UID:woord-diepte-0-20250920T191849Z@local
+DTSTAMP:20260922T214102Z
+DTSTART:20250920T191849Z
+DTEND:20250920T193349Z
+SUMMARY:Recall: 子 (zǐ)
+DESCRIPTION:VORM 3.5 10 min\nkaart http://127.0.0.1:8770/index.html?hz=子#s1\nklank http://127.0.0.1:8770/index.html?hz=子#s2\nschrift http://127.0.0.1:8770/index.html?hz=子#s3\nbeeld http://127.0.0.1:8770/index.html?hz=子#s4\nrecall http://127.0.0.1:8770/index.html?hz=子#s5\nstreep http://127.0.0.1:8770/index.html?hz=子#s6\nYES http://127.0.0.1:8770/index.html?ja=子\nNO http://127.0.0.1:8770/index.html?nee=子
+END:VEVENT
+BEGIN:VEVENT
+UID:woord-diepte-1-20250920T200849Z@local
+DTSTAMP:20260922T214102Z
+DTSTART:20250920T200849Z
+DTEND:20250920T202349Z
+SUMMARY:Recall: 子 (zǐ)
+DESCRIPTION:VORM 3.5 1 uur\nkaart http://127.0.0.1:8770/index.html?hz=子#s1\nklank http://127.0.0.1:8770/index.html?hz=子#s2\nschrift http://127.0.0.1:8770/index.html?hz=子#s3\nbeeld http://127.0.0.1:8770/index.html?hz=子#s4\nrecall http://127.0.0.1:8770/index.html?hz=子#s5\nstreep http://127.0.0.1:8770/index.html?hz=子#s6\nYES http://127.0.0.1:8770/index.html?ja=子\nNO http://127.0.0.1:8770/index.html?nee=子
+END:VEVENT
+BEGIN:VEVENT
+UID:woord-diepte-2-20250921T190849Z@local
+DTSTAMP:20260922T214102Z
+DTSTART:20250921T190849Z
+DTEND:20250921T192349Z
+SUMMARY:Recall Batch: 1 woorden
+DESCRIPTION:VORM 3.5 1 dag\nkaart http://127.0.0.1:8770/index.html?hz=子#s1\nklank http://127.0.0.1:8770/index.html?hz=子#s2\nschrift http://127.0.0.1:8770/index.html?hz=子#s3\nbeeld http://127.0.0.1:8770/index.html?hz=子#s4\nrecall http://127.0.0.1:8770/index.html?hz=子#s5\nstreep http://127.0.0.1:8770/index.html?hz=子#s6\nYES http://127.0.0.1:8770/index.html?batch=子&ok=1\nNO http://127.0.0.1:8770/index.html?batch=子&ok=0
+END:VEVENT
+BEGIN:VEVENT
+UID:woord-diepte-3-20250927T190849Z@local
+DTSTAMP:20260922T214102Z
+DTSTART:20250927T190849Z
+DTEND:20250927T192349Z
+SUMMARY:Recall Batch: 1 woorden
+DESCRIPTION:VORM 3.5 1 week\nkaart http://127.0.0.1:8770/index.html?hz=子#s1\nklank http://127.0.0.1:8770/index.html?hz=子#s2\nschrift http://127.0.0.1:8770/index.html?hz=子#s3\nbeeld http://127.0.0.1:8770/index.html?hz=子#s4\nrecall http://127.0.0.1:8770/index.html?hz=子#s5\nstreep http://127.0.0.1:8770/index.html?hz=子#s6\nYES http://127.0.0.1:8770/index.html?batch=子&ok=1\nNO http://127.0.0.1:8770/index.html?batch=子&ok=0
+END:VEVENT
+BEGIN:VEVENT
+UID:woord-diepte-4-20251020T190849Z@local
+DTSTAMP:20260922T214102Z
+DTSTART:20251020T190849Z
+DTEND:20251020T192349Z
+SUMMARY:Recall Batch: 1 woorden
+DESCRIPTION:VORM 3.5 1 maand\nkaart http://127.0.0.1:8770/index.html?hz=子#s1\nklank http://127.0.0.1:8770/index.html?hz=子#s2\nschrift http://127.0.0.1:8770/index.html?hz=子#s3\nbeeld http://127.0.0.1:8770/index.html?hz=子#s4\nrecall http://127.0.0.1:8770/index.html?hz=子#s5\nstreep http://127.0.0.1:8770/index.html?hz=子#s6\nYES http://127.0.0.1:8770/index.html?batch=子&ok=1\nNO http://127.0.0.1:8770/index.html?batch=子&ok=0
+END:VEVENT
+BEGIN:VEVENT
+UID:woord-diepte-5-20260920T190849Z@local
+DTSTAMP:20260922T214102Z
+DTSTART:20260920T190849Z
+DTEND:20260920T192349Z
+SUMMARY:Recall Batch: 1 woorden
+DESCRIPTION:VORM 3.5 1 jaar\nkaart http://127.0.0.1:8770/index.html?hz=子#s1\nklank http://127.0.0.1:8770/index.html?hz=子#s2\nschrift http://127.0.0.1:8770/index.html?hz=子#s3\nbeeld http://127.0.0.1:8770/index.html?hz=子#s4\nrecall http://127.0.0.1:8770/index.html?hz=子#s5\nstreep http://127.0.0.1:8770/index.html?hz=子#s6\nYES http://127.0.0.1:8770/index.html?batch=子&ok=1\nNO http://127.0.0.1:8770/index.html?batch=子&ok=0
+END:VEVENT
+END:VCALENDAR

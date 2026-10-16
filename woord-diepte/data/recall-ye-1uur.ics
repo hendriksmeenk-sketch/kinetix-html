@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//WOORD DIEPTE 3.5//NL
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Mandarin Recall 爷
+BEGIN:VEVENT
+UID:woord-diepte-ye-1uur-20260923T001000Z@local
+DTSTAMP:20260922T231027Z
+DTSTART:20260923T001000Z
+DTEND:20260923T002500Z
+SUMMARY:Recall: 爷 (yé)
+DESCRIPTION:VORM 3.5 1 uur\nkaart http://127.0.0.1:8788/index.html?hz=爷#s1\nklank http://127.0.0.1:8788/index.html?hz=爷#s2\nschrift http://127.0.0.1:8788/index.html?hz=爷#s3\nbeeld http://127.0.0.1:8788/index.html?hz=爷#s4\nrecall http://127.0.0.1:8788/index.html?hz=爷#s5\nstreep http://127.0.0.1:8788/index.html?hz=爷#s6\nYES http://127.0.0.1:8788/index.html?ja=爷\nNO http://127.0.0.1:8788/index.html?nee=爷
+END:VEVENT
+END:VCALENDAR
