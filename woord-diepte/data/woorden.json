@@ -1,622 +1,896 @@
 {
-  "schema": 35,
-  "hersenen": "Krijger",
-  "woorden": [
-    {
-      "hz": "一",
-      "pinyin": "yī",
-      "toon": "1",
-      "vertaling": "één",
-      "heelRadicaal": true,
-      "radicalen": "🔴一🔴 — het hele teken is radicaal",
-      "klankhook": "IE! (NL ie) / ee (EN) / i (ES) – 1e toon plank",
-      "beeldhook": "IK trek één horizon tot de taxi-spiegel.",
-      "plek": "Dashboard, Winterdijk klaarstaan",
-      "actie": "Wijs één streep in de lucht. Stem hoog en vlak.",
-      "klank": "yī. Toon 1: plank, hoog, geen dal.\nNL-brug: het woordje IE, lang en strak.\nEN-brug: ee in see, maar korter, als een piep.\nES-brug: i in sí, zonder de s.\nToonbrug: je blijft boven, als de taxispiegel. Geen hurk.\nKlank → woord: die piep IS de ene lijn.\nWoord → klank: één ding, één toon, IE!",
-      "schrift": "Streken: 1.\n🔴一🔴 pictogram: horizon / één balk. Heel teken is radicaal.\nFunctie: betekenisradicaal (en het hele teken).\nGeschiedenis: orakelbotten al één streep. FEIT. Geen extra component.\nKlassiek vs modern: 一 blijft los. In 一百, 一点 zit het vast in een woord.\n2026: 一 in chat als 'een beetje' (有一点). AI vertaalt 一 vaak als 'a/an' en mist de telwoord-wet (een + maatwoord).",
-      "beeld": "BEELD. Ik sta klaar in de 4960. Spiegel. IK trek met de wijsvinger één oranje lijn over het glas, zo lang als de horizon. De lijn zoemt IE! en blijft hangen. Lotus tikt op de ruit: één. Ster lacht. De lijn is te groot, hij scheurt de spiegel niet maar trilt. Hitte van de cabine. IK brul: IE!",
-      "recallDoe": [
-        "Kijk weg. Trek in de lucht één horizontale streep.",
-        "Zeg yī op plank-hoogte. Blijf boven. Niet dalen.",
-        "Roep IE! (NL) / ee (EN) / i (ES).",
-        "Voel: één ding. Eén toon. Eén radicaal, helemaal rood.",
-        "Schrijf in de lucht. Eén streek. Links naar rechts.",
-        "Zie de taxi-spiegel. Jij trekt de horizon.",
-        "Fluister yī, dan brul IE!",
-        "Zeg: IK trek één horizon tot de taxi-spiegel."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon + NL.",
-        "Welke klankhook (NL/EN/ES) en welke toonbrug?",
-        "Waarom is het hele teken rood?",
-        "Plek + actie: waar trek jij de streep?",
-        "Zeg 一 in 一百 zonder het teken te zien."
-      ],
-      "strekenLos": [
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "一"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": true,
-      "img": "",
-      "source": "woord_diepte",
-      "card_id": "wd-一"
-    },
-    {
-      "hz": "二",
-      "pinyin": "èr",
-      "toon": "4",
-      "vertaling": "twee",
-      "heelRadicaal": true,
-      "radicalen": "🔴二🔴 — het hele teken is radicaal",
-      "klankhook": "UR! (NL er) / are (EN, kort) / er (ES) – 4e toon val",
-      "beeldhook": "IK zie twee planken, de bovenste korter, en val met de toon.",
-      "plek": "Voordeur, twee drempels",
-      "actie": "Twee horizontale hakken in de lucht. Stem valt scherp.",
-      "klank": "èr. Toon 4: val, mes naar beneden.\nNL-brug: ER in 'eruit', maar korter, als een snauw.\nEN-brug: are, afgekapt.\nES-brug: er in ser, kort.\nToonbrug: je valt van de bovenste plank naar de onderste.\nKlank → twee planken die knallen.\nWoord → UR! twee, klaar.",
-      "schrift": "Streken: 2.\n🔴二🔴 pictogram: twee balken. Bovenste vaak korter. Heel teken radicaal.\nFEIT: orakelbotten twee strepen. Geen derde component.\nModern: 二 los; in 二十, 二月 vast. AI zegt 'two' en mist 二 vs 两 (twee als maat vs paar).",
-      "beeld": "BEELD. Drempel. Twee treden. De bovenste is te kort, Welp struikelt erover, absurd groot als een plank in de lucht. IK hak twee lijnen. De tweede klapt als metaal. UR! Val. Zweet op de klink.",
-      "recallDoe": [
-        "Twee strepen in de lucht. Bovenste korter.",
-        "Zeg èr met een val. Mes naar beneden.",
-        "Roep UR! / are / er.",
-        "Voel twee drempels onder je voeten.",
-        "Schrijf 二: streek 1, streek 2.",
-        "Niet 两. Dit is 二.",
-        "Fluister, dan val-brul.",
-        "Zeg de beeldhook hardop."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon 4 + NL.",
-        "Waarom is de bovenste streep korter (beeld, niet 说文-mythe)?",
-        "Klankhook NL/EN/ES?",
-        "Wanneer 二, wanneer 两? Als je het niet weet: ONBEKEND, niet gokken.",
-        "Plek + actie."
-      ],
-      "strekenLos": [
-        "㇐ 横",
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "一",
-        "二"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": true,
-      "img": "",
-      "source": "woord_diepte",
-      "card_id": "wd-二"
-    },
-    {
-      "hz": "三",
-      "pinyin": "sān",
-      "toon": "1",
-      "vertaling": "drie",
-      "heelRadicaal": true,
-      "radicalen": "🔴三🔴 — het hele teken is radicaal",
-      "klankhook": "SAAN! (NL saan) / sun-zonder-n (EN) / san (ES) – 1e toon plank",
-      "beeldhook": "IK stapel drie planken tot een hek voor de deur.",
-      "plek": "Voordeur, hek van drie latten",
-      "actie": "Drie horizontale strepen. Stem blijft hoog.",
-      "klank": "sān. Toon 1 plank.\nNL-brug: SAAN, lang, neus.\nEN-brug: bijna sun, maar saan.\nES-brug: san in Santa, zonder ta.\nToonbrug: drie latten, allemaal even hoog in de stem.\nKlank → drie. Woord → SAAN!",
-      "schrift": "Streken: 3.\n🔴三🔴 drie balken. Pictogram. Heel radicaal.\nFEIT: orakelbotten drie strepen.\nModern: 三; 三月, 三个. AI telt 'three' goed, faalt op 三 vs 两 vs 俩 in spraak.",
-      "beeld": "BEELD. Voordeur. IK nagel drie oranje latten tot een hek. De middelste trilt. Ster tikt er drie keer op. SAAN! blijft in de straat hangen, te lang, te luid.",
-      "recallDoe": [
-        "Drie strepen in de lucht. Tel 1-2-3.",
-        "Zeg sān op de plank. Niet dalen.",
-        "Roep SAAN! / san.",
-        "Zie het hek van drie latten.",
-        "Schrijf 三 groeiend: 一, 二, 三.",
-        "Hoor drie tikken op de deur.",
-        "Fluister dan brul.",
-        "Beeldhook hardop."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon + NL.",
-        "Klankhook drie bruggen?",
-        "Hoeveel streken, in welke volgorde?",
-        "Plek + actie.",
-        "Zeg 三个 zonder het teken."
-      ],
-      "strekenLos": [
-        "㇐ 横",
-        "㇐ 横",
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "一",
-        "二",
-        "三"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": true,
-      "img": "",
-      "source": "woord_diepte",
-      "card_id": "wd-三"
-    },
-    {
-      "hz": "十",
-      "pinyin": "shí",
-      "toon": "2",
-      "vertaling": "tien",
-      "heelRadicaal": true,
-      "radicalen": "🔴十🔴 — het hele teken is radicaal",
-      "klankhook": "SJR! (NL sjir, stijgend) / sure-afgekapt (EN) / shi (ES) – 2e toon trap op",
-      "beeldhook": "IK kruis de wegen in Arnhem tot een plus.",
-      "plek": "Kruising in Arnhem, in de taxi",
-      "actie": "Eén verticale, één horizontale. Stem stijgt de trap op.",
-      "klank": "shí. Toon 2: trap omhoog.\nNL-brug: SJIR, alsof je vraagt.\nEN-brug: sure, alleen de sj-start, dan omhoog.\nES-brug: shi.\nToonbrug: je komt de kruising op, de toon gaat mee omhoog.\nKlank → plus-teken. Woord → SJR!",
-      "schrift": "Streken: 2 (竖, 横).\n🔴十🔴 pictogram: kruis / tien. Heel radicaal.\nFEIT: oude vorm vaak een verticale lijn met knop; later kruis.\nModern: 十, 十一, 二十. AI leest 十 sometimes as 'cross' in plaatjes, niet als tien.",
-      "beeld": "BEELD. IK rijd de kruising op. Twee wegen, plus. De paal is te groot, hij scheurt de lucht. Lotus wijst: tien. De toon klimt. SJR!",
-      "recallDoe": [
-        "Teken een plus in de lucht: eerst verticaal, dan horizontaal.",
-        "Zeg shí stijgend. Trap op.",
-        "Roep SJR!",
-        "Zie de kruising Arnhem.",
-        "Schrijf 十: 1 竖 2 横.",
-        "Tien vingers. Kruis ze.",
-        "Fluister, dan stijg-brul.",
-        "Beeldhook hardop."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon 2 + NL.",
-        "Welke streek eerst?",
-        "Klankhook + toonbrug?",
-        "Plek (welke kruising)?",
-        "二十: wat is 十 hier?"
-      ],
-      "strekenLos": [
-        "㇑ 竖",
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "丨",
-        "十"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": true,
-      "img": "",
-      "source": "woord_diepte",
-      "card_id": "wd-十"
-    },
-    {
-      "hz": "百",
-      "pinyin": "bǎi",
-      "toon": "3",
-      "vertaling": "honderd",
-      "heelRadicaal": false,
-      "radicalen": "🔴一🔴 (één) + ⚫白⚫ (wit) — 一 is radicaal-component",
-      "klankhook": "BAI! (NL bai) / bye (EN) / bai (ES) – 3e toon dal-veer",
-      "beeldhook": "IK hurk onder honderd witte briefjes tot ik veer.",
-      "plek": "Keuken-tafel, stapel briefjes",
-      "actie": "Hurk (toon 3), veer, til de stapel.",
-      "klank": "bǎi. Toon 3 vallei: hurk, veer.\nNL-brug: BAI, als 'bye' met dal.\nEN-brug: bye, maar hurk eerst.\nES-brug: bai / bye.\nToonbrug: je zakt onder de stapel en komt terug.\nKlank → honderd. Woord → BAI!",
-      "schrift": "Streken: 6.\nDelen: 🔴一🔴 boven + ⚫白⚫ (wit). Functie: 白 is vaak klankcomponent; 一 betekenis 'veel/één honderd'. 说文-detail: ONBEKEND hier, niet verzinnen.\nModern: 一百 = honderd. 白 alleen ≠ honderd.\nAI vertaalt 百 als 100, mist 老百姓, 百分.",
-      "beeld": "BEELD. Keuken. Honderd witte briefjes, te veel, ze dwarrelen. IK hurk tot de stoel kraakt, veer, til de stapel. BAI! Ster bladert. Papier ruikt droog.",
-      "recallDoe": [
-        "Hurk. Veer. Zeg bǎi.",
-        "Roep BAI! / bye.",
-        "Wijs: boven 一, onder 白.",
-        "Schrijf 百 in de lucht, zes streken, groeiend.",
-        "Niet 白 alleen. 百 is honderd.",
-        "Voel de stapel papier.",
-        "Fluister de vallei, brul de veer.",
-        "Beeldhook hardop."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon 3 + NL.",
-        "Welke twee delen? Wat is rood?",
-        "Klankhook + hurk-veer?",
-        "一百 vs 白: verschil.",
-        "ONBEKEND: wat durf jij niet te verzinnen over 说文?"
-      ],
-      "strekenLos": [
-        "㇐",
-        "㇔",
-        "㇕",
-        "㇐",
-        "㇑",
-        "㇐"
-      ],
-      "strekenSamen": [
-        "一",
-        "丶",
-        "白…",
-        "百"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": true,
-      "img": "",
-      "source": "woord_diepte",
-      "card_id": "wd-百"
-    },
-    {
-      "hz": "零",
-      "pinyin": "líng",
-      "toon": "2",
-      "vertaling": "nul",
-      "heelRadicaal": false,
-      "radicalen": "🔴雨🔴 (regen) + ⚫令⚫ (bevel/klank) — 雨 is radicaal",
-      "klankhook": "LING! (NL ling) / linger-afgekapt (EN) / lin (ES) – 2e toon trap op",
-      "beeldhook": "IK hoor regen op nul, en de toon klimt.",
-      "plek": "Dak van de taxi, regen",
-      "actie": "Wijs een lege o. Stem stijgt.",
-      "klank": "líng. Toon 2 stijgend.\nNL-brug: LING in 'lingo', omhoog.\nEN-brug: linger, alleen lin-.\nES-brug: lin.\nToonbrug: regen begint, de toon klimt.\nKlank → nul/leeg + regen. Woord → LING!",
-      "schrift": "Streken: 13.\n🔴雨🔴 regen (betekenisradicaal) + ⚫令⚫ (klank, 'bevel'). FEIT: 零 was 'motregen/rest', later 'nul' in getallen.\nModern: 零 = 0 in 一百零八. AI ziet 零 als 'zero' of 'odd' (零碎) en mixt ze.",
-      "beeld": "BEELD. Taxi-dak. Regen, te hard, het metaal kraakt. Op de meter staat 0. IK wijs de lege o. LING! stijgt met de ruitenwissers. Lotus zegt: niks, nul.",
-      "recallDoe": [
-        "Wijs een ronde nul in de lucht.",
-        "Zeg líng stijgend.",
-        "Roep LING!",
-        "Zie regen (雨) boven het teken.",
-        "Niet 令 alleen. 零 heeft regen.",
-        "Hoor ruitenwissers.",
-        "Fluister, dan stijg.",
-        "Beeldhook hardop."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon 2 + NL.",
-        "Welk radicaal is rood? Wat doet 令?",
-        "Klankhook drie bruggen?",
-        "一百零八: waar zit 零?",
-        "Plek + actie."
-      ],
-      "strekenLos": [
-        "雨-blok",
-        "令-blok"
-      ],
-      "strekenSamen": [
-        "雨",
-        "零"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": true,
-      "img": "",
-      "source": "woord_diepte",
-      "card_id": "wd-零"
-    },
-    {
-      "hz": "子",
-      "heelRadicaal": true,
-      "pinyin": "zǐ",
-      "toon": "3",
-      "vertaling": "zoon, kind, meester, zaad",
-      "klankhook": "DZUH! (NL zoem) / doo-ish (EN) / — 3e toon dal",
-      "beeldhook": "IK ben een kind dat zijn armen naar de wereld uitstrekt.",
-      "plek": "In de wieg, naast het bed",
-      "actie": "Een baby die met beide armpjes omhoog ligt te trappelen",
-      "radicalen": "🔴子🔴 — het hele teken is radicaal",
-      "klank": "zǐ — derde toon.\n\nDe derde toon is een vallei: je stem zakt diep weg alsof je iets zwaars laat vallen, en dan veert hij weer omhoog. Het is de toon van voorzichtigheid, van \"kind?\" — klein, maar met kracht.\n\nKlankhook: \"DZUH!\" — stel je voor: een bij zoemt vlak bij je oor. Dzzzzz. Plotseling duikt hij weg, de diepte in, en komt weer omhoog. Dat is zǐ. Niet \"tsee\" (vlak), niet \"dzí\" (stijgend), maar zǐ — de zoemende vallei.",
-      "schrift": "Aantal streken: 3\n\nRadicalen en componenten:\n\n🔴子🔴 (zǐ) — kind, zoon. Dit is het radicaal. Het hele teken is radicaal. Er zijn geen niet-radicale componenten.\n\nFunctie: 子 is een puur radicaal. Pictogram: een baby met een groot hoofd, armpjes uitgestrekt, benen die nog niet kunnen lopen. Soms een kind in een wieg, armen omhoog.\n\nGeschiedenis: een van de oudste tekens. Shang, schildpadschilden en ossenbotten. Toen een tekening van een baby: rond hoofd, twee armpjes omhoog, lijfje dat nog niet rechtop kon. Zhou: gestileerd. Han: wat het nu is. 子 keert terug in 好, 字, 学, 孩.\n\nStreek 1: ㇇ (横撇/横钩) — armpjes omhoog, dan naar links.\nStreek 2: ㇚ (竖钩) — hoofd en lijfje, haak onderaan.\nStreek 3: ㇐ (横) — wieg, of de armen die het kind vasthouden.\n\nBeeldhook: IK ben een kind dat zijn armen naar de wereld uitstrekt.",
-      "beeld": "Ik sta in de slaapkamer. Het is nacht. De maan schijnt door het raam en werpt een zilveren streep over de vloer. Ik ruik de zoete geur van babypoeder en warme melk. Naast mijn bed staat een wieg van wit riet, met een hemel van blauwe zijde.\n\nIn de wieg lig IK als pasgeborene. Groot hoofd, armpjes omhoog, beentjes trappelen. Dekens van donkerrood fluweel.\n\nIk strek verder, grijp de blauwe zijde, trek mezelf omhoog. De wieg kraakt. Ik stap eruit. Voetjes op de koude vloer.\n\nEen bij vliegt naar binnen. Dzzzzz. Duikt in mijn oor. Ik brul: DZUH!!!\n\nDe bij vliegt weg. De wieg is leeg. Ik ben 子 — het kind dat op eigen benen staat.",
-      "img": "zi-wieg.jpg",
-      "recallDoe": [
-        "Kijk naar 子. Bovenste haak = armpjes. Verticaal = lijf. Horizontaal = wieg.",
-        "Zeg hardop: zǐ — stem zakt als een vallei en veert omhoog.",
-        "Roep de klankhook: DZUH! Zoem als een bij, duik weg.",
-        "Zie het beeld: jij als baby in de wieg, armpjes omhoog.",
-        "Schrijf in de lucht. Drie streken. Tel: een, twee, drie.",
-        "Voel: het hele teken is radicaal. Alles is rood.",
-        "Ruik babypoeder. Hoor de bij.",
-        "Herhaal: IK ben een kind dat zijn armen naar de wereld uitstrekt.",
-        "Open #s2 (klank) en #s4 (beeld) via de terug-URLs. Blader, dek, haal op."
-      ],
-      "recallVragen": [
-        "Hoeveel streken heeft 子, en wat stelt elke streek voor?",
-        "Waarom is het hele teken rood?",
-        "Wat betekent 子 in het Nederlands?",
-        "Hoe klinkt de derde toon, en wat is de klankhook?",
-        "Noem drie andere tekens waarin 子 als radicaal voorkomt.",
-        "Productie A: teken → pinyin+toon+NL+hook zonder kijken.",
-        "Welke drie terug-URLs gebruik jij (kaart/klank/beeld)?"
-      ],
-      "strekenLos": [
-        "㇇ 横撇/横钩",
-        "㇚ 竖钩",
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "㇇",
-        "了",
-        "子"
-      ],
-      "status": "geleerd",
-      "station": 0,
-      "nextLabel": "10 min",
-      "geleerdAt": 1758395329651,
-      "h1": false,
-      "source": "woord_diepte",
-      "card_id": "wd-子"
-    },
-    {
-      "h1": false,
-      "hz": "好",
-      "pinyin": "hǎo",
-      "toon": "3",
-      "vertaling": "goed, mooi",
-      "heelRadicaal": false,
-      "radicalen": "🔴女🔴 + 🔴子🔴 — beide radicalen, beide rood",
-      "klankhook": "HAO! (NL hao) / how (EN, hurk) / jao-niet (ES almost) – 3e toon dal-veer",
-      "beeldhook": "IK hurk in de keuken, veer, til het kind, schreeuw HAO.",
-      "plek": "Keuken",
-      "actie": "Hurk, veer, til.",
-      "klank": "hǎo. Toon 3 vallei.\nNL-brug: HAO.\nEN-brug: how, maar hurk eerst.\nES-brug: bijna jao, niet.\nToonbrug: hurk tot de vloer, veer, HAO!",
-      "schrift": "Streken: 6. 会意. 🔴女🔴 + 🔴子🔴. 说文: 美也。从女、子。 Twijfel: 妇好 als naam. FEIT ≠ keuken.",
-      "beeld": "BEELD. Keuken. Reuzin in rood tilt het kind. Pannen. Hurk, veer, HAO. Geur: ui en koper.",
-      "img": "A-keuken.jpg",
-      "recallDoe": [
-        "Hurk. Veer. Til. Zeg hǎo.",
-        "Roep HAO!",
-        "Wijs 女 links, 子 rechts. Beide rood.",
-        "Schrijf groeiend: 女, dan 好.",
-        "Keuken ruiken. Geen 说文 noemen als beeld.",
-        "Open #s3 schrift en #s4 beeld. Wissel FEIT/BEELD.",
-        "Fluister vallei, brul veer.",
-        "Beeldhook hardop."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon 3 + NL.",
-        "Twee delen? Waarom beide rood?",
-        "六书? Twijfel?",
-        "Plek + actie.",
-        "FEIT vs BEELD: wat mag de keuken niet zijn?"
-      ],
-      "strekenLos": [
-        "撇点",
-        "撇",
-        "横",
-        "横撇",
-        "竖钩",
-        "横"
-      ],
-      "strekenSamen": [
-        "女 1",
-        "女 2",
-        "女",
-        "女+子 1",
-        "女+子 2",
-        "好"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "source": "woord_diepte",
-      "card_id": "wd-好"
-    },
-    {
-      "hz": "爷",
-      "source": "woord_diepte",
-      "card_id": "wd-爷",
-      "lemma_nl": "opa",
-      "heelRadicaal": false,
-      "pinyin": "yé",
-      "toon": "2",
-      "vertaling": "opa (vader van vader); meester (informeel)",
-      "klankhook": "YEH! (NL jee↑) / yeah↑ (EN) / ye (ES) – 2e toon trap omhoog",
-      "beeldhook": "IK ben de opa bij de voordeur; mijn wenkbrauw stijgt met de toon.",
-      "plek": "Voordeur Winterdijk, natte jassen",
-      "actie": "Wenkbrauw omhoog; wijs naar opa; toon stijgt als een vuurpijl",
-      "radicalen": "🔴父🔴 (vader) boven + ⚫卩⚫ (zegel/knie) onder — 父 is betekenisradicaal",
-      "klank": "yé. Toon 2: trap omhoog, alsof je ‘jaa?’ vraagt maar korter.\nNL-brug: YEH / jee die omhoog schiet.\nEN-brug: yeah, alleen de start, dan omhoog.\nES-brug: ye.\nToonbrug: wenkbrauw omhoog = toon omhoog.\nKlank → opa aan de deur.\nWoord → YEH!",
-      "schrift": "Streken: 6 (vereenvoudigd 爷).\nDelen: 🔴父🔴 boven (vader) + ⚫卩⚫ onder.\nFunctie: 父 = betekenis (vaderlijn); onderdeel vorm/historisch (DeepSeek Desktop 爷 klankanker).\nKlassiek vs modern: vaak 爷爷 (yéye) als lemma; 爷 los = aanspreekvorm opa/meester.\nAI-valkuil: ‘father’ i.p.v. opa; of 爷/爹 verwarring.\nBeeldhook: IK ben de opa bij de voordeur; mijn wenkbrauw stijgt met de toon.",
-      "beeld": "BEELD. Voordeur Winterdijk. Natte jassen. Pepernotenlucht. IK sta als opa; wenkbrauw omhoog. De toon schiet omhoog als een vuurpijl. De deur zwaait open. Iedereen lacht. YEH!",
-      "img": "",
-      "recallDoe": [
-        "Ik kijk naar 爷. Ik zie boven 父 (vader) en onder 卩.",
-        "Ik zeg hardop: yé — stijgende toon. Ik fluister, dan brul YEH!",
-        "Ik raak mijn wenkbrauw aan en laat hem stijgen met de toon.",
-        "Ik ruik de voordeur, natte jassen, pepernoten.",
-        "Ik schrijf 爷 met mijn vinger in de lucht, zes streken, groeiend.",
-        "Ik zeg: IK ben de opa bij de voordeur.",
-        "Ik open #s2 klank en #s4 beeld, dek, haal op."
-      ],
-      "recallVragen": [
-        "Teken → pinyin + toon 2 + NL (opa).",
-        "Welk deel is rood (父)? Wat doet het zwarte deel?",
-        "Klankhook NL/EN/ES + toonbrug?",
-        "Plek + actie (wenkbrauw)?",
-        "爷爷 vs 爷: wanneer welk?"
-      ],
-      "strekenLos": [
-        "丶",
-        "一",
-        "丿",
-        "㇏",
-        "𠃌",
-        "丨"
-      ],
-      "strekenSamen": [
-        "丶",
-        "义…",
-        "父…",
-        "爷"
-      ],
-      "status": "nieuw",
-      "station": 0,
-      "nextLabel": "—",
-      "h1": false,
-      "provenience": "DeepSeek Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)"
-    },
-    {
-      "hz": "字",
-      "heelRadicaal": false,
-      "pinyin": "zì",
-      "toon": "4",
-      "vertaling": "teken, karakter, woord (geschreven)",
-      "klankhook": "DZÉ! (NL: zet!) / 'zuh' kort gehakt — 4e toon valt",
-      "beeldhook": "IK leg een kind onder een dak en het leert tekens.",
-      "plek": "Onder het dak van de wieg-kamer, naast 子",
-      "actie": "Een kind onder een rieten dak krast een teken in de deken",
-      "radicalen": "🔴子🔴 kind (radicaal, Kangxi 39; geeft ook de klank zi) + ⚫宀⚫ dak (betekenisdeel)",
-      "klank": "zì — vierde toon.\n\nDe vierde toon valt hard, als een stempel. Zelfde klank als 子 zǐ, maar nu geen vallei: één klap naar beneden.\n\nKlankhook: \"DZÉ!\" — de bij uit de wieg landt en zet zich vast. 子 zǐ zoemt de vallei in; 字 zì slaat neer.",
-      "schrift": "Aantal streken: 6\n\n⚫宀⚫ (mián) — dak. Betekenisdeel.\n🔴子🔴 (zǐ) — kind. Het radicaal (Kangxi 39); geeft ook de klank zi en het beeld.\n\nOpbouw: dak boven, kind eronder. Een kind onder een dak leert tekens: zo vermenigvuldigen woorden zich.\n\nStreek 1: ㇔ 点\nStreek 2: ㇔ 点 (links)\nStreek 3: ㇖ 横钩\nStreek 4: ㇇ 横撇\nStreek 5: ㇚ 竖钩\nStreek 6: ㇐ 横\n\nBeeldhook: IK leg een kind onder een dak en het leert tekens.",
-      "beeld": "Ik sta weer in de slaapkamer van 子. Boven de wieg hangt nu een dak van wit riet, met een puntje bovenop.\n\nOnder dat dak zit IK als kind. In mijn hand een stukje houtskool. Ik kras een teken in de rode fluwelen deken.\n\nDe bij komt terug, landt op het teken en zet zich vast: DZÉ! Het teken blijft staan.\n\n子 was het kind. 字 is het kind onder een dak dat schrijft.",
-      "img": "zi-wieg.jpg",
-      "recallDoe": [
-        "Kijk naar 字. Boven = dak 宀 (grijs). Onder = 子 (rood, radicaal).",
-        "Zeg hardop: zì — stem valt in één klap.",
-        "Roep de klankhook: DZÉ! De bij zet zich vast.",
-        "Zie het beeld: kind onder een rieten dak krast een teken.",
-        "Schrijf in de lucht. Zes streken: drie dak, drie kind.",
-        "Contrast: 子 zǐ vallei, 字 zì klap.",
-        "Open #s2 (klank) en #s4 (beeld). Dek, haal op."
-      ],
-      "recallVragen": [
-        "Uit welke twee delen bestaat 字, en welke is radicaal?",
-        "Hoeveel streken heeft 字?",
-        "Wat betekent 字?",
-        "Wat is het toonverschil tussen 子 en 字?",
-        "Wat is de klankhook?",
-        "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
-      ],
-      "strekenLos": [
-        "㇔ 点",
-        "㇔ 点",
-        "㇖ 横钩",
-        "㇇ 横撇",
-        "㇚ 竖钩",
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "丶",
-        "宀",
-        "字"
-      ],
-      "status": "nieuw",
-      "h1": false,
-      "source": "woord_diepte",
-      "card_id": "wd-字",
-      "station": 0,
-      "nextLabel": "—"
-    },
-    {
-      "hz": "学",
-      "heelRadicaal": false,
-      "pinyin": "xué",
-      "toon": "2",
-      "vertaling": "leren, studeren; school",
-      "klankhook": "SJWÉ? (NL: 'sjwee?' vragend omhoog) / 'shweh?' (EN) — 2e toon stijgt",
-      "beeldhook": "IK ben het kind onder het dak, en de vonken boven mijn hoofd zijn wat ik leer.",
-      "plek": "Onder het dak van 字, nu met vonken erboven",
-      "actie": "Een kind steekt de hand op en roept vragend: xué?",
-      "radicalen": "🔴子🔴 kind (radicaal) + ⚫⺍⚫ vonken + ⚫冖⚫ deksel/dak",
-      "klank": "xué — tweede toon.\n\nDe tweede toon stijgt, als een vraag: 'ja?'. x is geen Nederlandse x: tong plat achter de ondertanden, een zachte 'sj'. ue klinkt als 'uu-è'.\n\nKlankhook: \"SJWÉ?\" — het kind steekt zijn vinger op en vraagt omhoog. 子 zǐ vallei, 字 zì klap, 学 xué vraag.",
-      "schrift": "Aantal streken: 8\n\n⚫⺍⚫ — drie vonken (kennis die erop valt).\n⚫冖⚫ — deksel, het dak zonder puntje.\n🔴子🔴 (zǐ) — kind. Het radicaal.\n\nOpbouw: vonken op een dak, kind eronder. Het kind onder het dak vangt de vonken op: het leert.\n\nStreek 1: ㇔ 点\nStreek 2: ㇔ 点\nStreek 3: ㇒ 撇\nStreek 4: ㇔ 点\nStreek 5: ㇖ 横钩\nStreek 6: ㇇ 横撇\nStreek 7: ㇚ 竖钩\nStreek 8: ㇐ 横\n\nBeeldhook: IK ben het kind onder het dak, en de vonken boven mijn hoofd zijn wat ik leer.",
-      "beeld": "Ik zit weer onder het rieten dak van 字. Het puntje is van het dak gevallen, er ligt nu een plat deksel.\n\nBoven het deksel spatten drie vonken, goud en warm. Ze zakken door het riet en landen op mijn hoofd.\n\nIk steek mijn hand op en vraag omhoog: SJWÉ?\n\nElke vonk wordt een teken in mijn hoofd. 子 was het kind. 字 schreef. 学 leert.",
-      "img": "zi-wieg.jpg",
-      "recallDoe": [
-        "Kijk naar 学. Boven: drie vonken en een deksel (grijs). Onder: 子 (rood).",
-        "Zeg hardop: xué — stem stijgt als een vraag.",
-        "Roep de klankhook: SJWÉ? Hand omhoog.",
-        "Zie het beeld: vonken vallen door het dak op het kind.",
-        "Schrijf in de lucht. Acht streken: drie vonken, twee deksel, drie kind.",
-        "Rij: 子 zǐ vallei, 字 zì klap, 学 xué vraag.",
-        "Open #s2 (klank) en #s4 (beeld). Dek, haal op."
-      ],
-      "recallVragen": [
-        "Uit welke delen bestaat 学, en welk deel is radicaal?",
-        "Hoeveel streken heeft 学?",
-        "Wat betekent 学?",
-        "Hoe spreek je x uit, en welke toon heeft xué?",
-        "Wat is het verschil tussen 字 en 学 in de bovenkant?",
-        "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
-      ],
-      "strekenLos": [
-        "㇔ 点",
-        "㇔ 点",
-        "㇒ 撇",
-        "㇔ 点",
-        "㇖ 横钩",
-        "㇇ 横撇",
-        "㇚ 竖钩",
-        "㇐ 横"
-      ],
-      "strekenSamen": [
-        "⺍",
-        "⺍ + 冖",
-        "学"
-      ],
-      "status": "nieuw",
-      "h1": false,
-      "source": "woord_diepte",
-      "card_id": "wd-学",
-      "station": 0,
-      "nextLabel": "—"
-    },
-    {
-      "hz": "孩",
-      "heelRadicaal": false,
-      "pinyin": "hái",
-      "toon": "2",
-      "vertaling": "kind (孩子 háizi)",
-      "klankhook": "HAAI? (NL: 'haai?' vragend omhoog) / 'high?' (EN) — 2e toon stijgt",
-      "beeldhook": "IK ben het kind naast het varken, en ik roep: haai?",
-      "plek": "Naast de wieg van 子, op de grond: een varken",
-      "actie": "Een kind wijst naar een varken en roept vragend: hái?",
-      "radicalen": "🔴子🔴 kind (radicaal, links, smal) + ⚫亥⚫ hài (klank)",
-      "klank": "hái — tweede toon.\n\nDe tweede toon stijgt, als een vraag. h is een schrapende h, achter in de keel. ai klinkt als 'aai'.\n\nKlankhook: \"HAAI?\" — het kind ziet het varken en vraagt omhoog. Het klankdeel 亥 hài valt (4e toon); 孩 hái stijgt.\n\nIn de les: 孩子 háizi, de tweede lettergreep is licht.",
-      "schrift": "Aantal streken: 9\n\n🔴子🔴 (zǐ) — kind. Het radicaal, links en smal. Let op: de laatste streek wordt 提 (omhoog), niet 横.\n⚫亥⚫ (hài) — 12e aardse tak, het varken. Geeft de klank.\n\nOpbouw: kind links, varken rechts.\n\nStreek 1: ㇇ 横撇\nStreek 2: ㇚ 竖钩\nStreek 3: ㇀ 提\nStreek 4: ㇔ 点\nStreek 5: ㇐ 横\nStreek 6: ㇜ 撇折\nStreek 7: ㇒ 撇\nStreek 8: ㇒ 撇\nStreek 9: ㇔ 点 (lang)\n\nBeeldhook: IK ben het kind naast het varken, en ik roep: haai?",
-      "beeld": "Ik sta weer in de slaapkamer van 子. Naast de wieg snuffelt een roze varken over de vloer.\n\nIK ben het kind. Ik klim uit de wieg, smal tegen de linkerkant gedrukt, en mijn laatste stap tilt mijn voet omhoog.\n\nHet varken kijkt me aan. Ik wijs en roep omhoog: HAAI?\n\nHet varken knort terug, laag en hard: hài! 子 was het kind. 孩 is het kind dat het varken gevonden heeft.",
-      "img": "zi-wieg.jpg",
-      "recallDoe": [
-        "Kijk naar 孩. Links: 子 smal (rood). Rechts: 亥 varken (grijs).",
-        "Zeg hardop: hái — stem stijgt als een vraag.",
-        "Roep de klankhook: HAAI? Wijs naar het varken.",
-        "Zie het beeld: kind naast de wieg, varken op de grond.",
-        "Schrijf in de lucht. Negen streken: drie kind (laatste omhoog), zes varken.",
-        "Rij: 子 zǐ, 字 zì, 学 xué, 孩 hái.",
-        "Open #s2 (klank) en #s4 (beeld). Dek, haal op."
-      ],
-      "recallVragen": [
-        "Uit welke twee delen bestaat 孩, en welk deel is radicaal?",
-        "Waarom wordt de laatste streek van 子 hier 提?",
-        "Wat betekent 孩 en 孩子?",
-        "Welke toon heeft hái, en welke 亥 hài?",
-        "Wat is de klankhook?",
-        "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
-      ],
-      "strekenLos": [
-        "㇇ 横撇",
-        "㇚ 竖钩",
-        "㇀ 提",
-        "㇔ 点",
-        "㇐ 横",
-        "㇜ 撇折",
-        "㇒ 撇",
-        "㇒ 撇",
-        "㇔ 点"
-      ],
-      "strekenSamen": [
-        "子 (smal)",
-        "子 + 亠",
-        "孩"
-      ],
-      "status": "nieuw",
-      "h1": false,
-      "source": "woord_diepte",
-      "card_id": "wd-孩",
-      "station": 0,
-      "nextLabel": "—"
-    }
-  ],
-  "recallByLearner": {
-    "Krijger": {},
-    "Lotus": {},
-    "Tijger": {}
+ "schema": 35,
+ "hersenen": "Krijger",
+ "woorden": [
+  {
+   "hz": "一",
+   "pinyin": "yī",
+   "toon": "1",
+   "vertaling": "één",
+   "heelRadicaal": true,
+   "radicalen": "🔴一🔴 — het hele teken is radicaal",
+   "klankhook": "IE! (NL ie) / ee (EN) / i (ES) – 1e toon plank",
+   "beeldhook": "IK trek één horizon tot de taxi-spiegel.",
+   "plek": "Dashboard, Winterdijk klaarstaan",
+   "actie": "Wijs één streep in de lucht. Stem hoog en vlak.",
+   "klank": "yī. Toon 1: plank, hoog, geen dal.\nNL-brug: het woordje IE, lang en strak.\nEN-brug: ee in see, maar korter, als een piep.\nES-brug: i in sí, zonder de s.\nToonbrug: je blijft boven, als de taxispiegel. Geen hurk.\nKlank → woord: die piep IS de ene lijn.\nWoord → klank: één ding, één toon, IE!",
+   "schrift": "Streken: 1.\n🔴一🔴 pictogram: horizon / één balk. Heel teken is radicaal.\nFunctie: betekenisradicaal (en het hele teken).\nGeschiedenis: orakelbotten al één streep. FEIT. Geen extra component.\nKlassiek vs modern: 一 blijft los. In 一百, 一点 zit het vast in een woord.\n2026: 一 in chat als 'een beetje' (有一点). AI vertaalt 一 vaak als 'a/an' en mist de telwoord-wet (een + maatwoord).",
+   "beeld": "BEELD. Ik sta klaar in de 4960. Spiegel. IK trek met de wijsvinger één oranje lijn over het glas, zo lang als de horizon. De lijn zoemt IE! en blijft hangen. Lotus tikt op de ruit: één. Ster lacht. De lijn is te groot, hij scheurt de spiegel niet maar trilt. Hitte van de cabine. IK brul: IE!",
+   "recallDoe": [
+    "Kijk weg. Trek in de lucht één horizontale streep.",
+    "Zeg yī op plank-hoogte. Blijf boven. Niet dalen.",
+    "Roep IE! (NL) / ee (EN) / i (ES).",
+    "Voel: één ding. Eén toon. Eén radicaal, helemaal rood.",
+    "Schrijf in de lucht. Eén streek. Links naar rechts.",
+    "Zie de taxi-spiegel. Jij trekt de horizon.",
+    "Fluister yī, dan brul IE!",
+    "Zeg: IK trek één horizon tot de taxi-spiegel."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon + NL.",
+    "Welke klankhook (NL/EN/ES) en welke toonbrug?",
+    "Waarom is het hele teken rood?",
+    "Plek + actie: waar trek jij de streep?",
+    "Zeg 一 in 一百 zonder het teken te zien."
+   ],
+   "strekenLos": [
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "一"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": true,
+   "img": "",
+   "source": "woord_diepte",
+   "card_id": "wd-一"
+  },
+  {
+   "hz": "二",
+   "pinyin": "èr",
+   "toon": "4",
+   "vertaling": "twee",
+   "heelRadicaal": true,
+   "radicalen": "🔴二🔴 — het hele teken is radicaal",
+   "klankhook": "UR! (NL er) / are (EN, kort) / er (ES) – 4e toon val",
+   "beeldhook": "IK zie twee planken, de bovenste korter, en val met de toon.",
+   "plek": "Voordeur, twee drempels",
+   "actie": "Twee horizontale hakken in de lucht. Stem valt scherp.",
+   "klank": "èr. Toon 4: val, mes naar beneden.\nNL-brug: ER in 'eruit', maar korter, als een snauw.\nEN-brug: are, afgekapt.\nES-brug: er in ser, kort.\nToonbrug: je valt van de bovenste plank naar de onderste.\nKlank → twee planken die knallen.\nWoord → UR! twee, klaar.",
+   "schrift": "Streken: 2.\n🔴二🔴 pictogram: twee balken. Bovenste vaak korter. Heel teken radicaal.\nFEIT: orakelbotten twee strepen. Geen derde component.\nModern: 二 los; in 二十, 二月 vast. AI zegt 'two' en mist 二 vs 两 (twee als maat vs paar).",
+   "beeld": "BEELD. Drempel. Twee treden. De bovenste is te kort, Welp struikelt erover, absurd groot als een plank in de lucht. IK hak twee lijnen. De tweede klapt als metaal. UR! Val. Zweet op de klink.",
+   "recallDoe": [
+    "Twee strepen in de lucht. Bovenste korter.",
+    "Zeg èr met een val. Mes naar beneden.",
+    "Roep UR! / are / er.",
+    "Voel twee drempels onder je voeten.",
+    "Schrijf 二: streek 1, streek 2.",
+    "Niet 两. Dit is 二.",
+    "Fluister, dan val-brul.",
+    "Zeg de beeldhook hardop."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon 4 + NL.",
+    "Waarom is de bovenste streep korter (beeld, niet 说文-mythe)?",
+    "Klankhook NL/EN/ES?",
+    "Wanneer 二, wanneer 两? Als je het niet weet: ONBEKEND, niet gokken.",
+    "Plek + actie."
+   ],
+   "strekenLos": [
+    "㇐ 横",
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "一",
+    "二"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": true,
+   "img": "",
+   "source": "woord_diepte",
+   "card_id": "wd-二"
+  },
+  {
+   "hz": "三",
+   "pinyin": "sān",
+   "toon": "1",
+   "vertaling": "drie",
+   "heelRadicaal": true,
+   "radicalen": "🔴三🔴 — het hele teken is radicaal",
+   "klankhook": "SAAN! (NL saan) / sun-zonder-n (EN) / san (ES) – 1e toon plank",
+   "beeldhook": "IK stapel drie planken tot een hek voor de deur.",
+   "plek": "Voordeur, hek van drie latten",
+   "actie": "Drie horizontale strepen. Stem blijft hoog.",
+   "klank": "sān. Toon 1 plank.\nNL-brug: SAAN, lang, neus.\nEN-brug: bijna sun, maar saan.\nES-brug: san in Santa, zonder ta.\nToonbrug: drie latten, allemaal even hoog in de stem.\nKlank → drie. Woord → SAAN!",
+   "schrift": "Streken: 3.\n🔴三🔴 drie balken. Pictogram. Heel radicaal.\nFEIT: orakelbotten drie strepen.\nModern: 三; 三月, 三个. AI telt 'three' goed, faalt op 三 vs 两 vs 俩 in spraak.",
+   "beeld": "BEELD. Voordeur. IK nagel drie oranje latten tot een hek. De middelste trilt. Ster tikt er drie keer op. SAAN! blijft in de straat hangen, te lang, te luid.",
+   "recallDoe": [
+    "Drie strepen in de lucht. Tel 1-2-3.",
+    "Zeg sān op de plank. Niet dalen.",
+    "Roep SAAN! / san.",
+    "Zie het hek van drie latten.",
+    "Schrijf 三 groeiend: 一, 二, 三.",
+    "Hoor drie tikken op de deur.",
+    "Fluister dan brul.",
+    "Beeldhook hardop."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon + NL.",
+    "Klankhook drie bruggen?",
+    "Hoeveel streken, in welke volgorde?",
+    "Plek + actie.",
+    "Zeg 三个 zonder het teken."
+   ],
+   "strekenLos": [
+    "㇐ 横",
+    "㇐ 横",
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "一",
+    "二",
+    "三"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": true,
+   "img": "",
+   "source": "woord_diepte",
+   "card_id": "wd-三"
+  },
+  {
+   "hz": "十",
+   "pinyin": "shí",
+   "toon": "2",
+   "vertaling": "tien",
+   "heelRadicaal": true,
+   "radicalen": "🔴十🔴 — het hele teken is radicaal",
+   "klankhook": "SJR! (NL sjir, stijgend) / sure-afgekapt (EN) / shi (ES) – 2e toon trap op",
+   "beeldhook": "IK kruis de wegen in Arnhem tot een plus.",
+   "plek": "Kruising in Arnhem, in de taxi",
+   "actie": "Eén verticale, één horizontale. Stem stijgt de trap op.",
+   "klank": "shí. Toon 2: trap omhoog.\nNL-brug: SJIR, alsof je vraagt.\nEN-brug: sure, alleen de sj-start, dan omhoog.\nES-brug: shi.\nToonbrug: je komt de kruising op, de toon gaat mee omhoog.\nKlank → plus-teken. Woord → SJR!",
+   "schrift": "Streken: 2 (竖, 横).\n🔴十🔴 pictogram: kruis / tien. Heel radicaal.\nFEIT: oude vorm vaak een verticale lijn met knop; later kruis.\nModern: 十, 十一, 二十. AI leest 十 sometimes as 'cross' in plaatjes, niet als tien.",
+   "beeld": "BEELD. IK rijd de kruising op. Twee wegen, plus. De paal is te groot, hij scheurt de lucht. Lotus wijst: tien. De toon klimt. SJR!",
+   "recallDoe": [
+    "Teken een plus in de lucht: eerst verticaal, dan horizontaal.",
+    "Zeg shí stijgend. Trap op.",
+    "Roep SJR!",
+    "Zie de kruising Arnhem.",
+    "Schrijf 十: 1 竖 2 横.",
+    "Tien vingers. Kruis ze.",
+    "Fluister, dan stijg-brul.",
+    "Beeldhook hardop."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon 2 + NL.",
+    "Welke streek eerst?",
+    "Klankhook + toonbrug?",
+    "Plek (welke kruising)?",
+    "二十: wat is 十 hier?"
+   ],
+   "strekenLos": [
+    "㇑ 竖",
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "丨",
+    "十"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": true,
+   "img": "",
+   "source": "woord_diepte",
+   "card_id": "wd-十"
+  },
+  {
+   "hz": "百",
+   "pinyin": "bǎi",
+   "toon": "3",
+   "vertaling": "honderd",
+   "heelRadicaal": false,
+   "radicalen": "🔴一🔴 (één) + ⚫白⚫ (wit) — 一 is radicaal-component",
+   "klankhook": "BAI! (NL bai) / bye (EN) / bai (ES) – 3e toon dal-veer",
+   "beeldhook": "IK hurk onder honderd witte briefjes tot ik veer.",
+   "plek": "Keuken-tafel, stapel briefjes",
+   "actie": "Hurk (toon 3), veer, til de stapel.",
+   "klank": "bǎi. Toon 3 vallei: hurk, veer.\nNL-brug: BAI, als 'bye' met dal.\nEN-brug: bye, maar hurk eerst.\nES-brug: bai / bye.\nToonbrug: je zakt onder de stapel en komt terug.\nKlank → honderd. Woord → BAI!",
+   "schrift": "Streken: 6.\nDelen: 🔴一🔴 boven + ⚫白⚫ (wit). Functie: 白 is vaak klankcomponent; 一 betekenis 'veel/één honderd'. 说文-detail: ONBEKEND hier, niet verzinnen.\nModern: 一百 = honderd. 白 alleen ≠ honderd.\nAI vertaalt 百 als 100, mist 老百姓, 百分.",
+   "beeld": "BEELD. Keuken. Honderd witte briefjes, te veel, ze dwarrelen. IK hurk tot de stoel kraakt, veer, til de stapel. BAI! Ster bladert. Papier ruikt droog.",
+   "recallDoe": [
+    "Hurk. Veer. Zeg bǎi.",
+    "Roep BAI! / bye.",
+    "Wijs: boven 一, onder 白.",
+    "Schrijf 百 in de lucht, zes streken, groeiend.",
+    "Niet 白 alleen. 百 is honderd.",
+    "Voel de stapel papier.",
+    "Fluister de vallei, brul de veer.",
+    "Beeldhook hardop."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon 3 + NL.",
+    "Welke twee delen? Wat is rood?",
+    "Klankhook + hurk-veer?",
+    "一百 vs 白: verschil.",
+    "ONBEKEND: wat durf jij niet te verzinnen over 说文?"
+   ],
+   "strekenLos": [
+    "㇐",
+    "㇔",
+    "㇕",
+    "㇐",
+    "㇑",
+    "㇐"
+   ],
+   "strekenSamen": [
+    "一",
+    "丶",
+    "白…",
+    "百"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": true,
+   "img": "",
+   "source": "woord_diepte",
+   "card_id": "wd-百"
+  },
+  {
+   "hz": "零",
+   "pinyin": "líng",
+   "toon": "2",
+   "vertaling": "nul",
+   "heelRadicaal": false,
+   "radicalen": "🔴雨🔴 (regen) + ⚫令⚫ (bevel/klank) — 雨 is radicaal",
+   "klankhook": "LING! (NL ling) / linger-afgekapt (EN) / lin (ES) – 2e toon trap op",
+   "beeldhook": "IK hoor regen op nul, en de toon klimt.",
+   "plek": "Dak van de taxi, regen",
+   "actie": "Wijs een lege o. Stem stijgt.",
+   "klank": "líng. Toon 2 stijgend.\nNL-brug: LING in 'lingo', omhoog.\nEN-brug: linger, alleen lin-.\nES-brug: lin.\nToonbrug: regen begint, de toon klimt.\nKlank → nul/leeg + regen. Woord → LING!",
+   "schrift": "Streken: 13.\n🔴雨🔴 regen (betekenisradicaal) + ⚫令⚫ (klank, 'bevel'). FEIT: 零 was 'motregen/rest', later 'nul' in getallen.\nModern: 零 = 0 in 一百零八. AI ziet 零 als 'zero' of 'odd' (零碎) en mixt ze.",
+   "beeld": "BEELD. Taxi-dak. Regen, te hard, het metaal kraakt. Op de meter staat 0. IK wijs de lege o. LING! stijgt met de ruitenwissers. Lotus zegt: niks, nul.",
+   "recallDoe": [
+    "Wijs een ronde nul in de lucht.",
+    "Zeg líng stijgend.",
+    "Roep LING!",
+    "Zie regen (雨) boven het teken.",
+    "Niet 令 alleen. 零 heeft regen.",
+    "Hoor ruitenwissers.",
+    "Fluister, dan stijg.",
+    "Beeldhook hardop."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon 2 + NL.",
+    "Welk radicaal is rood? Wat doet 令?",
+    "Klankhook drie bruggen?",
+    "一百零八: waar zit 零?",
+    "Plek + actie."
+   ],
+   "strekenLos": [
+    "雨-blok",
+    "令-blok"
+   ],
+   "strekenSamen": [
+    "雨",
+    "零"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": true,
+   "img": "",
+   "source": "woord_diepte",
+   "card_id": "wd-零"
+  },
+  {
+   "hz": "子",
+   "heelRadicaal": true,
+   "pinyin": "zǐ",
+   "toon": "3",
+   "vertaling": "zoon, kind, meester, zaad",
+   "klankhook": "DZUH! (NL zoem) / doo-ish (EN) / — 3e toon dal",
+   "beeldhook": "IK ben een kind dat zijn armen naar de wereld uitstrekt.",
+   "plek": "In de wieg, naast het bed",
+   "actie": "Een baby die met beide armpjes omhoog ligt te trappelen",
+   "radicalen": "🔴子🔴 — het hele teken is radicaal",
+   "klank": "zǐ — derde toon.\n\nDe derde toon is een vallei: je stem zakt diep weg alsof je iets zwaars laat vallen, en dan veert hij weer omhoog. Het is de toon van voorzichtigheid, van \"kind?\" — klein, maar met kracht.\n\nKlankhook: \"DZUH!\" — stel je voor: een bij zoemt vlak bij je oor. Dzzzzz. Plotseling duikt hij weg, de diepte in, en komt weer omhoog. Dat is zǐ. Niet \"tsee\" (vlak), niet \"dzí\" (stijgend), maar zǐ — de zoemende vallei.",
+   "schrift": "Aantal streken: 3\n\nRadicalen en componenten:\n\n🔴子🔴 (zǐ) — kind, zoon. Dit is het radicaal. Het hele teken is radicaal. Er zijn geen niet-radicale componenten.\n\nFunctie: 子 is een puur radicaal. Pictogram: een baby met een groot hoofd, armpjes uitgestrekt, benen die nog niet kunnen lopen. Soms een kind in een wieg, armen omhoog.\n\nGeschiedenis: een van de oudste tekens. Shang, schildpadschilden en ossenbotten. Toen een tekening van een baby: rond hoofd, twee armpjes omhoog, lijfje dat nog niet rechtop kon. Zhou: gestileerd. Han: wat het nu is. 子 keert terug in 好, 字, 学, 孩.\n\nStreek 1: ㇇ (横撇/横钩) — armpjes omhoog, dan naar links.\nStreek 2: ㇚ (竖钩) — hoofd en lijfje, haak onderaan.\nStreek 3: ㇐ (横) — wieg, of de armen die het kind vasthouden.\n\nBeeldhook: IK ben een kind dat zijn armen naar de wereld uitstrekt.",
+   "beeld": "Ik sta in de slaapkamer. Het is nacht. De maan schijnt door het raam en werpt een zilveren streep over de vloer. Ik ruik de zoete geur van babypoeder en warme melk. Naast mijn bed staat een wieg van wit riet, met een hemel van blauwe zijde.\n\nIn de wieg lig IK als pasgeborene. Groot hoofd, armpjes omhoog, beentjes trappelen. Dekens van donkerrood fluweel.\n\nIk strek verder, grijp de blauwe zijde, trek mezelf omhoog. De wieg kraakt. Ik stap eruit. Voetjes op de koude vloer.\n\nEen bij vliegt naar binnen. Dzzzzz. Duikt in mijn oor. Ik brul: DZUH!!!\n\nDe bij vliegt weg. De wieg is leeg. Ik ben 子 — het kind dat op eigen benen staat.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 子. Bovenste haak = armpjes. Verticaal = lijf. Horizontaal = wieg.",
+    "Zeg hardop: zǐ — stem zakt als een vallei en veert omhoog.",
+    "Roep de klankhook: DZUH! Zoem als een bij, duik weg.",
+    "Zie het beeld: jij als baby in de wieg, armpjes omhoog.",
+    "Schrijf in de lucht. Drie streken. Tel: een, twee, drie.",
+    "Voel: het hele teken is radicaal. Alles is rood.",
+    "Ruik babypoeder. Hoor de bij.",
+    "Herhaal: IK ben een kind dat zijn armen naar de wereld uitstrekt.",
+    "Open #s2 (klank) en #s4 (beeld) via de terug-URLs. Blader, dek, haal op."
+   ],
+   "recallVragen": [
+    "Hoeveel streken heeft 子, en wat stelt elke streek voor?",
+    "Waarom is het hele teken rood?",
+    "Wat betekent 子 in het Nederlands?",
+    "Hoe klinkt de derde toon, en wat is de klankhook?",
+    "Noem drie andere tekens waarin 子 als radicaal voorkomt.",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken.",
+    "Welke drie terug-URLs gebruik jij (kaart/klank/beeld)?"
+   ],
+   "strekenLos": [
+    "㇇ 横撇/横钩",
+    "㇚ 竖钩",
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "㇇",
+    "了",
+    "子"
+   ],
+   "status": "geleerd",
+   "station": 0,
+   "nextLabel": "10 min",
+   "geleerdAt": 1758395329651,
+   "h1": false,
+   "source": "woord_diepte",
+   "card_id": "wd-子"
+  },
+  {
+   "h1": false,
+   "hz": "好",
+   "pinyin": "hǎo",
+   "toon": "3",
+   "vertaling": "goed, mooi",
+   "heelRadicaal": false,
+   "radicalen": "🔴女🔴 + 🔴子🔴 — beide radicalen, beide rood",
+   "klankhook": "HAO! (NL hao) / how (EN, hurk) / jao-niet (ES almost) – 3e toon dal-veer",
+   "beeldhook": "IK hurk in de keuken, veer, til het kind, schreeuw HAO.",
+   "plek": "Keuken",
+   "actie": "Hurk, veer, til.",
+   "klank": "hǎo. Toon 3 vallei.\nNL-brug: HAO.\nEN-brug: how, maar hurk eerst.\nES-brug: bijna jao, niet.\nToonbrug: hurk tot de vloer, veer, HAO!",
+   "schrift": "Streken: 6. 会意. 🔴女🔴 + 🔴子🔴. 说文: 美也。从女、子。 Twijfel: 妇好 als naam. FEIT ≠ keuken.",
+   "beeld": "BEELD. Keuken. Reuzin in rood tilt het kind. Pannen. Hurk, veer, HAO. Geur: ui en koper.",
+   "img": "A-keuken.jpg",
+   "recallDoe": [
+    "Hurk. Veer. Til. Zeg hǎo.",
+    "Roep HAO!",
+    "Wijs 女 links, 子 rechts. Beide rood.",
+    "Schrijf groeiend: 女, dan 好.",
+    "Keuken ruiken. Geen 说文 noemen als beeld.",
+    "Open #s3 schrift en #s4 beeld. Wissel FEIT/BEELD.",
+    "Fluister vallei, brul veer.",
+    "Beeldhook hardop."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon 3 + NL.",
+    "Twee delen? Waarom beide rood?",
+    "六书? Twijfel?",
+    "Plek + actie.",
+    "FEIT vs BEELD: wat mag de keuken niet zijn?"
+   ],
+   "strekenLos": [
+    "撇点",
+    "撇",
+    "横",
+    "横撇",
+    "竖钩",
+    "横"
+   ],
+   "strekenSamen": [
+    "女 1",
+    "女 2",
+    "女",
+    "女+子 1",
+    "女+子 2",
+    "好"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "source": "woord_diepte",
+   "card_id": "wd-好"
+  },
+  {
+   "hz": "爷",
+   "source": "woord_diepte",
+   "card_id": "wd-爷",
+   "lemma_nl": "opa",
+   "heelRadicaal": false,
+   "pinyin": "yé",
+   "toon": "2",
+   "vertaling": "opa (vader van vader); meester (informeel)",
+   "klankhook": "YEH! (NL jee↑) / yeah↑ (EN) / ye (ES) – 2e toon trap omhoog",
+   "beeldhook": "IK ben de opa bij de voordeur; mijn wenkbrauw stijgt met de toon.",
+   "plek": "Voordeur Winterdijk, natte jassen",
+   "actie": "Wenkbrauw omhoog; wijs naar opa; toon stijgt als een vuurpijl",
+   "radicalen": "🔴父🔴 (vader) boven + ⚫卩⚫ (zegel/knie) onder — 父 is betekenisradicaal",
+   "klank": "yé. Toon 2: trap omhoog, alsof je ‘jaa?’ vraagt maar korter.\nNL-brug: YEH / jee die omhoog schiet.\nEN-brug: yeah, alleen de start, dan omhoog.\nES-brug: ye.\nToonbrug: wenkbrauw omhoog = toon omhoog.\nKlank → opa aan de deur.\nWoord → YEH!",
+   "schrift": "Streken: 6 (vereenvoudigd 爷).\nDelen: 🔴父🔴 boven (vader) + ⚫卩⚫ onder.\nFunctie: 父 = betekenis (vaderlijn); onderdeel vorm/historisch (DeepSeek Desktop 爷 klankanker).\nKlassiek vs modern: vaak 爷爷 (yéye) als lemma; 爷 los = aanspreekvorm opa/meester.\nAI-valkuil: ‘father’ i.p.v. opa; of 爷/爹 verwarring.\nBeeldhook: IK ben de opa bij de voordeur; mijn wenkbrauw stijgt met de toon.",
+   "beeld": "BEELD. Voordeur Winterdijk. Natte jassen. Pepernotenlucht. IK sta als opa; wenkbrauw omhoog. De toon schiet omhoog als een vuurpijl. De deur zwaait open. Iedereen lacht. YEH!",
+   "img": "",
+   "recallDoe": [
+    "Ik kijk naar 爷. Ik zie boven 父 (vader) en onder 卩.",
+    "Ik zeg hardop: yé — stijgende toon. Ik fluister, dan brul YEH!",
+    "Ik raak mijn wenkbrauw aan en laat hem stijgen met de toon.",
+    "Ik ruik de voordeur, natte jassen, pepernoten.",
+    "Ik schrijf 爷 met mijn vinger in de lucht, zes streken, groeiend.",
+    "Ik zeg: IK ben de opa bij de voordeur.",
+    "Ik open #s2 klank en #s4 beeld, dek, haal op."
+   ],
+   "recallVragen": [
+    "Teken → pinyin + toon 2 + NL (opa).",
+    "Welk deel is rood (父)? Wat doet het zwarte deel?",
+    "Klankhook NL/EN/ES + toonbrug?",
+    "Plek + actie (wenkbrauw)?",
+    "爷爷 vs 爷: wanneer welk?"
+   ],
+   "strekenLos": [
+    "丶",
+    "一",
+    "丿",
+    "㇏",
+    "𠃌",
+    "丨"
+   ],
+   "strekenSamen": [
+    "丶",
+    "义…",
+    "父…",
+    "爷"
+   ],
+   "status": "nieuw",
+   "station": 0,
+   "nextLabel": "—",
+   "h1": false,
+   "provenience": "DeepSeek Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)"
+  },
+  {
+   "hz": "字",
+   "heelRadicaal": false,
+   "pinyin": "zì",
+   "toon": "4",
+   "vertaling": "teken, karakter, woord (geschreven)",
+   "klankhook": "DZÉ! (NL: zet!) / 'zuh' kort gehakt — 4e toon valt",
+   "beeldhook": "IK leg een kind onder een dak en het leert tekens.",
+   "plek": "Onder het dak van de wieg-kamer, naast 子",
+   "actie": "Een kind onder een rieten dak krast een teken in de deken",
+   "radicalen": "🔴子🔴 kind (radicaal, Kangxi 39; geeft ook de klank zi) + ⚫宀⚫ dak (betekenisdeel)",
+   "klank": "zì — vierde toon.\n\nDe vierde toon valt hard, als een stempel. Zelfde klank als 子 zǐ, maar nu geen vallei: één klap naar beneden.\n\nKlankhook: \"DZÉ!\" — de bij uit de wieg landt en zet zich vast. 子 zǐ zoemt de vallei in; 字 zì slaat neer.",
+   "schrift": "Aantal streken: 6\n\n⚫宀⚫ (mián) — dak. Betekenisdeel.\n🔴子🔴 (zǐ) — kind. Het radicaal (Kangxi 39); geeft ook de klank zi en het beeld.\n\nOpbouw: dak boven, kind eronder. Een kind onder een dak leert tekens: zo vermenigvuldigen woorden zich.\n\nStreek 1: ㇔ 点\nStreek 2: ㇔ 点 (links)\nStreek 3: ㇖ 横钩\nStreek 4: ㇇ 横撇\nStreek 5: ㇚ 竖钩\nStreek 6: ㇐ 横\n\nBeeldhook: IK leg een kind onder een dak en het leert tekens.",
+   "beeld": "Ik sta weer in de slaapkamer van 子. Boven de wieg hangt nu een dak van wit riet, met een puntje bovenop.\n\nOnder dat dak zit IK als kind. In mijn hand een stukje houtskool. Ik kras een teken in de rode fluwelen deken.\n\nDe bij komt terug, landt op het teken en zet zich vast: DZÉ! Het teken blijft staan.\n\n子 was het kind. 字 is het kind onder een dak dat schrijft.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 字. Boven = dak 宀 (grijs). Onder = 子 (rood, radicaal).",
+    "Zeg hardop: zì — stem valt in één klap.",
+    "Roep de klankhook: DZÉ! De bij zet zich vast.",
+    "Zie het beeld: kind onder een rieten dak krast een teken.",
+    "Schrijf in de lucht. Zes streken: drie dak, drie kind.",
+    "Contrast: 子 zǐ vallei, 字 zì klap.",
+    "Open #s2 (klank) en #s4 (beeld). Dek, haal op."
+   ],
+   "recallVragen": [
+    "Uit welke twee delen bestaat 字, en welke is radicaal?",
+    "Hoeveel streken heeft 字?",
+    "Wat betekent 字?",
+    "Wat is het toonverschil tussen 子 en 字?",
+    "Wat is de klankhook?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "㇔ 点",
+    "㇔ 点",
+    "㇖ 横钩",
+    "㇇ 横撇",
+    "㇚ 竖钩",
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "丶",
+    "宀",
+    "字"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "woord_diepte",
+   "card_id": "wd-字",
+   "station": 0,
+   "nextLabel": "—"
+  },
+  {
+   "hz": "学",
+   "heelRadicaal": false,
+   "pinyin": "xué",
+   "toon": "2",
+   "vertaling": "leren, studeren; school",
+   "klankhook": "SJWÉ? (NL: 'sjwee?' vragend omhoog) / 'shweh?' (EN) — 2e toon stijgt",
+   "beeldhook": "IK ben het kind onder het dak, en de vonken boven mijn hoofd zijn wat ik leer.",
+   "plek": "Onder het dak van 字, nu met vonken erboven",
+   "actie": "Een kind steekt de hand op en roept vragend: xué?",
+   "radicalen": "🔴子🔴 kind (radicaal) + ⚫⺍⚫ vonken + ⚫冖⚫ deksel/dak",
+   "klank": "xué — tweede toon.\n\nDe tweede toon stijgt, als een vraag: 'ja?'. x is geen Nederlandse x: tong plat achter de ondertanden, een zachte 'sj'. ue klinkt als 'uu-è'.\n\nKlankhook: \"SJWÉ?\" — het kind steekt zijn vinger op en vraagt omhoog. 子 zǐ vallei, 字 zì klap, 学 xué vraag.",
+   "schrift": "Aantal streken: 8\n\n⚫⺍⚫ — drie vonken (kennis die erop valt).\n⚫冖⚫ — deksel, het dak zonder puntje.\n🔴子🔴 (zǐ) — kind. Het radicaal.\n\nOpbouw: vonken op een dak, kind eronder. Het kind onder het dak vangt de vonken op: het leert.\n\nStreek 1: ㇔ 点\nStreek 2: ㇔ 点\nStreek 3: ㇒ 撇\nStreek 4: ㇔ 点\nStreek 5: ㇖ 横钩\nStreek 6: ㇇ 横撇\nStreek 7: ㇚ 竖钩\nStreek 8: ㇐ 横\n\nBeeldhook: IK ben het kind onder het dak, en de vonken boven mijn hoofd zijn wat ik leer.",
+   "beeld": "Ik zit weer onder het rieten dak van 字. Het puntje is van het dak gevallen, er ligt nu een plat deksel.\n\nBoven het deksel spatten drie vonken, goud en warm. Ze zakken door het riet en landen op mijn hoofd.\n\nIk steek mijn hand op en vraag omhoog: SJWÉ?\n\nElke vonk wordt een teken in mijn hoofd. 子 was het kind. 字 schreef. 学 leert.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 学. Boven: drie vonken en een deksel (grijs). Onder: 子 (rood).",
+    "Zeg hardop: xué — stem stijgt als een vraag.",
+    "Roep de klankhook: SJWÉ? Hand omhoog.",
+    "Zie het beeld: vonken vallen door het dak op het kind.",
+    "Schrijf in de lucht. Acht streken: drie vonken, twee deksel, drie kind.",
+    "Rij: 子 zǐ vallei, 字 zì klap, 学 xué vraag.",
+    "Open #s2 (klank) en #s4 (beeld). Dek, haal op."
+   ],
+   "recallVragen": [
+    "Uit welke delen bestaat 学, en welk deel is radicaal?",
+    "Hoeveel streken heeft 学?",
+    "Wat betekent 学?",
+    "Hoe spreek je x uit, en welke toon heeft xué?",
+    "Wat is het verschil tussen 字 en 学 in de bovenkant?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "㇔ 点",
+    "㇔ 点",
+    "㇒ 撇",
+    "㇔ 点",
+    "㇖ 横钩",
+    "㇇ 横撇",
+    "㇚ 竖钩",
+    "㇐ 横"
+   ],
+   "strekenSamen": [
+    "⺍",
+    "⺍ + 冖",
+    "学"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "woord_diepte",
+   "card_id": "wd-学",
+   "station": 0,
+   "nextLabel": "—"
+  },
+  {
+   "hz": "孩",
+   "heelRadicaal": false,
+   "pinyin": "hái",
+   "toon": "2",
+   "vertaling": "kind (孩子 háizi)",
+   "klankhook": "HAAI? (NL: 'haai?' vragend omhoog) / 'high?' (EN) — 2e toon stijgt",
+   "beeldhook": "IK ben het kind naast het varken, en ik roep: haai?",
+   "plek": "Naast de wieg van 子, op de grond: een varken",
+   "actie": "Een kind wijst naar een varken en roept vragend: hái?",
+   "radicalen": "🔴子🔴 kind (radicaal, links, smal) + ⚫亥⚫ hài (klank)",
+   "klank": "hái — tweede toon.\n\nDe tweede toon stijgt, als een vraag. h is een schrapende h, achter in de keel. ai klinkt als 'aai'.\n\nKlankhook: \"HAAI?\" — het kind ziet het varken en vraagt omhoog. Het klankdeel 亥 hài valt (4e toon); 孩 hái stijgt.\n\nIn de les: 孩子 háizi, de tweede lettergreep is licht.",
+   "schrift": "Aantal streken: 9\n\n🔴子🔴 (zǐ) — kind. Het radicaal, links en smal. Let op: de laatste streek wordt 提 (omhoog), niet 横.\n⚫亥⚫ (hài) — 12e aardse tak, het varken. Geeft de klank.\n\nOpbouw: kind links, varken rechts.\n\nStreek 1: ㇇ 横撇\nStreek 2: ㇚ 竖钩\nStreek 3: ㇀ 提\nStreek 4: ㇔ 点\nStreek 5: ㇐ 横\nStreek 6: ㇜ 撇折\nStreek 7: ㇒ 撇\nStreek 8: ㇒ 撇\nStreek 9: ㇔ 点 (lang)\n\nBeeldhook: IK ben het kind naast het varken, en ik roep: haai?",
+   "beeld": "Ik sta weer in de slaapkamer van 子. Naast de wieg snuffelt een roze varken over de vloer.\n\nIK ben het kind. Ik klim uit de wieg, smal tegen de linkerkant gedrukt, en mijn laatste stap tilt mijn voet omhoog.\n\nHet varken kijkt me aan. Ik wijs en roep omhoog: HAAI?\n\nHet varken knort terug, laag en hard: hài! 子 was het kind. 孩 is het kind dat het varken gevonden heeft.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 孩. Links: 子 smal (rood). Rechts: 亥 varken (grijs).",
+    "Zeg hardop: hái — stem stijgt als een vraag.",
+    "Roep de klankhook: HAAI? Wijs naar het varken.",
+    "Zie het beeld: kind naast de wieg, varken op de grond.",
+    "Schrijf in de lucht. Negen streken: drie kind (laatste omhoog), zes varken.",
+    "Rij: 子 zǐ, 字 zì, 学 xué, 孩 hái.",
+    "Open #s2 (klank) en #s4 (beeld). Dek, haal op."
+   ],
+   "recallVragen": [
+    "Uit welke twee delen bestaat 孩, en welk deel is radicaal?",
+    "Waarom wordt de laatste streek van 子 hier 提?",
+    "Wat betekent 孩 en 孩子?",
+    "Welke toon heeft hái, en welke 亥 hài?",
+    "Wat is de klankhook?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "㇇ 横撇",
+    "㇚ 竖钩",
+    "㇀ 提",
+    "㇔ 点",
+    "㇐ 横",
+    "㇜ 撇折",
+    "㇒ 撇",
+    "㇒ 撇",
+    "㇔ 点"
+   ],
+   "strekenSamen": [
+    "子 (smal)",
+    "子 + 亠",
+    "孩"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "woord_diepte",
+   "card_id": "wd-孩",
+   "station": 0,
+   "nextLabel": "—"
+  },
+  {
+   "hz": "手机",
+   "heelRadicaal": false,
+   "pinyin": "shǒujī",
+   "toon": "3+1",
+   "vertaling": "mobiele telefoon",
+   "klankhook": "SJOO-DZJIE (hand pakt, dan piep)",
+   "beeldhook": "IK houd een machine in mijn hand.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Een hand grijpt een houten doosje dat piept.",
+   "radicalen": "🔴手🔴 hand · 🔴木🔴 in 机 · ⚫几⚫ klank jī",
+   "klank": "shǒujī — tonen 3+1.\n\nKlankhook: SJOO-DZJIE (hand pakt, dan piep)",
+   "schrift": "手 hand · 机 machine (木 hout + 几)\n\n手 4: 撇 横 横 竖钩\n机 6: 横 竖 撇 点 · 撇 横折弯钩",
+   "beeld": "Een hand grijpt een houten doosje dat piept.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 手机.",
+    "Zeg hardop: shǒujī.",
+    "Roep de klankhook: SJOO-DZJIE (hand pakt, dan piep).",
+    "Zie het beeld: Een hand grijpt een houten doosje dat piept.",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 手机?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "手 4: 撇 横 横 竖钩",
+    "机 6: 横 竖 撇 点 · 撇 横折弯钩"
+   ],
+   "strekenSamen": [
+    "手机"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-手机"
+  },
+  {
+   "hz": "打电话",
+   "heelRadicaal": false,
+   "pinyin": "dǎ diànhuà",
+   "toon": "3+4+4",
+   "vertaling": "bellen",
+   "klankhook": "DA! (slaan) — dan 电话",
+   "beeldhook": "IK sla op de telefoon en hij belt.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Mijn hand slaat met een spijker op de telefoon: DA!",
+   "radicalen": "🔴扌🔴 hand in 打 · ⚫丁⚫ · 🔴讠🔴 in 话",
+   "klank": "dǎ diànhuà — tonen 3+4+4.\n\nKlankhook: DA! (slaan) — dan 电话",
+   "schrift": "打 slaan (扌 hand + 丁) · 电话 telefoon\n\n打 5: 横 竖钩 提 · 横 竖钩",
+   "beeld": "Mijn hand slaat met een spijker op de telefoon: DA!",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 打电话.",
+    "Zeg hardop: dǎ diànhuà.",
+    "Roep de klankhook: DA! (slaan) — dan 电话.",
+    "Zie het beeld: Mijn hand slaat met een spijker op de telefoon: DA!",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 打电话?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "打 5: 横 竖钩 提 · 横 竖钩"
+   ],
+   "strekenSamen": [
+    "打电话"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-打电话"
+  },
+  {
+   "hz": "没有",
+   "heelRadicaal": false,
+   "pinyin": "méiyǒu",
+   "toon": "2+3",
+   "vertaling": "niet hebben",
+   "klankhook": "MAY? — nee, YO (stijgt, dan vallei)",
+   "beeldhook": "IK steek mijn hand in het water: niets.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Mijn hand graait in het water en komt leeg boven.",
+   "radicalen": "🔴氵🔴 water in 没 · 有 al geleerd",
+   "klank": "méiyǒu — tonen 2+3.\n\nKlankhook: MAY? — nee, YO (stijgt, dan vallei)",
+   "schrift": "没 niet (氵 water) · 有 hebben\n\n没 7: 点 点 提 · 撇 横折弯 横撇 捺",
+   "beeld": "Mijn hand graait in het water en komt leeg boven.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 没有.",
+    "Zeg hardop: méiyǒu.",
+    "Roep de klankhook: MAY? — nee, YO (stijgt, dan vallei).",
+    "Zie het beeld: Mijn hand graait in het water en komt leeg boven.",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 没有?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "没 7: 点 点 提 · 撇 横折弯 横撇 捺"
+   ],
+   "strekenSamen": [
+    "没有"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-没有"
+  },
+  {
+   "hz": "弟弟",
+   "heelRadicaal": false,
+   "pinyin": "dìdi",
+   "toon": "4+0",
+   "vertaling": "jongere broer",
+   "klankhook": "DIE! (klap) — di zacht",
+   "beeldhook": "IK wikkel een touw om een kleine broer.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Een klein broertje vastgebonden aan een stok, roept DIE!",
+   "radicalen": "⚫弓⚫ boog-touw · ⚫丷⚫",
+   "klank": "dìdi — tonen 4+0.\n\nKlankhook: DIE! (klap) — di zacht",
+   "schrift": "弟 = touw om een stok, kleinere van de rij\n\n弟 7: 点 撇 横折 横 竖折折钩 竖 撇",
+   "beeld": "Een klein broertje vastgebonden aan een stok, roept DIE!",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 弟弟.",
+    "Zeg hardop: dìdi.",
+    "Roep de klankhook: DIE! (klap) — di zacht.",
+    "Zie het beeld: Een klein broertje vastgebonden aan een stok, roept DIE!",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 弟弟?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "弟 7: 点 撇 横折 横 竖折折钩 竖 撇"
+   ],
+   "strekenSamen": [
+    "弟弟"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-弟弟"
+  },
+  {
+   "hz": "姐姐",
+   "heelRadicaal": false,
+   "pinyin": "jiějie",
+   "toon": "3+0",
+   "vertaling": "oudere zus",
+   "klankhook": "DZJIE-je (vallei)",
+   "beeldhook": "IK zie een vrouw naast een hoge stapel.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Mijn oudere zus staat naast een toren van 且 en zakt diep in.",
+   "radicalen": "🔴女🔴 vrouw · ⚫且⚫ klank qiě",
+   "klank": "jiějie — tonen 3+0.\n\nKlankhook: DZJIE-je (vallei)",
+   "schrift": "姐 = 女 vrouw + 且 klank\n\n姐 8: 撇点 撇 横 · 竖 横折 横 横 横",
+   "beeld": "Mijn oudere zus staat naast een toren van 且 en zakt diep in.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 姐姐.",
+    "Zeg hardop: jiějie.",
+    "Roep de klankhook: DZJIE-je (vallei).",
+    "Zie het beeld: Mijn oudere zus staat naast een toren van 且 en zakt diep in.",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 姐姐?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "姐 8: 撇点 撇 横 · 竖 横折 横 横 横"
+   ],
+   "strekenSamen": [
+    "姐姐"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-姐姐"
+  },
+  {
+   "hz": "妹妹",
+   "heelRadicaal": false,
+   "pinyin": "mèimei",
+   "toon": "4+0",
+   "vertaling": "jongere zus",
+   "klankhook": "MAY! (klap) — mei zacht",
+   "beeldhook": "IK zie een vrouw met een jonge boom.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Mijn kleine zus plant een boompje dat nog niet groeit.",
+   "radicalen": "🔴女🔴 vrouw · ⚫未⚫ klank wèi",
+   "klank": "mèimei — tonen 4+0.\n\nKlankhook: MAY! (klap) — mei zacht",
+   "schrift": "妹 = 女 vrouw + 未 nog niet (jong)\n\n妹 8: 撇点 撇 横 · 横 横 竖 撇 捺",
+   "beeld": "Mijn kleine zus plant een boompje dat nog niet groeit.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 妹妹.",
+    "Zeg hardop: mèimei.",
+    "Roep de klankhook: MAY! (klap) — mei zacht.",
+    "Zie het beeld: Mijn kleine zus plant een boompje dat nog niet groeit.",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 妹妹?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "妹 8: 撇点 撇 横 · 横 横 竖 撇 捺"
+   ],
+   "strekenSamen": [
+    "妹妹"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-妹妹"
+  },
+  {
+   "hz": "奶奶",
+   "heelRadicaal": false,
+   "pinyin": "nǎinai",
+   "toon": "3+0",
+   "vertaling": "oma (vaders kant)",
+   "klankhook": "NAAI-nai (vallei, dan zacht)",
+   "beeldhook": "IK zie een vrouw met melk.",
+   "plek": "Staatsexamen H6/H7, naast 家 en 电话",
+   "actie": "Oma schenkt warme melk, haar stem zakt diep: nǎi.",
+   "radicalen": "🔴女🔴 vrouw · ⚫乃⚫ klank nǎi",
+   "klank": "nǎinai — tonen 3+0.\n\nKlankhook: NAAI-nai (vallei, dan zacht)",
+   "schrift": "奶 = 女 vrouw + 乃 klank; ook: melk\n\n奶 5: 撇点 撇 横 · 横折折折钩 撇",
+   "beeld": "Oma schenkt warme melk, haar stem zakt diep: nǎi.",
+   "img": "zi-wieg.jpg",
+   "recallDoe": [
+    "Kijk naar 奶奶.",
+    "Zeg hardop: nǎinai.",
+    "Roep de klankhook: NAAI-nai (vallei, dan zacht).",
+    "Zie het beeld: Oma schenkt warme melk, haar stem zakt diep: nǎi.",
+    "Open #s2 en #s4. Dek, haal op."
+   ],
+   "recallVragen": [
+    "Wat betekent 奶奶?",
+    "Welke radicalen zitten erin?",
+    "Welke tonen?",
+    "Productie A: teken → pinyin+toon+NL+hook zonder kijken."
+   ],
+   "strekenLos": [
+    "奶 5: 撇点 撇 横 · 横折折折钩 撇"
+   ],
+   "strekenSamen": [
+    "奶奶"
+   ],
+   "status": "nieuw",
+   "h1": false,
+   "source": "staatsexamen",
+   "card_id": "wd-奶奶"
   }
+ ],
+ "recallByLearner": {
+  "Krijger": {},
+  "Lotus": {},
+  "Tijger": {}
+ }
 }
