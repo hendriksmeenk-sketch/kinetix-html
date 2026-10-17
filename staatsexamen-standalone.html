@@ -104,7 +104,7 @@
 <script>
 const SLEUTEL = "staatsexamen_a1_v1";
 const stand = Object.assign({ goed: {}, pinyin: true }, JSON.parse(localStorage.getItem(SLEUTEL) || "{}"));
-const NAMEN = ["Saidy", "Shi", "Terrence"];
+const NAMEN = ["Krijger", "Lotus", "Tijger"];
 function leegWerk() {
   return {
     kruipGoed: {}, loopGoed: {}, renGoed: {}, loopAt: {}, paraAt: {},
@@ -120,9 +120,9 @@ if (!stand.per) {
   });
   if (stand.ch) sa.ch = stand.ch;
   if (stand.renDeel) sa.renDeel = stand.renDeel;
-  stand.per = { Saidy: sa, Shi: leegWerk(), Terrence: leegWerk() };
+  stand.per = { Krijger: sa, Lotus: leegWerk(), Tijger: leegWerk() };
 }
-stand.wie = NAMEN.indexOf(stand.wie) >= 0 ? stand.wie : "Saidy";
+stand.wie = NAMEN.indexOf(stand.wie) >= 0 ? stand.wie : "Krijger";
 NAMEN.forEach(n => { if (!stand.per[n]) stand.per[n] = leegWerk(); });
 function nu() {
   if (!stand.per[stand.wie]) stand.per[stand.wie] = leegWerk();

@@ -1,8 +1,8 @@
 (function () {
   var KEY = "woord_diepte_v35";
-  var LEARNERS = ["Saidy", "Shi", "Terrence"];
-  var state = { cur: "子", live: false, learner: "Saidy", inDiepte: false };
-  var db = { schema: 35, hersenen: "Saidy", woorden: [], recallByLearner: {} };
+  var LEARNERS = ["Krijger", "Lotus", "Tijger"];
+  var state = { cur: "子", live: false, learner: "Krijger", inDiepte: false };
+  var db = { schema: 35, hersenen: "Krijger", woorden: [], recallByLearner: {} };
 
   function ziSeed() {
     return {
@@ -127,7 +127,7 @@
       save();
       return db;
     }).catch(function () {
-      db = { schema: 35, hersenen: "Saidy", woorden: [ziSeed()], recallByLearner: {} };
+      db = { schema: 35, hersenen: "Krijger", woorden: [ziSeed()], recallByLearner: {} };
       ensureRecallMap();
       save();
       return db;
