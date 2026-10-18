@@ -23,3 +23,10 @@ Elke vraag een uniek `id` (voortgang hangt aan het id). Daarna commit + push; Gi
 | `hint`, `pic`, `strokeHint`, `say` | Kruipen-hulp: hint, plaatje, genummerde streken, uitspraak (browser-spraak zh-CN) |
 
 Build-bron: `/workspace/mandarijn-build/` op de box (`gen.py`, `content.py`, `template.html`). Pagina staat nergens gelinkt en heeft `noindex`.
+
+## 🏅 Beheerst (tab + per-woord Beheerst-check)
+Een woord is **beheerst** pas als alle 5 checks waar zijn: klankhook ✔ · beeldhook ✔ · geheugenanker ✔ (hookteksten uit `hooks` in `questions.json`, waar ze bestaan) · uitspraak ✔ (🔊 model + zelfcheck; optioneel 🎤 spraakherkenning zh-CN) · streken ✔ (automatisch zodra de Rennen-streekvraag `b4-r-<teken>` / `b4-rn-<teken>` goed is gemaakt; tekens zonder zo'n vraag handmatig bevestigen).
+Openen via tab **Beheerst** of de knop **🏅 Beheerst-check** in de uitleg na een vraag (opent als overlay, de ronde blijft staan).
+Bij 5/5 wordt het woord opgeslagen in `localStorage` (`mandarijnLVS:beheerst:<leerling>`) en verstuurd als `POST` JSON naar **`BEHEERST_WEBHOOK`** (eerste constante bovenaan het `<script>` in `index.html`; nu `''` = niets versturen → knop **📋 Kopieer beheerst-lijst**, JSON Lines).
+Formaat en regels: `/workspace/kinetix/beheerst/README.md` op de box; doelbestand `/workspace/kinetix/beheerst/beheerst.jsonl`.
+`hooks` toevoegen/bijwerken zonder vragen te herschudden: `python3 add_hooks.py` (bronnen en naam-filter in `hooks.py`).
