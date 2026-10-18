@@ -1,0 +1,6226 @@
+{
+ "schema": "tvt-krijger/1",
+ "bijgewerkt": "2026-10-18",
+ "examen": {
+  "vragen": 40,
+  "minuten": 60,
+  "geslaagd": 32,
+  "geldig": "1 jaar",
+  "bron": "CBR TVT-pagina + exameneisen 1-9-2025",
+  "verdeling": {
+   "1": 5,
+   "2": 9,
+   "3": 7,
+   "4": 6,
+   "5": 4,
+   "6": 5,
+   "7": 4
+  }
+ },
+ "takken": {
+  "1": {
+   "naam": "Papieren & apparatuur",
+   "kort": "Papieren",
+   "kleur": "#1E6FD9",
+   "et": "ET 1 (+2.3)",
+   "station": {
+    "nr": 1,
+    "plek": "De auto 's ochtends (rijklaarcontrole)",
+    "zin": "klep open, papieren vliegen",
+    "beeld": "Krijger opent het dashboardkastje en er vliegt een zwerm papieren uit als duiven: kentekenbewijs, APK-rapport, het blauwe schadeformulier, de groene kaart. De taxameter knipoogt met een keurstempel op zijn voorhoofd. De BCT piept: 'KAART ERIN!' Krijger steekt zijn EIGEN kaart erin – nooit die van een ander.",
+    "kern": "papieren · eigen kaart · BCT/CDT"
+   },
+   "cheat": [
+    [
+     "7",
+     "voertuigdocumenten: kenteken · APK · schadeformulier · groene kaart · keuring taxameter · milieusticker · tariefkaart"
+    ],
+    [
+     "3",
+     "persoonlijk: rijbewijs B · ID · chauffeurskaart"
+    ],
+    [
+     "104 wk",
+     "vervoerder bewaart BCT-gegevens (2 jaar)"
+    ],
+    [
+     "2 jaar",
+     "gegevens in de CDT, daarna vernietigd"
+    ],
+    [
+     "5 jaar",
+     "geldigheid chauffeurskaart (boordcomputerkaart)"
+    ],
+    [
+     "4 mnd",
+     "max ouderdom VOG én geneeskundige verklaring bij aanvraag"
+    ],
+    [
+     "1-1-2028",
+     "daarna alleen CDT; nu per dag BCT óf CDT"
+    ],
+    [
+     "realtime",
+     "vervoerder levert aan de CDT"
+    ]
+   ],
+   "chunks": [
+    "Voertuig: kenteken, APK-rapport, Europees schadeformulier, groene kaart, keuringsbewijs taxameter, milieusticker, tariefkaart (CBR 1.1).",
+    "Persoonlijk: rijbewijs B, identiteitsbewijs, chauffeurskaart (CBR 1.2).",
+    "BCT = Boordcomputer Taxi; CDT = Centrale Database Taxivervoer. Tot 1-1-2028 mag je per dag kiezen (ILT).",
+    "De chauffeurskaart is persoonsgebonden: nooit andermans kaart (ILT, Bp2000 81).",
+    "Storing buiten je schuld: vervangende registratie; vervoerder laat herstellen door erkend station (Bp2000 79–80).",
+    "Bewaren: vervoerder 104 weken; CDT 2 jaar; kaart 5 jaar geldig; manipulatie-apparaat al verboden (Bp2000 80, 83, 83a).",
+    "Vergunningbewijs zichtbaar voor de reiziger; tarief buiten én binnen; ritbewijs na de rit; meter aan behalve bij contract (Wp2000 76, Bp2000 73, 78)."
+   ],
+   "mind": [
+    "Voertuig-docs (7)",
+    "Persoonlijk (3)",
+    "BCT ↔ CDT",
+    "Eigen kaart",
+    "Storing → vervangend",
+    "Bewaren 104 wk / 2 j",
+    "Meter & tarief"
+   ],
+   "ezel": "Voertuig: 'Kijk Altijd Scherp – Geen Kaart? Meter Telt!' = Kenteken · APK · Schadeformulier · Groene kaart · Keuring taxameter · Milieusticker · Tariefkaart. Persoonlijk: RIC = Rijbewijs · ID · Chauffeurskaart.",
+   "teach": "Leg in 1 minuut aan een nieuwe collega uit: welke papieren in de auto horen, waarom je nooit andermans kaart gebruikt en wat je doet als de BCT uitvalt.",
+   "check": [
+    "7 voertuigdocumenten genoemd",
+    "3 persoonlijke documenten",
+    "kaart is persoonsgebonden",
+    "storing: vervangend registreren + erkend station",
+    "104 weken / 2 jaar bewaren",
+    "na 1-1-2028 alleen CDT"
+   ],
+   "recall": "Schrijf uit je hoofd alle 7 voertuigdocumenten en de 3 persoonlijke documenten op."
+  },
+  "2": {
+   "naam": "Verkeerswet & -regels",
+   "kort": "Verkeer",
+   "kleur": "#D62828",
+   "et": "ET 2.1, 2.2, 2.8",
+   "station": {
+    "nr": 2,
+    "plek": "Het eerste kruispunt",
+    "zin": "rood licht, witte handschoen",
+    "beeld": "Het licht springt op rood. Een verkeersregelaar met een reuzenhandschoen wenkt: door! De handschoen is groter dan het verkeerslicht, het licht is groter dan het voorrangsbord. Achterin zit een kind van 1,28 m zonder zitje: het schuift vanzelf naar de achterbank en klikt de gordel vast.",
+    "kern": "aanwijzing > licht > bord > regel · < 1,35 m niet voorin"
+   },
+   "cheat": [
+    [
+     "50",
+     "bebouwde kom"
+    ],
+    [
+     "80",
+     "buiten de kom (gewone weg)"
+    ],
+    [
+     "100",
+     "autoweg (G3)"
+    ],
+    [
+     "130",
+     "autosnelweg (G1)"
+    ],
+    [
+     "15",
+     "erf"
+    ],
+    [
+     "1,35 m",
+     "taxi zonder zitje: niet voorin"
+    ],
+    [
+     "0,5 ‰",
+     "alcohol (beginner < 5 jr: 0,2 ‰)"
+    ],
+    [
+     "5 m",
+     "niet parkeren bij kruispunt · niet stilstaan bij oversteekplaats"
+    ],
+    [
+     "< 50 m",
+     "mistachterlicht (mist/sneeuw)"
+    ],
+    [
+     "50+",
+     "km/u te hard → rijbewijs ingevorderd"
+    ]
+   ],
+   "chunks": [
+    "WVW 5 geen gevaar/hinder · 6 schuld · 7 niet doorrijden na ongeval · 8 invloed · 9 rijden met ontzegging.",
+    "Rangorde: aanwijzing > verkeerslicht > voorrangsbord > regel; tijdelijk (geel) > vast; laagste snelheid bij twijfel (RVV 84, 64, 63, 63a, 63b).",
+    "Voorrang: rechts gaat voor, behalve tram en onverhard→verhard; linksaf wacht op rechtsaf-tegenligger; bijzondere manoeuvre = iedereen voor laten gaan (RVV 15, 18, 54).",
+    "Inhalen links; rechts alleen bij FRUIT+ (file, rotonde, blokmarkering, tram, links voorsorteerder) (RVV 11, 13, 48).",
+    "Snelheden 50/80/100/130, erf 15 (RVV 20, 21, 45).",
+    "Stilstaan/parkeren: niet stilstaan op kruispunt, bij oversteekplaats < 5 m, bushalte (behalve onmiddellijk in/uitstappen); niet parkeren < 5 m van kruispunt, langs gele onderbroken streep (RVV 23, 24).",
+    "Gordels: kind < 1,35 m zonder zitje niet voorin; chauffeur betaald vervoer vrijgesteld behalve contract (Wp2000 81 lid 2) en rolstoeltaxi; telefoon niet vasthouden (RVV 59, 61a)."
+   ],
+   "mind": [
+    "WVW 5-6-7-8-9",
+    "Rangorde",
+    "Voorrang",
+    "Inhalen FRUIT+",
+    "Snelheden",
+    "Stilstaan/parkeren",
+    "Gordel & telefoon"
+   ],
+   "ezel": "Rangorde: 'Handschoen > Lamp > Bord > Regel'. Rechts inhalen: FRUIT+ = File · Rotonde · Uit-/Invoegen (blokmarkering) · Tram · + links voorsorteerder. Snelheid: 'Vijftig, tachtig, honderd, honderddertig – erf vijftien.'",
+   "teach": "Leg uit aan een vriend: wie gaat voor als een verkeersregelaar, een verkeerslicht en een voorrangsbord iets anders zeggen – en wanneer je rechts mag inhalen.",
+   "check": [
+    "aanwijzing > licht > bord > regel",
+    "FRUIT+ (5 situaties)",
+    "rechts gaat voor + uitzonderingen tram / onverhard",
+    "erf 15 en 50/80/100/130",
+    "kind < 1,35 m niet voorin"
+   ],
+   "recall": "Noem uit je hoofd de rangorde, de 5 FRUIT+-situaties en alle maximumsnelheden."
+  },
+  "3": {
+   "naam": "Werktijden & taxiwetten",
+   "kort": "Werktijden",
+   "kleur": "#1A9E6E",
+   "et": "ET 2.3, 2.5–2.7",
+   "station": {
+    "nr": 3,
+    "plek": "De pauzeplek met de grote klok",
+    "zin": "vijftien na vijf-en-half",
+    "beeld": "Een enorme klok op het parkeerterrein. Na 5,5 uur werk springt de koekoek eruit en roept 'VIJFTIEN!'. Onder de klok ligt een matras met '10'; twee keer in veertien dagen krimpt hij tot '8'. Ernaast een lange matras van 72 uur die in blokken van 24 scheurt.",
+    "kern": "15 · 10→8 (2×/14×24) · 72 in ≥24 · 48/26"
+   },
+   "cheat": [
+    [
+     "15 min",
+     "pauze bij > 5,5 u (cao) · min 15 aaneen"
+    ],
+    [
+     "10 u",
+     "dagrust · cao: 2× per 14×24 u → 8 u"
+    ],
+    [
+     "72 u",
+     "rust per 14×24 u, delen ≥ 24 u (cao)"
+    ],
+    [
+     "48 / 26",
+     "gem. uren per week over 26 weken (cao)"
+    ],
+    [
+     "52 / 140",
+     "nachtdiensten per 16 / 52 weken – of 38 u (00–06) per 2 wk"
+    ],
+    [
+     "> 1 u",
+     "tussen 00–06 = nachtdienst"
+    ],
+    [
+     "06–24",
+     "taxi-zondag"
+    ],
+    [
+     "2 bazen",
+     "zelf uren melden aan allebei"
+    ]
+   ],
+   "chunks": [
+    "Wetten: Wp2000 + Bp2000 (vergunning, chauffeurskaart), ATW + ATB-V (tijden), Arbowet, cao Zorgvervoer en Taxi (CBR 2.3).",
+    "Examen vraagt alleen MET cao; zonder cao wel kennen (CBR 2.5).",
+    "Pauze: > 5,5 u minstens 15 min aaneen (ATW 5:4 lid 3, 1:7e). Zonder cao 30 / 45 min.",
+    "Rust (cao): 10 u per 24 u, 2× per 14×24 u naar 8; 72 u per 14×24 u in delen ≥ 24 u (ATB-V 2.5:1 lid 6). Zonder cao 10 u + 36 u/week.",
+    "Arbeid (cao): gem. 48 u/week per 26 weken (ATB-V 2.5:7 lid 6). Zonder cao 12 u/dienst, 60 u/week, gem. 48 per 16 weken.",
+    "Nacht: > 1 u tussen 00–06; max 52×/16 wk én 140×/52 wk of 38 u per 2 wk; afwijken alleen cao + instemming (ATB-V 2.5:4).",
+    "Controle: politie, ILT, NLA; werkgever organiseert en registreert; werknemer meldt bij 2 werkgevers (ATW 4:3, 5:15)."
+   ],
+   "mind": [
+    "Wetten (Wp/Bp/ATW/ATB-V/Arbo/cao)",
+    "Pauze 15",
+    "Dagrust 10→8",
+    "Weekrust 72/24",
+    "Arbeid 48/26",
+    "Nacht 52/140/38",
+    "Controle & melden"
+   ],
+   "ezel": "'Vijftien na vijf-en-half.' · 'Tien, twee keer acht, in veertien dagen.' · 'Tweeënzeventig in blokken van een dag.' · 'Twaalf, zestig, achtenveertig – cao rekt het naar zesentwintig.' · Nacht: '52 in 16, 140 in 52.'",
+   "teach": "Leg aan een collega uit, met een voorbeeld-week: welke pauze, dagrust, weekrust en gemiddelde arbeidstijd gelden met cao – en wat er verandert zonder cao.",
+   "check": [
+    "15 min bij > 5,5 u",
+    "10 u, 2× per 14×24 u → 8",
+    "72 u in delen ≥ 24",
+    "gem. 48 u per 26 weken",
+    "nachtdienst = > 1 u 00–06",
+    "meldplicht 2 werkgevers"
+   ],
+   "recall": "Zeg de getallen-rij hardop: pauze, dagrust, weekrust, arbeidstijd, nacht – eerst met cao, dan zonder."
+  },
+  "4": {
+   "naam": "Rit, route & veilig rijden",
+   "kort": "Rit & route",
+   "kleur": "#F08C00",
+   "et": "ET 3, 4, 11",
+   "station": {
+    "nr": 4,
+    "plek": "De snelweg met de lege navigatie",
+    "zin": "scherm zwart, borden praten",
+    "beeld": "Op de A-weg wordt het navigatiescherm zwart. De wegwijzers boven de weg gaan praten: 'Volg mij!' Het A-nummer gloeit rood, het N-nummer geel, het E-nummer groen. Achterin een groep leerlingen met een contractmap. Op straat zwaait een hand: straattaxi.",
+    "kern": "straattaxi ↔ contract · A rood / N geel / E groen"
+   },
+   "cheat": [
+    [
+     "2",
+     "soorten: straattaxi · contractvervoer"
+    ],
+    [
+     "TTO",
+     "Toegelaten Taxi Organisatie + keurmerken"
+    ],
+    [
+     "A",
+     "wit op rood"
+    ],
+    [
+     "N",
+     "zwart op geel"
+    ],
+    [
+     "E",
+     "wit op groen"
+    ],
+    [
+     "A2",
+     "Amsterdam–Utrecht–Den Bosch–Eindhoven–Maastricht"
+    ],
+    [
+     "A12",
+     "Den Haag–Utrecht–Arnhem"
+    ],
+    [
+     "A28",
+     "Utrecht–Amersfoort–Zwolle–Assen–Groningen"
+    ]
+   ],
+   "chunks": [
+    "Straattaxi = straat/standplaats/losse bestelling; contractvervoer = vaste opdrachtgever (CBR 3.1).",
+    "Aanvullend: TTO en keurmerken taxi (CBR 3.1).",
+    "Voertuigcontrole: veiligheid, verantwoordelijkheid, aansprakelijkheid; niet meer passagiers dan gordels (CBR 3.2, RVV 59).",
+    "Risico's bij jou: alcohol/drugs/medicijnen, afleiding, ziekte, moeheid, stress, haast, wensen passagier (CBR 4.1).",
+    "Risico's bij anderen: kwetsbaren (voetgangers, ouderen, kinderen, fietsers, (snor)brommers, gehandicapten), beginners, onder invloed (CBR 4.2).",
+    "Zuinig = minder slijtage en verbruik; comfortabel = comfort + veiligheid + imago (CBR 4.3, 4.4).",
+    "Geografie: A-wegen, provincies en hoofdsteden, NBd; navigatie uit = passagier zo goed mogelijk bedienen (CBR 11.2, 11.3)."
+   ],
+   "mind": [
+    "Straattaxi / contract",
+    "TTO & keurmerk",
+    "Voertuigcontrole",
+    "Risico's ik",
+    "Risico's ander",
+    "Zuinig & comfort",
+    "A-wegen & NBd"
+   ],
+   "ezel": "A28 = 'Uit Amersfoort Zie je Assen Glanzen' (Utrecht–Amersfoort–Zwolle–Assen–Groningen). Kleuren: A = Alarm-rood, N = Neutraal-geel, E = Europa-groen. Hoofdsteden die mensen vergeten: Haarlem (NH), Lelystad (Fl), Middelburg (Zl), Den Bosch (NB), Assen (Dr), Zwolle (Ov).",
+   "teach": "Leg uit: wat is het verschil tussen straattaxi en contractvervoer, en wat doe je als je navigatie uitvalt op de A28 richting Groningen?",
+   "check": [
+    "straattaxi vs contract",
+    "TTO + keurmerk",
+    "3 risico's bij jezelf",
+    "kwetsbare groepen",
+    "A28-volgorde",
+    "passagier zo goed mogelijk bedienen"
+   ],
+   "recall": "Teken een kaartje van NL met de 12 provinciehoofdsteden en de A2, A12 en A28."
+  },
+  "5": {
+   "naam": "Ongeval & stremming",
+   "kort": "Ongeval",
+   "kleur": "#B8860B",
+   "et": "ET 5",
+   "station": {
+    "nr": 5,
+    "plek": "De vluchtstrook",
+    "zin": "PAN met een M en een A",
+    "beeld": "Op de vluchtstrook staat een reusachtige koekenpan met P-A-M-A-N erin gegraveerd. Krijger trekt eerst zijn hesje aan (P), brengt de passagier achter de vangrail (A), zet markering (M), belt 112 (A) en helpt pas dan (N). Op de hectometerpaal knippert het getal: dat noem je bij de melding.",
+    "kern": "PAMAN · wegnummer + hmp + rijrichting"
+   },
+   "cheat": [
+    [
+     "P",
+     "Persoonlijke veiligheid"
+    ],
+    [
+     "A",
+     "Andermans veiligheid"
+    ],
+    [
+     "M",
+     "Markeren"
+    ],
+    [
+     "A",
+     "Alarmeren"
+    ],
+    [
+     "N",
+     "Noodzakelijke hulp"
+    ],
+    [
+     "112",
+     "spoed"
+    ],
+    [
+     "0900-8844",
+     "politie zonder spoed"
+    ],
+    [
+     "hmp",
+     "buiten kom: wegnummer · hectometerpaal · rijrichting"
+    ]
+   ],
+   "chunks": [
+    "PAMAN: Persoonlijke veiligheid, Andermans veiligheid, Markeren, Alarmeren, Noodzakelijke hulp (CBR 5.1).",
+    "Rijkswegen: Incident Management Rijkswaterstaat (CBR 5.1).",
+    "Melding: welke hulpdienst, tijdstip, schade, gewonden + aantal, juist nummer (CBR 5.2).",
+    "Plaats: binnen de kom straat + huisnummer; buiten de kom wegnummer + hectometerpaal + rijrichting (CBR 5.2).",
+    "Stremming: vroeg signaleren (verkeersinfo), bij ongeval stremming voorkomen, andere route (CBR 5.3).",
+    "Vertraging: passagier informeren, zo nodig de centrale (vervangend vervoer) (CBR 5.3, 6.1).",
+    "Niet doorrijden; geen gewonde hulpeloos achterlaten; melden binnen 12 u sluit vervolging uit (WVW 7, 184)."
+   ],
+   "mind": [
+    "P eigen veiligheid",
+    "A ander",
+    "M markeren",
+    "A alarmeren",
+    "N hulp",
+    "Melding",
+    "Stremming"
+   ],
+   "ezel": "PAMAN = de koekenpan: 'Pak Altijd Met Aandacht Nood' – P-A-M-A-N. Plaats buiten de kom: 'Weg – Paal – Richting'.",
+   "teach": "Speel na: je staat met je passagier op de vluchtstrook na een aanrijding. Vertel hardop elke PAMAN-stap en spreek de 112-melding in.",
+   "check": [
+    "5 PAMAN-stappen in volgorde",
+    "112 vs 0900-8844",
+    "wegnummer + hmp + rijrichting",
+    "tijdstip + gewonden + schade",
+    "passagier/centrale informeren"
+   ],
+   "recall": "Spreek een volledige 112-melding in voor een ongeval op de A12 bij hectometerpaal 45,3."
+  },
+  "6": {
+   "naam": "Communicatie & passagiers",
+   "kort": "Passagiers",
+   "kleur": "#8E44AD",
+   "et": "ET 6, 7",
+   "station": {
+    "nr": 6,
+    "plek": "Instappen bij het hotel",
+    "zin": "stoepkant, U, handsfree",
+    "beeld": "De passagier stapt in aan de stoepkant. Krijger zegt 'Goedemorgen meneer' en noemt eerst prijs en tijd. Zijn telefoon zweeft handsfree aan de ruit als een vlinder die alleen zakelijk fluistert. Een blindengeleidehond springt vrolijk mee: hulphonden gaan ALTIJD mee.",
+    "kern": "kosten + tijd · geen discussie · handsfree · hulphond altijd"
+   },
+   "cheat": [
+    [
+     "U",
+     "meneer / mevrouw · B1-Nederlands"
+    ],
+    [
+     "€ + ⏱",
+     "kosten en tijd vooraf"
+    ],
+    [
+     "0",
+     "discussies met de passagier"
+    ],
+    [
+     "📵",
+     "handsfree · kort · zakelijk"
+    ],
+    [
+     "🐕",
+     "hulphond altijd mee · allergisch: 15 min vervangend vervoer"
+    ],
+    [
+     "meter",
+     "stand laten staan na de rit"
+    ],
+    [
+     "route",
+     "snelste of voordeligste, tenzij klant anders vraagt"
+    ],
+    [
+     "bon",
+     "prijs · tarief · afstand · bedrijf · kenteken · tijden"
+    ]
+   ],
+   "chunks": [
+    "Goed informeren: kosten en tijd; bedrijf informeren voor planning en vervangend vervoer; geen discussie; B1 (CBR 6.1).",
+    "Telefoon: zakelijk, net, kort, meeluisteren, handsfree (CBR 6.2).",
+    "Beroepshouding: geduld, tact, respect, U/meneer/mevrouw, verzorgd, auto schoon, niet roken/vapen (CBR 7.1).",
+    "Soorten passagiers: cultuur, geslacht, leeftijd, taal, haast, stemming, middelen, beperking, speciaal onderwijs; juiste kant en adres (CBR 7.3).",
+    "KNV: helpen bij in/uitstappen en bagage, meterstand laten staan, betaalbewijs, gunstigste route (art. 7).",
+    "KNV: reiziger gordel om, geen alcohol zonder toestemming, bestemming mag wijzigen; hulphond altijd (art. 5, 9).",
+    "Tevreden klant = veiligheid, binding, minder problemen; contract blijft (CBR 7.4)."
+   ],
+   "mind": [
+    "Kosten & tijd",
+    "Telefoon handsfree",
+    "Beroepshouding",
+    "Soorten passagiers",
+    "KNV plichten chauffeur",
+    "KNV plichten reiziger",
+    "Tevreden = contract"
+   ],
+   "ezel": "'Stoep – U – Prijs – Vlinder': instappen aan de stoepkant, 'U' zeggen, prijs en tijd noemen, telefoon handsfree. Hond: 'Hulphond = Heilig'.",
+   "teach": "Leg een nieuwe collega uit hoe je een passagier ontvangt, vanaf het instappen tot het betaalbewijs – en wat je doet met een hulphond.",
+   "check": [
+    "kosten + tijd",
+    "U/meneer/mevrouw",
+    "handsfree, kort, zakelijk",
+    "hulphond altijd, 15 min bij allergie",
+    "meter laten staan + betaalbewijs",
+    "geen discussie"
+   ],
+   "recall": "Noem uit je hoofd 5 plichten van de chauffeur en 5 plichten van de reiziger uit de KNV-voorwaarden."
+  },
+  "7": {
+   "naam": "Conflict & klacht",
+   "kort": "Conflict",
+   "kleur": "#5D6D7E",
+   "et": "ET 8, 9→8.3, 10",
+   "station": {
+    "nr": 7,
+    "plek": "Aankomst: de boze passagier",
+    "zin": "kalm als ijs, eerst het bedrijf",
+    "beeld": "Een passagier blaast zich op als een ballon en scheldt. Krijger blijft koel als een ijsblok: luistert, blijft neutraal, schat het risico in. Wordt het gevaarlijk? Stoppen op een verlichte, veilige plek en hulp roepen. De ballon wil klagen: Krijger wijst naar twee deuren – eerst het taxibedrijf, dan de Geschillencommissie (binnen 12 maanden).",
+    "kern": "luisteren · neutraal · risico · hulp · bedrijf → Geschillencommissie"
+   },
+   "cheat": [
+    [
+     "6",
+     "8.1: aandacht · serieus · luisteren · meedenken · oplossingsgericht · neutraal"
+    ],
+    [
+     "6",
+     "8.3: houding · representatie · herkennen · risico · hulp · communicatie"
+    ],
+    [
+     "1e",
+     "klacht bij het taxibedrijf"
+    ],
+    [
+     "2e",
+     "Geschillencommissie Zorgvervoer en Taxi"
+    ],
+    [
+     "12 mnd",
+     "na de klacht bij de vervoerder"
+    ],
+    [
+     "bindend",
+     "advies van de commissie"
+    ],
+    [
+     "veilig",
+     "rit staken bij ernstige hinder – op een veilige plek"
+    ]
+   ],
+   "chunks": [
+    "Goede communicatie: aandacht, serieus nemen, luisteren, meedenken, oplossingsgericht, professioneel en neutraal (CBR 8.1).",
+    "Voorkomen: juiste beroepshouding, representatie, correcte communicatie (CBR 8.3).",
+    "Herkennen en risico inschatten; bij gevaar hulp inroepen (centrale, 112) (CBR 8.3).",
+    "Conflicten ook met andere weggebruikers: niet reageren, veilig verder (CBR 8.3).",
+    "Klacht: eerst klachtenprocedure taxibedrijf; vervoerder maakt bekend hoe (CBR 10.1, Wp2000 78).",
+    "Daarna Geschillencommissie Zorgvervoer en Taxi: alleen na klacht bij vervoerder, binnen 12 maanden, bindend advies (KNV 14).",
+    "Ernstige hinder: rit staken, reiziger laten uitstappen – op een veilige plek (KNV 4)."
+   ],
+   "mind": [
+    "Communicatie 8.1",
+    "Voorkomen",
+    "Risico inschatten",
+    "Hulp inroepen",
+    "Andere weggebruikers",
+    "Klacht bedrijf",
+    "Geschillencommissie"
+   ],
+   "ezel": "'IJsblok met twee deuren': koel blijven (luisteren, neutraal), dan deur 1 = bedrijf, deur 2 = Geschillencommissie (12 maanden, bindend).",
+   "teach": "Leg uit wat je doet als een passagier dreigt en daarna wil klagen: de-escaleren, veiligheid en de complete klachtroute.",
+   "check": [
+    "luisteren + neutraal",
+    "risico inschatten",
+    "hulp inroepen + veilige plek",
+    "eerst bedrijf",
+    "dan Geschillencommissie",
+    "12 maanden + bindend advies"
+   ],
+   "recall": "Noem uit je hoofd de 6 onderdelen van goede communicatie en de 5 stappen van de klachtroute."
+  }
+ },
+ "sets": [
+  {
+   "id": "set-01",
+   "naam": "Basisbank v1 (CBR-eisen 1-9-2025 + wetten.overheid.nl)",
+   "datum": "2026-10-18",
+   "vragen": [
+    {
+     "id": "s1-t1-k01",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Ma 06:50, rijklaarcontrole. Welk document laat de passagier de taxitarieven zien?",
+     "opts": [
+      "Het kentekenbewijs",
+      "De taxi-informatiekaart (tariefkaart)",
+      "De groene kaart"
+     ],
+     "ok": 1,
+     "why": "De taxi-informatiekaart (tariefkaart) toont de tarieven. Het CBR noemt hem bij de voertuigdocumenten.",
+     "wrong": [
+      "Het kentekenbewijs gaat over de auto en de eigenaar, niet over prijzen.",
+      "",
+      "De groene kaart is het verzekeringsbewijs."
+     ],
+     "bron": "CBR exameneisen TVT 1.1",
+     "hint": "Waar staat de prijs op?",
+     "simpel": "Op welk papier staat wat een rit kost?",
+     "kern": [
+      "taxitarieven"
+     ]
+    },
+    {
+     "id": "s1-t1-k02",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Wat is de groene kaart?",
+     "opts": [
+      "Het bewijs dat de auto verzekerd is",
+      "Het keuringsbewijs van de taxameter",
+      "De milieusticker"
+     ],
+     "ok": 0,
+     "why": "De groene kaart is de verzekeringskaart. Het CBR noemt hem bij de voertuigdocumenten.",
+     "wrong": [
+      "",
+      "Het keuringsbewijs taxameter is een eigen document.",
+      "De milieusticker is een sticker op de ruit, geen kaart."
+     ],
+     "bron": "CBR exameneisen TVT 1.1",
+     "hint": "Denk aan: als er schade is, wie betaalt?",
+     "simpel": "Waarvoor dient de groene kaart?",
+     "kern": [
+      "groene kaart"
+     ]
+    },
+    {
+     "id": "s1-t1-k03",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Je hebt een kleine aanrijding. Welk formulier vul je samen met de andere bestuurder in?",
+     "opts": [
+      "Het APK-keuringsrapport",
+      "Het Europees schadeformulier",
+      "De tariefkaart"
+     ],
+     "ok": 1,
+     "why": "Het Europees schadeformulier is voor het vastleggen van schade na een aanrijding.",
+     "wrong": [
+      "Het APK-rapport laat zien dat de auto gekeurd is.",
+      "",
+      "De tariefkaart toont de prijzen."
+     ],
+     "bron": "CBR exameneisen TVT 1.1",
+     "hint": "Het formulier heet naar de schade.",
+     "simpel": "Na een botsing: welk papier vul je samen in?",
+     "kern": [
+      "aanrijding",
+      "formulier"
+     ]
+    },
+    {
+     "id": "s1-t1-k04",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.2",
+     "type": "mc",
+     "q": "Welke drie persoonlijke documenten heb je als taxichauffeur nodig?",
+     "opts": [
+      "Rijbewijs B, identiteitsbewijs, chauffeurskaart",
+      "Rijbewijs B, VOG, groene kaart",
+      "Identiteitsbewijs, kentekenbewijs, APK-rapport"
+     ],
+     "ok": 0,
+     "why": "Het CBR noemt als persoonlijke documenten: rijbewijs B, identiteitsbewijs en chauffeurskaart/chauffeurspas.",
+     "wrong": [
+      "",
+      "De VOG is nodig voor de aanvraag van de kaart, niet om mee te rijden. De groene kaart hoort bij de auto.",
+      "Kentekenbewijs en APK-rapport horen bij de auto, niet bij jou."
+     ],
+     "bron": "CBR exameneisen TVT 1.2",
+     "hint": "Persoonlijk = over jou, niet over de auto.",
+     "simpel": "Welke 3 papieren gaan over jou zelf?",
+     "kern": [
+      "persoonlijke"
+     ]
+    },
+    {
+     "id": "s1-t1-k05",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Waar staat CDT voor?",
+     "opts": [
+      "Centrale Dienst Taxi",
+      "Centrale Database Taxivervoer",
+      "Controle Document Taxi"
+     ],
+     "ok": 1,
+     "why": "CDT = Centrale Database Taxivervoer: een technische voorziening die berichten met taxivervoergegevens ontvangt.",
+     "wrong": [
+      "Bestaat niet.",
+      "",
+      "Bestaat niet. (Ook niet 'Custom Dedicated Transport', dat was een Gemini-fout.)"
+     ],
+     "bron": "Bp2000 art. 1 · CBR ET 1.3",
+     "hint": "Het is een database.",
+     "simpel": "Wat betekent de afkorting CDT?",
+     "kern": [
+      "CDT"
+     ]
+    },
+    {
+     "id": "s1-t1-k06",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Waar staat BCT voor?",
+     "opts": [
+      "Boordcomputer Taxi",
+      "Bewijs Chauffeur Taxi",
+      "Basiscontrole Taxameter"
+     ],
+     "ok": 0,
+     "why": "BCT = Boordcomputer Taxi: een gecertificeerd apparaat in de taxi dat met je chauffeurskaart werkt.",
+     "wrong": [
+      "",
+      "Bestaat niet.",
+      "Bestaat niet; de taxameter heeft een eigen keuringsbewijs."
+     ],
+     "bron": "CBR ET 1.3 · ILT",
+     "hint": "Het zit aan boord van de auto.",
+     "simpel": "Wat betekent BCT?",
+     "kern": [
+      "BCT"
+     ]
+    },
+    {
+     "id": "s1-t1-k07",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Een collega zegt: 'Log maar in met mijn kaart, de jouwe ligt thuis.' Mag dat?",
+     "opts": [
+      "Ja, als je maar dezelfde auto gebruikt",
+      "Nee, de chauffeurskaart is persoonsgebonden",
+      "Ja, voor maximaal één dienst"
+     ],
+     "ok": 1,
+     "why": "De chauffeurskaart is persoonsgebonden en identificeert jou. Een andere kaart gebruiken is fout.",
+     "wrong": [
+      "Het gaat om de persoon, niet om de auto.",
+      "",
+      "Er bestaat geen 'één dienst'-uitzondering."
+     ],
+     "bron": "ILT – arbeids- en rusttijden registreren",
+     "hint": "Op de kaart staat wie jij bent.",
+     "simpel": "Mag je de pas van een ander gebruiken?",
+     "kern": [
+      "persoonsgebonden"
+     ]
+    },
+    {
+     "id": "s1-t1-k08",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Vanaf welke datum mag je alleen nog een middel gebruiken dat aanlevert aan de CDT?",
+     "opts": [
+      "1 juli 2025",
+      "1 januari 2026",
+      "1 januari 2028"
+     ],
+     "ok": 2,
+     "why": "Tot 1 januari 2028 mag je BCT of CDT gebruiken. Daarna alleen CDT.",
+     "wrong": [
+      "Op 1 juli 2025 begon de overgangsperiode (BCT én CDT mogen).",
+      "Geen datum uit de regels.",
+      ""
+     ],
+     "bron": "ILT – arbeids- en rusttijden registreren",
+     "hint": "Het is het jaar waarin het CBR alleen nog over CDT vraagt.",
+     "simpel": "Wanneer stopt de BCT?",
+     "kern": [
+      "alleen",
+      "CDT"
+     ]
+    },
+    {
+     "id": "s1-t1-k09",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Waar hoort het vergunningbewijs in de taxi?",
+     "opts": [
+      "Zichtbaar voor de reiziger in de auto",
+      "In het handschoenenkastje, alleen tonen als de politie vraagt",
+      "Op kantoor bij de ondernemer"
+     ],
+     "ok": 0,
+     "why": "Vervoerder én bestuurder zorgen dat het vergunningbewijs zichtbaar voor de reiziger in de auto is.",
+     "wrong": [
+      "Verstopt is niet 'zichtbaar voor de reiziger'.",
+      "",
+      "Het moet in de auto zijn waarmee je rijdt."
+     ],
+     "bron": "Wp2000 art. 76 lid 3",
+     "hint": "De passagier moet het kunnen zien.",
+     "simpel": "Waar moet het papier van de vergunning liggen?",
+     "kern": [
+      "vergunningbewijs"
+     ]
+    },
+    {
+     "id": "s1-t1-k10",
+     "tak": 1,
+     "niveau": "kruipen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Waarom heeft de taxameter een keuringsbewijs?",
+     "opts": [
+      "Om te laten zien dat de taxameter goed gekeurd is en juist rekent",
+      "Omdat de passagier daar zijn bon op krijgt",
+      "Het is alleen nodig voor elektrische taxi's"
+     ],
+     "ok": 0,
+     "why": "De taxameter moet voldoen aan de regels van de Metrologiewet en op tijd gecontroleerd worden. Het keuringsbewijs toont dat.",
+     "wrong": [
+      "",
+      "De bon (ritbewijs) is iets anders.",
+      "Geldt voor elke taxi met taxameter."
+     ],
+     "bron": "CBR ET 1.1 · Bp2000 art. 78",
+     "hint": "Keuring = controle.",
+     "simpel": "Waarvoor is het bewijs van de taxameter?",
+     "kern": [
+      "keuringsbewijs"
+     ]
+    },
+    {
+     "id": "s1-t1-l01",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Wie bewaart de BCT-gegevens en hoe lang minimaal?",
+     "opts": [
+      "De chauffeur, 1 jaar",
+      "De vervoerder, 2 jaar (104 weken)",
+      "De ILT, 5 jaar"
+     ],
+     "ok": 1,
+     "why": "De vervoerder bewaart de gegevens ten minste 104 weken (2 jaar).",
+     "wrong": [
+      "Het bewaren is een taak van de vervoerder, en 1 jaar is te kort.",
+      "",
+      "De ILT kan gegevens opvragen; de vervoerder bewaart ze."
+     ],
+     "bron": "Bp2000 art. 80 lid 2 · ILT"
+    },
+    {
+     "id": "s1-t1-l02",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Hoe lang blijven de gegevens in de Centrale Database Taxivervoer?",
+     "opts": [
+      "6 maanden",
+      "1 jaar",
+      "2 jaar, daarna worden ze vernietigd"
+     ],
+     "ok": 2,
+     "why": "Bp2000 art. 83a lid 3: gegevens blijven twee jaar in de CDT en worden daarna vernietigd.",
+     "wrong": [
+      "Te kort.",
+      "Te kort; 1 jaar is de geldigheid van je examenuitslag.",
+      ""
+     ],
+     "bron": "Bp2000 art. 83a lid 3"
+    },
+    {
+     "id": "s1-t1-l03",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Hoe komen de ritgegevens bij de CDT?",
+     "opts": [
+      "De vervoerder levert ze realtime aan",
+      "De chauffeur stuurt ze elke week op",
+      "De ILT haalt ze één keer per maand op"
+     ],
+     "ok": 0,
+     "why": "De vervoerder levert de gegevens realtime aan de CDT (direct, zonder vertraging).",
+     "wrong": [
+      "",
+      "Niet wekelijks: realtime.",
+      "De ILT heeft direct toegang; ophalen per maand bestaat niet."
+     ],
+     "bron": "Bp2000 art. 83b lid 4"
+    },
+    {
+     "id": "s1-t1-l04",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Hoe lang is een boordcomputerkaart (zoals de chauffeurskaart) geldig?",
+     "opts": [
+      "1 jaar",
+      "5 jaar",
+      "10 jaar"
+     ],
+     "ok": 1,
+     "why": "Bp2000 art. 83 lid 2: boordcomputerkaarten zijn vijf jaar geldig.",
+     "wrong": [
+      "Te kort.",
+      "",
+      "Te lang."
+     ],
+     "bron": "Bp2000 art. 83 lid 2"
+    },
+    {
+     "id": "s1-t1-l05",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "In 2026 wil je de ene dag met de BCT rijden en de volgende dag met een CDT-app. Mag dat?",
+     "opts": [
+      "Nee, je kiest één middel voor het hele jaar",
+      "Ja, je mag per dag een ander registratiemiddel gebruiken",
+      "Alleen met toestemming van de ILT"
+     ],
+     "ok": 1,
+     "why": "De ILT zegt: u kunt per dag een ander registratiemiddel gebruiken (overgangsperiode tot 1-1-2028).",
+     "wrong": [
+      "Zo'n jaarkeuze bestaat niet.",
+      "",
+      "Toestemming is niet nodig."
+     ],
+     "bron": "ILT – arbeids- en rusttijden registreren"
+    },
+    {
+     "id": "s1-t1-l06",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "ILT-controle langs de weg. Wat moet je in elk geval bij je hebben?",
+     "opts": [
+      "Rijbewijs en chauffeurskaart",
+      "Alleen je identiteitsbewijs",
+      "Je VOG en geneeskundige verklaring"
+     ],
+     "ok": 0,
+     "why": "De ILT noemt: rijbewijs en chauffeurskaart. Voor BCT leest de ILT de kaart uit.",
+     "wrong": [
+      "Te weinig: rijbewijs en chauffeurskaart zijn nodig.",
+      "",
+      "Die heb je nodig bij de aanvraag van de kaart, niet bij een controle."
+     ],
+     "bron": "ILT – arbeids- en rusttijden registreren"
+    },
+    {
+     "id": "s1-t1-l07",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Wie mag een kapotte BCT herstellen?",
+     "opts": [
+      "Jijzelf, met de handleiding",
+      "Een erkend inbouwstation",
+      "Elke garage"
+     ],
+     "ok": 1,
+     "why": "Herstel gebeurt door erkende (rechts)personen (ATW 9:1), het erkende inbouwstation. De vervoerder regelt het binnen de termijn.",
+     "wrong": [
+      "Je mag de BCT niet zelf openmaken of aanpassen.",
+      "",
+      "Alleen erkende bedrijven."
+     ],
+     "bron": "Bp2000 art. 80 lid 6 · ILT"
+    },
+    {
+     "id": "s1-t1-l08",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Straattaxi, losse rit van het station. Moet de taxameter aan?",
+     "opts": [
+      "Ja, de taxameter wordt gebruikt",
+      "Nee, je mag zelf een prijs noemen zonder meter",
+      "Alleen 's nachts"
+     ],
+     "ok": 0,
+     "why": "Taxivervoer gebeurt met de taxameter aan, behalve als er een schriftelijke overeenkomst is met tarieven voor meerdere ritten (contract).",
+     "wrong": [
+      "",
+      "Bij een losse straatrit geldt de meter.",
+      "Geen tijdsuitzondering."
+     ],
+     "bron": "Bp2000 art. 78 lid 3"
+    },
+    {
+     "id": "s1-t1-l09",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "De rit is klaar. Wat krijgt de passagier?",
+     "opts": [
+      "Een ritbewijs (betalingsbewijs)",
+      "Alleen op verzoek een handgeschreven bonnetje",
+      "Niets, de taxameter is genoeg"
+     ],
+     "ok": 0,
+     "why": "De passagier krijgt na afloop een (automatisch gegenereerd) ritbewijs met o.a. ritprijs, tarieven, afstand, kenteken en tijden.",
+     "wrong": [
+      "Het ritbewijs is verplicht, niet alleen op verzoek.",
+      "",
+      "De meter alleen is niet genoeg."
+     ],
+     "bron": "Bp2000 art. 73 lid 2 · KNV art. 7 lid 5"
+    },
+    {
+     "id": "s1-t1-l10",
+     "tak": 1,
+     "niveau": "lopen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Waar moet het tarief van een taxi te zien zijn?",
+     "opts": [
+      "Alleen op de website",
+      "Buiten aan de auto én binnen in de auto (of op een andere manier kenbaar)",
+      "Alleen op de bon achteraf"
+     ],
+     "ok": 1,
+     "why": "Het tarief moet duidelijk leesbaar zijn aan de buitenkant én binnen in de auto, of op een andere manier kenbaar gemaakt.",
+     "wrong": [
+      "Alleen online is niet genoeg.",
+      "",
+      "Achteraf is te laat; de klant moet vooraf weten wat hij betaalt."
+     ],
+     "bron": "Bp2000 art. 73 lid 1"
+    },
+    {
+     "id": "s1-t1-r01",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.3",
+     "type": "multi",
+     "q": "Welke gegevens moeten via het registratiemiddel naar de CDT? Kies ALLE juiste.",
+     "opts": [
+      "Kenteken van de auto",
+      "Arbeids- en rusttijden van de bestuurder",
+      "Chauffeursnummer",
+      "Nummer van je rijbewijs",
+      "Naam van de passagier",
+      "Telefoonnummer van de passagier"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "Bp2000 83b lid 2 noemt o.a. kenteken, begin/einde werk, arbeids- en rusttijden, personenvervoernummer, KvK-nummer, rijbewijsnummer, chauffeursnummer, vertrek/aankomst, afstand, prijs en andere werkzaamheden. Geen passagiersgegevens.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "Passagiersgegevens staan niet in de lijst.",
+      "Passagiersgegevens staan niet in de lijst."
+     ],
+     "bron": "Bp2000 art. 83b lid 2"
+    },
+    {
+     "id": "s1-t1-r02",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Di 3 feb 2026, 14:10. De BCT valt uit, niet door jouw schuld. Je hebt nog twee ritten. Wat klopt?",
+     "opts": [
+      "Registreren hoeft niet meer tot het einde van de dienst: overmacht",
+      "De registratieplicht blijft: je registreert op de voorgeschreven vervangende manier en de vervoerder laat de BCT op tijd herstellen door een erkend station",
+      "Je zet de BCT zelf uit en weer aan; lukt dat niet, dan stop je de rest van de week"
+     ],
+     "ok": 1,
+     "why": "Bij een storing buiten jouw schuld geldt een vervangende registratieplicht (ministeriële regeling). Een deugdelijke registratie blijft verplicht (ATW 4:3) en de vervoerder laat herstellen door een erkend station.",
+     "wrong": [
+      "Er is geen vrijstelling: de plicht verandert alleen van vorm.",
+      "",
+      "Zelf sleutelen is fout, en een week stoppen is niet de regel."
+     ],
+     "bron": "Bp2000 art. 79 lid 6, art. 80 lid 5–6 · ATW 4:3"
+    },
+    {
+     "id": "s1-t1-r03",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Bij een controle ligt er in de taxi een apparaatje om de BCT te manipuleren. Het is nog niet gebruikt. Wat klopt?",
+     "opts": [
+      "Geen probleem, het is niet gebruikt",
+      "Verboden: alleen al zo'n voorziening in de auto hebben is niet toegestaan",
+      "Alleen verboden als de ILT kan bewijzen dat er gefraudeerd is"
+     ],
+     "ok": 1,
+     "why": "Bp2000 80 lid 8: verboden is een voorziening in de auto die kennelijk bedoeld is om de boordcomputer ondeugdelijk te maken.",
+     "wrong": [
+      "Het aanwezig hebben is al verboden.",
+      "",
+      "Bewijs van gebruik is niet nodig."
+     ],
+     "bron": "Bp2000 art. 80 lid 8"
+    },
+    {
+     "id": "s1-t1-r04",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.3",
+     "type": "num",
+     "q": "Hoeveel weken moet de vervoerder de BCT-gegevens minimaal bewaren? Typ het getal.",
+     "ok": 104,
+     "why": "Bp2000 art. 80 lid 2: ten minste 104 weken (2 jaar).",
+     "bron": "Bp2000 art. 80 lid 2",
+     "unit": "weken"
+    },
+    {
+     "id": "s1-t1-r05",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.2",
+     "type": "mc",
+     "q": "Okt 2026. Je vraagt de chauffeurskaart aan. Je VOG is van mei 2026 (5 maanden oud). Mag je die gebruiken?",
+     "opts": [
+      "Ja, een VOG is 1 jaar geldig",
+      "Nee, de VOG mag niet ouder zijn dan 4 maanden",
+      "Ja, zolang de geneeskundige verklaring nieuw is"
+     ],
+     "ok": 1,
+     "why": "Bp2000 82 lid 1: de VOG en de geneeskundige verklaring mogen bij de aanvraag niet ouder zijn dan vier maanden.",
+     "wrong": [
+      "1 jaar is de geldigheid van je TVT-uitslag, niet van de VOG bij deze aanvraag.",
+      "",
+      "Beide stukken hebben elk de grens van 4 maanden."
+     ],
+     "bron": "Bp2000 art. 82 lid 1"
+    },
+    {
+     "id": "s1-t1-r06",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.2",
+     "type": "multi",
+     "q": "Welke stukken lever je in bij de aanvraag van de chauffeurskaart? Kies ALLE juiste.",
+     "opts": [
+      "Geldig rijbewijs",
+      "Geneeskundige verklaring (max 4 maanden oud)",
+      "VOG voor taxichauffeur (max 4 maanden oud)",
+      "Getuigschrift van de examens",
+      "Recente pasfoto",
+      "APK-keuringsrapport van je taxi"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "Bp2000 82 lid 1 a–e: rijbewijs, geneeskundige verklaring, VOG, getuigschrift en pasfoto.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Het APK-rapport hoort bij de auto, niet bij jouw kaartaanvraag."
+     ],
+     "bron": "Bp2000 art. 82 lid 1"
+    },
+    {
+     "id": "s1-t1-r07",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.1",
+     "type": "mc",
+     "q": "Leerlingenvervoer voor de gemeente. Er is een schriftelijk contract met vaste tarieven voor ritten het hele schooljaar. Moet de taxameter aan?",
+     "opts": [
+      "Ja, de taxameter moet altijd aan",
+      "Nee, bij zo'n schriftelijke overeenkomst met vaste tarieven voor meerdere ritten geldt de meterplicht niet",
+      "Alleen als een ouder meerijdt"
+     ],
+     "ok": 1,
+     "why": "De meterplicht geldt niet bij een schriftelijke overeenkomst waarin tarieven zijn vastgelegd voor meerdere ritten in een periode (contractvervoer).",
+     "wrong": [
+      "Er is een uitzondering voor contractvervoer.",
+      "",
+      "Geen regel over meerijdende ouders."
+     ],
+     "bron": "Bp2000 art. 78 lid 3 en 6 · Wp2000 art. 81 lid 2"
+    },
+    {
+     "id": "s1-t1-r08",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.2",
+     "type": "mc",
+     "q": "Je rijdt contractvervoer met een chauffeurskaart onder beperkingen. Wat moet er in de auto aanwezig zijn?",
+     "opts": [
+      "Niets extra",
+      "Het deel van de administratie dat aantoont dat je echt dat soort taxidienst rijdt",
+      "Een kopie van je examenuitslag"
+     ],
+     "ok": 1,
+     "why": "Bp2000 81 lid 6: in de auto is het deel van de administratie aanwezig waarmee je aantoont dat je de taxidienst rijdt waarvoor de beperkte kaart geldt.",
+     "wrong": [
+      "Er moet wel bewijs in de auto zijn.",
+      "",
+      "De examenuitslag is niet het gevraagde bewijs."
+     ],
+     "bron": "Bp2000 art. 81 lid 4 en 6"
+    },
+    {
+     "id": "s1-t1-r09",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.2",
+     "type": "mc",
+     "q": "Je chauffeurskaart (afgegeven in 2024) gaat in 2026 kapot. Hoe lang is de vervangende kaart geldig?",
+     "opts": [
+      "Weer 5 jaar vanaf vandaag",
+      "Alleen de resterende geldigheid van de oude kaart",
+      "1 jaar"
+     ],
+     "ok": 1,
+     "why": "Bp2000 83 lid 4: een kaart die binnen de geldigheid verloren, gestolen of defect is, wordt vervangen voor de resterende termijn.",
+     "wrong": [
+      "Je krijgt geen nieuwe 5 jaar.",
+      "",
+      "Geen 1-jaarregel."
+     ],
+     "bron": "Bp2000 art. 83 lid 4"
+    },
+    {
+     "id": "s1-t1-r10",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Welke uitspraak over vergunning en vergunningbewijs klopt?",
+     "opts": [
+      "De vergunning geldt voor onbepaalde tijd; een vergunningbewijs is maximaal 5 jaar geldig",
+      "Beide gelden 1 jaar",
+      "De vergunning geldt 5 jaar; het bewijs voor onbepaalde tijd"
+     ],
+     "ok": 0,
+     "why": "Wp2000 76 lid 2: vergunning voor onbepaalde tijd. Bp2000 17 lid 3: een vergunningbewijs is ten hoogste vijf jaar geldig.",
+     "wrong": [
+      "",
+      "Fout voor allebei.",
+      "Precies omgekeerd."
+     ],
+     "bron": "Wp2000 art. 76 lid 2 · Bp2000 art. 17 lid 3"
+    },
+    {
+     "id": "s1-t1-r11",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.3",
+     "type": "multi",
+     "q": "Welke gegevens registreert de BCT altijd (ook zonder rit)? Kies ALLE juiste.",
+     "opts": [
+      "Kilometerstand",
+      "Kenteken",
+      "Datum en tijd",
+      "Afgelegde route",
+      "Informatie over de werking van de BCT",
+      "Het weer"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "Bp2000 79 lid 3: kilometerstand, kenteken, datum en tijd, route en informatie over de werking.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Het weer staat niet in de lijst."
+     ],
+     "bron": "Bp2000 art. 79 lid 3"
+    },
+    {
+     "id": "s1-t1-r12",
+     "tak": 1,
+     "niveau": "rennen",
+     "et": "ET 1.3",
+     "type": "mc",
+     "q": "Je chauffeurskaart is gestolen. Wat klopt?",
+     "opts": [
+      "Je hoeft niets te doen, de kaart werkt na een week niet meer",
+      "De houder meldt verlies of diefstal; dat is verplicht",
+      "Alleen je werkgever mag het melden"
+     ],
+     "ok": 1,
+     "why": "Bp2000 83 lid 5: de houder van een chauffeurskaart meldt verlies of diefstal (aan de minister; de uitgifte loopt via Kiwa).",
+     "wrong": [
+      "Melden is verplicht.",
+      "",
+      "De houder zelf meldt."
+     ],
+     "bron": "Bp2000 art. 83 lid 5 · art. 1 (Kiwa)"
+    },
+    {
+     "id": "s1-t2-k01",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Het verkeerslicht is rood. Een verkeersregelaar wenkt je door. Wat doe je?",
+     "opts": [
+      "Doorrijden",
+      "Wachten, want rood gaat voor",
+      "Eerst toeteren, dan doorrijden"
+     ],
+     "ok": 0,
+     "why": "Aanwijzingen gaan boven verkeerstekens en verkeersregels (RVV 84). Je volgt de bevoegde verkeersregelaar (RVV 82).",
+     "wrong": [
+      "",
+      "Het licht is lager in rang dan de aanwijzing.",
+      "Toeteren mag alleen bij dreigend gevaar (RVV 28)."
+     ],
+     "bron": "RVV 1990 art. 84 en 82",
+     "hint": "Mens met handschoen wint van lamp.",
+     "simpel": "Rood licht, maar iemand zegt 'rij door'. Wie volg je?",
+     "kern": [
+      "verkeersregelaar",
+      "rood"
+     ]
+    },
+    {
+     "id": "s1-t2-k02",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "num",
+     "q": "Je rijdt in een woonerf. Hoe snel mag je maximaal? Typ het getal.",
+     "ok": 15,
+     "why": "RVV 45: in een erf niet sneller dan 15 km per uur. (Dit is ook een CBR-voorbeeldvraag.)",
+     "bron": "RVV 1990 art. 45 · CBR voorbeeldvraag",
+     "hint": "Raket (1) met zeepaardje (5).",
+     "simpel": "Hoe hard mag je in een straat waar kinderen spelen (erf)?",
+     "kern": [
+      "woonerf"
+     ],
+     "unit": "km/u"
+    },
+    {
+     "id": "s1-t2-k03",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Binnen de bebouwde kom, geen borden. Wat is de maximumsnelheid voor je taxi?",
+     "opts": [
+      "30 km/u",
+      "50 km/u",
+      "60 km/u"
+     ],
+     "ok": 1,
+     "why": "RVV 20: binnen de bebouwde kom 50 km/u voor motorvoertuigen.",
+     "wrong": [
+      "30 geldt alleen als een bord dat zegt.",
+      "",
+      "60 bestaat niet als algemene limiet in de kom."
+     ],
+     "bron": "RVV 1990 art. 20",
+     "hint": "Kussens van de bank.",
+     "simpel": "Hoe hard in de stad of het dorp?",
+     "kern": [
+      "bebouwde kom"
+     ]
+    },
+    {
+     "id": "s1-t2-k04",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Op een autosnelweg, zonder snelheidsborden. Wat is de wettelijke maximumsnelheid?",
+     "opts": [
+      "100 km/u",
+      "120 km/u",
+      "130 km/u"
+     ],
+     "ok": 2,
+     "why": "RVV 21: autosnelweg 130, autoweg 100, andere wegen buiten de kom 80. Borden kunnen lager aangeven.",
+     "wrong": [
+      "100 geldt op een autoweg.",
+      "120 staat niet in RVV 21.",
+      ""
+     ],
+     "bron": "RVV 1990 art. 21",
+     "hint": "Spring over de bank.",
+     "simpel": "Hoe hard op de snelweg?",
+     "kern": [
+      "autosnelweg"
+     ]
+    },
+    {
+     "id": "s1-t2-k05",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Meisje van 8 jaar, 1,28 m. In de taxi is geen kinderzitje. Waar zit ze?",
+     "opts": [
+      "Voorin met de gordel om",
+      "Achterin met de gordel om",
+      "Ze mag niet mee"
+     ],
+     "ok": 1,
+     "why": "RVV 59 lid 5: in een taxi zonder kinderzitje zit een kind onder 18 jaar en kleiner dan 1,35 m niet op een voorste zitplaats. De gordel blijft verplicht.",
+     "wrong": [
+      "Voorin mag niet bij < 1,35 m zonder zitje.",
+      "",
+      "Ze mag wel mee, maar achterin."
+     ],
+     "bron": "RVV 1990 art. 59 lid 5",
+     "hint": "Tafelpoot: 1,35 m.",
+     "simpel": "Klein kind, geen stoeltje: voor of achter?",
+     "kern": [
+      "1,28 m",
+      "geen kinderzitje"
+     ]
+    },
+    {
+     "id": "s1-t2-k06",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Tijdens het rijden belt de centrale. Mag je je telefoon in de hand houden?",
+     "opts": [
+      "Ja, als het kort is",
+      "Nee, vasthouden tijdens het rijden is verboden",
+      "Ja, als je onder 30 km/u rijdt"
+     ],
+     "ok": 1,
+     "why": "RVV 61a: tijdens het rijden een mobiel apparaat vasthouden is verboden. Gebruik handsfree.",
+     "wrong": [
+      "Ook kort is verboden.",
+      "",
+      "Er is geen snelheidsgrens in deze regel."
+     ],
+     "bron": "RVV 1990 art. 61a",
+     "hint": "Vlinder aan de ruit: handsfree.",
+     "simpel": "Telefoon in je hand tijdens het rijden?",
+     "kern": [
+      "vasthouden"
+     ]
+    },
+    {
+     "id": "s1-t2-k07",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Aan welke kant haal je normaal in?",
+     "opts": [
+      "Links",
+      "Rechts",
+      "Maakt niet uit"
+     ],
+     "ok": 0,
+     "why": "RVV 11 lid 1: inhalen gebeurt links. Er zijn uitzonderingen (file, rotonde, tram, links voorsorteerder, blokmarkering).",
+     "wrong": [
+      "",
+      "Rechts is alleen bij uitzonderingen.",
+      "Er is wel een hoofdregel."
+     ],
+     "bron": "RVV 1990 art. 11 lid 1",
+     "hint": "Hoofdregel, geen uitzondering.",
+     "simpel": "Langs welke kant ga je voorbij?",
+     "kern": [
+      "inhalen"
+     ]
+    },
+    {
+     "id": "s1-t2-k08",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Kruispunt zonder borden, lijnen of lichten. Een auto komt van rechts. Wie gaat eerst?",
+     "opts": [
+      "Jij, want je rijdt rechtdoor",
+      "De auto van rechts",
+      "Wie het eerst bij het kruispunt is"
+     ],
+     "ok": 1,
+     "why": "RVV 15 lid 1: op kruispunten verleen je voorrang aan bestuurders van rechts.",
+     "wrong": [
+      "Rechtdoor geeft geen voorrang.",
+      "",
+      "Eerst zijn telt niet."
+     ],
+     "bron": "RVV 1990 art. 15 lid 1",
+     "hint": "Rechts gaat voor.",
+     "simpel": "Wie mag eerst op een gewoon kruispunt?",
+     "kern": [
+      "van rechts"
+     ]
+    },
+    {
+     "id": "s1-t2-k09",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Achter je rijdt een ambulance met blauw zwaailicht en sirene. Wat doe je?",
+     "opts": [
+      "Gewoon doorrijden, jij hebt passagiers",
+      "Voor laten gaan: veilig ruimte maken",
+      "Gas geven om voor te blijven"
+     ],
+     "ok": 1,
+     "why": "RVV 50: weggebruikers laten een voorrangsvoertuig voorgaan. RVV 29: dat voertuig voert blauw licht en tweetonige hoorn.",
+     "wrong": [
+      "Passagiers geven geen voorrang.",
+      "",
+      "Gevaarlijk en fout."
+     ],
+     "bron": "RVV 1990 art. 50 en 29",
+     "hint": "Blauw licht + sirene = voorrangsvoertuig.",
+     "simpel": "Ambulance met sirene achter je?",
+     "kern": [
+      "blauw zwaailicht"
+     ]
+    },
+    {
+     "id": "s1-t2-k10",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Een blinde voetganger met een witte stok met rode ringen wil oversteken. Wat doe je?",
+     "opts": [
+      "Voor laten gaan",
+      "Toeteren zodat hij je hoort",
+      "Doorrijden, er is geen zebra"
+     ],
+     "ok": 0,
+     "why": "RVV 49 lid 1: blinden met een witte stok met rode ring(en) en iedereen die zich moeilijk voortbeweegt laat je voorgaan.",
+     "wrong": [
+      "",
+      "Toeteren alleen bij dreigend gevaar (RVV 28).",
+      "Ook zonder zebra laat je hem voorgaan."
+     ],
+     "bron": "RVV 1990 art. 49 lid 1",
+     "hint": "Witte stok = altijd voor laten gaan.",
+     "simpel": "Blinde man wil over, wat doe je?",
+     "kern": [
+      "witte stok"
+     ]
+    },
+    {
+     "id": "s1-t2-k11",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Mag je op of vlak voor een rotonde rechts inhalen?",
+     "opts": [
+      "Ja",
+      "Nee",
+      "Alleen buiten de bebouwde kom"
+     ],
+     "ok": 0,
+     "why": "RVV 48: vlak voor of op rotondes mag je rechts inhalen.",
+     "wrong": [
+      "",
+      "Het mag wel.",
+      "Geldt overal."
+     ],
+     "bron": "RVV 1990 art. 48",
+     "hint": "FRUIT: de R van Rotonde.",
+     "simpel": "Rechts voorbij op een rotonde?",
+     "kern": [
+      "rotonde"
+     ]
+    },
+    {
+     "id": "s1-t2-k12",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Je raakt een andere auto. Er is alleen schade. Mag je direct wegrijden zonder je gegevens te geven?",
+     "opts": [
+      "Ja, er is niemand gewond",
+      "Nee, je mag de plaats niet verlaten zonder je identiteit en die van je auto te laten vaststellen",
+      "Ja, als het minder dan € 100 schade is"
+     ],
+     "ok": 1,
+     "why": "WVW 7: bij schade mag je niet wegrijden. Dat mag pas als je op de plaats je identiteit en die van je auto hebt laten vaststellen (lid 2).",
+     "wrong": [
+      "Ook bij alleen schade geldt het verbod.",
+      "",
+      "Er bestaat geen bedraggrens."
+     ],
+     "bron": "WVW 1994 art. 7",
+     "hint": "Doorrijden na een ongeval = WVW 7.",
+     "simpel": "Na een botsing gewoon weg?",
+     "kern": [
+      "alleen schade"
+     ]
+    },
+    {
+     "id": "s1-t2-k13",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Wat zegt WVW artikel 5 (het veiligheidsbeginsel)?",
+     "opts": [
+      "Je mag geen gevaar op de weg veroorzaken en het verkeer niet hinderen",
+      "Je moet altijd rechts rijden",
+      "Je moet je rijbewijs bij je hebben"
+     ],
+     "ok": 0,
+     "why": "WVW 5: verboden is gedrag dat gevaar op de weg veroorzaakt (of kan veroorzaken) of het verkeer hindert (of kan hinderen).",
+     "wrong": [
+      "",
+      "Rechts houden is RVV 3.",
+      "Dat staat niet in artikel 5."
+     ],
+     "bron": "WVW 1994 art. 5",
+     "hint": "Vijf = veilig.",
+     "simpel": "Wat is de basisregel van artikel 5?",
+     "kern": [
+      "artikel 5"
+     ]
+    },
+    {
+     "id": "s1-t2-l01",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Een voetganger staat bij een zebrapad en wil duidelijk oversteken. Wat doe je?",
+     "opts": [
+      "Doorrijden, hij staat nog niet op de zebra",
+      "Voor laten gaan",
+      "Alleen stoppen als er een verkeerslicht is"
+     ],
+     "ok": 1,
+     "why": "RVV 49 lid 2: voetgangers die oversteken óf kennelijk op het punt staan dat te doen, laat je voorgaan.",
+     "wrong": [
+      "'Op het punt staan' telt ook.",
+      "",
+      "Op een zebra zonder licht geldt de regel juist."
+     ],
+     "bron": "RVV 1990 art. 49 lid 2"
+    },
+    {
+     "id": "s1-t2-l02",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Je passagier wil uitstappen bij een bushalte (geblokte markering). Mag dat?",
+     "opts": [
+      "Nee, nooit stilstaan bij een bushalte",
+      "Ja, voor het onmiddellijk in- en uitstappen van passagiers mag het",
+      "Ja, en je mag er ook 10 minuten wachten"
+     ],
+     "ok": 1,
+     "why": "RVV 23: stilstaan bij een bushalte mag niet, maar het geldt niet voor onmiddellijk in- en uitstappen (lid 2).",
+     "wrong": [
+      "Er is een uitzondering voor in- en uitstappen.",
+      "",
+      "Wachten is geen onmiddellijk in-/uitstappen."
+     ],
+     "bron": "RVV 1990 art. 23 lid 1e en lid 2"
+    },
+    {
+     "id": "s1-t2-l03",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Hoe ver van een kruispunt mag je niet parkeren?",
+     "opts": [
+      "Minder dan 5 meter",
+      "Minder dan 10 meter",
+      "Minder dan 15 meter"
+     ],
+     "ok": 0,
+     "why": "RVV 24 lid 1a: niet parkeren bij een kruispunt op minder dan vijf meter.",
+     "wrong": [
+      "",
+      "Fout getal.",
+      "Fout getal."
+     ],
+     "bron": "RVV 1990 art. 24 lid 1a"
+    },
+    {
+     "id": "s1-t2-l04",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Mag je stilstaan op een oversteekplaats of binnen 5 meter ervan?",
+     "opts": [
+      "Ja, kort voor in- en uitstappen",
+      "Nee",
+      "Alleen 's nachts"
+     ],
+     "ok": 1,
+     "why": "RVV 23 lid 1c: niet stilstaan op een oversteekplaats of binnen vijf meter. De in-/uitstapuitzondering geldt alleen voor de bushalte.",
+     "wrong": [
+      "De uitzondering van lid 2 geldt alleen voor de bushalte (onderdeel e).",
+      "",
+      "Geen tijdsuitzondering."
+     ],
+     "bron": "RVV 1990 art. 23 lid 1c"
+    },
+    {
+     "id": "s1-t2-l05",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Gelijkwaardig kruispunt. Een tram komt van links. Wie gaat eerst?",
+     "opts": [
+      "Jij, want de tram komt van links",
+      "De tram",
+      "Wie het snelst rijdt"
+     ],
+     "ok": 1,
+     "why": "RVV 15 lid 2b: bestuurders verlenen voorrang aan de tram.",
+     "wrong": [
+      "De tram is een uitzondering op 'rechts gaat voor'.",
+      "",
+      ""
+     ],
+     "bron": "RVV 1990 art. 15 lid 2b"
+    },
+    {
+     "id": "s1-t2-l06",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Je komt van een zandweg (onverhard) op een asfaltweg. Een auto nadert van links. Wie gaat voor?",
+     "opts": [
+      "Jij, want je komt van rechts",
+      "De auto op de verharde weg",
+      "Niemand heeft voorrang"
+     ],
+     "ok": 1,
+     "why": "RVV 15 lid 2a: wie van een onverharde weg komt, verleent voorrang aan verkeer op een verharde weg.",
+     "wrong": [
+      "Onverhard naar verhard is een uitzondering op 'rechts gaat voor'.",
+      "",
+      ""
+     ],
+     "bron": "RVV 1990 art. 15 lid 2a"
+    },
+    {
+     "id": "s1-t2-l07",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Je slaat linksaf. Een tegenligger slaat op hetzelfde kruispunt rechtsaf. Wie gaat eerst?",
+     "opts": [
+      "Jij",
+      "De tegenligger die rechtsaf slaat",
+      "Wie het eerst richting aangaf"
+     ],
+     "ok": 1,
+     "why": "RVV 18 lid 2: wie linksaf slaat, laat tegemoetkomers die op hetzelfde kruispunt rechtsaf slaan voorgaan.",
+     "wrong": [
+      "Linksaf moet wachten.",
+      "",
+      "Richting aangeven geeft geen voorrang."
+     ],
+     "bron": "RVV 1990 art. 18 lid 2"
+    },
+    {
+     "id": "s1-t2-l08",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Het verkeerslicht staat op groen, maar er staat ook een haaientandenbord (voorrang verlenen). Wat geldt?",
+     "opts": [
+      "Het bord",
+      "Het verkeerslicht",
+      "Rechts gaat voor"
+     ],
+     "ok": 1,
+     "why": "RVV 64: verkeerslichten gaan boven verkeerstekens die de voorrang regelen.",
+     "wrong": [
+      "Het bord is lager in rang.",
+      "",
+      "Regels zijn het laagst."
+     ],
+     "bron": "RVV 1990 art. 64"
+    },
+    {
+     "id": "s1-t2-l09",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Een verkeersbord zegt iets anders dan een algemene verkeersregel. Wat geldt?",
+     "opts": [
+      "Het verkeersbord",
+      "De verkeersregel",
+      "Wat het veiligst voelt"
+     ],
+     "ok": 0,
+     "why": "RVV 63: verkeerstekens gaan boven verkeersregels als ze niet samen kunnen.",
+     "wrong": [
+      "",
+      "Regels zijn lager dan tekens.",
+      "Je volgt de rangorde."
+     ],
+     "bron": "RVV 1990 art. 63"
+    },
+    {
+     "id": "s1-t2-l10",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Je rijdt weg van een parkeerplaats langs de weg. Wie gaat voor?",
+     "opts": [
+      "Jij, want je gaf richting aan",
+      "Het overige verkeer",
+      "Wie van rechts komt"
+     ],
+     "ok": 1,
+     "why": "RVV 54: bij een bijzondere manoeuvre (zoals wegrijden) laat je het overige verkeer voorgaan.",
+     "wrong": [
+      "Richting aangeven geeft geen voorrang.",
+      "",
+      "Bij een bijzondere manoeuvre geldt 'rechts gaat voor' niet."
+     ],
+     "bron": "RVV 1990 art. 54"
+    },
+    {
+     "id": "s1-t2-l11",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Binnen de bebouwde kom. Een bus bij de halte zet zijn richtingaanwijzer aan om weg te rijden. Wat doe je?",
+     "opts": [
+      "Snel langsrijden",
+      "Hem de gelegenheid geven weg te rijden",
+      "Toeteren"
+     ],
+     "ok": 1,
+     "why": "RVV 56: binnen de kom geef je een bus die richting aangeeft de gelegenheid om van de halte weg te rijden.",
+     "wrong": [
+      "Juist niet.",
+      "",
+      "Toeteren alleen bij dreigend gevaar."
+     ],
+     "bron": "RVV 1990 art. 56"
+    },
+    {
+     "id": "s1-t2-l12",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "'s Nachts buiten de kom met groot licht. Er komt een tegenligger. Wat doe je?",
+     "opts": [
+      "Groot licht aan laten",
+      "Dimlicht",
+      "Mistlicht aan"
+     ],
+     "ok": 1,
+     "why": "RVV 32 lid 2b: groot licht mag niet bij het tegenkomen van een andere weggebruiker.",
+     "wrong": [
+      "Verboden bij een tegenligger.",
+      "",
+      "Mistlicht is alleen voor slecht zicht door mist, sneeuw of regen (RVV 34)."
+     ],
+     "bron": "RVV 1990 art. 32 lid 2"
+    },
+    {
+     "id": "s1-t2-l13",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Wanneer mag je toeteren of met je lichten knipperen?",
+     "opts": [
+      "Om een passagier te laten weten dat je er bent",
+      "Alleen om dreigend gevaar af te wenden",
+      "Om een langzame auto op te jagen"
+     ],
+     "ok": 1,
+     "why": "RVV 28: geluids- en knippersignalen alleen ter afwending van dreigend gevaar.",
+     "wrong": [
+      "Dat is geen dreigend gevaar.",
+      "",
+      "Dat is geen dreigend gevaar en ook onbeleefd."
+     ],
+     "bron": "RVV 1990 art. 28"
+    },
+    {
+     "id": "s1-t2-l14",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Je hebt al meer dan 5 jaar je rijbewijs. Wat is de wettelijke alcoholgrens in je bloed?",
+     "opts": [
+      "0,2 promille",
+      "0,5 promille",
+      "0,8 promille"
+     ],
+     "ok": 1,
+     "why": "WVW 8 lid 2: bloed 0,5 mg/ml (0,5 promille) of adem 220 µg/l.",
+     "wrong": [
+      "0,2 geldt voor beginnende bestuurders (lid 3).",
+      "",
+      "0,8 is een grens voor invorderen bij beginners (WVW 164)."
+     ],
+     "bron": "WVW 1994 art. 8 lid 2"
+    },
+    {
+     "id": "s1-t2-l15",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Wat is de alcoholgrens voor een beginnende bestuurder (rijbewijs korter dan 5 jaar, gehaald na je 18e)?",
+     "opts": [
+      "0,2 promille bloed / 88 µg/l adem",
+      "0,5 promille bloed / 220 µg/l adem",
+      "0,0 promille"
+     ],
+     "ok": 0,
+     "why": "WVW 8 lid 3: beginners 0,2 mg/ml bloed of 88 µg/l adem.",
+     "wrong": [
+      "",
+      "Dat is de grens voor ervaren bestuurders.",
+      "Geen nulgrens in de wet."
+     ],
+     "bron": "WVW 1994 art. 8 lid 3"
+    },
+    {
+     "id": "s1-t2-l16",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Het verkeer staat vast. Mag je het kruispunt oprijden als je er niet af kunt?",
+     "opts": [
+      "Ja, als je groen hebt",
+      "Nee, je mag een kruispunt niet blokkeren",
+      "Alleen met passagiers"
+     ],
+     "ok": 1,
+     "why": "RVV 14: bestuurders mogen een kruispunt niet blokkeren.",
+     "wrong": [
+      "Groen geeft geen recht om te blokkeren.",
+      "",
+      "Geen uitzondering."
+     ],
+     "bron": "RVV 1990 art. 14"
+    },
+    {
+     "id": "s1-t2-l17",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Wanneer mag je een overweg (spoorwegovergang) op?",
+     "opts": [
+      "Als de bomen nog open zijn",
+      "Als je direct kunt doorrijden en de overweg helemaal kunt vrijmaken",
+      "Als er geen trein te zien is, ook als je moet stoppen op het spoor"
+     ],
+     "ok": 1,
+     "why": "RVV 15a lid 1: alleen als je direct door kunt gaan en de overweg geheel kunt vrijmaken.",
+     "wrong": [
+      "Open bomen alleen is niet genoeg.",
+      "",
+      "Nooit stoppen op het spoor."
+     ],
+     "bron": "RVV 1990 art. 15a"
+    },
+    {
+     "id": "s1-t2-r01",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "multi",
+     "q": "In welke situaties mag je RECHTS inhalen? Kies ALLE juiste.",
+     "opts": [
+      "In een file",
+      "Op of vlak voor een rotonde",
+      "Een tram",
+      "Een bestuurder die links voorsorteert en richting links aangeeft",
+      "Rechts van een blokmarkering (verkeer links ervan)",
+      "Op een tweestrooksweg buiten de kom als links iemand langzaam rijdt zonder file"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "FRUIT+: File (RVV 13), Rotonde (48), blokmarkering bij in-/uitvoegen (11 lid 4), Tram (11 lid 5), + links voorsorteerder (11 lid 2).",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Zonder file is rechts inhalen hier niet toegestaan: inhalen gebeurt links (RVV 11 lid 1)."
+     ],
+     "bron": "RVV 1990 art. 11, 13, 48"
+    },
+    {
+     "id": "s1-t2-r02",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "order",
+     "q": "Zet in de juiste rangorde, van HOOG naar LAAG.",
+     "opts": [
+      "Aanwijzingen van een verkeersregelaar",
+      "Verkeerslichten",
+      "Verkeerstekens die de voorrang regelen",
+      "Verkeersregels"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "RVV 84: aanwijzingen boven tekens en regels. RVV 64: lichten boven voorrangstekens. RVV 63: tekens boven regels.",
+     "bron": "RVV 1990 art. 84, 64, 63"
+    },
+    {
+     "id": "s1-t2-r03",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Langs de weg staat een bord 50. Op het elektronische signaleringsbord boven je rijstrook staat 70. Wat is je maximum?",
+     "opts": [
+      "70, elektronisch gaat voor",
+      "50, de laagste aangegeven snelheid geldt",
+      "60, het gemiddelde"
+     ],
+     "ok": 1,
+     "why": "RVV 63b lid 2: als borden én elektronische signaleringsborden een maximum geven, geldt de laagste.",
+     "wrong": [
+      "Elektronisch gaat niet automatisch voor.",
+      "",
+      "Middelen bestaat niet."
+     ],
+     "bron": "RVV 1990 art. 63b lid 2"
+    },
+    {
+     "id": "s1-t2-r04",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Je rijdt een erf in. Een (fout geplaatst) bord geeft 30 km/u aan. Wat is je maximum?",
+     "opts": [
+      "30 km/u, het bord gaat boven de regel",
+      "15 km/u, bij een hogere aangegeven snelheid dan artikel 45 geldt de laagste",
+      "Stapvoets zonder getal"
+     ],
+     "ok": 1,
+     "why": "RVV 63b lid 1c: geeft een bord een hogere snelheid dan de 15 km/u van artikel 45, dan geldt de laagste.",
+     "wrong": [
+      "Normaal gaan borden boven regels (RVV 63), maar 63b maakt hier een uitzondering.",
+      "",
+      "De wet noemt een getal: 15."
+     ],
+     "bron": "RVV 1990 art. 63b lid 1c en art. 45"
+    },
+    {
+     "id": "s1-t2-r05",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Wegwerkzaamheden. Gele (tijdelijke) strepen op het wegdek wijzen een andere rijstrook aan dan de witte strepen. Wat volg je?",
+     "opts": [
+      "De witte strepen",
+      "De gele, tijdelijke strepen",
+      "Wat je navigatie zegt"
+     ],
+     "ok": 1,
+     "why": "RVV 63a: tijdelijke verkeerstekens op het wegdek gaan boven de andere tekens op het wegdek.",
+     "wrong": [
+      "Wit is hier lager in rang.",
+      "",
+      "De navigatie is geen verkeersteken."
+     ],
+     "bron": "RVV 1990 art. 63a"
+    },
+    {
+     "id": "s1-t2-r06",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Krijger kreeg op zijn 23e, in maart 2023, zijn eerste rijbewijs. Zaterdag 17 okt 2026, 23:15, blaast hij 150 µg/l. Wat klopt?",
+     "opts": [
+      "In orde: onder de 220 µg/l",
+      "Overtreding: hij is nog geen 5 jaar bestuurder, dus geldt 88 µg/l",
+      "In orde: de beginnersgrens geldt alleen de eerste 2 jaar"
+     ],
+     "ok": 1,
+     "why": "WVW 8 lid 3: tot 5 jaar na de eerste afgifte (gehaald na je 18e) geldt 88 µg/l adem / 0,2 promille bloed. Maart 2023 + 5 jaar = maart 2028.",
+     "wrong": [
+      "220 geldt pas na 5 jaar.",
+      "",
+      "Het is 5 jaar, niet 2."
+     ],
+     "bron": "WVW 1994 art. 8 lid 3"
+    },
+    {
+     "id": "s1-t2-r07",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Krijger rijdt 132 km/u op een weg waar 80 geldt en wordt staande gehouden. Wat kan de politie?",
+     "opts": [
+      "Alleen een boete geven",
+      "Zijn rijbewijs invorderen (50 km/u of meer te hard)",
+      "Niets, onder 50 km/u te hard"
+     ],
+     "ok": 1,
+     "why": "WVW 164 lid 2d: bij 50 km/u of meer te hard (en staandehouding) wordt het rijbewijs gevorderd. 132 − 80 = 52.",
+     "wrong": [
+      "Invorderen is hier verplicht.",
+      "",
+      "Het is 52 km/u te hard: boven de grens."
+     ],
+     "bron": "WVW 1994 art. 164 lid 2d"
+    },
+    {
+     "id": "s1-t2-r08",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "num",
+     "q": "De politie legt een bestuurder onder invloed een rijverbod op. Hoeveel uur mag dat maximaal duren? Typ het getal.",
+     "ok": 24,
+     "why": "WVW 162 lid 1: een rijverbod voor ten hoogste vierentwintig uur.",
+     "bron": "WVW 1994 art. 162 lid 1",
+     "unit": "uur"
+    },
+    {
+     "id": "s1-t2-r09",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "num",
+     "q": "Met een taxi van de zaak is een misdrijf gepleegd; de bestuurder is onbekend. De politie vraagt de eigenaar wie reed. De termijn is minimaal hoeveel uur? Typ het getal.",
+     "ok": 48,
+     "why": "WVW 165: de eigenaar/houder moet naam en adres van de bestuurder geven binnen een termijn van ten minste 48 uur.",
+     "bron": "WVW 1994 art. 165 lid 1",
+     "unit": "uur"
+    },
+    {
+     "id": "s1-t2-r10",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "num",
+     "q": "Na een aanrijding met schade reed iemand door. Binnen hoeveel uur moet hij zich vrijwillig melden om vervolging voor doorrijden uit te sluiten? Typ het getal.",
+     "ok": 12,
+     "why": "WVW 184: vervolging is uitgesloten bij vrijwillige melding binnen twaalf uur, vóór aanhouding of verhoor, met identiteit van persoon en auto.",
+     "bron": "WVW 1994 art. 184",
+     "unit": "uur"
+    },
+    {
+     "id": "s1-t2-r11",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Krijger rijdt schoolkinderen voor de gemeente, met een schriftelijk contract met vaste tarieven voor het hele jaar. Moet hij zelf de gordel dragen?",
+     "opts": [
+      "Nee, taxichauffeurs zijn tijdens betaald vervoer altijd vrijgesteld",
+      "Ja, bij zo'n contract (Wp2000 81 lid 2) geldt de vrijstelling voor de bestuurder niet",
+      "Alleen buiten de bebouwde kom"
+     ],
+     "ok": 1,
+     "why": "RVV 59 lid 6: de bestuurder is tijdens betaald personenvervoer vrijgesteld van de gordelplicht, maar NIET bij een overeenkomst als in Wp2000 81 lid 2 (contract met vaste tarieven) en niet in een rolstoeltaxi.",
+     "wrong": [
+      "De vrijstelling heeft uitzonderingen: contract en rolstoeltaxi.",
+      "",
+      "De regel maakt geen onderscheid binnen/buiten de kom."
+     ],
+     "bron": "RVV 1990 art. 59 lid 6 · Wp2000 art. 81 lid 2"
+    },
+    {
+     "id": "s1-t2-r12",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Taxi zonder kinderzitje. Een moeder met een kind van 2 jaar (0,90 m) stapt in. Wat zegt RVV 59 voor de taxi?",
+     "opts": [
+      "Een kind onder 3 jaar mag nooit mee zonder kinderzitje",
+      "Het kind zit niet voorin; achterin met de gordel",
+      "Op schoot bij de moeder voorin"
+     ],
+     "ok": 1,
+     "why": "RVV 59 lid 5: lid 2 (de regel 'onder 3 jaar niet mee' voor auto's zonder gordel/zitje) geldt niet in taxi's. In een taxi zonder zitje zit een kind < 1,35 m niet voorin.",
+     "wrong": [
+      "Dat is lid 2, en dat geldt niet tijdens taxivervoer.",
+      "",
+      "Voorin mag niet, en op schoot is geen gordel."
+     ],
+     "bron": "RVV 1990 art. 59 lid 2 en 5"
+    },
+    {
+     "id": "s1-t2-r13",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Een ouder heeft een eigen naar achteren gericht babyzitje en wil het voorin zetten. De voorairbag staat aan. Wat zeg je?",
+     "opts": [
+      "Dat mag",
+      "Dat mag alleen als de airbag uit staat",
+      "Dat mag alleen achterin, ook als de airbag uit is"
+     ],
+     "ok": 1,
+     "why": "RVV 59 lid 3: geen naar achteren gericht kinderzitje op een plaats met voorairbag, tenzij de airbag is uitgeschakeld.",
+     "wrong": [
+      "Met airbag aan is het verboden.",
+      "",
+      "Met airbag uit mag het wel voorin."
+     ],
+     "bron": "RVV 1990 art. 59 lid 3"
+    },
+    {
+     "id": "s1-t2-r14",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "File op de A2. Je passagier moet dringend plassen en wil op de vluchtstrook uitstappen. Wat doe je?",
+     "opts": [
+      "Op de vluchtstrook stoppen, het is maar kort",
+      "Niet doen: de vluchtstrook is alleen voor noodgevallen; naar de eerstvolgende parkeerplaats of afrit",
+      "Op de rijbaan stoppen, want je staat toch stil"
+     ],
+     "ok": 1,
+     "why": "RVV 43: de vluchtstrook alleen in noodgevallen; stilstaan op de rijbaan van een autosnelweg is verboden.",
+     "wrong": [
+      "Dringend plassen is geen noodgeval in de zin van de wet.",
+      "",
+      "Stilstaan op de rijbaan van een autosnelweg is verboden (lid 2)."
+     ],
+     "bron": "RVV 1990 art. 43 lid 3"
+    },
+    {
+     "id": "s1-t2-r15",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Wanneer mag je je mistachterlicht aandoen?",
+     "opts": [
+      "Bij mist of sneeuwval met zicht minder dan 50 meter",
+      "Bij zware regen met zicht minder dan 100 meter",
+      "Altijd in het donker buiten de kom"
+     ],
+     "ok": 0,
+     "why": "RVV 34 lid 2: mistachterlicht alleen bij mist of sneeuwval die het zicht beperkt tot minder dan 50 meter. Regen hoort daar niet bij.",
+     "wrong": [
+      "",
+      "Regen staat niet in lid 2, en 100 m is het verkeerde getal.",
+      "Dat is geen reden."
+     ],
+     "bron": "RVV 1990 art. 34 lid 2"
+    },
+    {
+     "id": "s1-t2-r16",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Langs een gele onderbroken streep. Je laat een passagier uitstappen en wacht daarna 10 minuten op je volgende klant. Wat klopt?",
+     "opts": [
+      "Allebei mag",
+      "Uitstappen mag (stilstaan); 10 minuten wachten is parkeren en dat is hier verboden",
+      "Allebei verboden"
+     ],
+     "ok": 1,
+     "why": "Parkeren = stilstaan langer dan nodig voor onmiddellijk in- of uitstappen of laden/lossen (RVV 1). Langs een gele onderbroken streep mag je niet parkeren (RVV 24 lid 1e).",
+     "wrong": [
+      "Wachten is parkeren.",
+      "",
+      "Kort uitstappen is stilstaan en dat mag bij een onderbroken gele streep. (Bij een DOORGETROKKEN gele streep mag ook stilstaan niet, RVV 23.)"
+     ],
+     "bron": "RVV 1990 art. 1 (parkeren) en art. 24 lid 1e"
+    },
+    {
+     "id": "s1-t2-r17",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Welke voertuigen mogen op een autosnelweg?",
+     "opts": [
+      "Motorvoertuigen die ten minste 60 km/u mogen én kunnen rijden",
+      "Alle motorvoertuigen",
+      "Motorvoertuigen die ten minste 50 km/u kunnen rijden"
+     ],
+     "ok": 0,
+     "why": "RVV 42: autosnelweg minimaal 60 km/u mogen én kunnen; autoweg minimaal 50 km/u.",
+     "wrong": [
+      "",
+      "Er is een minimumsnelheid.",
+      "50 km/u geldt voor de autoweg."
+     ],
+     "bron": "RVV 1990 art. 42"
+    },
+    {
+     "id": "s1-t2-r18",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "'s Nachts raak je een geparkeerde auto. De eigenaar is er niet. Je wilt verder met je passagier. Wat is juist?",
+     "opts": [
+      "Doorrijden, er was niemand bij",
+      "Zorgen dat je identiteit en die van je taxi vastgesteld kunnen worden, bijvoorbeeld door de politie te bellen en te melden",
+      "Morgen langskomen, als de eigenaar thuis is"
+     ],
+     "ok": 1,
+     "why": "WVW 7: bij schade aan een ander mag je de plaats niet verlaten, tenzij je behoorlijk de gelegenheid hebt geboden om je identiteit en die van je auto vast te stellen. Melden bij de politie is de veilige weg (vgl. art. 184).",
+     "wrong": [
+      "Dat is doorrijden na een ongeval (WVW 7).",
+      "",
+      "Weggaan zonder gelegenheid tot identificatie is in strijd met WVW 7."
+     ],
+     "bron": "WVW 1994 art. 7 lid 2"
+    },
+    {
+     "id": "s1-t3-k01",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Er geldt een cao. Je werkt 7 uur. Wat is de minimale pauze?",
+     "opts": [
+      "15 minuten",
+      "30 minuten",
+      "45 minuten"
+     ],
+     "ok": 0,
+     "why": "ATW 5:4 lid 3: met cao minimaal 15 minuten pauze bij meer dan 5,5 uur arbeid.",
+     "wrong": [
+      "",
+      "30 minuten geldt zónder cao (lid 2).",
+      "45 minuten geldt zónder cao bij meer dan 10 uur."
+     ],
+     "bron": "ATW art. 5:4 lid 3",
+     "hint": "De koekoek roept 'VIJFTIEN!'.",
+     "simpel": "Met cao, hoe lang pauze bij 7 uur werk?",
+     "kern": [
+      "cao",
+      "minimale pauze"
+     ]
+    },
+    {
+     "id": "s1-t3-k02",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Wat is volgens de wet een pauze?",
+     "opts": [
+      "Minstens 15 minuten achter elkaar, zonder werkplicht",
+      "Elke stop van 5 minuten",
+      "Wachten op een klant met de meter aan"
+     ],
+     "ok": 0,
+     "why": "ATW 1:7e: een pauze is ten minste 15 achtereenvolgende minuten waarin je geen enkele verplichting voor je werk hebt.",
+     "wrong": [
+      "",
+      "5 minuten is te kort.",
+      "Wachten op een klant is werk, geen pauze."
+     ],
+     "bron": "ATW art. 1:7 onderdeel e",
+     "hint": "Vijftien minuten, helemaal vrij.",
+     "simpel": "Wanneer telt een stop als pauze?",
+     "kern": [
+      "pauze"
+     ]
+    },
+    {
+     "id": "s1-t3-k03",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Wanneer is een dienst een nachtdienst?",
+     "opts": [
+      "Elke dienst die na 22:00 begint",
+      "Een dienst met meer dan 1 uur arbeid tussen 00:00 en 06:00",
+      "Een dienst die na 02:00 eindigt"
+     ],
+     "ok": 1,
+     "why": "ATW 1:7d: nachtdienst = een dienst waarin meer dan een uur arbeid valt tussen 00.00 en 06.00 uur.",
+     "wrong": [
+      "Begintijd telt niet.",
+      "",
+      "Eindtijd alleen telt niet."
+     ],
+     "bron": "ATW art. 1:7 onderdeel d",
+     "hint": "Middernacht tot zes uur, meer dan 1 uur.",
+     "simpel": "Wat is een nachtdienst?",
+     "kern": [
+      "nachtdienst"
+     ]
+    },
+    {
+     "id": "s1-t3-k04",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Hoeveel uur dagrust heeft een taxichauffeur normaal in elke 24 uur?",
+     "opts": [
+      "8 uur",
+      "10 uur",
+      "11 uur"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:1: 10 uur onafgebroken rust per 24 uur (met cao 2× per 14×24 uur in te korten tot 8).",
+     "wrong": [
+      "8 uur mag alleen als inkorting.",
+      "",
+      "11 uur is de algemene ATW-regel, niet voor taxi."
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 6",
+     "hint": "Raket met bal: 10.",
+     "simpel": "Hoe lang rust per dag?",
+     "kern": [
+      "dagrust"
+     ]
+    },
+    {
+     "id": "s1-t3-k05",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Welke cao hoort bij de taxisector?",
+     "opts": [
+      "cao Beroepsgoederenvervoer",
+      "cao Zorgvervoer en Taxi",
+      "cao Openbaar Vervoer"
+     ],
+     "ok": 1,
+     "why": "Het CBR noemt de cao Zorgvervoer en Taxi.",
+     "wrong": [
+      "Dat is goederenvervoer.",
+      "",
+      "Dat is het OV."
+     ],
+     "bron": "CBR exameneisen TVT 2.3",
+     "hint": "Zorg + taxi.",
+     "simpel": "Welke cao geldt voor jou?",
+     "kern": [
+      "cao"
+     ]
+    },
+    {
+     "id": "s1-t3-k06",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Wat is taxivervoer volgens de Wet personenvervoer 2000?",
+     "opts": [
+      "Personenvervoer per auto tegen betaling, niet zijnde openbaar vervoer",
+      "Elk vervoer van personen",
+      "Vervoer met een bus van meer dan 8 personen"
+     ],
+     "ok": 0,
+     "why": "Wp2000 art. 1: taxivervoer is personenvervoer per auto tegen betaling, niet zijnde openbaar vervoer.",
+     "wrong": [
+      "Te breed: het gaat om betaald vervoer per auto.",
+      "",
+      "Dat is een bus (RVV 1)."
+     ],
+     "bron": "Wp2000 art. 1",
+     "hint": "Auto + betaling + geen OV.",
+     "simpel": "Wat telt als taxivervoer?",
+     "kern": [
+      "taxivervoer"
+     ]
+    },
+    {
+     "id": "s1-t3-k07",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Mag een bedrijf taxivervoer doen zonder vergunning?",
+     "opts": [
+      "Ja, als het een klein bedrijf is",
+      "Nee, het is verboden zonder vergunning",
+      "Ja, met alleen een chauffeurskaart"
+     ],
+     "ok": 1,
+     "why": "Wp2000 76 lid 1: taxivervoer zonder vergunning van de minister is verboden.",
+     "wrong": [
+      "Grootte maakt niet uit.",
+      "",
+      "De kaart is voor de chauffeur; de vervoerder heeft een vergunning nodig."
+     ],
+     "bron": "Wp2000 art. 76 lid 1",
+     "hint": "Het bedrijf heeft een vergunning nodig.",
+     "simpel": "Zonder vergunning taxi rijden?",
+     "kern": [
+      "vergunning"
+     ]
+    },
+    {
+     "id": "s1-t3-k08",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.7",
+     "type": "mc",
+     "q": "Je rijdt door de week voor bedrijf A en in het weekend voor bedrijf B. Wat moet je doen?",
+     "opts": [
+      "Niets, de werkgevers zoeken het uit",
+      "Uit jezelf, op tijd, je uren doorgeven aan beide werkgevers",
+      "Alleen melden bij de ILT"
+     ],
+     "ok": 1,
+     "why": "ATW 5:15 lid 6: wie bij meer dan één werkgever werkt, geeft ieder van hen uit eigen beweging tijdig de nodige informatie.",
+     "wrong": [
+      "Jij moet melden.",
+      "",
+      "Melden doe je bij je werkgevers."
+     ],
+     "bron": "ATW art. 5:15 lid 6",
+     "hint": "Twee bazen? Jij vertelt het allebei.",
+     "simpel": "Twee werkgevers, wie meldt de uren?",
+     "kern": [
+      "bedrijf A",
+      "bedrijf B"
+     ]
+    },
+    {
+     "id": "s1-t3-k09",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.6",
+     "type": "mc",
+     "q": "Welke drie instanties controleren arbeids- en rusttijden en verkeer?",
+     "opts": [
+      "Politie, ILT en Nederlandse Arbeidsinspectie",
+      "RDW, CBR en Kiwa",
+      "Gemeente, KNV en SFM"
+     ],
+     "ok": 0,
+     "why": "Het CBR noemt: politie, ILT en de Nederlandse Arbeidsinspectie (NLA).",
+     "wrong": [
+      "",
+      "RDW, CBR en Kiwa zijn geen controlerende instanties uit deze toetsterm.",
+      "KNV is een brancheorganisatie; SFM is een fonds."
+     ],
+     "bron": "CBR exameneisen TVT 2.6",
+     "hint": "Blauw uniform + inspectie + arbeid.",
+     "simpel": "Wie komt controleren?",
+     "kern": [
+      "controleren"
+     ]
+    },
+    {
+     "id": "s1-t3-k10",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.7",
+     "type": "mc",
+     "q": "Waarom zijn arbeids- en rusttijden belangrijk? Kies het beste antwoord.",
+     "opts": [
+      "Voor je gezondheid, de verkeersveiligheid en je welzijn",
+      "Alleen om boetes te voorkomen",
+      "Alleen voor het salaris"
+     ],
+     "ok": 0,
+     "why": "Het CBR noemt de gevolgen voor gezondheid, (verkeers)veiligheid en welzijn.",
+     "wrong": [
+      "",
+      "Boetes zijn niet de kern.",
+      "Salaris staat er niet bij."
+     ],
+     "bron": "CBR exameneisen TVT 2.7",
+     "hint": "Drie W's: wel-zijn, ge-zondheid, veilig.",
+     "simpel": "Waarom rust nemen?",
+     "kern": [
+      "belangrijk"
+     ]
+    },
+    {
+     "id": "s1-t3-k11",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Welke situatie vraagt het TVT-examen bij arbeids- en rusttijden?",
+     "opts": [
+      "Zonder collectieve regeling (cao)",
+      "Met collectieve regeling (cao)",
+      "Allebei door elkaar"
+     ],
+     "ok": 1,
+     "why": "Het CBR vraagt alleen de situatie MET collectieve regeling. De situatie zonder cao moet je wel kennen.",
+     "wrong": [
+      "Die moet je kennen, maar die wordt niet gevraagd.",
+      "",
+      "Alleen 'met cao' wordt gevraagd."
+     ],
+     "bron": "CBR exameneisen TVT 2.5",
+     "hint": "Examen = met cao.",
+     "simpel": "Met of zonder cao op het examen?",
+     "kern": [
+      "examen"
+     ]
+    },
+    {
+     "id": "s1-t3-k12",
+     "tak": 3,
+     "niveau": "kruipen",
+     "et": "ET 2.6",
+     "type": "mc",
+     "q": "Welk fonds noemt het CBR bij de taxisector?",
+     "opts": [
+      "Sociaal Fonds Mobiliteit (SFM)",
+      "Pensioenfonds Taxi",
+      "Fonds Verkeersveiligheid"
+     ],
+     "ok": 0,
+     "why": "Toetsterm 2.6 noemt het Sociaal Fonds Mobiliteit (SFM).",
+     "wrong": [
+      "",
+      "Niet in de exameneisen.",
+      "Niet in de exameneisen."
+     ],
+     "bron": "CBR exameneisen TVT 2.6",
+     "hint": "S-F-M.",
+     "simpel": "Hoe heet het fonds?",
+     "kern": [
+      "fonds"
+     ]
+    },
+    {
+     "id": "s1-t3-l01",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. Hoe vaak mag de dagrust van 10 uur worden ingekort tot 8 uur?",
+     "opts": [
+      "1× per 7×24 uur",
+      "2× per 14×24 uur",
+      "Zo vaak als nodig"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:1 lid 6a: tweemaal in elke 14×24 uur inkorten tot ten minste 8 uur.",
+     "wrong": [
+      "Dat is de algemene ATW-regel (11 → 8), niet die voor taxi.",
+      "",
+      "Er is een grens."
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 6a"
+    },
+    {
+     "id": "s1-t3-l02",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. Hoeveel weekrust heb je per 14×24 uur, en hoe mag je die splitsen?",
+     "opts": [
+      "72 uur, in delen van ten minste 24 uur",
+      "36 uur, niet splitsen",
+      "72 uur, in delen van ten minste 32 uur"
+     ],
+     "ok": 0,
+     "why": "ATB-V 2.5:1 lid 6b: 72 uur per 14×24 uur, te splitsen in perioden van ten minste 24 uur.",
+     "wrong": [
+      "",
+      "36 uur per 7×24 is de taxiregel zonder cao (lid 4b).",
+      "32 uur staat in de algemene ATW (5:5), niet in de taxiregel."
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 6b"
+    },
+    {
+     "id": "s1-t3-l03",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. Wat is de maximale arbeidstijd?",
+     "opts": [
+      "Gemiddeld 48 uur per week over 26 weken",
+      "Gemiddeld 48 uur per week over 16 weken",
+      "Gemiddeld 40 uur per week over 4 weken"
+     ],
+     "ok": 0,
+     "why": "ATB-V 2.5:7 lid 6: met cao gemiddeld ten hoogste 48 uur per week in elke periode van 26 weken.",
+     "wrong": [
+      "",
+      "16 weken geldt zonder cao (lid 4c).",
+      "Dat is de regel voor jongeren (ATW 5:7 lid 1)."
+     ],
+     "bron": "ATB-V art. 2.5:7 lid 6"
+    },
+    {
+     "id": "s1-t3-l04",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Zonder cao (alleen kennen, niet examen). Wat zijn de grenzen voor arbeidstijd van een taxichauffeur?",
+     "opts": [
+      "12 uur per dienst, 60 uur per week, gemiddeld 48 per week over 16 weken",
+      "10 uur per dienst, 50 per week",
+      "9 uur per dienst, 45 per week"
+     ],
+     "ok": 0,
+     "why": "ATB-V 2.5:7 lid 4: max 60 uur per week, 12 uur per dienst en gemiddeld 48 uur per week per 16 weken.",
+     "wrong": [
+      "",
+      "Niet de taxiregel.",
+      "Dat zijn de jongerengrenzen (ATW 5:7 lid 1)."
+     ],
+     "bron": "ATB-V art. 2.5:7 lid 4"
+    },
+    {
+     "id": "s1-t3-l05",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Zonder cao (kennen). Hoeveel pauze bij meer dan 5,5 uur en bij meer dan 10 uur werk?",
+     "opts": [
+      "15 en 30 minuten",
+      "30 minuten (2×15 mag) en 45 minuten (3×15 mag)",
+      "45 en 60 minuten"
+     ],
+     "ok": 1,
+     "why": "ATW 5:4 lid 2: > 5,5 uur: 30 min (splitsen in 15); > 10 uur: 45 min (splitsen in 15).",
+     "wrong": [
+      "15 minuten is het cao-minimum.",
+      "",
+      "Te veel."
+     ],
+     "bron": "ATW art. 5:4 lid 2"
+    },
+    {
+     "id": "s1-t3-l06",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Wat is de grens voor nachtdiensten van een taxichauffeur?",
+     "opts": [
+      "52× per 16 weken én 140× per 52 weken, óf max 38 uur tussen 00–06 per 2 weken",
+      "52× per 52 weken",
+      "43× per 16 weken óf 20 uur per 2 weken"
+     ],
+     "ok": 0,
+     "why": "ATB-V 2.5:4 lid 3 (taxivervoer): 52 per 16 weken en 140 per 52 weken, of 38 uur tussen 00.00–06.00 per 2 weken.",
+     "wrong": [
+      "",
+      "Dat was een Gemini-fout.",
+      "Dat is de regel voor ander vervoer dan taxi (lid 2)."
+     ],
+     "bron": "ATB-V art. 2.5:4 lid 3"
+    },
+    {
+     "id": "s1-t3-l07",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Mag de werkgever afwijken van de nachtdienstgrens voor taxi?",
+     "opts": [
+      "Ja, als hij dat zelf beslist",
+      "Alleen bij cao én als de werknemer ermee instemt",
+      "Nooit"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:4 lid 4: afwijken alleen bij collectieve regeling en nadat de werknemer heeft ingestemd.",
+     "wrong": [
+      "Alleen beslissen mag niet.",
+      "",
+      "Afwijken kan wel, onder die twee voorwaarden."
+     ],
+     "bron": "ATB-V art. 2.5:4 lid 4"
+    },
+    {
+     "id": "s1-t3-l08",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Voor taxivervoer: wanneer telt het als 'zondag' voor de Arbeidstijdenwet?",
+     "opts": [
+      "Zondag 00:00 – 24:00",
+      "Zondag 06:00 – 24:00",
+      "Zaterdag 18:00 – zondag 18:00"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:2: voor taxivervoer is zondag de periode van zondag 06.00 tot 24.00 uur.",
+     "wrong": [
+      "Niet voor taxi.",
+      "",
+      "Bestaat niet."
+     ],
+     "bron": "ATB-V art. 2.5:2"
+    },
+    {
+     "id": "s1-t3-l09",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Zonder cao (kennen). Wat is de wekelijkse rust van een taxichauffeur?",
+     "opts": [
+      "36 uur per 7×24 uur",
+      "72 uur per 14×24 uur",
+      "24 uur per 7×24 uur"
+     ],
+     "ok": 0,
+     "why": "ATB-V 2.5:1 lid 4b: 36 uur onafgebroken per 7×24 uur.",
+     "wrong": [
+      "",
+      "Dat is de regel mét cao.",
+      "Te weinig."
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 4b"
+    },
+    {
+     "id": "s1-t3-l10",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.6",
+     "type": "mc",
+     "q": "Wie organiseert het werk zo dat de rusttijden gehaald worden, en voert een deugdelijke registratie?",
+     "opts": [
+      "De werkgever",
+      "Alleen de chauffeur",
+      "De ILT"
+     ],
+     "ok": 0,
+     "why": "De wet zegt: 'De werkgever organiseert de werkzaamheden zodanig…' (ATB-V 2.5:1 lid 6) en de werkgever voert een deugdelijke registratie (ATW 4:3).",
+     "wrong": [
+      "",
+      "De chauffeur heeft ook plichten (bv. melden bij 2 werkgevers), maar organiseren is de werkgever.",
+      "De ILT controleert alleen."
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 6 · ATW art. 4:3"
+    },
+    {
+     "id": "s1-t3-l11",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Wat is een 'dienst' volgens de ATW?",
+     "opts": [
+      "Een periode van werk tussen twee rusttijden van ten minste 8 uur",
+      "Elke rit",
+      "Een werkdag van 00:00 tot 24:00"
+     ],
+     "ok": 0,
+     "why": "ATW 1:7c: een dienst ligt tussen twee opeenvolgende onafgebroken rusttijden van ten minste 8 uur.",
+     "wrong": [
+      "",
+      "Een rit is geen dienst.",
+      "Een dienst hangt niet aan de kalenderdag."
+     ],
+     "bron": "ATW art. 1:7 onderdeel c"
+    },
+    {
+     "id": "s1-t3-l12",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Zonder afwijking bij cao: hoeveel zondagen per 52 weken heb je minstens vrij?",
+     "opts": [
+      "4",
+      "13",
+      "26"
+     ],
+     "ok": 1,
+     "why": "ATW 5:6 lid 3: ten minste 13 vrije zondagen per 52 weken. Bij cao kan worden afgeweken (lid 4).",
+     "wrong": [
+      "Te weinig.",
+      "",
+      "Te veel."
+     ],
+     "bron": "ATW art. 5:6 lid 3"
+    },
+    {
+     "id": "s1-t3-l13",
+     "tak": 3,
+     "niveau": "lopen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Aan wie wordt een taxivergunning verleend?",
+     "opts": [
+      "Aan iedereen met een rijbewijs B",
+      "Aan een vervoerder die voldoet aan eisen van betrouwbaarheid en vakbekwaamheid",
+      "Alleen aan bedrijven met meer dan 10 taxi's"
+     ],
+     "ok": 1,
+     "why": "Wp2000 76 lid 4: alleen aan een vervoerder die voldoet aan eisen van betrouwbaarheid en vakbekwaamheid.",
+     "wrong": [
+      "Een rijbewijs is niet genoeg.",
+      "",
+      "Geen grens op aantal taxi's."
+     ],
+     "bron": "Wp2000 art. 76 lid 4"
+    },
+    {
+     "id": "s1-t3-r01",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. In de laatste 14 dagen had Krijger op maandag en woensdag al maar 8 uur rust. Vrijdag stopt hij om 23:30, zaterdag begint hij om 07:30. Mag dat?",
+     "opts": [
+      "Ja, 8 uur is genoeg",
+      "Nee, dat zou de derde inkorting tot 8 uur in 14×24 uur zijn",
+      "Ja, want het is weekend"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:1 lid 6a: inkorten tot 8 uur mag maar 2× per 14×24 uur. Dit is de 3e keer.",
+     "wrong": [
+      "Alleen 2× per 14×24 uur.",
+      "",
+      "Weekend maakt niet uit."
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 6a"
+    },
+    {
+     "id": "s1-t3-r02",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. Dienst van 06:00 tot 11:45 (5 uur 45 minuten werk). Wat is de wettelijke minimale pauze?",
+     "opts": [
+      "Geen pauze nodig, dat is pas vanaf 6 uur",
+      "15 minuten",
+      "30 minuten"
+     ],
+     "ok": 1,
+     "why": "ATW 5:4 lid 3: bij meer dan 5,5 uur arbeid minstens 15 minuten (met cao). 5u45 is meer dan 5,5 uur.",
+     "wrong": [
+      "De 6-uursregel komt uit ATB-V 2.5:6 lid 3 en geldt voor vervoer onder EU-verordening 561/2006, niet voor taxi.",
+      "",
+      "30 minuten geldt zonder cao."
+     ],
+     "bron": "ATW art. 5:4 lid 3 · ATB-V 2.5:6"
+    },
+    {
+     "id": "s1-t3-r03",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. Dienst van 07:00 tot 12:30, precies 5,5 uur werk. Wat zegt de wet over pauze?",
+     "opts": [
+      "Minimaal 15 minuten",
+      "Geen wettelijke minimumpauze: de grens is MEER dan 5,5 uur",
+      "Minimaal 30 minuten"
+     ],
+     "ok": 1,
+     "why": "ATW 5:4 lid 3 zegt 'meer dan 5,5 uren'. Precies 5,5 uur valt er niet onder.",
+     "wrong": [
+      "Dat geldt pas bij méér dan 5,5 uur.",
+      "",
+      "Dat is zonder cao, en ook pas boven 5,5 uur."
+     ],
+     "bron": "ATW art. 5:4 lid 3"
+    },
+    {
+     "id": "s1-t3-r04",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Cao. Krijger werkt 8 uur en neemt twee keer 10 minuten rust. Voldoet hij aan de pauzeregel?",
+     "opts": [
+      "Ja, samen is het 20 minuten",
+      "Nee, een pauze is minstens 15 minuten aan één stuk",
+      "Ja, als hij in de auto blijft"
+     ],
+     "ok": 1,
+     "why": "Een pauze is ten minste 15 achtereenvolgende minuten (ATW 1:7e). 2×10 telt niet als pauze.",
+     "wrong": [
+      "Optellen van stukjes onder 15 minuten mag niet.",
+      "",
+      "De plek maakt het niet beter; het blijft 10 minuten."
+     ],
+     "bron": "ATW art. 1:7e en 5:4 lid 3"
+    },
+    {
+     "id": "s1-t3-r05",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "multi",
+     "q": "Welke diensten zijn een NACHTDIENST? Kies ALLE juiste.",
+     "opts": [
+      "22:00 – 01:30",
+      "22:00 – 01:00",
+      "04:30 – 12:00",
+      "05:15 – 13:00"
+     ],
+     "ok": [
+      0,
+      2
+     ],
+     "why": "Nachtdienst = MEER dan 1 uur arbeid tussen 00:00 en 06:00. 22–01:30 = 1,5 u ✔. 22–01:00 = precies 1 u ✘. 04:30–12 = 1,5 u ✔. 05:15–13 = 45 min ✘.",
+     "wrong": [
+      "",
+      "Precies 1 uur is niet 'meer dan een uur'.",
+      "",
+      "Maar 45 minuten tussen 00 en 06."
+     ],
+     "bron": "ATW art. 1:7 onderdeel d"
+    },
+    {
+     "id": "s1-t3-r06",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "multi",
+     "q": "Cao. Welke verdeling van de 72 uur rust in 14×24 uur is toegestaan? Kies ALLE juiste.",
+     "opts": [
+      "24 + 48 uur",
+      "36 + 36 uur",
+      "20 + 52 uur",
+      "72 uur aan één stuk"
+     ],
+     "ok": [
+      0,
+      1,
+      3
+     ],
+     "why": "Splitsen mag in perioden van ten minste 24 uur. 20 uur is te kort.",
+     "wrong": [
+      "",
+      "",
+      "Een deel van 20 uur is korter dan 24 uur.",
+      ""
+     ],
+     "bron": "ATB-V art. 2.5:1 lid 6b"
+    },
+    {
+     "id": "s1-t3-r07",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Dienst van zaterdag 22:00 tot zondag 05:30. Telt dit voor de taxi als werken op zondag?",
+     "opts": [
+      "Ja, alles na zaterdag 24:00 is zondag",
+      "Nee, voor taxi begint de zondag om 06:00",
+      "Ja, maar alleen het deel na 03:00"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:2: voor taxivervoer loopt de zondag van 06.00 tot 24.00 uur. Deze dienst stopt om 05:30.",
+     "wrong": [
+      "Voor taxi geldt een aparte zondagdefinitie.",
+      "",
+      "Bestaat niet."
+     ],
+     "bron": "ATB-V art. 2.5:2"
+    },
+    {
+     "id": "s1-t3-r08",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "De cao wijkt af van de 13 vrije zondagen. Krijger zou op 42 zondagen per 52 weken werken. Wat is nodig?",
+     "opts": [
+      "Niets, de cao regelt het",
+      "Zijn instemming (bij 40 of meer zondagen)",
+      "Een ontheffing van de ILT"
+     ],
+     "ok": 1,
+     "why": "ATW 5:6 lid 4: werken op 40 of meer zondagen per 52 weken alleen als de werknemer daarmee instemt.",
+     "wrong": [
+      "Bij 40+ zondagen is instemming nodig.",
+      "",
+      "Geen ILT-ontheffing in deze regel."
+     ],
+     "bron": "ATW art. 5:6 lid 4"
+    },
+    {
+     "id": "s1-t3-r09",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Volledige cao. In 26 weken werkt Krijger 13 weken 60 uur en 13 weken 36 uur. Mag dat volgens het ATB-V?",
+     "opts": [
+      "Ja: gemiddeld precies 48 uur per week over 26 weken",
+      "Nee: 60 uur in een week is meer dan 48",
+      "Nee: het gemiddelde moet over 16 weken"
+     ],
+     "ok": 0,
+     "why": "Met cao geldt ATB-V 2.5:7 lid 6: gemiddeld max 48 u/week per 26 weken. (13×60 + 13×36) / 26 = 48.",
+     "wrong": [
+      "Het gaat om het gemiddelde, niet één week.",
+      "",
+      "16 weken is de regel zonder cao (lid 4c)."
+     ],
+     "bron": "ATB-V art. 2.5:7 lid 4 en 6"
+    },
+    {
+     "id": "s1-t3-r10",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "num",
+     "q": "Alternatief voor de nachtdienst-telling: hoeveel uur werk tussen 00:00 en 06:00 mag een taxichauffeur maximaal hebben per 2 weken? Typ het getal.",
+     "ok": 38,
+     "why": "ATB-V 2.5:4 lid 3b: ten hoogste 38 uur per 2 weken tussen 00.00 en 06.00 uur.",
+     "bron": "ATB-V art. 2.5:4 lid 3b",
+     "unit": "uur"
+    },
+    {
+     "id": "s1-t3-r11",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "num",
+     "q": "Hoeveel nachtdiensten mag een taxichauffeur maximaal draaien in elke 52 weken? Typ het getal.",
+     "ok": 140,
+     "why": "ATB-V 2.5:4 lid 3a: 52 per 16 weken én 140 per 52 weken.",
+     "bron": "ATB-V art. 2.5:4 lid 3a",
+     "unit": "nachtdiensten"
+    },
+    {
+     "id": "s1-t3-r12",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.7",
+     "type": "multi",
+     "q": "Krijger werkt bij A (ma–vr) en B (za). Welke uitspraken kloppen? Kies ALLE juiste.",
+     "opts": [
+      "Krijger geeft uit eigen beweging tijdig zijn uren door aan A én B",
+      "Iedere werkgever organiseert het werk zo dat er geen strijd met de wet ontstaat",
+      "Alleen werkgever A is verantwoordelijk, want daar werkt hij het meest",
+      "Krijger hoeft niets te melden als B een ander bedrijf is"
+     ],
+     "ok": [
+      0,
+      1
+     ],
+     "why": "ATW 5:15 lid 6: werknemer meldt uit eigen beweging aan ieder. Lid 7: iedere werkgever organiseert de arbeid zo dat er geen strijd ontstaat.",
+     "wrong": [
+      "",
+      "",
+      "Elke werkgever heeft die plicht (lid 7).",
+      "Juist dan moet hij melden."
+     ],
+     "bron": "ATW art. 5:15 lid 6 en 7"
+    },
+    {
+     "id": "s1-t3-r13",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Een gemeente stelt extra eisen aan straattaxi's op haar openbare weg (herkenbaarheid, eisen aan chauffeurs, klachten). Mag dat?",
+     "opts": [
+      "Nee, alleen het Rijk maakt taxiregels",
+      "Ja, de Wp2000 geeft gemeenten die bevoegdheid, als aanvulling op de landelijke regels",
+      "Ja, en de gemeente mag ook de arbeidstijden zelf regelen"
+     ],
+     "ok": 1,
+     "why": "Wp2000 82/82a: bij gemeentelijke verordening kunnen regels komen over herkenbaarheid, eisen aan bestuurders en klachten, als aanvulling op de wet.",
+     "wrong": [
+      "De Wp2000 geeft gemeenten wel ruimte.",
+      "",
+      "Arbeidstijden staan niet in 82a; die regelt de ATW/ATB-V."
+     ],
+     "bron": "Wp2000 art. 82 en 82a"
+    },
+    {
+     "id": "s1-t3-r14",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.3",
+     "type": "mc",
+     "q": "Waarover gaan de landelijke tariefregels voor taxi (Wp2000 art. 81)? Kies het beste antwoord.",
+     "opts": [
+      "Opbouw van het tarief, verplichting die opbouw te gebruiken en een maximumtarief; niet voor contractritten met een schriftelijk vast tarief",
+      "Alleen de prijs van wachttijd",
+      "Fooien"
+     ],
+     "ok": 0,
+     "why": "Wp2000 81 lid 1: tariefopbouw, plicht om die toe te passen, maximumtarief. Lid 2: niet bij een schriftelijke overeenkomst voor meerdere ritten tegen een vast tarief.",
+     "wrong": [
+      "",
+      "Te smal.",
+      "Staat niet in de wet."
+     ],
+     "bron": "Wp2000 art. 81"
+    },
+    {
+     "id": "s1-t3-r15",
+     "tak": 3,
+     "niveau": "rennen",
+     "et": "ET 2.5",
+     "type": "mc",
+     "q": "Een collega zegt: 'Voor ons geldt 11 uur dagrust, 1× per week inkorten tot 8.' Klopt dat voor taxi?",
+     "opts": [
+      "Ja, dat is de Arbeidstijdenwet",
+      "Nee, voor taxi vervangt ATB-V 2.5:1 die regel: 10 uur, met cao 2× per 14×24 uur naar 8",
+      "Ja, maar alleen met cao"
+     ],
+     "ok": 1,
+     "why": "ATB-V 2.5:1 lid 1: in plaats van ATW 5:3 lid 2 (11 uur, 1× per week 8) geldt dit artikel. Taxi: 10 uur; met cao 2× per 14×24 uur 8 uur.",
+     "wrong": [
+      "Die ATW-regel wordt voor taxi vervangen.",
+      "",
+      "Ook met cao geldt de taxiregel."
+     ],
+     "bron": "ATW art. 5:3 lid 2 · ATB-V art. 2.5:1 lid 1 en 4"
+    },
+    {
+     "id": "s1-t4-k01",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 3.1",
+     "type": "mc",
+     "q": "Elke ochtend rij je een vaste groep leerlingen naar school, in opdracht van de gemeente. Wat voor vervoer is dat?",
+     "opts": [
+      "Straattaxi",
+      "Contractvervoer",
+      "Openbaar vervoer"
+     ],
+     "ok": 1,
+     "why": "Het CBR onderscheidt straattaxi en contractvervoer. Vast vervoer in opdracht van een opdrachtgever (gemeente) is contractvervoer.",
+     "wrong": [
+      "Straattaxi = klant op straat, standplaats of losse bestelling.",
+      "",
+      "Een taxi is geen openbaar vervoer (Wp2000 art. 1)."
+     ],
+     "bron": "CBR exameneisen TVT 3.1",
+     "hint": "Er is een contract met de gemeente.",
+     "simpel": "Vaste ritten voor de gemeente: welk soort?",
+     "kern": [
+      "in opdracht van de gemeente"
+     ]
+    },
+    {
+     "id": "s1-t4-k02",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 3.1",
+     "type": "mc",
+     "q": "Iemand steekt op straat zijn hand op en stapt in. Welk soort taxivervoer is dat?",
+     "opts": [
+      "Straattaxi",
+      "Contractvervoer",
+      "Zorgvervoer op indicatie"
+     ],
+     "ok": 0,
+     "why": "Een losse rit van de straat of standplaats is straattaxi.",
+     "wrong": [
+      "",
+      "Er is geen contract.",
+      "Er is geen indicatie of opdrachtgever."
+     ],
+     "bron": "CBR exameneisen TVT 3.1",
+     "hint": "Hand op straat.",
+     "simpel": "Hand opsteken op straat?",
+     "kern": [
+      "hand"
+     ]
+    },
+    {
+     "id": "s1-t4-k03",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 3.1",
+     "type": "mc",
+     "q": "Waar staat TTO voor?",
+     "opts": [
+      "Toegelaten Taxi Organisatie",
+      "Taxi Toezicht Overheid",
+      "Taxi Tarief Overzicht"
+     ],
+     "ok": 0,
+     "why": "TTO = Toegelaten Taxi Organisatie: een aanvullende voorwaarde voor taxivervoer (CBR 3.1).",
+     "wrong": [
+      "",
+      "Bestaat niet.",
+      "Bestaat niet."
+     ],
+     "bron": "CBR exameneisen TVT 3.1",
+     "hint": "Toegelaten…",
+     "simpel": "Wat betekent TTO?",
+     "kern": [
+      "TTO"
+     ]
+    },
+    {
+     "id": "s1-t4-k04",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 11.3",
+     "type": "mc",
+     "q": "Je navigatie valt uit tijdens een rit. Wat is je doel?",
+     "opts": [
+      "De rit stoppen",
+      "De passagier zo goed mogelijk bedienen: borden volgen, kaart, centrale of passagier vragen",
+      "Willekeurig rijden tot het weer werkt"
+     ],
+     "ok": 1,
+     "why": "CBR 11.3: als de navigatie uitvalt, maak je een keuze om de passagier zo goed mogelijk te bedienen.",
+     "wrong": [
+      "Stoppen helpt de passagier niet.",
+      "",
+      "Dat bedient de passagier niet."
+     ],
+     "bron": "CBR exameneisen TVT 11.3",
+     "hint": "Borden praten: 'Volg mij!'",
+     "simpel": "Navigatie kapot: wat nu?",
+     "kern": [
+      "navigatie valt uit"
+     ]
+    },
+    {
+     "id": "s1-t4-k05",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wie regelt sinds 2013 de bewegwijzering in Nederland?",
+     "opts": [
+      "De ANWB",
+      "De Nationale Bewegwijzeringsdienst (NBd)",
+      "Het CBR"
+     ],
+     "ok": 1,
+     "why": "Op 1 april 2013 nam de NBd de rol van de ANWB over (CBR, wijzigingen 11.2).",
+     "wrong": [
+      "Dat was vóór 2013.",
+      "",
+      "Het CBR doet examens."
+     ],
+     "bron": "CBR exameneisen TVT 11.2",
+     "hint": "N-B-d.",
+     "simpel": "Wie maakt de wegwijzers?",
+     "kern": [
+      "bewegwijzering"
+     ]
+    },
+    {
+     "id": "s1-t4-k06",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 4.2",
+     "type": "mc",
+     "q": "Zaterdagnacht 03:00, centrum. De cafés gaan dicht, er lopen veel mensen op straat. Wat doe je?",
+     "opts": [
+      "Hard het centrum uit rijden",
+      "Langzamer rijden: mensen onder invloed kunnen onverwacht bewegen",
+      "Op een veilige plek wachten tot het rustig is, omdat je moe bent"
+     ],
+     "ok": 1,
+     "why": "CBR-voorbeeldvraag: rij langzamer, want mensen onder invloed maken onverwachte bewegingen.",
+     "wrong": [
+      "Hard rijden vergroot het gevaar.",
+      "",
+      "Wachten lost het verkeersrisico niet op; je hebt een klant."
+     ],
+     "bron": "CBR voorbeeldvraag TVT (geparafraseerd)",
+     "hint": "Onder invloed = onvoorspelbaar.",
+     "simpel": "Veel dronken mensen op straat: hoe rij je?",
+     "kern": [
+      "03:00",
+      "cafés"
+     ]
+    },
+    {
+     "id": "s1-t4-k07",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 4.1",
+     "type": "mc",
+     "q": "Midden in je dienst word je erg slaperig. Wat doe je?",
+     "opts": [
+      "Raam open en doorrijden",
+      "Op een veilige plek stoppen en pauze nemen; zo nodig de centrale bellen",
+      "Harder rijden zodat je eerder klaar bent"
+     ],
+     "ok": 1,
+     "why": "Vermoeidheid is een risico (CBR 4.1). De maatregel: veilig stoppen en rusten.",
+     "wrong": [
+      "Een open raam lost vermoeidheid niet op.",
+      "",
+      "Haast is zelf ook een risico."
+     ],
+     "bron": "CBR exameneisen TVT 4.1",
+     "hint": "Moe = stoppen.",
+     "simpel": "Je bent heel moe, wat doe je?",
+     "kern": [
+      "slaperig"
+     ]
+    },
+    {
+     "id": "s1-t4-k08",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 4.1",
+     "type": "mc",
+     "q": "Je dokter gaf je medicijnen die de rijvaardigheid kunnen verminderen. Wat doe je?",
+     "opts": [
+      "Gewoon rijden",
+      "Niet rijden zolang het effect er is; overleg met arts/werkgever",
+      "Alleen korte ritten rijden"
+     ],
+     "ok": 1,
+     "why": "WVW 8 lid 1: niet rijden onder invloed van een stof waarvan je weet dat die de rijvaardigheid kan verminderen.",
+     "wrong": [
+      "Dat is in strijd met WVW 8.",
+      "",
+      "Ook korte ritten zijn rijden."
+     ],
+     "bron": "CBR ET 4.1 · WVW 1994 art. 8 lid 1",
+     "hint": "Pil = niet rijden.",
+     "simpel": "Medicijn maakt suf: rijden?",
+     "kern": [
+      "medicijnen"
+     ]
+    },
+    {
+     "id": "s1-t4-k09",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 4.3",
+     "type": "mc",
+     "q": "Wat levert rustig en zuinig rijden op?",
+     "opts": [
+      "Minder slijtage en minder brandstof- of energieverbruik",
+      "Een hogere ritprijs",
+      "Meer kilometers per dag"
+     ],
+     "ok": 0,
+     "why": "CBR 4.3: energiezuinig rijden geeft minder slijtage (motor, banden) en minder brandstof-/energieverbruik.",
+     "wrong": [
+      "",
+      "De prijs verandert niet.",
+      "Niet het doel."
+     ],
+     "bron": "CBR exameneisen TVT 4.3",
+     "hint": "Zuinig = minder slijtage.",
+     "simpel": "Waarom rustig rijden?",
+     "kern": [
+      "zuinig"
+     ]
+    },
+    {
+     "id": "s1-t4-k10",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Welke kleur heeft het vlak met een A-nummer (autosnelweg) op een wegwijzer?",
+     "opts": [
+      "Wit op rood",
+      "Zwart op geel",
+      "Wit op groen"
+     ],
+     "ok": 0,
+     "why": "A-nummer: wit op rood. N-nummer: zwart op geel. E-nummer: wit op groen.",
+     "wrong": [
+      "",
+      "Dat is een N-weg.",
+      "Dat is een Europese route (E)."
+     ],
+     "bron": "CROW ASVV 2021 – kleurgebruik bewegwijzering",
+     "hint": "A = alarm = rood.",
+     "simpel": "Kleur van het A-bordje?",
+     "kern": [
+      "A-nummer"
+     ]
+    },
+    {
+     "id": "s1-t4-k11",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wat is de hoofdstad van de provincie Noord-Holland?",
+     "opts": [
+      "Amsterdam",
+      "Haarlem",
+      "Alkmaar"
+     ],
+     "ok": 1,
+     "why": "Haarlem is de hoofdstad van Noord-Holland.",
+     "wrong": [
+      "Amsterdam is de hoofdstad van Nederland, niet van de provincie.",
+      "",
+      "Alkmaar is geen provinciehoofdstad."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL",
+     "hint": "Begint met een H.",
+     "simpel": "Provinciehoofdstad Noord-Holland?",
+     "kern": [
+      "Noord-Holland"
+     ]
+    },
+    {
+     "id": "s1-t4-l01",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Koppel goed: welke provinciehoofdstad is juist?",
+     "opts": [
+      "Gelderland – Arnhem",
+      "Overijssel – Enschede",
+      "Drenthe – Emmen"
+     ],
+     "ok": 0,
+     "why": "Gelderland: Arnhem. Overijssel: Zwolle. Drenthe: Assen.",
+     "wrong": [
+      "",
+      "Overijssel = Zwolle.",
+      "Drenthe = Assen."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l02",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wat is de hoofdstad van Flevoland?",
+     "opts": [
+      "Almere",
+      "Lelystad",
+      "Emmeloord"
+     ],
+     "ok": 1,
+     "why": "Lelystad.",
+     "wrong": [
+      "Almere is groter, maar geen hoofdstad.",
+      "",
+      "Geen hoofdstad."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l03",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wat is de hoofdstad van Zeeland?",
+     "opts": [
+      "Vlissingen",
+      "Middelburg",
+      "Goes"
+     ],
+     "ok": 1,
+     "why": "Middelburg.",
+     "wrong": [
+      "Geen hoofdstad.",
+      "",
+      "Geen hoofdstad."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l04",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wat is de hoofdstad van Noord-Brabant?",
+     "opts": [
+      "Eindhoven",
+      "Tilburg",
+      "'s-Hertogenbosch"
+     ],
+     "ok": 2,
+     "why": "'s-Hertogenbosch (Den Bosch).",
+     "wrong": [
+      "Grootste stad, geen hoofdstad.",
+      "Geen hoofdstad.",
+      ""
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l05",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wat is de hoofdstad van Friesland (Fryslân)?",
+     "opts": [
+      "Leeuwarden",
+      "Sneek",
+      "Heerenveen"
+     ],
+     "ok": 0,
+     "why": "Leeuwarden.",
+     "wrong": [
+      "",
+      "Geen hoofdstad.",
+      "Geen hoofdstad."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l06",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Wat is de hoofdstad van Limburg?",
+     "opts": [
+      "Venlo",
+      "Maastricht",
+      "Roermond"
+     ],
+     "ok": 1,
+     "why": "Maastricht.",
+     "wrong": [
+      "Geen hoofdstad.",
+      "",
+      "Geen hoofdstad."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l07",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Welke A-weg loopt van Amsterdam via Utrecht, 's-Hertogenbosch en Eindhoven naar Maastricht?",
+     "opts": [
+      "A2",
+      "A4",
+      "A12"
+     ],
+     "ok": 0,
+     "why": "De A2.",
+     "wrong": [
+      "",
+      "A4: Amsterdam – Leiden – Den Haag.",
+      "A12: Den Haag – Utrecht – Arnhem."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l08",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Welke A-weg verbindt Den Haag, Utrecht en Arnhem?",
+     "opts": [
+      "A1",
+      "A12",
+      "A28"
+     ],
+     "ok": 1,
+     "why": "De A12.",
+     "wrong": [
+      "A1: Amsterdam – Amersfoort – Apeldoorn – Deventer.",
+      "",
+      "A28: Utrecht – Amersfoort – Zwolle – Assen – Groningen."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l09",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Je rijdt van Utrecht naar Groningen via Amersfoort, Zwolle en Assen. Welke A-weg?",
+     "opts": [
+      "A7",
+      "A28",
+      "A32"
+     ],
+     "ok": 1,
+     "why": "De A28.",
+     "wrong": [
+      "A7: Zaandam – Afsluitdijk – Groningen.",
+      "",
+      "A32: Meppel – Heerenveen – Leeuwarden."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-l10",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Welke kleur hebben N-nummers en E-nummers?",
+     "opts": [
+      "N: zwart op geel · E: wit op groen",
+      "N: wit op blauw · E: wit op rood",
+      "N: wit op groen · E: zwart op geel"
+     ],
+     "ok": 0,
+     "why": "CROW: N-nummer zwart op geel, E-nummer wit op groen, A-nummer wit op rood.",
+     "wrong": [
+      "",
+      "Fout.",
+      "Omgedraaid."
+     ],
+     "bron": "CROW ASVV 2021 – kleurgebruik bewegwijzering"
+    },
+    {
+     "id": "s1-t4-l11",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 4.2",
+     "type": "mc",
+     "q": "Welke groep noemt het CBR NIET bij de kwetsbare verkeersdeelnemers?",
+     "opts": [
+      "Voetgangers en fietsers",
+      "Ouderen en kinderen",
+      "Vrachtwagenchauffeurs"
+     ],
+     "ok": 2,
+     "why": "CBR 4.2: voetgangers, gehandicapten, ouderen, kinderen, fietsers, snorfietsers en bromfietsers.",
+     "wrong": [
+      "Staan er wel in.",
+      "Staan er wel in.",
+      ""
+     ],
+     "bron": "CBR exameneisen TVT 4.2"
+    },
+    {
+     "id": "s1-t4-l12",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 3.2",
+     "type": "mc",
+     "q": "Rijklaarcontrole: een gordel achterin is kapot. Wat doe je?",
+     "opts": [
+      "Niets, passagiers kunnen ook zonder gordel",
+      "Melden en laten herstellen; die plaats niet gebruiken, want je vervoert niet meer passagiers dan er gordels zijn",
+      "Een passagier op die plek laten zitten als hij het goed vindt"
+     ],
+     "ok": 1,
+     "why": "CBR 3.2: voertuigcontrole gaat over veiligheid, verantwoordelijkheid en aansprakelijkheid. RVV 59 lid 1: niet meer passagiers dan er gordels zijn.",
+     "wrong": [
+      "Passagiers moeten de gordel gebruiken.",
+      "",
+      "Toestemming van de passagier verandert de regel niet."
+     ],
+     "bron": "CBR ET 3.2 · RVV 1990 art. 59 lid 1"
+    },
+    {
+     "id": "s1-t4-l13",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 4.4",
+     "type": "mc",
+     "q": "Waarom is comfortabel rijden belangrijk?",
+     "opts": [
+      "Voor het comfort van de passagier, de veiligheid en het beeld van de taxibranche",
+      "Alleen om fooi te krijgen",
+      "Omdat de taxameter dan langzamer loopt"
+     ],
+     "ok": 0,
+     "why": "CBR 4.4: relatie tussen comfortabel en veilig rijden, comfort van passagiers en beeldvorming van de branche.",
+     "wrong": [
+      "",
+      "Fooi is niet de reden.",
+      "Klopt niet."
+     ],
+     "bron": "CBR exameneisen TVT 4.4"
+    },
+    {
+     "id": "s1-t4-l14",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.3",
+     "type": "mc",
+     "q": "Het adres van de klant staat niet in je navigatie. Wat doe je?",
+     "opts": [
+      "De klant laten uitstappen",
+      "Zelf een oplossing zoeken: klant om een herkenningspunt vragen, kaart, centrale bellen",
+      "Naar een willekeurig adres in de buurt rijden"
+     ],
+     "ok": 1,
+     "why": "CBR 11.3: hoe te handelen als een adres niet in de navigatie staat; je bedient de passagier zo goed mogelijk.",
+     "wrong": [
+      "Dat bedient de klant niet.",
+      "",
+      "Willekeurig rijden is geen goede dienst."
+     ],
+     "bron": "CBR exameneisen TVT 11.3"
+    },
+    {
+     "id": "s1-t4-l15",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Je rijdt op een autoweg (bord met een auto). Wat is de maximumsnelheid zonder andere borden?",
+     "opts": [
+      "80",
+      "100",
+      "130"
+     ],
+     "ok": 1,
+     "why": "RVV 21: autoweg 100 km/u. Autosnelweg 130, andere wegen buiten de kom 80.",
+     "wrong": [
+      "Andere wegen buiten de kom.",
+      "",
+      "Autosnelweg."
+     ],
+     "bron": "RVV 1990 art. 21 en art. 1 (autoweg)"
+    },
+    {
+     "id": "s1-t4-l16",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 4.2",
+     "type": "mc",
+     "q": "Een jonge bestuurder (net rijbewijs) rijdt erg dicht achter je en haalt riskant in. Welk risico noemt het CBR hier?",
+     "opts": [
+      "Zelfoverschatting van beginnende bestuurders",
+      "Vermoeidheid van de chauffeur",
+      "Wensen van de passagier"
+     ],
+     "ok": 0,
+     "why": "CBR 4.2 noemt zelfoverschatting bij beginnende bestuurders.",
+     "wrong": [
+      "",
+      "Niet dit gedrag.",
+      "Niet dit gedrag."
+     ],
+     "bron": "CBR exameneisen TVT 4.2"
+    },
+    {
+     "id": "s1-t4-l17",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Welke A-weg loopt van Rotterdam via Dordrecht naar Breda?",
+     "opts": [
+      "A16",
+      "A15",
+      "A58"
+     ],
+     "ok": 0,
+     "why": "De A16.",
+     "wrong": [
+      "",
+      "A15 loopt oost-west (Rotterdam – Gorinchem – richting Nijmegen).",
+      "A58: Eindhoven – Tilburg – Breda – Vlissingen."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-r01",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 11.2",
+     "type": "order",
+     "q": "Zet de steden op de A28 in de goede volgorde, van Utrecht naar het noorden.",
+     "opts": [
+      "Utrecht",
+      "Amersfoort",
+      "Zwolle",
+      "Assen",
+      "Groningen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "A28: Utrecht – Amersfoort – Zwolle – Assen – Groningen.",
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-r02",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 11.2",
+     "type": "order",
+     "q": "Zet de steden op de A2 in de goede volgorde, van noord naar zuid.",
+     "opts": [
+      "Amsterdam",
+      "Utrecht",
+      "'s-Hertogenbosch",
+      "Eindhoven",
+      "Maastricht"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "A2: Amsterdam – Utrecht – Den Bosch – Eindhoven – Maastricht.",
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-r03",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 11.2",
+     "type": "multi",
+     "q": "Welke provinciehoofdsteden liggen aan de A28? Kies ALLE juiste.",
+     "opts": [
+      "Utrecht",
+      "Zwolle",
+      "Assen",
+      "Groningen",
+      "Arnhem",
+      "Leeuwarden"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "A28: Utrecht – Amersfoort – Zwolle – Assen – Groningen. Arnhem ligt aan A12/A50, Leeuwarden aan A32 (en vlakbij de A31).",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "Ligt niet aan de A28.",
+      "Ligt niet aan de A28."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-r04",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Welke A-weg gaat over de Afsluitdijk?",
+     "opts": [
+      "A6",
+      "A7",
+      "A31"
+     ],
+     "ok": 1,
+     "why": "De A7 (Zaandam – Afsluitdijk – Groningen).",
+     "wrong": [
+      "A6: Almere – Lelystad – Emmeloord – Joure.",
+      "",
+      "De A31 loopt in Friesland, niet over de dijk."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-r05",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Je rijdt van Eindhoven via Tilburg en Breda naar Middelburg. Welke A-weg?",
+     "opts": [
+      "A58",
+      "A16",
+      "A67"
+     ],
+     "ok": 0,
+     "why": "De A58 (Eindhoven – Tilburg – Breda – Bergen op Zoom – Middelburg – Vlissingen).",
+     "wrong": [
+      "",
+      "A16 loopt Rotterdam – Breda – België.",
+      "A67 loopt van België via Eindhoven naar Venlo."
+     ],
+     "bron": "CBR ET 11.2 · topografie NL"
+    },
+    {
+     "id": "s1-t4-r06",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 11.2",
+     "type": "mc",
+     "q": "Je rijdt op een N-weg (geel nummer) met het autowegbord (G3). Hoe hard mag je zonder snelheidsbord?",
+     "opts": [
+      "80, want het is een N-weg",
+      "100, want het bord maakt het een autoweg",
+      "130"
+     ],
+     "ok": 1,
+     "why": "Het nummer zegt niets over de regels. Een autoweg is een weg met bord G3 (RVV 1); daar geldt 100 km/u (RVV 21).",
+     "wrong": [
+      "De letter N bepaalt de snelheid niet.",
+      "",
+      "130 alleen op een autosnelweg (G1)."
+     ],
+     "bron": "RVV 1990 art. 1 en 21 · CROW ASVV"
+    },
+    {
+     "id": "s1-t4-r07",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Je navigatie kiest de snelste route (4 km langer). De passagier vraagt nadrukkelijk de kortste route. Wat doe je?",
+     "opts": [
+      "Snelste route, de chauffeur beslist",
+      "De gevraagde route rijden: de vervoerder rijdt de gunstigste weg, tenzij de reiziger of centrale nadrukkelijk een andere route vraagt",
+      "Discussie: uitleggen dat de snelste beter is en zo rijden"
+     ],
+     "ok": 1,
+     "why": "KNV art. 7 lid 2: gunstigste weg (snelste of economisch voordeligste), tenzij de reiziger of centrale nadrukkelijk een andere route vraagt.",
+     "wrong": [
+      "De passagier mag een route vragen.",
+      "",
+      "Geen discussie met de passagier (CBR 6.1)."
+     ],
+     "bron": "KNV Algemene Voorwaarden Zorgvervoer en Taxi art. 7 lid 2"
+    },
+    {
+     "id": "s1-t4-r08",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 4.1",
+     "type": "mc",
+     "q": "Je passagier heeft haast voor zijn vlucht en zegt: 'Rij maar 150, ik betaal de boete.' Wat doe je?",
+     "opts": [
+      "Doen, de klant betaalt",
+      "Niet doen: wensen van passagiers zijn een risicofactor; je rijdt volgens de regels en meldt eventueel de vertraging",
+      "Iets sneller rijden, 140 is nog ok"
+     ],
+     "ok": 1,
+     "why": "CBR 4.1 noemt 'wensen passagiers' en haast als risico. Je blijft binnen de regels.",
+     "wrong": [
+      "Dat is een overtreding en gevaarlijk.",
+      "",
+      "Ook 140 is te hard op een autosnelweg (RVV 21: 130)."
+     ],
+     "bron": "CBR exameneisen TVT 4.1 · RVV 1990 art. 19"
+    },
+    {
+     "id": "s1-t4-r09",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "multi",
+     "q": "Dichte mist: je ziet ongeveer 40 meter ver. Wat klopt? Kies ALLE juiste.",
+     "opts": [
+      "Je moet kunnen stoppen binnen de afstand die je kunt overzien",
+      "Je mag je mistachterlicht aandoen",
+      "Je mag groot licht voeren om beter te zien",
+      "Je rijdt de normale maximumsnelheid, borden gelden toch"
+     ],
+     "ok": [
+      0,
+      1
+     ],
+     "why": "RVV 19: stoppen binnen de afstand die je kunt overzien en die vrij is. RVV 34 lid 2: mistachterlicht bij zicht < 50 m door mist of sneeuw.",
+     "wrong": [
+      "",
+      "",
+      "Groot licht verblindt in mist; en bij het volgen of tegenkomen van anderen mag het niet (RVV 32).",
+      "De maximumsnelheid is geen streefsnelheid; RVV 19 gaat voor."
+     ],
+     "bron": "RVV 1990 art. 19 en 34 lid 2"
+    },
+    {
+     "id": "s1-t4-r10",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 3.2",
+     "type": "num",
+     "q": "Je taxi heeft voorin 1 passagiersplaats en achterin 3 plaatsen. Achterin is één gordel verwijderd. Hoeveel passagiers mag je maximaal vervoeren? Typ het getal.",
+     "ok": 3,
+     "why": "RVV 59 lid 1: niet meer passagiers dan er gordels zijn: 1 voor + 2 achter = 3. (Ook nooit meer dan het kentekenregister toestaat, Bp2000 77.)",
+     "bron": "RVV 1990 art. 59 lid 1 · Bp2000 art. 77",
+     "unit": "passagiers"
+    },
+    {
+     "id": "s1-t4-r11",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 3.1",
+     "type": "multi",
+     "q": "Welke horen bij de 'aanvullende voorwaarden' voor soorten taxivervoer volgens het CBR? Kies ALLE juiste.",
+     "opts": [
+      "Toegelaten Taxi Organisatie (TTO)",
+      "Keurmerken taxi",
+      "APK-keuringsrapport",
+      "Groene kaart"
+     ],
+     "ok": [
+      0,
+      1
+     ],
+     "why": "CBR 3.1: aanvullende voorwaarden = TTO en keurmerken taxi.",
+     "wrong": [
+      "",
+      "",
+      "Is een voertuigdocument (1.1).",
+      "Is een voertuigdocument (1.1)."
+     ],
+     "bron": "CBR exameneisen TVT 3.1"
+    },
+    {
+     "id": "s1-t4-r12",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "ET 3.2",
+     "type": "mc",
+     "q": "Waar staat hoeveel personen je maximaal met de taxi mag vervoeren?",
+     "opts": [
+      "In het kentekenregister",
+      "Op de tariefkaart",
+      "In de cao"
+     ],
+     "ok": 0,
+     "why": "Bp2000 77: het hoogste aantal personen (zonder bestuurder) staat in het kentekenregister; meer vervoeren is verboden.",
+     "wrong": [
+      "",
+      "De tariefkaart toont prijzen.",
+      "De cao gaat over werk en loon."
+     ],
+     "bron": "Bp2000 art. 77 lid 2"
+    },
+    {
+     "id": "s1-t5-k01",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Do 17:40, aanrijding op de snelweg. Wat doe je als EERSTE?",
+     "opts": [
+      "112 bellen",
+      "Je eigen veiligheid regelen: hesje aan, achter de vangrail",
+      "Eerste hulp verlenen"
+     ],
+     "ok": 1,
+     "why": "PAMAN begint met de P van Persoonlijke veiligheid.",
+     "wrong": [
+      "Alarmeren is stap 4.",
+      "",
+      "Hulp verlenen is de laatste stap (N)."
+     ],
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)",
+     "hint": "P = eerst jezelf.",
+     "simpel": "Na een ongeluk: wat eerst?",
+     "kern": [
+      "EERSTE"
+     ]
+    },
+    {
+     "id": "s1-t5-k02",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Waar staat de M in PAMAN voor?",
+     "opts": [
+      "Melden",
+      "Markeren van de plaats van het ongeval",
+      "Meten"
+     ],
+     "ok": 1,
+     "why": "PAMAN: Persoonlijke veiligheid, Andermans veiligheid, Markeren, Alarmeren, Noodzakelijke hulp.",
+     "wrong": [
+      "Melden heet hier Alarmeren (A).",
+      "",
+      "Bestaat niet in PAMAN."
+     ],
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)",
+     "hint": "De pan krijgt een markering.",
+     "simpel": "Wat betekent M?",
+     "kern": [
+      "M"
+     ]
+    },
+    {
+     "id": "s1-t5-k03",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Waar staat de eerste A in PAMAN voor?",
+     "opts": [
+      "Alarmeren",
+      "Andermans veiligheid",
+      "Afwachten"
+     ],
+     "ok": 1,
+     "why": "De eerste A = Andermans veiligheid (o.a. je passagier). De tweede A = Alarmeren.",
+     "wrong": [
+      "Dat is de tweede A.",
+      "",
+      "Bestaat niet."
+     ],
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)",
+     "hint": "Na jezelf: de ander.",
+     "simpel": "Eerste A in PAMAN?",
+     "kern": [
+      "eerste A"
+     ]
+    },
+    {
+     "id": "s1-t5-k04",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Waar staat de N in PAMAN voor?",
+     "opts": [
+      "Noodzakelijke hulp verlenen",
+      "Nummerbord noteren",
+      "Navigatie uitzetten"
+     ],
+     "ok": 0,
+     "why": "N = Noodzakelijke hulp verlenen.",
+     "wrong": [
+      "",
+      "Bestaat niet in PAMAN.",
+      "Bestaat niet in PAMAN."
+     ],
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)",
+     "hint": "Als laatste: helpen.",
+     "simpel": "Wat betekent N?",
+     "kern": [
+      "N"
+     ]
+    },
+    {
+     "id": "s1-t5-k05",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.2",
+     "type": "mc",
+     "q": "Er is een ongeval met gewonden. Welk nummer bel je?",
+     "opts": [
+      "112",
+      "0900-8844",
+      "1888"
+     ],
+     "ok": 0,
+     "why": "112 is het alarmnummer voor spoed (ambulance, brandweer, politie). CBR 5.2 vraagt het juiste telefoonnummer.",
+     "wrong": [
+      "",
+      "0900-8844 is politie zonder spoed.",
+      "Geen alarmnummer."
+     ],
+     "bron": "CBR exameneisen TVT 5.2",
+     "hint": "1-1-2.",
+     "simpel": "Spoed: welk nummer?",
+     "kern": [
+      "gewonden"
+     ]
+    },
+    {
+     "id": "s1-t5-k06",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.2",
+     "type": "mc",
+     "q": "Je meldt een ongeval binnen de bebouwde kom. Wat noem je als plaats?",
+     "opts": [
+      "Straatnaam en huisnummer",
+      "Wegnummer en hectometerpaal",
+      "Alleen de wijk"
+     ],
+     "ok": 0,
+     "why": "CBR 5.2: binnen de kom straatnaam en huisnummer.",
+     "wrong": [
+      "",
+      "Dat is buiten de kom.",
+      "Te vaag."
+     ],
+     "bron": "CBR exameneisen TVT 5.2",
+     "hint": "In de stad: straat + nummer.",
+     "simpel": "Plaats melden in de stad?",
+     "kern": [
+      "binnen de bebouwde kom"
+     ]
+    },
+    {
+     "id": "s1-t5-k07",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.2",
+     "type": "mc",
+     "q": "Je meldt een ongeval buiten de bebouwde kom. Wat noem je als plaats?",
+     "opts": [
+      "Straat en huisnummer",
+      "Wegnummer, hectometerpaal en rijrichting",
+      "Alleen de dichtstbijzijnde afrit"
+     ],
+     "ok": 1,
+     "why": "CBR 5.2: buiten de kom wegnummer, hectometerpaal en rijrichting.",
+     "wrong": [
+      "Binnen de kom.",
+      "",
+      "Te weinig."
+     ],
+     "bron": "CBR exameneisen TVT 5.2",
+     "hint": "Het knipperende paaltje.",
+     "simpel": "Plaats melden op de snelweg?",
+     "kern": [
+      "buiten de bebouwde kom"
+     ]
+    },
+    {
+     "id": "s1-t5-k08",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.3",
+     "type": "mc",
+     "q": "Hoe merk je een stremming zo vroeg mogelijk?",
+     "opts": [
+      "Door verkeersinformatie te gebruiken",
+      "Door harder te rijden",
+      "Door de passagier te vragen"
+     ],
+     "ok": 0,
+     "why": "CBR 5.3: zo vroeg mogelijk signaleren via verkeersinformatie.",
+     "wrong": [
+      "",
+      "Niet relevant en gevaarlijk.",
+      "Niet de bron."
+     ],
+     "bron": "CBR exameneisen TVT 5.3",
+     "hint": "Radio/app met verkeersinfo.",
+     "simpel": "Hoe weet je vooraf van een file?",
+     "kern": [
+      "stremming"
+     ]
+    },
+    {
+     "id": "s1-t5-k09",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.3",
+     "type": "mc",
+     "q": "Door een stremming kom je 20 minuten te laat. Wie informeer je?",
+     "opts": [
+      "Niemand",
+      "De passagier, en zo nodig de centrale",
+      "Alleen je collega's"
+     ],
+     "ok": 1,
+     "why": "CBR 5.3: bij vertraging passagiers informeren en (eventueel) de centrale.",
+     "wrong": [
+      "Communicatie is juist belangrijk.",
+      "",
+      "Niet de juiste mensen."
+     ],
+     "bron": "CBR exameneisen TVT 5.3",
+     "hint": "Passagier + centrale.",
+     "simpel": "Te laat: wie bel je?",
+     "kern": [
+      "te laat"
+     ]
+    },
+    {
+     "id": "s1-t5-k10",
+     "tak": 5,
+     "niveau": "kruipen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Welke procedure geldt bij ongevallen op rijkswegen?",
+     "opts": [
+      "Incident Management Rijkswaterstaat",
+      "De klachtenprocedure",
+      "De APK-procedure"
+     ],
+     "ok": 0,
+     "why": "CBR 5.1 noemt de procedure Incident Management Rijkswaterstaat.",
+     "wrong": [
+      "",
+      "Hoort bij klachten.",
+      "Hoort bij keuring."
+     ],
+     "bron": "CBR exameneisen TVT 5.1",
+     "hint": "Rijkswegen = Rijkswaterstaat.",
+     "simpel": "Welke procedure op de snelweg?",
+     "kern": [
+      "rijkswegen"
+     ]
+    },
+    {
+     "id": "s1-t5-l01",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.1",
+     "type": "order",
+     "q": "Zet de PAMAN-stappen in de goede volgorde.",
+     "opts": [
+      "Persoonlijke veiligheid",
+      "Andermans veiligheid",
+      "Markeren",
+      "Alarmeren",
+      "Noodzakelijke hulp verlenen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "P-A-M-A-N.",
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)"
+    },
+    {
+     "id": "s1-t5-l02",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.2",
+     "type": "multi",
+     "q": "Wat hoort in een goede melding aan de hulpdiensten? Kies ALLE juiste.",
+     "opts": [
+      "Tijdstip",
+      "Omvang van de schade",
+      "Eventuele gewonden en hoeveel",
+      "De plaats",
+      "Je mening over wie schuld heeft"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "CBR 5.2: welke hulpdienst, tijdstip, omvang schade, gewonden + aantal, juiste nummers en de plaats.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "Schuld is niet nodig voor de melding."
+     ],
+     "bron": "CBR exameneisen TVT 5.2"
+    },
+    {
+     "id": "s1-t5-l03",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.2",
+     "type": "mc",
+     "q": "Iemand heeft je taxi beschadigd en is weg. Er is geen spoed. Welk nummer bel je?",
+     "opts": [
+      "112",
+      "0900-8844",
+      "Het nummer van de ILT"
+     ],
+     "ok": 1,
+     "why": "0900-8844 is de politie zonder spoed. 112 alleen bij spoed.",
+     "wrong": [
+      "Geen spoed: niet 112.",
+      "",
+      "De ILT is geen hulpdienst."
+     ],
+     "bron": "politie.nl · CBR ET 5.2"
+    },
+    {
+     "id": "s1-t5-l04",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.2",
+     "type": "mc",
+     "q": "Wat staat er altijd op een hectometerbord?",
+     "opts": [
+      "Wegaanduiding (A of N + nummer) en de hectometrering",
+      "Alleen een kilometergetal",
+      "De naam van de dichtstbijzijnde stad"
+     ],
+     "ok": 0,
+     "why": "CROW: altijd wegaanduiding + hectometrering; soms Li/Re (rijbaan) en een letter.",
+     "wrong": [
+      "",
+      "Er staat ook het wegnummer op.",
+      "Staat er niet op."
+     ],
+     "bron": "CROW Richtlijn bebakening en markering 2024 (hectometerborden)"
+    },
+    {
+     "id": "s1-t5-l05",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.3",
+     "type": "mc",
+     "q": "De verkeersinfo meldt een stremming verderop op je route. Wat doe je?",
+     "opts": [
+      "Gewoon doorrijden",
+      "Een andere route kiezen en de passagier informeren",
+      "De rit annuleren"
+     ],
+     "ok": 1,
+     "why": "CBR 5.3: alternatieve route kiezen; bij vertraging passagier (en eventueel centrale) informeren.",
+     "wrong": [
+      "Dan sta je straks vast.",
+      "",
+      "Niet nodig."
+     ],
+     "bron": "CBR exameneisen TVT 5.3"
+    },
+    {
+     "id": "s1-t5-l06",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.3",
+     "type": "mc",
+     "q": "Kleine aanrijding op de snelweg, niemand gewond, beide auto's rijden nog. Hoe voorkom je een stremming?",
+     "opts": [
+      "Auto's laten staan tot de politie komt",
+      "De auto's zo snel mogelijk naar de vluchtstrook of een veilige plek zetten",
+      "Op de rijbaan het schadeformulier invullen"
+     ],
+     "ok": 1,
+     "why": "CBR 5.3: bij een ongeval stremmingen voorkomen. Kan de auto nog rijden en is niemand gewond? Dan naar de vluchtstrook of veilige plek.",
+     "wrong": [
+      "Dan ontstaat juist een stremming.",
+      "",
+      "Gevaarlijk en het veroorzaakt een stremming."
+     ],
+     "bron": "CBR exameneisen TVT 5.3 · Rijkswaterstaat (Incident Management)"
+    },
+    {
+     "id": "s1-t5-l07",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Na een aanrijding met alleen blikschade, wat doe je met de andere bestuurder?",
+     "opts": [
+      "Alleen telefoonnummers uitwisselen",
+      "Samen het Europees schadeformulier invullen en je gegevens laten vaststellen",
+      "Niets, de verzekering regelt het"
+     ],
+     "ok": 1,
+     "why": "Het Europees schadeformulier legt de schade vast (CBR 1.1). Je mag niet weg zonder je identiteit te laten vaststellen (WVW 7).",
+     "wrong": [
+      "Te weinig.",
+      "",
+      "Je moet wel gegevens vastleggen."
+     ],
+     "bron": "CBR ET 1.1 en 5.1 · WVW 1994 art. 7"
+    },
+    {
+     "id": "s1-t5-l08",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 6.1",
+     "type": "mc",
+     "q": "Na een ongeval kan je taxi niet verder. Je passagier moet naar het ziekenhuis voor een afspraak. Wat doe je?",
+     "opts": [
+      "De passagier zelf een bus laten zoeken",
+      "De centrale informeren zodat zij vervangend vervoer kan plannen",
+      "Wachten tot je auto gemaakt is"
+     ],
+     "ok": 1,
+     "why": "CBR 6.1: het bedrijf goed informeren voor planning en vervangend vervoer.",
+     "wrong": [
+      "Slechte service.",
+      "",
+      "Duurt te lang."
+     ],
+     "bron": "CBR exameneisen TVT 6.1 en 5.3"
+    },
+    {
+     "id": "s1-t5-l09",
+     "tak": 5,
+     "niveau": "lopen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Pech op de snelweg met twee passagiers. Wat is juist voor 'Andermans veiligheid'?",
+     "opts": [
+      "Passagiers in de auto laten zitten met de gordel om",
+      "Passagiers aan de veilige kant laten uitstappen en achter de vangrail laten wachten",
+      "Passagiers laten helpen duwen"
+     ],
+     "ok": 1,
+     "why": "Na je eigen veiligheid (P) zorg je voor de veiligheid van anderen (A): veilig uitstappen en achter de vangrail.",
+     "wrong": [
+      "In de auto blijven op de snelweg is gevaarlijk bij een aanrijding.",
+      "",
+      "Gevaarlijk."
+     ],
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)"
+    },
+    {
+     "id": "s1-t5-r01",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 5.2",
+     "type": "mc",
+     "q": "Do 22 okt 2026, 17:40. Aanrijding op de A12, rechter rijbaan richting Utrecht, bij hectometerpaal 45,3. Eén persoon is gewond. Welke melding is het BEST?",
+     "opts": [
+      "112: 'Ongeluk op de snelweg bij Utrecht, kom snel.'",
+      "112: 'A12, hectometerpaal 45,3 Re, rijrichting Utrecht, 17:40, één gewonde, twee auto's beschadigd.'",
+      "0900-8844: 'A12 richting Utrecht, één gewonde.'"
+     ],
+     "ok": 1,
+     "why": "CBR 5.2: juist nummer (112 bij gewonden), wegnummer, hectometerpaal, rijrichting, tijdstip, gewonden + aantal, omvang schade.",
+     "wrong": [
+      "Te vaag: geen hectometerpaal, geen gewonden.",
+      "",
+      "Verkeerd nummer: bij gewonden bel je 112."
+     ],
+     "bron": "CBR exameneisen TVT 5.2"
+    },
+    {
+     "id": "s1-t5-r02",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 5.2",
+     "type": "multi",
+     "q": "Welke gegevens horen bij de PLAATS van een melding BUITEN de bebouwde kom? Kies ALLE juiste.",
+     "opts": [
+      "Wegnummer",
+      "Hectometerpaal",
+      "Rijrichting",
+      "Straatnaam en huisnummer",
+      "De kleur van de andere auto"
+     ],
+     "ok": [
+      0,
+      1,
+      2
+     ],
+     "why": "CBR 5.2: buiten de kom wegnummer, hectometerpaal en rijrichting.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "Dat is binnen de kom.",
+      "Geen plaatsgegeven."
+     ],
+     "bron": "CBR exameneisen TVT 5.2"
+    },
+    {
+     "id": "s1-t5-r03",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 5.3",
+     "type": "mc",
+     "q": "Stremming op de N-weg. Je navigatie stuurt je om via een woonwijk langs een basisschool, om 08:20. Een iets langere route gaat via een hoofdweg. Wat is het beste?",
+     "opts": [
+      "De woonwijk: korter is altijd beter",
+      "De hoofdweg: minder risico met kwetsbare verkeersdeelnemers (kinderen); passagier informeren over de extra tijd",
+      "Wachten in de file tot het oplost"
+     ],
+     "ok": 1,
+     "why": "CBR 5.3: alternatieve route kiezen. CBR 4.2: kinderen en fietsers zijn kwetsbaar. Informeer de passagier.",
+     "wrong": [
+      "Korter is niet altijd veiliger.",
+      "",
+      "Je laat de passagier onnodig wachten."
+     ],
+     "bron": "CBR exameneisen TVT 5.3 en 4.2"
+    },
+    {
+     "id": "s1-t5-r04",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Welke volgorde is FOUT? Kies het antwoord dat NIET klopt met PAMAN.",
+     "opts": [
+      "Hesje aan → passagier achter de vangrail → markeren → 112 → hulp",
+      "Hesje aan → 112 → passagier achter de vangrail → markeren → hulp",
+      "Eigen veiligheid → andermans veiligheid → markeren → alarmeren → hulp"
+     ],
+     "ok": 1,
+     "why": "In PAMAN komt Alarmeren pas na Andermans veiligheid en Markeren.",
+     "wrong": [
+      "Dit is de goede volgorde.",
+      "",
+      "Dit is de goede volgorde."
+     ],
+     "bron": "CBR exameneisen TVT 5.1 (PAMAN)"
+    },
+    {
+     "id": "s1-t5-r05",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Je bent betrokken bij een ongeval. Een fietser ligt gewond op de grond. Wat verbiedt WVW art. 7 in elk geval?",
+     "opts": [
+      "Je auto verplaatsen",
+      "De gewonde in hulpeloze toestand achterlaten",
+      "De centrale bellen"
+     ],
+     "ok": 1,
+     "why": "WVW 7 lid 1c: verboden de plaats te verlaten als daardoor een gewonde in hulpeloze toestand achterblijft.",
+     "wrong": [
+      "Verplaatsen kan nodig zijn om stremming of gevaar te voorkomen.",
+      "",
+      "Mag gewoon."
+     ],
+     "bron": "WVW 1994 art. 7 lid 1c"
+    },
+    {
+     "id": "s1-t5-r06",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 5.3",
+     "type": "multi",
+     "q": "Welke handelingen noemt het CBR bij verstoringen en stremmingen? Kies ALLE juiste.",
+     "opts": [
+      "Zo vroeg mogelijk signaleren met verkeersinformatie",
+      "Bij een ongeval stremmingen voorkomen",
+      "Alternatieve route kiezen",
+      "Bij vertraging de passagier informeren",
+      "De taxameter stilzetten zodat de rit goedkoper wordt"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "CBR 5.3 noemt deze vier (en eventueel de centrale informeren).",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "Staat niet in de exameneisen."
+     ],
+     "bron": "CBR exameneisen TVT 5.3"
+    },
+    {
+     "id": "s1-t5-r07",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 2.1",
+     "type": "mc",
+     "q": "Krijger reed na een aanrijding met schade in paniek door. Om 23:00 gebeurde het. Tot welk tijdstip kan hij zich vrijwillig melden zodat vervolging voor doorrijden is uitgesloten?",
+     "opts": [
+      "Volgende dag 11:00 (binnen 12 uur, vóór aanhouding/verhoor)",
+      "Volgende dag 23:00 (24 uur)",
+      "Binnen 48 uur"
+     ],
+     "ok": 0,
+     "why": "WVW 184: binnen twaalf uur na het ongeval, vóór aanhouding of verhoor, met identiteit van persoon en auto.",
+     "wrong": [
+      "",
+      "Te laat.",
+      "Te laat; 48 uur is de termijn uit WVW 165."
+     ],
+     "bron": "WVW 1994 art. 184"
+    },
+    {
+     "id": "s1-t5-r08",
+     "tak": 5,
+     "niveau": "rennen",
+     "et": "ET 5.1",
+     "type": "mc",
+     "q": "Na een aanrijding op de autosnelweg wil je passagier uitstappen en op de rijbaan foto's maken. Wat doe je?",
+     "opts": [
+      "Laten doen, het is zijn schade",
+      "Niet toestaan: de rijbaan is gevaarlijk; iedereen achter de vangrail (P en A van PAMAN)",
+      "Alleen als je de alarmlichten aan hebt"
+     ],
+     "ok": 1,
+     "why": "PAMAN: persoonlijke en andermans veiligheid eerst. Op de rijbaan van een autosnelweg ben je in groot gevaar.",
+     "wrong": [
+      "Veiligheid gaat voor.",
+      "",
+      "Alarmlichten maken de rijbaan niet veilig."
+     ],
+     "bron": "RVV 1990 art. 43 lid 2–3 · CBR ET 5.1"
+    },
+    {
+     "id": "s1-t6-k01",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 7.1",
+     "type": "mc",
+     "q": "Hoe spreek je een passagier aan?",
+     "opts": [
+      "Met 'je' en 'jij'",
+      "Met 'U', 'meneer' of 'mevrouw'",
+      "Met 'maat' of 'chef'"
+     ],
+     "ok": 1,
+     "why": "CBR 7.1: net en beleefd; de passagier aanspreken met U, meneer, mevrouw.",
+     "wrong": [
+      "Te informeel.",
+      "",
+      "Onbeleefd."
+     ],
+     "bron": "CBR exameneisen TVT 7.1",
+     "hint": "Goedemorgen meneer.",
+     "simpel": "Hoe zeg je het netjes?",
+     "kern": [
+      "aanspreken"
+     ]
+    },
+    {
+     "id": "s1-t6-k02",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 6.1",
+     "type": "mc",
+     "q": "Welk niveau Nederlands moet je als taxichauffeur goed beheersen?",
+     "opts": [
+      "A1",
+      "B1",
+      "C2"
+     ],
+     "ok": 1,
+     "why": "CBR 6.1 en 7.1: Nederlands op B1-niveau.",
+     "wrong": [
+      "Te laag.",
+      "",
+      "Niet vereist."
+     ],
+     "bron": "CBR exameneisen TVT 6.1",
+     "hint": "B van Begrijpelijk.",
+     "simpel": "Welk taalniveau?",
+     "kern": [
+      "Nederlands"
+     ]
+    },
+    {
+     "id": "s1-t6-k03",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 6.2",
+     "type": "mc",
+     "q": "Hoe bel je tijdens de rit met de centrale?",
+     "opts": [
+      "Handsfree, kort en zakelijk, en let op dat de passagier meeluistert",
+      "Met de telefoon aan je oor, dat is sneller",
+      "Uitgebreid, ook over privézaken"
+     ],
+     "ok": 0,
+     "why": "CBR 6.2: zakelijk, net, kort en helder, rekening houden met meeluisteren, handsfree.",
+     "wrong": [
+      "Vasthouden is verboden (RVV 61a).",
+      "",
+      "Alleen zakelijk."
+     ],
+     "bron": "CBR exameneisen TVT 6.2",
+     "hint": "Vlinder aan de ruit.",
+     "simpel": "Bellen in de taxi: hoe?",
+     "kern": [
+      "handsfree"
+     ]
+    },
+    {
+     "id": "s1-t6-k04",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 6.1",
+     "type": "mc",
+     "q": "Waarover informeer je de passagier vooraf in elk geval?",
+     "opts": [
+      "Kosten en tijd",
+      "Je privéleven",
+      "Het weer"
+     ],
+     "ok": 0,
+     "why": "CBR 6.1: passagiers juist informeren over kosten en tijd e.d.",
+     "wrong": [
+      "",
+      "Niet relevant.",
+      "Niet de kern."
+     ],
+     "bron": "CBR exameneisen TVT 6.1",
+     "hint": "Prijs en duur.",
+     "simpel": "Wat vertel je vooraf?",
+     "kern": [
+      "vooraf"
+     ]
+    },
+    {
+     "id": "s1-t6-k05",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 6.1",
+     "type": "mc",
+     "q": "Een passagier begint een discussie over politiek en wordt boos. Wat doe je?",
+     "opts": [
+      "Je mening hard verdedigen",
+      "Geen discussie aangaan; vriendelijk en neutraal blijven",
+      "Hem laten uitstappen"
+     ],
+     "ok": 1,
+     "why": "CBR 6.1: geen discussie met de passagier.",
+     "wrong": [
+      "Dat is discussie.",
+      "",
+      "Te snel; eerst de-escaleren."
+     ],
+     "bron": "CBR exameneisen TVT 6.1",
+     "hint": "Geen discussie.",
+     "simpel": "Passagier wil ruzie over politiek?",
+     "kern": [
+      "discussie"
+     ]
+    },
+    {
+     "id": "s1-t6-k06",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 7.1",
+     "type": "mc",
+     "q": "Wanneer moet je taxi aan de buitenkant schoon zijn?",
+     "opts": [
+      "Bij aanvang van de dienst",
+      "Eén keer per week",
+      "Alleen als het geregend heeft"
+     ],
+     "ok": 0,
+     "why": "CBR 7.1: auto schoon binnenzijde, en buitenzijde bij aanvang dienst.",
+     "wrong": [
+      "",
+      "Te weinig.",
+      "Niet de regel."
+     ],
+     "bron": "CBR exameneisen TVT 7.1",
+     "hint": "Begin van de dienst.",
+     "simpel": "Wanneer moet de auto buiten schoon zijn?",
+     "kern": [
+      "buitenkant"
+     ]
+    },
+    {
+     "id": "s1-t6-k07",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 7.3",
+     "type": "mc",
+     "q": "Wat controleer je bij het instappen?",
+     "opts": [
+      "De juiste kant (veilig, stoepzijde) en het juiste adres",
+      "Alleen of de passagier kan betalen",
+      "Of de passagier dezelfde taal spreekt"
+     ],
+     "ok": 0,
+     "why": "CBR 7.3: instapprocedure: juiste kant, juiste adres.",
+     "wrong": [
+      "Niet de instapprocedure.",
+      "",
+      "Geen voorwaarde."
+     ],
+     "bron": "CBR exameneisen TVT 7.3",
+     "hint": "Stoepkant + adres.",
+     "simpel": "Waar let je op bij instappen?",
+     "kern": [
+      "instappen"
+     ]
+    },
+    {
+     "id": "s1-t6-k08",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 7.1",
+     "type": "mc",
+     "q": "Mag je als chauffeur roken of vapen in de taxi tijdens je dienst?",
+     "opts": [
+      "Ja, als het raam open is",
+      "Nee, dat past niet bij de beroepshouding; passagiers mogen ook geen rookwaar gebruiken",
+      "Ja, als er geen passagier is maar wel in de dienst"
+     ],
+     "ok": 1,
+     "why": "CBR 7.1 noemt gedrag bij roken, e-sigaret en vapen bij de beroepshouding. KNV 5.2d: de reiziger onthoudt zich van rookwaar.",
+     "wrong": [
+      "Een open raam maakt het niet professioneel.",
+      "",
+      "De geur blijft hangen voor de volgende passagier."
+     ],
+     "bron": "CBR ET 7.1 · KNV art. 5 lid 2d",
+     "hint": "Schone auto, schone lucht.",
+     "simpel": "Roken in de taxi?",
+     "kern": [
+      "roken",
+      "vapen"
+     ]
+    },
+    {
+     "id": "s1-t6-k09",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 7.3",
+     "type": "mc",
+     "q": "Een blinde passagier heeft een geleidehond. Wat doe je?",
+     "opts": [
+      "Weigeren, honden mogen niet mee",
+      "De hond altijd meenemen",
+      "Alleen meenemen als hij in de kofferbak gaat"
+     ],
+     "ok": 1,
+     "why": "KNV art. 9 lid 3: hulphonden, zoals blindengeleidehonden, worden onder alle omstandigheden meegenomen.",
+     "wrong": [
+      "Hulphonden mogen altijd mee.",
+      "",
+      "Een hulphond blijft bij zijn baas."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 9 lid 3",
+     "hint": "Hulphond = altijd mee.",
+     "simpel": "Mag de blindengeleidehond mee?",
+     "kern": [
+      "geleidehond"
+     ]
+    },
+    {
+     "id": "s1-t6-k10",
+     "tak": 6,
+     "niveau": "kruipen",
+     "et": "ET 7.4",
+     "type": "mc",
+     "q": "Waarom is een tevreden passagier bij contractvervoer extra belangrijk?",
+     "opts": [
+      "Voor de voortzetting van het contract",
+      "Omdat hij dan meer fooi geeft",
+      "Het maakt niet uit"
+     ],
+     "ok": 0,
+     "why": "CBR 7.4: bij contractvervoer: voortzetting van het contract.",
+     "wrong": [
+      "",
+      "Niet de reden uit de exameneisen.",
+      "Het maakt wel uit."
+     ],
+     "bron": "CBR exameneisen TVT 7.4",
+     "hint": "Contract = blijven rijden.",
+     "simpel": "Waarom moet de klant tevreden zijn?",
+     "kern": [
+      "contractvervoer"
+     ]
+    },
+    {
+     "id": "s1-t6-l01",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een passagier met hulphond stapt in, maar jij bent allergisch voor honden. Wat moet je doen?",
+     "opts": [
+      "Weigeren en wegrijden",
+      "Binnen 15 minuten zorgen voor vervangend vervoer",
+      "De passagier zelf een andere taxi laten bellen"
+     ],
+     "ok": 1,
+     "why": "KNV 9.3: is de bestuurder allergisch, dan zorgt hij binnen 15 minuten voor vervangend vervoer.",
+     "wrong": [
+      "Weigeren zonder oplossing mag niet.",
+      "",
+      "Jij regelt het."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 9 lid 3"
+    },
+    {
+     "id": "s1-t6-l02",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "De rit met taxameter is klaar. Wat doe je met de meterstand?",
+     "opts": [
+      "Meteen op nul zetten",
+      "Zo lang laten staan dat de reiziger de stand kan zien",
+      "Alleen op verzoek laten zien"
+     ],
+     "ok": 1,
+     "why": "KNV 7.4: de stand blijft zo lang staan dat de reiziger zich op de hoogte kan stellen.",
+     "wrong": [
+      "Te snel.",
+      "",
+      "Hij moet zichtbaar blijven."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 7 lid 4"
+    },
+    {
+     "id": "s1-t6-l03",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een oudere passagier heeft een zware koffer. Wat is je plicht?",
+     "opts": [
+      "Niets, bagage is zijn zaak",
+      "Behulpzaam zijn bij in- en uitstappen en bij in- en uitladen van de bagage",
+      "Alleen helpen tegen extra betaling"
+     ],
+     "ok": 1,
+     "why": "KNV 7.3: de vervoerder helpt bij in- en uitstappen en in- en uitladen van handbagage, tenzij dat (verkeers)technisch onmogelijk is.",
+     "wrong": [
+      "Helpen hoort erbij.",
+      "",
+      "Niet volgens de voorwaarden."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 7 lid 3"
+    },
+    {
+     "id": "s1-t6-l04",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een passagier wil een blikje bier drinken in je taxi. Mag dat?",
+     "opts": [
+      "Ja, altijd",
+      "Alleen met uitdrukkelijke toestemming van de vervoerder",
+      "Nee, nooit, het is wettelijk verboden"
+     ],
+     "ok": 1,
+     "why": "KNV 5.2b: geen alcohol in de auto, tenzij met uitdrukkelijke toestemming van de vervoerder.",
+     "wrong": [
+      "Niet zonder toestemming.",
+      "",
+      "Het staat in de algemene voorwaarden, met een toestemmingsuitzondering."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 5 lid 2b"
+    },
+    {
+     "id": "s1-t6-l05",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een passagier wil zijn gordel niet om. Wat zeggen de KNV-voorwaarden?",
+     "opts": [
+      "De reiziger doet de gordel om vóór de rit; een boete daarvoor kan op hem verhaald worden",
+      "De chauffeur betaalt altijd de boete",
+      "Gordel is vrijwillig in een taxi"
+     ],
+     "ok": 0,
+     "why": "KNV 5.1b: de reiziger doet de gordel om voorafgaand aan de rit; een boete kan op hem verhaald worden.",
+     "wrong": [
+      "",
+      "Niet volgens art. 5.",
+      "Passagiers gebruiken de gordel (RVV 59 lid 1)."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 5 lid 1b"
+    },
+    {
+     "id": "s1-t6-l06",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Halverwege wil de passagier naar een ander adres. Mag dat?",
+     "opts": [
+      "Nee, de bestemming staat vast",
+      "Ja, de reiziger mag tussentijds de eindbestemming wijzigen",
+      "Alleen als hij eerst de rit tot nu toe afrekent"
+     ],
+     "ok": 1,
+     "why": "KNV 5.5: de reiziger mag tussentijds de eindbestemming wijzigen.",
+     "wrong": [
+      "Het mag wel.",
+      "",
+      "Geen eis uit de voorwaarden."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 5 lid 5"
+    },
+    {
+     "id": "s1-t6-l07",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Welke handbagage mag de vervoerder weigeren? Kies het beste antwoord.",
+     "opts": [
+      "Een rolkoffer",
+      "Vuurwapens, explosieven, munitie, verdovende middelen, sterk ruikende of licht ontvlambare stoffen",
+      "Een boodschappentas"
+     ],
+     "ok": 1,
+     "why": "KNV 8.2 noemt o.a. vuur-, slag- en steekwapens, ontplofbare stoffen, gassen, licht ontvlambare of sterk ruikende stoffen, verdovende middelen, munitie.",
+     "wrong": [
+      "Gewone bagage.",
+      "",
+      "Gewone bagage."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 8 lid 2"
+    },
+    {
+     "id": "s1-t6-l08",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Je vindt na de rit een telefoon op de achterbank. Wat doe je?",
+     "opts": [
+      "Houden als niemand belt",
+      "Afgeven bij de vervoerder (het taxibedrijf), die het bewaart voor de eigenaar",
+      "In de brievenbus van het politiebureau gooien zonder melding"
+     ],
+     "ok": 1,
+     "why": "KNV art. 10: de vervoerder mag gevonden voorwerpen in bewaring nemen en geeft ze aan de rechthebbende terug.",
+     "wrong": [
+      "Dat is verduistering.",
+      "",
+      "Zonder melding kan de eigenaar het niet terugvinden."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 10"
+    },
+    {
+     "id": "s1-t6-l09",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.3",
+     "type": "mc",
+     "q": "Je rijdt een leerling van het speciaal onderwijs die snel onrustig wordt. Wat helpt het meest?",
+     "opts": [
+      "Harde muziek aan",
+      "Rustig, duidelijk en voorspelbaar handelen, en je houden aan de afspraken met de opdrachtgever",
+      "Hem negeren"
+     ],
+     "ok": 1,
+     "why": "CBR 7.3: rekening houden met leerlingen van speciaal onderwijs en met eisen en afspraken van de opdrachtgever.",
+     "wrong": [
+      "Dat maakt onrust erger.",
+      "",
+      "Negeren is geen goede omgang."
+     ],
+     "bron": "CBR exameneisen TVT 7.3"
+    },
+    {
+     "id": "s1-t6-l10",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Hoe mag een reiziger betalen volgens de KNV-voorwaarden?",
+     "opts": [
+      "Alleen contant",
+      "Contant of met een algemeen erkende elektronische betaling, tenzij anders afgesproken",
+      "Alleen met een app van het bedrijf"
+     ],
+     "ok": 1,
+     "why": "KNV 6.2: contant met een in NL algemeen geaccepteerd betaalmiddel, inclusief erkende elektronische betalingen.",
+     "wrong": [
+      "Elektronisch mag ook.",
+      "",
+      "Te beperkt."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 6 lid 2"
+    },
+    {
+     "id": "s1-t6-l11",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "De passagier opent zelf het portier aan de straatkant. Wat zeggen de voorwaarden?",
+     "opts": [
+      "Dat mag nooit",
+      "Hij opent het zo dat er geen hinder of gevaar voor het verkeer ontstaat",
+      "De chauffeur is altijd aansprakelijk"
+     ],
+     "ok": 1,
+     "why": "KNV 5.6: kiest de reiziger zelf het portier te openen, dan zo dat geen hinder of gevaar ontstaat.",
+     "wrong": [
+      "Hij mag het wel.",
+      "",
+      "Niet wat art. 5.6 zegt."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 5 lid 6"
+    },
+    {
+     "id": "s1-t6-l12",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "ET 7.3",
+     "type": "mc",
+     "q": "Waarmee moet je volgens het CBR rekening houden bij passagiers? Kies het beste antwoord.",
+     "opts": [
+      "Culturele achtergrond, geslacht, leeftijd, taal, haast, gemoedstoestand en middelengebruik",
+      "Alleen met hun bestemming",
+      "Alleen met de betaalwijze"
+     ],
+     "ok": 0,
+     "why": "CBR 7.3 noemt deze kenmerken, plus functiebeperking, verstandelijke handicap, ziekte en speciaal onderwijs.",
+     "wrong": [
+      "",
+      "Te smal.",
+      "Te smal."
+     ],
+     "bron": "CBR exameneisen TVT 7.3"
+    },
+    {
+     "id": "s1-t6-r01",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Rit met taxameter. Na de helft wil de passagier stoppen en uitstappen. Wat betaalt hij?",
+     "opts": [
+      "De volledige geschatte ritprijs",
+      "Het bedrag dat de taxameter aangeeft op het moment van stoppen",
+      "Niets, de rit is niet af"
+     ],
+     "ok": 1,
+     "why": "KNV 4.3: bij voortijdige beëindiging met taxameter: het bedrag op de meter op dat moment. Bij een vooraf afgesproken prijs: een evenredig deel.",
+     "wrong": [
+      "Niet volgens art. 4.3.",
+      "",
+      "Het gereden deel wordt betaald."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 4 lid 3"
+    },
+    {
+     "id": "s1-t6-r02",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Vooraf afgesproken vaste prijs € 60 voor 60 km. Na 30 km stopt de passagier de rit. Wat is hij verschuldigd volgens KNV?",
+     "opts": [
+      "€ 60",
+      "Een evenredig deel: ongeveer € 30",
+      "€ 0"
+     ],
+     "ok": 1,
+     "why": "KNV 4.3: bij een vooraf afgesproken prijs een evenredig deel, ter vergoeding van het gereden deel.",
+     "wrong": [
+      "Hij betaalt niet de hele prijs.",
+      "",
+      "Het gereden deel wordt vergoed."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 4 lid 3"
+    },
+    {
+     "id": "s1-t6-r03",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een klant bestelt een rit en is niet op de afgesproken plek. Wat zeggen de KNV-voorwaarden?",
+     "opts": [
+      "De klant betaalt altijd de volle ritprijs",
+      "De klant is bij aantoonbare schade een schadeloosstelling naar redelijkheid en billijkheid verschuldigd",
+      "Er is nooit iets verschuldigd"
+     ],
+     "ok": 1,
+     "why": "KNV 4.4: ook bij niet verschijnen geldt schadeloosstelling naar redelijkheid en billijkheid als er aantoonbare schade is.",
+     "wrong": [
+      "Geen vaste volle prijs.",
+      "",
+      "Bij aantoonbare schade wel."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 4 lid 4"
+    },
+    {
+     "id": "s1-t6-r04",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een passagier wil € 23 betalen met een zak vol muntjes van 10 cent. Wat zeggen de voorwaarden?",
+     "opts": [
+      "Je moet ze altijd aannemen",
+      "Je hoeft een hoeveelheid munten niet aan te nemen als het tellen onevenredig veel oponthoud geeft",
+      "Munten zijn nooit toegestaan"
+     ],
+     "ok": 1,
+     "why": "KNV 6.3: de vervoerder hoeft een hoeveelheid munten niet aan te nemen bij onevenredig oponthoud.",
+     "wrong": [
+      "Niet als het tellen te lang duurt.",
+      "",
+      "Contant geld is toegestaan."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 6 lid 3"
+    },
+    {
+     "id": "s1-t6-r05",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "num",
+     "q": "Een paraplu (niet kostbaar) ligt al lang in het depot van het taxibedrijf. Na hoeveel maanden mag de vervoerder hem verkopen? Typ het getal.",
+     "ok": 3,
+     "why": "KNV 10.2: niet-kostbare gevonden voorwerpen na drie maanden (of eerder als ze niet te bewaren zijn). De rechthebbende kan zich binnen één jaar melden voor het voorwerp of de opbrengst (10.3).",
+     "bron": "KNV Algemene Voorwaarden art. 10 lid 2 en 3",
+     "unit": "maanden"
+    },
+    {
+     "id": "s1-t6-r06",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "multi",
+     "q": "Wat klopt over de aansprakelijkheid van de vervoerder volgens KNV art. 12? Kies ALLE juiste.",
+     "opts": [
+      "Bij letsel of dood van de reiziger is de vergoeding wettelijk beperkt tot € 1.000.000 per reiziger",
+      "Voor verlies of schade aan handbagage geldt max € 1.500 per reiziger",
+      "Bij vertraging is de vervoerder aansprakelijk tot max € 1.000",
+      "De vervoerder is nooit aansprakelijk"
+     ],
+     "ok": [
+      0,
+      1,
+      2
+     ],
+     "why": "KNV 12: letsel/dood max € 1.000.000 per reiziger (€ 15 mln per gebeurtenis); handbagage max € 1.500; vertraging max € 1.000.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "De vervoerder is wel aansprakelijk, met grenzen."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 12"
+    },
+    {
+     "id": "s1-t6-r07",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 6.2",
+     "type": "multi",
+     "q": "Welke gedragscodes voor de telefoon noemt het CBR? Kies ALLE juiste.",
+     "opts": [
+      "Alleen zakelijk gebruik",
+      "Net taalgebruik",
+      "Kort en helder",
+      "Rekening houden met meeluisteren",
+      "Handsfree",
+      "Privé bellen mag als de passagier slaapt"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "CBR 6.2 noemt deze vijf.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Alleen zakelijk gebruik, ook als de passagier slaapt."
+     ],
+     "bron": "CBR exameneisen TVT 6.2"
+    },
+    {
+     "id": "s1-t6-r08",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.2",
+     "type": "mc",
+     "q": "Een passagier wil een grote hond meenemen die niet is aangelijnd en blaft. Het is geen hulphond. Wat mag je?",
+     "opts": [
+      "Je moet hem altijd meenemen",
+      "Honden mogen mee als ze kort aangelijnd zijn; is het dier hinderlijk, dan mag je weigeren",
+      "Honden mogen nooit mee"
+     ],
+     "ok": 1,
+     "why": "KNV 9.1: honden mogen mee, mits kort aangelijnd. 9.2: niet als het dier lastig of hinderlijk is. (Alleen hulphonden gaan altijd mee, 9.3.)",
+     "wrong": [
+      "Alleen hulphonden moeten altijd mee.",
+      "",
+      "Honden mogen wel, onder voorwaarden."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 9 lid 1 en 2"
+    },
+    {
+     "id": "s1-t6-r09",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 1.1",
+     "type": "multi",
+     "q": "Wat staat er volgens KNV art. 7 lid 5 in elk geval op het betalingsbewijs? Kies ALLE juiste.",
+     "opts": [
+      "Ritprijs en toegepaste tarieven",
+      "Gereden afstand",
+      "Naam, adres en vergunningnummer van het bedrijf",
+      "Kenteken",
+      "Datum en begin- en eindtijd",
+      "Naam en adres van de reiziger"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "KNV 7.5 (verwijst naar de Regeling maximumtarief en bekendmaking tarieven taxivervoer).",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Gegevens van de reiziger staan niet in de lijst."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 7 lid 5"
+    },
+    {
+     "id": "s1-t6-r10",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.4",
+     "type": "mc",
+     "q": "Contractvervoer: de opdrachtgever eist dat je een kind overdraagt aan een volwassene. Bij het adres doet niemand open. Wat doe je?",
+     "opts": [
+      "Het kind voor de deur laten wachten",
+      "Het kind niet alleen laten, de centrale/opdrachtgever bellen en volgens afspraak handelen",
+      "Het kind mee naar huis nemen"
+     ],
+     "ok": 1,
+     "why": "CBR 7.1/7.3/7.4: rekening houden met eisen en afspraken van de opdrachtgever (contractvervoer) en met de veiligheid van de passagier.",
+     "wrong": [
+      "Onveilig en in strijd met de afspraak.",
+      "",
+      "Niet zonder overleg; bel eerst de centrale/opdrachtgever."
+     ],
+     "bron": "CBR exameneisen TVT 7.1, 7.3 en 7.4"
+    },
+    {
+     "id": "s1-t6-r11",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "ET 7.3",
+     "type": "multi",
+     "q": "Een passagier in een rolstoel stapt in een rolstoeltaxi. Wat is juist? Kies ALLE juiste.",
+     "opts": [
+      "De rolstoel wordt stabiel vastgezet",
+      "De passagier gebruikt een veiligheidsgordel (van het voertuig of van het bevestigingssysteem)",
+      "Vastzetten hoeft niet bij korte ritten",
+      "Als chauffeur draag je zelf ook de gordel in een rolstoeltaxi"
+     ],
+     "ok": [
+      0,
+      1,
+      3
+     ],
+     "why": "RVV 59 lid 4: rolstoel stabiel vastzetten en een veiligheidsgordel gebruiken. RVV 59 lid 6: in een rolstoeltaxi geldt de vrijstelling voor de bestuurder niet.",
+     "wrong": [
+      "",
+      "",
+      "Altijd vastzetten.",
+      ""
+     ],
+     "bron": "RVV 1990 art. 59 lid 4 en 6 · CBR ET 7.3"
+    },
+    {
+     "id": "s1-t7-k01",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Een passagier scheldt en dreigt. Wat doe je?",
+     "opts": [
+      "De discussie aangaan tot hij stopt",
+      "Kalm en neutraal blijven, risico inschatten; bij gevaar op een veilige plek stoppen en hulp inroepen",
+      "Hard terugschreeuwen"
+     ],
+     "ok": 1,
+     "why": "CBR 8.3: conflicten herkennen, risico's inschatten, hulp inroepen, correcte communicatie.",
+     "wrong": [
+      "Discussie maakt het erger (CBR 6.1).",
+      "",
+      "Escaleert."
+     ],
+     "bron": "CBR exameneisen TVT 8.3",
+     "hint": "IJsblok: koel blijven.",
+     "simpel": "Boze passagier: wat doe je?",
+     "kern": [
+      "scheldt",
+      "dreigt"
+     ]
+    },
+    {
+     "id": "s1-t7-k02",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Een passagier wil klagen. Waar eerst?",
+     "opts": [
+      "Direct bij de Geschillencommissie",
+      "Bij de klachtenprocedure van het taxibedrijf",
+      "Bij de politie"
+     ],
+     "ok": 1,
+     "why": "CBR 10.1: eerst de klachtenprocedure van het taxibedrijf, daarna de Geschillencommissie Zorgvervoer en Taxi.",
+     "wrong": [
+      "Die komt pas daarna.",
+      "",
+      "Een klacht over de rit is geen politiezaak."
+     ],
+     "bron": "CBR exameneisen TVT 10.1",
+     "hint": "Eerste deur: het bedrijf.",
+     "simpel": "Klacht: waar eerst?",
+     "kern": [
+      "eerst"
+     ]
+    },
+    {
+     "id": "s1-t7-k03",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "De klacht wordt niet opgelost bij het bedrijf. Waar kan de passagier daarna heen?",
+     "opts": [
+      "Geschillencommissie Zorgvervoer en Taxi",
+      "Het CBR",
+      "De RDW"
+     ],
+     "ok": 0,
+     "why": "CBR 10.1: de Geschillencommissie Zorgvervoer en Taxi.",
+     "wrong": [
+      "",
+      "Het CBR doet examens.",
+      "De RDW gaat over voertuigen."
+     ],
+     "bron": "CBR exameneisen TVT 10.1",
+     "hint": "Tweede deur.",
+     "simpel": "Klacht niet opgelost, en dan?",
+     "kern": [
+      "daarna"
+     ]
+    },
+    {
+     "id": "s1-t7-k04",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "De situatie wordt echt gevaarlijk. Wat is de belangrijkste stap?",
+     "opts": [
+      "Doorrijden en hopen dat het stopt",
+      "Op een veilige plek stoppen en hulp inroepen (centrale, 112)",
+      "De passagier vastpakken"
+     ],
+     "ok": 1,
+     "why": "CBR 8.3: juiste inschatting van risico's en hulp inroepen.",
+     "wrong": [
+      "Te riskant.",
+      "",
+      "Fysiek ingrijpen vergroot het gevaar."
+     ],
+     "bron": "CBR exameneisen TVT 8.3",
+     "hint": "Gevaar = hulp halen.",
+     "simpel": "Het wordt gevaarlijk, wat doe je?",
+     "kern": [
+      "gevaarlijk"
+     ]
+    },
+    {
+     "id": "s1-t7-k05",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.1",
+     "type": "mc",
+     "q": "Welke horen bij goede communicatie met passagiers?",
+     "opts": [
+      "Aandacht geven, serieus nemen, goed luisteren, meedenken",
+      "Snel praten, niet luisteren",
+      "De passagier corrigeren"
+     ],
+     "ok": 0,
+     "why": "CBR 8.1: aandacht, serieus nemen, luisteren, meedenken, oplossingsgericht, professioneel en neutraal.",
+     "wrong": [
+      "",
+      "Het tegendeel.",
+      "Niet in de lijst."
+     ],
+     "bron": "CBR exameneisen TVT 8.1",
+     "hint": "Oor open.",
+     "simpel": "Hoe communiceer je goed?",
+     "kern": [
+      "goede communicatie"
+     ]
+    },
+    {
+     "id": "s1-t7-k06",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Met wie kunnen conflicten in het verkeer ontstaan?",
+     "opts": [
+      "Alleen met passagiers",
+      "Met passagiers én andere weggebruikers",
+      "Alleen met collega's"
+     ],
+     "ok": 1,
+     "why": "CBR 8.3: conflictsituaties tussen taxichauffeur en andere weggebruikers (en passagiers, ET 8).",
+     "wrong": [
+      "Ook andere weggebruikers.",
+      "",
+      "Te smal."
+     ],
+     "bron": "CBR exameneisen TVT 8.3",
+     "hint": "Ook buiten de auto.",
+     "simpel": "Met wie kun je ruzie krijgen?",
+     "kern": [
+      "conflicten"
+     ]
+    },
+    {
+     "id": "s1-t7-k07",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Wat helpt conflicten te VOORKOMEN?",
+     "opts": [
+      "Juiste beroepshouding en goede representatie",
+      "Altijd je gelijk halen",
+      "Geen contact maken met de passagier"
+     ],
+     "ok": 0,
+     "why": "CBR 8.3: juiste beroepshouding, goede representatie, correcte communicatie.",
+     "wrong": [
+      "",
+      "Escaleert.",
+      "Geen contact is onvriendelijk."
+     ],
+     "bron": "CBR exameneisen TVT 8.3",
+     "hint": "Houding + uitstraling.",
+     "simpel": "Hoe voorkom je ruzie?",
+     "kern": [
+      "VOORKOMEN"
+     ]
+    },
+    {
+     "id": "s1-t7-k08",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Wat doe je eerst als je een conflict ziet aankomen?",
+     "opts": [
+      "Risico's inschatten",
+      "Wegrennen",
+      "De passagier uitlachen"
+     ],
+     "ok": 0,
+     "why": "CBR 8.3: juiste inschatting en afweging van risico's.",
+     "wrong": [
+      "",
+      "Niet de eerste stap.",
+      "Escaleert."
+     ],
+     "bron": "CBR exameneisen TVT 8.3",
+     "hint": "Eerst inschatten.",
+     "simpel": "Eerste stap bij ruzie?",
+     "kern": [
+      "eerst"
+     ]
+    },
+    {
+     "id": "s1-t7-k09",
+     "tak": 7,
+     "niveau": "kruipen",
+     "et": "ET 8.1",
+     "type": "mc",
+     "q": "Welke houding hoort bij een taxichauffeur?",
+     "opts": [
+      "Professioneel en neutraal",
+      "Altijd grappig",
+      "Persoonlijk en emotioneel"
+     ],
+     "ok": 0,
+     "why": "CBR 8.1: een professionele en neutrale houding.",
+     "wrong": [
+      "",
+      "Niet altijd gepast.",
+      "Niet professioneel."
+     ],
+     "bron": "CBR exameneisen TVT 8.1",
+     "hint": "Neutraal = ijsblok.",
+     "simpel": "Welke houding?",
+     "kern": [
+      "houding"
+     ]
+    },
+    {
+     "id": "s1-t7-l01",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Wat moet een taxivervoerder doen met klachten?",
+     "opts": [
+      "Niets",
+      "Kenbaar maken op welke wijze klachten worden behandeld",
+      "Klachten doorsturen naar het CBR"
+     ],
+     "ok": 1,
+     "why": "Wp2000 78: de vervoerder maakt op een passende manier bekend hoe klachten worden behandeld.",
+     "wrong": [
+      "Er is een plicht.",
+      "",
+      "Het CBR behandelt geen klachten."
+     ],
+     "bron": "Wp2000 art. 78 lid 1"
+    },
+    {
+     "id": "s1-t7-l02",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Wat moet de taxivervoerder regelen voor geschillen over een vervoersovereenkomst?",
+     "opts": [
+      "Een geschillencommissie (al dan niet samen met andere vervoerders)",
+      "Een advocaat per klant",
+      "Niets"
+     ],
+     "ok": 0,
+     "why": "Wp2000 77: de vervoerder voorziet in het behandelen van geschillen door instelling van een geschillencommissie.",
+     "wrong": [
+      "",
+      "Niet de regel.",
+      "Er is een plicht."
+     ],
+     "bron": "Wp2000 art. 77 lid 1"
+    },
+    {
+     "id": "s1-t7-l03",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Neemt de Geschillencommissie een klacht in behandeling die nog niet bij de vervoerder is ingediend?",
+     "opts": [
+      "Ja, altijd",
+      "Nee, de klacht moet eerst aan de vervoerder zijn voorgelegd",
+      "Alleen als het over geld gaat"
+     ],
+     "ok": 1,
+     "why": "KNV 14.6: een geschil wordt alleen behandeld als de klacht eerst aan de vervoerder is voorgelegd.",
+     "wrong": [
+      "Eerst het bedrijf.",
+      "",
+      "Geen onderscheid."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 14 lid 6"
+    },
+    {
+     "id": "s1-t7-l04",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Hoe moet een klacht bij de vervoerder worden ingediend?",
+     "opts": [
+      "Volledig en duidelijk omschreven, binnen bekwame (redelijke) tijd",
+      "Alleen mondeling aan de chauffeur",
+      "Binnen 24 uur, anders vervalt hij"
+     ],
+     "ok": 0,
+     "why": "KNV 14.1: volledig en duidelijk, binnen bekwame tijd na het ontdekken van het gebrek.",
+     "wrong": [
+      "",
+      "Niet de regel.",
+      "Geen 24-uursregel."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 14 lid 1"
+    },
+    {
+     "id": "s1-t7-l05",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Een automobilist toetert en scheldt omdat jij een passagier laat uitstappen. Wat doe je?",
+     "opts": [
+      "Uitstappen en verhaal halen",
+      "Rustig blijven, niet reageren, veilig je werk afmaken",
+      "Terugtoeteren"
+     ],
+     "ok": 1,
+     "why": "CBR 8.3: omgaan met conflicten met andere weggebruikers: juiste beroepshouding en correcte communicatie.",
+     "wrong": [
+      "Escaleert.",
+      "",
+      "Toeteren alleen bij dreigend gevaar (RVV 28)."
+     ],
+     "bron": "CBR exameneisen TVT 8.3"
+    },
+    {
+     "id": "s1-t7-l06",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 8.1",
+     "type": "mc",
+     "q": "Een passagier is boos dat je 10 minuten te laat bent. Wat is de beste reactie?",
+     "opts": [
+      "'Dat is niet mijn schuld, er was file.'",
+      "Luisteren, excuses aanbieden, uitleggen en een oplossing aanbieden",
+      "Niets zeggen en wegrijden"
+     ],
+     "ok": 1,
+     "why": "CBR 8.1: aandacht geven, serieus nemen, luisteren, oplossingsgericht.",
+     "wrong": [
+      "Verdedigend; neemt de klacht niet serieus.",
+      "",
+      "Negeert de passagier."
+     ],
+     "bron": "CBR exameneisen TVT 8.1"
+    },
+    {
+     "id": "s1-t7-l07",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Bij aankomst weigert een passagier te betalen en wordt dreigend. Wat doe je?",
+     "opts": [
+      "Hem vasthouden tot hij betaalt",
+      "Geen fysieke confrontatie; veilig blijven, gegevens noteren en hulp inroepen (centrale/politie)",
+      "Met hem naar een pinautomaat rijden en daar ruzie maken"
+     ],
+     "ok": 1,
+     "why": "CBR 8.3: risico's inschatten en hulp inroepen. Je eigen veiligheid gaat voor geld.",
+     "wrong": [
+      "Gevaarlijk.",
+      "",
+      "Escaleert."
+     ],
+     "bron": "CBR exameneisen TVT 8.3"
+    },
+    {
+     "id": "s1-t7-l08",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Wat voor uitspraak doet de Geschillencommissie Zorgvervoer en Taxi?",
+     "opts": [
+      "Een vrijblijvend advies",
+      "Een bindend advies",
+      "Een strafvonnis"
+     ],
+     "ok": 1,
+     "why": "KNV 14.9: de beslissingen gebeuren bij wege van bindend advies.",
+     "wrong": [
+      "Het is bindend.",
+      "",
+      "Het is geen strafrechter."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 14 lid 9"
+    },
+    {
+     "id": "s1-t7-l09",
+     "tak": 7,
+     "niveau": "lopen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Kan een gemeente regels maken over klachten over straattaxi's?",
+     "opts": [
+      "Nee, nooit",
+      "Ja, over indiening en behandeling van klachten over taxivervoer op de gemeentelijke openbare weg",
+      "Alleen over de prijs"
+     ],
+     "ok": 1,
+     "why": "Wp2000 82a lid 1c: gemeentelijke regels over indienen en behandelen van klachten.",
+     "wrong": [
+      "Het kan wel.",
+      "",
+      "Prijs staat niet in 82a."
+     ],
+     "bron": "Wp2000 art. 82a lid 1c"
+    },
+    {
+     "id": "s1-t7-r01",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 10.1",
+     "type": "num",
+     "q": "De klacht bij de vervoerder leidt niet tot een oplossing. Binnen hoeveel maanden na het indienen van de klacht moet het geschil bij de Geschillencommissie zijn? Typ het getal.",
+     "ok": 12,
+     "why": "KNV 14.7: uiterlijk 12 maanden na de datum waarop de klacht bij de vervoerder is ingediend.",
+     "bron": "KNV Algemene Voorwaarden art. 14 lid 7",
+     "unit": "maanden"
+    },
+    {
+     "id": "s1-t7-r02",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 10.1",
+     "type": "order",
+     "q": "Zet de klachtroute in de goede volgorde.",
+     "opts": [
+      "Passagier dient de klacht volledig en duidelijk in bij de vervoerder",
+      "De vervoerder probeert de klacht serieus af te handelen",
+      "Geen oplossing: de vervoerder wijst op de Geschillencommissie",
+      "Passagier legt het geschil binnen 12 maanden voor",
+      "De Geschillencommissie doet een bindend advies"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "why": "KNV 14.1 → 14.2 → 14.3 → 14.7 → 14.9.",
+     "bron": "KNV Algemene Voorwaarden art. 14 · CBR ET 10.1"
+    },
+    {
+     "id": "s1-t7-r03",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 10.1",
+     "type": "mc",
+     "q": "Een bedrijf (zakelijke opdrachtgever) heeft een geschil met de vervoerder over een factuur. Kan het naar de Geschillencommissie Zorgvervoer en Taxi?",
+     "opts": [
+      "Ja, iedereen kan dat",
+      "Nee, de route is voor opdrachtgevers die NIET handelen in de uitoefening van een beroep of bedrijf",
+      "Alleen als het bedrijf lid is van KNV"
+     ],
+     "ok": 1,
+     "why": "KNV 14.5: geschillen met een opdrachtgever die niet handelt in de uitoefening van beroep of bedrijf (consumenten).",
+     "wrong": [
+      "Niet voor zakelijke opdrachtgevers.",
+      "",
+      "Lidmaatschap van het bedrijf-klant speelt geen rol."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 14 lid 5"
+    },
+    {
+     "id": "s1-t7-r04",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Een passagier veroorzaakt zoveel hinder dat je redelijkerwijs niet verder kunt rijden. Wat mag je, en hoe?",
+     "opts": [
+      "Direct op de snelweg laten uitstappen",
+      "De rit staken op een VEILIGE plek en de passagier laten uitstappen; de vervoerder hoeft geen schade te vergoeden",
+      "Doorrijden naar de bestemming, wat er ook gebeurt"
+     ],
+     "ok": 1,
+     "why": "KNV 4.1–4.2: de vervoerder mag de rit staken en de reiziger laten uitstappen, zonder schadevergoeding. CBR 8.3: risico's inschatten – kies een veilige plek.",
+     "wrong": [
+      "Onveilig; uitstappen op een autosnelweg is gevaarlijk.",
+      "",
+      "Dat hoeft niet bij zulke hinder."
+     ],
+     "bron": "KNV Algemene Voorwaarden art. 4 lid 1–2 · CBR ET 8.3"
+    },
+    {
+     "id": "s1-t7-r05",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 8.3",
+     "type": "multi",
+     "q": "Welke elementen noemt het CBR bij het voorkomen van conflicten en agressie? Kies ALLE juiste.",
+     "opts": [
+      "Juiste beroepshouding",
+      "Goede representatie",
+      "Herkennen van conflicten en agressie",
+      "Juiste inschatting van risico's",
+      "Hulp inroepen",
+      "Correcte communicatie",
+      "Harder rijden om de rit snel af te maken"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "why": "CBR 8.3 noemt deze zes elementen.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "Haast is juist een risico (CBR 4.1)."
+     ],
+     "bron": "CBR exameneisen TVT 8.3"
+    },
+    {
+     "id": "s1-t7-r06",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 8.1",
+     "type": "mc",
+     "q": "Na de rit zegt een passagier: 'Je bent omgereden, ik betaal niet.' Wat doe je?",
+     "opts": [
+      "Ruzie maken tot hij betaalt",
+      "Rustig de meterstand en de route uitleggen (snelste of voordeligste weg), geen discussie, en wijzen op de klachtenprocedure",
+      "Hem gratis laten gaan om van het gedoe af te zijn"
+     ],
+     "ok": 1,
+     "why": "KNV 7.2: gunstigste weg. CBR 6.1: geen discussie. CBR 10.1: klachtenprocedure van het bedrijf.",
+     "wrong": [
+      "Escaleert.",
+      "",
+      "Hij is de ritprijs verschuldigd (KNV 5.3)."
+     ],
+     "bron": "KNV art. 7 lid 2 · CBR ET 6.1 en 10.1"
+    },
+    {
+     "id": "s1-t7-r07",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 8.3",
+     "type": "mc",
+     "q": "Nacht, 02:30. Een passagier achterin wordt steeds agressiever. Wat is de beste aanpak?",
+     "opts": [
+      "Op een donkere, rustige plek stoppen en hem eruit zetten",
+      "Kalm blijven, discreet de centrale alarmeren en op een goed verlichte, drukke en veilige plek stoppen",
+      "Hard remmen om hem te laten schrikken"
+     ],
+     "ok": 1,
+     "why": "CBR 8.3: risico's inschatten en hulp inroepen. Kies een veilige plek met mensen en licht.",
+     "wrong": [
+      "Donker en rustig is riskant voor jou.",
+      "",
+      "Gevaarlijk voor iedereen."
+     ],
+     "bron": "CBR exameneisen TVT 8.3"
+    },
+    {
+     "id": "s1-t7-r08",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 7.3",
+     "type": "mc",
+     "q": "Een passagier met een andere culturele achtergrond spreekt slecht Nederlands en lijkt geïrriteerd. Wat doe je?",
+     "opts": [
+      "Harder en sneller praten",
+      "Rustig, duidelijk en eenvoudig communiceren, geduldig blijven en controleren of je elkaar begrijpt",
+      "Hem negeren tot het adres"
+     ],
+     "ok": 1,
+     "why": "CBR 7.3: rekening houden met culturele achtergrond en taal. CBR 8.1: aandacht, luisteren, meedenken.",
+     "wrong": [
+      "Harder praten helpt niet en lijkt boos.",
+      "",
+      "Negeren is geen goede communicatie."
+     ],
+     "bron": "CBR exameneisen TVT 7.3 en 8.1"
+    },
+    {
+     "id": "s1-t7-r09",
+     "tak": 7,
+     "niveau": "rennen",
+     "et": "ET 8.3",
+     "type": "multi",
+     "q": "Een passagier valt je lastig en wordt handtastelijk. Welke uitspraken kloppen? Kies ALLE juiste.",
+     "opts": [
+      "Agressie en handtastelijkheden zijn volgens de KNV-voorwaarden verboden voor de reiziger",
+      "Je schat het risico in en roept hulp in",
+      "Je slaat terug om jezelf te verdedigen, dat is altijd het beste",
+      "Je zoekt een veilige plek om te stoppen"
+     ],
+     "ok": [
+      0,
+      1,
+      3
+     ],
+     "why": "KNV 5.2e: de reiziger onthoudt zich van agressie en handtastelijkheden. CBR 8.3: risico inschatten, hulp inroepen.",
+     "wrong": [
+      "",
+      "",
+      "Escaleert; de-escaleren en hulp inroepen is de lijn uit CBR 8.3.",
+      ""
+     ],
+     "bron": "CBR ET 8.3 · KNV art. 5 lid 2e"
+    }
+   ]
+  }
+ ]
+}
