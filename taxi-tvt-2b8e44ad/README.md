@@ -36,3 +36,8 @@ Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app h
 - Controleer de JSON vóór je pusht: `python3 -m json.tool questions.json > /dev/null`.
 - Voeg `takken` of `examen` alleen toe als die ook echt veranderen.
 - Deze pagina staat bewust nergens gelinkt en heeft `noindex`.
+
+## Hoofdrekenen (set-reken-01)
+- Tab **🧮 Rekenen**: 50 ritprijssommen (Kruipen 15 · Lopen 20 · Rennen 15), timer 60 / 45 / 30 s per som, goed binnen ± € 0,01 (komma of punt mag). Foute sommen gaan in de gewone foutenbak.
+- Extra velden per som: `reken: true` (houdt de som uit gewone rondes en het TVT-examen), `kort` (rekentruc, getoond na antwoorden), `inputs` (invoer). `unit` is `€`, `km` of `min`.
+- Bron tarieven: Regeling maximumtarief taxivervoer art. 1a, tarieven 2026 (Stcrt. 2025, 41618). Bij nieuwe tarieven (1 jan) de sommen opnieuw genereren.
