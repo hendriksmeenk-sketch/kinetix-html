@@ -32,7 +32,7 @@ Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app h
 | `unit` | optioneel | eenheid bij `num`, bv. `"uur"` |
 
 ## Let op
-- Na het pushen geldt alleen `questions.json`. In `index.html` zit nog een kopie van set 1, die de app alleen gebruikt als het bestand niet geladen kan worden (offline of `file://`).
+- Na het pushen geldt alleen `questions.json`. In `index.html` zit een kopie van alle sets (embedded `#qdata`), die de app alleen gebruikt als het bestand niet geladen kan worden (offline of `file://`).
 - Controleer de JSON vóór je pusht: `python3 -m json.tool questions.json > /dev/null`.
 - Voeg `takken` of `examen` alleen toe als die ook echt veranderen.
 - Deze pagina staat bewust nergens gelinkt en heeft `noindex`.
@@ -41,3 +41,7 @@ Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app h
 - Tab **🧮 Rekenen**: 50 ritprijssommen (Kruipen 15 · Lopen 20 · Rennen 15), timer 60 / 45 / 30 s per som, goed binnen ± € 0,01 (komma of punt mag). Foute sommen gaan in de gewone foutenbak.
 - Extra velden per som: `reken: true` (houdt de som uit gewone rondes en het TVT-examen), `kort` (rekentruc, getoond na antwoorden), `inputs` (invoer). `unit` is `€`, `km` of `min`.
 - Bron tarieven: Regeling maximumtarief taxivervoer art. 1a, tarieven 2026 (Stcrt. 2025, 41618). Bij nieuwe tarieven (1 jan) de sommen opnieuw genereren.
+
+## Set 2 (set-02)
+- 168 vragen (Kruipen 63 · Lopen 51 · Rennen 54), gegenereerd door DeepSeek + Gemini, kruiselings gereviewd, strenge tweede audit met wetteksten, daarna handmatige feitencheck en dedupe tegen set-01 / set-reken-01.
+- Bron: `vragenfabriek.py` (`--audit-only`, `--export-set02-only`). Bij een nieuwe set: ook `#qdata` in `index.html` bijwerken.
