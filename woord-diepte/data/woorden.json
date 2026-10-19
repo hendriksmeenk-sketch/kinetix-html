@@ -497,12 +497,13 @@
     "宀",
     "字"
    ],
-   "status": "nieuw",
+   "status": "geleerd",
    "h1": false,
    "source": "woord_diepte",
    "card_id": "wd-字",
    "station": 0,
-   "nextLabel": "—"
+   "nextLabel": "10 min",
+   "geleerdAt": 1792394585840
   },
   {
    "hz": "学",
@@ -551,12 +552,13 @@
     "⺍ + 冖",
     "学"
    ],
-   "status": "nieuw",
+   "status": "geleerd",
    "h1": false,
    "source": "woord_diepte",
    "card_id": "wd-学",
    "station": 0,
-   "nextLabel": "—"
+   "nextLabel": "10 min",
+   "geleerdAt": 1792394585840
   },
   {
    "hz": "孩",
@@ -606,12 +608,13 @@
     "子 + 亠",
     "孩"
    ],
-   "status": "nieuw",
+   "status": "geleerd",
    "h1": false,
    "source": "woord_diepte",
    "card_id": "wd-孩",
    "station": 0,
-   "nextLabel": "—"
+   "nextLabel": "10 min",
+   "geleerdAt": 1792394585840
   },
   {
    "hz": "手机",
