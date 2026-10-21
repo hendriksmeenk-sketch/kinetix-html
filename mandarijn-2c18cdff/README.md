@@ -1,8 +1,8 @@
-# Mandarijn · Krijger (Chinees-LVS-stijl)
+# Mandarijn · leerling A (Chinees-LVS-stijl)
 
 Quiz-app voor Mandarijn op basis van Easy Steps to Chinese 1 (轻松学中文) + KINETIX-materiaal.
 Zelfde motor als de TVT-quiz (Kruipen/Lopen/Rennen, foutenbak +1/+3/+7/+14 dagen, proeftoets, Leren met 8 vormen, "bank op → nieuwe set"),
-in de layout van Chinees-LVS (donker, terracotta, Noto Serif SC, kaarten, zijbalk op desktop, onderbalk op mobiel). Leerlingkiezer: Krijger, Lotus, Tijger, Ster, Welp, Nyoman, Gast (eigen voortgang per leerling, alleen lokaal in de browser).
+in de layout van Chinees-LVS (donker, terracotta, Noto Serif SC, kaarten, zijbalk op desktop, onderbalk op mobiel). Leerlingkiezer: leerling A, leerling B, leerling C (eigen voortgang per leerling, alleen lokaal in de browser).
 
 ## Nieuwe set toevoegen
 Alleen `questions.json` aanpassen: voeg aan `"sets"` een object toe `{ "id": "set-02", "naam": "...", "datum": "JJJJ-MM-DD", "vragen": [ ... ] }`.
