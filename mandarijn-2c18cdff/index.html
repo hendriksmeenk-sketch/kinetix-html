@@ -103,12 +103,10 @@ details{background:var(--sf);border:1px solid var(--bd);border-radius:16px;paddi
 <script>
 "use strict";
 // ===== BEHEERST-WEBHOOK =====
-// TODO(Saidi): zet hier de URL van de routine-webhook die elke beheerst-regel toevoegt aan
-//   /workspace/kinetix/beheerst/beheerst.jsonl (box) en de Dialogue Coach seint.
 //   De quiz stuurt per beheerst woord één POST met JSON: {"woord","pinyin","nl","leerling","datum","checks":{...5x true},"bron":"mandarijn-quiz"}.
 //   Leeg laten ('') = er wordt NIETS verstuurd; dan staat bij Beheerst de knop "Kopieer beheerst-lijst" (JSON Lines om te plakken).
 const BEHEERST_WEBHOOK='';
-const DAY=864e5,GAPS=[1,3,7,14],LEARNERS=['Krijger','Lotus','Tijger','Ster','Welp','Nyoman','Gast'];
+const DAY=864e5,GAPS=[1,3,7,14],LEARNERS=['Krijger','Lotus','Tijger','Ster','Welp','Gast'];
 const LV={kruipen:{n:'Kruipen',e:'🐢',d:'Alle hulp: pinyin met tonen, plaatje, hint en uitleg. Geen timer.'},lopen:{n:'Lopen',e:'🚶',d:'De basis: tekens lezen en kiezen zonder pinyin, tonen kiezen, eerste en laatste streek, zinnen begrijpen.'},rennen:{n:'Rennen',e:'🏃',d:'Zwaarst: geen pinyin, lijkende woorden, toonsandhi (3+3, 不, 一), streekvolgorde, zinnen bouwen. Timer aan.'}};
 let WHO=localStorage.getItem('mandarijnLVS:who')||'Krijger';if(!LEARNERS.includes(WHO))WHO='Krijger';{const q=new URLSearchParams(location.search).get('wie');if(q&&LEARNERS.includes(q)){WHO=q;localStorage.setItem('mandarijnLVS:who',q)}}
 const LSK=()=>'mandarijnLVS:'+WHO;
