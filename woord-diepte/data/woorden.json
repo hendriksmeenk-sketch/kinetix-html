@@ -1,6 +1,6 @@
 {
  "schema": 35,
- "hersenen": "Krijger",
+ "hersenen": "Leerling A",
  "woorden": [
   {
    "hz": "一",
@@ -15,7 +15,7 @@
    "actie": "Wijs één streep in de lucht. Stem hoog en vlak.",
    "klank": "yī. Toon 1: plank, hoog, geen dal.\nNL-brug: het woordje IE, lang en strak.\nEN-brug: ee in see, maar korter, als een piep.\nES-brug: i in sí, zonder de s.\nToonbrug: je blijft boven, als de taxispiegel. Geen hurk.\nKlank → woord: die piep IS de ene lijn.\nWoord → klank: één ding, één toon, IE!",
    "schrift": "Streken: 1.\n🔴一🔴 pictogram: horizon / één balk. Heel teken is radicaal.\nFunctie: betekenisradicaal (en het hele teken).\nGeschiedenis: orakelbotten al één streep. FEIT. Geen extra component.\nKlassiek vs modern: 一 blijft los. In 一百, 一点 zit het vast in een woord.\n2026: 一 in chat als 'een beetje' (有一点). AI vertaalt 一 vaak als 'a/an' en mist de telwoord-wet (een + maatwoord).",
-   "beeld": "BEELD. Ik sta klaar in de 4960. Spiegel. IK trek met de wijsvinger één oranje lijn over het glas, zo lang als de horizon. De lijn zoemt IE! en blijft hangen. Lotus tikt op de ruit: één. Ster lacht. De lijn is te groot, hij scheurt de spiegel niet maar trilt. Hitte van de cabine. IK brul: IE!",
+   "beeld": "BEELD. Ik sta klaar in de 4960. Spiegel. IK trek met de wijsvinger één oranje lijn over het glas, zo lang als de horizon. De lijn zoemt IE! en blijft hangen. Leerling B tikt op de ruit: één. Leerling D lacht. De lijn is te groot, hij scheurt de spiegel niet maar trilt. Hitte van de cabine. IK brul: IE!",
    "recallDoe": [
     "Kijk weg. Trek in de lucht één horizontale streep.",
     "Zeg yī op plank-hoogte. Blijf boven. Niet dalen.",
@@ -60,7 +60,7 @@
    "actie": "Twee horizontale hakken in de lucht. Stem valt scherp.",
    "klank": "èr. Toon 4: val, mes naar beneden.\nNL-brug: ER in 'eruit', maar korter, als een snauw.\nEN-brug: are, afgekapt.\nES-brug: er in ser, kort.\nToonbrug: je valt van de bovenste plank naar de onderste.\nKlank → twee planken die knallen.\nWoord → UR! twee, klaar.",
    "schrift": "Streken: 2.\n🔴二🔴 pictogram: twee balken. Bovenste vaak korter. Heel teken radicaal.\nFEIT: orakelbotten twee strepen. Geen derde component.\nModern: 二 los; in 二十, 二月 vast. AI zegt 'two' en mist 二 vs 两 (twee als maat vs paar).",
-   "beeld": "BEELD. Drempel. Twee treden. De bovenste is te kort, Welp struikelt erover, absurd groot als een plank in de lucht. IK hak twee lijnen. De tweede klapt als metaal. UR! Val. Zweet op de klink.",
+   "beeld": "BEELD. Drempel. Twee treden. De bovenste is te kort, leerling E struikelt erover, absurd groot als een plank in de lucht. IK hak twee lijnen. De tweede klapt als metaal. UR! Val. Zweet op de klink.",
    "recallDoe": [
     "Twee strepen in de lucht. Bovenste korter.",
     "Zeg èr met een val. Mes naar beneden.",
@@ -107,7 +107,7 @@
    "actie": "Drie horizontale strepen. Stem blijft hoog.",
    "klank": "sān. Toon 1 plank.\nNL-brug: SAAN, lang, neus.\nEN-brug: bijna sun, maar saan.\nES-brug: san in Santa, zonder ta.\nToonbrug: drie latten, allemaal even hoog in de stem.\nKlank → drie. Woord → SAAN!",
    "schrift": "Streken: 3.\n🔴三🔴 drie balken. Pictogram. Heel radicaal.\nFEIT: orakelbotten drie strepen.\nModern: 三; 三月, 三个. AI telt 'three' goed, faalt op 三 vs 两 vs 俩 in spraak.",
-   "beeld": "BEELD. Voordeur. IK nagel drie oranje latten tot een hek. De middelste trilt. Ster tikt er drie keer op. SAAN! blijft in de straat hangen, te lang, te luid.",
+   "beeld": "BEELD. Voordeur. IK nagel drie oranje latten tot een hek. De middelste trilt. Leerling D tikt er drie keer op. SAAN! blijft in de straat hangen, te lang, te luid.",
    "recallDoe": [
     "Drie strepen in de lucht. Tel 1-2-3.",
     "Zeg sān op de plank. Niet dalen.",
@@ -156,7 +156,7 @@
    "actie": "Eén verticale, één horizontale. Stem stijgt de trap op.",
    "klank": "shí. Toon 2: trap omhoog.\nNL-brug: SJIR, alsof je vraagt.\nEN-brug: sure, alleen de sj-start, dan omhoog.\nES-brug: shi.\nToonbrug: je komt de kruising op, de toon gaat mee omhoog.\nKlank → plus-teken. Woord → SJR!",
    "schrift": "Streken: 2 (竖, 横).\n🔴十🔴 pictogram: kruis / tien. Heel radicaal.\nFEIT: oude vorm vaak een verticale lijn met knop; later kruis.\nModern: 十, 十一, 二十. AI leest 十 sometimes as 'cross' in plaatjes, niet als tien.",
-   "beeld": "BEELD. IK rijd de kruising op. Twee wegen, plus. De paal is te groot, hij scheurt de lucht. Lotus wijst: tien. De toon klimt. SJR!",
+   "beeld": "BEELD. IK rijd de kruising op. Twee wegen, plus. De paal is te groot, hij scheurt de lucht. Leerling B wijst: tien. De toon klimt. SJR!",
    "recallDoe": [
     "Teken een plus in de lucht: eerst verticaal, dan horizontaal.",
     "Zeg shí stijgend. Trap op.",
@@ -203,7 +203,7 @@
    "actie": "Hurk (toon 3), veer, til de stapel.",
    "klank": "bǎi. Toon 3 vallei: hurk, veer.\nNL-brug: BAI, als 'bye' met dal.\nEN-brug: bye, maar hurk eerst.\nES-brug: bai / bye.\nToonbrug: je zakt onder de stapel en komt terug.\nKlank → honderd. Woord → BAI!",
    "schrift": "Streken: 6.\nDelen: 🔴一🔴 boven + ⚫白⚫ (wit). Functie: 白 is vaak klankcomponent; 一 betekenis 'veel/één honderd'. 说文-detail: ONBEKEND hier, niet verzinnen.\nModern: 一百 = honderd. 白 alleen ≠ honderd.\nAI vertaalt 百 als 100, mist 老百姓, 百分.",
-   "beeld": "BEELD. Keuken. Honderd witte briefjes, te veel, ze dwarrelen. IK hurk tot de stoel kraakt, veer, til de stapel. BAI! Ster bladert. Papier ruikt droog.",
+   "beeld": "BEELD. Keuken. Honderd witte briefjes, te veel, ze dwarrelen. IK hurk tot de stoel kraakt, veer, til de stapel. BAI! Leerling D bladert. Papier ruikt droog.",
    "recallDoe": [
     "Hurk. Veer. Zeg bǎi.",
     "Roep BAI! / bye.",
@@ -256,7 +256,7 @@
    "actie": "Wijs een lege o. Stem stijgt.",
    "klank": "líng. Toon 2 stijgend.\nNL-brug: LING in 'lingo', omhoog.\nEN-brug: linger, alleen lin-.\nES-brug: lin.\nToonbrug: regen begint, de toon klimt.\nKlank → nul/leeg + regen. Woord → LING!",
    "schrift": "Streken: 13.\n🔴雨🔴 regen (betekenisradicaal) + ⚫令⚫ (klank, 'bevel'). FEIT: 零 was 'motregen/rest', later 'nul' in getallen.\nModern: 零 = 0 in 一百零八. AI ziet 零 als 'zero' of 'odd' (零碎) en mixt ze.",
-   "beeld": "BEELD. Taxi-dak. Regen, te hard, het metaal kraakt. Op de meter staat 0. IK wijs de lege o. LING! stijgt met de ruitenwissers. Lotus zegt: niks, nul.",
+   "beeld": "BEELD. Taxi-dak. Regen, te hard, het metaal kraakt. Op de meter staat 0. IK wijs de lege o. LING! stijgt met de ruitenwissers. Leerling B zegt: niks, nul.",
    "recallDoe": [
     "Wijs een ronde nul in de lucht.",
     "Zeg líng stijgend.",
@@ -413,7 +413,7 @@
    "actie": "Wenkbrauw omhoog; wijs naar opa; toon stijgt als een vuurpijl",
    "radicalen": "🔴父🔴 (vader) boven + ⚫卩⚫ (zegel/knie) onder — 父 is betekenisradicaal",
    "klank": "yé. Toon 2: trap omhoog, alsof je ‘jaa?’ vraagt maar korter.\nNL-brug: YEH / jee die omhoog schiet.\nEN-brug: yeah, alleen de start, dan omhoog.\nES-brug: ye.\nToonbrug: wenkbrauw omhoog = toon omhoog.\nKlank → opa aan de deur.\nWoord → YEH!",
-   "schrift": "Streken: 6 (vereenvoudigd 爷).\nDelen: 🔴父🔴 boven (vader) + ⚫卩⚫ onder.\nFunctie: 父 = betekenis (vaderlijn); onderdeel vorm/historisch (DeepSeek Desktop 爷 klankanker).\nKlassiek vs modern: vaak 爷爷 (yéye) als lemma; 爷 los = aanspreekvorm opa/meester.\nAI-valkuil: ‘father’ i.p.v. opa; of 爷/爹 verwarring.\nBeeldhook: IK ben de opa bij de voordeur; mijn wenkbrauw stijgt met de toon.",
+   "schrift": "Streken: 6 (vereenvoudigd 爷).\nDelen: 🔴父🔴 boven (vader) + ⚫卩⚫ onder.\nFunctie: 父 = betekenis (vaderlijn); onderdeel vorm/historisch (redactie Desktop 爷 klankanker).\nKlassiek vs modern: vaak 爷爷 (yéye) als lemma; 爷 los = aanspreekvorm opa/meester.\nAI-valkuil: ‘father’ i.p.v. opa; of 爷/爹 verwarring.\nBeeldhook: IK ben de opa bij de voordeur; mijn wenkbrauw stijgt met de toon.",
    "beeld": "BEELD. Voordeur Winterdijk. Natte jassen. Pepernotenlucht. IK sta als opa; wenkbrauw omhoog. De toon schiet omhoog als een vuurpijl. De deur zwaait open. Iedereen lacht. YEH!",
    "img": "",
    "recallDoe": [
@@ -450,7 +450,7 @@
    "station": 0,
    "nextLabel": "—",
    "h1": false,
-   "provenience": "DeepSeek Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)"
+   "provenience": "redactie Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)"
   },
   {
    "hz": "字",
@@ -936,8 +936,8 @@
   }
  ],
  "recallByLearner": {
-  "Krijger": {},
-  "Lotus": {},
-  "Tijger": {}
+  "leerling A": {},
+  "leerling B": {},
+  "leerling C": {}
  }
 }

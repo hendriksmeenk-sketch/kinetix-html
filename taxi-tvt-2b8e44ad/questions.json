@@ -1,5 +1,5 @@
 {
- "schema": "tvt-krijger/1",
+ "schema": "tvt-quiz/1",
  "bijgewerkt": "2026-10-18",
  "examen": {
   "vragen": 40,
@@ -27,7 +27,7 @@
     "nr": 1,
     "plek": "De auto 's ochtends (rijklaarcontrole)",
     "zin": "klep open, papieren vliegen",
-    "beeld": "Krijger opent het dashboardkastje en er vliegt een zwerm papieren uit als duiven: kentekenbewijs, APK-rapport, het blauwe schadeformulier, de groene kaart. De taxameter knipoogt met een keurstempel op zijn voorhoofd. De BCT piept: 'KAART ERIN!' Krijger steekt zijn EIGEN kaart erin – nooit die van een ander.",
+    "beeld": "Leerling A opent het dashboardkastje en er vliegt een zwerm papieren uit als duiven: kentekenbewijs, APK-rapport, het blauwe schadeformulier, de groene kaart. De taxameter knipoogt met een keurstempel op zijn voorhoofd. De BCT piept: 'KAART ERIN!' leerling A steekt zijn EIGEN kaart erin – nooit die van een ander.",
     "kern": "papieren · eigen kaart · BCT/CDT"
    },
    "cheat": [
@@ -338,7 +338,7 @@
     "nr": 5,
     "plek": "De vluchtstrook",
     "zin": "PAN met een M en een A",
-    "beeld": "Op de vluchtstrook staat een reusachtige koekenpan met P-A-M-A-N erin gegraveerd. Krijger trekt eerst zijn hesje aan (P), brengt de passagier achter de vangrail (A), zet markering (M), belt 112 (A) en helpt pas dan (N). Op de hectometerpaal knippert het getal: dat noem je bij de melding.",
+    "beeld": "Op de vluchtstrook staat een reusachtige koekenpan met P-A-M-A-N erin gegraveerd. Leerling A trekt eerst zijn hesje aan (P), brengt de passagier achter de vangrail (A), zet markering (M), belt 112 (A) en helpt pas dan (N). Op de hectometerpaal knippert het getal: dat noem je bij de melding.",
     "kern": "PAMAN · wegnummer + hmp + rijrichting"
    },
    "cheat": [
@@ -413,7 +413,7 @@
     "nr": 6,
     "plek": "Instappen bij het hotel",
     "zin": "stoepkant, U, handsfree",
-    "beeld": "De passagier stapt in aan de stoepkant. Krijger zegt 'Goedemorgen meneer' en noemt eerst prijs en tijd. Zijn telefoon zweeft handsfree aan de ruit als een vlinder die alleen zakelijk fluistert. Een blindengeleidehond springt vrolijk mee: hulphonden gaan ALTIJD mee.",
+    "beeld": "De passagier stapt in aan de stoepkant. Leerling A zegt 'Goedemorgen meneer' en noemt eerst prijs en tijd. Zijn telefoon zweeft handsfree aan de ruit als een vlinder die alleen zakelijk fluistert. Een blindengeleidehond springt vrolijk mee: hulphonden gaan ALTIJD mee.",
     "kern": "kosten + tijd · geen discussie · handsfree · hulphond altijd"
    },
    "cheat": [
@@ -489,7 +489,7 @@
     "nr": 7,
     "plek": "Aankomst: de boze passagier",
     "zin": "kalm als ijs, eerst het bedrijf",
-    "beeld": "Een passagier blaast zich op als een ballon en scheldt. Krijger blijft koel als een ijsblok: luistert, blijft neutraal, schat het risico in. Wordt het gevaarlijk? Stoppen op een verlichte, veilige plek en hulp roepen. De ballon wil klagen: Krijger wijst naar twee deuren – eerst het taxibedrijf, dan de Geschillencommissie (binnen 12 maanden).",
+    "beeld": "Een passagier blaast zich op als een ballon en scheldt. Leerling A blijft koel als een ijsblok: luistert, blijft neutraal, schat het risico in. Wordt het gevaarlijk? Stoppen op een verlichte, veilige plek en hulp roepen. De ballon wil klagen: leerling A wijst naar twee deuren – eerst het taxibedrijf, dan de Geschillencommissie (binnen 12 maanden).",
     "kern": "luisteren · neutraal · risico · hulp · bedrijf → Geschillencommissie"
    },
    "cheat": [
@@ -681,7 +681,7 @@
      "wrong": [
       "Bestaat niet.",
       "",
-      "Bestaat niet. (Ook niet 'Custom Dedicated Transport', dat was een Gemini-fout.)"
+      "Bestaat niet. (Ook niet 'Custom Dedicated Transport', dat was een eerdere fout.)"
      ],
      "bron": "Bp2000 art. 1 · CBR ET 1.3",
      "hint": "Het is een database.",
@@ -2121,7 +2121,7 @@
      "niveau": "rennen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger kreeg op zijn 23e, in maart 2023, zijn eerste rijbewijs. Zaterdag 17 okt 2026, 23:15, blaast hij 150 µg/l. Wat klopt?",
+     "q": "Leerling A kreeg op zijn 23e, in maart 2023, zijn eerste rijbewijs. Zaterdag 17 okt 2026, 23:15, blaast hij 150 µg/l. Wat klopt?",
      "opts": [
       "In orde: onder de 220 µg/l",
       "Overtreding: hij is nog geen 5 jaar bestuurder, dus geldt 88 µg/l",
@@ -2142,7 +2142,7 @@
      "niveau": "rennen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger rijdt 132 km/u op een weg waar 80 geldt en wordt staande gehouden. Wat kan de politie?",
+     "q": "Leerling A rijdt 132 km/u op een weg waar 80 geldt en wordt staande gehouden. Wat kan de politie?",
      "opts": [
       "Alleen een boete geven",
       "Zijn rijbewijs invorderen (50 km/u of meer te hard)",
@@ -2199,7 +2199,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt schoolkinderen voor de gemeente, met een schriftelijk contract met vaste tarieven voor het hele jaar. Moet hij zelf de gordel dragen?",
+     "q": "Leerling A rijdt schoolkinderen voor de gemeente, met een schriftelijk contract met vaste tarieven voor het hele jaar. Moet hij zelf de gordel dragen?",
      "opts": [
       "Nee, taxichauffeurs zijn tijdens betaald vervoer altijd vrijgesteld",
       "Ja, bij zo'n contract (Wp2000 81 lid 2) geldt de vrijstelling voor de bestuurder niet",
@@ -2796,7 +2796,7 @@
      "why": "ATB-V 2.5:4 lid 3 (taxivervoer): 52 per 16 weken en 140 per 52 weken, of 38 uur tussen 00.00–06.00 per 2 weken.",
      "wrong": [
       "",
-      "Dat was een Gemini-fout.",
+      "Dat was een eerdere fout.",
       "Dat is de regel voor ander vervoer dan taxi (lid 2)."
      ],
      "bron": "ATB-V art. 2.5:4 lid 3"
@@ -2954,7 +2954,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Cao. In de laatste 14 dagen had Krijger op maandag en woensdag al maar 8 uur rust. Vrijdag stopt hij om 23:30, zaterdag begint hij om 07:30. Mag dat?",
+     "q": "Cao. In de laatste 14 dagen had leerling A op maandag en woensdag al maar 8 uur rust. Vrijdag stopt hij om 23:30, zaterdag begint hij om 07:30. Mag dat?",
      "opts": [
       "Ja, 8 uur is genoeg",
       "Nee, dat zou de derde inkorting tot 8 uur in 14×24 uur zijn",
@@ -3017,7 +3017,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Cao. Krijger werkt 8 uur en neemt twee keer 10 minuten rust. Voldoet hij aan de pauzeregel?",
+     "q": "Cao. Leerling A werkt 8 uur en neemt twee keer 10 minuten rust. Voldoet hij aan de pauzeregel?",
      "opts": [
       "Ja, samen is het 20 minuten",
       "Nee, een pauze is minstens 15 minuten aan één stuk",
@@ -3112,7 +3112,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "De cao wijkt af van de 13 vrije zondagen. Krijger zou op 42 zondagen per 52 weken werken. Wat is nodig?",
+     "q": "De cao wijkt af van de 13 vrije zondagen. Leerling A zou op 42 zondagen per 52 weken werken. Wat is nodig?",
      "opts": [
       "Niets, de cao regelt het",
       "Zijn instemming (bij 40 of meer zondagen)",
@@ -3133,7 +3133,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Volledige cao. In 26 weken werkt Krijger 13 weken 60 uur en 13 weken 36 uur. Mag dat volgens het ATB-V?",
+     "q": "Volledige cao. In 26 weken werkt leerling A 13 weken 60 uur en 13 weken 36 uur. Mag dat volgens het ATB-V?",
      "opts": [
       "Ja: gemiddeld precies 48 uur per week over 26 weken",
       "Nee: 60 uur in een week is meer dan 48",
@@ -3178,12 +3178,12 @@
      "niveau": "rennen",
      "et": "ET 2.7",
      "type": "multi",
-     "q": "Krijger werkt bij A (ma–vr) en B (za). Welke uitspraken kloppen? Kies ALLE juiste.",
+     "q": "Leerling A werkt bij A (ma–vr) en B (za). Welke uitspraken kloppen? Kies ALLE juiste.",
      "opts": [
-      "Krijger geeft uit eigen beweging tijdig zijn uren door aan A én B",
+      "leerling A geeft uit eigen beweging tijdig zijn uren door aan A én B",
       "Iedere werkgever organiseert het werk zo dat er geen strijd met de wet ontstaat",
       "Alleen werkgever A is verantwoordelijk, want daar werkt hij het meest",
-      "Krijger hoeft niets te melden als B een ander bedrijf is"
+      "leerling A hoeft niets te melden als B een ander bedrijf is"
      ],
      "ok": [
       0,
@@ -4785,7 +4785,7 @@
      "niveau": "rennen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger reed na een aanrijding met schade in paniek door. Om 23:00 gebeurde het. Tot welk tijdstip kan hij zich vrijwillig melden zodat vervolging voor doorrijden is uitgesloten?",
+     "q": "Leerling A reed na een aanrijding met schade in paniek door. Om 23:00 gebeurde het. Tot welk tijdstip kan hij zich vrijwillig melden zodat vervolging voor doorrijden is uitgesloten?",
      "opts": [
       "Volgende dag 11:00 (binnen 12 uur, vóór aanhouding/verhoor)",
       "Volgende dag 23:00 (24 uur)",
@@ -7158,7 +7158,7 @@
   },
   {
    "id": "set-02",
-   "naam": "Set 2 – multi-AI vraagbank (DeepSeek + Gemini, kruisgecontroleerd + feitencheck)",
+   "naam": "Set 2 – vraagbank (kruisgecontroleerd + feitencheck)",
    "datum": "2026-10-18",
    "vragen": [
     {
@@ -7167,7 +7167,7 @@
      "niveau": "kruipen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Tijdens de rit valt de BCT uit en start niet meer op. Wat moet Krijger doen?",
+     "q": "Tijdens de rit valt de BCT uit en start niet meer op. Wat moet leerling A doen?",
      "opts": [
       "Niets registreren, want het is overmacht.",
       "Handmatig en deugdelijk ritten, arbeids- en rusttijden registreren tot de BCT gerepareerd is; reparatie bij een erkend inbouwstation.",
@@ -7183,8 +7183,8 @@
       "Alleen de centrale bellen is niet genoeg; hij moet zelf ritten en tijden registreren."
      ],
      "bron": "CBR ET 1 / ILT",
-     "hint": "De BCT is stuk, maar Krijger moet zijn ritten en tijden tóch vastleggen.",
-     "simpel": "De BCT gaat kapot tijdens de rit en start niet meer. Wat moet Krijger doen?",
+     "hint": "De BCT is stuk, maar leerling A moet zijn ritten en tijden tóch vastleggen.",
+     "simpel": "De BCT gaat kapot tijdens de rit en start niet meer. Wat moet leerling A doen?",
      "kern": [
       "BCT",
       "valt uit",
@@ -7197,7 +7197,7 @@
      "niveau": "kruipen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Hoe vaak moet Krijger zijn eigen chauffeurskaart minstens downloaden?",
+     "q": "Hoe vaak moet leerling A zijn eigen chauffeurskaart minstens downloaden?",
      "opts": [
       "Elke dag",
       "Elke week",
@@ -7214,7 +7214,7 @@
      ],
      "bron": "ILT BCT/CDT",
      "hint": "Het getal in de ezelsbrug is vijf weken.",
-     "simpel": "Hoe vaak moet Krijger de gegevens van zijn chauffeurskaart downloaden? Kies het goede antwoord.",
+     "simpel": "Hoe vaak moet leerling A de gegevens van zijn chauffeurskaart downloaden? Kies het goede antwoord.",
      "kern": [
       "chauffeurskaart",
       "downloaden",
@@ -7227,7 +7227,7 @@
      "niveau": "kruipen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Krijger heeft zijn eigen chauffeurskaart in de BCT gestoken. Mag hij bij een storing de chauffeurskaart van een collega gebruiken?",
+     "q": "Leerling A heeft zijn eigen chauffeurskaart in de BCT gestoken. Mag hij bij een storing de chauffeurskaart van een collega gebruiken?",
      "opts": [
       "Ja, als de collega toestemming geeft.",
       "Ja, maar alleen bij een storing.",
@@ -7243,8 +7243,8 @@
       "Alleen buiten de dienst klopt niet; hij moet altijd zijn eigen kaart gebruiken."
      ],
      "bron": "CBR ET 1 / ILT",
-     "hint": "De BCT/CDT herkent wie er rijdt; dat moet altijd Krijger zelf zijn.",
-     "simpel": "Krijger gebruikt zijn eigen chauffeurskaart. Mag hij bij een storing de kaart van een collega gebruiken?",
+     "hint": "De BCT/CDT herkent wie er rijdt; dat moet altijd leerling A zelf zijn.",
+     "simpel": "Leerling A gebruikt zijn eigen chauffeurskaart. Mag hij bij een storing de kaart van een collega gebruiken?",
      "kern": [
       "BCT",
       "chauffeurskaart",
@@ -7259,10 +7259,10 @@
      "type": "mc",
      "q": "Wat geldt voor het gebruik van BCT en CDT op één werkdag?",
      "opts": [
-      "Krijger mag BCT en CDT tegelijk gebruiken.",
-      "Krijger kiest per dag óf BCT óf CDT, niet beide tegelijk.",
-      "Krijger hoeft niets te registreren.",
-      "Krijger mag alleen papieren lijsten gebruiken."
+      "leerling A mag BCT en CDT tegelijk gebruiken.",
+      "leerling A kiest per dag óf BCT óf CDT, niet beide tegelijk.",
+      "leerling A hoeft niets te registreren.",
+      "leerling A mag alleen papieren lijsten gebruiken."
      ],
      "ok": 1,
      "why": "Per dag wordt óf BCT óf CDT gebruikt, niet beide tegelijk. Vanaf 1 januari 2028 is alleen CDT nog toegestaan. Papieren lijsten zijn alleen een noodoplossing bij storing.",
@@ -7274,7 +7274,7 @@
      ],
      "bron": "CBR ET 1 / ILT",
      "hint": "Eén systeem per dag; na 2028 blijft er maar één over.",
-     "simpel": "Mag Krijger op één werkdag BCT en CDT allebei gebruiken?",
+     "simpel": "Mag leerling A op één werkdag BCT en CDT allebei gebruiken?",
      "kern": [
       "BCT",
       "CDT",
@@ -7317,7 +7317,7 @@
      "niveau": "kruipen",
      "et": "ET 1.1",
      "type": "mc",
-     "q": "Een passagier stapt in bij Krijger op de standplaats. De klant wil vóór de rit weten wat de maximale tarieven zijn. Welk document of middel in de taxi toont dit aan de klant?",
+     "q": "Een passagier stapt in bij leerling A op de standplaats. De klant wil vóór de rit weten wat de maximale tarieven zijn. Welk document of middel in de taxi toont dit aan de klant?",
      "opts": [
       "De taxi-informatiekaart (tariefkaart), die van binnen en buiten goed leesbaar is.",
       "Het APK-keuringsrapport in het dashboardkastje.",
@@ -7347,7 +7347,7 @@
      "niveau": "kruipen",
      "et": "ET 1.1",
      "type": "mc",
-     "q": "Krijger rijdt in een straattaxi met een taxameter. Hoe wordt aangetoond dat de taxameter goedgekeurd is en juist is geijkt?",
+     "q": "Leerling A rijdt in een straattaxi met een taxameter. Hoe wordt aangetoond dat de taxameter goedgekeurd is en juist is geijkt?",
      "opts": [
       "Door een geldige APK-sticker op de voorruit.",
       "Door een keuringsbewijs (of geldig merkteken/stempel) bij de taxameter.",
@@ -7364,7 +7364,7 @@
      ],
      "bron": "CBR ET 1 / Metrologiewet",
      "hint": "De taxameter heeft zijn eigen specifieke keuringsbewijs of keurstempel.",
-     "simpel": "Krijger rijdt in een taxi. Hoe bewijs je dat de taxameter is goedgekeurd en goed is ingesteld?",
+     "simpel": "Leerling A rijdt in een taxi. Hoe bewijs je dat de taxameter is goedgekeurd en goed is ingesteld?",
      "kern": [
       "taxameter",
       "goedgekeurd",
@@ -7377,7 +7377,7 @@
      "niveau": "lopen",
      "et": "ET 1.2",
      "type": "mc",
-     "q": "Tijdens de rijklaarcontrole legt Krijger zijn documenten klaar. Welk document hoort bij Krijger zelf en niet bij de taxi?",
+     "q": "Tijdens de rijklaarcontrole legt leerling A zijn documenten klaar. Welk document hoort bij leerling A zelf en niet bij de taxi?",
      "opts": [
       "kentekenbewijs",
       "APK-rapport",
@@ -7385,7 +7385,7 @@
       "chauffeurskaart"
      ],
      "ok": 3,
-     "why": "Krijger moet zijn rijbewijs B, identiteitsbewijs en chauffeurskaart bij zich hebben. Kentekenbewijs, APK-rapport en groene kaart horen bij het voertuig. Daarom is de chauffeurskaart het enige persoonlijke document in dit rijtje.",
+     "why": "Leerling A moet zijn rijbewijs B, identiteitsbewijs en chauffeurskaart bij zich hebben. Kentekenbewijs, APK-rapport en groene kaart horen bij het voertuig. Daarom is de chauffeurskaart het enige persoonlijke document in dit rijtje.",
      "wrong": [
       "Het kentekenbewijs hoort bij het voertuig, niet bij de chauffeur.",
       "Het APK-rapport hoort bij het voertuig, niet bij de chauffeur.",
@@ -7400,20 +7400,20 @@
      "niveau": "lopen",
      "et": "ET 1.2",
      "type": "mc",
-     "q": "Krijger pakt de chauffeurskaart van een collega en rijdt daarmee. Wat is het gevolg?",
+     "q": "Leerling A pakt de chauffeurskaart van een collega en rijdt daarmee. Wat is het gevolg?",
      "opts": [
       "Er gebeurt niets, zolang er maar een kaart in de computer zit",
       "De kaart van de collega wordt automatisch geblokkeerd",
-      "De registratie is onjuist en Krijger riskeert een maatregel",
+      "De registratie is onjuist en leerling A riskeert een maatregel",
       "De werkgever krijgt alleen een waarschuwing"
      ],
      "ok": 2,
-     "why": "Rijden met de kaart van een collega zorgt voor een onjuiste registratie. Krijger riskeert daardoor een maatregel. Hij mag nooit andermans kaart gebruiken.",
+     "why": "Rijden met de kaart van een collega zorgt voor een onjuiste registratie. Leerling A riskeert daardoor een maatregel. Hij mag nooit andermans kaart gebruiken.",
      "wrong": [
       "Er gebeurt wel iets: de registratie is onjuist.",
       "De kaart wordt niet automatisch geblokkeerd; de registratie is fout.",
       "",
-      "Het kan meer zijn dan een waarschuwing; Krijger riskeert een maatregel."
+      "Het kan meer zijn dan een waarschuwing; leerling A riskeert een maatregel."
      ],
      "bron": "CBR ET 1"
     },
@@ -7423,7 +7423,7 @@
      "niveau": "lopen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Krijger gebruikt dagelijks zijn eigen chauffeurskaart in de taxi. Om de hoeveel tijd moet de chauffeurskaart wettelijk uiterlijk worden uitgelezen (gedownload)?",
+     "q": "Leerling A gebruikt dagelijks zijn eigen chauffeurskaart in de taxi. Om de hoeveel tijd moet de chauffeurskaart wettelijk uiterlijk worden uitgelezen (gedownload)?",
      "opts": [
       "Minimaal elke week.",
       "Minimaal elke 2 weken.",
@@ -7446,7 +7446,7 @@
      "niveau": "lopen",
      "et": "ET 1.1",
      "type": "mc",
-     "q": "Krijger controleert voor de rit de taxi-informatiekaart (tariefkaart). Waar moet deze kaart aanwezig zijn en hoe moet deze zichtbaar zijn?",
+     "q": "Leerling A controleert voor de rit de taxi-informatiekaart (tariefkaart). Waar moet deze kaart aanwezig zijn en hoe moet deze zichtbaar zijn?",
      "opts": [
       "Zowel van binnen als van buiten de taxi duidelijk leesbaar voor de reiziger.",
       "In het dashboardkastje, zodat de chauffeur deze op verzoek van de passagier kan pakken.",
@@ -7469,7 +7469,7 @@
      "niveau": "rennen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Het is dinsdag 3 november 2026, 06:50. Krijger start zijn dienst. In de taxi zitten een BCT en een CDT. Wat moet hij doen?",
+     "q": "Het is dinsdag 3 november 2026, 06:50. Leerling A start zijn dienst. In de taxi zitten een BCT en een CDT. Wat moet hij doen?",
      "opts": [
       "Beide systemen tegelijk gebruiken.",
       "Alleen de BCT gebruiken, want CDT is pas in 2028 verplicht.",
@@ -7477,7 +7477,7 @@
       "Eén systeem per week gebruiken, dan is het goed."
      ],
      "ok": 2,
-     "why": "Vóór 1 januari 2028 mag Krijger per dag kiezen tussen BCT of CDT; hij mag ze niet tegelijk gebruiken. Eén systeem per week is niet correct, want de keuze is per dag. Bron: vaste feiten BCT/CDT.",
+     "why": "Vóór 1 januari 2028 mag leerling A per dag kiezen tussen BCT of CDT; hij mag ze niet tegelijk gebruiken. Eén systeem per week is niet correct, want de keuze is per dag. Bron: vaste feiten BCT/CDT.",
      "wrong": [
       "Hij mag ze niet tegelijk gebruiken.",
       "Alleen de BCT gebruiken is niet verplicht; hij mag ook de CDT kiezen.",
@@ -7492,7 +7492,7 @@
      "niveau": "rennen",
      "et": "ET 1.1",
      "type": "mc",
-     "q": "Vrijdag 13 november 2026, 16:45. Krijger pakt de groene kaart uit het dashboardkastje. Wat is de groene kaart?",
+     "q": "Vrijdag 13 november 2026, 16:45. Leerling A pakt de groene kaart uit het dashboardkastje. Wat is de groene kaart?",
      "opts": [
       "De milieusticker",
       "Het kentekenbewijs",
@@ -7515,12 +7515,12 @@
      "niveau": "rennen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Dinsdagmiddag om 14:10 valt de Boordcomputer Taxi (BCT) in de taxi van Krijger uit. Het scherm blijft zwart en herstart niet. Wat moet Krijger doen volgens de regels voor apparatuur en administratie?",
+     "q": "Dinsdagmiddag om 14:10 valt de Boordcomputer Taxi (BCT) in de taxi van leerling A uit. Het scherm blijft zwart en herstart niet. Wat moet leerling A doen volgens de regels voor apparatuur en administratie?",
      "opts": [
-      "Krijger mag zonder registratie doorrijden mits hij de storing binnen 48 uur meldt bij de Inspectie Leefomgeving en Transport (ILT).",
-      "Krijger registreert zijn ritten, arbeids- en rusttijden deugdelijk handmatig en laat de BCT zo snel mogelijk repareren bij een erkend inbouwstation.",
-      "Krijger vervangt de BCT direct zelf door een reserve-exemplaar en herstart het voertuig.",
-      "Krijger registreert alleen zijn pauzes op papier en hoeft de BCT pas bij de eerstvolgende APK te laten herstellen."
+      "leerling A mag zonder registratie doorrijden mits hij de storing binnen 48 uur meldt bij de Inspectie Leefomgeving en Transport (ILT).",
+      "leerling A registreert zijn ritten, arbeids- en rusttijden deugdelijk handmatig en laat de BCT zo snel mogelijk repareren bij een erkend inbouwstation.",
+      "leerling A vervangt de BCT direct zelf door een reserve-exemplaar en herstart het voertuig.",
+      "leerling A registreert alleen zijn pauzes op papier en hoeft de BCT pas bij de eerstvolgende APK te laten herstellen."
      ],
      "ok": 1,
      "why": "Bij een storing van de BCT of CDT moet de chauffeur de gegevens deugdelijk handmatig bijhouden. De reparatie moet worden uitgevoerd door een erkend inbouwstation. Onbevoegd herstellen of niet registreren is een overtreding.",
@@ -7538,7 +7538,7 @@
      "niveau": "rennen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Krijger werkt als chauffeur in loondienst. Zijn werkgever informeert hem over het uitlezen van de chauffeurskaart en het bewaren van de BCT/CDT-gegevens. Wat zijn de wettelijke termijnen voor het downloaden van de kaart en het bewaren van deze gegevens door de ondernemer?",
+     "q": "Leerling A werkt als chauffeur in loondienst. Zijn werkgever informeert hem over het uitlezen van de chauffeurskaart en het bewaren van de BCT/CDT-gegevens. Wat zijn de wettelijke termijnen voor het downloaden van de kaart en het bewaren van deze gegevens door de ondernemer?",
      "opts": [
       "De kaart moet minimaal elke 12 weken worden uitgelezen, en de ondernemer bewaart de gegevens 1 jaar.",
       "De kaart moet minimaal elke 5 weken worden uitgelezen, en de ondernemer bewaart de gegevens 2 jaar.",
@@ -7584,12 +7584,12 @@
      "niveau": "rennen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Krijger neemt om 15:00 het voertuig over van een collega. De collega is gehaast uitgestapt en heeft zijn chauffeurskaart in de BCT/CDT laten zitten. Krijger moet direct vertrekken naar zijn eerste klant. Wat moet Krijger doen?",
+     "q": "Leerling A neemt om 15:00 het voertuig over van een collega. De collega is gehaast uitgestapt en heeft zijn chauffeurskaart in de BCT/CDT laten zitten. Leerling A moet direct vertrekken naar zijn eerste klant. Wat moet leerling A doen?",
      "opts": [
-      "Krijger mag de eerste 2 uur op de kaart van zijn collega rijden, mits hij achteraf handmatig zijn eigen naam invult.",
-      "Krijger moet de kaart van de collega verwijderen en altijd inloggen met zijn eigen persoonlijke chauffeurskaart voor hij gaat rijden.",
-      "Krijger rijdt zonder kaart en voert alleen zijn personeelsnummer in op het scherm van de BCT/CDT.",
-      "Krijger plaatst zijn eigen kaart in sleuf 2 van de BCT, terwijl de kaart van de collega in sleuf 1 blijft zitten."
+      "leerling A mag de eerste 2 uur op de kaart van zijn collega rijden, mits hij achteraf handmatig zijn eigen naam invult.",
+      "leerling A moet de kaart van de collega verwijderen en altijd inloggen met zijn eigen persoonlijke chauffeurskaart voor hij gaat rijden.",
+      "leerling A rijdt zonder kaart en voert alleen zijn personeelsnummer in op het scherm van de BCT/CDT.",
+      "leerling A plaatst zijn eigen kaart in sleuf 2 van de BCT, terwijl de kaart van de collega in sleuf 1 blijft zitten."
      ],
      "ok": 1,
      "why": "Een chauffeur dient ALTIJD met zijn eigen persoonlijke chauffeurskaart in te loggen op het systeem. Rijden op de kaart van een ander of zonder kaart is een ernstige overtreding.",
@@ -7607,7 +7607,7 @@
      "niveau": "kruipen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Op de N-weg staat een vast wit bord maximumsnelheid 80 km/h. Daarboven hangt een tijdelijk geel bord 50 km/h vanwege wegwerkzaamheden. Welke snelheid geldt voor Krijger?",
+     "q": "Op de N-weg staat een vast wit bord maximumsnelheid 80 km/h. Daarboven hangt een tijdelijk geel bord 50 km/h vanwege wegwerkzaamheden. Welke snelheid geldt voor leerling A?",
      "opts": [
       "50 km/h",
       "80 km/h",
@@ -7636,7 +7636,7 @@
      "niveau": "kruipen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger ergert zich aan een fietser en snijdt hem af, waardoor de fietser moet uitwijken. Welk artikel van de Wegenverkeerswet 1994 overtreedt hij?",
+     "q": "Leerling A ergert zich aan een fietser en snijdt hem af, waardoor de fietser moet uitwijken. Welk artikel van de Wegenverkeerswet 1994 overtreedt hij?",
      "opts": [
       "Artikel 7",
       "Artikel 8",
@@ -7653,7 +7653,7 @@
      ],
      "bron": "WVW 1994 art. 5",
      "hint": "Artikel 5: veiligheidsbeginsel.",
-     "simpel": "Krijger snijdt een fietser af. Welk artikel van de Wegenverkeerswet overtreedt hij?",
+     "simpel": "Leerling A snijdt een fietser af. Welk artikel van de Wegenverkeerswet overtreedt hij?",
      "kern": [
       "afsnijden",
       "artikel 5"
@@ -7665,7 +7665,7 @@
      "niveau": "kruipen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger rijdt op een parkeerplaats tegen een geparkeerde auto. Er is niemand in de buurt. Wat moet hij volgens de Wegenverkeerswet doen?",
+     "q": "Leerling A rijdt op een parkeerplaats tegen een geparkeerde auto. Er is niemand in de buurt. Wat moet hij volgens de Wegenverkeerswet doen?",
      "opts": [
       "Hij moet stoppen en zijn gegevens achterlaten",
       "Hij mag doorrijden als er niemand is",
@@ -7673,7 +7673,7 @@
       "Hij moet altijd op de politie wachten"
      ],
      "ok": 0,
-     "why": "Artikel 7 verbiedt doorrijden na een ongeval met schade. Krijger moet stoppen en zijn identiteit kenbaar maken. Doorrijden is strafbaar, ook bij kleine schade.",
+     "why": "Artikel 7 verbiedt doorrijden na een ongeval met schade. Leerling A moet stoppen en zijn identiteit kenbaar maken. Doorrijden is strafbaar, ook bij kleine schade.",
      "wrong": [
       "",
       "Doorrijden na een ongeval is strafbaar, ook als er niemand is.",
@@ -7682,7 +7682,7 @@
      ],
      "bron": "WVW 1994 art. 7",
      "hint": "Artikel 7: niet doorrijden na een ongeval.",
-     "simpel": "Krijger rijdt tegen een geparkeerde auto. Er is niemand. Wat moet hij doen?",
+     "simpel": "Leerling A rijdt tegen een geparkeerde auto. Er is niemand. Wat moet hij doen?",
      "kern": [
       "ongeval",
       "stoppen",
@@ -7695,7 +7695,7 @@
      "niveau": "kruipen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger wil met een kater gaan rijden. Wanneer is hij strafbaar op grond van artikel 8 WVW 1994?",
+     "q": "Leerling A wil met een kater gaan rijden. Wanneer is hij strafbaar op grond van artikel 8 WVW 1994?",
      "opts": [
       "Alleen als hij een ongeluk veroorzaakt",
       "Als hij onder invloed van alcohol of drugs een voertuig bestuurt",
@@ -7712,7 +7712,7 @@
      ],
      "bron": "WVW 1994 art. 8",
      "hint": "Artikel 8: niets drinken en rijden.",
-     "simpel": "Krijger heeft een kater. Hij wil rijden. Wanneer is hij strafbaar volgens artikel 8 WVW 1994?",
+     "simpel": "Leerling A heeft een kater. Hij wil rijden. Wanneer is hij strafbaar volgens artikel 8 WVW 1994?",
      "kern": [
       "artikel 8 WVW",
       "kater",
@@ -7725,15 +7725,15 @@
      "niveau": "kruipen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt op een weg waar wegwerkzaamheden bezig zijn. Er staat een vast bord 'Voorrangsweg', maar er is ook een tijdelijk geel bord geplaatst dat verplicht om voorrang te verlenen. Wat moet Krijger doen?",
+     "q": "Leerling A rijdt op een weg waar wegwerkzaamheden bezig zijn. Er staat een vast bord 'Voorrangsweg', maar er is ook een tijdelijk geel bord geplaatst dat verplicht om voorrang te verlenen. Wat moet leerling A doen?",
      "opts": [
-      "Krijger moet voorrang verlenen, want het tijdelijke gele bord gaat boven het vaste bord.",
-      "Krijger heeft voorrang, want een vast bord geldt altijd boven een tijdelijk geel bord.",
-      "Krijger moet stoppen en wachten op een verkeersregelaar.",
-      "Krijger mag de regel van rechts voorrang toepassen."
+      "leerling A moet voorrang verlenen, want het tijdelijke gele bord gaat boven het vaste bord.",
+      "leerling A heeft voorrang, want een vast bord geldt altijd boven een tijdelijk geel bord.",
+      "leerling A moet stoppen en wachten op een verkeersregelaar.",
+      "leerling A mag de regel van rechts voorrang toepassen."
      ],
      "ok": 0,
-     "why": "Tijdelijke verkeerstekens (zoals gele borden bij werkzaamheden) gaan boven vaste verkeerstekens op het wegdek of langs de weg. Krijger moet dus het tijdelijke gele bord opvolgen.",
+     "why": "Tijdelijke verkeerstekens (zoals gele borden bij werkzaamheden) gaan boven vaste verkeerstekens op het wegdek of langs de weg. Leerling A moet dus het tijdelijke gele bord opvolgen.",
      "wrong": [
       "",
       "Een vast bord geldt niet altijd boven een tijdelijk bord; het tijdelijke gele bord gaat juist boven.",
@@ -7742,7 +7742,7 @@
      ],
      "bron": "RVV 63a",
      "hint": "Tijdelijke (gele) borden winnen het altijd van vaste borden.",
-     "simpel": "Krijger ziet een vast bord 'Voorrangsweg' en een tijdelijk geel bord 'voorrang verlenen'. Wat moet hij doen?",
+     "simpel": "Leerling A ziet een vast bord 'Voorrangsweg' en een tijdelijk geel bord 'voorrang verlenen'. Wat moet hij doen?",
      "kern": [
       "tijdelijk bord",
       "voorrang verlenen"
@@ -7754,7 +7754,7 @@
      "niveau": "kruipen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Een passagier van 9 jaar oud met een lengte van 1,28 meter stapt in bij Krijger. Er is geen kinderzitje aanwezig in de taxi. Hoe moet Krijger dit kind vervoeren?",
+     "q": "Een passagier van 9 jaar oud met een lengte van 1,28 meter stapt in bij leerling A. Er is geen kinderzitje aanwezig in de taxi. Hoe moet leerling A dit kind vervoeren?",
      "opts": [
       "Het kind mag voorin zitten, mits de autogordel goed vastzit.",
       "Het kind moet achterin zitten met de autogordel om.",
@@ -7784,12 +7784,12 @@
      "niveau": "kruipen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt op een weg met twee rijstroken in dezelfde richting. Op de linkerrijstrook ontstaat een langzaamrijdende file. Krijger rijdt op de rechterrijstrook. Mag Krijger de auto's aan de linkerkant rechts inhalen?",
+     "q": "Leerling A rijdt op een weg met twee rijstroken in dezelfde richting. Op de linkerrijstrook ontstaat een langzaamrijdende file. Leerling A rijdt op de rechterrijstrook. Mag leerling A de auto's aan de linkerkant rechts inhalen?",
      "opts": [
       "Nee, rechts inhalen is op wegen met meerdere rijstroken altijd streng verboden.",
       "Ja, bestuurders die zich in een file bevinden mogen rechts worden ingehaald.",
-      "Ja, maar alleen als Krijger zijn waarschuwingslichten aanzet.",
-      "Nee, Krijger moet op gelijke hoogte blijven rijden tot de file oplost."
+      "Ja, maar alleen als leerling A zijn waarschuwingslichten aanzet.",
+      "Nee, leerling A moet op gelijke hoogte blijven rijden tot de file oplost."
      ],
      "ok": 1,
      "why": "In een file situatie is het toegestaan om voertuigen die zich in die file bevinden aan de rechterkant in te halen. Dit is een wettelijke uitzondering op de hoofdregel dat je links moet inhalen.",
@@ -7797,11 +7797,11 @@
       "In een file mag rechts inhalen wel.",
       "",
       "Waarschuwingslichten zijn geen voorwaarde voor rechts inhalen in een file.",
-      "Krijger hoeft niet op gelijke hoogte te blijven; hij mag in een file rechts inhalen."
+      "leerling A hoeft niet op gelijke hoogte te blijven; hij mag in een file rechts inhalen."
      ],
      "bron": "RVV art. 13 lid 2",
      "hint": "Denk aan de ezelbrug FRUIT+: bij een File mag je rechts inhalen.",
-     "simpel": "Krijger rijdt op de rechterstrook. Links staat een file. Mag hij de auto's rechts inhalen?",
+     "simpel": "Leerling A rijdt op de rechterstrook. Links staat een file. Mag hij de auto's rechts inhalen?",
      "kern": [
       "file",
       "rechts inhalen"
@@ -7813,7 +7813,7 @@
      "niveau": "kruipen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger brengt een passagier naar een woning die binnen een erf ligt. Welke maximumsnelheid geldt voor Krijger binnen dit erf?",
+     "q": "Leerling A brengt een passagier naar een woning die binnen een erf ligt. Welke maximumsnelheid geldt voor leerling A binnen dit erf?",
      "opts": [
       "15 kilometer per uur",
       "30 kilometer per uur",
@@ -7830,7 +7830,7 @@
      ],
      "bron": "RVV 45",
      "hint": "Onthoud het ritme-anker voor snelheden: erf 15.",
-     "simpel": "Krijger rijdt binnen een erf. Hoe hard mag hij maximaal rijden?",
+     "simpel": "Leerling A rijdt binnen een erf. Hoe hard mag hij maximaal rijden?",
      "kern": [
       "erf",
       "maximumsnelheid"
@@ -7842,7 +7842,7 @@
      "niveau": "kruipen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger moet een passagier laten uitstappen op een plek waar een parkeerverbod geldt. Wat is het verschil tussen stilstaan en parkeren bij het laten uitstappen van een passagier?",
+     "q": "Leerling A moet een passagier laten uitstappen op een plek waar een parkeerverbod geldt. Wat is het verschil tussen stilstaan en parkeren bij het laten uitstappen van een passagier?",
      "opts": [
       "Het onmiddellijk laten uitstappen van passagiers geldt als stilstaan en mag op plekken waar parkeren verboden is.",
       "Passagiers laten uitstappen geldt altijd als parkeren, ongeacht de tijdsduur.",
@@ -7859,7 +7859,7 @@
      ],
      "bron": "RVV art. 1 (definities stilstaan/parkeren); vgl. RVV 23/24 (stop-/parkeerverbod)",
      "hint": "Onmiddellijk in- of uitstappen is stilstaan, niet parkeren.",
-     "simpel": "Krijger laat een passagier uitstappen op een plek met parkeerverbod. Is dat stilstaan of parkeren?",
+     "simpel": "Leerling A laat een passagier uitstappen op een plek met parkeerverbod. Is dat stilstaan of parkeren?",
      "kern": [
       "stilstaan",
       "parkeren",
@@ -7872,7 +7872,7 @@
      "niveau": "kruipen",
      "et": "ET 6.2",
      "type": "mc",
-     "q": "Krijger rijdt op de weg. Zijn telefoon zit vastgeklikt in een houder op het dashboard. Tijdens het rijden tikt Krijger kort op het scherm van de telefoon om de navigatie-route te bevestigen. Is dit volgens de verkeersregels toegestaan?",
+     "q": "Leerling A rijdt op de weg. Zijn telefoon zit vastgeklikt in een houder op het dashboard. Tijdens het rijden tikt leerling A kort op het scherm van de telefoon om de navigatie-route te bevestigen. Is dit volgens de verkeersregels toegestaan?",
      "opts": [
       "Ja, want de telefoon wordt niet vastgehouden in de hand.",
       "Nee, het aanraken van een scherm is voor een taxichauffeur tijdens het rijden altijd verboden.",
@@ -7889,7 +7889,7 @@
      ],
      "bron": "RVV 61a",
      "hint": "Het verbod van RVV 61a gaat over het vasthouden van de telefoon.",
-     "simpel": "De telefoon van Krijger zit in een houder. Hij tikt op het scherm tijdens het rijden. Mag dat?",
+     "simpel": "De telefoon van leerling A zit in een houder. Hij tikt op het scherm tijdens het rijden. Mag dat?",
      "kern": [
       "telefoon in houder",
       "tijdens rijden",
@@ -7902,7 +7902,7 @@
      "niveau": "lopen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger rijdt veel te dicht achter een fietser en remt daardoor hard. Hierdoor ontstaat bijna een aanrijding. Welk artikel van de Wegenverkeerswet overtreedt hij?",
+     "q": "Leerling A rijdt veel te dicht achter een fietser en remt daardoor hard. Hierdoor ontstaat bijna een aanrijding. Welk artikel van de Wegenverkeerswet overtreedt hij?",
      "opts": [
       "Artikel 6 WVW",
       "Artikel 5 WVW",
@@ -7925,7 +7925,7 @@
      "niveau": "lopen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt op een autoweg buiten de bebouwde kom. Er geldt geen andere maximumsnelheid. Hoe hard mag hij maximaal?",
+     "q": "Leerling A rijdt op een autoweg buiten de bebouwde kom. Er geldt geen andere maximumsnelheid. Hoe hard mag hij maximaal?",
      "opts": [
       "130 km/u",
       "80 km/u",
@@ -7948,7 +7948,7 @@
      "niveau": "lopen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger nadert een kruising waar een vast verkeersbord 'verleen voorrang aan bestuurders op de kruisende weg' staat. Vanwege wegwerkzaamheden is er ook een tijdelijk geel bord geplaatst dat hem juist voorrang verleent op het verkeer van de zijstraat. Er staan geen verkeerslichten of verkeersregelaars. Welk bord moet Krijger opvolgen?",
+     "q": "Leerling A nadert een kruising waar een vast verkeersbord 'verleen voorrang aan bestuurders op de kruisende weg' staat. Vanwege wegwerkzaamheden is er ook een tijdelijk geel bord geplaatst dat hem juist voorrang verleent op het verkeer van de zijstraat. Er staan geen verkeerslichten of verkeersregelaars. Welk bord moet leerling A opvolgen?",
      "opts": [
       "Het tijdelijke gele bord, want tijdelijke verkeerstekens gaan boven vaste verkeerstekens.",
       "Het vaste verkeersbord, want vaste borden hebben altijd voorrang op tijdelijke borden.",
@@ -7956,7 +7956,7 @@
       "Het vaste verkeersbord, tenzij er ook een tijdelijke gele streep op het wegdek staat."
      ],
      "ok": 0,
-     "why": "Volgens artikel 63a RVV 1990 gaan tijdelijke verkeerstekens (zoals gele borden bij werkzaamheden) boven vaste verkeerstekens als ze elkaar tegenspreken. Krijger moet daarom het tijdelijke gele bord opvolgen. Vaste borden of algemene verkeersregels wijken in dit geval voor de tijdelijke bebording.",
+     "why": "Volgens artikel 63a RVV 1990 gaan tijdelijke verkeerstekens (zoals gele borden bij werkzaamheden) boven vaste verkeerstekens als ze elkaar tegenspreken. Leerling A moet daarom het tijdelijke gele bord opvolgen. Vaste borden of algemene verkeersregels wijken in dit geval voor de tijdelijke bebording.",
      "wrong": [
       "",
       "Vaste borden hebben niet altijd voorrang; tijdelijke borden gaan boven vaste borden.",
@@ -7971,7 +7971,7 @@
      "niveau": "lopen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Krijger vervoert twee kinderen in de taxi. Het ene kind is 10 jaar oud en 1,25 meter lang; het andere kind is 12 jaar oud en 1,40 meter lang. Er is geen kinderzitje in de taxi aanwezig. Welke regels gelden er voor de zitplaats van deze kinderen?",
+     "q": "Leerling A vervoert twee kinderen in de taxi. Het ene kind is 10 jaar oud en 1,25 meter lang; het andere kind is 12 jaar oud en 1,40 meter lang. Er is geen kinderzitje in de taxi aanwezig. Welke regels gelden er voor de zitplaats van deze kinderen?",
      "opts": [
       "Beide kinderen moeten verplicht achterin zitten omdat er geen kinderzitje aanwezig is.",
       "Beide kinderen mogen voorin zitten met de veiligheidsgordel om, mits de airbag is uitgeschakeld.",
@@ -7994,20 +7994,20 @@
      "niveau": "lopen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt op een weg met twee rijstroken in dezelfde richting vlak voor een kruispunt. Op de linkerstrook voorsorteert een personenauto die knipperlicht naar links geeft om af te slaan. Krijger rijdt op de rechterstrook voor rechtdoor. Mag Krijger deze personenauto aan de rechterkant inhalen?",
+     "q": "Leerling A rijdt op een weg met twee rijstroken in dezelfde richting vlak voor een kruispunt. Op de linkerstrook voorsorteert een personenauto die knipperlicht naar links geeft om af te slaan. Leerling A rijdt op de rechterstrook voor rechtdoor. Mag leerling A deze personenauto aan de rechterkant inhalen?",
      "opts": [
       "Nee, rechts inhalen is binnen de bebouwde kom op geen enkele weg toegestaan.",
       "Ja, bestuurders die links voorsorteren en te kennen geven dat zij linksaf willen slaan, mogen rechts worden ingehaald.",
       "Ja, maar alleen als de auto op de linkerstrook al volledig stilstaat voor het rode licht.",
-      "Nee, Krijger moet wachten en achter de afslaande auto op dezelfde rijstrook invoegen."
+      "Nee, leerling A moet wachten en achter de afslaande auto op dezelfde rijstrook invoegen."
      ],
      "ok": 1,
-     "why": "Artikel 11 lid 2 RVV 1990 bepaalt dat bestuurders die links voorsorteren en te kennen geven dat zij linksaf willen slaan, rechts moeten of mogen worden ingehaald. Krijger mag deze auto dus aan de rechterkant voorbijrijden. Rechts inhalen is in deze specifieke situatie uitdrukkelijk toegestaan.",
+     "why": "Artikel 11 lid 2 RVV 1990 bepaalt dat bestuurders die links voorsorteren en te kennen geven dat zij linksaf willen slaan, rechts moeten of mogen worden ingehaald. Leerling A mag deze auto dus aan de rechterkant voorbijrijden. Rechts inhalen is in deze specifieke situatie uitdrukkelijk toegestaan.",
      "wrong": [
       "Rechts inhalen van een links voorsorterende auto is wel toegestaan, ook binnen de bebouwde kom.",
       "",
       "De auto hoeft niet stil te staan; ook rijdende linksafzwaaiers mogen rechts worden ingehaald.",
-      "Krijger hoeft niet te wachten; hij mag de links voorsorterende auto rechts inhalen."
+      "leerling A hoeft niet te wachten; hij mag de links voorsorterende auto rechts inhalen."
      ],
      "bron": "RVV 11 lid 2"
     },
@@ -8017,12 +8017,12 @@
      "niveau": "lopen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger raakt tijdens het achteruitrijden op een parkeerterrein een geparkeerde auto. Er ontstaat blikschade aan de andere auto. De eigenaar is niet aanwezig. Krijger heeft haast voor een vervolgrit en rijdt snel weg zonder gegevens achter te laten. Welke uitspraak over dit handelen is juist?",
+     "q": "Leerling A raakt tijdens het achteruitrijden op een parkeerterrein een geparkeerde auto. Er ontstaat blikschade aan de andere auto. De eigenaar is niet aanwezig. Leerling A heeft haast voor een vervolgrit en rijdt snel weg zonder gegevens achter te laten. Welke uitspraak over dit handelen is juist?",
      "opts": [
-      "Dit is strafbaar; Krijger mag de plaats van het ongeval niet verlaten zonder zijn identiteit en die van zijn voertuig bekend te maken.",
+      "Dit is strafbaar; leerling A mag de plaats van het ongeval niet verlaten zonder zijn identiteit en die van zijn voertuig bekend te maken.",
       "Dit is alleen strafbaar als er sprake is van letsel of gewonden bij de aanrijding.",
-      "Krijger heeft altijd 72 uur de tijd om zich bij de politie te melden zonder strafbaar te zijn.",
-      "Krijger hoeft pas gegevens achter te laten als de geschatte schade meer dan € 500,- bedraagt."
+      "leerling A heeft altijd 72 uur de tijd om zich bij de politie te melden zonder strafbaar te zijn.",
+      "leerling A hoeft pas gegevens achter te laten als de geschatte schade meer dan € 500,- bedraagt."
      ],
      "ok": 0,
      "why": "Artikel 7 WVW 1994 verbiedt het verlaten van de plaats van een ongeval als daarbij schade of letsel is veroorzaakt, zonder de eigen gegevens bekend te maken. Dit geldt ook bij blikschade aan een onbeheerd voertuig. De hoogte van het schadebedrag of het ontbreken van letsel verandert niets aan de strafbaarheid.",
@@ -8040,7 +8040,7 @@
      "niveau": "lopen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger zet zijn taxi stil op de rijbaan om een passagier uit te laten stappen. Hij zet de auto dwars over de weg en blokkeert daardoor volledig het fietspad en de rijbaan, waardoor een tegemoetkomende fietser plotseling krachtig moet remmen om een botsing te voorkomen. Welk wetsartikel overtreedt Krijger hiermee direct?",
+     "q": "Leerling A zet zijn taxi stil op de rijbaan om een passagier uit te laten stappen. Hij zet de auto dwars over de weg en blokkeert daardoor volledig het fietspad en de rijbaan, waardoor een tegemoetkomende fietser plotseling krachtig moet remmen om een botsing te voorkomen. Welk wetsartikel overtreedt leerling A hiermee direct?",
      "opts": [
       "Artikel 6 WVW 1994, omdat hij schuld heeft aan een verkeersongeval met letsel.",
       "Artikel 5 WVW 1994, omdat hij gedrag vertoont waardoor gevaar of hinder op de weg wordt of kan worden veroorzaakt.",
@@ -8048,7 +8048,7 @@
       "Artikel 9 WVW 1994, omdat hij rijdt terwijl zijn rijbewijs is ingevorderd."
      ],
      "ok": 1,
-     "why": "Artikel 5 WVW 1994 is het kapstokartikel dat het iedereen verbiedt zich zo te gedragen dat gevaar op de weg wordt veroorzaakt of dat het verkeer wordt gehinderd. Door de weg en het fietspad volledig te blokkeren veroorzaakt Krijger gevaar en hinder. Artikel 6 gaat over een ongeval met dood of ernstig letsel door schuld en is hier niet aan de orde.",
+     "why": "Artikel 5 WVW 1994 is het kapstokartikel dat het iedereen verbiedt zich zo te gedragen dat gevaar op de weg wordt veroorzaakt of dat het verkeer wordt gehinderd. Door de weg en het fietspad volledig te blokkeren veroorzaakt leerling A gevaar en hinder. Artikel 6 gaat over een ongeval met dood of ernstig letsel door schuld en is hier niet aan de orde.",
      "wrong": [
       "Artikel 6 geldt alleen bij een ongeval met dood of ernstig letsel; dat is hier niet gebeurd.",
       "",
@@ -8063,12 +8063,12 @@
      "niveau": "lopen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger vervoert een volwassen passagier van 25 jaar. Tijdens de rit weigert de passagier de veiligheidsgordel om te doen, ondanks dat Krijger hem hierop heeft geattendeerd. Bij een verkeerscontrole wordt dit geconstateerd. Wie krijgt volgens de wet de boete voor het niet dragen van de gordel?",
+     "q": "Leerling A vervoert een volwassen passagier van 25 jaar. Tijdens de rit weigert de passagier de veiligheidsgordel om te doen, ondanks dat leerling A hem hierop heeft geattendeerd. Bij een verkeerscontrole wordt dit geconstateerd. Wie krijgt volgens de wet de boete voor het niet dragen van de gordel?",
      "opts": [
       "Altijd alleen de taxichauffeur, omdat deze verantwoordelijk is voor alle inzittenden.",
-      "De werkgever van Krijger, omdat deze verantwoordelijk is voor de veiligheid in de taxi.",
+      "De werkgever van leerling A, omdat deze verantwoordelijk is voor de veiligheid in de taxi.",
       "De passagier zelf, mits deze 12 jaar of ouder is.",
-      "Zowel Krijger als de passagier krijgen verplicht ieder een eigen boete."
+      "Zowel leerling A als de passagier krijgen verplicht ieder een eigen boete."
      ],
      "ok": 2,
      "why": "In Nederland geldt volgens artikel 59 RVV 1990 dat inzittenden van 12 jaar en ouder zelf verantwoordelijk zijn voor het dragen van de veiligheidsgordel. Bij een overtreding krijgt de passagier zelf de boete. De chauffeursverantwoordelijkheid voor het dragen van de gordel geldt uitsluitend voor kinderen jonger dan 12 jaar.",
@@ -8086,7 +8086,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt op een weg met werkzaamheden. Er staat een tijdelijk geel bord met maximumsnelheid 30, maar ook een vast wit bord met 50. Welke maximumsnelheid geldt hier?",
+     "q": "Leerling A rijdt op een weg met werkzaamheden. Er staat een tijdelijk geel bord met maximumsnelheid 30, maar ook een vast wit bord met 50. Welke maximumsnelheid geldt hier?",
      "opts": [
       "30 km/h",
       "50 km/h",
@@ -8109,7 +8109,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Een passagier wil midden op een drukke rijbaan uitstappen, omdat het voor zijn huis is. Wat moet Krijger volgens de RVV doen?",
+     "q": "Een passagier wil midden op een drukke rijbaan uitstappen, omdat het voor zijn huis is. Wat moet leerling A volgens de RVV doen?",
      "opts": [
       "De passagier laten uitstappen, want de passagier beslist",
       "Alleen stoppen als er geen verkeer aankomt",
@@ -8132,7 +8132,7 @@
      "niveau": "rennen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger gebruikt medicijnen waarvan de bijsluiter waarschuwt dat ze de rijvaardigheid kunnen beïnvloeden. Hij voelt zich helder. Mag hij rijden?",
+     "q": "Leerling A gebruikt medicijnen waarvan de bijsluiter waarschuwt dat ze de rijvaardigheid kunnen beïnvloeden. Hij voelt zich helder. Mag hij rijden?",
      "opts": [
       "Nee, want artikel 8 WVW verbiedt rijden onder invloed van middelen die de rijvaardigheid beïnvloeden",
       "Ja, want hij voelt zich helder",
@@ -8155,7 +8155,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt met zijn taxi op een voorrangsweg. Bij een kruispunt staat het verkeerslicht op rood. Een verkeersregelaar staat midden op het kruispunt en geeft Krijger met de hand een teken dat hij door moet rijden. Wat moet Krijger doen?",
+     "q": "Leerling A rijdt met zijn taxi op een voorrangsweg. Bij een kruispunt staat het verkeerslicht op rood. Een verkeersregelaar staat midden op het kruispunt en geeft leerling A met de hand een teken dat hij door moet rijden. Wat moet leerling A doen?",
      "opts": [
       "Wachten voor het rode verkeerslicht, want een verkeerslicht gaat boven de aanwijzingen van een verkeersregelaar.",
       "Doorrijden, want aanwijzingen van bevoegde personen gaan boven verkeerslichten, verkeerstekens en verkeersregels.",
@@ -8163,7 +8163,7 @@
       "Doorrijden, maar alleen omdat het voorrangsbord boven het rode verkeerslicht gaat."
      ],
      "ok": 1,
-     "why": "Volgens artikel 84 RVV 1990 gaan aanwijzingen van bevoegde personen (zoals verkeersregelaars) boven verkeerslichten, verkeerstekens en verkeersregels. Krijger moet de aanwijzing opvolgen en dus doorrijden. De opvatting dat lichten of borden boven een verkeersregelaar gaan, is onjuist.",
+     "why": "Volgens artikel 84 RVV 1990 gaan aanwijzingen van bevoegde personen (zoals verkeersregelaars) boven verkeerslichten, verkeerstekens en verkeersregels. Leerling A moet de aanwijzing opvolgen en dus doorrijden. De opvatting dat lichten of borden boven een verkeersregelaar gaan, is onjuist.",
      "wrong": [
       "Aanwijzingen van een verkeersregelaar gaan juist boven het verkeerslicht.",
       "",
@@ -8178,7 +8178,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger haalt een gezin op. Een jongen van 7 jaar is 1,25 meter lang. Er is geen kinderzitje aanwezig in de taxi. De vader vraagt of de jongen voorin mag zitten. Waar mag Krijger deze jongen wettelijk vervoeren?",
+     "q": "Leerling A haalt een gezin op. Een jongen van 7 jaar is 1,25 meter lang. Er is geen kinderzitje aanwezig in de taxi. De vader vraagt of de jongen voorin mag zitten. Waar mag leerling A deze jongen wettelijk vervoeren?",
      "opts": [
       "Voorin, mits hij de heup- en schoudergordel omheeft.",
       "Voorin of achterin, mits de vader hiertoe mondeling toestemming geeft.",
@@ -8201,7 +8201,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt op de autosnelweg op de rechterrijstrook. Aan zijn linkerkant rijdt op de middelste rijstrook een lange, aaneengesloten rij auto's (file) met een snelheid van 70 km/u. Mag Krijger deze voertuigen aan de rechterkant voorbijrijden?",
+     "q": "Leerling A rijdt op de autosnelweg op de rechterrijstrook. Aan zijn linkerkant rijdt op de middelste rijstrook een lange, aaneengesloten rij auto's (file) met een snelheid van 70 km/u. Mag leerling A deze voertuigen aan de rechterkant voorbijrijden?",
      "opts": [
       "Nee, rechts inhalen is op de autosnelweg onder alle omstandigheden verboden.",
       "Ja, want bestuurders in een file mogen naburig verkeer rechts voorbijrijden.",
@@ -8224,7 +8224,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger rijdt met een passagier een woonwijk binnen die is aangeduid met het bord 'Erf'. Wat is de wettelijke maximumsnelheid binnen dit erf?",
+     "q": "Leerling A rijdt met een passagier een woonwijk binnen die is aangeduid met het bord 'Erf'. Wat is de wettelijke maximumsnelheid binnen dit erf?",
      "opts": [
       "15 km/u",
       "20 km/u",
@@ -8247,7 +8247,7 @@
      "niveau": "rennen",
      "et": "ET 2.1",
      "type": "mc",
-     "q": "Krijger laat een passagier uitstappen op een smalle straat vlak voor een onoverzichtelijke bocht. Achteropkomende auto's moeten hierdoor uitwijken naar de strook voor tegemoetkomend verkeer zonder dat zij zicht hebben op tegenliggers. Welk artikel van de Wegenverkeerswet 1994 overtreedt Krijger hiermee?",
+     "q": "Leerling A laat een passagier uitstappen op een smalle straat vlak voor een onoverzichtelijke bocht. Achteropkomende auto's moeten hierdoor uitwijken naar de strook voor tegemoetkomend verkeer zonder dat zij zicht hebben op tegenliggers. Welk artikel van de Wegenverkeerswet 1994 overtreedt leerling A hiermee?",
      "opts": [
       "Artikel 6 WVW 1994 (veroorzaken van een verkeersongeval)",
       "Artikel 7 WVW 1994 (verlaten van de plaats van een ongeval)",
@@ -8270,7 +8270,7 @@
      "niveau": "rennen",
      "et": "ET 2.8",
      "type": "mc",
-     "q": "Krijger veroorzaakt tijdens het achteruitrijden lichte blikschade aan een geparkeerde auto op een standplaats. Er is niemand aanwezig. Krijger heeft een dringende rit en rijdt door zonder zijn gegevens achter te laten. Binnen welke termijn kan hij strafvervolging op grond van artikel 7 WVW 1994 voorkomen door alsnog vrijwillig de politie in te lichten?",
+     "q": "Leerling A veroorzaakt tijdens het achteruitrijden lichte blikschade aan een geparkeerde auto op een standplaats. Er is niemand aanwezig. Leerling A heeft een dringende rit en rijdt door zonder zijn gegevens achter te laten. Binnen welke termijn kan hij strafvervolging op grond van artikel 7 WVW 1994 voorkomen door alsnog vrijwillig de politie in te lichten?",
      "opts": [
       "Binnen 24 uur na het ongeval.",
       "Binnen 12 uur na het ongeval.",
@@ -8293,7 +8293,7 @@
      "niveau": "rennen",
      "et": "ET 2.2",
      "type": "mc",
-     "q": "Krijger moet een slecht ter been zijnde passagier ophalen. Vóór het woningadres ligt een verplicht fietspad langs de rijbaan. Er is geen parkeervak. Waar moet Krijger stilstaan om de passagier in te laten stappen?",
+     "q": "Leerling A moet een slecht ter been zijnde passagier ophalen. Vóór het woningadres ligt een verplicht fietspad langs de rijbaan. Er is geen parkeervak. Waar moet leerling A stilstaan om de passagier in te laten stappen?",
      "opts": [
       "Op het fietspad, mits hij de alarmlichten inschakelt.",
       "Op het trottoir, zolang er voldoende ruimte blijft voor voetgangers.",
@@ -8301,7 +8301,7 @@
       "Hij mag hier helemaal niet stilstaan en moet doorrijden naar de dichtstbijzijnde parkeerplaats."
      ],
      "ok": 2,
-     "why": "Artikel 10 RVV 1990 verbiedt het stilstaan op een fietspad en op een trottoir. Voor het onmiddellijk in- of uitstappen van passagiers mag Krijger stilstaan op de rijbaan naast het fietspad, mits hij daarbij geen gevaar of hinder veroorzaakt. Alarmlichten geven geen recht om op een fietspad te staan.",
+     "why": "Artikel 10 RVV 1990 verbiedt het stilstaan op een fietspad en op een trottoir. Voor het onmiddellijk in- of uitstappen van passagiers mag leerling A stilstaan op de rijbaan naast het fietspad, mits hij daarbij geen gevaar of hinder veroorzaakt. Alarmlichten geven geen recht om op een fietspad te staan.",
      "wrong": [
       "Stilstaan op een fietspad is verboden; alarmlichten geven geen toestemming.",
       "Stilstaan op het trottoir is verboden.",
@@ -8316,10 +8316,10 @@
      "niveau": "kruipen",
      "et": "ET 2.3",
      "type": "mc",
-     "q": "Krijger wil als chauffeur taxivervoer verrichten. Wat is volgens de Wet personenvervoer 2000 nodig?",
+     "q": "Leerling A wil als chauffeur taxivervoer verrichten. Wat is volgens de Wet personenvervoer 2000 nodig?",
      "opts": [
       "Hij heeft alleen een geldig rijbewijs B nodig.",
-      "De ondernemer heeft een taxivergunning en Krijger een geldige chauffeurskaart.",
+      "De ondernemer heeft een taxivergunning en leerling A een geldige chauffeurskaart.",
       "Hij heeft alleen een Verklaring Omtrent het Gedrag nodig.",
       "Het taxibedrijf heeft alleen een APK nodig."
      ],
@@ -8333,7 +8333,7 @@
      ],
      "bron": "Wp2000 art. 4 / CBR ET 2.3",
      "hint": "Vergunning voor de baas, kaart voor de chauffeur.",
-     "simpel": "Krijger wil taxichauffeur worden. Wat is nodig volgens de Wet personenvervoer 2000?",
+     "simpel": "Leerling A wil taxichauffeur worden. Wat is nodig volgens de Wet personenvervoer 2000?",
      "kern": [
       "taxivervoer",
       "Wet personenvervoer 2000",
@@ -8346,7 +8346,7 @@
      "niveau": "kruipen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt onder cao. Vrijdag stopt hij om 23:00 uur, zaterdag begint hij om 07:00 uur. Is dit toegestaan?",
+     "q": "Leerling A werkt onder cao. Vrijdag stopt hij om 23:00 uur, zaterdag begint hij om 07:00 uur. Is dit toegestaan?",
      "opts": [
       "Nee, de dagrust moet altijd 10 uur zijn.",
       "Ja, maximaal 1 keer per 7×24 uur mag de dagrust 8 uur zijn.",
@@ -8363,7 +8363,7 @@
      ],
      "bron": "ATB-V 2.5:1 lid 4, 6",
      "hint": "Tien, twee keer acht, in veertien dagen.",
-     "simpel": "Krijger werkt onder cao. Hij stopt vrijdag om 23:00 uur. Zaterdag begint hij om 07:00 uur. Mag dat?",
+     "simpel": "Leerling A werkt onder cao. Hij stopt vrijdag om 23:00 uur. Zaterdag begint hij om 07:00 uur. Mag dat?",
      "kern": [
       "cao",
       "23:00",
@@ -8376,7 +8376,7 @@
      "niveau": "kruipen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt onder cao. Hoeveel weekrust moet hij in elke periode van 14×24 uur krijgen?",
+     "q": "Leerling A werkt onder cao. Hoeveel weekrust moet hij in elke periode van 14×24 uur krijgen?",
      "opts": [
       "36 uur per 7×24 uur",
       "90 uur per 14×24 uur, op te splitsen in blokken van 8 uur",
@@ -8393,7 +8393,7 @@
      ],
      "bron": "ATB-V 2.5:1 lid 4, 6",
      "hint": "Tweeënzeventig in veertien dagen; elk blok minstens één dag.",
-     "simpel": "Krijger werkt onder de cao. Hoeveel weekrust moet hij in elke 14 dagen krijgen?",
+     "simpel": "Leerling A werkt onder de cao. Hoeveel weekrust moet hij in elke 14 dagen krijgen?",
      "kern": [
       "weekrust",
       "14 dagen",
@@ -8406,7 +8406,7 @@
      "niveau": "kruipen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt onder de cao. De werkgever wil een dienst van 12,5 uur inplannen. Mag dat?",
+     "q": "Leerling A werkt onder de cao. De werkgever wil een dienst van 12,5 uur inplannen. Mag dat?",
      "opts": [
       "Ja, de maximale arbeidstijd per dienst is 13 uur.",
       "Ja, de maximale arbeidstijd per dienst is 15 uur.",
@@ -8423,7 +8423,7 @@
      ],
      "bron": "ATB-V 2.5:7",
      "hint": "Twaalf is het plafond per dienst.",
-     "simpel": "Krijger werkt onder de cao. Mag een dienst 12,5 uur duren?",
+     "simpel": "Leerling A werkt onder de cao. Mag een dienst 12,5 uur duren?",
      "kern": [
       "maximale arbeidstijd",
       "12,5 uur"
@@ -8435,7 +8435,7 @@
      "niveau": "kruipen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt van 22:00 tot 04:00. Tussen 00:00 en 04:00 werkt hij 4 uur. Is dit een nachtdienst?",
+     "q": "Leerling A werkt van 22:00 tot 04:00. Tussen 00:00 en 04:00 werkt hij 4 uur. Is dit een nachtdienst?",
      "opts": [
       "Nee, want hij werkt minder dan 6 uur in de nacht.",
       "Ja, want hij werkt meer dan 1 uur tussen 00:00 en 06:00.",
@@ -8452,7 +8452,7 @@
      ],
      "bron": "ATW 1:7 / ATB-V 2.5:4",
      "hint": "Meer dan één uur tussen twaalf en zes.",
-     "simpel": "Krijger werkt van 22:00 tot 04:00. Hij werkt 4 uur tussen 00:00 en 04:00. Is dit een nachtdienst?",
+     "simpel": "Leerling A werkt van 22:00 tot 04:00. Hij werkt 4 uur tussen 00:00 en 04:00. Is dit een nachtdienst?",
      "kern": [
       "nachtdienst",
       "00:00-06:00",
@@ -8465,7 +8465,7 @@
      "niveau": "kruipen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger heeft de afgelopen maanden veel gewerkt. Hij wil controleren of hij het maximale gemiddelde aantal werkuren per week niet overschrijdt. Welke norm geldt met cao?",
+     "q": "Leerling A heeft de afgelopen maanden veel gewerkt. Hij wil controleren of hij het maximale gemiddelde aantal werkuren per week niet overschrijdt. Welke norm geldt met cao?",
      "opts": [
       "Gemiddeld maximaal 40 uur per week over een periode van 16 weken.",
       "Gemiddeld maximaal 48 uur per week over een periode van 16 weken.",
@@ -8482,7 +8482,7 @@
      ],
      "bron": "ATB-V 2.5:7 lid 6",
      "hint": "Twaalf, zestig, achtenveertig – de cao rekt de gemiddelde periode uit naar zesentwintig weken.",
-     "simpel": "Krijger werkt veel. Hoeveel uur mag hij gemiddeld per week werken met cao?",
+     "simpel": "Leerling A werkt veel. Hoeveel uur mag hij gemiddeld per week werken met cao?",
      "kern": [
       "maximale gemiddelde werkuren",
       "week",
@@ -8495,7 +8495,7 @@
      "niveau": "kruipen",
      "et": "ET 2.6",
      "type": "mc",
-     "q": "Krijger wordt onderweg gecontroleerd op het gebruik van de BCT/CDT en het naleven van zijn arbeids- en rusttijden. Welke overheidsinstantie voert deze controle uit?",
+     "q": "Leerling A wordt onderweg gecontroleerd op het gebruik van de BCT/CDT en het naleven van zijn arbeids- en rusttijden. Welke overheidsinstantie voert deze controle uit?",
      "opts": [
       "Inspectie Leefomgeving en Transport (ILT)",
       "Centraal Bureau Rijvaardigheidsbewijzen (CBR)",
@@ -8512,7 +8512,7 @@
      ],
      "bron": "CBR ET 2.3 / Wet personenvervoer 2000",
      "hint": "Denk aan de rijksinspectie die toeziet op transport en boordcomputers.",
-     "simpel": "Krijger wordt gecontroleerd op BCT/CDT en werk- en rusttijden. Welke instantie controleert?",
+     "simpel": "Leerling A wordt gecontroleerd op BCT/CDT en werk- en rusttijden. Welke instantie controleert?",
      "kern": [
       "controle",
       "BCT/CDT",
@@ -8525,7 +8525,7 @@
      "niveau": "lopen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt vandaag van 07:00 tot 13:00. Volgens de cao heeft hij recht op minimaal 15 minuten pauze. Mag hij die pauze splitsen in drie blokjes van 5 minuten?",
+     "q": "Leerling A werkt vandaag van 07:00 tot 13:00. Volgens de cao heeft hij recht op minimaal 15 minuten pauze. Mag hij die pauze splitsen in drie blokjes van 5 minuten?",
      "opts": [
       "Ja, als het totaal maar 15 minuten is",
       "Nee, een pauze moet minimaal 15 minuten aaneengesloten zijn",
@@ -8548,7 +8548,7 @@
      "niveau": "lopen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger heeft met de cao recht op 72 uur weekrust per 14 dagen. In welke delen moet hij die rust opnemen?",
+     "q": "Leerling A heeft met de cao recht op 72 uur weekrust per 14 dagen. In welke delen moet hij die rust opnemen?",
      "opts": [
       "In delen van minimaal 8 uur",
       "In delen van minimaal 12 uur",
@@ -8571,7 +8571,7 @@
      "niveau": "lopen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt veel overuren. Over welke periode mag zijn gemiddelde arbeidstijd volgens de cao maximaal 48 uur per week zijn?",
+     "q": "Leerling A werkt veel overuren. Over welke periode mag zijn gemiddelde arbeidstijd volgens de cao maximaal 48 uur per week zijn?",
      "opts": [
       "13 weken",
       "16 weken",
@@ -8594,7 +8594,7 @@
      "niveau": "lopen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger rijdt een avonddienst. Wanneer is er officieel sprake van een nachtdienst?",
+     "q": "Leerling A rijdt een avonddienst. Wanneer is er officieel sprake van een nachtdienst?",
      "opts": [
       "Als hij meer dan 1 uur tussen 00:00 en 06:00 werkt",
       "Als hij minstens 1 uur tussen 00:00 en 06:00 werkt",
@@ -8617,7 +8617,7 @@
      "niveau": "lopen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger draait veel nachtdiensten. Hoeveel nachtdiensten mag hij maximaal in 16 weken maken?",
+     "q": "Leerling A draait veel nachtdiensten. Hoeveel nachtdiensten mag hij maximaal in 16 weken maken?",
      "opts": [
       "26",
       "38",
@@ -8640,7 +8640,7 @@
      "niveau": "lopen",
      "et": "ET 2.7",
      "type": "mc",
-     "q": "Krijger werkt zowel op maandag voor bedrijf A als op dinsdag voor bedrijf B. Wat moet hij doen met zijn arbeids- en rusttijden?",
+     "q": "Leerling A werkt zowel op maandag voor bedrijf A als op dinsdag voor bedrijf B. Wat moet hij doen met zijn arbeids- en rusttijden?",
      "opts": [
       "Niets, de werkgevers wisselen onderling uit",
       "Uit zichzelf aan elke werkgever melden",
@@ -8663,7 +8663,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt volgens de cao. Zijn dienst duurt van 07:00 tot 16:45 (9 uur en 45 minuten). Wat is de minimale pauze die hij wettelijk moet krijgen?",
+     "q": "Leerling A werkt volgens de cao. Zijn dienst duurt van 07:00 tot 16:45 (9 uur en 45 minuten). Wat is de minimale pauze die hij wettelijk moet krijgen?",
      "opts": [
       "30 minuten",
       "15 minuten",
@@ -8686,7 +8686,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger rijdt veel nachtdiensten. Welke combinatie van maxima is correct volgens de ATB-V?",
+     "q": "Leerling A rijdt veel nachtdiensten. Welke combinatie van maxima is correct volgens de ATB-V?",
      "opts": [
       "52 nachtdiensten per 16 weken óf 140 per 52 weken",
       "140 nachtdiensten per 16 weken én 52 per 52 weken",
@@ -8709,7 +8709,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger werkt voor een taxibedrijf waar de cao geldt. Hij werkt op maandag van 04:30 uur tot 12:00 uur. Is deze dienst volgens de wet een nachtdienst?",
+     "q": "Leerling A werkt voor een taxibedrijf waar de cao geldt. Hij werkt op maandag van 04:30 uur tot 12:00 uur. Is deze dienst volgens de wet een nachtdienst?",
      "opts": [
       "Nee, want hij werkt minder dan 5 uur tussen 00:00 en 06:00 uur.",
       "Ja, want hij werkt meer dan 1 uur tussen 00:00 en 06:00 uur.",
@@ -8717,7 +8717,7 @@
       "Ja, want elke dienst die voor 07:00 uur begint is een nachtdienst."
      ],
      "ok": 1,
-     "why": "Een nachtdienst is elke dienst waarin meer dan 1 uur wordt gewerkt tussen 00:00 en 06:00 uur. Krijger werkt van 04:30 tot 06:00 uur, wat precies 1,5 uur is. De grens van 1 uur is hierbij bepalend volgens de Arbeidstijdenwet.",
+     "why": "Een nachtdienst is elke dienst waarin meer dan 1 uur wordt gewerkt tussen 00:00 en 06:00 uur. Leerling A werkt van 04:30 tot 06:00 uur, wat precies 1,5 uur is. De grens van 1 uur is hierbij bepalend volgens de Arbeidstijdenwet.",
      "wrong": [
       "De grens is niet 5 uur, maar meer dan 1 uur tussen 00:00 en 06:00.",
       "",
@@ -8732,7 +8732,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger heeft een drukke periode bij zijn taxibedrijf (met cao). Hij kijkt naar zijn wekelijkse rusttijd over een periode van 14 dagen (14x24 uur). Hoeveel rust moet hij minimaal hebben?",
+     "q": "Leerling A heeft een drukke periode bij zijn taxibedrijf (met cao). Hij kijkt naar zijn wekelijkse rusttijd over een periode van 14 dagen (14x24 uur). Hoeveel rust moet hij minimaal hebben?",
      "opts": [
       "Minimaal 36 uur aaneengesloten rust per periode van 7 dagen.",
       "Minimaal 72 uur rust, verdeeld in blokken van minimaal 24 uur.",
@@ -8755,7 +8755,7 @@
      "niveau": "rennen",
      "et": "ET 2.7",
      "type": "mc",
-     "q": "Krijger wil extra verdienen. Hij werkt doordeweeks bij taxibedrijf A en in het weekend bij taxibedrijf B. Wat is zijn wettelijke plicht wat betreft zijn gewerkte uren?",
+     "q": "Leerling A wil extra verdienen. Hij werkt doordeweeks bij taxibedrijf A en in het weekend bij taxibedrijf B. Wat is zijn wettelijke plicht wat betreft zijn gewerkte uren?",
      "opts": [
       "Hij moet alleen de uren van bedrijf A registreren in zijn BCT.",
       "Hij moet de uren van bedrijf B alleen melden als bedrijf A erom vraagt.",
@@ -8778,7 +8778,7 @@
      "niveau": "rennen",
      "et": "ET 2.5",
      "type": "mc",
-     "q": "Krijger heeft in 14 dagen tijd twee keer zijn dagelijkse rust ingekort naar 8 uur. Hij wil dit in dezelfde periode van 14 dagen nog een derde keer doen. Mag dit volgens de cao-regels?",
+     "q": "Leerling A heeft in 14 dagen tijd twee keer zijn dagelijkse rust ingekort naar 8 uur. Hij wil dit in dezelfde periode van 14 dagen nog een derde keer doen. Mag dit volgens de cao-regels?",
      "opts": [
       "Ja, zolang hij de weekrust van 72 uur maar haalt.",
       "Nee, hij mag de dagrust van 10 uur maximaal 2 keer per 14 dagen inkorten naar 8 uur.",
@@ -8801,7 +8801,7 @@
      "niveau": "rennen",
      "et": "ET 1.3",
      "type": "mc",
-     "q": "Krijger werkt bij een ondernemer die alle ritten registreert via de BCT en CDT. Hoe lang moet de ondernemer deze gegevens wettelijk bewaren voor controle?",
+     "q": "Leerling A werkt bij een ondernemer die alle ritten registreert via de BCT en CDT. Hoe lang moet de ondernemer deze gegevens wettelijk bewaren voor controle?",
      "opts": [
       "De gegevens moeten 1 jaar bewaard worden, net als de uitslag van het TVT-examen.",
       "De gegevens moeten 2 jaar bewaard worden.",
@@ -8854,7 +8854,7 @@
      "niveau": "kruipen",
      "et": "ET 4.1",
      "type": "mc",
-     "q": "Bij de controle vóór de rit ziet Krijger dat een ruitenwisser is gescheurd. Wat moet hij doen?",
+     "q": "Bij de controle vóór de rit ziet leerling A dat een ruitenwisser is gescheurd. Wat moet hij doen?",
      "opts": [
       "Toch rijden zolang het niet regent",
       "Een briefje op het dashboard plakken",
@@ -8871,7 +8871,7 @@
      ],
      "bron": "CBR ET 4",
      "hint": "Een gebrek aan het voertuig kan de veiligheid in gevaar brengen; niet starten totdat het is opgelost.",
-     "simpel": "Voor de rit ziet Krijger dat een ruitenwisser kapot is. Wat moet hij doen?",
+     "simpel": "Voor de rit ziet leerling A dat een ruitenwisser kapot is. Wat moet hij doen?",
      "kern": [
       "ruitenwisser",
       "defect",
@@ -8884,7 +8884,7 @@
      "niveau": "kruipen",
      "et": "ET 4.2",
      "type": "mc",
-     "q": "Krijger heeft een hoestdrank ingenomen waarop staat 'kan slaperigheid veroorzaken'. Wat moet hij doen voordat hij gaat rijden?",
+     "q": "Leerling A heeft een hoestdrank ingenomen waarop staat 'kan slaperigheid veroorzaken'. Wat moet hij doen voordat hij gaat rijden?",
      "opts": [
       "Toch rijden met het raam open",
       "Een dubbele dosis koffie drinken",
@@ -8901,7 +8901,7 @@
      ],
      "bron": "CBR ET 4",
      "hint": "Waarschuwing 'kan rijvaardigheid beïnvloeden' is een rode vlag; geen medicijnen achter het stuur die slaperig maken.",
-     "simpel": "Krijger heeft hoestdrank gebruikt waar hij slaperig van kan worden. Wat moet hij doen voor het rijden?",
+     "simpel": "Leerling A heeft hoestdrank gebruikt waar hij slaperig van kan worden. Wat moet hij doen voor het rijden?",
      "kern": [
       "hoestdrank",
       "slaperig",
@@ -8914,7 +8914,7 @@
      "niveau": "kruipen",
      "et": "ET 4.3",
      "type": "mc",
-     "q": "Bij het afslaan naar rechts op een kruispunt ziet Krijger een fietser naast zijn taxi. Wat is de juiste manier om af te slaan?",
+     "q": "Bij het afslaan naar rechts op een kruispunt ziet leerling A een fietser naast zijn taxi. Wat is de juiste manier om af te slaan?",
      "opts": [
       "Gas geven en vóór de fietser langs",
       "De fietser voor laten gaan en daarna afslaan",
@@ -8931,7 +8931,7 @@
      ],
      "bron": "RVV 18",
      "hint": "Fietsers zijn kwetsbaar en zitten vaak in de dode hoek; eerst laten passeren.",
-     "simpel": "Krijger slaat rechtsaf. Naast zijn taxi fietst iemand. Wat moet hij doen?",
+     "simpel": "Leerling A slaat rechtsaf. Naast zijn taxi fietst iemand. Wat moet hij doen?",
      "kern": [
       "afslaan",
       "fietser",
@@ -8974,7 +8974,7 @@
      "niveau": "kruipen",
      "et": "ET 11.3",
      "type": "mc",
-     "q": "Krijger rijdt op de A28 van Utrecht naar Groningen. De navigatie valt uit. Wat is de beste reactie?",
+     "q": "Leerling A rijdt op de A28 van Utrecht naar Groningen. De navigatie valt uit. Wat is de beste reactie?",
      "opts": [
       "Bij het eerstvolgende tankstation stoppen en een papieren kaart kopen",
       "Stoppen op de vluchtstrook om op de telefoon te kijken",
@@ -8991,7 +8991,7 @@
      ],
      "bron": "CBR ET 4",
      "hint": "De borden van de NBd wijzen de weg; vluchtstrook is alleen voor noodgevallen.",
-     "simpel": "De navigatie valt uit op de snelweg. Wat moet Krijger doen?",
+     "simpel": "De navigatie valt uit op de snelweg. Wat moet leerling A doen?",
      "kern": [
       "navigatie valt uit",
       "A28",
@@ -9004,7 +9004,7 @@
      "niveau": "kruipen",
      "et": "ET 11.2",
      "type": "mc",
-     "q": "Krijger rijdt op de autosnelweg A12 van Utrecht richting het oosten. De navigatie gaat plotseling uit. Welke grote stad zal hij op deze route tegenkomen op de blauwe NBd-borden?",
+     "q": "Leerling A rijdt op de autosnelweg A12 van Utrecht richting het oosten. De navigatie gaat plotseling uit. Welke grote stad zal hij op deze route tegenkomen op de blauwe NBd-borden?",
      "opts": [
       "Amsterdam",
       "Rotterdam",
@@ -9021,7 +9021,7 @@
      ],
      "bron": "CBR ET 11.2",
      "hint": "De A12 gaat van de Randstad naar de Duitse grens.",
-     "simpel": "Krijger rijdt op de A12 van Utrecht naar het oosten. De navigatie valt uit. Welke grote stad ziet hij op de blauwe borden?",
+     "simpel": "Leerling A rijdt op de A12 van Utrecht naar het oosten. De navigatie valt uit. Welke grote stad ziet hij op de blauwe borden?",
      "kern": [
       "A12",
       "oosten",
@@ -9034,7 +9034,7 @@
      "niveau": "kruipen",
      "et": "ET 4.4",
      "type": "mc",
-     "q": "Krijger wil zuinig en comfortabel rijden voor zijn passagier. Wat is de beste techniek bij het naderen van een rood verkeerslicht?",
+     "q": "Leerling A wil zuinig en comfortabel rijden voor zijn passagier. Wat is de beste techniek bij het naderen van een rood verkeerslicht?",
      "opts": [
       "Tot het laatste moment gas geven en dan hard remmen.",
       "De auto in de vrij zetten en uit laten rollen.",
@@ -9051,7 +9051,7 @@
      ],
      "bron": "CBR ET 4.3",
      "hint": "Kijk ver vooruit en laat het gas op tijd los.",
-     "simpel": "Krijger wil zuinig en rustig rijden. Hij nadert een rood verkeerslicht. Wat is de beste manier?",
+     "simpel": "Leerling A wil zuinig en rustig rijden. Hij nadert een rood verkeerslicht. Wat is de beste manier?",
      "kern": [
       "zuinig",
       "comfortabel",
@@ -9064,7 +9064,7 @@
      "niveau": "kruipen",
      "et": "ET 4.3",
      "type": "mc",
-     "q": "Krijger rijdt in een woonwijk (erf). Hij ziet plotseling een bal de straat op rollen. Waar moet hij direct rekening mee houden?",
+     "q": "Leerling A rijdt in een woonwijk (erf). Hij ziet plotseling een bal de straat op rollen. Waar moet hij direct rekening mee houden?",
      "opts": [
       "Dat er een kind achter de bal aan kan rennen.",
       "Dat de bal zijn autoband kan beschadigen.",
@@ -9081,7 +9081,7 @@
      ],
      "bron": "CBR ET 4.2",
      "hint": "Waar een bal rolt, volgt vaak een kind.",
-     "simpel": "Krijger rijdt in een woonwijk. Een bal rolt de straat op. Wat kan er direct gebeuren?",
+     "simpel": "Leerling A rijdt in een woonwijk. Een bal rolt de straat op. Wat kan er direct gebeuren?",
      "kern": [
       "erf",
       "bal",
@@ -9094,7 +9094,7 @@
      "niveau": "kruipen",
      "et": "ET 4.1",
      "type": "mc",
-     "q": "Het regent erg hard. Krijger doet zijn dagelijkse controle aan de buitenkant van de taxi. Welk punt is nu het belangrijkst voor de veiligheid?",
+     "q": "Het regent erg hard. Leerling A doet zijn dagelijkse controle aan de buitenkant van de taxi. Welk punt is nu het belangrijkst voor de veiligheid?",
      "opts": [
       "De kleur van het kentekenbewijs.",
       "De aanwezigheid van de tariefkaart op de ruit.",
@@ -9111,7 +9111,7 @@
      ],
      "bron": "CBR ET 4.1",
      "hint": "Goed zicht en grip op de weg zijn het belangrijkst bij regen.",
-     "simpel": "Het regent hard. Krijger controleert de buitenkant van de taxi. Wat is nu het belangrijkst voor de veiligheid?",
+     "simpel": "Het regent hard. Leerling A controleert de buitenkant van de taxi. Wat is nu het belangrijkst voor de veiligheid?",
      "kern": [
       "regen",
       "controle buitenkant",
@@ -9124,7 +9124,7 @@
      "niveau": "kruipen",
      "et": "ET 4.2",
      "type": "mc",
-     "q": "Krijger heeft een erg lange dag gehad en voelt dat hij moe wordt. Hij moet nog één korte rit doen. Wat is de meest professionele keuze?",
+     "q": "Leerling A heeft een erg lange dag gehad en voelt dat hij moe wordt. Hij moet nog één korte rit doen. Wat is de meest professionele keuze?",
      "opts": [
       "Een blikje energiedrank drinken en snel de rit afmaken.",
       "Met het raam open rijden voor frisse lucht tegen de slaap.",
@@ -9141,7 +9141,7 @@
      ],
      "bron": "CBR ET 4.2",
      "hint": "Alleen rust helpt echt tegen slaap.",
-     "simpel": "Krijger is moe na een lange dag. Hij moet nog een korte rit doen. Wat kiest hij als professional?",
+     "simpel": "Leerling A is moe na een lange dag. Hij moet nog een korte rit doen. Wat kiest hij als professional?",
      "kern": [
       "lange dag",
       "moe",
@@ -9177,7 +9177,7 @@
      "niveau": "lopen",
      "et": "ET 4.2",
      "type": "mc",
-     "q": "Krijger heeft een nieuw allergiemedicijn gekregen. Op de bijsluiter staat dat het de rijvaardigheid kan beïnvloeden. Wat moet Krijger doen?",
+     "q": "Leerling A heeft een nieuw allergiemedicijn gekregen. Op de bijsluiter staat dat het de rijvaardigheid kan beïnvloeden. Wat moet leerling A doen?",
      "opts": [
       "Toch rijden, want hij voelt zich prima",
       "Niet rijden en eerst met een arts of apotheker overleggen",
@@ -9185,9 +9185,9 @@
       "Extra koffie drinken en gewoon rijden"
      ],
      "ok": 1,
-     "why": "Bij medicijnen die de rijvaardigheid kunnen beïnvloeden, mag Krijger niet rijden. Hij moet eerst advies vragen aan een arts of apotheker. Sufheid door medicijnen is een risico voor de verkeersveiligheid. Bron: CBR ET 4.",
+     "why": "Bij medicijnen die de rijvaardigheid kunnen beïnvloeden, mag leerling A niet rijden. Hij moet eerst advies vragen aan een arts of apotheker. Sufheid door medicijnen is een risico voor de verkeersveiligheid. Bron: CBR ET 4.",
      "wrong": [
-      "Medicijnen kunnen de rijvaardigheid beïnvloeden, ook als Krijger zich prima voelt.",
+      "Medicijnen kunnen de rijvaardigheid beïnvloeden, ook als leerling A zich prima voelt.",
       "",
       "Ook korte ritten zijn onveilig met medicijnen die de rijvaardigheid beïnvloeden.",
       "Koffie helpt niet tegen de effecten van medicijnen op de rijvaardigheid."
@@ -9200,7 +9200,7 @@
      "niveau": "lopen",
      "et": "ET 4.3",
      "type": "mc",
-     "q": "Krijger rijdt door een woonwijk. Op de stoep spelen kinderen. Wat verwacht de exameneis van een professionele chauffeur?",
+     "q": "Leerling A rijdt door een woonwijk. Op de stoep spelen kinderen. Wat verwacht de exameneis van een professionele chauffeur?",
      "opts": [
       "Snelheid verhogen om snel voorbij te zijn",
       "Toeteren om de kinderen te waarschuwen",
@@ -9223,7 +9223,7 @@
      "niveau": "lopen",
      "et": "ET 11.3",
      "type": "mc",
-     "q": "Tijdens een lange rit valt de navigatie uit. Krijger kent de omgeving slecht. Wat is de beste aanpak?",
+     "q": "Tijdens een lange rit valt de navigatie uit. Leerling A kent de omgeving slecht. Wat is de beste aanpak?",
      "opts": [
       "Stoppen op de vluchtstrook en wachten tot de navigatie weer werkt",
       "Terugrijden naar het beginpunt",
@@ -9231,7 +9231,7 @@
       "De passagier vragen de hele route te bepalen en zelf niets te doen"
      ],
      "ok": 2,
-     "why": "Bij uitval van de navigatie moet Krijger rustig blijven, de bewegwijzering volgen en de passagier informeren. Stoppen op de vluchtstrook of terugrijden is onveilig of onjuist. Bron: CBR ET 4.",
+     "why": "Bij uitval van de navigatie moet leerling A rustig blijven, de bewegwijzering volgen en de passagier informeren. Stoppen op de vluchtstrook of terugrijden is onveilig of onjuist. Bron: CBR ET 4.",
      "wrong": [
       "Stoppen op de vluchtstrook is alleen voor noodgevallen en gevaarlijk.",
       "Terugrijden naar het beginpunt is onveilig en onnodig.",
@@ -9246,7 +9246,7 @@
      "niveau": "lopen",
      "et": "ET 11.3",
      "type": "mc",
-     "q": "Krijger rijdt op de autosnelweg A2 van Utrecht naar Maastricht. Opeens valt zijn navigatiesysteem uit. Welke borden boven de weg kan hij het beste volgen om de juiste steden te vinden?",
+     "q": "Leerling A rijdt op de autosnelweg A2 van Utrecht naar Maastricht. Opeens valt zijn navigatiesysteem uit. Welke borden boven de weg kan hij het beste volgen om de juiste steden te vinden?",
      "opts": [
       "De borden van de Nationale Bewegwijzeringsdienst (NBd).",
       "De borden van de ANWB.",
@@ -9269,7 +9269,7 @@
      "niveau": "lopen",
      "et": "ET 3.1",
      "type": "mc",
-     "q": "Krijger werkt voor een bedrijf dat vaste ritten rijdt voor een zorgverzekeraar. Hij haalt elke dag dezelfde patiënten op voor hun nierdialyse. Hoe heet deze vorm van vervoer?",
+     "q": "Leerling A werkt voor een bedrijf dat vaste ritten rijdt voor een zorgverzekeraar. Hij haalt elke dag dezelfde patiënten op voor hun nierdialyse. Hoe heet deze vorm van vervoer?",
      "opts": [
       "Straattaxi",
       "Opstapvervoer",
@@ -9292,7 +9292,7 @@
      "niveau": "lopen",
      "et": "ET 4.2",
      "type": "mc",
-     "q": "Het is erg druk en Krijger heeft lichte hoofdpijn. Hij wil een paracetamol met codeïne innemen. Waar moet hij rekening mee houden?",
+     "q": "Het is erg druk en leerling A heeft lichte hoofdpijn. Hij wil een paracetamol met codeïne innemen. Waar moet hij rekening mee houden?",
      "opts": [
       "Niets, een paracetamol mag je altijd gebruiken.",
       "Medicijnen met een gele sticker kunnen de rijvaardigheid beïnvloeden.",
@@ -9315,7 +9315,7 @@
      "niveau": "lopen",
      "et": "ET 4.1",
      "type": "mc",
-     "q": "Tijdens de dagelijkse voertuigcontrole controleert Krijger de banden van de taxi. Waarom is de juiste bandenspanning zo belangrijk?",
+     "q": "Tijdens de dagelijkse voertuigcontrole controleert leerling A de banden van de taxi. Waarom is de juiste bandenspanning zo belangrijk?",
      "opts": [
       "De taxameter werkt dan nauwkeuriger.",
       "Het zorgt voor een betere wegligging en een kortere remweg.",
@@ -9338,7 +9338,7 @@
      "niveau": "lopen",
      "et": "ET 11.2",
      "type": "mc",
-     "q": "Een passagier vraagt Krijger om van Utrecht naar de hoofdstad van de provincie Overijssel te rijden. Welke stad en welke rijksweg zijn de meest logische keuze?",
+     "q": "Een passagier vraagt leerling A om van Utrecht naar de hoofdstad van de provincie Overijssel te rijden. Welke stad en welke rijksweg zijn de meest logische keuze?",
      "opts": [
       "Naar Zwolle via de A28.",
       "Naar Deventer via de A1.",
@@ -9361,7 +9361,7 @@
      "niveau": "rennen",
      "et": "ET 3.1",
      "type": "mc",
-     "q": "Krijger staat met zijn taxi op een officiële taxistandplaats. Een passagier stapt zonder afspraak in en wil naar een winkelcentrum. Krijger rekent af volgens de taxameter. Welke vorm van taxivervoer is dit?",
+     "q": "Leerling A staat met zijn taxi op een officiële taxistandplaats. Een passagier stapt zonder afspraak in en wil naar een winkelcentrum. Leerling A rekent af volgens de taxameter. Welke vorm van taxivervoer is dit?",
      "opts": [
       "Contractvervoer",
       "Openbaar vervoer",
@@ -9384,7 +9384,7 @@
      "niveau": "rennen",
      "et": "ET 4.1",
      "type": "mc",
-     "q": "Krijger vertrouwt op de APK-keuring en doet daarom 's ochtends geen voertuigcontrole. Is dat verantwoord?",
+     "q": "Leerling A vertrouwt op de APK-keuring en doet daarom 's ochtends geen voertuigcontrole. Is dat verantwoord?",
      "opts": [
       "Ja, de APK vervangt de dagelijkse controle",
       "Nee, een dagelijkse controle is nodig om tussentijdse gebreken te ontdekken",
@@ -9407,7 +9407,7 @@
      "niveau": "rennen",
      "et": "ET 11.3",
      "type": "mc",
-     "q": "Tijdens een rit op een autoweg valt de navigatie uit. Krijger moet naar een provinciehoofdstad. Wat is de beste aanpak?",
+     "q": "Tijdens een rit op een autoweg valt de navigatie uit. Leerling A moet naar een provinciehoofdstad. Wat is de beste aanpak?",
      "opts": [
       "Op de vluchtstrook stoppen om de navigatie te resetten",
       "Omkeren en terugrijden naar het laatste bekende punt",
@@ -9430,7 +9430,7 @@
      "niveau": "rennen",
      "et": "ET 3.1",
      "type": "mc",
-     "q": "Krijger rijdt een vaste groep ouderen naar een dagopvang. De ritten zijn vooraf besteld door de gemeente. Welke vorm van vervoer is dit?",
+     "q": "Leerling A rijdt een vaste groep ouderen naar een dagopvang. De ritten zijn vooraf besteld door de gemeente. Welke vorm van vervoer is dit?",
      "opts": [
       "Dit is straattaxi-vervoer.",
       "Dit is opstapvervoer.",
@@ -9453,7 +9453,7 @@
      "niveau": "rennen",
      "et": "ET 4.2",
      "type": "mc",
-     "q": "Krijger voelt zich tijdens een lange nachtrit erg moe worden. Wat is de enige veilige manier om weer fit te worden?",
+     "q": "Leerling A voelt zich tijdens een lange nachtrit erg moe worden. Wat is de enige veilige manier om weer fit te worden?",
      "opts": [
       "Een raam openzetten voor koude lucht.",
       "De radio een stuk harder zetten.",
@@ -9476,7 +9476,7 @@
      "niveau": "rennen",
      "et": "ET 4.3",
      "type": "mc",
-     "q": "Krijger nadert een kruispunt. Een oudere man met een looprek wil oversteken op een plek waar geen zebrapad is. Wat moet Krijger doen?",
+     "q": "Leerling A nadert een kruispunt. Een oudere man met een looprek wil oversteken op een plek waar geen zebrapad is. Wat moet leerling A doen?",
      "opts": [
       "Doorrijden, want de voetganger heeft geen voorrang zonder zebrapad.",
       "Alleen stoppen als de man een witte stok met rode ringen vasthoudt.",
@@ -9499,7 +9499,7 @@
      "niveau": "rennen",
      "et": "ET 3.2",
      "type": "mc",
-     "q": "Krijger wil op een standplaats in een grote stad gaan staan. Hij ziet dat er een Toegelaten Taxi Organisatie (TTO) actief is. Wat is een kenmerk van een TTO?",
+     "q": "Leerling A wil op een standplaats in een grote stad gaan staan. Hij ziet dat er een Toegelaten Taxi Organisatie (TTO) actief is. Wat is een kenmerk van een TTO?",
      "opts": [
       "Een TTO is verplicht voor al het contractvervoer in Nederland.",
       "Een TTO is een vakbond voor alle taxichauffeurs in loondienst.",
@@ -9522,7 +9522,7 @@
      "niveau": "kruipen",
      "et": "ET 5.1",
      "type": "mc",
-     "q": "Krijger ziet op de autosnelweg een ongeval vlak voor hem. Er is nog geen hulp aanwezig. Wat doet Krijger eerst?",
+     "q": "Leerling A ziet op de autosnelweg een ongeval vlak voor hem. Er is nog geen hulp aanwezig. Wat doet leerling A eerst?",
      "opts": [
       "Hij zet zijn veiligheidshesje aan en gaat achter de vangrail staan.",
       "Hij begint meteen met reanimeren.",
@@ -9539,7 +9539,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Denk aan de eerste letter van PAMAN.",
-     "simpel": "Krijger ziet een ongeval op de snelweg. Er is nog geen hulp. Wat doet Krijger eerst?",
+     "simpel": "Leerling A ziet een ongeval op de snelweg. Er is nog geen hulp. Wat doet leerling A eerst?",
      "kern": [
       "ongeval",
       "autosnelweg",
@@ -9552,7 +9552,7 @@
      "niveau": "kruipen",
      "et": "ET 5.2",
      "type": "mc",
-     "q": "Krijger rijdt in de bebouwde kom en raakt een geparkeerde auto. Er is alleen blikschade. Welk document vullen beide bestuurders samen in?",
+     "q": "Leerling A rijdt in de bebouwde kom en raakt een geparkeerde auto. Er is alleen blikschade. Welk document vullen beide bestuurders samen in?",
      "opts": [
       "Het keuringsbewijs van de taxameter",
       "Het Europees schadeformulier",
@@ -9569,7 +9569,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Dit formulier is blauw en speciaal voor na een aanrijding.",
-     "simpel": "Krijger raakt een geparkeerde auto in de bebouwde kom. Alleen blikschade. Welk document vullen beide bestuurders in?",
+     "simpel": "Leerling A raakt een geparkeerde auto in de bebouwde kom. Alleen blikschade. Welk document vullen beide bestuurders in?",
      "kern": [
       "geparkeerde auto",
       "blikschade",
@@ -9582,7 +9582,7 @@
      "niveau": "kruipen",
      "et": "ET 5.3",
      "type": "mc",
-     "q": "Krijger hoort via de radio dat er een ongeluk op zijn route is. De weg is dicht. Wat is de beste actie?",
+     "q": "Leerling A hoort via de radio dat er een ongeluk op zijn route is. De weg is dicht. Wat is de beste actie?",
      "opts": [
       "Hij rijdt door tot de afzetting en wacht daar.",
       "Hij zegt niets tegen de passagier en rijdt om.",
@@ -9599,7 +9599,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Denk aan: andere route, passagier en centrale informeren.",
-     "simpel": "Krijger hoort op de radio dat er een ongeluk is. De weg is dicht. Wat is de beste actie?",
+     "simpel": "Leerling A hoort op de radio dat er een ongeluk is. De weg is dicht. Wat is de beste actie?",
      "kern": [
       "radio",
       "ongeluk",
@@ -9612,7 +9612,7 @@
      "niveau": "kruipen",
      "et": "ET 5.1",
      "type": "mc",
-     "q": "Krijger is als eerste bij een ongeval. Welke volgorde is volgens PAMAN juist?",
+     "q": "Leerling A is als eerste bij een ongeval. Welke volgorde is volgens PAMAN juist?",
      "opts": [
       "Markeren, alarmeren, noodzakelijke hulp, persoonlijke veiligheid, andermans veiligheid",
       "Alarmeren, markeren, noodzakelijke hulp, andermans veiligheid, persoonlijke veiligheid",
@@ -9629,7 +9629,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "De letters van PAMAN wijzen de volgorde aan.",
-     "simpel": "Krijger is als eerste bij een ongeval. Wat is de juiste volgorde volgens PAMAN?",
+     "simpel": "Leerling A is als eerste bij een ongeval. Wat is de juiste volgorde volgens PAMAN?",
      "kern": [
       "ongeval",
       "volgorde",
@@ -9642,10 +9642,10 @@
      "niveau": "kruipen",
      "et": "ET 5.2",
      "type": "mc",
-     "q": "Krijger en de andere bestuurder hebben het Europees schadeformulier ingevuld. Wat moet er daarna gebeuren?",
+     "q": "Leerling A en de andere bestuurder hebben het Europees schadeformulier ingevuld. Wat moet er daarna gebeuren?",
      "opts": [
       "Alleen de politie ondertekent het formulier.",
-      "Krijger stuurt het alleen naar zijn verzekeraar en de ander tekent niet.",
+      "leerling A stuurt het alleen naar zijn verzekeraar en de ander tekent niet.",
       "Beide bestuurders ondertekenen het formulier en krijgen elk een kopie.",
       "Het formulier wordt weggegooid, want er is geen schade."
      ],
@@ -9659,7 +9659,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Twee handtekeningen, twee kopieën.",
-     "simpel": "Krijger en de andere bestuurder hebben het schadeformulier ingevuld. Wat doen ze daarna?",
+     "simpel": "Leerling A en de andere bestuurder hebben het schadeformulier ingevuld. Wat doen ze daarna?",
      "kern": [
       "schadeformulier",
       "ingevuld",
@@ -9672,7 +9672,7 @@
      "niveau": "kruipen",
      "et": "ET 5.1",
      "type": "mc",
-     "q": "Krijger krijgt pech op de autosnelweg in een flauwe bocht. Wat is de allereerste handeling volgens de PAMAN-volgorde direct nadat de auto veilig stilstaat?",
+     "q": "Leerling A krijgt pech op de autosnelweg in een flauwe bocht. Wat is de allereerste handeling volgens de PAMAN-volgorde direct nadat de auto veilig stilstaat?",
      "opts": [
       "Hij markeert de plek met de gevarendriehoek op de juiste afstand.",
       "Hij controleert eerst zijn eigen persoonlijke veiligheid voordat hij uitstapt.",
@@ -9689,7 +9689,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Denk aan de letter P van PAMAN: wie moet er als eerste veilig zijn?",
-     "simpel": "Krijger heeft pech op de snelweg. De auto staat veilig stil. Wat doet hij eerst volgens PAMAN?",
+     "simpel": "Leerling A heeft pech op de snelweg. De auto staat veilig stil. Wat doet hij eerst volgens PAMAN?",
      "kern": [
       "pech",
       "PAMAN",
@@ -9702,7 +9702,7 @@
      "niveau": "kruipen",
      "et": "ET 5.1",
      "type": "mc",
-     "q": "Krijger verleent hulp bij een ongeval op de snelweg. Wat is de juiste volgorde van de stappen die direct na de persoonlijke en andermans veiligheid komen?",
+     "q": "Leerling A verleent hulp bij een ongeval op de snelweg. Wat is de juiste volgorde van de stappen die direct na de persoonlijke en andermans veiligheid komen?",
      "opts": [
       "Alarmeren, markeren, noodzakelijke hulp",
       "Markeren, alarmeren, noodzakelijke hulp",
@@ -9719,7 +9719,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Eerst de weg veilig maken voor anderen, dan bellen, dan pas handelen.",
-     "simpel": "Krijger helpt bij een ongeluk op de snelweg. Wat moet hij eerst doen na zijn eigen veiligheid en die van anderen?",
+     "simpel": "Leerling A helpt bij een ongeluk op de snelweg. Wat moet hij eerst doen na zijn eigen veiligheid en die van anderen?",
      "kern": [
       "ongeval",
       "snelweg",
@@ -9732,7 +9732,7 @@
      "niveau": "kruipen",
      "et": "ET 5.3",
      "type": "mc",
-     "q": "Krijger krijgt te maken met een ernstige file-stremming op de A-weg. Wat is zijn eerste professionele taak ten aanzien van de klant in de taxi?",
+     "q": "Leerling A krijgt te maken met een ernstige file-stremming op de A-weg. Wat is zijn eerste professionele taak ten aanzien van de klant in de taxi?",
      "opts": [
       "De passagier direct informeren over de vertraging en de situatie",
       "De rit onmiddellijk beëindigen op de vluchtstrook",
@@ -9749,7 +9749,7 @@
      ],
      "bron": "CBR ET 5",
      "hint": "Communicatie met de klant staat voorop bij onvoorziene vertraging.",
-     "simpel": "Krijger staat in een lange file op de snelweg. Wat moet hij eerst doen voor zijn klant?",
+     "simpel": "Leerling A staat in een lange file op de snelweg. Wat moet hij eerst doen voor zijn klant?",
      "kern": [
       "file-stremming",
       "klant",
@@ -9762,7 +9762,7 @@
      "niveau": "kruipen",
      "et": "ET 5.2",
      "type": "mc",
-     "q": "Krijger rijdt op een provinciale weg buiten de bebouwde kom en krijgt een aanrijding zonder gewonden. Welke gegevens vermeldt hij minimaal bij de melding aan de centrale of instanties?",
+     "q": "Leerling A rijdt op een provinciale weg buiten de bebouwde kom en krijgt een aanrijding zonder gewonden. Welke gegevens vermeldt hij minimaal bij de melding aan de centrale of instanties?",
      "opts": [
       "Alleen het tijdstip en het merk van de auto",
       "Tijdstip, schade, gewonden (of geen), wegnummer, hectometerpaal en rijrichting",
@@ -9779,7 +9779,7 @@
      ],
      "bron": "CBR ET 5.2",
      "hint": "Tijd, schade, gewonden en de exacte plek op de weg.",
-     "simpel": "Krijger rijdt buiten de stad en krijgt een ongeluk zonder gewonden. Welke informatie geeft hij door aan de centrale?",
+     "simpel": "Leerling A rijdt buiten de stad en krijgt een ongeluk zonder gewonden. Welke informatie geeft hij door aan de centrale?",
      "kern": [
       "aanrijding",
       "melding",
@@ -9891,7 +9891,7 @@
      "niveau": "lopen",
      "et": "ET 5.2",
      "type": "mc",
-     "q": "Krijger moet bij een melding aan de alarmcentrale (Alarmeren) informatie geven over de slachtoffers. Wat is hierbij essentieel voor de hulpdiensten?",
+     "q": "Leerling A moet bij een melding aan de alarmcentrale (Alarmeren) informatie geven over de slachtoffers. Wat is hierbij essentieel voor de hulpdiensten?",
      "opts": [
       "De nationaliteit en de leeftijd van alle betrokken passagiers.",
       "Het aantal gewonden en een korte beschrijving van hun toestand of letsel.",
@@ -9937,7 +9937,7 @@
      "niveau": "rennen",
      "et": "ET 5.2",
      "type": "mc",
-     "q": "Krijger rijdt op de A12 en ziet een ongeval. Hij moet de plaats melden. Welke melding is correct voor buiten de bebouwde kom?",
+     "q": "Leerling A rijdt op de A12 en ziet een ongeval. Hij moet de plaats melden. Welke melding is correct voor buiten de bebouwde kom?",
      "opts": [
       "Alleen de A12 en hectometerpaal 45,2",
       "Alleen Utrecht en de A12",
@@ -9983,7 +9983,7 @@
      "niveau": "rennen",
      "et": "ET 5.1",
      "type": "mc",
-     "q": "Krijger is betrokken bij een aanrijding op de autosnelweg A12. Er is alleen blikschade. Wat moet hij doen volgens de regels van Incident Management?",
+     "q": "Leerling A is betrokken bij een aanrijding op de autosnelweg A12. Er is alleen blikschade. Wat moet hij doen volgens de regels van Incident Management?",
      "opts": [
       "De voertuigen laten staan op de rijbaan tot de politie er is voor het onderzoek.",
       "Meteen het Europees schadeformulier invullen terwijl de taxi op de rijstrook staat.",
@@ -10006,7 +10006,7 @@
      "niveau": "rennen",
      "et": "ET 1.1",
      "type": "mc",
-     "q": "Krijger vult na een ongeval het Europees schadeformulier in. De andere bestuurder zegt dat het de schuld van Krijger is. Wat moet Krijger doen bij het ondertekenen?",
+     "q": "Leerling A vult na een ongeval het Europees schadeformulier in. De andere bestuurder zegt dat het de schuld van leerling A is. Wat moet leerling A doen bij het ondertekenen?",
      "opts": [
       "Alleen tekenen als hij toegeeft dat het zijn eigen schuld is.",
       "De voorkant samen invullen en tekenen; dit is geen schuldbekentenis.",
@@ -10029,7 +10029,7 @@
      "niveau": "rennen",
      "et": "ET 5.3",
      "type": "mc",
-     "q": "Krijger rijdt een contractrit voor een zorginstelling. Door een plotselinge wegafsluiting (stremming) kan hij niet verder. Wat is de juiste volgorde van handelen?",
+     "q": "Leerling A rijdt een contractrit voor een zorginstelling. Door een plotselinge wegafsluiting (stremming) kan hij niet verder. Wat is de juiste volgorde van handelen?",
      "opts": [
       "Eerst de passagier informeren, dan de centrale inlichten en een andere route zoeken.",
       "Meteen omkeren en de passagier terugbrengen naar het startadres.",
@@ -10037,7 +10037,7 @@
       "De passagier laten uitstappen zodat deze zelf te voet verder kan gaan."
      ],
      "ok": 0,
-     "why": "Bij een stremming moet Krijger de passagier geruststellen en informeren over de vertraging. Daarna meldt hij dit aan de centrale zodat zij weten waarom de rit langer duurt. Vervolgens zoekt hij een alternatieve route om de passagier alsnog op de bestemming te krijgen.",
+     "why": "Bij een stremming moet leerling A de passagier geruststellen en informeren over de vertraging. Daarna meldt hij dit aan de centrale zodat zij weten waarom de rit langer duurt. Vervolgens zoekt hij een alternatieve route om de passagier alsnog op de bestemming te krijgen.",
      "wrong": [
       "",
       "Met terugbrengen los je de stremming niet op. Je moet informeren en een andere route zoeken.",
@@ -10052,7 +10052,7 @@
      "niveau": "rennen",
      "et": "ET 5.1",
      "type": "mc",
-     "q": "Krijger ziet een gewonde passagier na een aanrijding. Hij volgt de PAMAN-regel. Wanneer verleent hij de noodzakelijke hulp (N)?",
+     "q": "Leerling A ziet een gewonde passagier na een aanrijding. Hij volgt de PAMAN-regel. Wanneer verleent hij de noodzakelijke hulp (N)?",
      "opts": [
       "Meteen als hij de auto heeft stilgezet, nog voordat hij 112 belt.",
       "Pas nadat hij zichzelf heeft beveiligd, de situatie heeft gemarkeerd en gealarmeerd.",
@@ -10060,7 +10060,7 @@
       "Nadat hij de schadeformulieren met de tegenpartij volledig heeft ingevuld."
      ],
      "ok": 1,
-     "why": "In de PAMAN-volgorde is de N (Noodzakelijke hulp) de laatste stap. Krijger moet eerst zorgen voor veiligheid (P en A), de plek markeren (M) en de hulpdiensten alarmeren (A). Pas daarna kan hij zich veilig concentreren op het verlenen van eerste hulp aan slachtoffers.",
+     "why": "In de PAMAN-volgorde is de N (Noodzakelijke hulp) de laatste stap. Leerling A moet eerst zorgen voor veiligheid (P en A), de plek markeren (M) en de hulpdiensten alarmeren (A). Pas daarna kan hij zich veilig concentreren op het verlenen van eerste hulp aan slachtoffers.",
      "wrong": [
       "Hij moet eerst zichzelf beveiligen en 112 bellen voordat hij hulp verleent.",
       "",
@@ -10075,7 +10075,7 @@
      "niveau": "rennen",
      "et": "ET 5.2",
      "type": "mc",
-     "q": "Krijger heeft een ongeval binnen de bebouwde kom in een stad die hij niet goed kent. Hoe bepaalt hij de juiste locatie voor de melding aan 112?",
+     "q": "Leerling A heeft een ongeval binnen de bebouwde kom in een stad die hij niet goed kent. Hoe bepaalt hij de juiste locatie voor de melding aan 112?",
      "opts": [
       "Hij zoekt naar het dichtstbijzijnde wegnummer op een hectometerpaal.",
       "Hij kijkt naar de straatnaam en het huisnummer of een zijstraat in de buurt.",
@@ -10098,7 +10098,7 @@
      "niveau": "kruipen",
      "et": "ET 6.1",
      "type": "mc",
-     "q": "Een passagier stapt in en vraagt: 'Wat kost de rit naar het station en hoe lang duurt het?' Wat moet Krijger doen?",
+     "q": "Een passagier stapt in en vraagt: 'Wat kost de rit naar het station en hoe lang duurt het?' Wat moet leerling A doen?",
      "opts": [
       "Een duidelijke schatting geven van de kosten en de verwachte reistijd vóór vertrek.",
       "Zeggen dat alleen de meter de prijs bepaalt en geen schatting geven.",
@@ -10115,7 +10115,7 @@
      ],
      "bron": "CBR ET 6.1",
      "hint": "Kosten en tijd benoem je vóór de rit, niet pas erna.",
-     "simpel": "Een passagier vraagt hoeveel de rit kost en hoe lang hij duurt. Wat moet Krijger doen?",
+     "simpel": "Een passagier vraagt hoeveel de rit kost en hoe lang hij duurt. Wat moet leerling A doen?",
      "kern": [
       "passagier",
       "kosten",
@@ -10128,7 +10128,7 @@
      "niveau": "kruipen",
      "et": "ET 8.1",
      "type": "mc",
-     "q": "Een passagier zegt tegen Krijger: 'Je moet een andere route nemen, die is korter.' Krijger weet dat die route is afgesloten door werkzaamheden. Wat doet hij?",
+     "q": "Een passagier zegt tegen leerling A: 'Je moet een andere route nemen, die is korter.' leerling A weet dat die route is afgesloten door werkzaamheden. Wat doet hij?",
      "opts": [
       "Hij rijdt de route van de passagier om discussie te voorkomen.",
       "Hij legt rustig uit dat de route is afgesloten en kiest de beste alternatieve route, zonder discussie.",
@@ -10145,7 +10145,7 @@
      ],
      "bron": "CBR ET 6.2",
      "hint": "Geen discussie, wel uitleg.",
-     "simpel": "Een passagier wil een andere route. Krijger weet dat die route is afgesloten. Wat doet hij?",
+     "simpel": "Een passagier wil een andere route. Leerling A weet dat die route is afgesloten. Wat doet hij?",
      "kern": [
       "passagier",
       "route",
@@ -10158,7 +10158,7 @@
      "niveau": "kruipen",
      "et": "ET 6.2",
      "type": "mc",
-     "q": "Tijdens een rit gaat de telefoon van Krijger over. Het is een privégesprek. Achterin zit een passagier. Wat is de beste actie?",
+     "q": "Tijdens een rit gaat de telefoon van leerling A over. Het is een privégesprek. Achterin zit een passagier. Wat is de beste actie?",
      "opts": [
       "De telefoon vasthouden en opnemen, want het is belangrijk.",
       "De telefoon helemaal negeren en laten overgaan.",
@@ -10175,7 +10175,7 @@
      ],
      "bron": "RVV 61a",
      "hint": "De passagier luistert mee; handsfree en kort.",
-     "simpel": "De telefoon van Krijger gaat. Het is privé. Een passagier zit achterin. Wat doet hij het best?",
+     "simpel": "De telefoon van leerling A gaat. Het is privé. Een passagier zit achterin. Wat doet hij het best?",
      "kern": [
       "telefoon",
       "privégesprek",
@@ -10188,7 +10188,7 @@
      "niveau": "kruipen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Een oudere passagier met een rollator heeft meer tijd nodig om in te stappen. Krijger heeft een strakke planning. Wat is de beste actie?",
+     "q": "Een oudere passagier met een rollator heeft meer tijd nodig om in te stappen. Leerling A heeft een strakke planning. Wat is de beste actie?",
      "opts": [
       "De passagier vragen op te schieten vanwege zijn planning.",
       "De passagier zeggen een latere taxi te nemen.",
@@ -10205,7 +10205,7 @@
      ],
      "bron": "CBR ET 6.4",
      "hint": "Geduld en respect voor kwetsbare passagiers.",
-     "simpel": "Een oudere passagier met een rollator stapt langzaam in. Krijger heeft weinig tijd. Wat doet hij het best?",
+     "simpel": "Een oudere passagier met een rollator stapt langzaam in. Leerling A heeft weinig tijd. Wat doet hij het best?",
      "kern": [
       "oudere passagier",
       "rollator",
@@ -10221,7 +10221,7 @@
      "q": "Een passagier is het niet eens met een extra bedrag voor wachttijd. Waar is bepaald of deze kosten mogen worden gerekend?",
      "opts": [
       "In de Algemene Voorwaarden Zorgvervoer en Taxi (KNV).",
-      "In de persoonlijke regels van Krijger.",
+      "In de persoonlijke regels van leerling A.",
       "In de gemeentelijke wegenverkeerswet.",
       "Nergens; elke chauffeur beslist dat zelf."
      ],
@@ -10248,7 +10248,7 @@
      "niveau": "kruipen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Krijger haalt een passagier met een visuele beperking op. De passagier wacht op de stoep. Wat doet Krijger eerst?",
+     "q": "Leerling A haalt een passagier met een visuele beperking op. De passagier wacht op de stoep. Wat doet leerling A eerst?",
      "opts": [
       "Hij stopt met de passagiersdeur aan de verkeerskant, zodat de passagier snel kan instappen.",
       "Hij vraagt de passagier naar de verkeerskant te lopen.",
@@ -10256,7 +10256,7 @@
       "Hij controleert het adres telefonisch pas nadat de passagier is ingestapt en de taxi rijdt."
      ],
      "ok": 2,
-     "why": "Passagiers stappen in aan de stoepkant, nooit aan de verkeerskant. Daarna controleert Krijger adres en bestemming.",
+     "why": "Passagiers stappen in aan de stoepkant, nooit aan de verkeerskant. Daarna controleert leerling A adres en bestemming.",
      "wrong": [
       "Passagiers stappen in aan de stoepkant, niet aan de verkeerskant.",
       "Passagiers moeten niet naar de verkeerskant lopen; dat is gevaarlijk.",
@@ -10265,7 +10265,7 @@
      ],
      "bron": "CBR exameneisen TVT",
      "hint": "Stoepkant is veilig; adres check je vóór vertrek.",
-     "simpel": "Krijger haalt een passagier op die slecht ziet. De passagier wacht op de stoep. Wat doet Krijger eerst?",
+     "simpel": "Leerling A haalt een passagier op die slecht ziet. De passagier wacht op de stoep. Wat doet leerling A eerst?",
      "kern": [
       "visuele beperking",
       "stoep",
@@ -10278,7 +10278,7 @@
      "niveau": "kruipen",
      "et": "ET 4.1",
      "type": "mc",
-     "q": "De auto van Krijger staat klaar voor de dagdienst. Aan welke eis moet de buitenkant van de taxi voldoen bij aanvang van de dienst?",
+     "q": "De auto van leerling A staat klaar voor de dagdienst. Aan welke eis moet de buitenkant van de taxi voldoen bij aanvang van de dienst?",
      "opts": [
       "De auto hoeft alleen eens per week gewassen te worden.",
       "De auto moet zowel van binnen als van buiten schoon zijn.",
@@ -10295,7 +10295,7 @@
      ],
      "bron": "CBR ET 7.1",
      "hint": "Auto schoon en netjes.",
-     "simpel": "Krijger begint zijn werk. Wat is de eis voor de buitenkant van de taxi?",
+     "simpel": "Leerling A begint zijn werk. Wat is de eis voor de buitenkant van de taxi?",
      "kern": [
       "buitenkant",
       "taxi",
@@ -10338,7 +10338,7 @@
      "niveau": "lopen",
      "et": "ET 6.1",
      "type": "mc",
-     "q": "Een passagier stapt in en vraagt vóór vertrek: 'Wat kost een rit naar het vliegveld?' Krijger weet dat de ritprijs afhangt van de taxameter. Wat doet hij?",
+     "q": "Een passagier stapt in en vraagt vóór vertrek: 'Wat kost een rit naar het vliegveld?' leerling A weet dat de ritprijs afhangt van de taxameter. Wat doet hij?",
      "opts": [
       "Hij zegt dat hij dat na de rit wel zal zien.",
       "Hij geeft een duidelijke indicatie en legt uit dat de bedragen gebaseerd zijn op de tariefkaart en taxameter.",
@@ -10361,12 +10361,12 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Tijdens de rit wordt een passagier boos en zegt dat Krijger de verkeerde route rijdt. Hij wil erover discussiëren. Wat is de juiste houding?",
+     "q": "Tijdens de rit wordt een passagier boos en zegt dat leerling A de verkeerde route rijdt. Hij wil erover discussiëren. Wat is de juiste houding?",
      "opts": [
-      "Krijger gaat de discussie aan om zijn gelijk te bewijzen.",
-      "Krijger biedt direct een korting aan om de passagier stil te krijgen.",
-      "Krijger blijft kalm, gaat geen discussie aan en legt kort uit welke route hij rijdt; indien nodig wijst hij op de klachtenprocedure.",
-      "Krijger negeert de passagier en rijdt door."
+      "leerling A gaat de discussie aan om zijn gelijk te bewijzen.",
+      "leerling A biedt direct een korting aan om de passagier stil te krijgen.",
+      "leerling A blijft kalm, gaat geen discussie aan en legt kort uit welke route hij rijdt; indien nodig wijst hij op de klachtenprocedure.",
+      "leerling A negeert de passagier en rijdt door."
      ],
      "ok": 2,
      "why": "Volgens de CBR exameneisen is een professionele en neutrale houding vereist, waarbij geldt: geen discussie met de passagier en eventueel verwijzen naar de klachtenprocedure.",
@@ -10384,7 +10384,7 @@
      "niveau": "lopen",
      "et": "ET 8.1",
      "type": "mc",
-     "q": "Een passagier spreekt weinig Nederlands. Krijger wil uitleggen dat de rit iets langer duurt door een omleiding. Hoe doet hij dat op B1-niveau?",
+     "q": "Een passagier spreekt weinig Nederlands. Leerling A wil uitleggen dat de rit iets langer duurt door een omleiding. Hoe doet hij dat op B1-niveau?",
      "opts": [
       "Hij gebruikt korte zinnen, eenvoudige woorden en checkt of de passagier het begrijpt.",
       "Hij spreekt hard en langzaam in zijn eigen dialect.",
@@ -10407,7 +10407,7 @@
      "niveau": "lopen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Krijger stopt op een drukke straat. Een ouder echtpaar wil aan de kant van het verkeer instappen. Wat doet Krijger?",
+     "q": "Leerling A stopt op een drukke straat. Een ouder echtpaar wil aan de kant van het verkeer instappen. Wat doet leerling A?",
      "opts": [
       "Hij laat hen op de stoepkant instappen en controleert eerst of het adres klopt.",
       "Hij laat hen snel aan de verkeerskant instappen, want er is weinig verkeer.",
@@ -10476,15 +10476,15 @@
      "niveau": "lopen",
      "et": "ET 3.1",
      "type": "mc",
-     "q": "Krijger rijdt contractvervoer voor een vaste groep ouderen. Een passagier vraagt tijdens de rit om een forse omweg naar een postkantoor en belooft een extra fooi. Wat is de juiste handelwijze volgens de KNV-voorwaarden en professionele beroepshouding?",
+     "q": "Leerling A rijdt contractvervoer voor een vaste groep ouderen. Een passagier vraagt tijdens de rit om een forse omweg naar een postkantoor en belooft een extra fooi. Wat is de juiste handelwijze volgens de KNV-voorwaarden en professionele beroepshouding?",
      "opts": [
-      "Krijger voert de omweg direct uit omdat de klant koning is en extra betaalt.",
-      "Krijger legt uit dat de afgesproken route en bestemming contractueel vastliggen en gaat niet in op de discussie.",
-      "Krijger zet de passagier direct uit de taxi vanwege ongeoorloofde contractbreuk.",
-      "Krijger belt de centrale om goedkeuring te vragen en rijdt ondertussen alvast naar het postkantoor."
+      "leerling A voert de omweg direct uit omdat de klant koning is en extra betaalt.",
+      "leerling A legt uit dat de afgesproken route en bestemming contractueel vastliggen en gaat niet in op de discussie.",
+      "leerling A zet de passagier direct uit de taxi vanwege ongeoorloofde contractbreuk.",
+      "leerling A belt de centrale om goedkeuring te vragen en rijdt ondertussen alvast naar het postkantoor."
      ],
      "ok": 1,
-     "why": "Bij contractvervoer moet Krijger zich houden aan de contractafspraken over route en bestemming. Hij blijft rustig, vermijdt discussie en gaat niet in op de extra fooi; een eigenmachtige omweg of passagier uitzetten is niet professioneel.",
+     "why": "Bij contractvervoer moet leerling A zich houden aan de contractafspraken over route en bestemming. Hij blijft rustig, vermijdt discussie en gaat niet in op de extra fooi; een eigenmachtige omweg of passagier uitzetten is niet professioneel.",
      "wrong": [
       "Hij moet zich houden aan de contractroute, ook als de klant extra betaalt.",
       "",
@@ -10499,7 +10499,7 @@
      "niveau": "lopen",
      "et": "ET 6.2",
      "type": "mc",
-     "q": "Krijger wordt tijdens een rit naar het ziekenhuis gebeld door de planning voor een nieuwe spoedrit. Hij gebruikt een handsfree carkit. Waar moet Krijger scherp op letten?",
+     "q": "Leerling A wordt tijdens een rit naar het ziekenhuis gebeld door de planning voor een nieuwe spoedrit. Hij gebruikt een handsfree carkit. Waar moet leerling A scherp op letten?",
      "opts": [
       "Dat de passagier op de achterbank meeluistert en privacygevoelige of zakelijke informatie hoort.",
       "Dat handsfree bellen in een taxi wettelijk volstrekt verboden is.",
@@ -10522,12 +10522,12 @@
      "niveau": "lopen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Bij het ophalen van een blinde passagier met een geleidehond op een drukke straat, stopt Krijger de taxi. Wat is de correcte handelwijze bij het instappen?",
+     "q": "Bij het ophalen van een blinde passagier met een geleidehond op een drukke straat, stopt leerling A de taxi. Wat is de correcte handelwijze bij het instappen?",
      "opts": [
-      "Krijger blijft in de auto zitten en roept waar de deur is.",
-      "Krijger helpt actief, begeleidt de passagier en de hond naar de juiste deur en zorgt voor een veilige instap.",
-      "Krijger weigert de hond vanwege hygiënevoorschriften.",
-      "Krijger laat de passagier aan de straatkant instappen voor het snelle oversteken."
+      "leerling A blijft in de auto zitten en roept waar de deur is.",
+      "leerling A helpt actief, begeleidt de passagier en de hond naar de juiste deur en zorgt voor een veilige instap.",
+      "leerling A weigert de hond vanwege hygiënevoorschriften.",
+      "leerling A laat de passagier aan de straatkant instappen voor het snelle oversteken."
      ],
      "ok": 1,
      "why": "De chauffeur ondersteunt de passagier actief en zorgt voor een veilige instap aan de juiste kant; dit valt onder de omgang met passagiers en de instapprocedure. Bron: CBR ET 7.3.",
@@ -10591,7 +10591,7 @@
      "niveau": "rennen",
      "et": "ET 6.2",
      "type": "mc",
-     "q": "Maandag 09:35. Krijger rijdt met een passagier. Zijn vriend belt privé. Wat doet Krijger als hij het gesprek aanneemt?",
+     "q": "Maandag 09:35. Leerling A rijdt met een passagier. Zijn vriend belt privé. Wat doet leerling A als hij het gesprek aanneemt?",
      "opts": [
       "Hij neemt op via de handsfree-installatie en houdt het gesprek kort en zakelijk, want de passagier luistert mee.",
       "Hij neemt de telefoon in de hand, want hij staat net stil voor een rood licht.",
@@ -10622,7 +10622,7 @@
       "Hij vraagt de passagier om het zelf te lezen op de tariefkaart en stopt met uitleggen."
      ],
      "ok": 2,
-     "why": "Krijger moet Nederlands op B1-niveau spreken: korte zinnen, eenvoudige woorden. Zo begrijpt de passagier de informatie. Vaktaal of doorrijden zonder uitleg helpt niet.",
+     "why": "Leerling A moet Nederlands op B1-niveau spreken: korte zinnen, eenvoudige woorden. Zo begrijpt de passagier de informatie. Vaktaal of doorrijden zonder uitleg helpt niet.",
      "wrong": [
       "Vaktaal is moeilijk voor de passagier.",
       "De passagier krijgt nu geen uitleg.",
@@ -10660,7 +10660,7 @@
      "niveau": "rennen",
      "et": "ET 6.1",
      "type": "mc",
-     "q": "Een passagier wil weten wat er gebeurt als hij niet komt opdagen. Waar kan Krijger de passagier op wijzen?",
+     "q": "Een passagier wil weten wat er gebeurt als hij niet komt opdagen. Waar kan leerling A de passagier op wijzen?",
      "opts": [
       "Op de APK-keuring.",
       "Op de chauffeurskaart.",
@@ -10683,7 +10683,7 @@
      "niveau": "rennen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Krijger rijdt dagelijks dezelfde groep leerlingen voor een school. Waarom is klanttevredenheid hier extra belangrijk?",
+     "q": "Leerling A rijdt dagelijks dezelfde groep leerlingen voor een school. Waarom is klanttevredenheid hier extra belangrijk?",
      "opts": [
       "Omdat tevreden klanten belangrijk zijn voor het behoud van het contract.",
       "Omdat het verplicht is in de Arbowet.",
@@ -10706,7 +10706,7 @@
      "niveau": "rennen",
      "et": "ET 7.1",
      "type": "mc",
-     "q": "Een passagier met een visuele beperking en een geleidehond wil instappen bij Krijger. Wat schrijft de professionele omgang met doelgroepen voor?",
+     "q": "Een passagier met een visuele beperking en een geleidehond wil instappen bij leerling A. Wat schrijft de professionele omgang met doelgroepen voor?",
      "opts": [
       "De hond moet verplicht in de kofferbak van de taxi worden geplaatst.",
       "De hond mag geweigerd worden als er andere passagiers in de auto zitten.",
@@ -10729,7 +10729,7 @@
      "niveau": "rennen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Tijdens een rit ontstaat er een meningsverschil met de passagier over de gekozen route. Hoe handelt Krijger conform de richtlijnen?",
+     "q": "Tijdens een rit ontstaat er een meningsverschil met de passagier over de gekozen route. Hoe handelt leerling A conform de richtlijnen?",
      "opts": [
       "Hij gaat direct de discussie aan en verhoogt zijn stem om zijn gelijk te halen.",
       "Hij blijft rustig, vermijdt een nutteloze discussie en legt de situatie helder en neutraal uit in B1-taalniveau.",
@@ -10737,7 +10737,7 @@
       "Hij negeert de passagier volledig en rijdt expres een langere omweg."
      ],
      "ok": 1,
-     "why": "Krijger vermijdt discussies, blijft professioneel en communiceert helder op B1-niveau. Passagiers direct uit de auto zetten of negeren is onprofessioneel en gevaarlijk.",
+     "why": "Leerling A vermijdt discussies, blijft professioneel en communiceert helder op B1-niveau. Passagiers direct uit de auto zetten of negeren is onprofessioneel en gevaarlijk.",
      "wrong": [
       "Een professionele chauffeur gaat niet de discussie aan en verhoogt zijn stem niet.",
       "",
@@ -10959,7 +10959,7 @@
      "niveau": "kruipen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Een passagier wordt tijdens een rit agressief en dreigt Krijger fysiek te slaan. Wat moet Krijger als eerste doen volgens de veiligheidsprotocollen?",
+     "q": "Een passagier wordt tijdens een rit agressief en dreigt leerling A fysiek te slaan. Wat moet leerling A als eerste doen volgens de veiligheidsprotocollen?",
      "opts": [
       "Het risico inschatten en direct professionele hulp inroepen",
       "Proberen de passagier fysiek te overmeesteren tijdens het rijden",
@@ -10976,7 +10976,7 @@
      ],
      "bron": "CBR ET 8.3 / ET 9",
      "hint": "Schat eerst het gevaar in en schakel hulp in.",
-     "simpel": "Een passagier wordt agressief en dreigt te slaan. Wat moet Krijger eerst doen?",
+     "simpel": "Een passagier wordt agressief en dreigt te slaan. Wat moet leerling A eerst doen?",
      "kern": [
       "agressief",
       "dreigt",
@@ -10989,7 +10989,7 @@
      "niveau": "kruipen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Tijdens een rit ontstaat er een woordenwisseling met een passagier over de gereden route. Krijger wil voorkomen dat dit uitdraait op een conflict. Welke beroepshouding past hierbij?",
+     "q": "Tijdens een rit ontstaat er een woordenwisseling met een passagier over de gereden route. Leerling A wil voorkomen dat dit uitdraait op een conflict. Welke beroepshouding past hierbij?",
      "opts": [
       "Streng je gelijk halen en deur op slot draaien",
       "Oplossingsgericht meedenken en professioneel en neutraal blijven",
@@ -11006,7 +11006,7 @@
      ],
      "bron": "CBR ET 8",
      "hint": "Blijf kalm als ijs en los het neutraal op.",
-     "simpel": "Er ontstaat een woordenwisseling over de route. Krijger wil geen conflict. Wat is een goede beroepshouding?",
+     "simpel": "Er ontstaat een woordenwisseling over de route. Leerling A wil geen conflict. Wat is een goede beroepshouding?",
      "kern": [
       "woordenwisseling",
       "conflict",
@@ -11049,7 +11049,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Een passagier is boos over de ritprijs en begint te schreeuwen. Wat is de beste eerste reactie van Krijger?",
+     "q": "Een passagier is boos over de ritprijs en begint te schreeuwen. Wat is de beste eerste reactie van leerling A?",
      "opts": [
       "Hij luistert rustig, neemt de passagier serieus en blijft neutraal.",
       "Hij legt direct uit waarom de prijs klopt en gaat in discussie.",
@@ -11072,7 +11072,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Een passagier wordt tijdens de rit dreigend en zegt dat Krijger moet stoppen met de meter. Wat moet Krijger eerst doen?",
+     "q": "Een passagier wordt tijdens de rit dreigend en zegt dat leerling A moet stoppen met de meter. Wat moet leerling A eerst doen?",
      "opts": [
       "Hij rijdt sneller om zo snel mogelijk van de passagier af te komen.",
       "Hij beoordeelt de situatie: hoe groot is het risico voor zijn eigen veiligheid?",
@@ -11095,7 +11095,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Een passagier grijpt plotseling het stuur vast. Wat is de beste actie van Krijger?",
+     "q": "Een passagier grijpt plotseling het stuur vast. Wat is de beste actie van leerling A?",
      "opts": [
       "Hij duwt de passagier hard terug en rijdt door.",
       "Hij remt hard midden op de weg om de passagier te laten schrikken.",
@@ -11118,7 +11118,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Een andere automobilist snijdt Krijger af en maakt een boze handbeweging. Wat is de beste reactie van Krijger?",
+     "q": "Een andere automobilist snijdt leerling A af en maakt een boze handbeweging. Wat is de beste reactie van leerling A?",
      "opts": [
       "Hij blijft rustig, houdt afstand en reageert niet op de boze bestuurder.",
       "Hij toetert lang en rijdt vlak achter de auto om te laten zien dat hij boos is.",
@@ -11141,12 +11141,12 @@
      "niveau": "lopen",
      "et": "ET 6.1",
      "type": "mc",
-     "q": "Een passagier begint over politiek en vraagt Krijger naar zijn mening. Wat is de beste beroepshouding?",
+     "q": "Een passagier begint over politiek en vraagt leerling A naar zijn mening. Wat is de beste beroepshouding?",
      "opts": [
-      "Krijger geeft uitgebreid zijn eigen politieke mening om de passagier tevreden te stellen.",
-      "Krijger geeft een neutraal antwoord en brengt het gesprek op een ander onderwerp.",
-      "Krijger zegt dat hij niet over politiek mag praten en wordt stil.",
-      "Krijger gaat de discussie aan om de passagier te overtuigen van zijn standpunt."
+      "leerling A geeft uitgebreid zijn eigen politieke mening om de passagier tevreden te stellen.",
+      "leerling A geeft een neutraal antwoord en brengt het gesprek op een ander onderwerp.",
+      "leerling A zegt dat hij niet over politiek mag praten en wordt stil.",
+      "leerling A gaat de discussie aan om de passagier te overtuigen van zijn standpunt."
      ],
      "ok": 1,
      "why": "Als chauffeur blijf je neutraal en professioneel; je vermijdt discussies over gevoelige onderwerpen (CBR ET 8.3). Eigen mening geven of discussiëren past niet.",
@@ -11164,7 +11164,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Een passagier wordt tijdens de rit steeds onrustiger: hij praat luider, balt zijn vuisten en wiegt heen en weer. Wat moet Krijger doen?",
+     "q": "Een passagier wordt tijdens de rit steeds onrustiger: hij praat luider, balt zijn vuisten en wiegt heen en weer. Wat moet leerling A doen?",
      "opts": [
       "Hij zet de radio harder om de passagier te kalmeren.",
       "Hij negeert de signalen en rijdt sneller naar de bestemming.",
@@ -11187,7 +11187,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Krijger krijgt tijdens een rit te maken met een passagier die luidkeels dreigende taal uitslaat en weigert te betalen. Wat is de eerste juiste professionele stap die Krijger moet zetten?",
+     "q": "Leerling A krijgt tijdens een rit te maken met een passagier die luidkeels dreigende taal uitslaat en weigert te betalen. Wat is de eerste juiste professionele stap die leerling A moet zetten?",
      "opts": [
       "Direct de auto stilzetten op een veilige plek, de risico's inschatten en indien nodig hulp inroepen.",
       "Meteen meegaan in de discussie om de passagier op diens gedrag te wijzen.",
@@ -11195,7 +11195,7 @@
       "De rit onmiddellijk afbreken en de politie bellen zonder de auto veilig aan de kant te zetten."
      ],
      "ok": 0,
-     "why": "Krijger moet bij agressie rustig blijven, het risico inschatten en op een veilige plek hulp inroepen. Direct uitstappen op de snelweg of meegaan in een discussie vergroot het gevaar en is onprofessioneel volgens de CBR-eindtermen.",
+     "why": "Leerling A moet bij agressie rustig blijven, het risico inschatten en op een veilige plek hulp inroepen. Direct uitstappen op de snelweg of meegaan in een discussie vergroot het gevaar en is onprofessioneel volgens de CBR-eindtermen.",
      "wrong": [
       "",
       "Meegaan in de discussie maakt de situatie erger.",
@@ -11210,7 +11210,7 @@
      "niveau": "lopen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Tijdens een rit merkt Krijger dat een passagier steeds geïrriteerder raakt over de vertraging door een file. Welke communicatieve benadering helpt het best om een dreigend conflict te de-escaleren?",
+     "q": "Tijdens een rit merkt leerling A dat een passagier steeds geïrriteerder raakt over de vertraging door een file. Welke communicatieve benadering helpt het best om een dreigend conflict te de-escaleren?",
      "opts": [
       "Aandacht tonen, goed luisteren, serieus nemen en neutraal en oplossingsgericht blijven communiceren.",
       "De passagier vertellen dat ze niet zo moeten zeuren omdat de file buiten de schuld van de chauffeur ligt.",
@@ -11233,7 +11233,7 @@
      "niveau": "lopen",
      "et": "ET 8.1",
      "type": "mc",
-     "q": "Hoe moet Krijger reageren als een passagier op de achterbank onredelijk klaagt over de dienstverlening, maar nog niet agressief is?",
+     "q": "Hoe moet leerling A reageren als een passagier op de achterbank onredelijk klaagt over de dienstverlening, maar nog niet agressief is?",
      "opts": [
       "De passagier serieus nemen, actief luisteren en rustig proberen een klantvriendelijke oplossing te vinden.",
       "De klacht direct wegwuiven omdat de passagier zich aanstelle.",
@@ -11256,7 +11256,7 @@
      "niveau": "rennen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Dinsdag 3 november, 17:45. Tijdens de rit op de autosnelweg wordt een passagier agressief en dreigt hij Krijger. Wat moet Krijger doen?",
+     "q": "Dinsdag 3 november, 17:45. Tijdens de rit op de autosnelweg wordt een passagier agressief en dreigt hij leerling A. Wat moet leerling A doen?",
      "opts": [
       "Hij stopt direct op de vluchtstrook en zet de passagier daar uit.",
       "Hij rijdt door naar de bestemming en negeert de passagier.",
@@ -11281,10 +11281,10 @@
      "type": "mc",
      "q": "Woensdag 4 november, 12:30. Na een kleine aanrijding stapt de andere bestuurder uit en begint te schreeuwen en dreigen. Wat is de eerste stap?",
      "opts": [
-      "Krijger geeft toe dat hij fout zit om de man te kalmeren.",
-      "Krijger blijft kalm, houdt afstand en belt 112 als hij zich bedreigd voelt.",
-      "Krijger rijdt weg omdat hij bang is.",
-      "Krijger verwijst de man naar de Geschillencommissie Zorgvervoer en Taxi."
+      "leerling A geeft toe dat hij fout zit om de man te kalmeren.",
+      "leerling A blijft kalm, houdt afstand en belt 112 als hij zich bedreigd voelt.",
+      "leerling A rijdt weg omdat hij bang is.",
+      "leerling A verwijst de man naar de Geschillencommissie Zorgvervoer en Taxi."
      ],
      "ok": 1,
      "why": "Bij dreiging: eerst risico inschatten en eigen veiligheid, indien nodig 112. Weglopen na een ongeval is strafbaar; schuld toegeven of verwijzen naar een geschillencommissie is hier niet passend. Bron: CBR ET 9; WVW art. 7.",
@@ -11302,7 +11302,7 @@
      "niveau": "rennen",
      "et": "ET 10.1",
      "type": "mc",
-     "q": "Donderdag 5 november, 08:20. Een passagier in een rolstoel klaagt luid over de hulp bij het instappen. Krijger voelt zich aangevallen. Wat is de beste houding?",
+     "q": "Donderdag 5 november, 08:20. Een passagier in een rolstoel klaagt luid over de hulp bij het instappen. Leerling A voelt zich aangevallen. Wat is de beste houding?",
      "opts": [
       "Hij belt de Geschillencommissie om de klacht direct te melden.",
       "Hij legt uit dat het instapbeleid van het bedrijf is en daar kan hij niets aan doen.",
@@ -11348,7 +11348,7 @@
      "niveau": "rennen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Zaterdag 7 november, 10:15. Een fietser steekt zijn middelvinger op en schreeuwt tegen Krijger. Wat is de beste reactie?",
+     "q": "Zaterdag 7 november, 10:15. Een fietser steekt zijn middelvinger op en schreeuwt tegen leerling A. Wat is de beste reactie?",
      "opts": [
       "Hij stopt, stapt uit en vraagt wat er aan de hand is.",
       "Hij rijdt door, reageert niet op de provocatie en let op de verkeersveiligheid.",
@@ -11371,7 +11371,7 @@
      "niveau": "rennen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Zondag 8 november, 23:40. Een passagier stapt in en is zichtbaar dronken. Hij begint onmiddellijk te schreeuwen en slaat tegen de stoel. Wat moet Krijger doen voordat hij vertrekt?",
+     "q": "Zondag 8 november, 23:40. Een passagier stapt in en is zichtbaar dronken. Hij begint onmiddellijk te schreeuwen en slaat tegen de stoel. Wat moet leerling A doen voordat hij vertrekt?",
      "opts": [
       "Hij neemt de passagier mee en zet hem voorin om hem in de gaten te houden.",
       "Hij vraagt de passagier vriendelijk om rustig te zijn en rijdt dan weg.",
@@ -11394,11 +11394,11 @@
      "niveau": "rennen",
      "et": "ET 10.1",
      "type": "mc",
-     "q": "Een passagier is diep ongelukkig over de gereden route en de totale ritprijs. De passagier eist direct geld terug van Krijger en dreigt met stappen. Wat is de juiste officiële route voor deze klacht?",
+     "q": "Een passagier is diep ongelukkig over de gereden route en de totale ritprijs. De passagier eist direct geld terug van leerling A en dreigt met stappen. Wat is de juiste officiële route voor deze klacht?",
      "opts": [
       "De passagier moet eerst de klachtenprocedure van het taxibedrijf doorlopen en kan daarna eventueel naar de Geschillencommissie Zorgvervoer en Taxi.",
       "De passagier moet direct naar de Nationale Ombudsman stappen voor taxigeschillen.",
-      "Krijger moet het geld direct contant uitkeren om verdere escalatie te voorkomen.",
+      "leerling A moet het geld direct contant uitkeren om verdere escalatie te voorkomen.",
       "De passagier kan uitsluitend direct een civiele procedure starten bij de kantonrechter zonder interne klacht."
      ],
      "ok": 0,
@@ -11417,7 +11417,7 @@
      "niveau": "rennen",
      "et": "ET 8.1",
      "type": "mc",
-     "q": "Tijdens een verhit gesprek over de rijstijl blijft Krijger rustig, luistert hij goed en reageert hij neutraal. Welke beroepshouding past hier primair bij volgens de eindtermen voor communicatie?",
+     "q": "Tijdens een verhit gesprek over de rijstijl blijft leerling A rustig, luistert hij goed en reageert hij neutraal. Welke beroepshouding past hier primair bij volgens de eindtermen voor communicatie?",
      "opts": [
       "Passief reageren en de passagier volledig negeren tot de rit voorbij is.",
       "Professioneel, respectvol en oplossingsgericht communiceren met aandacht voor de passagier.",
@@ -11440,7 +11440,7 @@
      "niveau": "rennen",
      "et": "ET 8.3",
      "type": "mc",
-     "q": "Hoe dient Krijger te reageren wanneer een passagier tijdens de rit onverwachts verbaal agressief wordt en begint te schelden over de omleiding?",
+     "q": "Hoe dient leerling A te reageren wanneer een passagier tijdens de rit onverwachts verbaal agressief wordt en begint te schelden over de omleiding?",
      "opts": [
       "Direct meeschelden om je overwicht te tonen",
       "Rustig blijven, het risico inschatten, niet in discussie gaan en zo nodig professionele hulp inroepen",

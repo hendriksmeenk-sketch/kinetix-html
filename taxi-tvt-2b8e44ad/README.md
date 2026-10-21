@@ -1,4 +1,4 @@
-# TVT-quiz Krijger: een nieuwe vragenset toevoegen
+# TVT-quiz leerling A: een nieuwe vragenset toevoegen
 
 De app (`index.html`) laadt bij het openen `questions.json`, die naast de app staat.
 Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app hoeft niet opnieuw gebouwd te worden.
@@ -43,5 +43,5 @@ Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app h
 - Bron tarieven: Regeling maximumtarief taxivervoer art. 1a, tarieven 2026 (Stcrt. 2025, 41618). Bij nieuwe tarieven (1 jan) de sommen opnieuw genereren.
 
 ## Set 2 (set-02)
-- 168 vragen (Kruipen 63 · Lopen 51 · Rennen 54), gegenereerd door DeepSeek + Gemini, kruiselings gereviewd, strenge tweede audit met wetteksten, daarna handmatige feitencheck en dedupe tegen set-01 / set-reken-01.
+- 168 vragen (Kruipen 63 · Lopen 51 · Rennen 54), samengesteld, kruiselings gereviewd, strenge tweede audit met wetteksten, daarna handmatige feitencheck en dedupe tegen set-01 / set-reken-01.
 - Bron: `vragenfabriek.py` (`--audit-only`, `--export-set02-only`). Bij een nieuwe set: ook `#qdata` in `index.html` bijwerken.

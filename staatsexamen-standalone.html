@@ -104,7 +104,7 @@
 <script>
 const SLEUTEL = "staatsexamen_a1_v1";
 const stand = Object.assign({ goed: {}, pinyin: true }, JSON.parse(localStorage.getItem(SLEUTEL) || "{}"));
-const NAMEN = ["Krijger", "Lotus", "Tijger"];
+const NAMEN = ["leerling A", "leerling B", "leerling C"];
 function leegWerk() {
   return {
     kruipGoed: {}, loopGoed: {}, renGoed: {}, loopAt: {}, paraAt: {},
@@ -120,9 +120,9 @@ if (!stand.per) {
   });
   if (stand.ch) sa.ch = stand.ch;
   if (stand.renDeel) sa.renDeel = stand.renDeel;
-  stand.per = { Krijger: sa, Lotus: leegWerk(), Tijger: leegWerk() };
+  stand.per = { "leerling A": sa, "leerling B": leegWerk(), "leerling C": leegWerk() };
 }
-stand.wie = NAMEN.indexOf(stand.wie) >= 0 ? stand.wie : "Krijger";
+stand.wie = NAMEN.indexOf(stand.wie) >= 0 ? stand.wie : "leerling A";
 NAMEN.forEach(n => { if (!stand.per[n]) stand.per[n] = leegWerk(); });
 function nu() {
   if (!stand.per[stand.wie]) stand.per[stand.wie] = leegWerk();
@@ -244,9 +244,9 @@ const SCHRIJF = {
 };
 
 const PAPIER = {
-  situatie: "Je bent in de bibliotheek. Je laat een briefje achter voor je klasgenoot Lin.",
+  situatie: "Je bent in de bibliotheek. Je laat een briefje achter voor je klasgenoot.",
   punten: [
-    "Groet Lin.",
+    "Groetjes.",
     "Zeg dat je nu in de bibliotheek bent.",
     "Zeg dat je een boek leest.",
     "Vraag of hij om vijf uur tijd heeft.",

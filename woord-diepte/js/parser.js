@@ -18,7 +18,7 @@
       .replace(/⚫|🔴|<\/?rad>|\[\/?rad\]|【|】/gi, "")
       .trim();
   }
-  function parseGemini(text) {
+  function parseTekst(text) {
     var t = String(text || "").trim();
     if (!t) return null;
     if (t[0] === "{" || t[0] === "[") {
@@ -84,5 +84,5 @@
     }
     return html;
   }
-  g.Parser = { paint: paint, paintHz: paintHz, strip: strip, parseGemini: parseGemini };
+  g.Parser = { paint: paint, paintHz: paintHz, strip: strip, parseTekst: parseTekst };
 })(window);

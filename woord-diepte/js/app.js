@@ -1,8 +1,8 @@
 (function () {
   var KEY = "woord_diepte_v35";
-  var LEARNERS = ["Krijger", "Lotus", "Tijger"];
-  var state = { cur: "子", live: false, learner: "Krijger", inDiepte: false };
-  var db = { schema: 35, hersenen: "Krijger", woorden: [], recallByLearner: {} };
+  var LEARNERS = ["leerling A", "leerling B", "leerling C"];
+  var state = { cur: "子", live: false, learner: "leerling A", inDiepte: false };
+  var db = { schema: 35, hersenen: "leerling A", woorden: [], recallByLearner: {} };
 
   function ziSeed() {
     return {
@@ -127,7 +127,7 @@
       save();
       return db;
     }).catch(function () {
-      db = { schema: 35, hersenen: "Krijger", woorden: [ziSeed()], recallByLearner: {} };
+      db = { schema: 35, hersenen: "leerling A", woorden: [ziSeed()], recallByLearner: {} };
       ensureRecallMap();
       save();
       return db;
@@ -295,7 +295,7 @@
   }
 
   function upsert(src) {
-    var p = typeof src === "string" ? Parser.parseGemini(src) : src;
+    var p = typeof src === "string" ? Parser.parseTekst(src) : src;
     if (!p || !p.hz) { document.getElementById("wij").textContent = "Geen teken in de plak."; return; }
     var vragen = (p.recallTekst || "").split(/\n/).map(function (s) { return s.replace(/^[\-\*\d\.\)]\s*/, "").trim(); }).filter(Boolean);
     var w = {
@@ -403,7 +403,7 @@
   document.getElementById("zoek").addEventListener("keydown", function (e) {
     if (e.key !== "Enter") return;
     var hit = find(this.value);
-    if (!hit) { document.getElementById("wij").textContent = "ONBEKEND in DB. Plak DeepSeek/Gemini 3.5."; return; }
+    if (!hit) { document.getElementById("wij").textContent = "ONBEKEND in DB. Plak de tekst."; return; }
     state.cur = hit.hz; render();
   });
   document.getElementById("say-py").onclick = function () { if (window.Sound) Sound.zi(); else speak(woord().hz); };
