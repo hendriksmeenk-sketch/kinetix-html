@@ -7880,7 +7880,7 @@
       "Ja, maar alleen als de auto stilstaat voor een rood verkeerslicht."
      ],
      "ok": 0,
-     "why": "Artikel 61a RVV verbiedt het vasthouden van een mobiel elektronisch apparaat tijdens het rijden. Omdat de telefoon in een houder zit en niet wordt vastgehouden, is het bedienen van het scherm niet in strijd met dit specifieke artikel.",
+     "why": "Artikel 61a RVV verbiedt het vasthouden van een mobiel elektronisch apparaat tijdens het rijden. Omdat de telefoon in een houder zit en niet wordt vastgehouden, is het bedienen van het scherm niet in strijd met dit specifieke artikel. ⚠️ Let op, examen: volgens de wet (RVV art. 61a) mag kort tikken op een telefoon in een houder. Maar op het CBR-praktijkexamen kan de examinator elk bedienen van een scherm tijdens het rijden zien als afleiding, en daarop kun je zakken. Stel je navigatie in vóór vertrek, of tik alleen als je stilstaat.",
      "wrong": [
       "",
       "Het aanraken van een scherm is niet altijd verboden; alleen vasthouden is verboden.",
@@ -11458,6 +11458,2332 @@
      "bron": "CBR ET 8 & 8.3"
     }
    ]
+  },
+  {
+   "id": "set-motor-01",
+   "naam": "Motorruimte: de 4 vloeistoffen",
+   "datum": "2026-10-22",
+   "vragen": [
+    {
+     "id": "m1-t4-01",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "multi",
+     "q": "Benoem de 4 vloeistoffen die je in de motorruimte controleert. Kies ALLE juiste.",
+     "opts": [
+      "Koelvloeistof",
+      "Motorolie",
+      "Remvloeistof",
+      "Ruitensproeiervloeistof",
+      "Bandenvloeistof",
+      "Accuzuur bijvullen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "Koelvloeistof, motorolie, remvloeistof en ruitensproeiervloeistof zijn de vier standaard controles.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "Bestaat niet; banden controleer je op spanning en profiel.",
+      "Moderne accu's zijn onderhoudsvrij; dat is geen dagelijkse controle."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "kern": [
+      "4 vloeistoffen"
+     ],
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-02",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Welke dop is bijna altijd BLAUW met een ruit-symbool?",
+     "opts": "De sproeiervuldop is meestal blauw met een ruit+waterstraal-symbool.",
+     "ok": [
+      "Koelvloeistof",
+      "Ruitensproeiervloeistof",
+      "Remvloeistof"
+     ],
+     "why": 1,
+     "wrong": [
+      "Koelvloeistof heeft een dop met waarschuwing voor heet/druk.",
+      "",
+      "Remvloeistof heeft een klein reservoir met remsymbool/DOT."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-03",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Wanneer controleer je de koelvloeistof?",
+     "opts": "Koelsysteem staat warm onder druk: openen geeft verbrandingsgevaar. Lees af op het vat bij koude motor.",
+     "ok": [
+      "Bij koude motor, zonder dop te openen",
+      "Direct na de rit, dop eraf",
+      "Tijdens het rijden via de peilstok"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Heet en onder druk – gevaarlijk.",
+      "Koelvloeistof heeft geen peilstok."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-04",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "order",
+     "q": "Zet de stappen van de oliecontrole in de juiste volgorde.",
+     "opts": [
+      "Auto vlak zetten, motor uit, even wachten",
+      "Peilstok eruit en afvegen",
+      "Peilstok helemaal terugsteken",
+      "Opnieuw eruit en niveau tussen MIN en MAX aflezen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "Vlak, uit en laten zakken; afvegen; volledig terugsteken; aflezen tussen MIN en MAX.",
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-05",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Tijdens een rit gaat het rode oliekan-lampje branden. Wat doe je?",
+     "opts": "Rood olielampje = te lage oliedruk. Doorrijden kan de motor binnen korte tijd vernielen; veilig stoppen gaat voor, informeer passagier/centrale.",
+     "ok": [
+      "Doorrijden tot het eind van de rit",
+      "Zo snel mogelijk veilig stoppen en motor uitzetten",
+      "Ruitensproeiervloeistof bijvullen"
+     ],
+     "why": 1,
+     "wrong": [
+      "Risico op motorschade en stilstand op gevaarlijke plek.",
+      "",
+      "Heeft niets met olie te maken."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-06",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Het niveau in het remvloeistofreservoir staat onder MIN en het pedaal voelt sponzig. Wat is juist?",
+     "opts": "Laag remvloeistofniveau + sponzig pedaal = remwerking in gevaar. Met passagiers nooit riskeren.",
+     "ok": [
+      "Gewoon de dienst rijden, morgen kijken",
+      "Niet rijden; laten nakijken (mogelijk lek of versleten remmen)",
+      "Bijvullen met koelvloeistof"
+     ],
+     "why": 1,
+     "wrong": [
+      "Onveilig: langere remweg.",
+      "",
+      "Verkeerde vloeistof beschadigt het remsysteem."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-07",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Wat doet koelvloeistof?",
+     "opts": "Koelvloeistof koelt de motor en bevat antivries.",
+     "ok": [
+      "Smeert de motor",
+      "Voert warmte af en beschermt tegen bevriezing",
+      "Brengt rempedaalkracht over"
+     ],
+     "why": 1,
+     "wrong": [
+      "Dat doet motorolie.",
+      "",
+      "Dat doet remvloeistof."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-08",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Je rijdt een hybride taxi (bijv. Toyota Corolla/Kia Niro) en ziet TWEE roze vaten. Wat is waarschijnlijk?",
+     "opts": "Hybrides hebben vaak een apart koelcircuit voor de omvormer (inverter). Beide controleer je bij koude auto.",
+     "ok": [
+      "Eén is voor de motor, één voor omvormer/elektronica",
+      "Eén is remvloeistof",
+      "Het tweede is ruitensproeiervloeistof"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Remvloeistof is geel/helder, klein reservoir met DOT-dop.",
+      "Sproeier heeft een blauwe dop."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-09",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "multi",
+     "q": "Welke kenmerken horen bij het remvloeistofreservoir? Kies ALLE juiste.",
+     "opts": [
+      "Opschrift 'DOT 4' op de dop",
+      "Vaak achterin bij het schutbord aan bestuurderszijde",
+      "Grote blauwe dop vooraan",
+      "Helder geel tot bruine vloeistof"
+     ],
+     "ok": [
+      0,
+      1,
+      3
+     ],
+     "why": "Klein reservoir achter in de motorruimte bij het schutbord, op de hoofdremcilinder, dop met 'DOT'/remsymbool, vloeistof helder geel tot bruin.",
+     "wrong": [
+      "",
+      "",
+      "Dat is de sproeiertank.",
+      ""
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-10",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Welke vloeistof mag je ook bij een WARME motor gewoon bijvullen?",
+     "opts": "Het sproeiersysteem staat niet onder druk en is niet heet.",
+     "ok": [
+      "Koelvloeistof",
+      "Ruitensproeiervloeistof",
+      "Geen enkele"
+     ],
+     "why": 1,
+     "wrong": [
+      "Onder druk en heet – eerst laten afkoelen.",
+      "",
+      "Sproeiervloeistof kan wel."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-11",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Waaraan herken je de vuldop van de motorolie?",
+     "opts": "De olievuldop heeft het kannetje-symbool; de peilstok heeft vaak een gele/oranje greep.",
+     "ok": [
+      "Oliekan-symbool op de dop bovenop de motor",
+      "Blauwe dop met ruit-symbool",
+      "Dop met 'DOT 4'"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Dat is ruitensproeier.",
+      "Dat is remvloeistof."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    },
+    {
+     "id": "m1-t4-12",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Waarom vervang je remvloeistof ongeveer om de 2 jaar, ook als het niveau goed is?",
+     "opts": "Remvloeistof is hygroscopisch: water verlaagt het kookpunt → kans op remuitval bij zwaar remmen.",
+     "ok": [
+      "Omdat het water opneemt en het kookpunt daalt",
+      "Omdat het verdampt",
+      "Omdat het van kleur moet veranderen"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Het verdampt nauwelijks; daling wijst op lek/slijtage.",
+      "Kleur is een signaal, niet de reden."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "noExam": true
+    }
+   ]
+  },
+  {
+   "id": "set-dash-01",
+   "naam": "Dashboardlampjes & verlichting",
+   "datum": "2026-10-22",
+   "vragen": [
+    {
+     "id": "dl-t2-k01",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Het regent zo hard dat het zicht ernstig belemmerd is. Welke combinatie van verlichting is toegestaan?",
+     "opts": [
+      "Dimlicht en mistachterlicht",
+      "Dimlicht en mistvoorlicht",
+      "Alleen stadslicht",
+      "Mistvoor-, mistachter- én grootlicht"
+     ],
+     "ok": 1,
+     "why": "RVV 1990 art. 34 lid 1: bij mist, sneeuwval of regen die het zicht ernstig belemmert mag je mistvoorlicht voeren. Mistachterlicht mag alleen bij mist of sneeuwval met zicht < 50 m (lid 2) – dus niet bij regen.",
+     "wrong": [
+      "Mistachterlicht mag niet bij regen (alleen mist/sneeuw < 50 m).",
+      "",
+      "Stadslicht is te weinig bij slecht zicht.",
+      "Mistachter mag niet bij regen; grootlicht verblindt in de regen."
+     ],
+     "bron": "RVV 1990 art. 34 (wetten.overheid.nl, BWBR0004825)",
+     "hint": "Denk aan de regels voor mistlichten.",
+     "simpel": "Hard regen: dimlicht + mistvoor. Geen mistachter.",
+     "kern": [
+      "dimlicht",
+      "mistvoorlicht",
+      "geen mistachter bij regen"
+     ]
+    },
+    {
+     "id": "dl-t4-k02",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Wat betekent een rood lampje op het dashboard?",
+     "opts": [
+      "Een systeem is actief",
+      "Je moet zo snel mogelijk stoppen",
+      "Je moet de auto laten controleren",
+      "Grootlicht is aan"
+     ],
+     "ok": 1,
+     "why": "Rood = gevaar of ernstige storing: zo snel mogelijk veilig stoppen en kijken wat er is. (Uitzondering: sommige rode lampjes zijn een herinnering, zoals gordel of handrem – dan los je het direct op.)",
+     "wrong": [
+      "Groen betekent actief.",
+      "",
+      "Oranje betekent laten controleren.",
+      "Blauw is grootlicht."
+     ],
+     "bron": "Algemene autotechniek, ANWB",
+     "hint": "Rood is de meest urgente kleur.",
+     "simpel": "Rood = direct stoppen.",
+     "kern": [
+      "rood = stoppen"
+     ],
+     "noExam": true
+    },
+    {
+     "id": "dl-t2-k03",
+     "tak": 2,
+     "niveau": "kruipen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Het mistachterlicht mag je alleen gebruiken als:",
+     "opts": [
+      "Het hard regent",
+      "Het zicht minder is dan 50 meter door mist of sneeuw",
+      "Het donker is",
+      "Je op de snelweg rijdt"
+     ],
+     "ok": 1,
+     "why": "RVV 1990 art. 34 lid 2: mistachterlicht alleen bij mist of sneeuwval die het zicht beperkt tot minder dan 50 meter. Niet bij regen.",
+     "wrong": [
+      "Niet bij regen.",
+      "",
+      "Niet alleen omdat het donker is.",
+      "Niet alleen op de snelweg."
+     ],
+     "bron": "RVV 1990 art. 34 (wetten.overheid.nl, BWBR0004825)",
+     "hint": "Let op de zichtafstand en het weer.",
+     "simpel": "Mistachter: alleen <50m mist of sneeuw.",
+     "kern": [
+      "mistachterlicht",
+      "50 meter",
+      "mist of sneeuw"
+     ]
+    },
+    {
+     "id": "dl-t4-k04",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Een blauw lampje op het dashboard betekent meestal:",
+     "opts": [
+      "Oliedruk te laag",
+      "Grootlicht is aan",
+      "ABS-storing",
+      "Cruise control actief"
+     ],
+     "ok": 1,
+     "why": "Blauw is het grootlichtlampje. Dimmen bij tegenliggers.",
+     "wrong": [
+      "Oliedruk is rood.",
+      "",
+      "ABS is oranje.",
+      "Cruise is groen."
+     ],
+     "bron": "Algemene autotechniek (blauw controlelampje = grootlicht)",
+     "hint": "Blauw hoort bij verlichting.",
+     "simpel": "Blauw = grootlicht.",
+     "kern": [
+      "blauw",
+      "grootlicht"
+     ],
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-k05",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Wat doe je als het rode oliedruklampje brandt tijdens het rijden?",
+     "opts": [
+      "Doorrijden naar de garage",
+      "Direct veilig stoppen en motor uit",
+      "Alleen de radio uitzetten",
+      "Harder rijden om de olie te pompen"
+     ],
+     "ok": 1,
+     "why": "Rode oliedruk betekent directe stop. Doorrijden veroorzaakt motorschade.",
+     "wrong": [
+      "Niet doorrijden.",
+      "",
+      "Niet alleen radio uit.",
+      "Harder rijden maakt het erger."
+     ],
+     "bron": "algemene autotechniek, ANWB",
+     "hint": "Rood oliedruk is zeer urgent.",
+     "simpel": "Rode oliekan: stoppen en motor uit.",
+     "kern": [
+      "rood oliedruk",
+      "stoppen"
+     ],
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-l01",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Het oranje ABS-lampje brandt. Wat is juist?",
+     "opts": [
+      "De remmen werken helemaal niet",
+      "De gewone remmen werken, maar ABS niet",
+      "Je moet direct stoppen",
+      "De airbags werken niet"
+     ],
+     "ok": 1,
+     "why": "ABS-storing: normale remmen werken nog, maar de antiblokkeerfunctie niet. Laten controleren.",
+     "wrong": [
+      "Remmen werken wel.",
+      "",
+      "Oranje, dus niet direct stoppen.",
+      "Airbag is een ander lampje."
+     ],
+     "bron": "algemene autotechniek",
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-l02",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (dashboard)",
+     "type": "multi",
+     "q": "Welke lampjes zijn oranje (waarschuwing, laten controleren)?",
+     "opts": [
+      "Motorstoring (MIL)",
+      "Oliedruk",
+      "ABS",
+      "Koelvloeistoftemperatuur",
+      "Bandenspanning (TPMS)"
+     ],
+     "ok": [
+      0,
+      2,
+      4
+     ],
+     "why": "MIL, ABS en TPMS zijn oranje. Oliedruk en koelvloeistof zijn rood.",
+     "wrong": [
+      "",
+      "Oliedruk is rood.",
+      "",
+      "Koelvloeistof is rood.",
+      ""
+     ],
+     "bron": "algemene autotechniek",
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-l03",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Het oranje motorstoringslampje knippert. Wat doe je?",
+     "opts": [
+      "Doorrijden alsof er niets is",
+      "Beperk het rijden of stop zo snel mogelijk",
+      "Alleen de bandenspanning checken",
+      "Grootlicht aanzetten"
+     ],
+     "ok": 1,
+     "why": "Knipperend MIL is urgenter. Behandel bijna als rood: stop of beperk rijden om schade te voorkomen.",
+     "wrong": [
+      "Niet negeren.",
+      "",
+      "Niet alleen bandenspanning.",
+      "Verlichting niet relevant."
+     ],
+     "bron": "algemene autotechniek",
+     "noExam": true
+    },
+    {
+     "id": "dl-t2-l04",
+     "tak": 2,
+     "niveau": "lopen",
+     "et": "ET 2.2",
+     "type": "mc",
+     "q": "Wanneer mag je mistvoorlicht gebruiken?",
+     "opts": [
+      "Alleen 's nachts",
+      "Bij mist, sneeuwval of regen die het zicht ernstig belemmert",
+      "Altijd als het regent",
+      "Alleen op de snelweg"
+     ],
+     "ok": 1,
+     "why": "RVV 1990 art. 34 lid 1: mistvoorlicht mag bij mist, sneeuwval of regen die het zicht ernstig belemmert. De wet noemt hier geen vaste meterafstand (de 50 m geldt alleen voor mistachterlicht).",
+     "wrong": [
+      "Niet alleen 's nachts; het gaat om het zicht.",
+      "",
+      "Gewone regen is niet genoeg; het zicht moet ernstig belemmerd zijn.",
+      "Geldt op elke weg."
+     ],
+     "bron": "RVV 1990 art. 34 (wetten.overheid.nl, BWBR0004825)"
+    },
+    {
+     "id": "dl-t4-l05",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Het groene READY-lampje brandt in een EV-taxi. Wat betekent dit?",
+     "opts": [
+      "Er is een storing",
+      "De auto is klaar om te rijden",
+      "De accu is leeg",
+      "Grootlicht is aan"
+     ],
+     "ok": 1,
+     "why": "READY betekent dat de EV of hybride klaar is om te rijden. Belangrijk omdat de auto stil is.",
+     "wrong": [
+      "Geen storing.",
+      "",
+      "Lege accu is oranje.",
+      "Grootlicht is blauw."
+     ],
+     "bron": "EV-handleidingen, algemene autotechniek",
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-r01",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (dashboard)",
+     "type": "order",
+     "q": "Rood oliedruklampje tijdens een rit met passagier. Zet de handelingen in de juiste volgorde.",
+     "opts": [
+      "Veilig stoppen en alarmlichten aan",
+      "Motor uitzetten",
+      "Passagier informeren en veilig laten wachten (achter de vangrail)",
+      "Pechhulp/centrale bellen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "Bij te lage oliedruk telt elke seconde: veilig stoppen met alarmlichten, direct motor uit, dan de passagier informeren en in veiligheid brengen, daarna hulp bellen. Niet doorrijden.",
+     "bron": "algemene autotechniek, taxi-veiligheid",
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-r02",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Bij de rijklaarcontrole voor een taxirit zie je een oranje TPMS-lampje. Wat doe je?",
+     "opts": [
+      "Direct wegrijden, het is maar oranje",
+      "Bandenspanning controleren voordat je wegrijdt",
+      "Alleen de passagiersgordels checken",
+      "Grootlicht testen"
+     ],
+     "ok": 1,
+     "why": "TPMS oranje betekent lage bandenspanning. Bij rijklaarcontrole moet je dit controleren voor de veiligheid van de passagier.",
+     "wrong": [
+      "Niet negeren.",
+      "",
+      "Gordels zijn apart.",
+      "Verlichting niet relevant."
+     ],
+     "bron": "algemene autotechniek",
+     "noExam": true
+    },
+    {
+     "id": "dl-t4-r03",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Je hebt een passagier aan boord en het rode remsysteemlampje brandt. De handrem is los. Wat doe je?",
+     "opts": [
+      "Doorrijden naar de dichtstbijzijnde garage",
+      "Direct veilig stoppen, alarmlichten aan, passagiers informeren en hulp bellen",
+      "Alleen de passagier vragen om uit te stappen en doorrijden",
+      "Harder remmen om te testen"
+     ],
+     "ok": 1,
+     "why": "Rood remsysteem is gevaarlijk. Stop direct veilig, informeer passagiers, alarmlichten en hulp. Niet doorrijden.",
+     "wrong": [
+      "Niet doorrijden met remsysteemstoring.",
+      "",
+      "Passagier uitstappen is niet de eerste actie.",
+      "Niet testen tijdens rijden."
+     ],
+     "bron": "algemene autotechniek, taxi-veiligheid",
+     "noExam": true
+    },
+    {
+     "id": "dl-t2-r04",
+     "tak": 2,
+     "niveau": "rennen",
+     "et": "ET 2.2",
+     "type": "multi",
+     "q": "In welke situaties MAG je het mistachterlicht voeren? Kies ALLE juiste.",
+     "opts": [
+      "Zicht minder dan 50 meter door mist",
+      "Zicht minder dan 50 meter door sneeuw",
+      "Hard regen met zicht van 100 meter",
+      "Nacht met goed zicht",
+      "Zicht minder dan 50 meter door mist en sneeuw"
+     ],
+     "ok": [
+      0,
+      1,
+      4
+     ],
+     "why": "RVV 1990 art. 34 lid 2: alleen bij mist of sneeuwval met zicht < 50 m. Niet bij regen, niet bij goed zicht.",
+     "wrong": [
+      "",
+      "",
+      "Niet bij regen.",
+      "Niet bij goed zicht.",
+      ""
+     ],
+     "bron": "RVV 1990 art. 34 (wetten.overheid.nl, BWBR0004825)"
+    },
+    {
+     "id": "dl-t4-r05",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (dashboard)",
+     "type": "mc",
+     "q": "Een oranje ESP-lampje knippert terwijl je op een gladde weg rijdt met passagier. Wat betekent dit en wat doe je?",
+     "opts": [
+      "Er is een ernstige storing, direct stoppen",
+      "Het systeem grijpt in: gas terug, rustig en aangepast rijden",
+      "ABS werkt niet, harder remmen",
+      "Grootlicht aanzetten voor beter zicht"
+     ],
+     "ok": 1,
+     "why": "Knipperend ESP = het systeem grijpt in omdat de auto dreigt te slippen. Gas terug en je snelheid aanpassen. Blijft het continu branden, dan is er een storing of staat ESP uit.",
+     "wrong": [
+      "Knipperen is normaal bij gladheid.",
+      "",
+      "ABS is een ander lampje.",
+      "Verlichting niet relevant."
+     ],
+     "bron": "algemene autotechniek",
+     "noExam": true
+    }
+   ]
   }
- ]
+ ],
+ "motor": {
+  "vloeistoffen": [
+   {
+    "key": "koelvloeistof",
+    "naam": "Koelvloeistof (expansievat)",
+    "cues": "Doorzichtig plastic vat met MIN/MAX-streep; vloeistof meestal roze/rood, paars, groen of blauw. Dop vaak zwart/grijs met waarschuwingssymbool (hand/stoom, thermometer) – 'niet openen als heet'.",
+    "functie": "Voert warmte af van de motor naar de radiateur; beschermt tegen bevriezing en corrosie.",
+    "controle": "Alleen bij KOUDE motor: niveau tussen MIN en MAX op het vat aflezen zonder dop te openen. Nooit openen bij warme motor (koelsysteem staat onder druk, verbrandingsgevaar). Hybrides hebben vaak een TWEEDE vat voor de omvormer/elektronica.",
+    "bij_laag": "Motor raakt oververhit (temperatuurlampje/meter in rood) → koppakking- of motorschade. Bijvullen met juiste soort; bij steeds dalend niveau: lek, naar garage.",
+    "relevantie": "Hoort bij de dagelijkse rijklaarcontrole/onderhoudsplicht van de chauffeur (veilig en bedrijfszeker rijden). Niet expliciet als losse exameneis in de CBR-TVT-eisen gevonden – vooral praktijk/algemene kennis."
+   },
+   {
+    "key": "motorolie",
+    "naam": "Motorolie (peilstok + vuldop)",
+    "cues": "Peilstok met (vaak gele of oranje) ring/handgreep; vuldop bovenop de motor met oliekan-symbool (druppelend kannetje).",
+    "functie": "Smeert en koelt bewegende delen van de motor, vermindert slijtage.",
+    "controle": "Auto vlak, motor uit en enkele minuten laten staan (bij voorkeur koud/afgekoeld). Peilstok eruit, afvegen, helemaal terugsteken, weer eruit: niveau tussen MIN- en MAX-merk. Sommige moderne auto's hebben geen peilstok maar een elektronische meting via het display.",
+    "bij_laag": "Rood olielampje (oliekan) = direct veilig stoppen en motor uit; te weinig olie geeft ernstige motorschade. Bijvullen via vuldop met juiste specificatie, niet boven MAX.",
+    "relevantie": "Rijklaarcontrole; het rode olielampje herkennen en juist handelen (stoppen) is veiligheidskennis. Niet als losse CBR-TVT-eis gevonden."
+   },
+   {
+    "key": "remvloeistof",
+    "naam": "Remvloeistof (reservoir)",
+    "cues": "Klein doorzichtig/witachtig reservoir, meestal achterin bij het schutbord aan bestuurderszijde, op de hoofdremcilinder. Dop vaak geel of zwart met remsymbool (cirkel tussen haakjes) en 'DOT 4'. Vloeistof heldergeel tot bruin.",
+    "functie": "Brengt de kracht van het rempedaal hydraulisch over naar de remmen.",
+    "controle": "Niveau tussen MIN en MAX op het reservoir aflezen, dop dicht laten. Remvloeistof trekt water aan: om de ±2 jaar vervangen (garage). Giftig en tast lak aan.",
+    "bij_laag": "Rood remlampje (!) in cirkel; sponzig/zakkend pedaal, langere remweg → niet doorrijden. Laag niveau kan wijzen op lek of versleten remblokken.",
+    "relevantie": "Direct verkeersveiligheid; remmen hoort bij de technische staat die de chauffeur moet bewaken. Niet als losse CBR-TVT-eis gevonden."
+   },
+   {
+    "key": "ruitensproeier",
+    "naam": "Ruitensproeiervloeistof",
+    "cues": "Grootste vuldop, bijna altijd BLAUW met ruit/sproeier-symbool (ruit met waterstraal); vaak vooraan op de hoek.",
+    "functie": "Reinigt de voorruit (en achterruit/koplampen) voor goed zicht.",
+    "controle": "Visueel of via lampje; mag altijd bijgevuld worden (ook warme motor). In de winter antivriesmiddel gebruiken.",
+    "bij_laag": "Slecht zicht door vuil/insecten/zout → onveilig. Geen motorschade, wel risico en mogelijk boete voor slecht zicht.",
+    "relevantie": "Goed zicht = veilig rijden met passagiers; makkelijkste bijvulpunt. Niet als losse CBR-TVT-eis gevonden."
+   }
+  ],
+  "fotos": [
+   {
+    "file": "img/motor/2020-skoda-octavia-rs-245-sedan-2-0-litre-tsi-gasoline-engin.jpg",
+    "merk": "Škoda Octavia RS (IV, 2.0 TSI)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 0,
+      "y": 28,
+      "w": 13,
+      "h": 22
+     },
+     "motorolie": {
+      "x": 13,
+      "y": 46,
+      "w": 7,
+      "h": 11
+     },
+     "remvloeistof": {
+      "x": 14,
+      "y": 13,
+      "w": 9,
+      "h": 17
+     },
+     "ruitensproeier": "unknown"
+    },
+    "twijfel": "Gele ring links-onder (4-8%,88-94%) mogelijk sproeiervuldop, niet zeker; motorolie = gele peilstokgreep.",
+    "author": "AIMHO'S REBELLION 8490s",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2020_Skoda_Octavia_RS-245_sedan_2.0-litre_TSI_gasoline_engine_view_in_Brunei.jpg"
+   },
+   {
+    "file": "img/motor/skoda-octavia-iv-1-4-tsi-rf.jpg",
+    "merk": "Škoda Octavia IV 1.4 TSI",
+    "zones": {
+     "koelvloeistof": {
+      "x": 0,
+      "y": 29,
+      "w": 14,
+      "h": 21
+     },
+     "motorolie": {
+      "x": 22,
+      "y": 37,
+      "w": 12,
+      "h": 10
+     },
+     "remvloeistof": {
+      "x": 60,
+      "y": 28,
+      "w": 8,
+      "h": 13
+     },
+     "ruitensproeier": {
+      "x": 84,
+      "y": 66,
+      "w": 11,
+      "h": 11
+     }
+    },
+    "twijfel": "Motorolie = gele peilstokgreep + vuldop ernaast.",
+    "author": "Mike-fiesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_IV_1.4_TSI_RF.jpg"
+   },
+   {
+    "file": "img/motor/2023-denver-auto-show-kia-niro-ex-touring-engine-bay.jpg",
+    "merk": "Kia Niro HEV (2023)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 15,
+      "y": 39,
+      "w": 12,
+      "h": 18
+     },
+     "motorolie": {
+      "x": 54,
+      "y": 49,
+      "w": 7,
+      "h": 9
+     },
+     "remvloeistof": {
+      "x": 60,
+      "y": 34,
+      "w": 8,
+      "h": 9
+     },
+     "ruitensproeier": {
+      "x": 17,
+      "y": 59,
+      "w": 7,
+      "h": 9
+     }
+    },
+    "twijfel": "Rechter roze tank (75-82%) is waarschijnlijk omvormer-koelvloeistof (hybride), niet de motor. Olie = zwarte vuldop, iets onzeker.",
+    "author": "Corqe",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Kia_Niro_EX_Touring_engine_bay.jpg"
+   },
+   {
+    "file": "img/motor/2025-toyota-corolla-1-8-hybrid-engine.jpg",
+    "merk": "Toyota Corolla 1.8 Hybrid (2025)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 9,
+      "y": 59,
+      "w": 12,
+      "h": 24
+     },
+     "motorolie": {
+      "x": 33,
+      "y": 64,
+      "w": 6,
+      "h": 7
+     },
+     "remvloeistof": {
+      "x": 60,
+      "y": 13,
+      "w": 10,
+      "h": 12
+     },
+     "ruitensproeier": {
+      "x": 25,
+      "y": 78,
+      "w": 8,
+      "h": 10
+     }
+    },
+    "twijfel": "Roze tank rechts (75-83%) = omvormer-koeling hybride. Olie = gele peilstokgreep, klein.",
+    "author": "Sezenkerem",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Corolla_1.8_Hybrid_Engine.jpg"
+   },
+   {
+    "file": "img/motor/hybrid-engine-2012-toyota-prius-v-8228834228.jpg",
+    "merk": "Toyota Prius v (2012)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 1,
+      "y": 28,
+      "w": 13,
+      "h": 30
+     },
+     "motorolie": "unknown",
+     "remvloeistof": {
+      "x": 74,
+      "y": 16,
+      "w": 9,
+      "h": 10
+     },
+     "ruitensproeier": {
+      "x": 7,
+      "y": 61,
+      "w": 6,
+      "h": 9
+     }
+    },
+    "twijfel": "Roze tank rechts (73-82%, 25-40%) = omvormer-koeling. Peilstok niet zichtbaar.",
+    "author": "Michael Sheehan",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hybrid_Engine_-_2012_Toyota_Prius_V_(8228834228).jpg"
+   },
+   {
+    "file": "img/motor/mb-cla-motorraum.jpg",
+    "merk": "Mercedes-Benz CLA (C117)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 8,
+      "y": 40,
+      "w": 9,
+      "h": 13
+     },
+     "motorolie": {
+      "x": 31,
+      "y": 37,
+      "w": 8,
+      "h": 7
+     },
+     "remvloeistof": {
+      "x": 56,
+      "y": 35,
+      "w": 8,
+      "h": 11
+     },
+     "ruitensproeier": {
+      "x": 83,
+      "y": 51,
+      "w": 8,
+      "h": 10
+     }
+    },
+    "twijfel": "Olie = ronde vuldop op motorkap-afdekking; remvloeistof achteraan bij schutbord, iets onzeker.",
+    "author": "KarleHorn",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:MB_CLA_Motorraum.JPG"
+   },
+   {
+    "file": "img/motor/motorraum-vw-caddy-2k-ecofuel.jpg",
+    "merk": "Volkswagen Caddy (2K) EcoFuel",
+    "zones": {
+     "koelvloeistof": {
+      "x": 0,
+      "y": 29,
+      "w": 10,
+      "h": 12
+     },
+     "motorolie": {
+      "x": 54,
+      "y": 28,
+      "w": 8,
+      "h": 8
+     },
+     "remvloeistof": {
+      "x": 71,
+      "y": 16,
+      "w": 8,
+      "h": 9
+     },
+     "ruitensproeier": {
+      "x": 0,
+      "y": 43,
+      "w": 9,
+      "h": 13
+     }
+    },
+    "twijfel": "Olie = vuldop met oliekan-symbool; gele peilstok onderaan (43-48%,82-87%) ook olie.",
+    "author": "StefanNWiki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Motorraum_VW_Caddy_(2K)_EcoFuel.jpg"
+   },
+   {
+    "file": "img/motor/the-engine-room-of-toyota-rav4-hybrid-5th-gen.jpg",
+    "merk": "Toyota RAV4 Hybrid (5e gen, RHD)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 0,
+      "y": 46,
+      "w": 7,
+      "h": 28
+     },
+     "motorolie": {
+      "x": 35,
+      "y": 49,
+      "w": 5,
+      "h": 8
+     },
+     "remvloeistof": {
+      "x": 8,
+      "y": 0,
+      "w": 13,
+      "h": 13
+     },
+     "ruitensproeier": "unknown"
+    },
+    "twijfel": "Koelvloeistoftank maar half in beeld; sproeiertank niet zichtbaar. Rechtsgestuurd: rem links in beeld.",
+    "author": "Oq10pass",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:The_engine_room_of_Toyota_RAV4_Hybrid_(5th-gen).jpg"
+   },
+   {
+    "file": "img/motor/2023-denver-auto-show-kia-sportage-hybrid-engine-bay.jpg",
+    "merk": "Kia Sportage HEV (2023)",
+    "zones": {
+     "koelvloeistof": {
+      "x": 66,
+      "y": 45,
+      "w": 11,
+      "h": 13
+     },
+     "motorolie": "unknown",
+     "remvloeistof": {
+      "x": 65,
+      "y": 35,
+      "w": 8,
+      "h": 9
+     },
+     "ruitensproeier": {
+      "x": 12,
+      "y": 61,
+      "w": 6,
+      "h": 10
+     }
+    },
+    "twijfel": "Roze tank kan ook omvormer-koeling zijn (hybride) – twijfel. Olie niet duidelijk.",
+    "author": "Corqe",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "source": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Kia_Sportage_Hybrid_engine_bay.jpg"
+   }
+  ]
+ },
+ "dash": {
+  "id": "dashboardlampjes",
+  "naam": "Alle dashboardlampjes",
+  "bijgewerkt": "2026-10-22",
+  "kleuren": {
+   "rood": {
+    "naam": "Stop / gevaar",
+    "hex": "#a83232"
+   },
+   "oranje": {
+    "naam": "Waarschuwing (oranje/geel)",
+    "hex": "#f5a400"
+   },
+   "groen": {
+    "naam": "Actief",
+    "hex": "#1f8a4c"
+   },
+   "blauw": {
+    "naam": "Grootlicht",
+    "hex": "#1E6FD9"
+   },
+   "wit": {
+    "naam": "Informatie (wit/grijs)",
+    "hex": "#eef0f3"
+   }
+  },
+  "lampjes": [
+   {
+    "id": "rood-oliedruk",
+    "kleur": "rood",
+    "naam": "Oliedruk",
+    "ook_genoemd": [
+     "oliekan",
+     "olielampje",
+     "oliedruklampje"
+    ],
+    "beeld": "Oliekan (oliespuit) met een druppel eronder of uit de tuit",
+    "betekenis": "Te lage oliedruk in de motor. De motor wordt niet goed gesmeerd. Risico op zware motorschade binnen minuten.",
+    "actie": [
+     "Direct veilig stoppen op een veilige plek",
+     "Alarmlichten aanzetten",
+     "Passagiers informeren over de stop en veiligheidsmaatregelen",
+     "Motor uitzetten",
+     "Oliepeil controleren als het veilig is",
+     "Pechhulp of garage bellen, niet doorrijden"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog: rood betekent direct stoppen. Belangrijk voor theorie B.",
+    "examen_taxi": "Hoog: veiligheid van de passagier. Niet doorrijden met dit defect.",
+    "ezelsbruggetje": "Rode oliekan = motor droog, stop nu.",
+    "bron": "algemene autotechniek, ANWB",
+    "icon": "img/dash/iso7000-0248.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0248",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0248.svg"
+    }
+   },
+   {
+    "id": "rood-koelvloeistof",
+    "kleur": "rood",
+    "naam": "Koelvloeistoftemperatuur",
+    "ook_genoemd": [
+     "motortemperatuur",
+     "thermometer",
+     "koelvloeistoflampje"
+    ],
+    "beeld": "Thermometer die in golven of water staat",
+    "betekenis": "De motor wordt te heet of er is te weinig koelvloeistof. Risico op motorschade.",
+    "actie": [
+     "Direct veilig stoppen",
+     "Alarmlichten aanzetten",
+     "Passagiers informeren",
+     "Motor uitzetten en laten afkoelen",
+     "Nooit de radiateurdop openen als de motor heet is",
+     "Hulp bellen, niet doorrijden"
+    ],
+    "knipperend": "Kan knipperen bij ernstige oververhitting; nog urgenter.",
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog: passagiersveiligheid, niet doorrijden.",
+    "ezelsbruggetje": "Rode thermometer = te heet, stop.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0246.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0246",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0246.svg"
+    }
+   },
+   {
+    "id": "rood-remsysteem",
+    "kleur": "rood",
+    "naam": "Remsysteem",
+    "ook_genoemd": [
+     "remlampje",
+     "BRAKE",
+     "remwaarschuwing"
+    ],
+    "beeld": "Uitroepteken in een cirkel tussen twee haakjes: (!) – of het woord BRAKE",
+    "betekenis": "Probleem met het remsysteem (bijv. laag remvloeistof) of de handrem is aangetrokken.",
+    "actie": [
+     "Controleer eerst of de handrem los is",
+     "Als het lampje blijft branden: direct veilig stoppen",
+     "Alarmlichten aanzetten",
+     "Passagiers informeren",
+     "Motor uit, pechhulp bellen, niet doorrijden"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog: remmen essentieel voor passagiersveiligheid.",
+    "ezelsbruggetje": "Rode ! in cirkel = remmen checken, stop als nodig.",
+    "bron": "algemene autotechniek, CBR",
+    "icon": "img/dash/iso7000-0239.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0239",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0239.svg"
+    }
+   },
+   {
+    "id": "rood-handrem",
+    "kleur": "rood",
+    "naam": "Handrem",
+    "ook_genoemd": [
+     "parkeerrem",
+     "P-lampje"
+    ],
+    "beeld": "Letter P in een cirkel tussen twee haakjes: (P)",
+    "betekenis": "De handrem is aangetrokken.",
+    "actie": [
+     "Handrem loslaten voordat je wegrijdt",
+     "Als het blijft branden tijdens rijden: veilig stoppen en controleren"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel: herkenning belangrijk.",
+    "examen_taxi": "Hoog bij rijklaarcontrole: handrem vrij voordat je wegrijdt met passagier.",
+    "ezelsbruggetje": "P = parkeerrem aan.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0238.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0238",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0238.svg"
+    }
+   },
+   {
+    "id": "rood-accu",
+    "kleur": "rood",
+    "naam": "Accu / laadstroom",
+    "ook_genoemd": [
+     "batterijlampje",
+     "dynamo",
+     "laadsysteem"
+    ],
+    "beeld": "Batterijsymbool met plus en min",
+    "betekenis": "Het laadsysteem werkt niet goed. De accu wordt niet geladen. De auto kan uitvallen.",
+    "actie": [
+     "Niet-essentiële verbruikers uitzetten (radio, verwarming)",
+     "Zo snel mogelijk naar een garage of veilig stoppen",
+     "Passagiers informeren over mogelijk risico",
+     "Alarmlichten als je stopt",
+     "Pechhulp bellen bij twijfel"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog: risico op uitvallen tijdens rit met passagier.",
+    "ezelsbruggetje": "Rode batterij = stroom op, risico uitvallen.",
+    "bron": "algemene autotechniek, ANWB",
+    "icon": "img/dash/iso7000-0247.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0247",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0247.svg"
+    }
+   },
+   {
+    "id": "rood-airbag",
+    "kleur": "rood",
+    "naam": "Airbag",
+    "ook_genoemd": [
+     "airbaglampje",
+     "SRS"
+    ],
+    "beeld": "Zittend persoon met een cirkel of airbag voor zich",
+    "betekenis": "Storing in het airbagsysteem. De airbags werken mogelijk niet bij een botsing.",
+    "actie": [
+     "Zo snel mogelijk naar de garage laten controleren",
+     "Passagiers informeren dat de airbags mogelijk niet werken",
+     "Niet doorrijden als het onveilig voelt"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel-hoog.",
+    "examen_taxi": "Hoog: veiligheid van chauffeur en passagiers.",
+    "ezelsbruggetje": "Rode airbag-persoon = airbags defect.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2108.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2108",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2108.svg"
+    }
+   },
+   {
+    "id": "rood-gordel",
+    "kleur": "rood",
+    "naam": "Veiligheidsgordel",
+    "ook_genoemd": [
+     "gordellampje",
+     "seatbelt"
+    ],
+    "beeld": "Persoon met een gordel over de borst",
+    "betekenis": "Een inzittende draagt geen gordel.",
+    "actie": [
+     "Controleer of alle gordels vast zijn (chauffeur en passagiers)",
+     "Niet wegrijden totdat iedereen gordel om heeft",
+     "Bij taxi: passagiers vriendelijk verzoeken gordel om te doen"
+    ],
+    "knipperend": "Knippert vaak als herinnering.",
+    "examen_cbr": "Hoog: gordelplicht.",
+    "examen_taxi": "Hoog: wettelijke plicht en passagiersveiligheid.",
+    "ezelsbruggetje": "Rode persoon met gordel = gordel vast.",
+    "bron": "algemene autotechniek, RVV 1990",
+    "icon": "img/dash/iso7000-0249.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0249",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0249.svg"
+    }
+   },
+   {
+    "id": "rood-deur-open",
+    "kleur": "rood",
+    "naam": "Deur of klep open",
+    "ook_genoemd": [
+     "deur open lampje",
+     "klep open"
+    ],
+    "beeld": "Silhouet van een auto met een open deur of klep",
+    "betekenis": "Een deur, motorkap of achterklep is niet goed dicht. Kleur verschilt per merk (rood of wit).",
+    "actie": [
+     "Direct stoppen en de open deur of klep sluiten",
+     "Controleer alle deuren voordat je wegrijdt",
+     "Bij taxi: belangrijk bij rijklaarcontrole en tijdens rit"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Hoog: veiligheid passagiers en bagage.",
+    "ezelsbruggetje": "Rode auto met open deur = sluiten.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2239.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2239",
+     "author": "Clemenspool",
+     "license": "CC0",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2239.svg"
+    }
+   },
+   {
+    "id": "rood-eps",
+    "kleur": "rood",
+    "naam": "Stuurbekrachtiging",
+    "ook_genoemd": [
+     "EPS",
+     "power steering"
+    ],
+    "beeld": "Stuurwiel met een uitroepteken of lijn",
+    "betekenis": "Storing in de stuurbekrachtiging. Het stuur wordt zwaar, vooral bij lage snelheid. Bij veel merken is dit lampje oranje i.p.v. rood.",
+    "actie": [
+     "Veilig stoppen",
+     "Passagiers informeren",
+     "Niet verder rijden als het sturen te zwaar is",
+     "Hulp bellen"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel-hoog.",
+    "examen_taxi": "Hoog: bestuurbaarheid essentieel.",
+    "ezelsbruggetje": "Rood stuurwiel = zwaar sturen, stoppen.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2305.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2305",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2305.svg"
+    }
+   },
+   {
+    "id": "rood-ev-storing",
+    "kleur": "rood",
+    "naam": "EV-systeemstoring",
+    "ook_genoemd": [
+     "hybride storing",
+     "hoogspanning storing"
+    ],
+    "beeld": "Auto-silhouet met uitroepteken of batterij met bliksem",
+    "betekenis": "Ernstige storing in het elektrische of hybride systeem. Risico op vermogensverlies of stilstand.",
+    "actie": [
+     "Direct veilig stoppen",
+     "Alarmlichten aan",
+     "Passagiers informeren",
+     "Motor/EV uitzetten",
+     "Gespecialiseerde pechhulp bellen, niet doorrijden"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel: moderne auto's.",
+    "examen_taxi": "Hoog: moderne taxi's zijn vaak hybride/EV.",
+    "ezelsbruggetje": "Rode EV-auto = systeemfout, stoppen.",
+    "bron": "algemene autotechniek, EV-handleidingen",
+    "icon": "img/dash/own-rood-ev-storing.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "rood-master-warning",
+    "kleur": "rood",
+    "naam": "Algemene waarschuwing",
+    "ook_genoemd": [
+     "master warning",
+     "driehoek met uitroepteken"
+    ],
+    "beeld": "Driehoek met een uitroepteken erin",
+    "betekenis": "Algemene ernstige waarschuwing. Kijk op het display voor details.",
+    "actie": [
+     "Veilig stoppen en display lezen",
+     "Handel volgens de melding",
+     "Passagiers informeren indien nodig"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel-hoog.",
+    "ezelsbruggetje": "Rode driehoek ! = kijk op scherm.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/own-rood-master-warning.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "rood-charging-cable",
+    "kleur": "rood",
+    "naam": "Laadkabel aangesloten",
+    "ook_genoemd": [
+     "EV charging cable"
+    ],
+    "beeld": "Stekker of laadkabel-symbool rood",
+    "betekenis": "De laadkabel is nog aangesloten; wegrijden is geblokkeerd of niet toegestaan. Symbool en kleur verschillen per merk.",
+    "actie": [
+     "Laadkabel loskoppelen voordat je wegrijdt",
+     "Controleer bij rijklaar"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Hoog: EV-taxi.",
+    "ezelsbruggetje": "Rode stekker = kabel los.",
+    "bron": "EV-handleidingen",
+    "icon": "img/dash/own-rood-charging-cable.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "oranje-mil",
+    "kleur": "oranje",
+    "naam": "Motorstoring / MIL",
+    "ook_genoemd": [
+     "check engine",
+     "motormanagement",
+     "motorlampje"
+    ],
+    "beeld": "Omtrek van een motorblok",
+    "betekenis": "Storing in het motormanagement of emissiesysteem. De auto kan in noodloop gaan.",
+    "actie": [
+     "Rustig doorrijden naar de garage of parkeerplaats",
+     "Laat de foutcode uitlezen",
+     "Bij knipperen: beperk rijden of stoppen",
+     "Passagiers informeren als je stopt"
+    ],
+    "knipperend": "Knipperend is urgenter (bijv. misfire); behandel bijna als rood: stop zo snel mogelijk.",
+    "examen_cbr": "Hoog: meest gevraagde oranje lampje.",
+    "examen_taxi": "Hoog: doorrijden beperkt, passagier informeren bij stop.",
+    "ezelsbruggetje": "Oranje motor = laten uitlezen, knipperend stoppen.",
+    "bron": "algemene autotechniek, CBR, HaalTheorie",
+    "icon": "img/dash/iso7000-0640.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0640",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0640.svg"
+    }
+   },
+   {
+    "id": "oranje-abs",
+    "kleur": "oranje",
+    "naam": "ABS",
+    "ook_genoemd": [
+     "antiblokkeersysteem"
+    ],
+    "beeld": "Letters ABS in een cirkel",
+    "betekenis": "Storing in het ABS. De gewone remmen werken nog, maar de wielen kunnen blokkeren bij hard remmen.",
+    "actie": [
+     "Voorzichtig doorrijden",
+     "Laat zo snel mogelijk controleren",
+     "Extra afstand houden",
+     "Passagiers informeren als relevant"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog: veiligheid bij noodstop.",
+    "ezelsbruggetje": "Oranje ABS = remmen ok, maar geen antiblokkeer.",
+    "bron": "algemene autotechniek, CBR",
+    "icon": "img/dash/iso7000-1407.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 1407",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_1407.svg"
+    }
+   },
+   {
+    "id": "oranje-esp",
+    "kleur": "oranje",
+    "naam": "ESP / ESC",
+    "ook_genoemd": [
+     "stabiliteitscontrole",
+     "traction control",
+     "VSC"
+    ],
+    "beeld": "Auto met golvende of slingerende lijnen eronder",
+    "betekenis": "Het stabiliteitssysteem is uitgeschakeld, defect of grijpt in.",
+    "actie": [
+     "Bij knipperen: systeem is actief, rustig doorrijden",
+     "Bij continu branden: laten controleren, voorzichtig rijden",
+     "Passagiers informeren bij stop"
+    ],
+    "knipperend": "Knipperend = systeem grijpt in (normaal op gladheid). Continu = storing of uit.",
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog.",
+    "ezelsbruggetje": "Oranje auto met slingers = stabiliteit checken.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2630.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2630",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2630.svg"
+    }
+   },
+   {
+    "id": "oranje-tpms",
+    "kleur": "oranje",
+    "naam": "Bandenspanning",
+    "ook_genoemd": [
+     "TPMS",
+     "bandenspanningslampje"
+    ],
+    "beeld": "Uitroepteken in een U-vorm of hoefijzer (banddoorsnede)",
+    "betekenis": "Een of meer banden hebben te lage spanning of er is een sensorstoring.",
+    "actie": [
+     "Zo snel mogelijk de bandenspanning controleren bij een pomp",
+     "Bij lage spanning: voorzichtig rijden",
+     "Bij taxi: belangrijk voor veiligheid en comfort passagier"
+    ],
+    "knipperend": "Kan knipperen bij sensorfout.",
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog: rijklaarcontrole en passagiersveiligheid.",
+    "ezelsbruggetje": "Oranje ! in band = lucht checken.",
+    "bron": "algemene autotechniek, CBR",
+    "icon": "img/dash/iso7000-1434A.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 1434A",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_1434A.svg"
+    }
+   },
+   {
+    "id": "oranje-voorgloeien",
+    "kleur": "oranje",
+    "naam": "Voorgloeien",
+    "ook_genoemd": [
+     "gloeilampje diesel",
+     "spiraal"
+    ],
+    "beeld": "Spiraal of gloeidraad",
+    "betekenis": "Dieselmotor warmt voor (normaal bij start) of er is een storing in het gloeisysteem.",
+    "actie": [
+     "Wacht tot het lampje uitgaat voordat je start",
+     "Blijft het branden of knippert het: laten controleren"
+    ],
+    "knipperend": "Knipperend wijst vaak op storing.",
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel: diesel-taxi’s.",
+    "ezelsbruggetje": "Oranje spiraal = diesel voorverwarmen.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0457.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0457",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0457.svg"
+    }
+   },
+   {
+    "id": "oranje-dpf",
+    "kleur": "oranje",
+    "naam": "Roetfilter (DPF)",
+    "ook_genoemd": [
+     "diesel particulate filter",
+     "roetfilterlampje"
+    ],
+    "beeld": "Rechthoek (filter) met stippen erin en uitlaatpijpen",
+    "betekenis": "Het roetfilter is vol of heeft regeneratie nodig.",
+    "actie": [
+     "Rijd een stuk door met hogere snelheid (bijv. 20-30 min op snelweg) om te regenereren",
+     "Blijft het branden: laten controleren",
+     "Passagiers informeren als je stopt voor onderhoud"
+    ],
+    "knipperend": "Kan knipperen bij ernstige verstopping.",
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel-hoog voor diesel.",
+    "ezelsbruggetje": "Oranje filter = roetfilter, doorrijden helpt.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2844A.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2844A",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2844A.svg"
+    }
+   },
+   {
+    "id": "oranje-adblue",
+    "kleur": "oranje",
+    "naam": "AdBlue",
+    "ook_genoemd": [
+     "AdBlue-lampje",
+     "SCR"
+    ],
+    "beeld": "Fles of druppel met AdBlue-label of tanksymbool",
+    "betekenis": "AdBlue-niveau is laag of er is een storing. Dieselauto start mogelijk niet meer als het leeg is.",
+    "actie": [
+     "Zo snel mogelijk AdBlue bijvullen",
+     "Niet leeg rijden",
+     "Passagiers informeren als relevant voor rit"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel-hoog voor diesel-taxi.",
+    "ezelsbruggetje": "Oranje AdBlue = bijvullen.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2946.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2946",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2946.svg"
+    }
+   },
+   {
+    "id": "oranje-brandstof",
+    "kleur": "oranje",
+    "naam": "Brandstof laag",
+    "ook_genoemd": [
+     "tanklampje",
+     "brandstofreserve"
+    ],
+    "beeld": "Benzinepomp of tanksymbool",
+    "betekenis": "De tank is bijna leeg (reserve).",
+    "actie": [
+     "Zo snel mogelijk tanken",
+     "Bij EV: laden",
+     "Passagiers informeren over mogelijke stop"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Hoog: planning van rit, niet met lege tank passagier meenemen.",
+    "ezelsbruggetje": "Oranje pomp = tanken.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0245.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0245",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0245.svg"
+    }
+   },
+   {
+    "id": "oranje-mistachterlicht",
+    "kleur": "oranje",
+    "naam": "Mistachterlicht",
+    "ook_genoemd": [
+     "mistlicht achter"
+    ],
+    "beeld": "Lamp die naar RECHTS wijst met rechte horizontale stralen, doorkruist door een golvende lijn",
+    "betekenis": "Het mistachterlicht is aan. Alleen toegestaan bij mist of sneeuwval met zicht < 50 m (RVV 1990 art. 34 lid 2). Bij regen niet.",
+    "actie": [
+     "Alleen gebruiken bij zicht minder dan 50 meter door mist of sneeuw",
+     "Niet bij regen of goed zicht",
+     "Uitschakelen zodra zicht beter is"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog: verlichtingsregels RVV 1990.",
+    "examen_taxi": "Hoog: verkeersveiligheid.",
+    "ezelsbruggetje": "Oranje mistachter = alleen <50m mist/sneeuw.",
+    "bron": "RVV 1990 artikel 34, CBR",
+    "icon": "img/dash/iso7000-0634.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0634",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0634.svg"
+    }
+   },
+   {
+    "id": "oranje-rijstrookassistent",
+    "kleur": "oranje",
+    "naam": "Rijstrookassistent",
+    "ook_genoemd": [
+     "lane assist",
+     "LDW"
+    ],
+    "beeld": "Auto tussen twee lijnen of auto met pijlen",
+    "betekenis": "Rijstrookassistent is actief, uitgeschakeld of er is een storing.",
+    "actie": [
+     "Controleer of het systeem aan of uit staat",
+     "Bij storing: laten controleren",
+     "Handmatig sturen blijft nodig"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag-middel.",
+    "examen_taxi": "Middel: moderne taxi’s.",
+    "ezelsbruggetje": "Oranje auto met lijnen = rijstrookhulp.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-3128.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 3128",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_3128.svg"
+    }
+   },
+   {
+    "id": "oranje-sproeiervloeistof",
+    "kleur": "oranje",
+    "naam": "Ruitensproeiervloeistof",
+    "ook_genoemd": [
+     "wasvloeistof",
+     "sproeierlampje"
+    ],
+    "beeld": "Voorruit met waterstralen of sproeier",
+    "betekenis": "Het niveau van de ruitensproeiervloeistof is laag.",
+    "actie": [
+     "Bijvullen bij gelegenheid",
+     "Geen urgentie, maar wel voor zicht"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel: zicht belangrijk voor veilig rijden.",
+    "ezelsbruggetje": "Oranje ruit met water = bijvullen.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0088.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0088",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0088.svg"
+    }
+   },
+   {
+    "id": "oranje-remblokken",
+    "kleur": "oranje",
+    "naam": "Slijtage remblokken",
+    "ook_genoemd": [
+     "remblokkenlampje",
+     "brake pad wear"
+    ],
+    "beeld": "Remklauw of cirkel met uitroepteken of slijtage-indicator",
+    "betekenis": "De remblokken zijn versleten en moeten vervangen worden.",
+    "actie": [
+     "Zo snel mogelijk laten vervangen",
+     "Voorzichtig remmen",
+     "Passagiers informeren als je naar garage gaat"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Hoog: remmen essentieel.",
+    "ezelsbruggetje": "Oranje rem = blokken vervangen.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-1408.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 1408",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_1408.svg"
+    }
+   },
+   {
+    "id": "oranje-gloeilampdefect",
+    "kleur": "oranje",
+    "naam": "Gloeilampdefect",
+    "ook_genoemd": [
+     "lampdefect",
+     "bulb out"
+    ],
+    "beeld": "Lamp met een uitroepteken of kruis",
+    "betekenis": "Een of meer lampen zijn defect (bijv. koplamp, achterlicht).",
+    "actie": [
+     "Zo snel mogelijk de defecte lamp vervangen of laten repareren",
+     "Belangrijk voor zichtbaarheid en veiligheid"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel: verlichting.",
+    "examen_taxi": "Hoog: rijklaarcontrole, verlichting moet werken.",
+    "ezelsbruggetje": "Oranje lamp met ! = lamp defect.",
+    "bron": "algemene autotechniek, RVV 1990",
+    "icon": "img/dash/own-oranje-gloeilampdefect.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "oranje-service",
+    "kleur": "oranje",
+    "naam": "Service-interval",
+    "ook_genoemd": [
+     "onderhoudslampje",
+     "service due"
+    ],
+    "beeld": "Sleutel, moersleutel of spanner",
+    "betekenis": "Het is tijd voor onderhoud of service.",
+    "actie": [
+     "Plan een afspraak bij de garage",
+     "Geen acute storing"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel: voertuigonderhoud voor betrouwbaarheid.",
+    "ezelsbruggetje": "Oranje sleutel = service nodig.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0717.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0717",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0717.svg"
+    }
+   },
+   {
+    "id": "oranje-low-oil-level",
+    "kleur": "oranje",
+    "naam": "Oliepeil laag",
+    "ook_genoemd": [
+     "olie niveau"
+    ],
+    "beeld": "Oliekan (vaak met golflijn of MIN eronder), oranje/geel",
+    "betekenis": "Het oliepeil is laag (niet hetzelfde als oliedruk).",
+    "actie": [
+     "Olie bijvullen bij gelegenheid",
+     "Controleer peil regelmatig"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel.",
+    "ezelsbruggetje": "Oranje oliekan = peil checken.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0248.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0248",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0248.svg"
+    }
+   },
+   {
+    "id": "oranje-master-warning",
+    "kleur": "oranje",
+    "naam": "Algemene waarschuwing oranje",
+    "ook_genoemd": [
+     "driehoek uitroepteken"
+    ],
+    "beeld": "Driehoek met uitroepteken",
+    "betekenis": "Algemene waarschuwing. Kijk op het display voor details.",
+    "actie": [
+     "Lees de melding op het scherm",
+     "Handel er naar",
+     "Laat controleren indien nodig"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel.",
+    "ezelsbruggetje": "Oranje driehoek = kijk op scherm.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/own-oranje-master-warning.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "oranje-transmission",
+    "kleur": "oranje",
+    "naam": "Transmissie",
+    "ook_genoemd": [
+     "versnellingsbak storing"
+    ],
+    "beeld": "Tandwiel of transmissie-symbool",
+    "betekenis": "Storing in de versnellingsbak.",
+    "actie": [
+     "Voorzichtig doorrijden naar garage",
+     "Laat uitlezen"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Hoog: doorrijden beperkt.",
+    "ezelsbruggetje": "Oranje tandwiel = bak checken.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-1396A.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 1396A",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_1396A.svg"
+    }
+   },
+   {
+    "id": "oranje-low-battery-ev",
+    "kleur": "oranje",
+    "naam": "Lage accu EV",
+    "ook_genoemd": [
+     "EV battery low"
+    ],
+    "beeld": "Batterij met laag niveau of schildpad",
+    "betekenis": "De hoogspanningsaccu is laag. Vermogen kan beperkt zijn.",
+    "actie": [
+     "Zo snel mogelijk laden",
+     "Passagiers informeren over mogelijke omleiding of stop"
+    ],
+    "knipperend": "Kan knipperen bij zeer laag niveau.",
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Hoog.",
+    "ezelsbruggetje": "Oranje EV-batterij = laden.",
+    "bron": "EV-handleidingen",
+    "icon": "img/dash/iso7000-2632.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2632",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2632.svg"
+    }
+   },
+   {
+    "id": "groen-richtingaanwijzer",
+    "kleur": "groen",
+    "naam": "Richtingaanwijzer",
+    "ook_genoemd": [
+     "knipperlicht",
+     "richtingaanwijzerlampje"
+    ],
+    "beeld": "Pijl naar links of rechts",
+    "betekenis": "De richtingaanwijzer is ingeschakeld.",
+    "actie": [
+     "Automatisch uit na de bocht, of handmatig uitzetten",
+     "Geen storing"
+    ],
+    "knipperend": "Knippert altijd als actief.",
+    "examen_cbr": "Hoog: signalen.",
+    "examen_taxi": "Hoog.",
+    "ezelsbruggetje": "Groene pijl = richting aangeven.",
+    "bron": "algemene autotechniek, RVV 1990",
+    "icon": "img/dash/iso7000-0084.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0084",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0084.svg"
+    }
+   },
+   {
+    "id": "groen-alarmlichten",
+    "kleur": "groen",
+    "naam": "Alarmlichten",
+    "ook_genoemd": [
+     "waarschuwingslichten",
+     "4-knipper"
+    ],
+    "beeld": "Dubbele (gevaren)driehoek; bij veel auto's knipperen ook beide groene pijlen",
+    "betekenis": "De alarmlichten (waarschuwingsknipperlichten) zijn aan. De knop/het lampje is vaak rood; de controlelampjes zijn groene pijlen.",
+    "actie": [
+     "Gebruik bij pech, stilstand of gevaar",
+     "Niet bij dubbel parkeren of normaal rijden",
+     "Bij taxi: altijd bij veilig stoppen met passagier"
+    ],
+    "knipperend": "Knipperen altijd.",
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog: passagiersveiligheid bij stop.",
+    "ezelsbruggetje": "Groene alarm = pech of gevaar.",
+    "bron": "RVV 1990, CBR",
+    "icon": "img/dash/iso7000-0085.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0085",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0085.svg"
+    }
+   },
+   {
+    "id": "groen-dimlicht",
+    "kleur": "groen",
+    "naam": "Dimlicht",
+    "ook_genoemd": [
+     "koplamp dim"
+    ],
+    "beeld": "Koplamp met schuine of gebogen stralen naar beneden",
+    "betekenis": "Het dimlicht is aan.",
+    "actie": [
+     "Verplicht bij nacht, tunnels en slecht zicht",
+     "Geen actie nodig als het aan is"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog: verlichtingsregels.",
+    "examen_taxi": "Hoog.",
+    "ezelsbruggetje": "Groene koplamp = dimlicht aan.",
+    "bron": "RVV 1990 artikel 32, CBR",
+    "icon": "img/dash/iso7000-0083.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0083",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0083.svg"
+    }
+   },
+   {
+    "id": "groen-stadslicht",
+    "kleur": "groen",
+    "naam": "Stadslicht",
+    "ook_genoemd": [
+     "parkeerlicht",
+     "city light"
+    ],
+    "beeld": "Kleine lamp of koplamp met korte stralen",
+    "betekenis": "Het stadslicht of parkeerlicht is aan.",
+    "actie": [
+     "Gebruik bij stilstand of als vervanging bij mistlicht",
+     "Geen storing"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel.",
+    "examen_taxi": "Middel.",
+    "ezelsbruggetje": "Groen stadslicht = parkeerlicht.",
+    "bron": "RVV 1990",
+    "icon": "img/dash/iso7000-0240.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0240",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0240.svg"
+    }
+   },
+   {
+    "id": "groen-mistvoorlicht",
+    "kleur": "groen",
+    "naam": "Mistvoorlicht",
+    "ook_genoemd": [
+     "mistlicht voor"
+    ],
+    "beeld": "Lamp die naar LINKS wijst met schuin naar beneden gerichte stralen, doorkruist door een golvende lijn",
+    "betekenis": "Het mistvoorlicht is aan. Toegestaan bij mist, sneeuwval of regen die het zicht ernstig belemmert (RVV 1990 art. 34 lid 1).",
+    "actie": [
+     "Alleen bij zicht minder dan 200 meter door mist, sneeuw of zware regen",
+     "Uitschakelen bij beter zicht",
+     "Mag in plaats van dimlicht"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog.",
+    "examen_taxi": "Hoog.",
+    "ezelsbruggetje": "Groen mistvoor = slecht zicht <200m.",
+    "bron": "RVV 1990 artikel 34, CBR",
+    "icon": "img/dash/iso7000-0633.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0633",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0633.svg"
+    }
+   },
+   {
+    "id": "groen-cruise-control",
+    "kleur": "groen",
+    "naam": "Cruise control",
+    "ook_genoemd": [
+     "snelheidsregelaar"
+    ],
+    "beeld": "Snelheidsmeter met een pijl of boog",
+    "betekenis": "Cruise control is actief.",
+    "actie": [
+     "Geen actie nodig",
+     "Uitschakelen bij file of slecht weer",
+     "Bij taxi: handig op lange ritten"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag-middel.",
+    "examen_taxi": "Middel.",
+    "ezelsbruggetje": "Groene cruise = snelheid vast.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2047.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2047",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2047.svg"
+    }
+   },
+   {
+    "id": "groen-ready-ev",
+    "kleur": "groen",
+    "naam": "READY",
+    "ook_genoemd": [
+     "EV ready",
+     "klaar om te rijden"
+    ],
+    "beeld": "Het woord READY of een groene auto met pijlen eronder",
+    "betekenis": "De EV of hybride is klaar om te rijden. Je hoort vaak geen motor, dus dit lampje is de bevestiging. Let op: de auto rijdt weg bij gas geven.",
+    "actie": [
+     "Je kunt wegrijden",
+     "Geen storing"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Middel: moderne voertuigen.",
+    "examen_taxi": "Hoog: hybride/EV taxi’s.",
+    "ezelsbruggetje": "Groen READY = auto is aan.",
+    "bron": "EV-handleidingen, algemene autotechniek",
+    "icon": "img/dash/own-groen-ready-ev.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "groen-eco-modus",
+    "kleur": "groen",
+    "naam": "Eco-modus",
+    "ook_genoemd": [
+     "ECO",
+     "zuinig rijden"
+    ],
+    "beeld": "Het woord ECO of een blad",
+    "betekenis": "De eco-modus is actief. De auto rijdt zuiniger, soms met minder vermogen.",
+    "actie": [
+     "Geen actie nodig",
+     "Uitschakelen als je meer vermogen nodig hebt"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel: brandstofbesparing.",
+    "ezelsbruggetje": "Groen ECO = zuinig rijden.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-3323.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 3323",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_3323.svg"
+    }
+   },
+   {
+    "id": "groen-start-stop",
+    "kleur": "groen",
+    "naam": "Start-stop",
+    "ook_genoemd": [
+     "auto start-stop"
+    ],
+    "beeld": "Letter A met een pijl in een cirkel",
+    "betekenis": "Het start-stop-systeem is actief. De motor gaat uit bij stilstand.",
+    "actie": [
+     "Geen actie nodig",
+     "Kan uitgeschakeld worden"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel.",
+    "ezelsbruggetje": "Groen A = start-stop aan.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-3127.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 3127",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_3127.svg"
+    }
+   },
+   {
+    "id": "groen-auto-hold",
+    "kleur": "groen",
+    "naam": "Auto-hold",
+    "ook_genoemd": [
+     "auto hold"
+    ],
+    "beeld": "Auto met P of hold-symbool groen",
+    "betekenis": "Auto-hold is actief. De auto blijft stilstaan zonder rempedaal.",
+    "actie": [
+     "Geen actie nodig"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel: handig bij taxi.",
+    "ezelsbruggetje": "Groen hold = auto blijft staan.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/own-groen-auto-hold.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "blauw-grootlicht",
+    "kleur": "blauw",
+    "naam": "Grootlicht",
+    "ook_genoemd": [
+     "high beam",
+     "grote lichten"
+    ],
+    "beeld": "Koplamp met rechte, lange stralen",
+    "betekenis": "Het grootlicht is aan.",
+    "actie": [
+     "Alleen gebruiken als er geen tegenliggers of voorliggers dichtbij zijn",
+     "Direct dimmen bij tegenligger",
+     "Niet gebruiken bij mist"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Hoog: verlichtingsregels.",
+    "examen_taxi": "Hoog.",
+    "ezelsbruggetje": "Blauw grootlicht = dimmen bij tegenligger.",
+    "bron": "RVV 1990, CBR",
+    "icon": "img/dash/iso7000-0082.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0082",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0082.svg"
+    }
+   },
+   {
+    "id": "wit-buitentemperatuur",
+    "kleur": "wit",
+    "naam": "Buitentemperatuur / ijswaarschuwing",
+    "ook_genoemd": [
+     "buitentemp",
+     "sneeuwvlok"
+    ],
+    "beeld": "Thermometer of sneeuwvlok",
+    "betekenis": "Toont de buitentemperatuur. Sneeuwvlok waarschuwt voor mogelijk ijs bij lage temperatuur.",
+    "actie": [
+     "Pas je rijgedrag aan bij lage temperatuur",
+     "Geen storing"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel: gladheid en passagierscomfort.",
+    "ezelsbruggetje": "Witte sneeuwvlok = let op ijs.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/own-wit-buitentemperatuur.svg",
+    "icon_credit": {
+     "titel": "Eigen vereenvoudigde tekening (geen officieel ISO-bestand)",
+     "license": "eigen werk",
+     "source": ""
+    }
+   },
+   {
+    "id": "wit-cruise-standby",
+    "kleur": "wit",
+    "naam": "Cruise control stand-by",
+    "ook_genoemd": [
+     "cruise standby"
+    ],
+    "beeld": "Snelheidsmeter grijs of wit zonder actieve pijl",
+    "betekenis": "Cruise control staat klaar maar is niet actief.",
+    "actie": [
+     "Geen actie nodig",
+     "Activeer met de knop"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Laag.",
+    "ezelsbruggetje": "Witte cruise = standby.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2047.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2047",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2047.svg"
+    }
+   },
+   {
+    "id": "wit-service-interval",
+    "kleur": "wit",
+    "naam": "Service-interval informatie",
+    "ook_genoemd": [
+     "onderhoudsherinnering"
+    ],
+    "beeld": "Sleutel of klok grijs/wit",
+    "betekenis": "Informatie over de volgende service of resterende kilometers.",
+    "actie": [
+     "Plan onderhoud",
+     "Geen urgentie"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel.",
+    "ezelsbruggetje": "Witte sleutel = service info.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-0717.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 0717",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_0717.svg"
+    }
+   },
+   {
+    "id": "wit-adaptieve-cruise",
+    "kleur": "wit",
+    "naam": "Adaptieve cruise control",
+    "ook_genoemd": [
+     "ACC",
+     "adaptive cruise"
+    ],
+    "beeld": "Auto met radar of ACC-symbool grijs/wit",
+    "betekenis": "Adaptieve cruise control staat in stand-by of is beschikbaar.",
+    "actie": [
+     "Geen actie nodig",
+     "Activeer indien gewenst"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Middel: moderne taxi’s.",
+    "ezelsbruggetje": "Witte ACC = adaptieve cruise standby.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-2580.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 2580",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_2580.svg"
+    }
+   },
+   {
+    "id": "wit-start-stop-info",
+    "kleur": "wit",
+    "naam": "Start-stop informatie",
+    "ook_genoemd": [
+     "start-stop standby"
+    ],
+    "beeld": "A met pijl grijs of wit",
+    "betekenis": "Start-stop-systeem is beschikbaar of in stand-by.",
+    "actie": [
+     "Geen actie"
+    ],
+    "knipperend": null,
+    "examen_cbr": "Laag.",
+    "examen_taxi": "Laag.",
+    "ezelsbruggetje": "Witte A = start-stop info.",
+    "bron": "algemene autotechniek",
+    "icon": "img/dash/iso7000-3127.svg",
+    "icon_credit": {
+     "titel": "ISO 7000 – Ref-No 3127",
+     "author": "Vectorization: Mrmw",
+     "license": "Public domain",
+     "source": "https://commons.wikimedia.org/wiki/File:ISO_7000_-_Ref-No_3127.svg"
+    }
+   }
+  ]
+ }
 }
