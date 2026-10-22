@@ -92,7 +92,99 @@
     "104 weken / 2 jaar bewaren",
     "na 1-1-2028 alleen CDT"
    ],
-   "recall": "Schrijf uit je hoofd alle 7 voertuigdocumenten en de 3 persoonlijke documenten op."
+   "recall": "Schrijf uit je hoofd alle 7 voertuigdocumenten en de 3 persoonlijke documenten op.",
+   "recallItems": [
+    {
+     "n": "Kentekenbewijs",
+     "k": [
+      "kenteken",
+      "kentekenbewijs",
+      "kentekencard",
+      "registratiebewijs"
+     ]
+    },
+    {
+     "n": "APK-rapport",
+     "k": [
+      "apk",
+      "apk rapport",
+      "keuringsrapport",
+      "apk bewijs"
+     ]
+    },
+    {
+     "n": "Europees schadeformulier",
+     "k": [
+      "schadeformulier",
+      "schade formulier",
+      "aanrijdingsformulier",
+      "europees schadeformulier"
+     ]
+    },
+    {
+     "n": "Groene kaart",
+     "k": [
+      "groene kaart",
+      "verzekeringsbewijs",
+      "verzekeringskaart",
+      "verzekering"
+     ]
+    },
+    {
+     "n": "Keuringsbewijs taxameter",
+     "k": [
+      "taxameter",
+      "keuringsbewijs taxameter",
+      "meter keuring"
+     ]
+    },
+    {
+     "n": "Milieusticker",
+     "k": [
+      "milieusticker",
+      "milieu sticker",
+      "umweltplakette",
+      "sticker"
+     ]
+    },
+    {
+     "n": "Tariefkaart (taxi-informatiekaart)",
+     "k": [
+      "tariefkaart",
+      "tarievenkaart",
+      "taxi informatiekaart",
+      "informatiekaart",
+      "tarief"
+     ]
+    },
+    {
+     "n": "Rijbewijs B",
+     "k": [
+      "rijbewijs"
+     ]
+    },
+    {
+     "n": "Identiteitsbewijs",
+     "k": [
+      "identiteitsbewijs",
+      "id",
+      "id kaart",
+      "paspoort",
+      "identiteitskaart",
+      "legitimatie"
+     ]
+    },
+    {
+     "n": "Chauffeurskaart",
+     "k": [
+      "chauffeurskaart",
+      "chauffeurspas",
+      "boordcomputerkaart",
+      "bct kaart",
+      "chauffeursdiploma"
+     ]
+    }
+   ]
   },
   "2": {
    "naam": "Verkeerswet & -regels",
@@ -175,7 +267,104 @@
     "erf 15 en 50/80/100/130",
     "kind < 1,35 m niet voorin"
    ],
-   "recall": "Noem uit je hoofd de rangorde, de 5 FRUIT+-situaties en alle maximumsnelheden."
+   "recall": "Noem uit je hoofd de rangorde, de 5 FRUIT+-situaties en alle maximumsnelheden.",
+   "recallItems": [
+    {
+     "n": "Aanwijzing verkeersregelaar (hoogst)",
+     "k": [
+      "aanwijzing",
+      "verkeersregelaar",
+      "politie"
+     ]
+    },
+    {
+     "n": "Verkeerslicht",
+     "k": [
+      "verkeerslicht",
+      "licht",
+      "stoplicht"
+     ]
+    },
+    {
+     "n": "Verkeersbord/voorrangsteken",
+     "k": [
+      "bord",
+      "verkeersbord",
+      "verkeersteken"
+     ]
+    },
+    {
+     "n": "Verkeersregel (laagst)",
+     "k": [
+      "regel",
+      "verkeersregels"
+     ]
+    },
+    {
+     "n": "File",
+     "k": [
+      "file"
+     ]
+    },
+    {
+     "n": "Rotonde",
+     "k": [
+      "rotonde"
+     ]
+    },
+    {
+     "n": "Blokmarkering",
+     "k": [
+      "blokmarkering",
+      "markering"
+     ]
+    },
+    {
+     "n": "Links voorsorteerder",
+     "k": [
+      "voorsorteerder",
+      "voorsorteren",
+      "links voorsorteren"
+     ]
+    },
+    {
+     "n": "Tram",
+     "k": [
+      "tram"
+     ]
+    },
+    {
+     "n": "50 binnen de kom",
+     "k": [
+      "50"
+     ]
+    },
+    {
+     "n": "80 buiten de kom",
+     "k": [
+      "80"
+     ]
+    },
+    {
+     "n": "100 autoweg",
+     "k": [
+      "100"
+     ]
+    },
+    {
+     "n": "130 autosnelweg",
+     "k": [
+      "130"
+     ]
+    },
+    {
+     "n": "15 erf",
+     "k": [
+      "15",
+      "erf"
+     ]
+    }
+   ]
   },
   "3": {
    "naam": "Werktijden & taxiwetten",
@@ -251,7 +440,82 @@
     "nachtdienst = > 1 u 00–06",
     "meldplicht 2 werkgevers"
    ],
-   "recall": "Zeg de getallen-rij hardop: pauze, dagrust, weekrust, arbeidstijd, nacht – eerst met cao, dan zonder."
+   "recall": "Zeg de getallen-rij hardop: pauze, dagrust, weekrust, arbeidstijd, nacht – eerst met cao, dan zonder.",
+   "recallItems": [
+    {
+     "n": "Pauze: 15 min aaneen bij > 5,5 u (cao)",
+     "k": [
+      "15 min",
+      "15",
+      "kwartier"
+     ]
+    },
+    {
+     "n": "5,5 uur",
+     "k": [
+      "5,5",
+      "5.5",
+      "vijfenhalf"
+     ]
+    },
+    {
+     "n": "Dagrust 10 u per 24 u",
+     "k": [
+      "10 uur",
+      "10 u",
+      "10"
+     ]
+    },
+    {
+     "n": "2× per 14×24 u ingekort naar 8 u",
+     "k": [
+      "8 uur",
+      "8 u",
+      "8"
+     ]
+    },
+    {
+     "n": "Weekrust 72 u per 14×24 u (delen ≥ 24 u)",
+     "k": [
+      "72"
+     ]
+    },
+    {
+     "n": "Arbeidstijd gem. 48 u/week per 26 weken",
+     "k": [
+      "48"
+     ]
+    },
+    {
+     "n": "26 weken",
+     "k": [
+      "26"
+     ]
+    },
+    {
+     "n": "Nachtdienst: > 1 u tussen 00–06",
+     "k": [
+      "00 06",
+      "0 6",
+      "middernacht",
+      "nacht"
+     ]
+    },
+    {
+     "n": "Zonder cao: pauze 30/45 min",
+     "k": [
+      "30",
+      "45"
+     ]
+    },
+    {
+     "n": "Zonder cao: 12 u/dienst, 60 u/week",
+     "k": [
+      "12",
+      "60"
+     ]
+    }
+   ]
   },
   "4": {
    "naam": "Rit, route & veilig rijden",
@@ -327,7 +591,104 @@
     "A28-volgorde",
     "passagier zo goed mogelijk bedienen"
    ],
-   "recall": "Teken een kaartje van NL met de 12 provinciehoofdsteden en de A2, A12 en A28."
+   "recall": "Teken een kaartje van NL met de 12 provinciehoofdsteden en de A2, A12 en A28.",
+   "recallItems": [
+    {
+     "n": "Groningen",
+     "k": [
+      "groningen"
+     ]
+    },
+    {
+     "n": "Leeuwarden (Friesland)",
+     "k": [
+      "leeuwarden"
+     ]
+    },
+    {
+     "n": "Assen (Drenthe)",
+     "k": [
+      "assen"
+     ]
+    },
+    {
+     "n": "Zwolle (Overijssel)",
+     "k": [
+      "zwolle"
+     ]
+    },
+    {
+     "n": "Arnhem (Gelderland)",
+     "k": [
+      "arnhem"
+     ]
+    },
+    {
+     "n": "Lelystad (Flevoland)",
+     "k": [
+      "lelystad"
+     ]
+    },
+    {
+     "n": "Utrecht",
+     "k": [
+      "utrecht"
+     ]
+    },
+    {
+     "n": "Haarlem (Noord-Holland)",
+     "k": [
+      "haarlem"
+     ]
+    },
+    {
+     "n": "Den Haag (Zuid-Holland)",
+     "k": [
+      "den haag",
+      "s gravenhage",
+      "gravenhage"
+     ]
+    },
+    {
+     "n": "Middelburg (Zeeland)",
+     "k": [
+      "middelburg"
+     ]
+    },
+    {
+     "n": "'s-Hertogenbosch (Noord-Brabant)",
+     "k": [
+      "s hertogenbosch",
+      "hertogenbosch",
+      "den bosch",
+      "bosch"
+     ]
+    },
+    {
+     "n": "Maastricht (Limburg)",
+     "k": [
+      "maastricht"
+     ]
+    },
+    {
+     "n": "A2",
+     "k": [
+      "a2"
+     ]
+    },
+    {
+     "n": "A12",
+     "k": [
+      "a12"
+     ]
+    },
+    {
+     "n": "A28",
+     "k": [
+      "a28"
+     ]
+    }
+   ]
   },
   "5": {
    "naam": "Ongeval & stremming",
@@ -402,7 +763,87 @@
     "tijdstip + gewonden + schade",
     "passagier/centrale informeren"
    ],
-   "recall": "Spreek een volledige 112-melding in voor een ongeval op de A12 bij hectometerpaal 45,3."
+   "recall": "Spreek een volledige 112-melding in voor een ongeval op de A12 bij hectometerpaal 45,3.",
+   "recallItems": [
+    {
+     "n": "P – Persoonlijke veiligheid",
+     "k": [
+      "persoonlijke veiligheid",
+      "eigen veiligheid"
+     ]
+    },
+    {
+     "n": "A – Andermans veiligheid",
+     "k": [
+      "andermans veiligheid",
+      "anderen",
+      "veiligheid anderen"
+     ]
+    },
+    {
+     "n": "M – Markeren",
+     "k": [
+      "markeren",
+      "gevarendriehoek",
+      "alarmlichten"
+     ]
+    },
+    {
+     "n": "A – Alarmeren (112)",
+     "k": [
+      "alarmeren",
+      "112",
+      "bellen"
+     ]
+    },
+    {
+     "n": "N – Noodzakelijke hulp",
+     "k": [
+      "noodzakelijke hulp",
+      "eerste hulp",
+      "ehbo"
+     ]
+    },
+    {
+     "n": "Wegnummer A12",
+     "k": [
+      "a12",
+      "wegnummer"
+     ]
+    },
+    {
+     "n": "Hectometerpaal 45,3",
+     "k": [
+      "45,3",
+      "45.3",
+      "hectometer",
+      "hmp"
+     ]
+    },
+    {
+     "n": "Rijrichting",
+     "k": [
+      "rijrichting",
+      "richting"
+     ]
+    },
+    {
+     "n": "Aantal gewonden",
+     "k": [
+      "gewonden",
+      "gewond"
+     ]
+    },
+    {
+     "n": "Tijdstip / wat er gebeurd is / schade",
+     "k": [
+      "tijd",
+      "tijdstip",
+      "schade",
+      "ongeval"
+     ]
+    }
+   ]
   },
   "6": {
    "naam": "Communicatie & passagiers",
@@ -478,7 +919,88 @@
     "meter laten staan + betaalbewijs",
     "geen discussie"
    ],
-   "recall": "Noem uit je hoofd 5 plichten van de chauffeur en 5 plichten van de reiziger uit de KNV-voorwaarden."
+   "recall": "Noem uit je hoofd 5 plichten van de chauffeur en 5 plichten van de reiziger uit de KNV-voorwaarden.",
+   "recallItems": [
+    {
+     "n": "Helpen bij in-/uitstappen",
+     "k": [
+      "instappen",
+      "uitstappen",
+      "in en uitstappen",
+      "helpen"
+     ]
+    },
+    {
+     "n": "Bagage helpen",
+     "k": [
+      "bagage",
+      "koffer"
+     ]
+    },
+    {
+     "n": "Meterstand laten staan",
+     "k": [
+      "meterstand",
+      "meter laten staan",
+      "meter"
+     ]
+    },
+    {
+     "n": "Betaalbewijs/ritbewijs geven",
+     "k": [
+      "betaalbewijs",
+      "ritbewijs",
+      "bonnetje",
+      "kwitantie",
+      "bon"
+     ]
+    },
+    {
+     "n": "Gunstigste route",
+     "k": [
+      "gunstigste route",
+      "kortste route",
+      "snelste route",
+      "route"
+     ]
+    },
+    {
+     "n": "Reiziger: gordel om",
+     "k": [
+      "gordel"
+     ]
+    },
+    {
+     "n": "Reiziger: geen alcohol zonder toestemming",
+     "k": [
+      "alcohol",
+      "drinken"
+     ]
+    },
+    {
+     "n": "Reiziger: bestemming mag wijzigen",
+     "k": [
+      "bestemming wijzigen",
+      "bestemming"
+     ]
+    },
+    {
+     "n": "Reiziger: betalen",
+     "k": [
+      "betalen",
+      "betaling",
+      "ritprijs"
+     ]
+    },
+    {
+     "n": "Hulphond altijd mee",
+     "k": [
+      "hulphond",
+      "geleidehond",
+      "blindengeleidehond"
+     ]
+    }
+   ]
   },
   "7": {
    "naam": "Conflict & klacht",
@@ -550,7 +1072,84 @@
     "dan Geschillencommissie",
     "12 maanden + bindend advies"
    ],
-   "recall": "Noem uit je hoofd de 6 onderdelen van goede communicatie en de 5 stappen van de klachtroute."
+   "recall": "Noem uit je hoofd de 6 onderdelen van goede communicatie en de 5 stappen van de klachtroute.",
+   "recallItems": [
+    {
+     "n": "Aandacht",
+     "k": [
+      "aandacht"
+     ]
+    },
+    {
+     "n": "Serieus nemen",
+     "k": [
+      "serieus"
+     ]
+    },
+    {
+     "n": "Luisteren",
+     "k": [
+      "luisteren"
+     ]
+    },
+    {
+     "n": "Meedenken",
+     "k": [
+      "meedenken",
+      "mee denken"
+     ]
+    },
+    {
+     "n": "Oplossingsgericht",
+     "k": [
+      "oplossingsgericht",
+      "oplossing"
+     ]
+    },
+    {
+     "n": "Professioneel en neutraal",
+     "k": [
+      "professioneel",
+      "neutraal"
+     ]
+    },
+    {
+     "n": "Klacht eerst bij het taxibedrijf (klachtenprocedure)",
+     "k": [
+      "taxibedrijf",
+      "vervoerder",
+      "klachtenprocedure",
+      "bedrijf"
+     ]
+    },
+    {
+     "n": "Vervoerder maakt procedure bekend",
+     "k": [
+      "bekend",
+      "procedure"
+     ]
+    },
+    {
+     "n": "Daarna Geschillencommissie Zorgvervoer en Taxi",
+     "k": [
+      "geschillencommissie",
+      "geschil"
+     ]
+    },
+    {
+     "n": "Binnen 12 maanden",
+     "k": [
+      "12 maanden",
+      "12"
+     ]
+    },
+    {
+     "n": "Bindend advies",
+     "k": [
+      "bindend"
+     ]
+    }
+   ]
   }
  },
  "sets": [
