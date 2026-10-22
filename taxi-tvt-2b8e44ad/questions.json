@@ -12754,6 +12754,346 @@
      "noExam": true
     }
    ]
+  },
+  {
+   "id": "set-rij-01",
+   "naam": "Rijden (instructeur 22-10)",
+   "datum": "2026-10-22",
+   "vragen": [
+    {
+     "id": "rj-t4-k01",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Wat is de belangrijkste eerste stap bij een hellingproef met de handrem nadat je in de eerste versnelling staat?",
+     "opts": [
+      "Gas geven tot 3000 toeren",
+      "Handrem eraf halen",
+      "Koppeling naar het aangrijpingspunt brengen",
+      "Rem loslaten"
+     ],
+     "ok": 2,
+     "why": "Zonder de koppeling eerst het werk te laten doen ('trekken'), rol je simpelweg achteruit als de handrem eraf gaat.",
+     "wrong": [
+      "Te veel toeren is overbodig, zorgt voor lawaai en slippende koppeling.",
+      "Dan rol je direct achteruit.",
+      "",
+      "Je hebt de handrem erop, dus je voetrem is hierbij al vrij."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "koppeling"
+    },
+    {
+     "id": "rj-t4-l01",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "order",
+     "q": "Zet de scans in de juiste chronologische volgorde wanneer je als taxichauffeur een nieuwe verkeerssituatie (zoals een straat of rotonde) nadert.",
+     "opts": [
+      "300 meter: zoek naar een overzicht in de verte",
+      "50 meter: bekijk de borden en maak een concreet plan",
+      "20 meter: controleer dode hoek en direct gevaar"
+     ],
+     "ok": [
+      0,
+      1,
+      2
+     ],
+     "why": "Je scant altijd van veraf naar dichtbij. Eerst ver vooruit voor het grote overzicht, dan dichterbij voor regels, tot slot direct naast je (dode hoek) voor de daadwerkelijke actie.",
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "scans"
+    },
+    {
+     "id": "rj-t4-l02",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "multi",
+     "q": "Waar kijk je voordat je met de taxi rechtsaf slaat in een woonwijk? Kies ALLE juiste.",
+     "opts": [
+      "Binnenspiegel",
+      "Linkerbuitenspiegel",
+      "Rechterbuitenspiegel",
+      "Over de rechterschouder (dode hoek)"
+     ],
+     "ok": [
+      0,
+      2,
+      3
+     ],
+     "why": "Bij rechtsaf slaan volg je de methode: Binnen, Buiten (Rechts), Opzij/Dode hoek (Rechts).",
+     "wrong": [
+      "",
+      "Je gaat naar rechts, de linkerbuitenspiegel is in dit directe stappenplan niet aan de orde voor gevaar op de hoek.",
+      "",
+      ""
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "spiegels"
+    },
+    {
+     "id": "rj-t4-k02",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Jouw instructeur adviseert om 'door te rijden'. Wat wordt daarmee bedoeld?",
+     "opts": [
+      "Altijd 5 tot 10 km/u harder rijden dan toegestaan.",
+      "Vlot de maximumsnelheid rijden op plekken waar dit veilig en toegestaan is.",
+      "Niet stoppen voor oranje stoplichten om de rit korter te maken.",
+      "Zo hard mogelijk door de bochten gaan voor een snelle aankomsttijd."
+     ],
+     "ok": 1,
+     "why": "Doorrijden betekent vlotte doorstroming bevorderen, maar altijd veilig en legaal.",
+     "wrong": [
+      "Dit is een snelheids-overtreding en kost je je examen.",
+      "",
+      "Je moet altijd stoppen voor oranje/geel als dit nog veilig kan.",
+      "Dit leidt tot oncomfortabele en gevaarlijke situaties voor je klanten."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "rijstijl"
+    },
+    {
+     "id": "rj-t6-r01",
+     "tak": 6,
+     "niveau": "rennen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Een klant heeft haast voor het vliegveld en vraagt of je even de busbaan kunt nemen. Wat zeg je vanuit je taxi-expertise?",
+     "opts": [
+      "\"Geen probleem, voor een kleine fooi extra regel ik dat voor u.\"",
+      "\"Ik begrijp uw haast. Ik mag alleen op de busbaan als het bord taxi's toelaat; anders nemen we de snelste legale route.\"",
+      "\"Nee, bent u gek? Dat mag ik helemaal niet!\"",
+      "\"We proberen het even. Als we politie zien, sturen we de taxi er snel af.\""
+     ],
+     "ok": 1,
+     "why": "Toon begrip, blijf neutraal en houd je aan de regels: een busbaan mag je als taxi alleen op als een (onder)bord taxi's toelaat – dat verschilt per plek.",
+     "wrong": [
+      "Corrupt en tegen de wet. Een taxichauffeur (zonder ontheffing) mag niet op de busbaan.",
+      "",
+      "Klop, maar de toon is veel te aanvallend en niet servicegericht.",
+      "Je zet hiermee de veiligheid en je vakbekwaamheid op het spel."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "service"
+    },
+    {
+     "id": "rj-t4-r01",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Je rijdt stapvoets in een langzame file (handgeschakeld). Hoe hou je de taxi het meest soepel en comfortabel in beweging?",
+     "opts": [
+      "Door continu kleine beetjes gas te geven en hard te remmen.",
+      "Door in de 2e versnelling de koppeling helemaal los te laten.",
+      "Door uitsluitend met een slippende koppeling (rond aangrijpingspunt) de snelheid te regelen.",
+      "Door de auto in z'n vrij te zetten en zoveel mogelijk te laten rollen."
+     ],
+     "ok": 2,
+     "why": "Bij zeer lage snelheden (stapvoets) heb je de meeste precisie-controle met enkel het frictiepunt van de koppeling.",
+     "wrong": [
+      "Dit geeft een schokkerige, onrustige rit en maakt klanten soms wagenziek.",
+      "Dit laat de auto (te) snel rollen of zorgt dat de motor stottert en afslaat.",
+      "",
+      "In zijn vrij heb je geen directe aandrijving, waardoor je snel controle en afremmend vermogen op de motor verliest."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "koppeling"
+    },
+    {
+     "id": "rj-t4-l03",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Wat is het hoofddoel van de 50 meter scan binnen het kijkmodel?",
+     "opts": [
+      "Zo ver mogelijk vooruit kijken naar de horizon voor het weidse overzicht.",
+      "De dode hoek direct naast de taxi controleren vlak voor een kruispunt.",
+      "Verkeersborden waarnemen, voorrangsregels inschatten en direct een actieplan maken.",
+      "Kijken of de radio en airco goed zijn ingesteld voor de klant."
+     ],
+     "ok": 2,
+     "why": "Op 50 meter focus je op de komende situatie om in te schatten wat de regels zijn, zodat je spiegel/richting-routines tijdig kan opstarten.",
+     "wrong": [
+      "Dit past bij de 300 meter scan.",
+      "Dit doe je pas in de 20 meter scan of als je daadwerkelijk afslaat.",
+      "",
+      "De bediening van boordsystemen hoort niet in dit scanmodel thuis, dit doe je veilig op de achtergrond of in stilstand."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "scans"
+    },
+    {
+     "id": "rj-t4-l04",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "multi",
+     "q": "Jouw instructeur adviseert 'Het Nieuwe Rijden' (HNR). Welke technieken horen daarbij? Selecteer de juiste antwoorden.",
+     "opts": [
+      "Ver doortrekken in de toeren (boven 3500 toeren) voordat je opschakelt.",
+      "Vroeg opschakelen (tussen 2000 en 2500 toeren bij conventionele brandstofmotoren).",
+      "Uitrollen in de versnelling door tijdig je gas los te laten (anticiperen op rood).",
+      "Vaak en relatief hard remmen in plaats van gas loslaten."
+     ],
+     "ok": [
+      1,
+      2
+     ],
+     "why": "Het Nieuwe Rijden draait om veilig, comfortabel, en brandstof- of energiebesparend (ECO) rijden.",
+     "wrong": [
+      "Dit is luidruchtig, stoot meer CO2 uit en kost extra brandstof.",
+      "",
+      "",
+      "Hard remmen is niet anticiperen. Het kost extra brandstof (verlies van momentum) en remblokken."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "rijstijl"
+    },
+    {
+     "id": "rj-t4-r02",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Een passagier betaalt en stapt uit via het rechter achterportier. Hoe voorkom je een 'dooring' ongeval (deur tegen fietser)?",
+     "opts": [
+      "Je zegt niks; het is de wettelijke verantwoordelijkheid van de volwassen klant om uit te kijken.",
+      "Je toetert kort zodat naderende fietsers weten dat de taxi daar geparkeerd staat.",
+      "Je waarschuwt de passagier mondeling én checkt zelf je spiegels en dode hoek rechts voordat de deur open mag.",
+      "Je blokkeert de deur via het kinderslot en laat passagiers alleen aan de linkerkant, op de rijbaan, uitstappen."
+     ],
+     "ok": 2,
+     "why": "Als taxichauffeur ben jij professioneel verantwoordelijk voor veilig uitladen. Jij hebt het beste zicht op achteropkomend verkeer door je spiegels.",
+     "wrong": [
+      "Dit is zeer passief en gevaarlijk. Klanten letten niet altijd goed op.",
+      "Onnodig toeteren is verboden en levert eerder verwarring op.",
+      "",
+      "Aan de straatkant is het vaak nog veel gevaarlijker uitstappen. Je mag het trottoir gewoon (veilig) benutten."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "spiegels"
+    },
+    {
+     "id": "rj-t4-k03",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Je laat tijdens het wegrijden de koppeling te snel omhoogkomen waardoor een schokkende beweging ontstaat. Wat is de beste handeling?",
+     "opts": [
+      "Direct veel extra gas geven om het op te vangen.",
+      "De koppeling ongeveer 2 seconden 'bevriezen' (vasthouden) op het aangrijpingspunt als je begint te rollen.",
+      "De rem hard intrappen uit paniek.",
+      "De auto onmiddellijk in z'n vrij zetten."
+     ],
+     "ok": 1,
+     "why": "Door de koppeling even vast te houden, krijgt de motor en de versnellingsbak de tijd om het toerental en de rolsnelheid te synchroniseren zonder schok.",
+     "wrong": [
+      "Dit levert alleen maar meer schokken en lawaai op.",
+      "",
+      "Dit stopt de auto abrupt, erg onveilig voor wie achter je zit, en de motor valt uit.",
+      "Hierdoor val je stil of blijf je stuurloos rollen zonder tractie."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "koppeling"
+    },
+    {
+     "id": "rj-t4-k04",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Waarom is spiegelen eigenlijk zo onmisbaar als je in de straattaxi rijdt?",
+     "opts": [
+      "Alleen omdat de examinator het afvinkt op een lijst, het heeft in de praktijk weinig nut.",
+      "Zodat je exact weet wie of wat er om je auto gebeurt vóórdat je stuurt, versnelt of afremt.",
+      "Om er zeker van te zijn dat je overal vooraan in het verkeer kan blijven rijden.",
+      "Om constant te controleren of de passagier achterin goed meeluistert of fooi aan het tellen is."
+     ],
+     "ok": 1,
+     "why": "Zonder spiegelen rij je met 'oogkleppen' op en kun je nooit veilig anticiperen op (of ruimte maken voor) medeweggebruikers.",
+     "wrong": [
+      "Dit klopt simpelweg niet; zonder goed spiegelen veroorzaak je gegarandeerd ongevallen.",
+      "",
+      "Als taxi hoef je niet competitief of agressief vooraan te rijden.",
+      "Je spiegelt uitsluitend voor de verkeersveiligheid. Soms werp je een snelle blik op de klant voor communicatie, maar dat is secundair."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "spiegels"
+    },
+    {
+     "id": "rj-t6-l01",
+     "tak": 6,
+     "niveau": "lopen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "mc",
+     "q": "Klant: \"Joh, schiet eens op, jij rijdt ook niet door hè?\". Je rijdt exact de toegestane snelheid van 50 km/u in de stad. Wat is een servicegerichte, tactvolle reactie?",
+     "opts": [
+      "\"Als het niet snel genoeg gaat, stapt u toch uit en pakt u de bus?\"",
+      "\"Ik rijd netjes 50 km/u, precies zoals het hoort. Ik bepaal hoe we rijden.\"",
+      "\"Ik begrijp dat u snel op uw bestemming wilt zijn. Ik rijd de maximale snelheid voor onze veiligheid en we zijn er bijna.\"",
+      "Je zegt helemaal niets terug en zet de radio demonstratief wat harder."
+     ],
+     "ok": 2,
+     "why": "Dit is de-escalerend, toont begrip, geeft netjes de grens (veiligheid) aan en blijft respectvol B1-niveau.",
+     "wrong": [
+      "Dit escaleert direct een (klachten)conflict.",
+      "Dit is te autoritair en wekt irritatie op.",
+      "",
+      "Negeren (passief-agressief) voelt voor de klant uiterst ongeïnteresseerd en onbeleefd."
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "service"
+    },
+    {
+     "id": "rj-t4-r03",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (instructeur 22-10)",
+     "type": "multi",
+     "q": "Welke fouten worden vaak door leerlingen gemaakt bij het spiegelen? Selecteer alle juiste opties.",
+     "opts": [
+      "Pas gaan spiegelen als je al begonnen bent met je stuur draaien of remmen.",
+      "Je hele hoofd nadrukkelijk meedraaien in plaats van alleen je ogen te bewegen.",
+      "Alleen stiekem met de ogen wegdraaien (hoofd blijft stil), waardoor je dode hoek grotendeels onzichtbaar blijft.",
+      "Te lang, fixeer-achtig in één spiegel blijven staren tijdens het rijden."
+     ],
+     "ok": [
+      0,
+      2,
+      3
+     ],
+     "why": "Spiegelen is een ritmische, scannende beweging met je ogen én een korte hoofdbeweging. Het moet voorafgaan aan elke actie.",
+     "wrong": [
+      "",
+      "Je hoofd meedraaien in de richting van de dode hoek is júíst gewenst, anders mis je stukken naast de auto.",
+      "",
+      ""
+     ],
+     "bron": "Rijinstructeur 22-10-2026 + gangbare rijinstructie (geen CBR-TVT-eis)",
+     "noExam": true,
+     "onderwerp": "spiegels"
+    }
+   ]
   }
  ],
  "motor": {
@@ -14384,5 +14724,452 @@
     }
    }
   ]
+ },
+ "rijden": {
+  "gaskoppeling": {
+   "intro": "Soepel rijden is een vereiste voor een taxichauffeur. Je passagiers moeten comfortabel zitten, zonder schokken. Goede bediening van gas en koppeling zorgt voor rust in de auto en laat zien dat je je vak beheerst.",
+   "stappen": [
+    {
+     "titel": "Wegrijden vanuit stilstand",
+     "stappen": [
+      "Trap de koppeling helemaal in en zet de auto in de 1e versnelling.",
+      "Geef een klein beetje gas (ongeveer 1500 toeren).",
+      "Laat de koppeling rustig opkomen tot het aangrijpingspunt (je voelt de auto 'trekken').",
+      "Houd je voet 2 seconden stil op het aangrijpingspunt tot de auto goed rolt.",
+      "Laat daarna de koppeling rustig helemaal los."
+     ]
+    },
+    {
+     "titel": "Schakelen (op en af)",
+     "stappen": [
+      "Opschakelen: Laat het gas los en trap direct de koppeling in.",
+      "Kies soepel de volgende versnelling.",
+      "Laat de koppeling rustig opkomen tot net voorbij het aangrijpingspunt en geef weer licht gas.",
+      "Terugschakelen: Rem eerst voldoende af.",
+      "Trap de koppeling in, kies de lagere versnelling.",
+      "Laat de koppeling iets langzamer opkomen dan bij opschakelen om een schok op de motor te voorkomen."
+     ]
+    },
+    {
+     "titel": "Hellingproef met handrem",
+     "stappen": [
+      "Zet de auto op de handrem. Trap de koppeling in en schakel naar de 1e versnelling.",
+      "Geef iets meer gas dan op een vlakke weg.",
+      "Laat de koppeling opkomen tot een stevig aangrijpingspunt (de neus van de auto wil omhoog).",
+      "Houd je voeten stil, haal de handrem eraf.",
+      "Laat de koppeling rustig verder los en geef geleidelijk meer gas om weg te rijden."
+     ]
+    },
+    {
+     "titel": "Hellingproef zonder handrem (met voetrem of hill-hold)",
+     "stappen": [
+      "Houd de voetrem ingetrapt, koppeling in en in de 1e versnelling.",
+      "Laat de koppeling opkomen tot het aangrijpingspunt (let op dat de motor niet afslaat).",
+      "Verplaats je rechtervoet vlot van de rem naar het gaspedaal (bij hill-hold houdt de auto zelf de rem nog ca. 2 seconden vast).",
+      "Geef vlot gas bij en houd de koppeling op het aangrijpingspunt tot je de heuvel op rolt."
+     ]
+    },
+    {
+     "titel": "Langzaam rijden (slippende koppeling in de file)",
+     "stappen": [
+      "Bij stapvoets rijden is stationair in de 1 soms te snel.",
+      "Houd de koppeling rond het aangrijpingspunt: iets in is langzamer, iets op is sneller.",
+      "Je regelt de snelheid hier voornamelijk met de koppeling en gebruikt nauwelijks tot geen gas."
+     ]
+    }
+   ],
+   "fouten": [
+    {
+     "fout": "Te vroeg of te veel gas geven",
+     "voel_hoor": "De motor loeit hard (hoge toeren) zonder dat je vooruit gaat, of de auto schiet ineens vooruit.",
+     "oplossing": "Eerst rustig het aangrijpingspunt van de koppeling opzoeken, houd je voet stil, en geef dan pas gedoseerd gas bij."
+    },
+    {
+     "fout": "Koppeling te snel op laten komen",
+     "voel_hoor": "De auto schokt flink, passagiers vliegen naar voren en naar achteren, of de motor slaat af.",
+     "oplossing": "Pauzeer je linkervoet letterlijk twee seconden op het aangrijpingspunt zodra de auto begint te rollen."
+    },
+    {
+     "fout": "Linkervoet op het koppelingspedaal laten rusten",
+     "voel_hoor": "Je voelt het niet direct in het rijden, maar het veroorzaakt zeer snelle en dure slijtage aan de koppelingsplaat.",
+     "oplossing": "Zet je linkervoet altijd op de vloersteun links naast het pedaal zodra je uitgeschakeld of opgeschakeld bent."
+    },
+    {
+     "fout": "Koppeling te laat intrappen bij het remmen tot stilstand",
+     "voel_hoor": "De auto gaat 'bokken' (schokken) en valt uiteindelijk uit.",
+     "oplossing": "Trap de koppeling in zodra je toerental onder de 1000 toeren komt bij het afremmen naar stilstand."
+    },
+    {
+     "fout": "Terugschakelen bij een te hoge snelheid",
+     "voel_hoor": "De auto remt hard en abrupt af op de motor (schok), passagier klapt in de gordel.",
+     "oplossing": "Rem met de voetrem de snelheid er verder uit, pas dan schakel je terug naar de juiste lagere versnelling."
+    }
+   ],
+   "automaat_hybride": "Veel moderne taxi's zijn tegenwoordig automaat, hybride of volledig elektrisch (EV). Je hebt hierbij geen koppeling. Toch geldt: bouw de druk op je gaspedaal langzaam op. Elektromotoren hebben direct hun volledige trekkracht beschikbaar. Als je te abrupt gas geeft in een EV, schiet de auto hard vooruit en worden je klanten misselijk. Ook bij het gas loslaten remt een EV (door regeneratief remmen) harder af dan een reguliere auto. Doseer je pedalen alsof er een eitje onder ligt."
+  },
+  "scans": {
+   "intro": "Goed vooruitkijken geeft je tijd en rust, wat cruciaal is in het drukke taxiverkeer. Jouw instructeur leert je de 3-lagen scan. Hoe verder je kijkt, hoe beter je kunt anticiperen en hoe minder vaak je abrupt hoeft te remmen.",
+   "lagen": [
+    {
+     "afstand": "300 m",
+     "doel": "Overzicht creëren en ver vooruit plannen.",
+     "kijk_naar": [
+      "Verkeerslichten in de verte (rood/groen)",
+      "Files of langzaam rijdend verkeer",
+      "Naderende bochten",
+      "Grote vrachtwagens of bussen die de weg blokkeren"
+     ],
+     "actie": "Gas loslaten om uit te rollen, snelheid rustig aanpassen, of je koers alvast licht wijzigen."
+    },
+    {
+     "afstand": "50 m",
+     "doel": "Details waarnemen, regels toepassen en een concreet plan maken.",
+     "kijk_naar": [
+      "Verkeersborden (snelheid, voorrang)",
+      "Zijstraten (wie heeft voorrang?)",
+      "Voetgangersoversteekplaatsen (zebra's)",
+      "Voorsorteervakken"
+     ],
+     "actie": "Je beslissing nemen: spiegelen, richting aangeven via de SPOT-methode, afremmen en de juiste versnelling kiezen."
+    },
+    {
+     "afstand": "20 m",
+     "doel": "Controle op onverwacht en direct gevaar vlakbij de auto.",
+     "kijk_naar": [
+      "Fietsers in je dode hoek",
+      "Openslaande autodeuren van geparkeerde auto's",
+      "Spelende kinderen tussen auto's door",
+      "Dieren of losse objecten op de weg"
+     ],
+     "actie": "Plan direct uitvoeren of corrigeren: bijsturen, stoppen of voorrang verlenen."
+    }
+   ],
+   "scenarios": [
+    {
+     "titel": "Drukke Binnenstad",
+     "situatie": "Je rijdt met klanten door smalle, drukke straten in het centrum.",
+     "s300": [
+      "Stoplicht in de verte, staat de rij stil?"
+     ],
+     "s50": [
+      "Gelijkwaardig kruispunt naderen (rechts heeft voorrang)."
+     ],
+     "s20": [
+      "Voetganger die ineens tussen geparkeerde busjes oversteekt."
+     ]
+    },
+    {
+     "titel": "Standplaats bij Station",
+     "situatie": "Je komt aan op de taxistandplaats van het CS.",
+     "s300": [
+      "Is er achteraan op de taxistrook voldoende plek?"
+     ],
+     "s50": [
+      "Andere taxi's die rangeren of klanten met koffers die op straat lopen."
+     ],
+     "s20": [
+      "Collega die zonder te kijken zijn portier opengooit."
+     ]
+    },
+    {
+     "titel": "Schoolzone in Ochtendspits",
+     "situatie": "Je neemt een kortere route door een wijk waar een basisschool is.",
+     "s300": [
+      "Drukte, verzameling van ouders met fietsen op de weg."
+     ],
+     "s50": [
+      "Waarschuwingsbord 'School', naderende zebra en klaar-overs."
+     ],
+     "s20": [
+      "Kind dat zich losrukt en achter een geparkeerde auto vandaan rent."
+     ]
+    },
+    {
+     "titel": "Rotonde naderen",
+     "situatie": "Je moet driekwart rond op een drukke rotonde.",
+     "s300": [
+      "Overzicht van de rotonde: hoe druk is het en stroomt het door?"
+     ],
+     "s50": [
+      "Voorrangsborden, haaientanden, voorsorteren op de juiste rijstrook."
+     ],
+     "s20": [
+      "Fietsers op het fietspad rond de rotonde: kijk naar haaientanden/borden wie voorrang heeft (binnen de kom meestal de fietser)."
+     ]
+    },
+    {
+     "titel": "Oprit Snelweg",
+     "situatie": "Je voegt met hoge snelheid in om klanten naar de luchthaven te brengen.",
+     "s300": [
+      "Kijken over de vangrail naar de vrachtwagens en gaten op de hoofdrijbaan."
+     ],
+     "s50": [
+      "Snelheid opbouwen (bijv. 100 km/u), richtingaanwijzer aanzetten na controle spiegels."
+     ],
+     "s20": [
+      "Extra check in linkerbuitenspiegel en dode hoek naast je, dan insturen."
+     ]
+    },
+    {
+     "titel": "Passagier Veilig Uitladen",
+     "situatie": "Klant wil aan een weg mét een fietspad ernaast uitstappen.",
+     "s300": [
+      "Scannen waar je de auto veilig tegen de stoep kunt zetten."
+     ],
+     "s50": [
+      "Richting aangeven naar rechts, zachtjes afremmen en positioneren."
+     ],
+     "s20": [
+      "Spiegel en dode hoek controleren op (brom)fietsers vóórdat je de klant laat uitstappen."
+     ]
+    }
+   ]
+  },
+  "spiegels": {
+   "intro": "Hoewel de instructeur het even 'bijzaak' noemde naast het schakelen, is spiegelen essentieel voor veilig rijden, zeker voor een taxichauffeur. Zonder goede observatie ben je nergens op je examen. We gebruiken de SPOT-methode (Spiegels, Pijl, Opzij kijken, Tegenliggers).",
+   "wanneer": [
+    {
+     "moment": "Wegrijden vanaf stilstand/stoep",
+     "volgorde": [
+      "Binnenspiegel",
+      "Linkerbuitenspiegel",
+      "Linkerschouder (dode hoek)"
+     ],
+     "waarom": "Al het achteropkomende verkeer en verkeer naast je op straat heeft voorrang als jij een bijzondere manoeuvre uitvoert."
+    },
+    {
+     "moment": "Afremmen en/of stoppen",
+     "volgorde": [
+      "Binnenspiegel"
+     ],
+     "waarom": "Controleren of de bestuurder achter je (bijv. een bumperklever) op tijd kan reageren op jouw remactie."
+    },
+    {
+     "moment": "Rechts afslaan",
+     "volgorde": [
+      "Binnenspiegel",
+      "Rechterbuitenspiegel",
+      "Rechterschouder (dode hoek)"
+     ],
+     "waarom": "Fietsers en snorfietsers rijden vaak op het fietspad naast je; rechtdoor op dezelfde weg gaat voor. Ze zitten in je rechter dode hoek."
+    },
+    {
+     "moment": "Links afslaan",
+     "volgorde": [
+      "Binnenspiegel",
+      "Linkerbuitenspiegel",
+      "Linkerschouder (dode hoek)"
+     ],
+     "waarom": "Controleren op inhalend verkeer of motoren die snel van achteren naderen. Ook hier heeft rechtdoorgaand verkeer voorrang."
+    },
+    {
+     "moment": "Rijstrook wisselen / inhalen",
+     "volgorde": [
+      "Binnenspiegel",
+      "Buitenspiegel (van de kant waar je heen gaat)",
+      "Schouder (dode hoek van diezelfde kant)"
+     ],
+     "waarom": "Voorkomen dat je iemand afsnijdt die zich al naast je of schuin achter je bevindt."
+    },
+    {
+     "moment": "Invoegen op de snelweg",
+     "volgorde": [
+      "Binnenspiegel",
+      "Linkerbuitenspiegel",
+      "Linkerschouder (dode hoek)"
+     ],
+     "waarom": "Inschatten van de snelheid van het verkeer op de snelweg en bepalen waar een gat valt om veilig in te sturen."
+    },
+    {
+     "moment": "Passagier laat uitstappen",
+     "volgorde": [
+      "Binnenspiegel",
+      "Rechter/linkerbuitenspiegel (kant van de deur)",
+      "Over de schouder (dode hoek)"
+     ],
+     "waarom": "Je moet 'dooring' (een portier openen tegen een passerende fietser) ten strengste voorkomen. Jij als chauffeur bent eindverantwoordelijk voor de veiligheid."
+    }
+   ],
+   "koppeling_scans": "Je kijkgedrag (spiegels) en je scans (300m, 50m, 20m) werken samen. Tijdens je 300m scan kijk je elke 5 tot 8 seconden in je binnenspiegel voor het totale overzicht. Zodra je in de 50m zone komt en een plan maakt (bijv. afslaan), doe je de gericht binnenspiegel en buitenspiegel-check. Ben je op 20m van de kruising, dan gooi je kort de blik over je schouder (dode hoek).",
+   "fouten": [
+    "Alleen je ogen bewegen; de examinator ziet het niet en fysiologisch mis je een deel van je dode hoek als je je hoofd niet draait.",
+    "Te lang staren in je spiegels in plaats van kort scannen, waardoor je de situatie vóór je auto uit het oog verliest.",
+    "Spiegelen nadat je al begonnen bent met remmen of sturen; het kijkgedrag verliest dan zijn waarschuwende functie."
+   ],
+   "bestaand": "In de app (Leren) en in je Gemini-overzicht staat al SPOT: Spiegels (binnen, dan buiten) · Pijl · Opzij kijken (dode hoek) · Tegenliggers. Dit stappenplan bouwt daarop voort."
+  },
+  "rijstijl": {
+   "doorrijden": [
+    "Vlot de maximumsnelheid bereiken en rijden waar dat veilig is.",
+    "Niet onnodig twijfelen of afremmen bij gelijkwaardige kruispunten als je goed zicht hebt en voorrang geniet.",
+    "Zelfverzekerd en soepel invoegen en optrekken op de snelweg of bij stoplichten."
+   ],
+   "defensief": [
+    "Anticiperen op mogelijke fouten van medeweggebruikers (fouten van anderen 'opvangen').",
+    "Voldoende volgafstand bewaren (de 2-secondenregel) tot je voorganger.",
+    "Zichtbaar rijgedrag vertonen: tijdig richting aangeven, je positie op de weg duidelijk claimen, en oogcontact zoeken waar nodig."
+   ],
+   "het_nieuwe_rijden": [
+    "Vroeg opschakelen (bij benzinemotoren/diesels schakelen tussen 2000 en 2500 toeren).",
+    "Uitrollen in de versnelling: laat je gas tijdig los als je een rood stoplicht ziet, zodat de motor afremt (zonder brandstof te verbruiken).",
+    "Bandenspanning maandelijks controleren om rolweerstand te verlagen; dit bespaart brandstof of vergroot de actieradius van je EV.",
+    "Onnodig gewicht en luchtweerstand (zoals een lege dakkoffer of open ramen op de snelweg) vermijden."
+   ]
+  },
+  "service": {
+   "multitasken": [
+    "Combineer scannen ver vooruit met een beleefd praatje, zonder je ogen van de weg te halen.",
+    "Stel je navigatie in voordat je gaat rijden, of gebruik veilige spraakbesturing onderweg.",
+    "Controleer via de binnenspiegel subtiel hoe de klant reageert op de rit (bv. slaperig of gestrest) en pas daar je rijdynamiek en muziekvolume op aan."
+   ],
+   "lastige_klant_scripts": [
+    {
+     "situatie": "Een klant wil hete, vette snacks eten in de taxi na het stappen.",
+     "zin": "Ik begrijp dat u flinke trek heeft na zo'n avond, maar om de taxi netjes te houden voor u en de volgende klanten, eten we niet in de auto. Zodra ik u afzet, kunt u er direct van genieten!"
+    },
+    {
+     "situatie": "De klant is zenuwachtig, te laat voor een vlucht en schreeuwt dat je de maximumsnelheid moet negeren.",
+     "zin": "Ik snap helemaal dat het erg stressvol is om een vlucht te moeten halen. Ik ga de vlotste route nemen en zo goed mogelijk doorrijden, maar we houden ons aan de toegestane snelheid. Een ongeluk of staandehouding kost ons nog veel meer tijd."
+    },
+    {
+     "situatie": "Een groepje van vijf personen wil met jou mee in een reguliere 4-persoons taxi (personenauto).",
+     "zin": "Gezellig dat jullie met z'n allen op pad zijn, maar ik mag niet meer passagiers meenemen dan er zitplaatsen met gordel zijn. Zal ik via de centrale een taxibus regelen, of een tweede auto?"
+    }
+   ],
+   "servicegericht": [
+    "Houd bij regen eventueel een paraplu op voor de klant bij het instappen.",
+    "Til grote en zware koffers voor de klant in de kofferbak, en leg ze daar netjes neer in plaats van ze te gooien.",
+    "Vraag proactief bij aanvang van de rit of de temperatuur achterin prettig is.",
+    "Zorg ervoor dat jouw gas- en remtechniek ongemerkt gaat, zodat klanten rustig kunnen werken, bellen of slapen."
+   ]
+  },
+  "recall": [
+   {
+    "q": "Noem de 3 scans van je instructeur, met afstand en doel.",
+    "items": [
+     {
+      "n": "300 m – zo ver mogelijk vooruit kijken (overzicht)",
+      "k": [
+       "300",
+       "driehonderd"
+      ]
+     },
+     {
+      "n": "50 m – borden en regels, plan maken en direct uitvoeren",
+      "k": [
+       "50",
+       "vijftig"
+      ]
+     },
+     {
+      "n": "20 m – controleren of je iets over het hoofd zag",
+      "k": [
+       "20",
+       "twintig"
+      ]
+     }
+    ],
+    "uitleg": "De instructeur gebruikt 300 meter voor het vroege overzicht, 50 meter voor het waarnemen van de regels/plan, en 20 meter voor directe controle (zoals de dode hoek)."
+   },
+   {
+    "q": "Noem de spiegel-/kijkvolgorde voor links afslaan (SPOT).",
+    "items": [
+     {
+      "n": "Binnenspiegel",
+      "k": [
+       "binnenspiegel",
+       "binnen spiegel",
+       "middenspiegel"
+      ]
+     },
+     {
+      "n": "Linker buitenspiegel",
+      "k": [
+       "linkerbuitenspiegel",
+       "linker buitenspiegel",
+       "buitenspiegel links",
+       "buitenspiegel"
+      ]
+     },
+     {
+      "n": "Pijl / richting aangeven",
+      "k": [
+       "pijl",
+       "richting aangeven",
+       "richtingaanwijzer",
+       "knipperlicht"
+      ]
+     },
+     {
+      "n": "Over de linkerschouder (dode hoek)",
+      "k": [
+       "schouder",
+       "dode hoek",
+       "opzij"
+      ]
+     },
+     {
+      "n": "Tegenliggers (voorrang rechtdoor)",
+      "k": [
+       "tegenligger",
+       "tegenliggers",
+       "tegemoetkomend"
+      ]
+     }
+    ],
+    "uitleg": "SPOT: Spiegels (eerst binnen, dan links buiten) → Pijl → Opzij kijken (linkerschouder, dode hoek) → Tegenliggers laten gaan; rechtdoorgaand verkeer gaat voor."
+   },
+   {
+    "q": "Noem 4 stappen voor wegrijden met een handgeschakelde taxi.",
+    "items": [
+     {
+      "n": "Koppeling helemaal intrappen",
+      "k": [
+       "koppeling in",
+       "koppeling intrappen",
+       "intrappen"
+      ]
+     },
+     {
+      "n": "In de 1e versnelling",
+      "k": [
+       "eerste versnelling",
+       "1e versnelling",
+       "eerste",
+       "1e"
+      ]
+     },
+     {
+      "n": "Beetje gas (± 1500 toeren)",
+      "k": [
+       "gas",
+       "toeren"
+      ]
+     },
+     {
+      "n": "Koppeling rustig naar het aangrijpingspunt en daar even stil houden",
+      "k": [
+       "aangrijpingspunt",
+       "aangrijpen",
+       "grijppunt",
+       "bijtpunt"
+      ]
+     },
+     {
+      "n": "Daarna koppeling rustig helemaal los",
+      "k": [
+       "koppeling los",
+       "loslaten",
+       "rustig los"
+      ]
+     }
+    ],
+    "uitleg": "Koppeling in, zet 'm in de 1, geef een beetje gas bij (ca. 1500 toeren), laat de koppeling langzaam omhoogkomen tot het aangrijpingspunt en houd je voet daar stil totdat je rolt."
+   }
+  ],
+  "bronnen": {
+   "drive_smith": "https://docs.google.com/document/d/1fkDhlSHK_bx7-8TZOghx2zWpIvYeLh0t3UDsi4jqcvE/edit",
+   "drive_leerplan": "https://docs.google.com/document/d/1nG69mZ6s0hoZDimQ0sH350sslLY8HWvp59FnfhHoszQ/edit"
+  }
  }
 }
