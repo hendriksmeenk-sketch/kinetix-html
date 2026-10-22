@@ -1,0 +1,105 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>手机 · test streken · WOORD DIEPTE 4.5</title>
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+<style>
+:root{--bg:#f5efe4;--pap:#fbf7ef;--ink:#2b2119;--dim:#6b5a48;--rood:#b3261e;--lijn:#d9ccb6;--acc:#8a4b2a;--goed:#2e6b3a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Georgia,"Noto Serif",serif}
+main{max-width:640px;margin:0 auto;padding:16px}
+h1{font-size:30px;margin:8px 0 2px}h1 .hz{font-size:56px;letter-spacing:4px}
+.sub{color:var(--dim);font-size:16px}
+section.box{background:var(--pap);border:1px solid var(--lijn);border-radius:14px;padding:16px;margin:16px 0}
+h2{font-size:22px;margin:0 0 8px}h3{font-size:18px;margin:18px 0 6px;color:var(--acc)}
+.rood{color:var(--rood)}.prose{white-space:pre-wrap}
+button{font:inherit;min-height:44px;min-width:44px;padding:8px 14px;border-radius:10px;border:1px solid var(--acc);background:#fff;color:var(--ink);cursor:pointer}
+button.on{background:var(--acc);color:#fff}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+#hw{width:min(86vw,320px);height:min(86vw,320px);margin:8px auto;background:#fff;border:1px solid var(--lijn);border-radius:8px;touch-action:none;
+background-image:linear-gradient(var(--lijn),var(--lijn)),linear-gradient(90deg,var(--lijn),var(--lijn)),linear-gradient(45deg,transparent 49.7%,#eadfcb 50%,transparent 50.3%),linear-gradient(-45deg,transparent 49.7%,#eadfcb 50%,transparent 50.3%);
+background-size:100% 1px,1px 100%,100% 100%,100% 100%;background-position:center;background-repeat:no-repeat}
+#fb{min-height:28px;text-align:center;font-weight:bold}
+ol.streek{padding-left:0;list-style:none;margin:0}ol.streek li{padding:8px 10px;border-radius:8px;margin:4px 0;border:1px solid transparent}
+ol.streek li.nu{border-color:var(--acc);background:#fff}ol.streek li.af{color:var(--goed)}
+.sym{display:inline-block;width:32px;font-size:22px;text-align:center}
+.tegels{display:flex;flex-wrap:wrap;gap:6px}.tegel{background:#fff;border:1px solid var(--lijn);border-radius:8px;padding:6px 10px;font-size:16px}
+.vraag{border-top:1px solid var(--lijn);padding-top:10px;margin-top:10px}
+.opt.goed{background:var(--goed);color:#fff;border-color:var(--goed)}.opt.fout{background:var(--rood);color:#fff;border-color:var(--rood)}
+.fam li{margin:4px 0}.twijfel{color:var(--dim);font-size:16px}
+label.hand{display:flex;gap:10px;align-items:center;min-height:44px}label.hand input{width:24px;height:24px}
+#status{font-weight:bold}details summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--acc);font-size:18px}
+footer{color:var(--dim);font-size:16px;text-align:center;margin:24px 0}
+</style></head><body><main>
+<p class="sub">WOORD DIEPTE 4.5 · testkaart · punt 3 en 6 samen</p>
+<h1><span class="hz">手机</span></h1>
+<p class="sub">shǒujī · toon 3 + 1 · mobiele telefoon</p>
+
+<section class="box" id="s3">
+<h2>3 schrift · streken</h2>
+<p id="rad"></p>
+<h3>Oefen met je vinger</h3>
+<div class="row" id="tabs"></div>
+<div id="hw"></div>
+<p id="fb">Tik op Oefen en teken streek 1.</p>
+<div class="row" style="justify-content:center"><button id="demo">Toon</button><button id="quiz" class="on">Oefen</button><button id="reset">Opnieuw</button></div>
+<ol class="streek" id="streeklijst"></ol>
+<h3>Opbouw</h3><div class="tegels" id="opbouw"></div>
+<h3>Streekvragen</h3><div id="vragen"></div>
+<label class="hand"><input type="checkbox" id="hand"> Ik heb 手机 met de hand op papier geschreven</label>
+<p id="status"></p>
+<h3>Pictogram</h3><ul id="pict"></ul>
+<details open><summary>Schrift: hele tekst</summary><div class="prose" id="schrift"></div></details>
+<h3>Familie</h3><ul class="fam" id="fam"></ul>
+<h3>Geschiedenis</h3><div class="prose" id="gesch"></div>
+<h3>Twijfel</h3><ul class="twijfel" id="tw"></ul>
+</section>
+
+<section class="box" id="s4">
+<h2>4 beeld</h2>
+<p><b>Beeldhook:</b> <span id="bh"></span></p>
+<p><b>Klankhook:</b> SJOO-DZJIE: hand pakt (shǒu, stem zakt en veert), dan piep (jī, hoog en vlak). <button id="say">🔊 shǒujī</button></p>
+<div class="prose" id="beeld"></div>
+</section>
+<footer>Zwaar werk door: Grok Heavy (grok.com) · test, nog niet in de doos</footer>
+</main>
+<script>
+const D={"hz": "手机", "schrift": "Aantal streken: 手 = 4, 机 = 6, totaal 10.\n\n🔴手🔴 hand. Het volle teken zelf; als radicaal links vaak 扌. Pictogram van een open hand.\n🔴木🔴+⚫几⚫ = 机 machine (木 hout + 几 jī klank). 木 is het betekenisdeel (hout, mechaniek), 几 is het klankdeel.\n\nPictogram: 手 is een hand met gespreide vingers en pols. 机 is oorspronkelijk een houten tafeltje of boomsoort.\n\nGeschiedenis: zie apart veld.\n\nSchrijfvolgorde:\n手:\nStreek 1: 撇 (val links) — ik spreid de vingers van mijn hand.\nStreek 2: 横 (horizontaal) — de palm strekt zich.\nStreek 3: 横 (horizontaal) — de onderste vingers.\nStreek 4: 竖钩 (verticaal met haak) — de pols zakt en veert terug.\n\n机:\nStreek 1: 横 — de houten basis van het doosje.\nStreek 2: 竖 — de stam.\nStreek 3: 撇 — de tak.\nStreek 4: 点 — de laatste houtvezel.\nStreek 5: 撇 — de kleine tafel begint.\nStreek 6: 横折弯钩 — de tafel sluit en piept.\n\nOpbouw: zie tegels hieronder.\n\nFamilie (4.5): 打 dǎ (扌), 飞机 fēijī (机), 木 mù (木), 几 jǐ (几), 本 běn (木). Alleen echte gedeelde delen, HSK1-2.\n\nBeeldhook: IK houd een machine in mijn hand.", "geschiedenis": "手: pictogram. Oudste duidelijke vormen in bronsinscripties (Westelijke Zhou): open hand met vingers en pols. Zegelschrift behoudt de vorm. Vingers (boven) en pols (onder) blijven zichtbaar. Oracle-botinscripties: ONBEKEND.\n\n机: oorspronkelijk zelfstandig teken (木 + 几), betekenis boomsoort of klein tafeltje. Traditioneel 機 (木 + 幾) betekent de trekker van een kruisboog, daarna mechaniek, machine, kans, cruciaal punt. Bij de vereenvoudiging (1956/1964) werd 機 vervangen door het al bestaande, eenvoudigere 机, dat dezelfde klank jī had (leenvorm op klank).\n\n手机: modern woord, letterlijk \"handmachine\". Kort voor 手提电话 of 移动电话. Op het Vasteland algemeen vanaf de jaren 1990; daarvoor heette het toestel in de volksmond ook 大哥大. Kantonees/Hongkong: 手提電話 (kort 手提). Verband met Hongkong is waarschijnlijk, niet bewezen. Direct verbonden met de bestaande kaart 电话.", "pictogram": {"手": "open hand met gespreide vingers en pols/voorarm", "机": "houten klein tafeltje of boomstructuur, of ONBEKEND voor precieze oervorm"}, "radicalen": "🔴手🔴 hand (heel teken) · 🔴木🔴 hout, betekenisdeel van 机 · ⚫几⚫ jī, klankdeel van 机", "familie": [{"hz": "打", "pinyin": "dǎ", "nl": "slaan, raken", "gedeeld": "扌 (zijvorm van 手)"}, {"hz": "飞机", "pinyin": "fēijī", "nl": "vliegtuig", "gedeeld": "机"}, {"hz": "木", "pinyin": "mù", "nl": "hout, boom", "gedeeld": "木 in 机"}, {"hz": "几", "pinyin": "jī / jǐ", "nl": "jǐ: hoeveel, enkele · jī: klein tafeltje (oude betekenis)", "gedeeld": "几"}, {"hz": "本", "pinyin": "běn", "nl": "oorsprong, boek", "gedeeld": "木"}], "strekenLos": ["手 4: 撇 横 横 竖钩", "机 6: 横 竖 撇 点 · 撇 横折弯钩"], "strekenSamen": ["手: ㇒ → 龵-top (1+2) → 三-vingers (1+2+3) → 手 (4, 竖钩)", "机: 一 → 十 (1+2) → 木 (1–4, laatste streek wordt 点 links) → 木+㇒ (5) → 机 (6, 横折弯钩)", "手机"], "streken": {"手": [{"nr": 1, "naam_cn": "撇", "naam_nl": "val links", "symbool": "㇒", "beeld": "ik spreid de vingers van mijn hand die het doosje pakt"}, {"nr": 2, "naam_cn": "横", "naam_nl": "dwars", "symbool": "㇐", "beeld": "de palm strekt zich over het hout"}, {"nr": 3, "naam_cn": "横", "naam_nl": "dwars", "symbool": "㇐", "beeld": "de onderste vingers sluiten om het doosje"}, {"nr": 4, "naam_cn": "竖钩", "naam_nl": "omlaag-haak", "symbool": "㇚", "beeld": "de pols zakt en veert terug terwijl de toon daalt"}], "机": [{"nr": 1, "naam_cn": "横", "naam_nl": "dwars", "symbool": "㇐", "beeld": "ik teken de houten basis van het piepende doosje"}, {"nr": 2, "naam_cn": "竖", "naam_nl": "omlaag", "symbool": "㇑", "beeld": "de stam van het hout komt omhoog"}, {"nr": 3, "naam_cn": "撇", "naam_nl": "val links", "symbool": "㇒", "beeld": "een tak van het hout"}, {"nr": 4, "naam_cn": "点", "naam_nl": "punt", "symbool": "㇔", "beeld": "de laatste houtvezel"}, {"nr": 5, "naam_cn": "撇", "naam_nl": "val links", "symbool": "㇒", "beeld": "de kleine tafel op het doosje begint"}, {"nr": 6, "naam_cn": "横折弯钩", "naam_nl": "dwars-knik-boog-haak", "symbool": "㇈", "beeld": "de tafel sluit en het doosje piept hoog"}]}, "streekvragen": [{"id": "b4-r-手-1", "vraag": "Welke streek komt na de eerste 撇 van 手?", "opties": ["横", "竖", "点", "撇"], "goed": 0, "uitleg": "Na de val links volgt de eerste horizontale streek van de palm."}, {"id": "b4-r-手-2", "vraag": "Hoeveel streken heeft 手?", "opties": ["3", "4", "5", "6"], "goed": 1, "uitleg": "Standaard vier streken: 撇 横 横 竖钩."}, {"id": "b4-r-机-1", "vraag": "Welke streek komt na de eerste vier van 木 in 机?", "opties": ["撇", "横", "点", "竖"], "goed": 0, "uitleg": "Na 木 volgt de 撇 van 几."}, {"id": "b4-r-机-2", "vraag": "Hoeveel streken heeft 机?", "opties": ["5", "6", "7", "8"], "goed": 1, "uitleg": "Zes streken: 木 (4) + 几 (2)."}], "beeld": "Ik zit in de Schilderkamer. Aan de muur hangen de kaarten van 家 en 电话, de plek van het staatsexamen H6/H7. Mijn rechterhand komt omhoog. De eerste streek valt links: de vingers spreiden. Twee horizontale streken tekenen de palm. De laatste haak is de pols die omlaag zakt en terugveert — shǒu, de derde toon, mijn stem zakt en veert. Ik grijp het houten doosje. Eerst teken ik de basis: horizontale streek, verticale stam, val links, een punt. Dan de kleine tafel erop: val links en de lange haak. Het doosje piept hoog en vlak: jī, de eerste toon, een lange hoge piep. SJOO-DZJIE. Ik ruik het verse hout en de droge inkt van de kamer. Ik voel de gladde lak onder mijn vingers en de lichte warmte van mijn hand. Ik hoor de piep helder in mijn oor. Ik zie de rode hand en het grijze hout scherp op de muur. Op mijn tong proef ik iets metaligs, als een batterij die je even aantikt.", "beeldhook": "IK houd een machine in mijn hand.", "twijfel": ["Oracle-botinscripties voor 手: ONBEKEND (niet bevestigd in standaardbronnen)", "Precieze oervorm en datum van 机 als tafeltje: ONBEKEND", "Exact jaar waarin 手机 standaardterm werd: jaren 1990, regionale variatie", "Symbool voor 横折弯钩 van 几: ㇈ gebruikt, standaard kan licht variëren", "机 als 'tafeltje': in oude teksten werd 机 ook voor 几 (tafel) gebruikt; de kern-betekenis 'boomsoort' (说文 木也) staat vaster.", "Streekvolgorde volgt de Vasteland-norm (HanziWriter / Make Me a Hanzi). Voor 手 en 机 is mij geen afwijking in Taiwan/Hongkong bekend; niet in een officiële lijst nagekeken."]};
+const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+$('rad').innerHTML=esc(D.radicalen).replace(/🔴(.+?)🔴/g,'<b class="rood">$1</b>').replace(/⚫(.+?)⚫/g,'<b>$1</b>');
+$('schrift').textContent=D.schrift.replace(/[🔴⚫]/g,'');$('gesch').textContent=D.geschiedenis;
+$('pict').innerHTML=Object.entries(D.pictogram).map(([k,v])=>`<li><b>${k}</b>: ${esc(v)}</li>`).join('');
+$('fam').innerHTML=D.familie.map(f=>`<li><b style="font-size:22px">${f.hz}</b> ${esc(f.pinyin)} · ${esc(f.nl)} <span class="sub">(deelt: <span class="rood">${esc(f.gedeeld)}</span>)</span></li>`).join('');
+$('tw').innerHTML=D.twijfel.map(t=>`<li>${esc(t)}</li>`).join('');
+$('opbouw').innerHTML=D.strekenLos.concat(D.strekenSamen).map(t=>`<span class="tegel">${esc(t)}</span>`).join('');
+$('bh').textContent=D.beeldhook;$('beeld').textContent=D.beeld;
+// streekvragen (mandarijn-stijl, 4 Streken / Rennen)
+const S={goed:{},klaar:{}};
+$('vragen').innerHTML=D.streekvragen.map((q,i)=>`<div class="vraag"><p>${esc(q.vraag)}</p><div class="row">${q.opties.map((o,j)=>`<button class="opt" data-q="${i}" data-o="${j}">${esc(o)}</button>`).join('')}</div><p class="sub" id="u${i}"></p></div>`).join('');
+document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.q,q=D.streekvragen[i],ok=+b.dataset.o===q.goed;
+ b.classList.add(ok?'goed':'fout');$('u'+i).textContent=(ok?'Goed. ':'Nog niet. ')+q.uitleg;if(ok)S.goed[i]=1;upd()});
+try{$('hand').checked=localStorage.getItem('wd-shouji-hand')==='1'}catch(e){}
+$('hand').onchange=()=>{try{localStorage.setItem('wd-shouji-hand',$('hand').checked?'1':'0')}catch(e){};upd()};
+function upd(){const nv=Object.keys(S.goed).length,nq=Object.keys(S.klaar).length,ok=(nv===D.streekvragen.length&&nq===2)||$('hand').checked;
+ $('status').innerHTML=`Streken ${ok?'<span style="color:var(--goed)">✔</span>':'○'} · vragen ${nv}/${D.streekvragen.length} · vingerquiz ${nq}/2${$('hand').checked?' · met de hand ✔':''}`}
+upd();
+// HanziWriter vingerquiz (uit huiswerk-15-okt)
+let W=null,cur='';const fb=$('fb');
+function lijst(ch,nu){$('streeklijst').innerHTML=D.streken[ch].map((s,i)=>`<li class="${i<nu?'af':i===nu?'nu':''}"><span class="sym">${s.symbool}</span><b>${s.nr}</b> ${s.naam_cn} · ${esc(s.naam_nl)}<br><span class="sub">${esc(s.beeld)}</span></li>`).join('')}
+function load(ch){cur=ch;document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.textContent===ch));
+ const box=$('hw');box.innerHTML='';lijst(ch,0);
+ if(typeof HanziWriter==='undefined'){fb.textContent='Streken laden vraagt internet, de eerste keer.';return}
+ const sz=box.clientWidth;
+ W=HanziWriter.create('hw',ch,{width:sz,height:sz,padding:10,showOutline:true,showCharacter:false,strokeColor:'#2b2119',outlineColor:'#e3d6bf',
+  drawingColor:'#8a4b2a',highlightColor:'#b3261e',radicalColor:'#b3261e',drawingWidth:22,strokeAnimationSpeed:1,delayBetweenStrokes:250,
+  onLoadCharDataError:()=>{fb.textContent='Geen streekdata voor '+ch+' (internet?)'}});
+ quiz()}
+function quiz(){if(!W)return;fb.textContent='Teken streek 1 van '+cur;lijst(cur,0);
+ W.quiz({showHintAfterMisses:2,highlightOnComplete:true,
+  onCorrectStroke:d=>{fb.textContent='✓ streek '+(d.strokeNum+1)+' goed · nog '+d.strokesRemaining;lijst(cur,d.strokeNum+1);window._hwOk=(window._hwOk||0)+1},
+  onMistake:d=>{fb.textContent='✗ streek '+(d.strokeNum+1)+' nog eens'+(d.mistakesOnStroke>=2?' · kijk naar de hint':'')},
+  onComplete:d=>{fb.textContent=d.character+' klaar · fouten: '+d.totalMistakes;S.klaar[d.character]=1;upd()}})}
+['手','机'].forEach(ch=>{const b=document.createElement('button');b.textContent=ch;b.style.fontSize='24px';b.onclick=()=>load(ch);$('tabs').append(b)});
+$('demo').onclick=()=>{if(W){W.cancelQuiz();W.showCharacter();W.animateCharacter()}};
+$('quiz').onclick=()=>{if(W){W.hideCharacter();quiz()}};$('reset').onclick=()=>load(cur);
+$('say').onclick=()=>{try{const u=new SpeechSynthesisUtterance('手机');u.lang='zh-CN';u.rate=.8;speechSynthesis.speak(u)}catch(e){}};
+load('手');
+</script></body></html>
