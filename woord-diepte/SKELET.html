@@ -1,96 +1,132 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- SKELET 4.6 · Chinese leren 4.6 · placeholders %X% worden gevuld door gen46.py · spec: kinetix/systeem/chinese-leren-4.6.md -->
+<!-- SKELET 4.6 = SKELET 4.5 (alle punten, volgorde, ids) + goedgekeurde updates. Huisstijl testkaart. Gevuld door gen46.py. Spec: systeem/chinese-leren-4.6.md -->
 <title>%HZ% · WOORD DIEPTE 4.6</title>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
-<style>%CSS%</style></head><body><main>
-<nav class="top"><a href="../index.html">← WOORD DIEPTE 4.6</a></nav>
-<p class="sub">WOORD DIEPTE 4.6 · Chinese leren 4.6</p>
-<h1><span class="hz">%HZ%</span> <span class="sub">%PY% · %TOON% · %NL%</span></h1>
+<style>%CSS%</style></head><body>
+<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="één woord" autocomplete="off"></header>
+<main>
+<p class="lijn" id="lijn">%HZ% · %PY% · %NL% · %EN%</p>
+<nav class="pad"><a href="#blok-kern"><span>1</span>kern</a><a href="#blok-klank"><span>2</span>klank</a><a href="#blok-schrift"><span>3</span>schrift</a><a href="#blok-beeld"><span>4</span>beeld</a><a href="#blok-recall"><span>5</span>recall</a><a href="#blok-volgorde"><span>6</span>streek</a></nav>
+<article id="blad45">
+<h1><span class="hz">%HZ%</span><span class="ondertitel">%PY% · %TOON% · %NL% · %EN%</span></h1>
 <section class="box" id="formule">
 <h2>Formule</h2>
 <div class="f"><b>1 Klank</b> %KLANK% <span class="sub">%KLANKUITLEG%</span></div>
-<div class="f"><b>2 Beeld</b> %BEELDHOOK%</div>
+<div class="f"><b>2 Beeld</b> <span class="hook" id="b-hook">%BEELDHOOK%</span></div>
 <div class="f"><b>3 Paleis</b> Lorentz Lyceum, Arnhem Zuid · %PALEIS%</div>
-<div class="audio">
-<button data-a="%SLUG%-zh">🔊 中 %HZ%</button><button data-a="%SLUG%-zh-traag">🔊 中 traag</button>
-<button data-a="%SLUG%-hook-nl">🔊 NL</button><button data-a="%SLUG%-hook-en">🔊 EN</button><button data-a="%SLUG%-hook-es">🔊 ES</button>
-</div>
+<p class="audio"><button type="button" class="klank" id="speel-hz" data-a="%SLUG%-zh">🔊 中 %HZ%</button><button type="button" class="klank" data-a="%SLUG%-zh-traag">🔊 中 traag</button><button type="button" class="klank" id="speel-haak" data-a="%SLUG%-hook-nl">🔊 Klankhook NL</button>%HOOKKNOPPEN%</p>
 <p class="sub" id="audnote">Chinees: Mandarijn, moedertaalstem. NL/EN/ES: klank-haken, geen vertaling.</p>
-<details><summary>Klank-haken NL · EN · ES</summary><p>%HOOKS%</p>
-<p class="sub">→ 1e toon hoog en vlak · ↗ 2e toon stijgt · ↘↗ 3e toon zakt en veert terug · ↘ 4e toon valt hard · licht = neutrale toon.</p></details>
-<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis">%STOPS%</ol>
-<p>O'Brien: %ANKER%</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
-<details><summary>Mindmap (Buzan)</summary>
-<a href="media/%SLUG%-mindmap.jpg" target="_blank"><img class="mm" src="media/%SLUG%-mindmap.jpg" alt="Buzan-mindmap %HZ%" loading="lazy"></a>
-<p class="sub">Buzan: centraal beeld · gebogen takken, dik bij het midden · 1 woord per lijn · beeld per tak · kleur per tak · radiaal, met de klok mee vanaf KLANK.</p></details>
+<details><summary>Klank-haken NL · EN · ES</summary><p>%HOOKS%</p><p class="sub">→ 1e toon hoog en vlak · ↗ 2e stijgt · ↘↗ 3e zakt en veert terug · ↘ 4e valt hard · licht = neutraal.</p></details>
+<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis">%STOPS%</ol><p>O'Brien: %ANKER%</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
 </section>
-<section class="box" id="s3">
-<h2>3 schrift · streken</h2>
+<details class="blok" open><summary>Mindmap (Buzan) · tik een tak</summary>
+<div class="plaat-huis" id="plaat-huis"><img class="plaat" src="media/%SLUG%-mindmap.jpg" alt="Buzan-mindmap %HZ%">%HOTS%</div>
+<p class="legenda"><b class="c-plek">● plek</b> <b class="c-beeld">● beeld</b> <b class="c-woord">● woord</b> <b class="c-toon">● toon</b></p>
+<p class="sub">Buzan: centraal beeld · gebogen takken, dik bij het midden · 1 woord per lijn · beeld per tak · kleur per tak · radiaal, met de klok mee vanaf KLANK.</p></details>
+<div class="tools">%TOOLS%</div>
+<div class="tool-uit" id="tool-uit" hidden></div>
+<div class="liniaal" id="liniaal" hidden><span></span></div>
+<h2>Deuren · loop</h2>
+%DEUREN%
+<h2 id="blok-adem">Eén adem</h2>
+<p class="adem">%ADEM%</p>
+<h2>Eerst ophalen</h2>
+<div class="kaart"><b>♠ Terugloop. </b>Achteruit, uit je hoofd: %TERUG%. Dan pas kijken.
+<p><button type="button" class="stap" id="loop-terug">Terugloop</button><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>%TERUGHZ%</p></div>
+<div class="kaart"><b>♥ Klankhook. </b>%KLANK%: %KLANKUITLEG%.
+<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>%KLANKVOL%</p></div>
+<div class="kaart"><b>♦ Ketting. </b>%KETTINGKORT%
+<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>%KETTING%</p></div>
+<h2>Herhaal-ladder</h2>
+<div class="ladder" id="ladder"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot"></p></div>
+
+<h2 id="blok-kern">1 Kern</h2>
+<table class="kern">
+<tr><td class="c-woord">Woord</td><td class="c-woord hzc" id="k-hz">%HZ%</td></tr>
+<tr><td class="c-toon">Klank</td><td class="c-toon" id="k-py">%PY%</td></tr>
+<tr><td class="c-toon">Toon</td><td id="k-toon">%TOON%</td></tr>
+<tr><td>Vertaling</td><td id="k-nl">%NL%</td></tr>
+<tr><td>Engels</td><td id="k-en">%EN%</td></tr>
+<tr><td class="c-woord">Radicaal</td><td id="k-rad">%RAD%</td></tr>
+<tr><td class="c-plek">Plek</td><td id="k-plek">%PLEK%</td></tr>
+<tr><td class="c-beeld">Actie</td><td id="k-actie">%ACTIE%</td></tr>
+</table>
+
+<h2 id="blok-klank">2 Klank</h2>
+<div class="valrij">%VAL%<button type="button" class="klank" id="val-beide">%VALALLE%</button></div>
+<p class="sub">%KLANKUITLEG% · tik een lettergreep: hij valt zoals de toon.</p>
+<details><summary>Klank (3.5) + haken</summary><p class="proza" id="b-klank">%BKLANK%</p></details>
+
+<h2 id="blok-schrift">3 Schrift</h2>
+<p id="blik-tian" hidden>%BLIK%</p>
 <p>%DELEN%</p>
-<h3>Oefen met je vinger</h3>
+<p class="proza" id="b-schrift">%BSCHRIFT%</p>
+<details><summary>Geschiedenis</summary><div class="prose" id="gesch"></div></details>
+<details><summary>Twijfel</summary><ul class="twijfel" id="tw"></ul></details>
+
+<h2 id="blok-beeld">4 Geheugenbeeld</h2>
+<p class="voordeur">%VOORDEUR%</p>
+<p class="hook" id="b-beeldhook">%BEELDHOOK%</p>
+<div class="hook2"><a href="media/%SLUG%-centrum.jpg" target="_blank"><img src="media/%SLUG%-centrum.jpg" alt="beeldhook 1"></a><a href="media/%SLUG%-beeld2.jpg" target="_blank"><img src="media/%SLUG%-beeld2.jpg" alt="beeldhook 2"></a></div>
+<p class="proza" id="b-beeld">%BBEELD%</p>
+<details><summary>Scène (Lorentz)</summary><div class="prose">%SCENE%</div></details>
+
+<h2 id="blok-recall">5 Actieve recall</h2>
+<div class="tools" id="recall-manieren"><button type="button" class="stap" id="rec-productie">Productie</button><button type="button" class="stap" id="rec-dek">Dek</button><button type="button" class="stap" id="rec-flits">Flits</button><button type="button" class="stap" id="rec-zintuig">Eén zintuig</button><button type="button" class="stap" id="rec-radicaal">Alleen radicaal</button><button type="button" class="stap" id="rec-lucht">Lucht eerst</button></div>
+<div id="recall-veld" class="tool-uit" hidden><p id="recall-zin"></p><p id="recall-antwoord" hidden></p><button type="button" class="stap" id="recall-toon" hidden>toon</button></div>
+<div id="b-vragen"><div id="vragen"></div></div>
+<button type="button" class="gehaald" id="gehaald-vragen">Gehaald</button>
+<div class="leegrij"></div>
+<div class="proza grijs" id="b-antwoorden" hidden>%ANTWOORDEN%</div>
+
+<h2 id="blok-volgorde">6 Schrijfvolgorde</h2>
 <div class="row" id="tabs"></div><div id="hw"></div>
 <p id="fb">Tik op Oefen en teken streek 1.</p>
 <div class="row" style="justify-content:center"><button id="demo">Toon</button><button id="quiz" class="on">Oefen</button><button id="reset">Opnieuw</button></div>
 <details id="dlijst"><summary id="lijstsum">Streken · namen</summary>
-<p class="snm">De hanzi bij elke streek is de <b>officiële streeknaam</b> die je in elk Chinees schrijfboek vindt, geen lesstof. Tik of houd de naam vast voor de betekenis.</p>
+<p class="snm">De hanzi bij elke streek is de <b>officiële streeknaam</b> uit elk Chinees schrijfboek, geen lesstof. Tik of houd de naam vast voor de betekenis.</p>
 <ol class="streek" id="streeklijst"></ol></details>
-<details><summary>Opbouw · %OPBOUWSUM%</summary><p class="sub">Rood = de nieuwe streek.</p>%TILES%</details>
-<h3>Streekvragen</h3><div id="vragen"></div>
+<details><summary>Opbouw · %OPBOUWSUM%</summary><p class="sub">Rood = de nieuwe streek.</p><div class="groei-rij" id="groei-rij">%TILES%</div>
+<p class="groei-nu" id="groei-nu"></p><button type="button" class="stap" id="groei-tik">tik</button></details>
+<details><summary>Vrij trekken (bord)</summary>
+<p id="streek-naam"></p><canvas id="streek-vlak" width="640" height="280"></canvas><p id="streek-model"></p>
+<button type="button" class="stap" id="streek-zet">gezet</button> <button type="button" class="stap" id="streek-wis">wis</button></details>
+<details><summary>Streken (3.5)</summary><div class="proza" id="b-streep">%BSTREEP%</div></details>
 <label class="hand"><input type="checkbox" id="hand"> Ik heb %HZ% met de hand op papier geschreven</label>
 <p id="status"></p>
-<details><summary>Verbindingen (andere woorden)</summary><ul class="fam" id="fam"></ul></details>
-<details><summary>Geschiedenis</summary><div class="prose" id="gesch"></div></details>
-<details><summary>Twijfel</summary><ul class="twijfel" id="tw"></ul></details>
-</section>
-<section class="box" id="s4">
-<h2>4 beeld</h2>
-<p><b>%BEELDHOOK%</b></p>
-<div class="hook"><a href="media/%SLUG%-centrum.jpg" target="_blank"><img src="media/%SLUG%-centrum.jpg" alt="beeldhook 1"></a><a href="media/%SLUG%-beeld2.jpg" target="_blank"><img src="media/%SLUG%-beeld2.jpg" alt="beeldhook 2"></a></div>
-<details><summary>Scène (Lorentz)</summary><div class="prose">%SCENE%</div></details>
-</section>
+
+<h2>Radicaal</h2>
+<ul class="leden" id="radicaal-leden">%RADLEDEN%</ul>
+<h2>Familie</h2>
+<details><summary>Verbindingen (andere woorden)</summary><ul class="leden fam" id="familie-leden"></ul></details>
+<h2>Herhaal-ladder</h2>
+<div class="ladder" id="ladder-laatste"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot"></p></div>
+<div id="kamer" hidden><p class="label-beeld">BEELD</p><div class="kamer-beeld" id="kamer-beeld"></div><p class="r1" id="kamer-r1"></p><p class="r2" id="kamer-r2"></p><p id="kamer-vraag" hidden>Welk teken?</p><p id="kamer-hz"></p>
+<button type="button" class="stap" id="kamer-toon" hidden>toon het teken</button> <button type="button" class="stap" id="kamer-volgende" hidden>volgende</button> <button type="button" class="gehaald" id="kamer-terug">Terug</button></div>
+</article>
+
+<details class="blok" id="peek"><summary>Kaartoverzicht 3.5 (punt 1–4 als chips)</summary>
+<section class="box"><div class="hz" id="kop-hz">%HZ%</div><div class="row"><span class="kw"><i>pinyin</i><span id="kop-py">%PY%</span></span><span class="kw"><i>toon</i><span id="kop-toon">%TOON%</span></span><span class="kw"><i>vertaling</i><span id="kop-nl">%NL%</span></span></div></section>
+<section class="box" id="s1"><h2>1 kaart</h2><div class="row" id="kaart">%S1%</div></section>
+<section class="box" id="s2"><h2>2 klank</h2><div class="row" id="klank">%S2%</div></section>
+<section class="box" id="s3"><h2>3 schrift</h2><div class="row" id="schrift">%S3%</div><h2>geschiedenis</h2><article class="proza" id="geschiedenis">%GESCH%</article></section>
+<section class="box" id="s4"><h2>4 beeld</h2><div class="row" id="beeld">%S4%</div><img class="still" id="still" src="media/%SLUG%-centrum.jpg" alt="BEELD"></section>
+</details>
+
 <section class="box" id="s5">
-<h2>5 actief recall</h2>
-<details><summary>Recall-tabel</summary>
-<table class="rc"><tr><th>Nr</th><th>Hersenen</th><th>Teken</th><th>Station</th><th>Volgende</th></tr>%RECALL%</table>
-<p class="sub">Dek de kaart af. Loop het paleis, zeg klank + toon, schrijf het teken op papier. Pas daarna verder.</p></details>
+<h2>5 actief recall · organisatie</h2>
+<p class="dim">Wij dekken de kaart. Wij zetten het beeld neer. Jij haalt op (zegt of doet). Geen quiz. Geen cijfer. Elke hersenen in de organisatie krijgt het woord terug.</p>
+<div class="row" id="org"></div><div class="row" id="stations" style="margin-top:8px"></div>
+<img class="cue-still" id="cue-still" src="media/%SLUG%-centrum.jpg" alt="cue: beeld, geen teken"><div class="cue-txt" id="cue-txt">Nog niet gedekt.</div>
+<div class="row"><button type="button" class="kw" id="dek">dek · wij werken</button><button type="button" class="kw" id="gezegd">gezegd / gedaan</button><button type="button" class="kw" id="nog">nog · 10 min</button><button type="button" class="kw" id="niet">nu niet</button></div>
+<p class="dim" id="wij">Wij: cue + tijd. Jij: ophalen.</p>
+<div id="s6"><h3>streep + tabel</h3><div class="row" id="streep">%S6%</div>
+<details><summary>Recall-tabel</summary><table class="rc"><thead><tr><th>Nr</th><th>Hersenen</th><th>Teken</th><th>Station</th><th>Volgende</th></tr></thead><tbody id="tabel"></tbody></table></details></div>
 </section>
 <footer>%FOOTER%</footer>
 </main>
 <script>
 const D=%DATA%;
-const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-$('gesch').textContent=D.gesch;
-$('fam').innerHTML=D.familie.map(f=>`<li><b style="font-size:22px">${f.hz}</b> ${esc(f.py)} · ${esc(f.nl)} <span class="sub">(verbinding: <span class="rood">${esc(f.deelt)}</span>)</span></li>`).join('');
-$('tw').innerHTML=D.twijfel.map(t=>`<li>${esc(t)}</li>`).join('');
-const S={goed:{},klaar:{}},KEY='wd46-%SLUG%';
-const Q=(q,i)=>`<div class="vraag"><p><b>${i+1}.</b> ${esc(q.vraag)}</p><div class="row">${q.opties.map((o,j)=>`<button class="opt" data-q="${i}" data-o="${j}">${esc(o)}</button>`).join('')}</div><p class="sub" id="u${i}"></p></div>`;
-$('vragen').innerHTML=Q(D.vragen[0],0)+(D.vragen.length>1?`<details id="meer"><summary>Meer vragen (2–${D.vragen.length})</summary>${D.vragen.slice(1).map((q,i)=>Q(q,i+1)).join('')}</details>`:'');
-document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.q,q=D.vragen[i],ok=+b.dataset.o===q.goed;
- b.classList.add(ok?'goed':'fout');$('u'+i).textContent=(ok?'Goed. ':'Nog niet. ')+q.uitleg;if(ok)S.goed[i]=1;upd()});
-try{$('hand').checked=localStorage.getItem(KEY+'-hand')==='1'}catch(e){}
-$('hand').onchange=()=>{try{localStorage.setItem(KEY+'-hand',$('hand').checked?'1':'0')}catch(e){};upd()};
-function upd(){const nv=Object.keys(S.goed).length,nq=Object.keys(S.klaar).length,ok=(nv===D.vragen.length&&nq===D.tabs.length)||$('hand').checked;
- $('status').innerHTML=`Streken ${ok?'<span style="color:var(--goed)">✔</span>':'○'} · vragen ${nv}/${D.vragen.length} · vingerquiz ${nq}/${D.tabs.length}${$('hand').checked?' · met de hand ✔':''}`}
-upd();
-let W=null,cur='';const fb=$('fb');
-function lijst(ch,nu){$('lijstsum').textContent='Streken 1–'+D.streken[ch].length+' van '+ch+' · namen';$('streeklijst').innerHTML=D.streken[ch].map((s,i)=>`<li class="${i<nu?'af':i===nu?'nu':''}">${s.svg}<b>${s.nr}</b> <abbr class="cn" title="Officiële streeknaam: ${esc(s.bet)}">${s.cn}</abbr> ${s.py} · ${esc(s.nl)}<br><span class="snm">streeknaam = ${esc(s.bet)}</span></li>`).join('')}
-function load(ch){cur=ch;document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.textContent===ch));
- const box=$('hw');box.innerHTML='';lijst(ch,0);
- if(typeof HanziWriter==='undefined'){fb.textContent='Streken laden vraagt internet, de eerste keer.';return}
- const sz=box.clientWidth;
- W=HanziWriter.create('hw',ch,{width:sz,height:sz,padding:10,showOutline:true,showCharacter:false,strokeColor:'#2b2119',outlineColor:'#e3d6bf',
-  drawingColor:'#8a4b2a',highlightColor:'#b3261e',radicalColor:'#b3261e',drawingWidth:22,strokeAnimationSpeed:1,delayBetweenStrokes:250,
-  onLoadCharDataError:()=>{fb.textContent='Geen streekdata voor '+ch+' (internet?)'}});
- quiz()}
-function quiz(){if(!W)return;fb.textContent='Teken streek 1 van '+cur;lijst(cur,0);
- W.quiz({showHintAfterMisses:2,highlightOnComplete:true,
-  onCorrectStroke:d=>{const s=D.streken[cur][d.strokeNum];fb.textContent='✓ '+(d.strokeNum+1)+' '+s.cn+' '+s.py+' · nog '+d.strokesRemaining;lijst(cur,d.strokeNum+1)},
-  onMistake:d=>{fb.textContent='✗ streek '+(d.strokeNum+1)+' nog eens'+(d.mistakesOnStroke>=2?' · kijk naar de hint':'')},
-  onComplete:d=>{fb.textContent=d.character+' klaar · fouten: '+d.totalMistakes;S.klaar[d.character]=1;upd()}})}
-D.tabs.forEach(ch=>{const b=document.createElement('button');b.textContent=ch;b.style.fontSize='24px';b.onclick=()=>load(ch);$('tabs').append(b)});
-$('demo').onclick=()=>{if(W){W.cancelQuiz();W.showCharacter();W.animateCharacter()}};
-$('quiz').onclick=()=>{if(W){W.hideCharacter();quiz()}};$('reset').onclick=()=>load(cur);
-let P=null;document.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>{if(P){P.pause();P.currentTime=0}P=new Audio('media/'+b.dataset.a+'.mp3');P.play().catch(e=>{$('audnote').textContent='Audio kon niet spelen: '+e.name})});
-load(D.tabs[0]);
+%JS%
 </script></body></html>

@@ -1302,10 +1302,26 @@
   "sjabloon": "SKELET.html",
   "data": "kaart/kaarten-4.6.json",
   "structuur": [
+   "basis-4.5",
    "formule",
-   "s3",
-   "s4",
+   "plaat-huis",
+   "tools",
+   "deuren",
+   "adem",
+   "ophalen",
+   "ladder",
+   "1-kern",
+   "2-klank",
+   "3-schrift",
+   "4-beeld",
+   "5-recall",
+   "6-volgorde",
+   "radicaal",
+   "familie",
+   "kamer",
+   "peek-s1-s4",
    "s5",
+   "s6",
    "footer"
   ]
  }

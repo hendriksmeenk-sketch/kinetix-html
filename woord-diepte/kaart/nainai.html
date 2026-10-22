@@ -1,6 +1,6 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- SKELET 4.6 · Chinese leren 4.6 · placeholders %X% worden gevuld door gen46.py · spec: kinetix/systeem/chinese-leren-4.6.md -->
+<!-- SKELET 4.6 = SKELET 4.5 (alle punten, volgorde, ids) + goedgekeurde updates. Huisstijl testkaart. Gevuld door gen46.py. Spec: systeem/chinese-leren-4.6.md -->
 <title>奶奶 · WOORD DIEPTE 4.6</title>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 <style>:root{--bg:#f5efe4;--pap:#fbf7ef;--ink:#2b2119;--dim:#6b5a48;--rood:#b3261e;--lijn:#d9ccb6;--acc:#8a4b2a;--goed:#2e6b3a}
@@ -36,95 +36,306 @@ ol.paleis{padding-left:24px;margin:4px 0}ol.paleis li.anker{color:var(--rood)}
 .snm{font-size:14px;color:var(--dim)}abbr{text-decoration:underline dotted;cursor:help}
 table.rc{width:100%;border-collapse:collapse;font-size:15px}table.rc td,table.rc th{border-bottom:1px solid var(--lijn);padding:6px 4px;text-align:left}.hzc{font-size:22px}
 nav.top{font-size:15px;margin-bottom:4px}nav.top a{color:var(--acc)}
-</style></head><body><main>
-<nav class="top"><a href="../index.html">← WOORD DIEPTE 4.6</a></nav>
-<p class="sub">WOORD DIEPTE 4.6 · Chinese leren 4.6</p>
-<h1><span class="hz">奶奶</span> <span class="sub">nǎinai · 3+0 · oma (vaders moeder)</span></h1>
+header{display:flex;align-items:center;gap:10px;padding:8px 14px;border-bottom:1px solid var(--lijn);background:var(--bg);position:sticky;top:0;z-index:5}header a{text-decoration:none}header b{color:var(--acc);letter-spacing:.06em;font-size:13px}
+.zoek{flex:1;border:1px solid var(--lijn);border-radius:10px;padding:8px 12px;font:inherit;background:#fff;min-height:40px}
+.lijn{color:var(--dim);font-size:15px;margin:0 0 8px}.pad{display:flex;gap:4px;margin:0 0 8px}.pad a{flex:1;text-align:center;border:1px solid var(--lijn);border-radius:8px;padding:6px 2px;font-size:12px;color:var(--ink);text-decoration:none;background:var(--pap)}.pad span{display:block;color:var(--rood);font-weight:bold}
+#blad45 h1{margin:4px 0}#blad45 h1 .hz{font-size:56px;color:var(--rood);letter-spacing:4px}#blad45 h1 .ondertitel{display:block;color:var(--goed);font-size:16px;font-weight:normal}
+#blad45>h2{font-size:21px;margin:22px 0 6px;border-bottom:2px solid var(--lijn);padding-bottom:2px}
+.c-plek{color:#1E6FD9}.c-beeld{color:#8E44AD}.c-woord{color:var(--rood)}.c-toon{color:var(--goed)}
+.hook{font-style:italic;border-left:6px solid #8E44AD;padding-left:8px}.f .hook{border:0;padding:0}
+.plaat-huis{position:relative}.plaat{width:100%;border-radius:10px;border:1px solid var(--lijn);display:block}
+.hot{position:absolute;transform:translate(-50%,-50%);width:16%;height:22%;min-width:44px;min-height:44px;border:0;border-radius:50%;background:transparent;padding:0}.hot:focus,.hot:hover{outline:2px solid #1E6FD9;background:rgba(30,111,217,.12)}.hot.midden{width:22%;height:30%}
+.legenda{font-size:14px;margin:6px 0}
+.tools{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}.tools button{font-size:15px;padding:6px 10px}
+.tool-uit{background:var(--pap);border-left:6px solid #1E6FD9;padding:8px 10px;margin:8px 0;border-radius:6px}
+.liniaal{position:relative;height:36px;margin:8px 0;background:var(--pap);border-left:6px solid var(--goed)}.liniaal span{position:absolute;left:0;top:0;width:42%;height:8px;background:var(--goed)}
+.liniaal.val1 span{animation:valbalk .4s ease forwards}@keyframes valbalk{from{top:0}to{top:24px}}
+.deur{border-left:8px solid;border-radius:10px;padding:8px 10px;margin:6px 0;cursor:pointer;min-height:44px}.deur p{margin:0}.deur .r1{font-weight:bold}.deur .r2{font-style:italic;margin:2px 0}
+.deur .haak{color:var(--goed);font-weight:bold}.deur .hzd{color:var(--rood);font-size:26px;font-weight:bold;margin-right:6px}.deur .py{color:var(--goed);font-weight:bold;margin-right:6px}
+.adem{text-align:center;font-size:26px;margin:4px 0}
+.kaart{background:#efe7d8;border-left:6px solid #1E6FD9;border-radius:8px;padding:8px 10px;margin:6px 0}.grijs{color:var(--dim);font-size:15px}
+.ladder p{margin:0 0 3px;font-size:15px}
+table.kern{width:100%;border-collapse:collapse}table.kern td{border-bottom:1px solid var(--lijn);padding:5px 4px;vertical-align:top}table.kern td:first-child{width:90px;font-weight:bold}
+.valrij{display:flex;flex-wrap:wrap;align-items:flex-start;gap:4px 14px}button.val{background:none;border:0;color:var(--goed);font-size:28px;font-weight:bold;padding:0 4px}
+button.val.t4.zakt{animation:zak .35s ease}button.val.t3.zakt{animation:dal .5s ease}button.val.t2.zakt{animation:stijg .35s ease}
+@keyframes zak{from{transform:translateY(-14px)}to{transform:translateY(8px)}}@keyframes dal{0%{transform:translateY(0)}50%{transform:translateY(12px)}100%{transform:translateY(-6px)}}@keyframes stijg{from{transform:translateY(8px)}to{transform:translateY(-10px)}}
+#blik-tian{color:var(--rood);font-size:72px;margin:0;line-height:1}
+.voordeur{color:#1E6FD9;font-weight:bold;margin:0}
+.hook2{display:flex;gap:8px;margin:8px 0}.hook2 a{flex:1}.hook2 img{width:100%;border-radius:10px;border:1px solid var(--lijn)}
+.dek{color:transparent!important;background:var(--lijn);border-radius:4px}
+.groei-rij{display:flex;flex-wrap:wrap;gap:6px}.groei-nu{min-height:50px}.groei-nu svg{width:80px;height:80px;background:#fff;border:1px solid var(--lijn);border-radius:6px}
+#streek-vlak{width:100%;height:200px;touch-action:none;background:#fbf7ef;border:1px solid var(--lijn);border-left:6px solid var(--ink);border-radius:8px}#streek-model .st{width:56px;height:56px}
+ul.leden{padding-left:18px}ul.leden .teken,ul.leden .rood{font-size:22px;margin-right:6px}
+#kamer{position:fixed;inset:0;z-index:30;overflow:auto;background:var(--bg);padding:16px 16px 48px}#kamer[hidden]{display:none}#kamer.blauw{background:#e7f1fb}
+#kamer .kamer-beeld{height:40vh;border-radius:12px;margin:8px 0;background:#fff 50% 50%/contain no-repeat}#kamer .label-beeld{color:#8E44AD;font-style:italic;font-weight:bold;margin:0}#kamer-hz .hzd{font-size:60px;color:var(--rood)}
+details.blok>summary{font-size:18px}
+.kw{border:1px solid var(--lijn);border-radius:8px;padding:5px 8px;font-size:15px;background:#fff;color:var(--ink);min-height:44px}.kw.on{border-color:var(--acc);color:var(--acc)}.kw i{display:block;font-style:normal;color:var(--dim);font-size:11px;text-transform:uppercase}
+#peek .hz{font-size:44px}.still,.cue-still{width:100%;max-height:180px;object-fit:cover;border-radius:8px;margin-top:8px}.cue-still{display:none}body.dicht .cue-still{display:block}body.dicht #blad45,body.dicht #peek{display:none}
+.cue-txt{font-size:19px;font-weight:bold;margin:8px 0;min-height:26px}.dim{color:var(--dim);font-size:15px}
+body.eenblik #blad45 *:not(h1):not(h1 *){visibility:hidden}body.eenblik #blad45 h1{position:fixed;top:30%;left:0;right:0;text-align:center;visibility:visible;z-index:40}
+#kamer-toon{margin-left:.5em}#kamer-toon::after{content:" · "}
+.kw.on,button.kw.on{color:#fff}.kw.on i{color:#F3E6D8}
+</style></head><body>
+<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="één woord" autocomplete="off"></header>
+<main>
+<p class="lijn" id="lijn">奶奶 · nǎinai · oma (vaders moeder) · grandma (father’s mother)</p>
+<nav class="pad"><a href="#blok-kern"><span>1</span>kern</a><a href="#blok-klank"><span>2</span>klank</a><a href="#blok-schrift"><span>3</span>schrift</a><a href="#blok-beeld"><span>4</span>beeld</a><a href="#blok-recall"><span>5</span>recall</a><a href="#blok-volgorde"><span>6</span>streek</a></nav>
+<article id="blad45">
+<h1><span class="hz">奶奶</span><span class="ondertitel">nǎinai · 3+0 · oma (vaders moeder) · grandma (father’s mother)</span></h1>
 <section class="box" id="formule">
 <h2>Formule</h2>
 <div class="f"><b>1 Klank</b> NAAI↘↗ nai· <span class="sub">dal en terug, dan kort en licht</span></div>
-<div class="f"><b>2 Beeld</b> IK zie oma naaien met een draad die drie keer knikt.</div>
+<div class="f"><b>2 Beeld</b> <span class="hook" id="b-hook">IK zie oma naaien met een draad die drie keer knikt.</span></div>
 <div class="f"><b>3 Paleis</b> Lorentz Lyceum, Arnhem Zuid · stop 1 spoorviaduct</div>
-<div class="audio">
-<button data-a="nainai-zh">🔊 中 奶奶</button><button data-a="nainai-zh-traag">🔊 中 traag</button>
-<button data-a="nainai-hook-nl">🔊 NL</button><button data-a="nainai-hook-en">🔊 EN</button><button data-a="nainai-hook-es">🔊 ES</button>
-</div>
+<p class="audio"><button type="button" class="klank" id="speel-hz" data-a="nainai-zh">🔊 中 奶奶</button><button type="button" class="klank" data-a="nainai-zh-traag">🔊 中 traag</button><button type="button" class="klank" id="speel-haak" data-a="nainai-hook-nl">🔊 Klankhook NL</button><button type="button" class="klank" data-a="nainai-hook-en">🔊 EN</button><button type="button" class="klank" data-a="nainai-hook-es">🔊 ES</button></p>
 <p class="sub" id="audnote">Chinees: Mandarijn, moedertaalstem. NL/EN/ES: klank-haken, geen vertaling.</p>
-<details><summary>Klank-haken NL · EN · ES</summary><p><b>NL</b> <i>naai ↘↗ + nai (licht)</i>: “Naai... oma naait mijn knoop eraan.”<br><b>EN</b> <i>nigh? ↘↗ + nigh (light)</i>: “Nigh? Grandma is nigh, she is near.”<br><b>ES</b> <i>¿naipe? ↘↗ (nai-) + nai (suave)</i>: “¿Naipes? La abuela juega a los naipes.”<br></p>
-<p class="sub">→ 1e toon hoog en vlak · ↗ 2e toon stijgt · ↘↗ 3e toon zakt en veert terug · ↘ 4e toon valt hard · licht = neutrale toon.</p></details>
-<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis"><li class=anker><b>Spoorviaduct</b> <span class="sub">het hele station hangt boven de Metamorfosenallee</span></li><li><b>Stationsgebouw</b> <span class="sub">verkeersgebouw van Edwin Megens, 2005</span></li><li><b>Beschilderde pijlers</b> <span class="sub">muurschildering 2024: groen, geschiedenis, wijk</span></li><li><b>Metalen gevel Lorentz</b> <span class="sub">gevelsysteem van Rakon (?)</span></li><li><b>Cruijff-court</b> <span class="sub">kooiveld op het schoolplein</span></li><li><b>Glaswand aula</b> <span class="sub">grote glazen buitenwand</span></li><li><b>Zittrap</b> <span class="sub">brede trap die tribune is</span></li><li><b>Vleugel</b> <span class="sub">vleugel in de aula</span></li><li><b>Atrium</b> <span class="sub">hart van de school, grafische prints op de wanden</span></li><li><b>Zwevende gymzaal</b> <span class="sub">sportzaal opgetild naar de 1e verdieping</span></li></ol>
-<p>O'Brien: <b>1</b> Boven op het spoorviaduct zit oma te naaien; haar draad knikt drie keer (乃) en hangt tot op de straat. IK roep: naai ↘↗, nai.</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
-<details><summary>Mindmap (Buzan)</summary>
-<a href="media/nainai-mindmap.jpg" target="_blank"><img class="mm" src="media/nainai-mindmap.jpg" alt="Buzan-mindmap 奶奶" loading="lazy"></a>
-<p class="sub">Buzan: centraal beeld · gebogen takken, dik bij het midden · 1 woord per lijn · beeld per tak · kleur per tak · radiaal, met de klok mee vanaf KLANK.</p></details>
+<details><summary>Klank-haken NL · EN · ES</summary><p><b>NL</b> <i>naai ↘↗ + nai (licht)</i>: “Naai... oma naait mijn knoop eraan.”<br><b>EN</b> <i>nigh? ↘↗ + nigh (light)</i>: “Nigh? Grandma is nigh, she is near.”<br><b>ES</b> <i>¿naipe? ↘↗ (nai-) + nai (suave)</i>: “¿Naipes? La abuela juega a los naipes.”<br></p><p class="sub">→ 1e toon hoog en vlak · ↗ 2e stijgt · ↘↗ 3e zakt en veert terug · ↘ 4e valt hard · licht = neutraal.</p></details>
+<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis"><li class=anker><b>Spoorviaduct</b> <span class="sub">het hele station hangt boven de Metamorfosenallee</span></li><li><b>Stationsgebouw</b> <span class="sub">verkeersgebouw van Edwin Megens, 2005</span></li><li><b>Beschilderde pijlers</b> <span class="sub">muurschildering 2024: groen, geschiedenis, wijk</span></li><li><b>Metalen gevel Lorentz</b> <span class="sub">gevelsysteem van Rakon (?)</span></li><li><b>Cruijff-court</b> <span class="sub">kooiveld op het schoolplein</span></li><li><b>Glaswand aula</b> <span class="sub">grote glazen buitenwand</span></li><li><b>Zittrap</b> <span class="sub">brede trap die tribune is</span></li><li><b>Vleugel</b> <span class="sub">vleugel in de aula</span></li><li><b>Atrium</b> <span class="sub">hart van de school, grafische prints op de wanden</span></li><li><b>Zwevende gymzaal</b> <span class="sub">sportzaal opgetild naar de 1e verdieping</span></li></ol><p>O'Brien: <b>1</b> Boven op het spoorviaduct zit oma te naaien; haar draad knikt drie keer (乃) en hangt tot op de straat. IK roep: naai ↘↗, nai.</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
 </section>
-<section class="box" id="s3">
-<h2>3 schrift · streken</h2>
+<details class="blok" open><summary>Mindmap (Buzan) · tik een tak</summary>
+<div class="plaat-huis" id="plaat-huis"><img class="plaat" src="media/nainai-mindmap.jpg" alt="Buzan-mindmap 奶奶"><button type="button" class="hot" style="left:64.6%;top:21.1%" data-hot="klank" aria-label="KLANK"></button><button type="button" class="hot" style="left:80.6%;top:55.7%" data-hot="a" aria-label="VROUW"></button><button type="button" class="hot" style="left:54.3%;top:82.4%" data-hot="b" aria-label="DRAAD"></button><button type="button" class="hot" style="left:22.1%;top:64.3%" data-hot="paleis" aria-label="PALEIS"></button><button type="button" class="hot" style="left:28.4%;top:26.5%" data-hot="link" aria-label="LINK"></button><button type="button" class="hot midden" style="left:50%;top:50%" data-hot="centrum" aria-label="midden"></button></div>
+<p class="legenda"><b class="c-plek">● plek</b> <b class="c-beeld">● beeld</b> <b class="c-woord">● woord</b> <b class="c-toon">● toon</b></p>
+<p class="sub">Buzan: centraal beeld · gebogen takken, dik bij het midden · 1 woord per lijn · beeld per tak · kleur per tak · radiaal, met de klok mee vanaf KLANK.</p></details>
+<div class="tools"><button type="button" class="stap" id="tool-toon">Tooncoach</button><button type="button" class="stap" id="tool-oor-1">🔊 奶</button><button type="button" class="stap" id="tool-oor-woord">🔊 奶奶</button><button type="button" class="stap" id="tool-split">Morfeem</button><button type="button" class="stap" id="tool-leeg">Leeg vak</button><button type="button" class="stap" id="tool-beurt">Jouw beurt</button><button type="button" class="stap" id="tool-bord">Bord</button><button type="button" class="stap" id="tool-liniaal">Ademliniaal</button><button type="button" class="stap" id="tool-blik">Eén blik</button></div>
+<div class="tool-uit" id="tool-uit" hidden></div>
+<div class="liniaal" id="liniaal" hidden><span></span></div>
+<h2>Deuren · loop</h2>
+<section class="deur" id="deur-1" tabindex="0" data-klank="" data-img="a" style="background:#F3ECE9;border-color:#8D6E63"><p class="r1">1 · de vrouw <span class="haak">wol</span></p><p class="r2">Hoog op het viaduct zit een vrouw op een bankje.</p><p><span class="hzd">女</span><span class="py">nǚ</span>vrouw</p></section><section class="deur" id="deur-2" tabindex="0" data-klank="" data-img="b" style="background:#FFF8E1;border-color:#E9A400"><p class="r1">2 · de draad <span class="haak">„NAAI!”</span></p><p class="r2">Haar rode draad knikt drie keer en hangt tot op de straat.</p><p><span class="hzd">乃</span><span class="py">nǎi</span>draad (klankdeel)</p></section><section class="deur" id="deur-3" tabindex="0" data-klank="0" data-img="centrum" style="background:#E8F1F8;border-color:#457B9D"><p class="r1">3 · oma <span class="haak">thee</span></p><p class="r2">Vrouw + draad: oma naait; naai zakt en veert terug.</p><p><span class="hzd">奶</span><span class="py">nǎi</span>oma, melk</p></section><section class="deur" id="deur-4" tabindex="0" data-klank="alle" data-img="paleis" style="background:#F3ECFC;border-color:#9B5DE5"><p class="r1">4 · het viaduct <span class="haak">„NAAI! nai”</span></p><p class="r2">Naai hard, nai zacht, een trein dendert voorbij.</p><p><span class="hzd">奶奶</span><span class="py">nǎinai</span>oma</p></section>
+<h2 id="blok-adem">Eén adem</h2>
+<p class="adem">女。乃。奶。奶奶。</p>
+<h2>Eerst ophalen</h2>
+<div class="kaart"><b>♠ Terugloop. </b>Achteruit, uit je hoofd: het viaduct, oma, de draad, de vrouw. Dan pas kijken.
+<p><button type="button" class="stap" id="loop-terug">Terugloop</button><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>奶奶, 奶, 乃, 女.</p></div>
+<div class="kaart"><b>♥ Klankhook. </b>NAAI↘↗ nai·: dal en terug, dan kort en licht.
+<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>Naai?... nai. Naai! Oma naait mijn knoop eraan. Naai zakt en veert terug, de tweede is kort en licht.</p></div>
+<div class="kaart"><b>♦ Ketting. </b>de vrouw → de draad → oma → het viaduct.
+<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>Hoog op het viaduct zit een vrouw op een bankje. Haar rode draad knikt drie keer en hangt tot op de straat. Vrouw + draad: oma naait; naai zakt en veert terug. Naai hard, nai zacht, een trein dendert voorbij.</p></div>
+<h2>Herhaal-ladder</h2>
+<div class="ladder" id="ladder"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot"></p></div>
+
+<h2 id="blok-kern">1 Kern</h2>
+<table class="kern">
+<tr><td class="c-woord">Woord</td><td class="c-woord hzc" id="k-hz">奶奶</td></tr>
+<tr><td class="c-toon">Klank</td><td class="c-toon" id="k-py">nǎinai</td></tr>
+<tr><td class="c-toon">Toon</td><td id="k-toon">3+0</td></tr>
+<tr><td>Vertaling</td><td id="k-nl">oma (vaders moeder)</td></tr>
+<tr><td>Engels</td><td id="k-en">grandma (father’s mother)</td></tr>
+<tr><td class="c-woord">Radicaal</td><td id="k-rad">🔴女🔴 vrouw · ⚫乃⚫ klank nǎi</td></tr>
+<tr><td class="c-plek">Plek</td><td id="k-plek">Lorentz Lyceum, stop 1 spoorviaduct (4.6) · 3.5: Staatsexamen H6/H7</td></tr>
+<tr><td class="c-beeld">Actie</td><td id="k-actie">Oma schenkt warme melk, haar stem zakt diep: nǎi.</td></tr>
+</table>
+
+<h2 id="blok-klank">2 Klank</h2>
+<div class="valrij"><button type="button" class="val t3" id="val-1">NAAI!</button><button type="button" class="val t0" id="val-2">nai</button><button type="button" class="klank" id="val-beide">NAAI! nai</button></div>
+<p class="sub">dal en terug, dan kort en licht · tik een lettergreep: hij valt zoals de toon.</p>
+<details><summary>Klank (3.5) + haken</summary><p class="proza" id="b-klank">nǎinai — tonen 3+0.
+
+Klankhook: NAAI-nai (vallei, dan zacht)
+
+4.6 klank-haken: NL naai ↘↗ + nai (licht) · EN nigh? ↘↗ + nigh (light) · ES ¿naipe? ↘↗ (nai-) + nai (suave)</p></details>
+
+<h2 id="blok-schrift">3 Schrift</h2>
+<p id="blik-tian" hidden>女</p>
 <p><b class="rood">女</b> vrouw, betekenisdeel · <b>乃</b> nǎi, klankdeel</p>
-<h3>Oefen met je vinger</h3>
+<p class="proza" id="b-schrift">奶 = 女 vrouw + 乃 klank; ook: melk
+
+奶 5: 撇点 撇 横 · 横折折折钩 撇</p>
+<details><summary>Geschiedenis</summary><div class="prose" id="gesch"></div></details>
+<details><summary>Twijfel</summary><ul class="twijfel" id="tw"></ul></details>
+
+<h2 id="blok-beeld">4 Geheugenbeeld</h2>
+<p class="voordeur">Paleis · stop 1 spoorviaduct</p>
+<p class="hook" id="b-beeldhook">IK zie oma naaien met een draad die drie keer knikt.</p>
+<div class="hook2"><a href="media/nainai-centrum.jpg" target="_blank"><img src="media/nainai-centrum.jpg" alt="beeldhook 1"></a><a href="media/nainai-beeld2.jpg" target="_blank"><img src="media/nainai-beeld2.jpg" alt="beeldhook 2"></a></div>
+<p class="proza" id="b-beeld">Oma schenkt warme melk, haar stem zakt diep: nǎi.</p>
+<details><summary>Scène (Lorentz)</summary><div class="prose">Hoog op het spoorviaduct van Arnhem Zuid zit oma op een bankje te naaien. Haar draad knikt drie keer (乃) en hangt tot op de straat. Naai, zeg ik: mijn stem zakt en komt terug; nai, zacht.
+Geur van wol, de prik van de naald, een trein die voorbijdendert, rode draad, thee op mijn tong.</div></details>
+
+<h2 id="blok-recall">5 Actieve recall</h2>
+<div class="tools" id="recall-manieren"><button type="button" class="stap" id="rec-productie">Productie</button><button type="button" class="stap" id="rec-dek">Dek</button><button type="button" class="stap" id="rec-flits">Flits</button><button type="button" class="stap" id="rec-zintuig">Eén zintuig</button><button type="button" class="stap" id="rec-radicaal">Alleen radicaal</button><button type="button" class="stap" id="rec-lucht">Lucht eerst</button></div>
+<div id="recall-veld" class="tool-uit" hidden><p id="recall-zin"></p><p id="recall-antwoord" hidden></p><button type="button" class="stap" id="recall-toon" hidden>toon</button></div>
+<div id="b-vragen"><div id="vragen"></div></div>
+<button type="button" class="gehaald" id="gehaald-vragen">Gehaald</button>
+<div class="leegrij"></div>
+<div class="proza grijs" id="b-antwoorden" hidden>Kijk naar 奶奶.
+Zeg hardop: nǎinai.
+Roep de klankhook: NAAI-nai (vallei, dan zacht).
+Zie het beeld: Oma schenkt warme melk, haar stem zakt diep: nǎi.
+Open #s2 en #s4. Dek, haal op.</div>
+
+<h2 id="blok-volgorde">6 Schrijfvolgorde</h2>
 <div class="row" id="tabs"></div><div id="hw"></div>
 <p id="fb">Tik op Oefen en teken streek 1.</p>
 <div class="row" style="justify-content:center"><button id="demo">Toon</button><button id="quiz" class="on">Oefen</button><button id="reset">Opnieuw</button></div>
 <details id="dlijst"><summary id="lijstsum">Streken · namen</summary>
-<p class="snm">De hanzi bij elke streek is de <b>officiële streeknaam</b> die je in elk Chinees schrijfboek vindt, geen lesstof. Tik of houd de naam vast voor de betekenis.</p>
+<p class="snm">De hanzi bij elke streek is de <b>officiële streeknaam</b> uit elk Chinees schrijfboek, geen lesstof. Tik of houd de naam vast voor de betekenis.</p>
 <ol class="streek" id="streeklijst"></ol></details>
-<details><summary>Opbouw · 奶 = 女 3 + 乃 2 (2×)</summary><p class="sub">Rood = de nieuwe streek.</p><div class="tegels"><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#b3261e"/></g></svg><figcaption>1</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#b3261e"/></g></svg><figcaption>2</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#2b2119"/><path d="M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z" fill="#b3261e"/></g></svg><figcaption>3</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#2b2119"/><path d="M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z" fill="#2b2119"/><path d="M 614 583 Q 704 613 764 626 Q 785 630 791 621 Q 800 614 784 562 Q 753 462 719 429 Q 709 417 710 408 Q 713 398 724 388 Q 734 381 747 388 Q 790 415 826 406 Q 847 396 847 351 Q 844 212 783 121 Q 762 88 731 96 Q 698 106 664 118 Q 640 122 657 101 Q 699 55 727 13 Q 739 -12 762 2 Q 832 41 862 129 Q 881 192 902 328 Q 906 353 919 371 Q 932 389 918 403 Q 903 418 859 438 Q 841 444 788 429 Q 775 428 774 437 Q 775 455 815 523 Q 857 592 876 606 Q 900 621 895 637 Q 886 656 829 681 Q 813 687 787 676 Q 754 658 594 615 Q 548 602 510 603 Q 489 603 494 590 Q 498 580 532 569 Q 553 566 581 572 L 614 583 Z" fill="#b3261e"/></g></svg><figcaption>4</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#2b2119"/><path d="M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z" fill="#2b2119"/><path d="M 614 583 Q 704 613 764 626 Q 785 630 791 621 Q 800 614 784 562 Q 753 462 719 429 Q 709 417 710 408 Q 713 398 724 388 Q 734 381 747 388 Q 790 415 826 406 Q 847 396 847 351 Q 844 212 783 121 Q 762 88 731 96 Q 698 106 664 118 Q 640 122 657 101 Q 699 55 727 13 Q 739 -12 762 2 Q 832 41 862 129 Q 881 192 902 328 Q 906 353 919 371 Q 932 389 918 403 Q 903 418 859 438 Q 841 444 788 429 Q 775 428 774 437 Q 775 455 815 523 Q 857 592 876 606 Q 900 621 895 637 Q 886 656 829 681 Q 813 687 787 676 Q 754 658 594 615 Q 548 602 510 603 Q 489 603 494 590 Q 498 580 532 569 Q 553 566 581 572 L 614 583 Z" fill="#2b2119"/><path d="M 581 572 Q 593 545 583 482 Q 582 479 582 475 Q 561 342 515 245 Q 467 152 401 76 Q 395 70 393 65 Q 390 55 400 56 Q 430 56 516 165 Q 522 177 531 188 Q 597 300 643 495 Q 658 541 657 546 Q 656 547 656 548 Q 644 563 614 583 C 589 600 573 601 581 572 Z" fill="#b3261e"/></g></svg><figcaption>5</figcaption></figure></div></details>
-<h3>Streekvragen</h3><div id="vragen"></div>
+<details><summary>Opbouw · 奶 = 女 3 + 乃 2 (2×)</summary><p class="sub">Rood = de nieuwe streek.</p><div class="groei-rij" id="groei-rij"><div class="tegels"><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#b3261e"/></g></svg><figcaption>1</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#b3261e"/></g></svg><figcaption>2</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#2b2119"/><path d="M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z" fill="#b3261e"/></g></svg><figcaption>3</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#2b2119"/><path d="M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z" fill="#2b2119"/><path d="M 614 583 Q 704 613 764 626 Q 785 630 791 621 Q 800 614 784 562 Q 753 462 719 429 Q 709 417 710 408 Q 713 398 724 388 Q 734 381 747 388 Q 790 415 826 406 Q 847 396 847 351 Q 844 212 783 121 Q 762 88 731 96 Q 698 106 664 118 Q 640 122 657 101 Q 699 55 727 13 Q 739 -12 762 2 Q 832 41 862 129 Q 881 192 902 328 Q 906 353 919 371 Q 932 389 918 403 Q 903 418 859 438 Q 841 444 788 429 Q 775 428 774 437 Q 775 455 815 523 Q 857 592 876 606 Q 900 621 895 637 Q 886 656 829 681 Q 813 687 787 676 Q 754 658 594 615 Q 548 602 510 603 Q 489 603 494 590 Q 498 580 532 569 Q 553 566 581 572 L 614 583 Z" fill="#b3261e"/></g></svg><figcaption>4</figcaption></figure><figure class="tg"><svg viewBox="0 0 1024 1024"><g transform="scale(1,-1) translate(0,-900)"><path d="M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z" fill="#2b2119"/><path d="M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z" fill="#2b2119"/><path d="M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z" fill="#2b2119"/><path d="M 614 583 Q 704 613 764 626 Q 785 630 791 621 Q 800 614 784 562 Q 753 462 719 429 Q 709 417 710 408 Q 713 398 724 388 Q 734 381 747 388 Q 790 415 826 406 Q 847 396 847 351 Q 844 212 783 121 Q 762 88 731 96 Q 698 106 664 118 Q 640 122 657 101 Q 699 55 727 13 Q 739 -12 762 2 Q 832 41 862 129 Q 881 192 902 328 Q 906 353 919 371 Q 932 389 918 403 Q 903 418 859 438 Q 841 444 788 429 Q 775 428 774 437 Q 775 455 815 523 Q 857 592 876 606 Q 900 621 895 637 Q 886 656 829 681 Q 813 687 787 676 Q 754 658 594 615 Q 548 602 510 603 Q 489 603 494 590 Q 498 580 532 569 Q 553 566 581 572 L 614 583 Z" fill="#2b2119"/><path d="M 581 572 Q 593 545 583 482 Q 582 479 582 475 Q 561 342 515 245 Q 467 152 401 76 Q 395 70 393 65 Q 390 55 400 56 Q 430 56 516 165 Q 522 177 531 188 Q 597 300 643 495 Q 658 541 657 546 Q 656 547 656 548 Q 644 563 614 583 C 589 600 573 601 581 572 Z" fill="#b3261e"/></g></svg><figcaption>5</figcaption></figure></div></div>
+<p class="groei-nu" id="groei-nu"></p><button type="button" class="stap" id="groei-tik">tik</button></details>
+<details><summary>Vrij trekken (bord)</summary>
+<p id="streek-naam"></p><canvas id="streek-vlak" width="640" height="280"></canvas><p id="streek-model"></p>
+<button type="button" class="stap" id="streek-zet">gezet</button> <button type="button" class="stap" id="streek-wis">wis</button></details>
+<details><summary>Streken (3.5)</summary><div class="proza" id="b-streep">奶 5: 撇点 撇 横 · 横折折折钩 撇
+奶奶</div></details>
 <label class="hand"><input type="checkbox" id="hand"> Ik heb 奶奶 met de hand op papier geschreven</label>
 <p id="status"></p>
-<details><summary>Verbindingen (andere woorden)</summary><ul class="fam" id="fam"></ul></details>
-<details><summary>Geschiedenis</summary><div class="prose" id="gesch"></div></details>
-<details><summary>Twijfel</summary><ul class="twijfel" id="tw"></ul></details>
-</section>
-<section class="box" id="s4">
-<h2>4 beeld</h2>
-<p><b>IK zie oma naaien met een draad die drie keer knikt.</b></p>
-<div class="hook"><a href="media/nainai-centrum.jpg" target="_blank"><img src="media/nainai-centrum.jpg" alt="beeldhook 1"></a><a href="media/nainai-beeld2.jpg" target="_blank"><img src="media/nainai-beeld2.jpg" alt="beeldhook 2"></a></div>
-<details><summary>Scène (Lorentz)</summary><div class="prose">Hoog op het spoorviaduct van Arnhem Zuid zit oma op een bankje te naaien. Haar draad knikt drie keer (乃) en hangt tot op de straat. Naai, zeg ik: mijn stem zakt en komt terug; nai, zacht.
-Geur van wol, de prik van de naald, een trein die voorbijdendert, rode draad, thee op mijn tong.</div></details>
-</section>
+
+<h2>Radicaal</h2>
+<ul class="leden" id="radicaal-leden"><li><span class="rood">女</span>nǚ vrouw</li><li><span class="rood">乃</span>nǎi draad (klankdeel)</li></ul>
+<h2>Familie</h2>
+<details><summary>Verbindingen (andere woorden)</summary><ul class="leden fam" id="familie-leden"></ul></details>
+<h2>Herhaal-ladder</h2>
+<div class="ladder" id="ladder-laatste"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot"></p></div>
+<div id="kamer" hidden><p class="label-beeld">BEELD</p><div class="kamer-beeld" id="kamer-beeld"></div><p class="r1" id="kamer-r1"></p><p class="r2" id="kamer-r2"></p><p id="kamer-vraag" hidden>Welk teken?</p><p id="kamer-hz"></p>
+<button type="button" class="stap" id="kamer-toon" hidden>toon het teken</button> <button type="button" class="stap" id="kamer-volgende" hidden>volgende</button> <button type="button" class="gehaald" id="kamer-terug">Terug</button></div>
+</article>
+
+<details class="blok" id="peek"><summary>Kaartoverzicht 3.5 (punt 1–4 als chips)</summary>
+<section class="box"><div class="hz" id="kop-hz">奶奶</div><div class="row"><span class="kw"><i>pinyin</i><span id="kop-py">nǎinai</span></span><span class="kw"><i>toon</i><span id="kop-toon">3+0</span></span><span class="kw"><i>vertaling</i><span id="kop-nl">oma (vaders moeder)</span></span></div></section>
+<section class="box" id="s1"><h2>1 kaart</h2><div class="row" id="kaart"><span class="kw"><i>symbool</i>奶奶</span><span class="kw"><i>pinyin</i>nǎinai</span><span class="kw"><i>toon</i>3+0</span><span class="kw"><i>vertaling</i>oma (vaders moeder)</span><span class="kw"><i>radicalen</i>🔴女🔴 vrouw · ⚫乃⚫ klank nǎi</span><span class="kw"><i>klankhook</i>NAAI↘↗ nai·</span><span class="kw"><i>beeldhook</i>IK zie oma naaien met een draad die drie keer knikt.</span><span class="kw"><i>plek</i>stop 1 spoorviaduct</span><span class="kw"><i>actie</i>Oma schenkt warme melk, haar stem zakt diep: nǎi.</span></div></section>
+<section class="box" id="s2"><h2>2 klank</h2><div class="row" id="klank"><span class="kw"><i>pinyin</i>nǎinai</span><span class="kw"><i>toon 1–4</i>3+0</span><span class="kw"><i>lichaam</i>NAAI!</span><span class="kw"><i>brug NL/EN/ES</i>naai ↘↗ + nai (licht) · nigh? ↘↗ + nigh (light) · ¿naipe? ↘↗ (nai-) + nai (suave)</span></div></section>
+<section class="box" id="s3"><h2>3 schrift</h2><div class="row" id="schrift"><span class="kw"><i>delen</i>女 vrouw, betekenisdeel · 乃 nǎi, klankdeel</span></div><h2>geschiedenis</h2><article class="proza" id="geschiedenis">奶: 女 (vrouw, betekenis) + 乃 (nǎi, klank). Oorspronkelijk borst, melk (zoals in 牛奶); als 奶奶 oma van vaderskant.
+奶奶: verdubbeling; het tweede 奶 heeft de neutrale toon.</article></section>
+<section class="box" id="s4"><h2>4 beeld</h2><div class="row" id="beeld"><span class="kw"><i>BEELD</i>IK zie oma naaien met een draad die drie keer knikt.</span><span class="kw"><i>plek</i>stop 1 spoorviaduct</span><span class="kw"><i>actie</i>Oma schenkt warme melk, haar stem zakt diep: nǎi.</span></div><img class="still" id="still" src="media/nainai-centrum.jpg" alt="BEELD"></section>
+</details>
+
 <section class="box" id="s5">
-<h2>5 actief recall</h2>
-<details><summary>Recall-tabel</summary>
-<table class="rc"><tr><th>Nr</th><th>Hersenen</th><th>Teken</th><th>Station</th><th>Volgende</th></tr><tr><td>1</td><td>Leerling A</td><td class="hzc">奶</td><td>Spoorviaduct</td><td><a href="shouji.html">shǒujī</a></td></tr></table>
-<p class="sub">Dek de kaart af. Loop het paleis, zeg klank + toon, schrijf het teken op papier. Pas daarna verder.</p></details>
+<h2>5 actief recall · organisatie</h2>
+<p class="dim">Wij dekken de kaart. Wij zetten het beeld neer. Jij haalt op (zegt of doet). Geen quiz. Geen cijfer. Elke hersenen in de organisatie krijgt het woord terug.</p>
+<div class="row" id="org"></div><div class="row" id="stations" style="margin-top:8px"></div>
+<img class="cue-still" id="cue-still" src="media/nainai-centrum.jpg" alt="cue: beeld, geen teken"><div class="cue-txt" id="cue-txt">Nog niet gedekt.</div>
+<div class="row"><button type="button" class="kw" id="dek">dek · wij werken</button><button type="button" class="kw" id="gezegd">gezegd / gedaan</button><button type="button" class="kw" id="nog">nog · 10 min</button><button type="button" class="kw" id="niet">nu niet</button></div>
+<p class="dim" id="wij">Wij: cue + tijd. Jij: ophalen.</p>
+<div id="s6"><h3>streep + tabel</h3><div class="row" id="streep"><span class="kw"><i>1</i>撇点 奶</span><span class="kw"><i>2</i>撇 奶</span><span class="kw"><i>3</i>提 奶</span><span class="kw"><i>4</i>横折折折钩 奶</span><span class="kw"><i>5</i>撇 奶</span></div>
+<details><summary>Recall-tabel</summary><table class="rc"><thead><tr><th>Nr</th><th>Hersenen</th><th>Teken</th><th>Station</th><th>Volgende</th></tr></thead><tbody id="tabel"></tbody></table></details></div>
 </section>
-<footer>zwaar werk door: grok-4.7 (Grok CLI, onderzoek) · Gemini 2.5 TTS (audio) · Gemini 3 Pro Image (beelden)</footer>
+<footer>zwaar werk door: grok-4.7 (Grok CLI, onderzoek) · Gemini 2.5 TTS (audio) · Gemini 3 Pro Image (beelden) · basis WOORD DIEPTE 4.5</footer>
 </main>
 <script>
-const D={"streken": {"奶": [{"nr": 1, "cn": "撇点", "py": "piědiǎn", "nl": "val links-punt", "bet": "afwerpen links + punt", "svg": "<svg class=\"st\" viewBox=\"-43 44 748 748\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 2, "cn": "撇", "py": "piě", "nl": "val links", "bet": "afwerpen naar links", "svg": "<svg class=\"st\" viewBox=\"36 300 559 559\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 3, "cn": "提", "py": "tí", "nl": "opwaarts", "bet": "optillen", "svg": "<svg class=\"st\" viewBox=\"12 211 465 465\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 4, "cn": "横折折折钩", "py": "héngzhézhézhégōu", "nl": "dwars-3 knikken-haak", "bet": "horizontaal + 3 knikken + haak", "svg": "<svg class=\"st\" viewBox=\"321 173 779 779\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 614 583 Q 704 613 764 626 Q 785 630 791 621 Q 800 614 784 562 Q 753 462 719 429 Q 709 417 710 408 Q 713 398 724 388 Q 734 381 747 388 Q 790 415 826 406 Q 847 396 847 351 Q 844 212 783 121 Q 762 88 731 96 Q 698 106 664 118 Q 640 122 657 101 Q 699 55 727 13 Q 739 -12 762 2 Q 832 41 862 129 Q 881 192 902 328 Q 906 353 919 371 Q 932 389 918 403 Q 903 418 859 438 Q 841 444 788 429 Q 775 428 774 437 Q 775 455 815 523 Q 857 592 876 606 Q 900 621 895 637 Q 886 656 829 681 Q 813 687 787 676 Q 754 658 594 615 Q 548 602 510 603 Q 489 603 494 590 Q 498 580 532 569 Q 553 566 581 572 L 614 583 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 5, "cn": "撇", "py": "piě", "nl": "val links", "bet": "afwerpen naar links", "svg": "<svg class=\"st\" viewBox=\"211 259 626 626\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 581 572 Q 593 545 583 482 Q 582 479 582 475 Q 561 342 515 245 Q 467 152 401 76 Q 395 70 393 65 Q 390 55 400 56 Q 430 56 516 165 Q 522 177 531 188 Q 597 300 643 495 Q 658 541 657 546 Q 656 547 656 548 Q 644 563 614 583 C 589 600 573 601 581 572 Z\" fill=\"#b3261e\"/></g></svg>"}]}, "vragen": [{"vraag": "Welke streek komt na streek 1 (撇点 piědiǎn) van 奶?", "opties": ["竖 shù", "撇 piě", "点 diǎn", "横 héng"], "goed": 1, "uitleg": "奶: 撇点 · 撇 · 提 · 横折折折钩 · 撇."}, {"vraag": "Hoeveel streken heeft 奶?", "opties": ["4", "5", "6", "7"], "goed": 1, "uitleg": "奶 heeft 5 streken."}, {"vraag": "Welke streek is de laatste van 奶?", "opties": ["横 héng", "撇 piě", "竖 shù", "点 diǎn"], "goed": 1, "uitleg": "奶 eindigt met 撇 piě (afwerpen naar links)."}], "familie": [{"hz": "爷", "py": "yé", "nl": "opa (in de doos)", "deelt": "familie"}, {"hz": "妈妈", "py": "māma", "nl": "moeder", "deelt": "女"}, {"hz": "牛奶", "py": "niúnǎi", "nl": "melk", "deelt": "奶 = melk"}], "gesch": "奶: 女 (vrouw, betekenis) + 乃 (nǎi, klank). Oorspronkelijk borst, melk (zoals in 牛奶); als 奶奶 oma van vaderskant.\n奶奶: verdubbeling; het tweede 奶 heeft de neutrale toon.", "twijfel": ["Volgorde in 乃: in de meeste lijsten eerst 横折折折钩, dan 撇 (HanziWriter volgt dit).", "Regionaal: 奶奶 = vaders moeder; moeders moeder = 外婆/姥姥."], "tabs": ["奶"]};
+const D={"slug": "nainai", "hz": "奶奶", "py": "nǎinai", "nl": "oma (vaders moeder)", "klank": "NAAI↘↗ nai·", "klankuitleg": "dal en terug, dan kort en licht", "val": [["NAAI!", "3"], ["nai", "0"]], "tabs": ["奶"], "streken": {"奶": [{"nr": 1, "cn": "撇点", "py": "piědiǎn", "nl": "val links-punt", "bet": "afwerpen links + punt", "svg": "<svg class=\"st\" viewBox=\"-43 44 748 748\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 310 498 Q 328 574 344 652 Q 353 700 370 726 Q 382 748 375 760 Q 360 778 313 804 Q 292 816 275 807 Q 263 800 273 783 Q 304 740 264 489 L 255 444 Q 240 368 219 327 Q 210 303 232 287 Q 278 265 316 235 L 355 206 Q 425 149 431 148 Q 440 149 445 160 Q 452 172 444 202 Q 435 235 384 257 L 341 276 Q 316 288 283 300 Q 262 309 263 328 Q 282 392 299 457 L 310 498 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 2, "cn": "撇", "py": "piě", "nl": "val links", "bet": "afwerpen naar links", "svg": "<svg class=\"st\" viewBox=\"36 300 559 559\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 316 235 Q 255 154 170 107 Q 154 98 149 93 Q 146 87 157 85 Q 172 81 194 90 Q 240 106 269 125 Q 329 164 355 206 L 384 257 Q 435 369 462 465 Q 471 483 475 493 Q 485 511 468 525 Q 429 558 415 559 Q 396 560 405 536 Q 406 529 408 518 L 408 491 Q 378 344 341 276 L 316 235 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 3, "cn": "提", "py": "tí", "nl": "opwaarts", "bet": "optillen", "svg": "<svg class=\"st\" viewBox=\"12 211 465 465\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 408 518 Q 360 509 310 498 L 264 489 Q 197 479 127 465 Q 106 461 72 465 Q 59 465 56 456 Q 52 443 60 434 Q 81 415 111 393 Q 121 389 134 396 Q 191 430 255 444 L 299 457 Q 339 470 384 483 Q 396 487 408 491 C 436 500 437 524 408 518 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 4, "cn": "横折折折钩", "py": "héngzhézhézhégōu", "nl": "dwars-3 knikken-haak", "bet": "horizontaal + 3 knikken + haak", "svg": "<svg class=\"st\" viewBox=\"321 173 779 779\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 614 583 Q 704 613 764 626 Q 785 630 791 621 Q 800 614 784 562 Q 753 462 719 429 Q 709 417 710 408 Q 713 398 724 388 Q 734 381 747 388 Q 790 415 826 406 Q 847 396 847 351 Q 844 212 783 121 Q 762 88 731 96 Q 698 106 664 118 Q 640 122 657 101 Q 699 55 727 13 Q 739 -12 762 2 Q 832 41 862 129 Q 881 192 902 328 Q 906 353 919 371 Q 932 389 918 403 Q 903 418 859 438 Q 841 444 788 429 Q 775 428 774 437 Q 775 455 815 523 Q 857 592 876 606 Q 900 621 895 637 Q 886 656 829 681 Q 813 687 787 676 Q 754 658 594 615 Q 548 602 510 603 Q 489 603 494 590 Q 498 580 532 569 Q 553 566 581 572 L 614 583 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 5, "cn": "撇", "py": "piě", "nl": "val links", "bet": "afwerpen naar links", "svg": "<svg class=\"st\" viewBox=\"211 259 626 626\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 581 572 Q 593 545 583 482 Q 582 479 582 475 Q 561 342 515 245 Q 467 152 401 76 Q 395 70 393 65 Q 390 55 400 56 Q 430 56 516 165 Q 522 177 531 188 Q 597 300 643 495 Q 658 541 657 546 Q 656 547 656 548 Q 644 563 614 583 C 589 600 573 601 581 572 Z\" fill=\"#b3261e\"/></g></svg>"}]}, "vragen": [{"vraag": "Welke streek komt na streek 1 (撇点 piědiǎn) van 奶?", "opties": ["竖 shù", "撇 piě", "点 diǎn", "横 héng"], "goed": 1, "uitleg": "奶: 撇点 · 撇 · 提 · 横折折折钩 · 撇."}, {"vraag": "Hoeveel streken heeft 奶?", "opties": ["4", "5", "6", "7"], "goed": 1, "uitleg": "奶 heeft 5 streken."}, {"vraag": "Welke streek is de laatste van 奶?", "opties": ["横 héng", "撇 piě", "竖 shù", "点 diǎn"], "goed": 1, "uitleg": "奶 eindigt met 撇 piě (afwerpen naar links)."}, {"vraag": "Wat betekent 奶奶?"}, {"vraag": "Welke radicalen zitten erin?"}, {"vraag": "Welke tonen?"}, {"vraag": "Productie A: teken → pinyin+toon+NL+hook zonder kijken."}], "familie": [{"hz": "爷", "py": "yé", "nl": "opa (in de doos)", "deelt": "familie"}, {"hz": "妈妈", "py": "māma", "nl": "moeder", "deelt": "女"}, {"hz": "牛奶", "py": "niúnǎi", "nl": "melk", "deelt": "奶 = melk"}], "gesch": "奶: 女 (vrouw, betekenis) + 乃 (nǎi, klank). Oorspronkelijk borst, melk (zoals in 牛奶); als 奶奶 oma van vaderskant.\n奶奶: verdubbeling; het tweede 奶 heeft de neutrale toon.", "twijfel": ["Volgorde in 乃: in de meeste lijsten eerst 横折折折钩, dan 撇 (HanziWriter volgt dit).", "Regionaal: 奶奶 = vaders moeder; moeders moeder = 外婆/姥姥."], "paleis": "stop 1 spoorviaduct", "ankerTekst": "1 Boven op het spoorviaduct zit oma te naaien; haar draad knikt drie keer (乃) en hangt tot op de straat. IK roep: naai ↘↗, nai.", "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>乃</b> nǎi, klankdeel", "zintuig": [["wol", "女"], ["thee", "奶"]], "radicaalCue": "女 en 乃", "cue": "Kijk naar 奶奶. Beeld: IK zie oma naaien met een draad die drie keer knikt.", "hersenen": ["Leerling A", "Leerling B", "Leerling C"], "zoek": [{"slug": "shouji", "k": ["shouji", "mobiele telefoon", "mobile phone"]}, {"slug": "dadianhua", "k": ["dadianhua", "opbellen", "to make a phone call"]}, {"slug": "meiyou", "k": ["meiyou", "niet hebben, er is geen", "not have; there isn't"]}, {"slug": "didi", "k": ["didi", "jongere broer", "younger brother"]}, {"slug": "jiejie", "k": ["jiejie", "oudere zus", "older sister"]}, {"slug": "meimei", "k": ["meimei", "jongere zus", "younger sister"]}, {"slug": "nainai", "k": ["nainai", "oma (vaders moeder)", "grandma (father’s mother)"]}]};
 const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-$('gesch').textContent=D.gesch;
-$('fam').innerHTML=D.familie.map(f=>`<li><b style="font-size:22px">${f.hz}</b> ${esc(f.py)} · ${esc(f.nl)} <span class="sub">(verbinding: <span class="rood">${esc(f.deelt)}</span>)</span></li>`).join('');
-$('tw').innerHTML=D.twijfel.map(t=>`<li>${esc(t)}</li>`).join('');
-const S={goed:{},klaar:{}},KEY='wd46-nainai';
-const Q=(q,i)=>`<div class="vraag"><p><b>${i+1}.</b> ${esc(q.vraag)}</p><div class="row">${q.opties.map((o,j)=>`<button class="opt" data-q="${i}" data-o="${j}">${esc(o)}</button>`).join('')}</div><p class="sub" id="u${i}"></p></div>`;
-$('vragen').innerHTML=Q(D.vragen[0],0)+(D.vragen.length>1?`<details id="meer"><summary>Meer vragen (2–${D.vragen.length})</summary>${D.vragen.slice(1).map((q,i)=>Q(q,i+1)).join('')}</details>`:'');
-document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.q,q=D.vragen[i],ok=+b.dataset.o===q.goed;
- b.classList.add(ok?'goed':'fout');$('u'+i).textContent=(ok?'Goed. ':'Nog niet. ')+q.uitleg;if(ok)S.goed[i]=1;upd()});
+const KEY='wd46-'+D.slug;
+/* audio (Gemini, mp3 in repo) */
+let P=null;function speel(a){if(P){P.pause();P.currentTime=0}P=new Audio('media/'+a+'.mp3');P.play().catch(e=>{$('audnote').textContent='Audio kon niet spelen: '+e.name})}
+document.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>speel(b.dataset.a));
+function zeg(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='nl-NL';speechSynthesis.speak(u)}catch(e){}}
+/* 2 klank: val-knoppen */
+function zak(id){const el=$(id);if(!el)return;el.classList.remove('zakt');void el.offsetWidth;el.classList.add('zakt')}
+function valEen(i){zak('val-'+(i+1));zeg(D.val[i][0])}
+function valBeide(){D.val.forEach((v,i)=>zak('val-'+(i+1)));speel(D.slug+'-zh')}
+function klankVan(c){if(c==='alle')valBeide();else if(c!==''&&c!=null)valEen(+c)}
+D.val.forEach((v,i)=>$('val-'+(i+1)).onclick=()=>valEen(i));$('val-beide').onclick=valBeide;
+/* teksten */
+$('gesch').textContent=D.gesch;$('tw').innerHTML=D.twijfel.map(t=>`<li>${esc(t)}</li>`).join('');
+$('familie-leden').innerHTML=D.familie.map(f=>`<li><span class="teken">${f.hz}</span> ${esc(f.py)} · ${esc(f.nl)} <span class="sub">(verbinding: <span class="rood">${esc(f.deelt)}</span>)</span></li>`).join('');
+/* kamer + deuren */
+function verbergKamer(){$('kamer').hidden=true}
+function sluitKamer(){verbergKamer();$('plaat-huis').scrollIntoView({block:'start'})}
+function openKamer(n,modus){const el=$('deur-'+n);if(!el)return;const k=$('kamer');k.hidden=false;k.classList.remove('blauw');
+ $('kamer-beeld').style.backgroundImage=`url(media/${D.slug}-${el.dataset.img}.jpg)`;
+ $('kamer-r1').textContent=el.querySelector('.r1').textContent;$('kamer-r2').textContent=el.querySelector('.r2').textContent;
+ const hz=$('kamer-hz');hz.innerHTML=el.querySelectorAll('p')[2].innerHTML;const v=modus==='vraag';hz.hidden=v;
+ $('kamer-vraag').hidden=!v;$('kamer-toon').hidden=!v;$('kamer-volgende').hidden=!v;if(!v)klankVan(el.dataset.klank)}
+function openPlek(){const k=$('kamer');k.hidden=false;k.classList.add('blauw');$('kamer-beeld').style.backgroundImage=`url(media/${D.slug}-paleis.jpg)`;
+ $('kamer-r1').textContent='Paleis · '+D.paleis;$('kamer-r2').textContent=D.ankerTekst;['kamer-hz','kamer-vraag','kamer-toon','kamer-volgende'].forEach(i=>$(i).hidden=true)}
+const naar=id=>{const el=$(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'})};
+function hot(k){const d=[...document.querySelectorAll('.deur')].find(x=>x.dataset.img===k);
+ if(k==='klank'){naar('blok-klank');valBeide()}else if(k==='paleis'||k==='centrum')openPlek();else if(k==='link'){naar('familie-leden');$('familie-leden').closest('details').open=true}
+ else if(d)openKamer(+d.id.slice(5),'kijk');else{$('blik-tian').hidden=false;naar('blok-schrift')}}
+$('plaat-huis').addEventListener('click',e=>{const b=e.target.closest('.hot');if(b)hot(b.dataset.hot)});
+$('blad45').addEventListener('click',e=>{if(e.target.closest('.hot')||e.target.closest('button')||e.target.closest('summary'))return;const d=e.target.closest('.deur');if(d)openKamer(+d.id.slice(5),'kijk')});
+$('blad45').addEventListener('keydown',e=>{if(e.key!=='Enter'&&e.key!==' ')return;const d=e.target.closest('.deur');if(!d||e.target!==d)return;e.preventDefault();openKamer(+d.id.slice(5),'kijk')});
+$('blad45').addEventListener('click',e=>{const g=e.target.closest('.gehaald');if(!g||g.id==='kamer-terug')return;if(g.id==='gehaald-vragen'){$('b-antwoorden').hidden=false;return}const a=g.closest('.kaart')?.querySelector('.antwoord');if(a)a.hidden=false});
+let loopI=-1;const LOOP=[...document.querySelectorAll('.deur')].map((d,i)=>i+1).reverse();
+$('loop-terug').onclick=()=>{loopI=0;openKamer(LOOP[0],'vraag')};
+$('kamer-toon').onclick=()=>{$('kamer-hz').hidden=false;$('kamer-vraag').hidden=true;const el=$('deur-'+LOOP[loopI]);if(el)klankVan(el.dataset.klank)};
+$('kamer-volgende').onclick=()=>{loopI++;if(loopI>=LOOP.length){sluitKamer();return}openKamer(LOOP[loopI],'vraag')};
+$('kamer-terug').onclick=sluitKamer;
+/* herhaal-ladder (lokaal, Europe/Amsterdam) */
+const tijdNL=ms=>new Date(ms).toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam',day:'numeric',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
+function tekenLadder(pl){const m={};(pl||[]).forEach(s=>m[s.id]=s);const r={uur:'uur',dag:'dag',week:'week',maand:'maand'};
+ document.querySelectorAll('.ladder').forEach(b=>{Object.keys(r).forEach(id=>b.querySelector(`[data-sport="${id}"]`).textContent=id+' · '+(m[id]?tijdNL(m[id].ms)+' (Amsterdam)':'nog leeg'));
+  b.querySelector('[data-sport="laatste"]').textContent='3m + 1j · '+(m['3m']?tijdNL(m['3m'].ms)+' · '+tijdNL(m['1j'].ms):'nog leeg');b.querySelector('.ladder-slot').textContent=m['1j']?'laatste positie · '+tijdNL(m['1j'].ms):''})}
+function laadLadder(){try{tekenLadder(JSON.parse(localStorage.getItem(KEY+'-ladder')||'[]'))}catch(e){tekenLadder([])}}
+function drukGO(){let pl=[];try{pl=JSON.parse(localStorage.getItem(KEY+'-ladder')||'[]')}catch(e){}
+ if(!pl.length){const n=Date.now(),d=864e5;pl=[['uur',36e5],['dag',d],['week',7*d],['maand',30*d],['3m',91*d],['1j',365*d]].map(([id,ms])=>({id,ms:n+ms}));try{localStorage.setItem(KEY+'-ladder',JSON.stringify(pl))}catch(e){}}tekenLadder(pl)}
+document.querySelectorAll('.ladder-go').forEach(k=>k.onclick=drukGO);laadLadder();
+/* tools */
+const uit=h=>{const v=$('tool-uit');v.hidden=false;v.innerHTML=h};
+$('tool-toon').onclick=()=>{uit(esc(D.klank)+' · '+esc(D.klankuitleg));speel(D.slug+'-zh-traag');valBeide()};
+D.tabs.forEach((c,i)=>{const b=$('tool-oor-'+(i+1));if(b)b.onclick=()=>speel(D.slug+'-zh-traag')});
+$('tool-oor-woord').onclick=()=>speel(D.slug+'-zh');
+$('tool-split').onclick=()=>uit(D.delen);
+$('tool-leeg').onclick=()=>{uit('Leeg vak: teken het volgende streepje zelf in het raster.');$('hw').scrollIntoView({block:'center'})};
+$('tool-beurt').onclick=()=>{const el=$('k-hz');if(el.textContent==='dicht')el.textContent=el.dataset.was;else{el.dataset.was=el.textContent;el.textContent='dicht'}el.scrollIntoView({block:'center'})};
+$('tool-bord').onclick=()=>{$('streek-vlak').closest('details').open=true;$('streek-vlak').scrollIntoView({block:'center'})};
+$('tool-liniaal').onclick=()=>{const b=$('liniaal');b.hidden=false;b.classList.remove('val1','val2');void b.offsetWidth;b.classList.add('val1','val2');valBeide()};
+let bt=0;$('tool-blik').onclick=()=>{document.body.classList.add('eenblik');clearTimeout(bt);bt=setTimeout(()=>document.body.classList.remove('eenblik'),3000)};
+/* 5 actieve recall: 6 manieren */
+let rm='',zi=0,ft=0;
+function openRecall(z,a){$('recall-veld').hidden=false;const r=$('recall-zin');r.textContent=z;r.style.fontSize='';const an=$('recall-antwoord');an.hidden=true;an.textContent=a||'';$('recall-toon').hidden=!a}
+$('rec-productie').onclick=()=>{rm='p';openRecall(D.nl+'. Zeg het teken en de klank voor je kijkt.',D.hz+' · '+D.py)};
+$('rec-dek').onclick=()=>{rm='dek';['k-py','k-toon','k-nl','k-en'].forEach(i=>$(i).classList.add('dek'));openRecall('Pinyin, toon en vertaling zijn dicht. Het teken blijft.','toon de woorden')};
+$('rec-flits').onclick=()=>{rm='f';clearTimeout(ft);$('recall-veld').hidden=false;const r=$('recall-zin');r.textContent=D.hz;r.style.fontSize='64px';$('recall-antwoord').textContent=D.hz;$('recall-antwoord').hidden=true;$('recall-toon').hidden=true;
+ ft=setTimeout(()=>{r.textContent='Weg. Welk teken stond er?';r.style.fontSize='';$('recall-toon').hidden=false},800)};
+$('rec-zintuig').onclick=()=>{rm='z';const s=D.zintuig[zi++%D.zintuig.length];openRecall(s[0]+'. Welk teken hoort hier?',s[1])};
+$('rec-radicaal').onclick=()=>{rm='r';openRecall(D.radicaalCue+'. Welk woord?',D.hz)};
+$('rec-lucht').onclick=()=>{rm='l';openRecall('Trek '+D.tabs.join(' en ')+' in de lucht, streek voor streek. Zeg bij elke streek de naam.',D.tabs.join(' · '));$('hw').scrollIntoView({block:'center'})};
+$('recall-toon').onclick=()=>{if(rm==='dek')document.querySelectorAll('#blad45 .dek').forEach(e=>e.classList.remove('dek'));$('recall-antwoord').hidden=false};
+/* vragen: Q1 open, rest achter Meer vragen */
+const S={goed:{},klaar:{}};
+const Q=(q,i)=>q.opties?`<div class="vraag"><p><b>${i+1}.</b> ${esc(q.vraag)}</p><div class="row">${q.opties.map((o,j)=>`<button class="opt" data-q="${i}" data-o="${j}">${esc(o)}</button>`).join('')}</div><p class="sub" id="u${i}"></p></div>`:`<div class="vraag"><p><b>${i+1}.</b> ${esc(q.vraag)}</p></div>`;
+$('vragen').innerHTML=Q(D.vragen[0],0)+`<details id="meer"><summary>Meer vragen (2–${D.vragen.length})</summary>${D.vragen.slice(1).map((q,i)=>Q(q,i+1)).join('')}</details>`;
+const NQ=D.vragen.filter(q=>q.opties).length;
+document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.q,q=D.vragen[i],ok=+b.dataset.o===q.goed;b.classList.add(ok?'goed':'fout');$('u'+i).textContent=(ok?'Goed. ':'Nog niet. ')+q.uitleg;if(ok)S.goed[i]=1;upd()});
 try{$('hand').checked=localStorage.getItem(KEY+'-hand')==='1'}catch(e){}
 $('hand').onchange=()=>{try{localStorage.setItem(KEY+'-hand',$('hand').checked?'1':'0')}catch(e){};upd()};
-function upd(){const nv=Object.keys(S.goed).length,nq=Object.keys(S.klaar).length,ok=(nv===D.vragen.length&&nq===D.tabs.length)||$('hand').checked;
- $('status').innerHTML=`Streken ${ok?'<span style="color:var(--goed)">✔</span>':'○'} · vragen ${nv}/${D.vragen.length} · vingerquiz ${nq}/${D.tabs.length}${$('hand').checked?' · met de hand ✔':''}`}
+function upd(){const nv=Object.keys(S.goed).length,nq=Object.keys(S.klaar).length,ok=(nv===NQ&&nq===D.tabs.length)||$('hand').checked;
+ $('status').innerHTML=`Streken ${ok?'<span style="color:var(--goed)">✔</span>':'○'} · vragen ${nv}/${NQ} · vingerquiz ${nq}/${D.tabs.length}${$('hand').checked?' · met de hand ✔':''}`}
 upd();
+/* 6 schrijfvolgorde: HanziWriter-trainer (ongewijzigd) + losse streken */
 let W=null,cur='';const fb=$('fb');
 function lijst(ch,nu){$('lijstsum').textContent='Streken 1–'+D.streken[ch].length+' van '+ch+' · namen';$('streeklijst').innerHTML=D.streken[ch].map((s,i)=>`<li class="${i<nu?'af':i===nu?'nu':''}">${s.svg}<b>${s.nr}</b> <abbr class="cn" title="Officiële streeknaam: ${esc(s.bet)}">${s.cn}</abbr> ${s.py} · ${esc(s.nl)}<br><span class="snm">streeknaam = ${esc(s.bet)}</span></li>`).join('')}
-function load(ch){cur=ch;document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.textContent===ch));
- const box=$('hw');box.innerHTML='';lijst(ch,0);
+function load(ch){cur=ch;document.querySelectorAll('#tabs button').forEach(b=>b.classList.toggle('on',b.textContent===ch));const box=$('hw');box.innerHTML='';lijst(ch,0);
  if(typeof HanziWriter==='undefined'){fb.textContent='Streken laden vraagt internet, de eerste keer.';return}
- const sz=box.clientWidth;
- W=HanziWriter.create('hw',ch,{width:sz,height:sz,padding:10,showOutline:true,showCharacter:false,strokeColor:'#2b2119',outlineColor:'#e3d6bf',
-  drawingColor:'#8a4b2a',highlightColor:'#b3261e',radicalColor:'#b3261e',drawingWidth:22,strokeAnimationSpeed:1,delayBetweenStrokes:250,
-  onLoadCharDataError:()=>{fb.textContent='Geen streekdata voor '+ch+' (internet?)'}});
- quiz()}
+ const sz=box.clientWidth;W=HanziWriter.create('hw',ch,{width:sz,height:sz,padding:10,showOutline:true,showCharacter:false,strokeColor:'#2b2119',outlineColor:'#e3d6bf',
+  drawingColor:'#8a4b2a',highlightColor:'#b3261e',radicalColor:'#b3261e',drawingWidth:22,strokeAnimationSpeed:1,delayBetweenStrokes:250,onLoadCharDataError:()=>{fb.textContent='Geen streekdata voor '+ch+' (internet?)'}});quiz()}
 function quiz(){if(!W)return;fb.textContent='Teken streek 1 van '+cur;lijst(cur,0);
- W.quiz({showHintAfterMisses:2,highlightOnComplete:true,
-  onCorrectStroke:d=>{const s=D.streken[cur][d.strokeNum];fb.textContent='✓ '+(d.strokeNum+1)+' '+s.cn+' '+s.py+' · nog '+d.strokesRemaining;lijst(cur,d.strokeNum+1)},
-  onMistake:d=>{fb.textContent='✗ streek '+(d.strokeNum+1)+' nog eens'+(d.mistakesOnStroke>=2?' · kijk naar de hint':'')},
-  onComplete:d=>{fb.textContent=d.character+' klaar · fouten: '+d.totalMistakes;S.klaar[d.character]=1;upd()}})}
+ W.quiz({showHintAfterMisses:2,highlightOnComplete:true,onCorrectStroke:d=>{const s=D.streken[cur][d.strokeNum];fb.textContent='✓ '+(d.strokeNum+1)+' '+s.cn+' '+s.py+' · nog '+d.strokesRemaining;lijst(cur,d.strokeNum+1)},
+  onMistake:d=>{fb.textContent='✗ streek '+(d.strokeNum+1)+' nog eens'+(d.mistakesOnStroke>=2?' · kijk naar de hint':'')},onComplete:d=>{fb.textContent=d.character+' klaar · fouten: '+d.totalMistakes;S.klaar[d.character]=1;upd()}})}
 D.tabs.forEach(ch=>{const b=document.createElement('button');b.textContent=ch;b.style.fontSize='24px';b.onclick=()=>load(ch);$('tabs').append(b)});
-$('demo').onclick=()=>{if(W){W.cancelQuiz();W.showCharacter();W.animateCharacter()}};
-$('quiz').onclick=()=>{if(W){W.hideCharacter();quiz()}};$('reset').onclick=()=>load(cur);
-let P=null;document.querySelectorAll('[data-a]').forEach(b=>b.onclick=()=>{if(P){P.pause();P.currentTime=0}P=new Audio('media/'+b.dataset.a+'.mp3');P.play().catch(e=>{$('audnote').textContent='Audio kon niet spelen: '+e.name})});
+$('demo').onclick=()=>{if(W){W.cancelQuiz();W.showCharacter();W.animateCharacter()}};$('quiz').onclick=()=>{if(W){W.hideCharacter();quiz()}};$('reset').onclick=()=>load(cur);
+/* opbouw tik */
+let gi=-1;const tegels=[...document.querySelectorAll('#groei-rij .tg')];$('groei-tik').onclick=()=>{gi=(gi+1)%tegels.length;$('groei-nu').innerHTML=tegels[gi].innerHTML};
+/* bord: vrij trekken met streeknaam */
+const TREK=[];D.tabs.forEach(c=>D.streken[c].forEach(s=>TREK.push({c,s})));let si=0;const vlak=$('streek-vlak'),pen=vlak.getContext('2d');let trekt=false;
+function wis(){pen.fillStyle='#fbf7ef';pen.fillRect(0,0,vlak.width,vlak.height)}
+function naam(){const t=TREK[si];$('streek-naam').innerHTML=`${t.c} · streek ${t.s.nr} · <abbr title="Officiële streeknaam: ${esc(t.s.bet)}">${t.s.cn}</abbr> ${t.s.py} · trek hem zelf`}
+const pt=e=>{const r=vlak.getBoundingClientRect();return{x:(e.clientX-r.left)*vlak.width/r.width,y:(e.clientY-r.top)*vlak.height/r.height}};
+wis();naam();
+vlak.addEventListener('pointerdown',e=>{trekt=true;try{vlak.setPointerCapture(e.pointerId)}catch(x){}const p=pt(e);pen.strokeStyle='#2b2119';pen.lineWidth=8;pen.lineCap='round';pen.lineJoin='round';pen.beginPath();pen.moveTo(p.x,p.y)});
+vlak.addEventListener('pointermove',e=>{if(!trekt)return;const p=pt(e);pen.lineTo(p.x,p.y);pen.stroke();pen.beginPath();pen.moveTo(p.x,p.y)});
+['pointerup','pointercancel'].forEach(ev=>vlak.addEventListener(ev,()=>trekt=false));
+$('streek-wis').onclick=wis;$('streek-zet').onclick=()=>{const t=TREK[si];$('streek-model').innerHTML=t.s.svg;const v=t.c;si=(si+1)%TREK.length;if(TREK[si].c!==v)wis();naam()};
+/* #s5 organisatie: dek / gezegd / nog / niet + tabel (#s6) */
+const HERSENEN=D.hersenen,ST=[[10*6e4,'10 min'],[36e5,'1 uur'],[864e5,'1 dag'],[7*864e5,'1 week'],[30*864e5,'1 maand'],[365*864e5,'1 jaar']];
+let store={};try{store=JSON.parse(localStorage.getItem('woord_diepte_org_v2')||'{}')}catch(e){}
+const save=()=>{try{localStorage.setItem('woord_diepte_org_v2',JSON.stringify(store))}catch(e){}};
+const slot=(w,h)=>store[w+':'+h]||(store[w+':'+h]={station:0,next:Date.now(),nextLabel:'10 min'});
+const state={wie:HERSENEN[0],live:false};
+function renderOrg(){$('org').innerHTML=HERSENEN.map(n=>`<button type="button" class="kw${n===state.wie?' on':''}" data-wie="${n}"><i>hersenen</i>${n}</button>`).join('');
+ const r=slot(state.wie,D.hz);$('stations').innerHTML=ST.map((s,i)=>`<span class="kw${r.station===i?' on':''}"><i>terug</i>${s[1]}</span>`).join('')}
+function tabel(){let n=1,h='';HERSENEN.forEach(w=>{const r=slot(w,D.hz);h+=`<tr><td>${n++}</td><td>${w}</td><td class="hzc">${D.hz}</td><td>${ST[r.station][1]}</td><td>${r.nextLabel}</td></tr>`});$('tabel').innerHTML=h}
+$('org').onclick=e=>{const b=e.target.closest('[data-wie]');if(b){state.wie=b.dataset.wie;renderOrg()}};
+$('dek').onclick=()=>{state.live=true;document.body.classList.add('dicht');$('cue-txt').textContent=state.wie+' · '+ST[slot(state.wie,D.hz).station][1]+' · '+D.cue;$('wij').textContent='Wij dekken. Wij geven het beeld. '+state.wie+' haalt op.'};
+$('gezegd').onclick=()=>{if(!state.live){$('wij').textContent='Eerst dekken. Wij beginnen.';return}const r=slot(state.wie,D.hz);r.station=Math.min(r.station+1,ST.length-1);r.next=Date.now()+ST[r.station][0];r.nextLabel=ST[r.station][1];save();document.body.classList.remove('dicht');state.live=false;
+ $('cue-txt').textContent='Terug op de kaart. Volgende voor '+state.wie+': '+r.nextLabel+'.';$('wij').textContent='Wij zetten de tijd. De organisatie onthoudt voor '+state.wie+'.';renderOrg();tabel()};
+$('nog').onclick=()=>{const r=slot(state.wie,D.hz);r.station=0;r.next=Date.now()+ST[0][0];r.nextLabel='10 min';save();document.body.classList.remove('dicht');state.live=false;$('cue-txt').textContent='Nog een keer. Terug bij 10 min.';$('wij').textContent='Geen straf. Wij brengen het over 10 minuten terug.';renderOrg();tabel()};
+$('niet').onclick=()=>{document.body.classList.remove('dicht');state.live=false;$('cue-txt').textContent='Nu niet. Station blijft. Andere hersenen mogen.';$('wij').textContent='De organisatie wacht. Geen min.'};
+renderOrg();tabel();
+/* zoek */
+$('zoek').addEventListener('keydown',function(e){if(e.key!=='Enter')return;const q=this.value.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\s]/g,'');const h=D.zoek.find(z=>z.k.some(k=>k===q));
+ if(h)location.href=h.slug+'.html';else $('lijn').textContent='“'+this.value.trim()+'” staat nog niet in 4.6. Zie de lijst op de startpagina.'});
 load(D.tabs[0]);
+
 </script></body></html>
