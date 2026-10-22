@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Woord diepte · 3.5</title>
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+<body class="hq-on">
+  <div id="hq" class="hq">
+    <p class="hq-title">Chinees-LVS · kiezer</p>
+    <p class="dim">Kies hersenen. Tempo blijft. Diepte = één teken tot de bodem.</p>
+    <div class="row hq-learners" id="hq-learners">
+      <button type="button" class="kw learner on" data-learner="leerling A">Leerling A</button>
+      <button type="button" class="kw learner" data-learner="leerling B">Leerling B</button>
+      <button type="button" class="kw learner" data-learner="leerling C">Leerling C</button>
+    </div>
+    <div class="row hq-actions">
+      <button type="button" class="kw" disabled title="placeholder">Open deze les</button>
+      <button type="button" class="kw" disabled title="placeholder">Alle 8 boeken</button>
+      <button type="button" class="kw diepte" id="hq-diepte">Diepte</button>
+    </div>
+    <p class="dim" id="hq-hint">Leerling: leerling A · eerste kaart vast: 子</p>
+  </div>
+
+  <header id="app-header" hidden>
+    <b>WOORD DIEPTE 3.5</b>
+    <span class="kw" id="hdr-learner"><i>hersenen</i><span id="hdr-learner-name">Leerling A</span></span>
+    <button type="button" class="kw" id="back-hq">kiezer</button>
+    <input class="zoek" id="zoek" type="search" placeholder="zoek: NL / EN / pinyin / 字" />
+  </header>
+  <div class="wrap" id="app-wrap" hidden>
+    <nav class="pad">
+      <a href="#s1"><span>1</span>kaart</a>
+      <a href="#s2"><span>2</span>klank</a>
+      <a href="#s3"><span>3</span>schrift</a>
+      <a href="#s4"><span>4</span>beeld</a>
+      <a href="#s5"><span>5</span>actief recall</a>
+      <a href="#s6"><span>6</span>streep</a>
+    </nav>
+
+    <div id="peek">
+      <section class="box">
+        <span class="hz rad" id="kop-hz">子</span>
+        <div class="row" id="kop-meta"></div>
+        <div class="row" style="margin-top:8px">
+          <button type="button" class="kw" id="say-py">TTS pinyin</button>
+          <button type="button" class="kw" id="say-hook">TTS klankhook</button>
+          <button type="button" class="kw" id="geleerd">status: geleerd · plant cyclus</button>
+          <span class="kw"><i>status</i><span id="status">nieuw</span></span>
+        </div>
+      </section>
+      <section class="box" id="s1"><h2>1 De kaart</h2><div id="kaart"></div></section>
+      <section class="box" id="s2">
+        <h2>2 klank</h2>
+        <img class="still" id="img-toon" src="toon3-vallei.jpg" alt="toon 3 vallei" />
+        <div class="row">
+          <button type="button" class="kw" id="play-t3">hoor toon 3</button>
+          <button type="button" class="kw" id="play-zi">hoor 子</button>
+          <button type="button" class="kw" id="play-bee">hoor DZUH</button>
+        </div>
+        <svg class="tone-svg" viewBox="0 0 140 48" aria-hidden="true"><path d="M8 18 Q 40 42 70 28 T 132 10" fill="none" stroke="#ff8c00" stroke-width="4" stroke-linecap="round"/></svg>
+        <div id="klank" class="kw-line"></div>
+      </section>
+      <section class="box" id="s3">
+        <h2>3 schrift</h2>
+        <div class="split">
+          <img class="still sq" id="img-pict" src="zi-pict.jpg" alt="pictogram armen omhoog" />
+          <div>
+            <div id="tian" class="tian"></div>
+            <div class="row" id="family"></div>
+          </div>
+        </div>
+        <div id="schrift" class="kw-line"></div>
+      </section>
+      <section class="box" id="s4">
+        <h2>4 beeld</h2>
+        <img class="still" id="still" src="zi-wieg.jpg" alt="geheugenbeeld" />
+        <div class="row">
+          <button type="button" class="kw" id="play-scène">speel scène</button>
+        </div>
+        <div id="beeldtekst" class="kw-line"></div>
+      </section>
+    </div>
+
+    <section class="box" id="s5">
+      <h2>5 actief recall</h2>
+      <p class="dim">Wij dekken. Jij haalt op. Eerst DOE (lichaam), dan vragen. Ritme: 10 min · 1 uur · 1 dag · 1 week · 1 maand · 1 jaar. Recall per leerling apart.</p>
+      <div class="row urls" id="terug-urls"></div>
+      <div class="row" id="stations"></div>
+      <div class="row" id="recall-hints" style="margin-top:8px"></div>
+      <img class="cue-still" id="cue-still" alt="cue beeld" />
+      <div class="cue-txt" id="cue-txt">Nog niet gedekt.</div>
+      <div class="row">
+        <button type="button" class="kw" id="dek">dek · wij werken</button>
+        <button type="button" class="kw" id="gezegd">gezegd / gedaan</button>
+        <button type="button" class="kw" id="nog">nog · 10 min</button>
+        <button type="button" class="kw" id="niet">nu niet</button>
+      </div>
+      <p class="dim" id="wij">Wij: cue + tijd. Jij: ophalen.</p>
+    </section>
+
+    <section class="box" id="s6">
+      <h2>6 schrijfvolgorde</h2>
+      <p class="dim">Boven: los. Onder: gecombineerd.</p>
+      <div class="grid6" id="los"></div>
+      <div class="grid6" id="samen"></div>
+      <table>
+        <thead>
+          <tr><th>Nr</th><th>Teken</th><th>Pinyin</th><th>Toon</th><th>Vertaling</th><th>Status</th><th>Volgende</th></tr>
+        </thead>
+        <tbody id="tabel"></tbody>
+      </table>
+    </section>
+
+    <section class="box" id="plak">
+      <h2>plak tekst</h2>
+      <p class="dim">Docent/bouw. Zes blokken of JSON. Alleen parsen — geen generate hier.</p>
+      <textarea id="plak-in" placeholder="1. De kaart …"></textarea>
+      <button type="button" class="kw" id="plak-go">verwerk woord</button>
+    </section>
+  </div>
+  <script src="js/vendor/toon_synth.js"></script>
+  <script src="js/zi-strokes.js"></script>
+  <script src="js/sound.js"></script>
+  <script src="js/parser.js"></script>
+  <script src="js/chronos.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

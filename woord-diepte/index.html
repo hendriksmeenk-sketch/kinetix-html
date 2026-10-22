@@ -1,130 +1,41 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Woord diepte · 3.5</title>
-  <link rel="stylesheet" href="css/app.css" />
-</head>
-<body class="hq-on">
-  <div id="hq" class="hq">
-    <p class="hq-title">Chinees-LVS · kiezer</p>
-    <p class="dim">Kies hersenen. Tempo blijft. Diepte = één teken tot de bodem.</p>
-    <div class="row hq-learners" id="hq-learners">
-      <button type="button" class="kw learner on" data-learner="leerling A">Leerling A</button>
-      <button type="button" class="kw learner" data-learner="leerling B">Leerling B</button>
-      <button type="button" class="kw learner" data-learner="leerling C">Leerling C</button>
-    </div>
-    <div class="row hq-actions">
-      <button type="button" class="kw" disabled title="placeholder">Open deze les</button>
-      <button type="button" class="kw" disabled title="placeholder">Alle 8 boeken</button>
-      <button type="button" class="kw diepte" id="hq-diepte">Diepte</button>
-    </div>
-    <p class="dim" id="hq-hint">Leerling: leerling A · eerste kaart vast: 子</p>
-  </div>
-
-  <header id="app-header" hidden>
-    <b>WOORD DIEPTE 3.5</b>
-    <span class="kw" id="hdr-learner"><i>hersenen</i><span id="hdr-learner-name">Leerling A</span></span>
-    <button type="button" class="kw" id="back-hq">kiezer</button>
-    <input class="zoek" id="zoek" type="search" placeholder="zoek: NL / EN / pinyin / 字" />
-  </header>
-  <div class="wrap" id="app-wrap" hidden>
-    <nav class="pad">
-      <a href="#s1"><span>1</span>kaart</a>
-      <a href="#s2"><span>2</span>klank</a>
-      <a href="#s3"><span>3</span>schrift</a>
-      <a href="#s4"><span>4</span>beeld</a>
-      <a href="#s5"><span>5</span>actief recall</a>
-      <a href="#s6"><span>6</span>streep</a>
-    </nav>
-
-    <div id="peek">
-      <section class="box">
-        <span class="hz rad" id="kop-hz">子</span>
-        <div class="row" id="kop-meta"></div>
-        <div class="row" style="margin-top:8px">
-          <button type="button" class="kw" id="say-py">TTS pinyin</button>
-          <button type="button" class="kw" id="say-hook">TTS klankhook</button>
-          <button type="button" class="kw" id="geleerd">status: geleerd · plant cyclus</button>
-          <span class="kw"><i>status</i><span id="status">nieuw</span></span>
-        </div>
-      </section>
-      <section class="box" id="s1"><h2>1 De kaart</h2><div id="kaart"></div></section>
-      <section class="box" id="s2">
-        <h2>2 klank</h2>
-        <img class="still" id="img-toon" src="toon3-vallei.jpg" alt="toon 3 vallei" />
-        <div class="row">
-          <button type="button" class="kw" id="play-t3">hoor toon 3</button>
-          <button type="button" class="kw" id="play-zi">hoor 子</button>
-          <button type="button" class="kw" id="play-bee">hoor DZUH</button>
-        </div>
-        <svg class="tone-svg" viewBox="0 0 140 48" aria-hidden="true"><path d="M8 18 Q 40 42 70 28 T 132 10" fill="none" stroke="#ff8c00" stroke-width="4" stroke-linecap="round"/></svg>
-        <div id="klank" class="kw-line"></div>
-      </section>
-      <section class="box" id="s3">
-        <h2>3 schrift</h2>
-        <div class="split">
-          <img class="still sq" id="img-pict" src="zi-pict.jpg" alt="pictogram armen omhoog" />
-          <div>
-            <div id="tian" class="tian"></div>
-            <div class="row" id="family"></div>
-          </div>
-        </div>
-        <div id="schrift" class="kw-line"></div>
-      </section>
-      <section class="box" id="s4">
-        <h2>4 beeld</h2>
-        <img class="still" id="still" src="zi-wieg.jpg" alt="geheugenbeeld" />
-        <div class="row">
-          <button type="button" class="kw" id="play-scène">speel scène</button>
-        </div>
-        <div id="beeldtekst" class="kw-line"></div>
-      </section>
-    </div>
-
-    <section class="box" id="s5">
-      <h2>5 actief recall</h2>
-      <p class="dim">Wij dekken. Jij haalt op. Eerst DOE (lichaam), dan vragen. Ritme: 10 min · 1 uur · 1 dag · 1 week · 1 maand · 1 jaar. Recall per leerling apart.</p>
-      <div class="row urls" id="terug-urls"></div>
-      <div class="row" id="stations"></div>
-      <div class="row" id="recall-hints" style="margin-top:8px"></div>
-      <img class="cue-still" id="cue-still" alt="cue beeld" />
-      <div class="cue-txt" id="cue-txt">Nog niet gedekt.</div>
-      <div class="row">
-        <button type="button" class="kw" id="dek">dek · wij werken</button>
-        <button type="button" class="kw" id="gezegd">gezegd / gedaan</button>
-        <button type="button" class="kw" id="nog">nog · 10 min</button>
-        <button type="button" class="kw" id="niet">nu niet</button>
-      </div>
-      <p class="dim" id="wij">Wij: cue + tijd. Jij: ophalen.</p>
-    </section>
-
-    <section class="box" id="s6">
-      <h2>6 schrijfvolgorde</h2>
-      <p class="dim">Boven: los. Onder: gecombineerd.</p>
-      <div class="grid6" id="los"></div>
-      <div class="grid6" id="samen"></div>
-      <table>
-        <thead>
-          <tr><th>Nr</th><th>Teken</th><th>Pinyin</th><th>Toon</th><th>Vertaling</th><th>Status</th><th>Volgende</th></tr>
-        </thead>
-        <tbody id="tabel"></tbody>
-      </table>
-    </section>
-
-    <section class="box" id="plak">
-      <h2>plak tekst</h2>
-      <p class="dim">Docent/bouw. Zes blokken of JSON. Alleen parsen — geen generate hier.</p>
-      <textarea id="plak-in" placeholder="1. De kaart …"></textarea>
-      <button type="button" class="kw" id="plak-go">verwerk woord</button>
-    </section>
-  </div>
-  <script src="js/vendor/toon_synth.js"></script>
-  <script src="js/zi-strokes.js"></script>
-  <script src="js/sound.js"></script>
-  <script src="js/parser.js"></script>
-  <script src="js/chronos.js"></script>
-  <script src="js/app.js"></script>
-</body>
-</html>
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WOORD DIEPTE 4.6 · Chinese leren 4.6</title>
+<style>:root{--bg:#f5efe4;--pap:#fbf7ef;--ink:#2b2119;--dim:#6b5a48;--rood:#b3261e;--lijn:#d9ccb6;--acc:#8a4b2a;--goed:#2e6b3a}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 Georgia,"Noto Serif",serif}
+main{max-width:640px;margin:0 auto;padding:16px}
+h1{font-size:30px;margin:8px 0 2px}h1 .hz{font-size:56px;letter-spacing:4px}
+.sub{color:var(--dim);font-size:16px}
+section.box{background:var(--pap);border:1px solid var(--lijn);border-radius:14px;padding:16px;margin:16px 0}
+h2{font-size:22px;margin:0 0 8px}h3{font-size:18px;margin:18px 0 6px;color:var(--acc)}
+.rood{color:var(--rood)}.prose{white-space:pre-wrap}
+button{font:inherit;min-height:44px;min-width:44px;padding:8px 14px;border-radius:10px;border:1px solid var(--acc);background:#fff;color:var(--ink);cursor:pointer}
+button.on{background:var(--acc);color:#fff}
+.row{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+#hw{width:min(86vw,320px);height:min(86vw,320px);margin:8px auto;background:#fff;border:1px solid var(--lijn);border-radius:8px;touch-action:none;
+background-image:linear-gradient(var(--lijn),var(--lijn)),linear-gradient(90deg,var(--lijn),var(--lijn)),linear-gradient(45deg,transparent 49.7%,#eadfcb 50%,transparent 50.3%),linear-gradient(-45deg,transparent 49.7%,#eadfcb 50%,transparent 50.3%);
+background-size:100% 1px,1px 100%,100% 100%,100% 100%;background-position:center;background-repeat:no-repeat}
+#fb{min-height:28px;text-align:center;font-weight:bold}
+ol.streek{padding-left:0;list-style:none;margin:0}ol.streek li{padding:8px 10px;border-radius:8px;margin:4px 0;border:1px solid transparent}
+ol.streek li.nu{border-color:var(--acc);background:#fff}ol.streek li.af{color:var(--goed)}
+.cn{font-size:20px}.st{width:40px;height:40px;vertical-align:middle;background:#fff;border:1px solid var(--lijn);border-radius:6px;margin-right:8px}.hook{display:flex;gap:8px;margin:8px 0}.hook img{width:100%;border-radius:10px;border:1px solid var(--lijn)}.hook a{flex:1}
+.tegels{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.tg{margin:0;width:44px;text-align:center;font-size:13px;color:var(--dim)}.tg svg{width:44px;height:44px;background:#fff;border:1px solid var(--lijn);border-radius:6px}
+.opt.goed{background:var(--goed);color:#fff;border-color:var(--goed)}.opt.fout{background:var(--rood);color:#fff;border-color:var(--rood)}
+.fam li{margin:4px 0}.twijfel{color:var(--dim);font-size:16px}
+label.hand{display:flex;gap:10px;align-items:center;min-height:44px}label.hand input{width:24px;height:24px}
+#status{font-weight:bold}details summary{min-height:44px;display:flex;align-items:center;cursor:pointer;color:var(--acc);font-size:18px}
+details.q summary{color:var(--ink);font-size:17px}
+footer{color:var(--dim);font-size:16px;text-align:center;margin:24px 0}
+.f{padding:6px 0;border-bottom:1px solid var(--lijn)}.tag{font-size:13px;background:#efe3cf;border-radius:6px;padding:2px 6px}
+.audio{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0}details{border-top:1px solid var(--lijn);margin-top:6px}
+h1 .sub{font-size:16px;font-weight:normal}
+ol.paleis{padding-left:24px;margin:4px 0}ol.paleis li.anker{color:var(--rood)}
+.mm{width:100%;border-radius:10px;border:1px solid var(--lijn)}
+.snm{font-size:14px;color:var(--dim)}abbr{text-decoration:underline dotted;cursor:help}
+table.rc{width:100%;border-collapse:collapse;font-size:15px}table.rc td,table.rc th{border-bottom:1px solid var(--lijn);padding:6px 4px;text-align:left}.hzc{font-size:22px}
+nav.top{font-size:15px;margin-bottom:4px}nav.top a{color:var(--acc)}
+.hz2{font-size:30px}.dim{color:var(--dim)}ul.k{list-style:none;padding:0}ul.k li{padding:8px 0;border-bottom:1px solid var(--lijn)}.ok{background:#d6ecd9}</style></head><body><main>
+<p class="sub">Chinese leren 4.6</p><h1>WOORD DIEPTE 4.6</h1>
+<section class="box"><h2>Les HSK1 · do 22 okt (bovenaan) · daarna de rest</h2><p class="sub">Elke kaart: formule (klank-haken NL/EN/ES, beeld, Lorentz-stop, Chinese moedertaalaudio) · losse streken · opbouw · vragen · Buzan-mindmap · verbindingen · recall.</p>
+<ul class="k"><li><a href="kaart/shouji.html"><span class="hz2">手机</span></a> shǒujī · mobiele telefoon <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><a href="kaart/dadianhua.html"><span class="hz2">打电话</span></a> dǎ diànhuà · opbellen <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><a href="kaart/meiyou.html"><span class="hz2">没有</span></a> méiyǒu · niet hebben, er is geen <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><a href="kaart/didi.html"><span class="hz2">弟弟</span></a> dìdi · jongere broer <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><a href="kaart/jiejie.html"><span class="hz2">姐姐</span></a> jiějie · oudere zus <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><a href="kaart/meimei.html"><span class="hz2">妹妹</span></a> mèimei · jongere zus <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><a href="kaart/nainai.html"><span class="hz2">奶奶</span></a> nǎinai · oma (vaders moeder) <span class="tag ok">4.6 klaar</span> <span class="sub">wacht op Buzan- en Adat-toets</span></li><li><span class="hz2 dim">一</span> yī <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">二</span> èr <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">三</span> sān <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">十</span> shí <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">百</span> bǎi <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">零</span> líng <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">子</span> zǐ <span class="tag">nog 3.5 · geleerd</span></li><li><span class="hz2 dim">好</span> hǎo <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">爷</span> yé <span class="tag">nog 3.5 · nieuw</span></li><li><span class="hz2 dim">字</span> zì <span class="tag">nog 3.5 · geleerd</span></li><li><span class="hz2 dim">学</span> xué <span class="tag">nog 3.5 · geleerd</span></li><li><span class="hz2 dim">孩</span> hái <span class="tag">nog 3.5 · geleerd</span></li><li><span class="hz2 dim">多少</span> duōshao <span class="tag">nog 3.5 · nieuw</span></li></ul></section>
+<section class="box"><details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis"><li><b>Spoorviaduct</b> <span class=sub>het hele station hangt boven de Metamorfosenallee</span></li><li><b>Stationsgebouw</b> <span class=sub>verkeersgebouw van Edwin Megens, 2005</span></li><li><b>Beschilderde pijlers</b> <span class=sub>muurschildering 2024: groen, geschiedenis, wijk</span></li><li><b>Metalen gevel Lorentz</b> <span class=sub>gevelsysteem van Rakon (?)</span></li><li><b>Cruijff-court</b> <span class=sub>kooiveld op het schoolplein</span></li><li><b>Glaswand aula</b> <span class=sub>grote glazen buitenwand</span></li><li><b>Zittrap</b> <span class=sub>brede trap die tribune is</span></li><li><b>Vleugel</b> <span class=sub>vleugel in de aula</span></li><li><b>Atrium</b> <span class=sub>hart van de school, grafische prints op de wanden</span></li><li><b>Zwevende gymzaal</b> <span class=sub>sportzaal opgetild naar de 1e verdieping</span></li></ol></details>
+<details><summary>Oude app (3.5)</summary><p><a href="index-3.5.html">Woord diepte 3.5 openen</a></p></details></section>
+<footer>zwaar werk door: grok-4.7 (Grok CLI, onderzoek) · Gemini 2.5 TTS (audio) · Gemini 3 Pro Image (beelden)</footer></main></body></html>

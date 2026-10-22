@@ -1,0 +1,1232 @@
+{
+ "schema": 46,
+ "stops": [
+  [
+   "Spoorviaduct",
+   "het hele station hangt boven de Metamorfosenallee"
+  ],
+  [
+   "Stationsgebouw",
+   "verkeersgebouw van Edwin Megens, 2005"
+  ],
+  [
+   "Beschilderde pijlers",
+   "muurschildering 2024: groen, geschiedenis, wijk"
+  ],
+  [
+   "Metalen gevel Lorentz",
+   "gevelsysteem van Rakon (?)"
+  ],
+  [
+   "Cruijff-court",
+   "kooiveld op het schoolplein"
+  ],
+  [
+   "Glaswand aula",
+   "grote glazen buitenwand"
+  ],
+  [
+   "Zittrap",
+   "brede trap die tribune is"
+  ],
+  [
+   "Vleugel",
+   "vleugel in de aula"
+  ],
+  [
+   "Atrium",
+   "hart van de school, grafische prints op de wanden"
+  ],
+  [
+   "Zwevende gymzaal",
+   "sportzaal opgetild naar de 1e verdieping"
+  ]
+ ],
+ "streeknamen": {
+  "横": [
+   "héng",
+   "dwars",
+   "horizontaal"
+  ],
+  "竖": [
+   "shù",
+   "omlaag",
+   "verticaal"
+  ],
+  "撇": [
+   "piě",
+   "val links",
+   "afwerpen naar links"
+  ],
+  "捺": [
+   "nà",
+   "val rechts",
+   "drukken naar rechts"
+  ],
+  "点": [
+   "diǎn",
+   "punt",
+   "punt"
+  ],
+  "提": [
+   "tí",
+   "opwaarts",
+   "optillen"
+  ],
+  "竖钩": [
+   "shùgōu",
+   "omlaag-haak",
+   "verticaal + haak"
+  ],
+  "横折": [
+   "héngzhé",
+   "dwars-knik",
+   "horizontaal + knik"
+  ],
+  "竖弯钩": [
+   "shùwāngōu",
+   "omlaag-boog-haak",
+   "verticaal + bocht + haak"
+  ],
+  "横折弯钩": [
+   "héngzhéwāngōu",
+   "dwars-knik-boog-haak",
+   "horizontaal + knik + bocht + haak"
+  ],
+  "横折提": [
+   "héngzhétí",
+   "dwars-knik-op",
+   "horizontaal + knik + opwaarts"
+  ],
+  "横折弯": [
+   "héngzhéwān",
+   "dwars-knik-boog",
+   "horizontaal + knik + bocht"
+  ],
+  "横撇": [
+   "héngpiě",
+   "dwars-val links",
+   "horizontaal + afwerpen links"
+  ],
+  "横折钩": [
+   "héngzhégōu",
+   "dwars-knik-haak",
+   "horizontaal + knik + haak"
+  ],
+  "竖折折钩": [
+   "shùzhézhégōu",
+   "omlaag-knik-knik-haak",
+   "verticaal + 2 knikken + haak"
+  ],
+  "撇点": [
+   "piědiǎn",
+   "val links-punt",
+   "afwerpen links + punt"
+  ],
+  "横折折折钩": [
+   "héngzhézhézhégōu",
+   "dwars-3 knikken-haak",
+   "horizontaal + 3 knikken + haak"
+  ]
+ },
+ "kaarten": [
+  {
+   "slug": "shouji",
+   "hz": "手机",
+   "py": "shǒujī",
+   "nl": "mobiele telefoon",
+   "toon": "3+1",
+   "streken": {
+    "手": [
+     "撇",
+     "横",
+     "横",
+     "竖钩"
+    ],
+    "机": [
+     "横",
+     "竖",
+     "撇",
+     "点",
+     "撇",
+     "横折弯钩"
+    ]
+   },
+   "delen": "<b class=\"rood\">手</b> hand (heel teken; links vaak 扌) · <b class=\"rood\">木</b> hout, betekenisdeel van 机 · <b>几</b> jī, klankdeel van 机",
+   "opbouw": "手 4 streken · 机 = 木 4 + 几 2",
+   "klank": "SJOUW↘↗ CHIP→",
+   "klankuitleg": "dal en terug, dan hoog en vlak",
+   "hooks": {
+    "nl": [
+     "sjouw ↘↗ + chip →",
+     "Mijn hand sjouwt een chip: mijn telefoon.",
+     "Sjouw... chiiip! Mijn hand sjouwt een chip: mijn telefoon. Sjouw zakt en veert terug, chip blijft hoog en vlak."
+    ],
+    "en": [
+     "show? ↘↗ + gee! →",
+     "Show it in your hand. Gee, a phone!",
+     "Show?... Geee! Show it in your hand. Gee, a phone! Show dips low and bounces back, gee stays high and flat."
+    ],
+    "es": [
+     "¿show? ↘↗ + chip →",
+     "Un show en la mano con un chip: el móvil.",
+     "¿Show?... ¡Chiiip! Un show en la mano con un chip: el móvil. Show baja y sube; chip, alto y plano."
+    ]
+   },
+   "beeldhook": "IK houd een machine in mijn hand.",
+   "stop": [
+    6,
+    8
+   ],
+   "anker": "<b>6</b> IK sla een reuzenhand plat tegen de glaswand en sjouw hem omhoog. Het glas dreunt koud. Shǒu ↘↗. <b>8</b> De houten vleugel (木) is een machine; het tafeltje (几) erop piept: chiiip, jī →.",
+   "scene": "Ik sta op het schoolplein van het Lorentz. Voor me staat de grote glaswand van de aula. Mijn hand groeit tot een reuzenhand en slaat plat tegen het glas: de vingers spreiden, de palm strekt zich, de pols zakt en veert terug. Shǒu: mijn stem zakt en komt terug.\nBinnen staat de houten vleugel. Ik teken het hout (木) en het tafeltje erop (几). Het tafeltje piept hoog en vlak: chiiip, jī.\nIk ruik vernis, voel koud glas, hoor de piep, zie een rode hand en bruin hout, proef metaal.",
+   "fam": [
+    [
+     "打",
+     "dǎ",
+     "slaan, bellen",
+     "扌 = zijvorm van 手"
+    ],
+    [
+     "飞机",
+     "fēijī",
+     "vliegtuig",
+     "机"
+    ],
+    [
+     "电话",
+     "diànhuà",
+     "telefoon",
+     "betekenis"
+    ],
+    [
+     "木",
+     "mù",
+     "hout, boom",
+     "木 in 机"
+    ],
+    [
+     "几",
+     "jī / jǐ",
+     "tafeltje / hoeveel",
+     "几 in 机 (klankdeel)"
+    ]
+   ],
+   "gesch": "手: pictogram van een open hand met vingers en pols (bronsinscripties, zegelschrift).\n机: van oorsprong 木 + 几, een boomsoort (说文: 木也). Het traditionele 機 (木 + 幾) was de trekker van een kruisboog (说文: 主發謂之機), later mechaniek en machine. Bij de vereenvoudiging (1956, lijst 1964) verving het bestaande 机 met dezelfde klank jī het teken 機.\n手机: modern woord, 'handmachine', kort voor 手提电话 of 移动电话; gangbaar vanaf de jaren 1990 (daarvoor ook 大哥大).",
+   "twijfel": [
+    "手 op orakelbeenderen: niet bevestigd.",
+    "Precieze oervorm van 机: onbekend.",
+    "Streek 5 van 机 heet in sommige lijsten 竖撇 shùpiě."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "sjouw",
+       "↘↗"
+      ],
+      [
+       "chip",
+       "→"
+      ]
+     ]
+    ],
+    [
+     "HAND",
+     "hand",
+     [
+      [
+       "手",
+       "4"
+      ],
+      [
+       "扌",
+       "zijvorm"
+      ]
+     ]
+    ],
+    [
+     "HOUT",
+     "hout",
+     [
+      [
+       "木",
+       "links"
+      ],
+      [
+       "点",
+       "punt"
+      ]
+     ]
+    ],
+    [
+     "TAFEL",
+     "tafel",
+     [
+      [
+       "几",
+       "jī"
+      ],
+      [
+       "钩",
+       "haak"
+      ]
+     ]
+    ],
+    [
+     "MACHINE",
+     "machine",
+     [
+      [
+       "機",
+       "kruisboog"
+      ],
+      [
+       "1956",
+       "机"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "glaswand",
+       "手"
+      ],
+      [
+       "vleugel",
+       "机"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "电话",
+       "telefoon"
+      ],
+      [
+       "飞机",
+       "vliegtuig"
+      ]
+     ]
+    ]
+   ],
+   "extra": "中"
+  },
+  {
+   "slug": "dadianhua",
+   "hz": "打电话",
+   "py": "dǎ diànhuà",
+   "nl": "opbellen",
+   "toon": "3+4+4",
+   "streken": {
+    "打": [
+     "横",
+     "竖钩",
+     "提",
+     "横",
+     "竖钩"
+    ],
+    "电": [
+     "竖",
+     "横折",
+     "横",
+     "横",
+     "竖弯钩"
+    ],
+    "话": [
+     "点",
+     "横折提",
+     "撇",
+     "横",
+     "竖",
+     "竖",
+     "横折",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">扌</b> hand, betekenisdeel van 打 · <b>丁</b> dīng, klankdeel van 打 · <b class=\"rood\">电</b> bliksem (uit 申) · <b class=\"rood\">讠</b> spreken, betekenisdeel van 话 · <b>舌</b> tong",
+   "opbouw": "打 = 扌 3 + 丁 2 · 电 5 · 话 = 讠 2 + 舌 6",
+   "klank": "DAAR↘↗ DIEN↘ HOERA↘",
+   "klankuitleg": "dal, dan twee keer hard omlaag",
+   "hooks": {
+    "nl": [
+     "daar ↘↗ + dien ↘ + hoera ↘",
+     "Daar! Dien je oproep: hoera, ik bel!",
+     "Daar?... Dien! Hoera! Daar dien ik mijn oproep in: hoera, ik bel! Daar zakt en veert terug, dien en hoera vallen hard omlaag."
+    ],
+    "en": [
+     "duh ↘↗ + Dean ↘ + wah ↘",
+     "Duh, Dean! Wah, I call you!",
+     "Duh?... Dean! Wah! Duh, Dean, wah, I call you! Duh dips and bounces back, Dean and wah drop hard."
+    ],
+    "es": [
+     "¿da? ↘↗ + dan ↘ + ¡guau! ↘",
+     "¿Da? ¡Dan la señal! ¡Guau, llamo!",
+     "¿Da?... ¡Dan! ¡Guau! ¿Da tono? ¡Dan la señal! ¡Guau, llamo por teléfono! Da baja y sube; dan y guau caen fuerte."
+    ]
+   },
+   "beeldhook": "IK sla op de bliksem en de tong praat: ik bel.",
+   "stop": [
+    2
+   ],
+   "anker": "<b>2</b> IK sla met mijn hand (扌) op het stationsgebouw; er knettert bliksem (电) uit het dak en een reuzentong (舌) praat door de deur: dǎ diànhuà, ik bel.",
+   "scene": "Ik sta voor het stationsgebouw van Arnhem Zuid. Mijn hand slaat op de gevel (打, dǎ, mijn stem zakt en veert). Bliksem knettert uit het dak (电, diàn, hard omlaag). Een reuzentong komt door de deur en praat (话, huà, hard omlaag).\nIk ruik ozon, voel de schok in mijn vingers, hoor het knetteren, zie blauw licht, proef metaal.",
+   "fam": [
+    [
+     "电话",
+     "diànhuà",
+     "telefoon",
+     "话 + 电"
+    ],
+    [
+     "手机",
+     "shǒujī",
+     "mobiele telefoon",
+     "betekenis"
+    ],
+    [
+     "手",
+     "shǒu",
+     "hand",
+     "扌 = zijvorm van 手"
+    ],
+    [
+     "说话",
+     "shuōhuà",
+     "praten",
+     "话"
+    ]
+   ],
+   "gesch": "打: 扌 (hand) + 丁 (dīng, spijker; klankdeel). Slaan, en in veel werkwoorden 'doen': 打电话 = de telefoon 'slaan', opbellen.\n电: vereenvoudigd uit 電 (雨 regen + 申, oorspronkelijk een bliksemschicht). Betekenis bliksem, later elektriciteit.\n话: vereenvoudigd uit 話: 言 (spreken, nu 讠) + 舌 (vorm). Betekenis woorden, taal.\n电话: 'elektrische taal' = telefoon; modern woord (eind 19e/begin 20e eeuw).",
+   "twijfel": [
+    "Of 舌 in 话 klankdeel of alleen vorm is: omstreden (oude vorm 𠯑).",
+    "打 als klank: 丁 dīng en dǎ liggen ver uit elkaar; de klankrelatie is historisch."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "daar",
+       "↘↗"
+      ],
+      [
+       "hoera",
+       "↘"
+      ]
+     ]
+    ],
+    [
+     "SLAAN",
+     "a",
+     [
+      [
+       "扌",
+       "hand"
+      ],
+      [
+       "丁",
+       "spijker"
+      ]
+     ]
+    ],
+    [
+     "BLIKSEM",
+     "b",
+     [
+      [
+       "电",
+       "5"
+      ],
+      [
+       "電",
+       "oud"
+      ]
+     ]
+    ],
+    [
+     "TONG",
+     "c",
+     [
+      [
+       "讠",
+       "spreken"
+      ],
+      [
+       "舌",
+       "tong"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "station",
+       "gebouw"
+      ],
+      [
+       "2",
+       "stop"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "电话",
+       "telefoon"
+      ],
+      [
+       "手机",
+       "mobiel"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "slug": "meiyou",
+   "hz": "没有",
+   "py": "méiyǒu",
+   "nl": "niet hebben, er is geen",
+   "toon": "2+3",
+   "streken": {
+    "没": [
+     "点",
+     "点",
+     "提",
+     "撇",
+     "横折弯",
+     "横撇",
+     "捺"
+    ],
+    "有": [
+     "横",
+     "撇",
+     "竖",
+     "横折钩",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">氵</b> water, betekenisdeel van 没 (zinken) · <b>又</b> hand · <b class=\"rood\">月</b> in 有 = vlees (肉), niet maan",
+   "opbouw": "没 = 氵 3 + 4 · 有 = ナ 2 + 月 4",
+   "klank": "MIJ?↗ JOU↘↗",
+   "klankuitleg": "vraag omhoog, dan dal en terug",
+   "hooks": {
+    "nl": [
+     "mij? ↗ + jou ↘↗",
+     "Mij? Jou? Niemand heeft het: niks.",
+     "Mij?... Jou? Mij? Jou? Niemand heeft het: niks. Mij gaat omhoog als een vraag, jou zakt en veert terug."
+    ],
+    "en": [
+     "may? ↗ + yo ↘↗",
+     "May I? Yo, there is none!",
+     "May?... Yo? May I? Yo, there is none! May rises like a question, yo dips and bounces back."
+    ],
+    "es": [
+     "¿me? ↗ + yo ↘↗",
+     "¿Me lo das? ¿Yo? No hay nada.",
+     "¿Me?... ¿Yo? ¿Me lo das? ¿Yo? No hay nada. Me sube como pregunta; yo baja y vuelve a subir."
+    ]
+   },
+   "beeldhook": "IK zink in het water en mijn hand heeft niets meer.",
+   "stop": [
+    10
+   ],
+   "anker": "<b>10</b> Onder de zwevende gymzaal is niets. IK zink weg in een plas (氵) en mijn hand (ナ) laat het stuk vlees (月) los: méi? ↗ yǒu ↘↗, er is niks.",
+   "scene": "Ik sta onder de zwevende gymzaal van het Lorentz. Er staat niets onder. De grond wordt water (氵) en ik zink. Mijn hand hield een stuk vlees (有: hand + 月), maar het drijft weg. Méi? Mijn stem gaat omhoog. Yǒu: zakt en veert terug. Niks.\nKoud water, natte schoenen, het klotsen, grijze schaduw, zout op mijn lippen.",
+   "fam": [
+    [
+     "有",
+     "yǒu",
+     "hebben",
+     "有"
+    ],
+    [
+     "没",
+     "méi",
+     "niet (hebben)",
+     "没"
+    ],
+    [
+     "没关系",
+     "méi guānxi",
+     "geeft niet",
+     "没"
+    ]
+   ],
+   "gesch": "没: 氵 (water) + rechterdeel (in de oude vorm 沒 een hand die in water reikt): oorspronkelijk zinken, onder water verdwijnen (mò). Als ontkenning méi: 'niet (hebben)'.\n有: bovenaan een hand (又, nu ナ), onder 月 = 肉 (vlees): een hand met een stuk vlees = hebben.\n没有: 'niet hebben', ook 'er is geen' en ontkenning van de verleden tijd.",
+   "twijfel": [
+    "Rechterdeel van 没: oude vorm 㲻/沒; precieze uitleg verschilt per bron.",
+    "月 in 有 als 肉 (vlees): gangbare verklaring, niet onomstreden."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "mij?",
+       "↗"
+      ],
+      [
+       "jou",
+       "↘↗"
+      ]
+     ]
+    ],
+    [
+     "WATER",
+     "a",
+     [
+      [
+       "氵",
+       "zinken"
+      ],
+      [
+       "沒",
+       "oud"
+      ]
+     ]
+    ],
+    [
+     "HAND",
+     "b",
+     [
+      [
+       "ナ",
+       "hand"
+      ],
+      [
+       "又",
+       "hand"
+      ]
+     ]
+    ],
+    [
+     "VLEES",
+     "c",
+     [
+      [
+       "月",
+       "肉"
+      ],
+      [
+       "有",
+       "hebben"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "gymzaal",
+       "10"
+      ],
+      [
+       "leeg",
+       "niks"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "有",
+       "hebben"
+      ],
+      [
+       "没",
+       "niet"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "slug": "didi",
+   "hz": "弟弟",
+   "py": "dìdi",
+   "nl": "jongere broer",
+   "toon": "4+0",
+   "streken": {
+    "弟": [
+     "点",
+     "撇",
+     "横折",
+     "横",
+     "竖折折钩",
+     "竖",
+     "撇"
+    ]
+   },
+   "delen": "<b class=\"rood\">弟</b> heel teken: touw om een paal gewikkeld (volgorde) · tweede 弟 = neutrale toon",
+   "opbouw": "弟 7 streken (2×)",
+   "klank": "DIE!↘ di·",
+   "klankuitleg": "hard omlaag, dan kort en licht",
+   "hooks": {
+    "nl": [
+     "die ↘ + di (licht)",
+     "DIE daar, die kleine: mijn broertje.",
+     "Die!... di. Die daar, die kleine: mijn broertje. Die valt hard omlaag, het tweede di is kort en licht."
+    ],
+    "en": [
+     "D! ↘ + d (light)",
+     "D! d: big D, little d, my little brother.",
+     "D!... d. Big D, little d: my little brother. The first D drops hard, the second is short and light."
+    ],
+    "es": [
+     "¡di! ↘ + di (suave)",
+     "¡Di! di: dilo, hermanito.",
+     "¡Di!... di. ¡Di! Dilo, hermanito. El primer di cae fuerte; el segundo es corto y suave."
+    ]
+   },
+   "beeldhook": "IK zie mijn broertje een touw om een paal wikkelen: hij is de laatste in de rij.",
+   "stop": [
+    5
+   ],
+   "anker": "<b>5</b> Op het Cruijff-court wikkelt mijn broertje een touw rond de doelpaal, rondje na rondje. IK roep: DIE! ↘ di.",
+   "scene": "Op het Johan Cruijff-court van het Lorentz staat mijn broertje. Hij wikkelt een touw rond de doelpaal, rondje voor rondje, van boven naar beneden: dat is 弟, volgorde. DIE! roep ik, hard omlaag; di, zacht erachteraan.\nRubbergeur van het veld, ruw touw in mijn handen, de bal die tegen het hek knalt, rood touw, zweet op mijn lip.",
+   "fam": [
+    [
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "familie"
+    ],
+    [
+     "姐姐",
+     "jiějie",
+     "oudere zus",
+     "familie"
+    ],
+    [
+     "第",
+     "dì",
+     "-de (rangtelwoord)",
+     "弟 als klankdeel"
+    ]
+   ],
+   "gesch": "弟: pictogram van een touw dat in volgorde om een paal of wapenstok is gewikkeld. Betekenis 'volgorde', daarna 'jongere broer' (wie later in de rij komt).\n弟弟: verdubbeling; het tweede 弟 heeft de neutrale toon.",
+   "twijfel": [
+    "Of het voorwerp een paal of een wapen (戈) is: bronnen verschillen."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "die",
+       "↘"
+      ],
+      [
+       "di",
+       "licht"
+      ]
+     ]
+    ],
+    [
+     "TOUW",
+     "a",
+     [
+      [
+       "弟",
+       "7"
+      ],
+      [
+       "rij",
+       "volgorde"
+      ]
+     ]
+    ],
+    [
+     "BROER",
+     "b",
+     [
+      [
+       "jong",
+       "later"
+      ],
+      [
+       "2×",
+       "弟弟"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "court",
+       "5"
+      ],
+      [
+       "paal",
+       "touw"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "第",
+       "-de"
+      ],
+      [
+       "妹妹",
+       "zusje"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "slug": "jiejie",
+   "hz": "姐姐",
+   "py": "jiějie",
+   "nl": "oudere zus",
+   "toon": "3+0",
+   "streken": {
+    "姐": [
+     "撇点",
+     "撇",
+     "提",
+     "竖",
+     "横折",
+     "横",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>且</b> qiě, klankdeel",
+   "opbouw": "姐 = 女 3 + 且 5 (2×)",
+   "klank": "JEE↘↗ je·",
+   "klankuitleg": "dal en terug, dan kort en licht",
+   "hooks": {
+    "nl": [
+     "jee ↘↗ + je (licht)",
+     "Jee... je grote zus weet het weer beter.",
+     "Jee?... je. Jee, je grote zus weet het weer beter. Jee zakt en veert terug, het tweede je is kort en licht."
+    ],
+    "en": [
+     "a jay? ↘↗ + jay (light)",
+     "A jay? Big sister chatters like a jay.",
+     "A jay?... jay. A jay? My big sister chatters like a jay. Jay dips and bounces back, the second one is short and light."
+    ],
+    "es": [
+     "¿yeso? ↘↗ (ye-) + ye (suave)",
+     "¿Yeso? Mi hermana mayor es dura como el yeso.",
+     "¿Yeso?... ye. ¿Yeso? Mi hermana mayor es dura como el yeso. Ye baja y vuelve a subir; el segundo es corto y suave."
+    ]
+   },
+   "beeldhook": "IK zie mijn grote zus hoog op een stapel stenen blokken staan.",
+   "stop": [
+    7
+   ],
+   "anker": "<b>7</b> Op de zittrap staat mijn grote zus bovenaan, op een stapel stenen blokken (且). IK kijk omhoog: jee ↘↗, je.",
+   "scene": "In de aula van het Lorentz, op de brede zittrap, staat mijn grote zus helemaal bovenaan. Onder haar voeten een toren van blokken (且). Jee, zeg ik, mijn stem zakt en komt terug; je, zacht.\nStof van de blokken, koud steen, haar stem die over de trap galmt, grijze blokken, kalk op mijn tong.",
+   "fam": [
+    [
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "女"
+    ],
+    [
+     "奶奶",
+     "nǎinai",
+     "oma",
+     "女"
+    ],
+    [
+     "弟弟",
+     "dìdi",
+     "jongere broer",
+     "familie"
+    ]
+   ],
+   "gesch": "姐: 女 (vrouw, betekenis) + 且 (qiě, klank). 且 is oorspronkelijk een stapel / altaartafel voor offers.\n姐姐: verdubbeling; het tweede 姐 heeft de neutrale toon.",
+   "twijfel": [
+    "Wat 且 oorspronkelijk afbeeldt (offertafel of voorouder-tablet): bronnen verschillen.",
+    "ES-hook: \"yeso\" geeft alleen het begin \"ye\" van jiě."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "jee",
+       "↘↗"
+      ],
+      [
+       "je",
+       "licht"
+      ]
+     ]
+    ],
+    [
+     "VROUW",
+     "a",
+     [
+      [
+       "女",
+       "3"
+      ],
+      [
+       "提",
+       "tí"
+      ]
+     ]
+    ],
+    [
+     "STAPEL",
+     "b",
+     [
+      [
+       "且",
+       "qiě"
+      ],
+      [
+       "5",
+       "streken"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "zittrap",
+       "7"
+      ],
+      [
+       "top",
+       "zus"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "妹妹",
+       "zusje"
+      ],
+      [
+       "奶奶",
+       "oma"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "slug": "meimei",
+   "hz": "妹妹",
+   "py": "mèimei",
+   "nl": "jongere zus",
+   "toon": "4+0",
+   "streken": {
+    "妹": [
+     "撇点",
+     "撇",
+     "提",
+     "横",
+     "横",
+     "竖",
+     "撇",
+     "捺"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>未</b> wèi, klankdeel (ook: nog niet)",
+   "opbouw": "妹 = 女 3 + 未 5 (2×)",
+   "klank": "MEI!↘ mei·",
+   "klankuitleg": "hard omlaag, dan kort en licht",
+   "hooks": {
+    "nl": [
+     "mei ↘ + mei (licht)",
+     "MEI! mei: mijn zusje is in mei geboren.",
+     "Mei!... mei. Mei! Mijn zusje is in mei geboren. De eerste mei valt hard omlaag, de tweede is kort en licht."
+    ],
+    "en": [
+     "May! ↘ + may (light)",
+     "May! may: my little sister May.",
+     "May!... may. May! My little sister is called May. The first May drops hard, the second is short and light."
+    ],
+    "es": [
+     "¡mey! (de mayo) ↘ + mey (suave)",
+     "¡Mayo! Mi hermanita nació en mayo.",
+     "¡Mayo!... ¡Mayo! Mi hermanita nació en mayo. Di solo el principio, mey, fuerte hacia abajo; el segundo, corto y suave."
+    ]
+   },
+   "beeldhook": "IK zie mijn zusje naast een boompje dat nog niet af is.",
+   "stop": [
+    3
+   ],
+   "anker": "<b>3</b> Bij de beschilderde pijlers staat mijn zusje met een kwast: het boompje (未) dat ze schildert is nog niet af. IK roep: MEI! ↘ mei.",
+   "scene": "Onder het station bij de beschilderde pijlers staat mijn zusje met een kwast. Ze schildert een boompje (未), maar de bovenste tak is nog niet af. MEI! roep ik, hard omlaag; mei, zacht.\nVerflucht, natte kwast, treinen die boven ons denderen, felle kleuren, verf op mijn lip.",
+   "fam": [
+    [
+     "姐姐",
+     "jiějie",
+     "oudere zus",
+     "女"
+    ],
+    [
+     "奶奶",
+     "nǎinai",
+     "oma",
+     "女"
+    ],
+    [
+     "未",
+     "wèi",
+     "nog niet",
+     "klankdeel"
+    ]
+   ],
+   "gesch": "妹: 女 (vrouw, betekenis) + 未 (wèi, klank). 未 is een boom met extra takken, later 'nog niet'.\n妹妹: verdubbeling; het tweede 妹 heeft de neutrale toon.",
+   "twijfel": [
+    "未 als klankdeel: wèi en mèi delen het rijm; de beginklank verschilt (historische klankverschuiving).",
+    "ES-hook: \"mayo\" klinkt alleen aan het begin als mèi."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "mei",
+       "↘"
+      ],
+      [
+       "May",
+       "EN"
+      ]
+     ]
+    ],
+    [
+     "VROUW",
+     "a",
+     [
+      [
+       "女",
+       "3"
+      ],
+      [
+       "提",
+       "tí"
+      ]
+     ]
+    ],
+    [
+     "BOOMPJE",
+     "b",
+     [
+      [
+       "未",
+       "nog niet"
+      ],
+      [
+       "wèi",
+       "klank"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "pijlers",
+       "3"
+      ],
+      [
+       "kwast",
+       "verf"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "姐姐",
+       "zus"
+      ],
+      [
+       "弟弟",
+       "broer"
+      ]
+     ]
+    ]
+   ]
+  },
+  {
+   "slug": "nainai",
+   "hz": "奶奶",
+   "py": "nǎinai",
+   "nl": "oma (vaders moeder)",
+   "toon": "3+0",
+   "streken": {
+    "奶": [
+     "撇点",
+     "撇",
+     "提",
+     "横折折折钩",
+     "撇"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>乃</b> nǎi, klankdeel",
+   "opbouw": "奶 = 女 3 + 乃 2 (2×)",
+   "klank": "NAAI↘↗ nai·",
+   "klankuitleg": "dal en terug, dan kort en licht",
+   "hooks": {
+    "nl": [
+     "naai ↘↗ + nai (licht)",
+     "Naai... oma naait mijn knoop eraan.",
+     "Naai?... nai. Naai! Oma naait mijn knoop eraan. Naai zakt en veert terug, de tweede is kort en licht."
+    ],
+    "en": [
+     "nigh? ↘↗ + nigh (light)",
+     "Nigh? Grandma is nigh, she is near.",
+     "Nigh?... nigh. Nigh? Grandma is nigh, she is near. Nigh dips and bounces back, the second is short and light."
+    ],
+    "es": [
+     "¿naipe? ↘↗ (nai-) + nai (suave)",
+     "¿Naipes? La abuela juega a los naipes.",
+     "¿Naipe?... nai. ¿Naipes? La abuela juega a los naipes. Nai baja y vuelve a subir; el segundo, corto y suave."
+    ]
+   },
+   "beeldhook": "IK zie oma naaien met een draad die drie keer knikt.",
+   "stop": [
+    1
+   ],
+   "anker": "<b>1</b> Boven op het spoorviaduct zit oma te naaien; haar draad knikt drie keer (乃) en hangt tot op de straat. IK roep: naai ↘↗, nai.",
+   "scene": "Hoog op het spoorviaduct van Arnhem Zuid zit oma op een bankje te naaien. Haar draad knikt drie keer (乃) en hangt tot op de straat. Naai, zeg ik: mijn stem zakt en komt terug; nai, zacht.\nGeur van wol, de prik van de naald, een trein die voorbijdendert, rode draad, thee op mijn tong.",
+   "fam": [
+    [
+     "爷",
+     "yé",
+     "opa (in de doos)",
+     "familie"
+    ],
+    [
+     "妈妈",
+     "māma",
+     "moeder",
+     "女"
+    ],
+    [
+     "牛奶",
+     "niúnǎi",
+     "melk",
+     "奶 = melk"
+    ]
+   ],
+   "gesch": "奶: 女 (vrouw, betekenis) + 乃 (nǎi, klank). Oorspronkelijk borst, melk (zoals in 牛奶); als 奶奶 oma van vaderskant.\n奶奶: verdubbeling; het tweede 奶 heeft de neutrale toon.",
+   "twijfel": [
+    "Volgorde in 乃: in de meeste lijsten eerst 横折折折钩, dan 撇 (HanziWriter volgt dit).",
+    "Regionaal: 奶奶 = vaders moeder; moeders moeder = 外婆/姥姥."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "naai",
+       "↘↗"
+      ],
+      [
+       "nai",
+       "licht"
+      ]
+     ]
+    ],
+    [
+     "VROUW",
+     "a",
+     [
+      [
+       "女",
+       "3"
+      ],
+      [
+       "提",
+       "tí"
+      ]
+     ]
+    ],
+    [
+     "DRAAD",
+     "b",
+     [
+      [
+       "乃",
+       "nǎi"
+      ],
+      [
+       "3 knikken",
+       "haak"
+      ]
+     ]
+    ],
+    [
+     "PALEIS",
+     "paleis",
+     [
+      [
+       "viaduct",
+       "1"
+      ],
+      [
+       "naald",
+       "oma"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "牛奶",
+       "melk"
+      ],
+      [
+       "爷",
+       "opa"
+      ]
+     ]
+    ]
+   ]
+  }
+ ]
+}

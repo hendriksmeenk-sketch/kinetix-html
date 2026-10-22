@@ -1,5 +1,5 @@
 {
- "schema": 35,
+ "schema": 46,
  "hersenen": "Leerling A",
  "woorden": [
   {
@@ -45,7 +45,8 @@
    "h1": true,
    "img": "",
    "source": "woord_diepte",
-   "card_id": "wd-一"
+   "card_id": "wd-一",
+   "status46": "open"
   },
   {
    "hz": "二",
@@ -92,7 +93,8 @@
    "h1": true,
    "img": "",
    "source": "woord_diepte",
-   "card_id": "wd-二"
+   "card_id": "wd-二",
+   "status46": "open"
   },
   {
    "hz": "三",
@@ -141,7 +143,8 @@
    "h1": true,
    "img": "",
    "source": "woord_diepte",
-   "card_id": "wd-三"
+   "card_id": "wd-三",
+   "status46": "open"
   },
   {
    "hz": "十",
@@ -188,7 +191,8 @@
    "h1": true,
    "img": "",
    "source": "woord_diepte",
-   "card_id": "wd-十"
+   "card_id": "wd-十",
+   "status46": "open"
   },
   {
    "hz": "百",
@@ -241,7 +245,8 @@
    "h1": true,
    "img": "",
    "source": "woord_diepte",
-   "card_id": "wd-百"
+   "card_id": "wd-百",
+   "status46": "open"
   },
   {
    "hz": "零",
@@ -288,7 +293,8 @@
    "h1": true,
    "img": "",
    "source": "woord_diepte",
-   "card_id": "wd-零"
+   "card_id": "wd-零",
+   "status46": "open"
   },
   {
    "hz": "子",
@@ -341,7 +347,8 @@
    "geleerdAt": 1758395329651,
    "h1": false,
    "source": "woord_diepte",
-   "card_id": "wd-子"
+   "card_id": "wd-子",
+   "status46": "open"
   },
   {
    "h1": false,
@@ -396,7 +403,8 @@
    "station": 0,
    "nextLabel": "—",
    "source": "woord_diepte",
-   "card_id": "wd-好"
+   "card_id": "wd-好",
+   "status46": "open"
   },
   {
    "hz": "爷",
@@ -450,7 +458,8 @@
    "station": 0,
    "nextLabel": "—",
    "h1": false,
-   "provenience": "redactie Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)"
+   "provenience": "redactie Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)",
+   "status46": "open"
   },
   {
    "hz": "字",
@@ -503,7 +512,8 @@
    "card_id": "wd-字",
    "station": 0,
    "nextLabel": "10 min",
-   "geleerdAt": 1792394585840
+   "geleerdAt": 1792394585840,
+   "status46": "open"
   },
   {
    "hz": "学",
@@ -558,7 +568,8 @@
    "card_id": "wd-学",
    "station": 0,
    "nextLabel": "10 min",
-   "geleerdAt": 1792394585840
+   "geleerdAt": 1792394585840,
+   "status46": "open"
   },
   {
    "hz": "孩",
@@ -614,7 +625,8 @@
    "card_id": "wd-孩",
    "station": 0,
    "nextLabel": "10 min",
-   "geleerdAt": 1792394585840
+   "geleerdAt": 1792394585840,
+   "status46": "open"
   },
   {
    "hz": "手机",
@@ -654,7 +666,58 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-手机"
+   "card_id": "wd-手机",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/shouji.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "sjouw ↘↗ + chip →",
+      "zin": "Mijn hand sjouwt een chip: mijn telefoon."
+     },
+     "en": {
+      "haak": "show? ↘↗ + gee! →",
+      "zin": "Show it in your hand. Gee, a phone!"
+     },
+     "es": {
+      "haak": "¿show? ↘↗ + chip →",
+      "zin": "Un show en la mano con un chip: el móvil."
+     }
+    },
+    "beeldhook": "IK houd een machine in mijn hand.",
+    "paleisStop": [
+     6,
+     8
+    ],
+    "audio": [
+     "kaart/media/shouji-zh.mp3",
+     "kaart/media/shouji-zh-traag.mp3",
+     "kaart/media/shouji-hook-nl.mp3",
+     "kaart/media/shouji-hook-en.mp3",
+     "kaart/media/shouji-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/shouji-centrum.jpg",
+     "kaart/media/shouji-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/shouji-mindmap.jpg",
+    "streken": {
+     "手": [
+      "撇",
+      "横",
+      "横",
+      "竖钩"
+     ],
+     "机": [
+      "横",
+      "竖",
+      "撇",
+      "点",
+      "撇",
+      "横折弯钩"
+     ]
+    }
+   }
   },
   {
    "hz": "打电话",
@@ -693,7 +756,67 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-打电话"
+   "card_id": "wd-打电话",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/dadianhua.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "daar ↘↗ + dien ↘ + hoera ↘",
+      "zin": "Daar! Dien je oproep: hoera, ik bel!"
+     },
+     "en": {
+      "haak": "duh ↘↗ + Dean ↘ + wah ↘",
+      "zin": "Duh, Dean! Wah, I call you!"
+     },
+     "es": {
+      "haak": "¿da? ↘↗ + dan ↘ + ¡guau! ↘",
+      "zin": "¿Da? ¡Dan la señal! ¡Guau, llamo!"
+     }
+    },
+    "beeldhook": "IK sla op de bliksem en de tong praat: ik bel.",
+    "paleisStop": [
+     2
+    ],
+    "audio": [
+     "kaart/media/dadianhua-zh.mp3",
+     "kaart/media/dadianhua-zh-traag.mp3",
+     "kaart/media/dadianhua-hook-nl.mp3",
+     "kaart/media/dadianhua-hook-en.mp3",
+     "kaart/media/dadianhua-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/dadianhua-centrum.jpg",
+     "kaart/media/dadianhua-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/dadianhua-mindmap.jpg",
+    "streken": {
+     "打": [
+      "横",
+      "竖钩",
+      "提",
+      "横",
+      "竖钩"
+     ],
+     "电": [
+      "竖",
+      "横折",
+      "横",
+      "横",
+      "竖弯钩"
+     ],
+     "话": [
+      "点",
+      "横折提",
+      "撇",
+      "横",
+      "竖",
+      "竖",
+      "横折",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "没有",
@@ -732,7 +855,60 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-没有"
+   "card_id": "wd-没有",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/meiyou.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "mij? ↗ + jou ↘↗",
+      "zin": "Mij? Jou? Niemand heeft het: niks."
+     },
+     "en": {
+      "haak": "may? ↗ + yo ↘↗",
+      "zin": "May I? Yo, there is none!"
+     },
+     "es": {
+      "haak": "¿me? ↗ + yo ↘↗",
+      "zin": "¿Me lo das? ¿Yo? No hay nada."
+     }
+    },
+    "beeldhook": "IK zink in het water en mijn hand heeft niets meer.",
+    "paleisStop": [
+     10
+    ],
+    "audio": [
+     "kaart/media/meiyou-zh.mp3",
+     "kaart/media/meiyou-zh-traag.mp3",
+     "kaart/media/meiyou-hook-nl.mp3",
+     "kaart/media/meiyou-hook-en.mp3",
+     "kaart/media/meiyou-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/meiyou-centrum.jpg",
+     "kaart/media/meiyou-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/meiyou-mindmap.jpg",
+    "streken": {
+     "没": [
+      "点",
+      "点",
+      "提",
+      "撇",
+      "横折弯",
+      "横撇",
+      "捺"
+     ],
+     "有": [
+      "横",
+      "撇",
+      "竖",
+      "横折钩",
+      "横",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "弟弟",
@@ -771,7 +947,52 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-弟弟"
+   "card_id": "wd-弟弟",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/didi.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "die ↘ + di (licht)",
+      "zin": "DIE daar, die kleine: mijn broertje."
+     },
+     "en": {
+      "haak": "D! ↘ + d (light)",
+      "zin": "D! d: big D, little d, my little brother."
+     },
+     "es": {
+      "haak": "¡di! ↘ + di (suave)",
+      "zin": "¡Di! di: dilo, hermanito."
+     }
+    },
+    "beeldhook": "IK zie mijn broertje een touw om een paal wikkelen: hij is de laatste in de rij.",
+    "paleisStop": [
+     5
+    ],
+    "audio": [
+     "kaart/media/didi-zh.mp3",
+     "kaart/media/didi-zh-traag.mp3",
+     "kaart/media/didi-hook-nl.mp3",
+     "kaart/media/didi-hook-en.mp3",
+     "kaart/media/didi-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/didi-centrum.jpg",
+     "kaart/media/didi-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/didi-mindmap.jpg",
+    "streken": {
+     "弟": [
+      "点",
+      "撇",
+      "横折",
+      "横",
+      "竖折折钩",
+      "竖",
+      "撇"
+     ]
+    }
+   }
   },
   {
    "hz": "姐姐",
@@ -810,7 +1031,53 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-姐姐"
+   "card_id": "wd-姐姐",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/jiejie.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "jee ↘↗ + je (licht)",
+      "zin": "Jee... je grote zus weet het weer beter."
+     },
+     "en": {
+      "haak": "a jay? ↘↗ + jay (light)",
+      "zin": "A jay? Big sister chatters like a jay."
+     },
+     "es": {
+      "haak": "¿yeso? ↘↗ (ye-) + ye (suave)",
+      "zin": "¿Yeso? Mi hermana mayor es dura como el yeso."
+     }
+    },
+    "beeldhook": "IK zie mijn grote zus hoog op een stapel stenen blokken staan.",
+    "paleisStop": [
+     7
+    ],
+    "audio": [
+     "kaart/media/jiejie-zh.mp3",
+     "kaart/media/jiejie-zh-traag.mp3",
+     "kaart/media/jiejie-hook-nl.mp3",
+     "kaart/media/jiejie-hook-en.mp3",
+     "kaart/media/jiejie-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/jiejie-centrum.jpg",
+     "kaart/media/jiejie-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/jiejie-mindmap.jpg",
+    "streken": {
+     "姐": [
+      "撇点",
+      "撇",
+      "提",
+      "竖",
+      "横折",
+      "横",
+      "横",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "妹妹",
@@ -849,7 +1116,53 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-妹妹"
+   "card_id": "wd-妹妹",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/meimei.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "mei ↘ + mei (licht)",
+      "zin": "MEI! mei: mijn zusje is in mei geboren."
+     },
+     "en": {
+      "haak": "May! ↘ + may (light)",
+      "zin": "May! may: my little sister May."
+     },
+     "es": {
+      "haak": "¡mey! (de mayo) ↘ + mey (suave)",
+      "zin": "¡Mayo! Mi hermanita nació en mayo."
+     }
+    },
+    "beeldhook": "IK zie mijn zusje naast een boompje dat nog niet af is.",
+    "paleisStop": [
+     3
+    ],
+    "audio": [
+     "kaart/media/meimei-zh.mp3",
+     "kaart/media/meimei-zh-traag.mp3",
+     "kaart/media/meimei-hook-nl.mp3",
+     "kaart/media/meimei-hook-en.mp3",
+     "kaart/media/meimei-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/meimei-centrum.jpg",
+     "kaart/media/meimei-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/meimei-mindmap.jpg",
+    "streken": {
+     "妹": [
+      "撇点",
+      "撇",
+      "提",
+      "横",
+      "横",
+      "竖",
+      "撇",
+      "捺"
+     ]
+    }
+   }
   },
   {
    "hz": "奶奶",
@@ -888,7 +1201,50 @@
    "status": "nieuw",
    "h1": false,
    "source": "staatsexamen",
-   "card_id": "wd-奶奶"
+   "card_id": "wd-奶奶",
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/nainai.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "naai ↘↗ + nai (licht)",
+      "zin": "Naai... oma naait mijn knoop eraan."
+     },
+     "en": {
+      "haak": "nigh? ↘↗ + nigh (light)",
+      "zin": "Nigh? Grandma is nigh, she is near."
+     },
+     "es": {
+      "haak": "¿naipe? ↘↗ (nai-) + nai (suave)",
+      "zin": "¿Naipes? La abuela juega a los naipes."
+     }
+    },
+    "beeldhook": "IK zie oma naaien met een draad die drie keer knikt.",
+    "paleisStop": [
+     1
+    ],
+    "audio": [
+     "kaart/media/nainai-zh.mp3",
+     "kaart/media/nainai-zh-traag.mp3",
+     "kaart/media/nainai-hook-nl.mp3",
+     "kaart/media/nainai-hook-en.mp3",
+     "kaart/media/nainai-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/nainai-centrum.jpg",
+     "kaart/media/nainai-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/nainai-mindmap.jpg",
+    "streken": {
+     "奶": [
+      "撇点",
+      "撇",
+      "提",
+      "横折折折钩",
+      "撇"
+     ]
+    }
+   }
   },
   {
    "hz": "多少",
@@ -932,12 +1288,25 @@
    "status": "nieuw",
    "h1": false,
    "source": "drive-woordkaart 1GqR90rOhxWX7iLyx-FfTwI1Tr7xdW45zrKdBHABqqdQ",
-   "card_id": "wd-多少"
+   "card_id": "wd-多少",
+   "status46": "open"
   }
  ],
  "recallByLearner": {
   "leerling A": {},
   "leerling B": {},
   "leerling C": {}
+ },
+ "versie": "Chinese leren 4.6",
+ "kaart46": {
+  "sjabloon": "SKELET.html",
+  "data": "kaart/kaarten-4.6.json",
+  "structuur": [
+   "formule",
+   "s3",
+   "s4",
+   "s5",
+   "footer"
+  ]
  }
 }
