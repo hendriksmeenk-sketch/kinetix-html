@@ -130,6 +130,7 @@ ul.leden li.mini .teken{grid-row:span 2;font-size:1.6rem}
 ul.leden li.mini .haak{grid-column:2;font-size:.78rem;color:#6b5b4b;font-style:italic}
 .famlink{color:inherit;text-decoration:none}.famlink .teken,.famlink .rood{text-decoration:underline dotted #b3261e;text-underline-offset:4px}.obrien-leeg[data-wachtrij]{border-color:#b3261e;color:#b3261e;font-weight:700}#herhaal46 .stap{margin:4px 4px 0 0}
 .obrien-uitleg summary{font-size:.72rem;color:#8a4b2a;cursor:pointer;list-style:none;padding:6px 0;min-height:24px}.obrien-uitleg summary::-webkit-details-marker{display:none}.obrien-uitleg summary::before{content:"ⓘ "}.obrien-uitleg p{margin:2px 0 0}
+.bh{position:relative;cursor:pointer;user-select:none;touch-action:pan-y}.bh .bh-dia{width:100%;max-width:420px;display:block;border-radius:14px}.bh .bh-dia[hidden]{display:none}.bh-nav{margin:6px 0 0;font-size:.75rem;color:#7a6a55;display:flex;align-items:center;gap:6px}.bh-punt{width:7px;height:7px;border-radius:50%;background:#d8cbb6;display:inline-block}.bh-punt.aan{background:#8a4b2a}
 </style></head><body class="rustig">
 <header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="zoek woord" autocomplete="off"></header>
 <main>
@@ -155,7 +156,7 @@ ul.leden li.mini .haak{grid-column:2;font-size:.78rem;color:#6b5b4b;font-style:i
 <p class="sub" id="audnote">Chinees = moedertaalstem. NL/EN/ES = klank-haak, geen vertaling.</p>
 <h3>Beeld-haak</h3>
 <p class="hook" id="b-hook">IK zie mijn zusje naast een boompje dat nog niet af is.</p>
-<div class="hook2" id="b-beeldhook"><img src="media/meimei-centrum.jpg" alt="beeld-haak 1"><img src="media/meimei-beeld2.jpg" alt="beeld-haak 2"></div>
+<div class="hook2 bh" id="b-beeldhook" data-n="2"><img src="media/meimei-centrum.jpg" alt="beeld-haak 1" class="bh-dia"><img src="media/meimei-beeld2.jpg" alt="beeld-haak 2" class="bh-dia" hidden><p class="bh-nav" aria-hidden="true"><span class="bh-punt aan"></span><span class="bh-punt"></span> <span class="bh-tel">1/2</span> <span class="sub">tik of veeg</span></p></div>
 <h3>Paleis-plek</h3>
 <p class="plek" id="k-plek">Paleis · Lorentz Lyceum, Arnhem Zuid · stop 3 beschilderde pijlers</p>
 <button type="button" class="volgende" data-naar="2">Volgende: klank →</button>
@@ -470,5 +471,10 @@ document.querySelectorAll('#pad a').forEach((a,i)=>a.onclick=e=>{e.preventDefaul
 STAP.forEach(s=>s.addEventListener('toggle',()=>{if(s.open)document.body.classList.remove('rustig');pad();if(s.id==='st-4'&&s.open&&!W)load(D.tabs[0])}));
 $('alles-start').onclick=$('alles').onclick=()=>{document.body.classList.remove('rustig');document.querySelectorAll('details').forEach(d=>d.open=true);if(!W)load(D.tabs[0])};
 D.tabs.forEach((c,i)=>{});pad();
+/* regel 19: beeld-haak carrousel (1 beeld zichtbaar; tik/dubbeltik/veeg) */
+document.querySelectorAll('.bh').forEach(b=>{const d=[...b.querySelectorAll('.bh-dia')];if(d.length<2)return;let i=0,x0=null;
+ const ga=n=>{d[i].hidden=true;i=(n+d.length)%d.length;d[i].hidden=false;b.querySelectorAll('.bh-punt').forEach((p,j)=>p.classList.toggle('aan',j===i));b.querySelector('.bh-tel').textContent=(i+1)+'/'+d.length};
+ b.addEventListener('click',()=>ga(i+1));b.addEventListener('touchstart',e=>{x0=e.touches[0].clientX},{passive:true});
+ b.addEventListener('touchend',e=>{if(x0==null)return;const dx=e.changedTouches[0].clientX-x0;x0=null;if(Math.abs(dx)>40){e.preventDefault();ga(i+(dx<0?1:-1))}})});
 
 </script></body></html>
