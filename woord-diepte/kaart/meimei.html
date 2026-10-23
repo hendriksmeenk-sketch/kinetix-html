@@ -133,7 +133,7 @@ ul.leden li.mini .haak{grid-column:2;font-size:.78rem;color:#6b5b4b;font-style:i
 .bh{position:relative;cursor:pointer;user-select:none;touch-action:pan-y}.bh .bh-dia{width:100%;max-width:420px;display:block;border-radius:14px}.bh .bh-dia[hidden]{display:none}.bh-nav{margin:6px 0 0;font-size:.75rem;color:#7a6a55;display:flex;align-items:center;gap:6px}.bh-punt{width:7px;height:7px;border-radius:50%;background:#d8cbb6;display:inline-block}.bh-punt.aan{background:#8a4b2a}
 .pl-switch{display:inline-flex;border:1px solid #d8cbb6;border-radius:999px;overflow:hidden;margin:4px 0 8px;font-size:.78rem}.pl-switch button{border:0;background:transparent;padding:8px 12px;min-height:36px;color:#7a6a55;cursor:pointer}.pl-switch button[aria-pressed="true"]{background:#8a4b2a;color:#fff}
 </style></head><body class="rustig">
-<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="zoek woord" autocomplete="off"></header>
+<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="hubzoek" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="zoek: 手 · shouji · telefoon · family" aria-label="Zoek een woord"></header><script src="../zoek.js" data-base="../" data-overlay="1" defer></script>
 <main>
 <article id="blad45">
 <section id="start">
@@ -457,9 +457,7 @@ $('gezegd').onclick=()=>{if(!state.live){$('wij').textContent='Eerst dekken. Wij
 $('nog').onclick=()=>{const r=slot(state.wie,D.hz);r.station=0;r.next=Date.now()+ST[0][0];r.nextLabel='10 min';save();document.body.classList.remove('dicht');state.live=false;$('cue-txt').textContent='Nog een keer. Terug bij 10 min.';$('wij').textContent='Geen straf. Wij brengen het over 10 minuten terug.';renderOrg();tabel()};
 $('niet').onclick=()=>{document.body.classList.remove('dicht');state.live=false;$('cue-txt').textContent='Nu niet. Station blijft. Andere hersenen mogen.';$('wij').textContent='De organisatie wacht. Geen min.'};
 renderOrg();tabel();
-/* zoek */
-$('zoek').addEventListener('keydown',function(e){if(e.key!=='Enter')return;const q=this.value.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\s]/g,'');const h=D.zoek.find(z=>z.k.some(k=>k===q));
- if(h)location.href=h.slug+'.html';else $('lijn').textContent='“'+this.value.trim()+'” staat nog niet in 4.6. Zie de lijst op de startpagina.'});
+/* zoek: ../zoek.js (volledige hub-zoek, overlay) */
 /* stappen: rustig begin, één stap tegelijk */
 const kop=()=>document.documentElement.style.setProperty('--kop',document.querySelector('header').getBoundingClientRect().height+'px');kop();addEventListener('load',kop);addEventListener('resize',kop);
 const STAP=[...document.querySelectorAll('.stapblok:not(.extra)')];
