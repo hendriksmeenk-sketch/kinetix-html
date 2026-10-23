@@ -1,0 +1,23 @@
+KINETIX mesh v1 · keten.log · 23 okt 2026 (Europe/Amsterdam)
+maker: Grok Bot (executor) · Dieper/schakel 0: OVERZICHT-GEBOUWD.md, chinese-leren-4.6.md, kaart46.css, KINETIX v0.3 (index, review-5x, les-synthese), integriteitskader Adat
+hash index.html: ed3d036
+zwaar werk door: GEEN model. xAI grok-4.7 -> HTTP 403 (tegoed/limiet op); Gemini gemini-3.1-pro-preview -> HTTP 402 (prepaid op). DeepSeek niet gebruikt (niet gevraagd). Teksten en verhalen handmatig geschreven door Grok Bot.
+gate Playwright: 360/390/1440 px -> 0 JS-fouten, min. font 16px, geen horizontale overflow, 0 tikvlakken <44px (knoppen/nav)
+gate links: 33 externe links 200 (slicingpie.com 202 = bereikbaar); 6 interne relatieve links 200 lokaal
+precheck.py: n.v.t. (vereist questions.json, quiz-gate)
+check46 (systeem46, huidige versie): 0/8 kaarten zonder fouten (bestaande kaarten, buiten deze mesh; zie Developer-ruimte)
+LET OP: repo kinetix-html staat sinds ~16:45 op PRIVATE en GitHub Pages geeft 404; niet door mij gewijzigd.
+Adat maker-checklist (12):
+1 JA kindernamen/privé-plekken: geen; bijnamen en exacte lestijden weggelaten
+2 JA externe AI kreeg niets (beide API-calls faalden; prompt bevatte geen privédata)
+3 JA ontvanger-grens: geen derden genoemd
+4 JA datums: vr 23 okt 2026 klopt (weekdag nagerekend); geen agenda-afspraken
+5 JA getallen met bron: 10 meetmomenten, 5x-schema, 5 units x 3 lessen, max 3 huiswerkkaarten (v0.3); 8 kaarten, 15-25 oefeningen (spec 4.6); check46 0/8 (eigen run); business: geen getallen, alles 'aanname'
+6 JA geen geraden woord; onzeker gemarkeerd (Confucius-instituut niet gevonden, impact 'nog geen data')
+7 JA geen medische/juridische claim
+8 JA geen beelden
+9 JA niets verstuurd; publicatie op expliciete opdracht van Saidi
+10 JA Taxsys/WhatsApp niet aangeraakt
+11 JA log bevat geen privé-waarden
+12 JA zwaar werk eerlijk vermeld (geen model)
+2026-10-23 | adat-poort maker | GROEN (zelfcheck) | ed3d036 | 12/12 | fixes: geen
