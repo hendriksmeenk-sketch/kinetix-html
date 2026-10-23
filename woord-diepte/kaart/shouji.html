@@ -325,6 +325,8 @@ const uit=h=>{const v=$('tool-uit');v.hidden=false;v.innerHTML=h};
 $('tool-toon').onclick=()=>{uit(esc(D.klank)+' · '+esc(D.klankuitleg));speel(D.slug+'-zh-traag');valBeide()};
 D.tabs.forEach((c,i)=>{const b=$('tool-oor-'+(i+1));if(b)b.onclick=()=>speel(D.slug+'-zh-traag')});
 $('tool-oor-woord').onclick=()=>speel(D.slug+'-zh');
+function uitzetten(b){if(b){b.disabled=true;b.classList.add('geen-audio');b.title='audio volgt';b.textContent='🔇 audio volgt'}}
+if(!HEEFT.has(D.slug+'-zh-traag'))D.tabs.forEach((c,i)=>uitzetten($('tool-oor-'+(i+1))));if(!HEEFT.has(D.slug+'-zh'))uitzetten($('tool-oor-woord'));
 $('tool-split').onclick=()=>uit(D.delen);
 $('tool-leeg').onclick=()=>{uit('Leeg vak: teken het volgende streepje zelf in het raster.');naar('hw')};
 $('tool-beurt').onclick=()=>{const el=$('k-hz');if(el.dataset.was){el.innerHTML=el.dataset.was;el.dataset.was=''}else{el.dataset.was=el.innerHTML;el.textContent='dicht'}naar('k-hz')};
