@@ -842,7 +842,6 @@
     "paleis-s2"
    ],
    "_beeld_open": [
-    "obrien",
     "klank-s1",
     "klank-s2",
     "a-s1",
@@ -1893,9 +1892,7 @@
     "paleis-s1",
     "paleis-s2"
    ],
-   "_beeld_open": [
-    "obrien"
-   ]
+   "_beeld_open": []
   },
   {
    "slug": "nainai",
@@ -2416,7 +2413,6 @@
     "paleis-s2"
    ],
    "_beeld_open": [
-    "obrien",
     "centrum",
     "beeld2",
     "klank",
