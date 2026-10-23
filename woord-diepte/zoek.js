@@ -1,48 +1,83 @@
-/* Hub-zoeken · Chinese leren 4.6 · zoekt in zoek.json (masterlijst), geen externe diensten */
+/* Zoeken · Chinese leren 4.6 · alle woorden uit zoek.json (masterlijst), geen externe diensten.
+   Zoekt op hanzi, pinyin (tonen, cijfers of geen), Nederlands, Engels, Spaans, thema en radicaal/onderdeel. */
 (function(){
-  var inp=document.getElementById('hubzoek'),out=document.getElementById('hubzoek-uit'),W=null,F;
+  var inp=document.getElementById('hubzoek'),out=document.getElementById('hubzoek-uit'),W=null,TH={},F,MAX=50;
+  if(!inp||!out)return;
   var TM={'ā':1,'á':2,'ǎ':3,'à':4,'ē':1,'é':2,'ě':3,'è':4,'ī':1,'í':2,'ǐ':3,'ì':4,'ō':1,'ó':2,'ǒ':3,'ò':4,'ū':1,'ú':2,'ǔ':3,'ù':4,'ǖ':1,'ǘ':2,'ǚ':3,'ǜ':4};
-  function bare(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/ü/g,'v').replace(/u:/g,'v').replace(/[^a-z0-9v]/g,'');}
-  function tones(s){var t='';for(var i=0;i<s.length;i++){if(TM[s[i]])t+=TM[s[i]];}return t;}
-  function low(s){return (s||'').toLowerCase();}
-  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  var HAN=/[\u2e80-\u2fdf\u3400-\u9fff\uf900-\ufaff]/;
+  function fold(s){return (s||'').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').normalize('NFC');}
+  function bare(s){return fold(String(s).replace(/ü|ǖ|ǘ|ǚ|ǜ|Ü/g,'v')).replace(/u:/g,'v').replace(/[^a-z]/g,'');}
+  function tones(s){var t='';s=(s||'').normalize('NFC');for(var i=0;i<s.length;i++){if(TM[s[i]])t+=TM[s[i]];}return t;}
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function woorden(s){return fold(s).split(/[^a-z0-9ñ]+/).filter(Boolean);}
   function load(cb){
     if(W)return cb();
-    fetch('zoek.json').then(function(r){return r.json();}).then(function(d){
-      W=d.w.map(function(r){var py=r[1].normalize('NFC');return{hz:r[0],py:py,nl:r[2],en:r[3],bron:r[4],rad:r[5],st:r[6],k:r[7],o:r[8],b:bare(py),t:tones(py),pl:low(py).replace(/\s+/g,''),txt:low(r[2])+' | '+low(r[3])};});
-      cb();
-    }).catch(function(){out.innerHTML='<p class="sub">zoek.json niet geladen.</p>';});
+    out.innerHTML='<li class="sub">laden…</li>';
+    fetch('zoek.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw r.status;return r.json();}).then(function(d){
+      var f=d.velden,ix={};f.forEach(function(n,i){ix[n]=i;});TH=d.themas||{};
+      W=d.w.map(function(r){
+        var g=function(n){return ix[n]==null?'':(r[ix[n]]||'');};
+        var py=String(g('py')).normalize('NFC'),th=g('thema')||[],thw=[];
+        th.forEach(function(t){thw.push(fold(t));(TH[t]||[]).forEach(function(x){thw.push(fold(x));});});
+        var nl=g('nl'),en=g('en'),es=g('es');
+        return{hz:g('hz'),py:py,nl:nl,en:en,es:es,bron:g('bron'),rad:g('rad'),st:g('status'),k:g('kaart'),o:g('onzeker'),gen:g('gegenereerd'),th:th,
+          b:bare(py),bu:bare(py).replace(/v/g,'u'),t:tones(py),
+          mean:[fold(nl),fold(en),fold(es)],ww:woorden(nl+' ; '+en+' ; '+es),thw:thw};
+      });cb();
+    }).catch(function(e){out.innerHTML='<li class="sub">De woordenlijst kon niet laden ('+esc(e)+'). Probeer de pagina te verversen.</li>';});
   }
   function score(w,q){
-    var han=/[\u2e80-\u9fff]/.test(q);
-    if(han){
-      if(w.hz===q)return 100; if(w.rad.split(' ').indexOf(q)>=0&&w.hz.length===1)return 70;
-      if(w.hz.indexOf(q)>=0)return 60-w.hz.length; if(w.rad.indexOf(q)>=0)return 40; return 0;
+    if(HAN.test(q)){
+      var qh=q.replace(/[^\u2e80-\u2fdf\u3400-\u9fff\uf900-\ufaff]/g,'');
+      if(w.hz===qh)return 1000;
+      if(w.hz.indexOf(qh)===0)return 700-w.hz.length;
+      if(w.hz.indexOf(qh)>0)return 650-w.hz.length;
+      if(qh.length===1&&w.rad.split(' ').indexOf(qh)>=0)return 450-w.hz.length;
+      return 0;
     }
-    var ql=low(q).trim(),s=0,qb=bare(ql),qd=/[0-9]/.test(ql),qm=tones(ql.normalize('NFC'));
-    if(qb){
-      if(qd){var qt=ql.replace(/[^1-5]/g,'').replace(/5/g,''),qs=qb.replace(/[0-9]/g,'');
-        if(w.b===qs&&(w.t===qt||w.t.indexOf(qt)===0))s=95;else if(w.b.indexOf(qs)===0&&w.t.indexOf(qt)===0)s=75;}
-      else if(qm){var qp=ql.normalize('NFC').replace(/\s+/g,'');if(w.pl===qp)s=95;else if(w.pl.indexOf(qp)===0)s=75;else if(w.pl.indexOf(qp)>0)s=45;}
-      else{if(w.b===qb)s=90;else if(w.b.indexOf(qb)===0)s=65+Math.max(0,10-w.b.length);}
+    var ql=q.toLowerCase().normalize('NFC').trim(),qf=fold(ql),s=0;
+    var qd=ql.replace(/[^1-5]/g,'').replace(/5/g,''),qm=tones(ql),qt=qd||qm,qb=bare(ql);
+    if(qb){ // pinyin
+      var b=(w.b===qb||w.bu===qb)?2:(w.b.indexOf(qb)===0||w.bu.indexOf(qb)===0)?1:0;
+      if(b){var tok=!qt||w.t===qt?2:w.t.indexOf(qt)===0?1:0;
+        if(tok)s=b===2?(tok===2&&qt?960:900):(qb.length>=2?600-(w.b.length-qb.length)*5:0);}
     }
-    if(ql.length>=2&&!qd&&!qm){var re=new RegExp('(^|[^a-zà-ÿ])'+ql.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));
-      var i=w.txt.indexOf(ql);if(i>=0){var t=re.test(w.txt)?85:50;if(w.nl.toLowerCase()===ql||w.en.toLowerCase()===ql)t=98;s=Math.max(s,t-Math.min(20,w.txt.length/10));}}
+    if(qf.length>=2&&!qd){ // betekenis NL/EN/ES + thema
+      for(var i=0;i<3;i++){var m=w.mean[i];if(!m)continue;
+        var parts=m.split(/\s*[;,]\s*/);for(var j=0;j<parts.length;j++){var p=parts[j].replace(/^(to|om te|te|para|el|la|een|de|het|a|an|the) /,'');if(p===qf||parts[j]===qf){s=Math.max(s,i===0?880:850);}}
+      }
+      if(w.ww.indexOf(qf)>=0)s=Math.max(s,700);
+      else if(qf.length>=3&&w.ww.some(function(x){return x.indexOf(qf)===0;}))s=Math.max(s,520);
+      else if(qf.length>=4&&w.mean.some(function(m){return m.indexOf(qf)>=0;}))s=Math.max(s,300);
+      if(w.thw.some(function(x){return x===qf||(qf.length>=4&&x.indexOf(qf)===0);}))s=s>=560?s+40:560;
+    }
     return s;
   }
-  function tag(w){if(w.st==='4.6')return '<span class="tag ok">4.6 kaart</span>';if(w.st==='3.5')return '<span class="tag">3.5</span>';return '<span class="tag">geen kaart</span>';}
+  function bron(b){var l=b.split(' | ').map(function(x){return x.replace('WOORD DIEPTE woorden.json','Woord-diepte').replace(/ · A-Z \(les onbekend\)/,'');});
+    var u=[];l.forEach(function(x){if(u.indexOf(x)<0)u.push(x);});return u.slice(0,2).join(' · ')+(u.length>2?' · +'+(u.length-2):'');}
+  function kaart(w){
+    if(w.st==='4.6'&&w.k)return '<a class="zk-kaart" href="'+esc(w.k)+'">open 4.6-kaart →</a>';
+    return '<span class="zk-geen">nog geen kaart</span>'+(w.st==='3.5'&&w.k?' <a class="zk-oud" href="'+esc(w.k)+'">3.5-versie</a>':'');
+  }
   function run(){
-    var q=inp.value.trim();if(!q){out.innerHTML='';return;}
+    var q=inp.value.trim();
+    try{var u=new URL(location.href);if(q)u.searchParams.set('q',q);else u.searchParams.delete('q');history.replaceState(null,'',u);}catch(e){}
+    if(!q){out.innerHTML='';return;}
     load(function(){
-      var r=[];for(var i=0;i<W.length;i++){var s=score(W[i],q);if(s>0)r.push([s+(W[i].st==='4.6'?3:W[i].st==='3.5'?1:0),W[i]]);}
+      if(inp.value.trim()!==q)return;
+      var r=[];for(var i=0;i<W.length;i++){var s=score(W[i],q);if(s>0)r.push([s+(W[i].st==='4.6'?3:0),W[i]]);}
       r.sort(function(a,b){return b[0]-a[0]||a[1].hz.length-b[1].hz.length;});
-      var n=r.length;r=r.slice(0,40);
-      out.innerHTML='<p class="sub">'+n+' gevonden'+(n>40?' · eerste 40':'')+'</p>'+r.map(function(x){var w=x[1],h='<span class="hz2">'+esc(w.hz)+'</span>';
-        return '<li>'+(w.k?'<a href="'+esc(w.k)+'">'+h+'</a>':h)+' <b>'+esc(w.py)+'</b> · '+esc(w.nl||'—')+' <span class="sub">/ '+esc((w.en||'').split(';')[0])+'</span> '+tag(w)+(w.o?' <span class="tag" title="zie master.json">onzeker</span>':'')+'<div class="sub zb">'+esc(w.bron.split(' | ').slice(0,3).join(' · '))+(w.rad?' · radicaal '+esc(w.rad):'')+'</div></li>';}).join('');
-      out.insertAdjacentHTML('afterbegin','');
+      var n=r.length;r=r.slice(0,MAX);
+      if(!n){out.innerHTML='<li class="sub">Niets gevonden voor “'+esc(q)+'”. Probeer een hanzi (手), pinyin (shouji) of een woord (telefoon, family).</li>';return;}
+      out.innerHTML='<li class="sub zk-n">'+n+' gevonden'+(n>MAX?' · eerste '+MAX:'')+'</li>'+r.map(function(x){var w=x[1];
+        var es=w.es?' · <i>es</i> '+esc(w.es):'',en=w.en?'<i>en</i> '+esc(w.en.split(';').slice(0,2).join(';')):'';
+        return '<li class="zk"><div class="zk-hz" lang="zh">'+esc(w.hz)+'</div><div class="zk-txt"><div><b class="zk-py">'+esc(w.py)+'</b> <span class="zk-nl">'+esc(w.nl||'—')+'</span></div>'+
+          '<div class="zk-klein">'+en+es+'</div><div class="zk-klein zk-bron">'+esc(bron(w.bron))+(w.rad&&w.rad!==w.hz?' · radicaal '+esc(w.rad):'')+(w.th.length?' · '+esc(w.th.join(', ')):'')+(w.gen?' · <span title="betekenis/thema automatisch aangevuld, nog te controleren">NL auto</span>':'')+'</div><div>'+kaart(w)+'</div></div></li>';}).join('');
     });
   }
-  inp.addEventListener('input',function(){clearTimeout(F);F=setTimeout(run,120);});
-  inp.addEventListener('focus',function(){load(function(){});},{once:true});
-  var q=new URLSearchParams(location.search).get('q');if(q){inp.value=q;run();}
+  inp.addEventListener('input',function(){clearTimeout(F);F=setTimeout(run,150);});
+  inp.addEventListener('search',run);
+  inp.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();run();inp.blur();}});
+  inp.addEventListener('focus',function(){load(function(){if(!inp.value.trim())out.innerHTML='';});},{once:true});
+  var q0=new URLSearchParams(location.search).get('q');if(q0){inp.value=q0;run();}
 })();
