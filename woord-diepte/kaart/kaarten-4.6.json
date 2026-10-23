@@ -319,6 +319,116 @@
     ]
    ],
    "extra": "中",
+   "radfam": [
+    {
+     "hz": "打",
+     "py": "dǎ",
+     "nl": "slaan; bellen",
+     "haak": "扌 is een hand: jij slaat met je hand."
+    },
+    {
+     "hz": "找",
+     "py": "zhǎo",
+     "nl": "zoeken",
+     "haak": "扌 is hand: een hand zoekt iets."
+    },
+    {
+     "hz": "拉",
+     "py": "lā",
+     "nl": "trekken",
+     "haak": "扌 is hand: hand trekt aan een touw."
+    },
+    {
+     "hz": "林",
+     "py": "lín",
+     "nl": "bos",
+     "haak": "木 + 木: twee bomen maken een bos."
+    },
+    {
+     "hz": "树",
+     "py": "shù",
+     "nl": "boom",
+     "haak": "Links 木: een boom is van hout."
+    },
+    {
+     "hz": "杯",
+     "py": "bēi",
+     "nl": "beker",
+     "haak": "Links 木: een houten beker."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de paleisplek bij de glazen wand sjouwt een reusachtige hand een piepende smartphone: ‘sjouw-jie, sjouw-jie!’ Hij belt luid, zwaait wild en de bel trilt door je tanden.",
+    "klank": "sjouw-jie",
+    "prompt": "Warm bright drawn illustration: a giant cartoon hand at a palace glass wall carries an oversized ringing smartphone like a suitcase, wild motion lines, funny surprised face, no text, no letters."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn cartoon: a giant rainbow sound spiral with a mouth shouting colorful rings, one strong image, no text, no letters.",
+    "klank-s1": "Warm bright drawn cartoon: a chunky sound wave rides a rollercoaster down then up, bouncing like a happy valley, no text, no letters.",
+    "klank-s2": "Warm bright drawn cartoon: a tiny glowing chip sprints along a huge red arrow, sparks flying, exaggerated speed, no text, no letters.",
+    "hand": "Warm bright drawn cartoon: an enormous open hand with colorful glowing fingers, palm forward, one strong image, no text, no letters.",
+    "hand-s1": "Warm bright drawn cartoon: a giant hand made of four paintbrushes, each finger bright, palm open, no text, no letters.",
+    "hand-s2": "Warm bright drawn cartoon: a hand standing sideways as a colorful gatepost, thumb hooked, one strong image, no text, no letters.",
+    "hout": "Warm bright drawn cartoon: a thick rainbow wooden log sprouting one shiny leaf, one strong image, no text, no letters.",
+    "hout-s1": "Warm bright drawn cartoon: a wooden tree leaning left with glowing roots on the left side, no text, no letters.",
+    "hout-s2": "Warm bright drawn cartoon: a glossy wooden dot balancing on a branch tip, sparkles around it, no text, no letters.",
+    "tafel": "Warm bright drawn cartoon: a sturdy little wooden table dancing on two legs, colorful, one strong image, no text, no letters.",
+    "tafel-s1": "Warm bright drawn cartoon: a tiny curved table bowing like a friendly waiter, colorful, no text, no letters.",
+    "tafel-s2": "Warm bright drawn cartoon: a table leg curling into a shiny metal hook, lifting a cup, no text, no letters.",
+    "machine": "Warm bright drawn cartoon: a friendly chunky machine with spinning gears and bright levers, one strong image, no text, no letters.",
+    "machine-s1": "Warm bright drawn cartoon: a wooden crossbow machine shooting a glowing gear, springy motion, no text, no letters.",
+    "machine-s2": "Warm bright drawn cartoon: a retro birthday machine stamping a simple wooden frame, cake with six candles nearby, no text, no letters.",
+    "paleis": "Warm bright drawn cartoon: a sparkling rainbow palace with tall towers and a glowing gate, one strong image, no text, no letters.",
+    "paleis-s1": "Warm bright drawn cartoon: a giant colorful hand pressing against a sparkling palace glass wall, reflections, no text, no letters.",
+    "paleis-s2": "Warm bright drawn cartoon: a palace wing shaped like a flying machine with spinning propellers, colorful, no text, no letters.",
+    "link": "Warm bright drawn cartoon: two glowing chain links joining a phone and a plane, one strong image, no text, no letters.",
+    "link-s1": "Warm bright drawn cartoon: a classic red telephone ringing with huge curly cord, bouncing, no text, no letters.",
+    "link-s2": "Warm bright drawn cartoon: a cheerful paper airplane flying through a bright blue sky, motion trail, no text, no letters."
+   },
+   "fam5": [
+    {
+     "hz": "手表",
+     "py": "shǒubiǎo",
+     "nl": "horloge",
+     "deelt": "手 + 表",
+     "haak": "手 + 表: een horloge om je pols."
+    },
+    {
+     "hz": "手套",
+     "py": "shǒutào",
+     "nl": "handschoen",
+     "deelt": "手",
+     "haak": "手 + 套: handschoen om je hand."
+    },
+    {
+     "hz": "手写",
+     "py": "shǒuxiě",
+     "nl": "met de hand schrijven",
+     "deelt": "手",
+     "haak": "手 + 写: met de hand schrijven."
+    },
+    {
+     "hz": "洗手",
+     "py": "xǐshǒu",
+     "nl": "handen wassen",
+     "deelt": "手",
+     "haak": "洗 + 手: je handen wassen."
+    },
+    {
+     "hz": "帮手",
+     "py": "bāngshǒu",
+     "nl": "helper",
+     "deelt": "手",
+     "haak": "帮 + 手: een extra hand die helpt."
+    },
+    {
+     "hz": "手机壳",
+     "py": "shǒujīké",
+     "nl": "telefoonhoesje",
+     "deelt": "手机",
+     "haak": "手机 + 壳: een schaal om je mobiel."
+    }
+   ],
    "_hot": [
     [
      "KLANK",
@@ -556,6 +666,113 @@
      ]
     ]
    ],
+   "radfam": [
+    {
+     "hz": "打",
+     "py": "dǎ",
+     "nl": "slaan",
+     "haak": "Links een handje dat op een spijker slaat."
+    },
+    {
+     "hz": "找",
+     "py": "zhǎo",
+     "nl": "zoeken",
+     "haak": "Handje zoekt met een haak naar iets."
+    },
+    {
+     "hz": "拉",
+     "py": "lā",
+     "nl": "trekken",
+     "haak": "Handje trekt aan een touw."
+    },
+    {
+     "hz": "接",
+     "py": "jiē",
+     "nl": "ontvangen",
+     "haak": "Handje vangt een bal."
+    },
+    {
+     "hz": "推",
+     "py": "tuī",
+     "nl": "duwen",
+     "haak": "Handje duwt een karretje."
+    },
+    {
+     "hz": "拍",
+     "py": "pāi",
+     "nl": "klappen",
+     "haak": "Handje klapt op een trommel."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de vaste paleisplek zwaait een reusachtige hand met een bliksemtelefoon. 'DÁ-djen-hwá!' Hij slaat de hoorn neer, vonken spatten, een tong roept door de gang en een trein stopt op de tweede tree.",
+    "klank": "DÁ-djen-hwá!",
+    "prompt": "Warm bright drawn illustration: at a grand palace gate, a giant cartoon hand holds a ringing lightning-shaped telephone, sparks fly, a tongue shouts and a tiny train stops on a step; no text or letters."
+   },
+   "mmbeeld": {
+    "klank": "A giant rainbow sound wave curling from a cartoon bell, glowing rings, playful motion, warm bright drawn style, no text.",
+    "klank-s1": "A colorful sound wave dipping down then bouncing up over a pointing cartoon hand, glowing arrows, warm bright drawn style, no text.",
+    "klank-s2": "A cheering cartoon crowd under a big red sound wave sliding downward, confetti and sparkles, warm bright drawn style, no text.",
+    "a": "A cartoon fist smashing a colorful drum, impact stars and motion lines, warm bright drawn style, no text.",
+    "a-s1": "A giant cartoon hand with five bright fingers waving, colorful outline and sparkles, warm bright drawn style, no text.",
+    "a-s2": "A shiny cartoon nail with a flat top beside a hammer, bright colors and motion lines, warm bright drawn style, no text.",
+    "b": "A bold yellow cartoon lightning bolt striking a small house, purple sky, glowing sparks, warm bright drawn style, no text.",
+    "b-s1": "A glowing cartoon lightning bolt curling like a hook above five tiny sparks, bright blue, warm bright drawn style, no text.",
+    "b-s2": "An ancient cartoon lightning symbol carved on a weathered stone tablet, moss and warm light, drawn style, no text.",
+    "c": "A giant pink cartoon tongue licking a bright lollipop, playful sparkles, warm bright drawn style, no text.",
+    "c-s1": "A cartoon speech bubble bursting from a smiling mouth, colorful sound lines, warm bright drawn style, no text.",
+    "c-s2": "A big pink cartoon tongue sticking out of a cheerful mouth, sparkles around, warm bright drawn style, no text.",
+    "paleis": "A grand colorful cartoon palace with golden gates and waving flags, bright sky, warm drawn style, no text.",
+    "paleis-s1": "A cheerful cartoon train station building with a blank clock and platform, colorful details, warm bright drawn style, no text.",
+    "paleis-s2": "A red octagonal traffic sign with a blank center beside two cartoon suitcases, warm bright drawn style, no text.",
+    "link": "A bright cartoon chain link connecting two glowing phones, sparks and motion lines, warm bright drawn style, no text.",
+    "link-s1": "A colorful cartoon landline telephone with a curly cord ringing, motion lines, warm bright drawn style, no text.",
+    "link-s2": "A cheerful cartoon smartphone with a bright blank screen and antenna, floating sparkles, warm bright drawn style, no text."
+   },
+   "fam5": [
+    {
+     "hz": "打球",
+     "py": "dǎ qiú",
+     "nl": "balspelen",
+     "deelt": "打 + 球",
+     "haak": "Een hand slaat een stuiterende bal."
+    },
+    {
+     "hz": "打工",
+     "py": "dǎ gōng",
+     "nl": "parttime werken",
+     "deelt": "打 + 工",
+     "haak": "Een hand met werkmuts tikt op een klok."
+    },
+    {
+     "hz": "打开",
+     "py": "dǎ kāi",
+     "nl": "opendoen",
+     "deelt": "打 + 开",
+     "haak": "Een hand duwt een deur wijd open."
+    },
+    {
+     "hz": "打字",
+     "py": "dǎ zì",
+     "nl": "typen",
+     "deelt": "打 + 字",
+     "haak": "Een hand tikt snel op toetsen."
+    },
+    {
+     "hz": "打车",
+     "py": "dǎ chē",
+     "nl": "taxi nemen",
+     "deelt": "打 + 车",
+     "haak": "Een hand zwaait naar een taxi."
+    },
+    {
+     "hz": "打折",
+     "py": "dǎ zhé",
+     "nl": "korting geven",
+     "deelt": "打 + 折",
+     "haak": "Een hand knipt een prijskaartje door."
+    }
+   ],
    "_hot": [
     [
      "KLANK",
@@ -772,6 +989,120 @@
      ]
     ]
    ],
+   "radfam": [
+    {
+     "hz": "河",
+     "py": "hé",
+     "nl": "rivier",
+     "haak": "Waterdruppels links; rivier stroomt door het land."
+    },
+    {
+     "hz": "海",
+     "py": "hǎi",
+     "nl": "zee",
+     "haak": "Drie waterdruppels: grote zee vol golven."
+    },
+    {
+     "hz": "洗",
+     "py": "xǐ",
+     "nl": "wassen",
+     "haak": "Waterdruppels links wassen de handen schoon."
+    },
+    {
+     "hz": "游",
+     "py": "yóu",
+     "nl": "zwemmen",
+     "haak": "Met waterdruppels zwem ik door de plas."
+    },
+    {
+     "hz": "湖",
+     "py": "hú",
+     "nl": "meer",
+     "haak": "Waterdruppels links; het meer ligt stil in het land."
+    },
+    {
+     "hz": "汉字",
+     "py": "hànzì",
+     "nl": "Chinese tekens",
+     "haak": "Waterdruppels links: Chinese tekens stromen als water."
+    }
+   ],
+   "obrien": {
+    "scene": "In de gymzaal bij plek 10 staat een lege kluis. Ik roep 'mei-jou!' en een reusachtige hand veegt alle ballen weg. Ik grijp mis: hebben is weg.",
+    "klank": "mei-jou",
+    "prompt": "Warm bright drawn illustration of a school gym at marker ten: a giant empty locker, a huge cartoon hand sweeping balls away, a child shouting, comic, no text or letters."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn cartoon: a giant glowing ear trumpet with colorful sound waves bouncing around. No text.",
+    "klank-s1": "Warm bright drawn cartoon: curious child pointing at own chest, rising squeaky sound wave. No text.",
+    "klank-s2": "Warm bright drawn cartoon: cheerful child pointing at a friend, playful down-up melody wave. No text.",
+    "a": "Warm bright drawn cartoon: sparkling blue water droplet wearing a crown, splashing in a puddle. No text.",
+    "a-s1": "Warm bright drawn cartoon: three fat blue droplets dragging a heavy stone down to sink. No text.",
+    "a-s2": "Warm bright drawn cartoon: old bearded water droplet leaning on a cane beside an ancient well. No text.",
+    "b": "Warm bright drawn cartoon: giant cheerful hand with five colorful fingers giving a high five. No text.",
+    "b-s1": "Warm bright drawn cartoon: strong angled thumb-hand pushing a bright red button. No text.",
+    "b-s2": "Warm bright drawn cartoon: playful hand balancing two crossed fingers like a tiny acrobat. No text.",
+    "c": "Warm bright drawn cartoon: juicy pink ham on a golden plate under a glowing crescent moon. No text.",
+    "c-s1": "Warm bright drawn cartoon: smiling crescent moon made of tender pink meat around a drumstick. No text.",
+    "c-s2": "Warm bright drawn cartoon: proud child hugging a huge meat bone as own treasure. No text.",
+    "paleis": "Warm bright drawn cartoon: candy-colored palace with golden gates and a giant sparkling throne. No text.",
+    "paleis-s1": "Warm bright drawn cartoon: bright school gym with ten colorful balls bouncing in a row. No text.",
+    "paleis-s2": "Warm bright drawn cartoon: empty palace room with one lonely dust bunny and echoing floor. No text.",
+    "link": "Warm bright drawn cartoon: two colorful chain links clasping together over a glowing bridge. No text.",
+    "link-s1": "Warm bright drawn cartoon: happy child clutching a big red toy, golden link glowing on it. No text.",
+    "link-s2": "Warm bright drawn cartoon: sad empty toy box with broken chain link and big red cross. No text."
+   },
+   "fam5": [
+    {
+     "hz": "没有",
+     "py": "méiyǒu",
+     "nl": "niet hebben, er is geen",
+     "deelt": "没 + 有, de kern",
+     "haak": "Kern: 没 plus 有, samen geen bezit."
+    },
+    {
+     "hz": "没事",
+     "py": "méi shì",
+     "nl": "geen probleem, niets aan de hand",
+     "deelt": "没 + 事",
+     "haak": "Geen zaak: 没 voor 事."
+    },
+    {
+     "hz": "没关系",
+     "py": "méi guānxi",
+     "nl": "geeft niet",
+     "deelt": "没 + 关系",
+     "haak": "Geen band, geen probleem: 没 plus 关系."
+    },
+    {
+     "hz": "没用",
+     "py": "méi yòng",
+     "nl": "nutteloos",
+     "deelt": "没 + 用",
+     "haak": "Niet te gebruiken: 没 voor 用."
+    },
+    {
+     "hz": "有人",
+     "py": "yǒu rén",
+     "nl": "iemand, er is iemand",
+     "deelt": "有 + 人",
+     "haak": "Heb mens: 有 voor 人."
+    },
+    {
+     "hz": "有的",
+     "py": "yǒu de",
+     "nl": "sommige",
+     "deelt": "有 + 的",
+     "haak": "Heb-ben: 有 met 的."
+    },
+    {
+     "hz": "有趣",
+     "py": "yǒuqù",
+     "nl": "interessant, leuk",
+     "deelt": "有 + 趣",
+     "haak": "Heeft plezier: 有 voor 趣."
+    }
+   ],
    "_hot": [
     [
      "KLANK",
@@ -964,6 +1295,123 @@
       ]
      ]
     ]
+   ],
+   "radfam": [
+    {
+     "hz": "弓",
+     "py": "gōng",
+     "nl": "boog",
+     "haak": "Het radicaal van 弟: een reuzenboog spant en zoemt."
+    },
+    {
+     "hz": "引",
+     "py": "yǐn",
+     "nl": "trekken; citeren",
+     "haak": "Boog plus streep: een hand trekt de pees ver naar achteren."
+    },
+    {
+     "hz": "张",
+     "py": "zhāng",
+     "nl": "openspannen; vel (telwoord)",
+     "haak": "Boog plus lang: een vel papier klapt wijd open."
+    },
+    {
+     "hz": "强",
+     "py": "qiáng",
+     "nl": "sterk",
+     "haak": "Boog plus 虽: een sterke arm spant de boog tot het einde."
+    },
+    {
+     "hz": "弯",
+     "py": "wān",
+     "nl": "buigen; krom",
+     "haak": "Boven 亦, onder de boog: de boog buigt krom als een brug."
+    },
+    {
+     "hz": "弱",
+     "py": "ruò",
+     "nl": "zwak",
+     "haak": "Twee slappe bogen naast elkaar: de pees hangt slap."
+    },
+    {
+     "hz": "弦",
+     "py": "xián",
+     "nl": "snaar",
+     "haak": "Boog plus 玄: de snaar trilt en zingt."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de paleisplek stuitert een reusachtige kleine broer als een jojo de trap af. Elke landing klinkt als een zware, vallende dì-dì, zijn strik wappert, zijn schoenen piepen en een bord rijst tolt de lucht in.",
+    "klank": "dì-dì",
+    "prompt": "Warm bright cartoon illustration of a giant toddler younger brother bouncing like a yo-yo down palace stairs, waving a ribbon, rice bowl spinning, squeaky shoes, no text."
+   },
+   "mmbeeld": {
+    "klank": "Warm hand-drawn cartoon: giant rainbow ear trumpet on a palace step, bouncing sound waves, no text.",
+    "klank-s1": "Warm hand-drawn cartoon: one giant dice cube with only pips tumbling down a steep red arrow slide, no text, no letters.",
+    "klank-s2": "Warm hand-drawn cartoon: glowing light bulb with tiny wings singing bright beams, no text.",
+    "a": "Warm hand-drawn cartoon: thick colorful rope coiled into a giant knot on palace floor, no text.",
+    "a-s1": "Warm hand-drawn cartoon: seven thick ropes tied around a cheerful little brother figure, no text.",
+    "a-s2": "Warm hand-drawn cartoon: neat queue of colorful ropes waiting in order, no text.",
+    "b": "Warm hand-drawn cartoon: cheerful boy brother with giant smile, arms wide open, no text.",
+    "b-s1": "Warm hand-drawn cartoon: tiny young brother standing in front of a much taller older brother and pointing at his own chest, no text, no numerals.",
+    "b-s2": "Warm hand-drawn cartoon: two identical little brothers high-fiving, mirrored poses, no text.",
+    "paleis": "Warm hand-drawn cartoon: grand golden palace with red gates and curved roofs, no text.",
+    "paleis-s1": "Warm hand-drawn cartoon: five courtiers bouncing a ball in palace courtyard, no text.",
+    "paleis-s2": "Warm hand-drawn cartoon: tall striped palace pole wrapped by a thick rope, no text.",
+    "link": "Warm hand-drawn cartoon: giant glowing chain link connecting two palace doors, no text.",
+    "link-s1": "Warm hand-drawn cartoon: glowing chain link wearing a plain gold champion rosette, no text, no numerals, no letters.",
+    "link-s2": "Warm hand-drawn cartoon: smiling little sister linked arm-in-arm with glowing chain link, no text."
+   },
+   "fam5": [
+    {
+     "hz": "兄弟",
+     "py": "xiōngdì",
+     "nl": "broers",
+     "deelt": "弟",
+     "haak": "Twee broers schouder aan schouder."
+    },
+    {
+     "hz": "表弟",
+     "py": "biǎodì",
+     "nl": "jongere neef (andere achternaam)",
+     "deelt": "弟",
+     "haak": "Neefje springt uit de familieboom."
+    },
+    {
+     "hz": "堂弟",
+     "py": "tángdì",
+     "nl": "jongere neef (via vaders broer)",
+     "deelt": "弟",
+     "haak": "Neefje in dezelfde familiehal."
+    },
+    {
+     "hz": "弟妹",
+     "py": "dìmèi",
+     "nl": "jongere broer en zus; vrouw van jongere broer",
+     "deelt": "弟",
+     "haak": "Broer en zus delen één rijstkom."
+    },
+    {
+     "hz": "内弟",
+     "py": "nèidì",
+     "nl": "jongere broer van je vrouw",
+     "deelt": "弟",
+     "haak": "De jongere broer van je vrouw stapt door de binnendeur."
+    },
+    {
+     "hz": "小弟",
+     "py": "xiǎodì",
+     "nl": "kleine broer; ik",
+     "deelt": "弟",
+     "haak": "Kleine broer zwaait met zijn pet."
+    },
+    {
+     "hz": "子弟",
+     "py": "zǐdì",
+     "nl": "zonen en jongere broers; jeugd van de familie",
+     "deelt": "弟",
+     "haak": "Jonge generatie speelt in de tuin."
+    }
    ],
    "_hot": [
     [
