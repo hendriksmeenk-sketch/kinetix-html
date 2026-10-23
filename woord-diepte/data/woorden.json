@@ -404,7 +404,50 @@
    "nextLabel": "—",
    "source": "woord_diepte",
    "card_id": "wd-好",
-   "status46": "open"
+   "status46": "afgekeurd-gate",
+   "kaart46": "kaart/hao.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "HAUW↘↗",
+      "zin": "Ik roep 'HAUW!' als een blije hond die zijn baas begroet."
+     },
+     "en": {
+      "haak": "HOW↘↗",
+      "zin": "I ask 'How?' with a surprised, dipping-then-rising voice."
+     },
+     "es": {
+      "haak": "JAU↘↗",
+      "zin": "Grito '¡Jau!' como un perro alegre que saluda a su dueño."
+     }
+    },
+    "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en 子 (kind) zichtbaar samenkomen, en roep stralend 'Hǎo!' terwijl ik het zachtjes wieg.",
+    "paleisStop": [
+     9
+    ],
+    "audio": [
+     "kaart/media/hao-zh.mp3",
+     "kaart/media/hao-zh-traag.mp3",
+     "kaart/media/hao-hook-nl.mp3",
+     "kaart/media/hao-hook-en.mp3",
+     "kaart/media/hao-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/hao-centrum.jpg",
+     "kaart/media/hao-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/hao-mindmap.jpg",
+    "streken": {
+     "好": [
+      "撇点",
+      "撇",
+      "提",
+      "横撇",
+      "竖钩",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "爷",
