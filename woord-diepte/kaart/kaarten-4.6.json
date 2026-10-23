@@ -488,6 +488,23 @@
     "paleis-s2",
     "tafel-s1",
     "tafel-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank-s1",
+    "klank-s2",
+    "hand-s1",
+    "hand-s2",
+    "hout-s1",
+    "hout-s2",
+    "tafel-s1",
+    "tafel-s2",
+    "machine-s1",
+    "machine-s2",
+    "paleis-s1",
+    "paleis-s2",
+    "link-s1",
+    "link-s2"
    ]
   },
   {
@@ -824,6 +841,21 @@
     "link-s2",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank-s1",
+    "klank-s2",
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "c-s1",
+    "c-s2",
+    "paleis-s1",
+    "paleis-s2",
+    "link-s1",
+    "link-s2"
    ]
   },
   {
@@ -1154,6 +1186,21 @@
     "link-s2",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank-s1",
+    "klank-s2",
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "c-s1",
+    "c-s2",
+    "paleis-s1",
+    "paleis-s2",
+    "link-s1",
+    "link-s2"
    ]
   },
   {
@@ -1456,6 +1503,19 @@
     "link-s2",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank-s1",
+    "klank-s2",
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "paleis-s1",
+    "paleis-s2",
+    "link-s1",
+    "link-s2"
    ]
   },
   {
@@ -1643,6 +1703,9 @@
     "link-s2",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien"
    ]
   },
   {
@@ -1830,6 +1893,9 @@
     "link-s2",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien"
    ]
   },
   {
@@ -2014,6 +2080,9 @@
     "link-s2",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien"
    ]
   },
   {
@@ -2348,6 +2417,16 @@
     "paleis",
     "paleis-s1",
     "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "centrum",
+    "beeld2",
+    "klank",
+    "a",
+    "b",
+    "paleis",
+    "link"
    ]
   }
  ]
