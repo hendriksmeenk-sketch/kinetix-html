@@ -1737,7 +1737,7 @@
        "zin": "Grito '¡Jau!' como un perro alegre que saluda a su dueño."
       }
      },
-     "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en 子 (kind) zichtbaar samenkomen, en roep stralend 'Hǎo!' terwijl ik het zachtjes wieg.",
+     "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en <b class=\"rood\">子</b> (kind) zichtbaar samenkomen, en roep stralend de klank met derde toon (eerst dalen, dan stijgen).",
      "paleisStop": [
       9
      ],
@@ -1765,7 +1765,7 @@
      }
     }
    },
-   "zwaar": "zwaar werk door: DeepSeek (web, DeepThink; alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
+   "zwaar": "zwaar werk door: DeepSeek V4-Pro API (reasoning max) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "_hot": [
     [
      "KLANK",
