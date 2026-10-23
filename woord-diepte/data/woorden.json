@@ -46,7 +46,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-一",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   },
   {
    "hz": "二",
@@ -94,7 +94,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-二",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   },
   {
    "hz": "三",
@@ -144,7 +144,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-三",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   },
   {
    "hz": "十",
