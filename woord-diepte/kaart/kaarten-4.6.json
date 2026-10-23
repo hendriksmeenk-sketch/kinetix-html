@@ -363,7 +363,22 @@
      20.0
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "hand-s1",
+    "hand-s2",
+    "hout-s1",
+    "hout-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "machine-s1",
+    "machine-s2",
+    "paleis-s1",
+    "paleis-s2",
+    "tafel-s1",
+    "tafel-s2"
+   ]
   },
   {
    "slug": "dadianhua",
@@ -579,7 +594,20 @@
      22.2
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "c-s1",
+    "c-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ]
   },
   {
    "slug": "meiyou",
@@ -782,7 +810,20 @@
      22.2
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "c-s1",
+    "c-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ]
   },
   {
    "slug": "didi",
@@ -956,7 +997,18 @@
      26.5
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ]
   },
   {
    "slug": "jiejie",
@@ -1132,7 +1184,18 @@
      26.5
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ]
   },
   {
    "slug": "meimei",
@@ -1308,7 +1371,18 @@
      26.5
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ]
   },
   {
    "slug": "nainai",
@@ -1481,7 +1555,18 @@
      26.5
     ]
    ],
-   "_mm_open": []
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ]
   },
   {
    "slug": "hao",
@@ -1800,11 +1885,21 @@
    ],
    "_mm_open": [
     "a",
+    "a-s1",
+    "a-s2",
     "b",
+    "b-s1",
+    "b-s2",
     "centrum",
     "klank",
+    "klank-s1",
+    "klank-s2",
     "link",
-    "paleis"
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
    ]
   }
  ]
