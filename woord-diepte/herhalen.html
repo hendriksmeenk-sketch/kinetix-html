@@ -130,7 +130,7 @@ table{width:100%;border-collapse:collapse}td,th{padding:8px 4px;border-bottom:1p
 <section class="box"><p class="sub">Bewaard op dit apparaat. <b>nieuw</b> = nog geen goede ronde · <b>geleerd</b> = minstens één ronde met ≥10 oefeningen en ≥80% goed · <b>beheerst</b> = goed op 3 verschillende dagen, verspreid over ≥7 dagen. Ladder (5×): 1 uur → 1 dag → 1 week → 1 maand → 3 maanden. Tijden: Amsterdam.</p>
 <p id="som"></p><table><thead><tr><th>Woord</th><th>Status</th><th>Geoefend</th><th>Laatste</th><th>Volgende</th><th></th></tr></thead><tbody id="rij"></tbody></table></section>
 <section class="box"><h2>Log bewaren</h2><p><button type="button" class="stap" id="exp">⬇ Exporteer log (.json)</button> <label class="stap">⬆ Importeer log<input type="file" id="imp" accept=".json,application/json" hidden></label> <button type="button" class="stap" id="ics">📅 Alle herhalingen (.ics)</button></p>
-<p class="sub">Exporteer om naar een ander apparaat te verhuizen of als back-up; importeren voegt samen (niets gaat verloren). Het .ics-bestand opent in Google Agenda (of Apple Agenda) met alle volgende herhalingen.</p></section>
+<p id="sync" class="sub"></p><p class="sub">Exporteer om naar een ander apparaat te verhuizen of als back-up; importeren voegt samen (niets gaat verloren). Het .ics-bestand opent in Google Agenda (of Apple Agenda) met alle volgende herhalingen.</p></section>
 <script>/* log46 · Chinese leren 4.6 activiteitenlog (Saidi-regel 17). Alleen op dit apparaat (localStorage 'kx46-log'). Export/import via Herhalen-pagina. */
 var LOG46=(function(){
  var K='kx46-log',U=36e5,DG=864e5,LAD=[['1 uur',U],['1 dag',DG],['1 week',7*DG],['1 maand',30*DG],['3 maanden',91*DG]];
@@ -138,10 +138,16 @@ var LOG46=(function(){
  function lees(){try{return JSON.parse(localStorage.getItem(K)||'{}')}catch(e){return{}}}
  function schrijf(L){try{localStorage.setItem(K,JSON.stringify(L))}catch(e){}}
  var SID=Date.now();
+ var SYNC='https://kx46-sync.kx46.workers.dev/log/',PK='kx46-sync';
+ function prof(){try{return JSON.parse(localStorage.getItem(PK)||'null')}catch(e){return null}}
+ /* koppelen: eenmalig herhalen.html#koppel=<profiel>.<sleutel> openen; sleutel blijft alleen op dit apparaat */
+ function koppel(){var m=location.hash.match(/koppel=([a-z0-9-]+)\.([A-Za-z0-9_-]{20,})/);if(m){try{localStorage.setItem(PK,JSON.stringify({p:m[1],k:m[2]}))}catch(e){}history.replaceState(null,'',location.pathname+location.search);return true}return false}
+ var _t;function push(){var P=prof();if(!P)return;clearTimeout(_t);_t=setTimeout(function(){fetch(SYNC+P.p,{method:'POST',headers:{'Authorization':'Bearer '+P.k,'Content-Type':'application/json'},body:JSON.stringify({log:lees()}),keepalive:true}).then(function(r){return r.ok?r.json():null}).then(function(d){if(d&&d.log){schrijf(d.log);try{localStorage.setItem(PK+'-ok',new Date().toISOString())}catch(e){}}}).catch(function(){})},1500)}
+ function pull(cb){var P=prof();if(!P)return cb&&cb(false);fetch(SYNC+P.p,{headers:{'Authorization':'Bearer '+P.k}}).then(function(r){if(!r.ok)throw r.status;return r.json()}).then(function(d){var L=lees(),R=d.log||{};Object.keys(R).forEach(function(s){var w=L[s]||(L[s]={hz:R[s].hz,py:R[s].py,nl:R[s].nl,sessies:[]}),ids={};w.sessies.forEach(function(x){ids[x.id]=1});R[s].sessies.forEach(function(x){if(!ids[x.id])w.sessies.push(x)});w.sessies.sort(function(a,b){return a.id-b.id})});schrijf(L);push();cb&&cb(true)}).catch(function(e){cb&&cb(false,e)})}
  function noteer(d,i,ok,soort){var L=lees(),w=L[d.slug]||(L[d.slug]={hz:d.hz,py:d.py,nl:d.nl,sessies:[]});
   var s=w.sessies.find(function(x){return x.id===SID});if(!s){s={id:SID,start:new Date().toISOString(),n:0,goed:0,fout:0,vragen:{},totaal:(d.oef||[]).length};w.sessies.push(s)}
   if(s.vragen[i]==null){s.n++;ok?s.goed++:s.fout++;s.vragen[i]={ok:ok?1:0,soort:soort||''}}
-  s.eind=new Date().toISOString();schrijf(L);return info(w)}
+  s.eind=new Date().toISOString();schrijf(L);push();return info(w)}
  /* goede sessie = >=10 oefeningen gedaan en >=80% goed bij eerste poging */
  function goedS(s){return s.n>=10&&s.goed/s.n>=0.8}
  function info(w){var g=(w.sessies||[]).filter(goedS).map(function(s){return Date.parse(s.eind||s.start)}).sort(),stap=0,laatst=null;
@@ -156,7 +162,7 @@ var LOG46=(function(){
  function agenda(slug,w,t){t=t||Date.now()+DG;var url=BASE+'kaart/'+slug+'.html';
   return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent('Herhaal '+w.hz+' ('+w.py+') · Chinese leren')+'&dates='+z(t)+'/'+z(t+15*6e4)+'&ctz=Europe/Amsterdam&details='+encodeURIComponent(w.hz+' '+w.py+' = '+w.nl+'\nRecall-oefeningen op de kaart: '+url+'\nOverzicht: '+BASE+'herhalen.html')}
  function tijd(t){return t?new Date(t).toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'—'}
- return{lees:lees,schrijf:schrijf,noteer:noteer,info:info,agenda:agenda,tijd:tijd,LAD:LAD,K:K}})();
+ return{koppel:koppel,prof:prof,pull:pull,push:push,lees:lees,schrijf:schrijf,noteer:noteer,info:info,agenda:agenda,tijd:tijd,LAD:LAD,K:K}})();
 
 const KAART=[{"slug": "shouji", "hz": "手机", "py": "shǒujī", "nl": "mobiele telefoon"}, {"slug": "dadianhua", "hz": "打电话", "py": "dǎ diànhuà", "nl": "opbellen"}, {"slug": "meiyou", "hz": "没有", "py": "méiyǒu", "nl": "niet hebben, er is geen"}, {"slug": "didi", "hz": "弟弟", "py": "dìdi", "nl": "jongere broer"}, {"slug": "jiejie", "hz": "姐姐", "py": "jiějie", "nl": "oudere zus"}, {"slug": "meimei", "hz": "妹妹", "py": "mèimei", "nl": "jongere zus"}, {"slug": "nainai", "hz": "奶奶", "py": "nǎinai", "nl": "oma (vaders moeder)"}, {"slug": "hao", "hz": "好", "py": "hǎo", "nl": "goed, fijn"}],$=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function teken(){const L=LOG46.lees(),alle=KAART.map(k=>({...k,...(L[k.slug]||{sessies:[]}),hz:k.hz,py:k.py,nl:k.nl}));Object.keys(L).forEach(s=>{if(!KAART.find(k=>k.slug===s))alle.push({slug:s,...L[s]})});
@@ -168,5 +174,6 @@ $('imp').onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{c
 $('ics').onclick=()=>{const L=LOG46.lees(),z=t=>new Date(t).toISOString().replace(/[-:]/g,'').replace(/\.\d+/,'');let s='BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//kinetix//chinese-leren-4.6//NL\r\n';
  Object.keys(L).forEach(k=>{const f=LOG46.info(L[k]);if(!f.volgende)return;s+=`BEGIN:VEVENT\r\nUID:${k}-${f.stap}@kx46\r\nDTSTAMP:${z(Date.now())}\r\nDTSTART:${z(f.volgende)}\r\nDTEND:${z(f.volgende+9e5)}\r\nSUMMARY:Herhaal ${L[k].hz} (${L[k].py})\r\nURL:https://hendriksmeenk-sketch.github.io/kinetix-html/woord-diepte/kaart/${k}.html\r\nEND:VEVENT\r\n`});
  s+='END:VCALENDAR\r\n';const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([s],{type:'text/calendar'}));a.download='chinese-leren-herhalen.ics';a.click()};
-teken();</script>
+const nieuw=LOG46.koppel();function syncRegel(ok){const P=LOG46.prof();$('sync').innerHTML=P?`🔒 Privé-sync aan (profiel ${esc(P.p)})${ok===false?' · nu niet bereikbaar':''}${nieuw?' · dit apparaat is gekoppeld':''} <button type="button" class="stap klein" id="ontkoppel">ontkoppel</button>`:'Privé-sync uit: open één keer je persoonlijke koppellink op dit apparaat.';const o=$('ontkoppel');if(o)o.onclick=()=>{localStorage.removeItem('kx46-sync');syncRegel()}}
+teken();syncRegel();LOG46.pull((ok)=>{teken();syncRegel(ok)});</script>
 <footer>zwaar werk door: Chinese leren 4.6 · log alleen op dit apparaat</footer></main></body></html>
