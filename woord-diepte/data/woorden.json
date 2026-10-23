@@ -1302,27 +1302,15 @@
   "sjabloon": "SKELET.html",
   "data": "kaart/kaarten-4.6.json",
   "structuur": [
-   "basis-4.5",
-   "formule",
-   "plaat-huis",
-   "tools",
-   "deuren",
-   "adem",
-   "ophalen",
-   "ladder",
+   "start",
    "1-kern",
    "2-klank",
-   "3-schrift",
-   "4-beeld",
-   "5-recall",
-   "6-volgorde",
-   "radicaal",
-   "familie",
-   "kamer",
-   "peek-s1-s4",
-   "s5",
-   "s6",
-   "footer"
+   "3-beeld",
+   "4-schrift",
+   "5-radicaal-familie",
+   "6-recall",
+   "7-ladder",
+   "extra"
   ]
  }
 }

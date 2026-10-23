@@ -1,6 +1,6 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<!-- SKELET 4.6 = SKELET 4.5 (alle punten, volgorde, ids) + goedgekeurde updates. Huisstijl testkaart. Gevuld door gen46.py. Spec: systeem/chinese-leren-4.6.md -->
+<!-- SKELET 4.6c = alle punten van SKELET 4.5, elk feit één keer, leerlingvolgorde: woord+kern > klank > beeld > schrift > radicaal/familie > recall > ladder > extra. Gevuld door gen46.py. Spec: systeem/chinese-leren-4.6.md -->
 <title>姐姐 · WOORD DIEPTE 4.6</title>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 <style>:root{--bg:#f5efe4;--pap:#fbf7ef;--ink:#2b2119;--dim:#6b5a48;--rood:#b3261e;--lijn:#d9ccb6;--acc:#8a4b2a;--goed:#2e6b3a}
@@ -75,95 +75,96 @@ details.blok>summary{font-size:18px}
 body.eenblik #blad45 *:not(h1):not(h1 *){visibility:hidden}body.eenblik #blad45 h1{position:fixed;top:30%;left:0;right:0;text-align:center;visibility:visible;z-index:40}
 #kamer-toon{margin-left:.5em}#kamer-toon::after{content:" · "}
 .kw.on,button.kw.on{color:#fff}.kw.on i{color:#F3E6D8}
-</style></head><body>
-<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="één woord" autocomplete="off"></header>
+/* 4.6c beginners-UI */
+#start{text-align:center;padding:18px 0 8px}
+#start h1{margin:0}#start .hz{font-size:96px;line-height:1.1;display:block}
+.groot-audio{font-size:22px;padding:14px 28px;min-height:56px;border-radius:999px;background:#8a4b2a;color:#fff;border:0;margin:6px 0}
+.betekenis{font-size:20px;margin:8px 0 14px}
+.begin{font-size:20px;min-height:56px;width:100%;max-width:340px;border-radius:14px;background:#2e6b3a;color:#fff;border:0;font-weight:700}
+.lijn{text-align:center;color:#7a6a58;font-size:14px}
+body.rustig .pad,body.rustig .stapblok:not([open]) {display:none}
+body.rustig footer{display:none}
+.pad{display:flex;gap:4px;justify-content:space-between;margin:6px 0 10px;position:sticky;top:52px;background:#f6efe3;z-index:5;padding:4px 0}
+.pad a{flex:1;text-align:center;font-size:11px;color:#7a6a58;text-decoration:none;min-height:44px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.pad a span{width:26px;height:26px;border-radius:50%;border:2px solid #d8c8ad;display:flex;align-items:center;justify-content:center;font-weight:700;background:#fff}
+.pad a.af span{background:#2e6b3a;border-color:#2e6b3a;color:#fff}.pad a.nu span{background:#8a4b2a;border-color:#8a4b2a;color:#fff}
+.stapblok{background:#fbf7ef;border:1px solid #e3d6bf;border-radius:14px;margin:10px 0;padding:0 14px}
+.stapblok>summary{list-style:none;cursor:pointer;min-height:52px;display:flex;align-items:center}
+.stapblok>summary::-webkit-details-marker{display:none}
+.stapblok>summary h2{margin:0;font-size:19px;border:0;flex:1}
+.stapblok>summary::after{content:'＋';font-size:22px;color:#8a4b2a}.stapblok[open]>summary::after{content:'－'}
+.stapblok.extra{background:transparent;border-style:dashed}
+.volgende{display:block;width:100%;min-height:52px;margin:16px 0 14px;font-size:17px;border-radius:12px;background:#8a4b2a;color:#fff;border:0}
+.kerngrid .kr{display:flex;gap:10px;align-items:center;margin:6px 0}.kl{width:72px;color:#7a6a58;font-size:14px}.kv.groot{font-size:24px;color:#2e6b3a}
+.haak-r{display:grid;grid-template-columns:34px 1fr 54px;grid-template-rows:auto auto;align-items:center;column-gap:8px;padding:8px 0;border-bottom:1px solid #eadfcb}
+.haak-r .taal{grid-row:1/3;font-weight:700;color:#8a4b2a}.haak-r .hw{font-weight:700}.haak-r .sub{grid-column:2}.haak-r button{grid-row:1/3;grid-column:3}
+.klank.klein{min-height:44px;min-width:48px;padding:4px 10px}.klank.breed{min-height:48px;width:100%;margin:8px 0}
+.plek{font-weight:600}
+.vraag{background:#fff;border:1px solid #e3d6bf;border-radius:12px;padding:12px;margin:10px 0}
+.vk{display:flex;gap:8px;align-items:center;margin:0 0 4px}.vk .nr{background:#8a4b2a;color:#fff;border-radius:50%;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center;font-size:13px}.vk .soort{font-size:12px;color:#7a6a58;text-transform:uppercase;letter-spacing:.04em}
+.vv{font-size:17px;margin:4px 0 8px}.hzq{font-size:30px}
+.opties{display:grid;grid-template-columns:1fr 1fr;gap:8px}.opties .opt{min-height:52px;font-size:17px;border-radius:10px}
+.opt.goed{background:#e3f1e5;border-color:#2e6b3a}.opt.fout{background:#fbe5e3;border-color:#b3261e}
+.schrijfvak{width:220px;height:220px;margin:6px auto;background:#fff;border:1px solid #e3d6bf}
+.score{font-size:15px}.balk{display:inline-block;width:120px;height:10px;background:#eadfcb;border-radius:5px;vertical-align:middle;overflow:hidden}.balk span{display:block;height:100%;background:#2e6b3a}
+.stap.klein{min-height:32px;font-size:12px;padding:2px 8px}
+.stil{background:none;border:0;color:#8a4b2a;text-decoration:underline;min-height:44px;font-size:14px;display:block;margin:4px auto}
+header b{white-space:nowrap;font-size:13px}header{min-height:0;padding-top:8px;padding-bottom:8px}
+.pad{top:var(--kop,64px)}.stapblok{scroll-margin-top:140px}
+.opt.goed{color:#1d4a26!important;font-weight:700}.opt.fout{color:#7a1a14!important}
+header a{flex:none}header .zoek{flex:1;min-width:0}.pad{z-index:4}
+</style></head><body class="rustig">
+<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="zoek woord" autocomplete="off"></header>
 <main>
-<p class="lijn" id="lijn">姐姐 · jiějie · oudere zus · older sister</p>
-<nav class="pad"><a href="#blok-kern"><span>1</span>kern</a><a href="#blok-klank"><span>2</span>klank</a><a href="#blok-schrift"><span>3</span>schrift</a><a href="#blok-beeld"><span>4</span>beeld</a><a href="#blok-recall"><span>5</span>recall</a><a href="#blok-volgorde"><span>6</span>streek</a></nav>
 <article id="blad45">
-<h1><span class="hz">姐姐</span><span class="ondertitel">jiějie · 3+0 · oudere zus · older sister</span></h1>
-<section class="box" id="formule">
-<h2>Formule</h2>
-<div class="f"><b>1 Klank</b> JEE↘↗ je· <span class="sub">dal en terug, dan kort en licht</span></div>
-<div class="f"><b>2 Beeld</b> <span class="hook" id="b-hook">IK zie mijn grote zus hoog op een stapel stenen blokken staan.</span></div>
-<div class="f"><b>3 Paleis</b> Lorentz Lyceum, Arnhem Zuid · stop 7 zittrap</div>
-<p class="audio"><button type="button" class="klank" id="speel-hz" data-a="jiejie-zh">🔊 中 姐姐</button><button type="button" class="klank" data-a="jiejie-zh-traag">🔊 中 traag</button><button type="button" class="klank" id="speel-haak" data-a="jiejie-hook-nl">🔊 Klankhook NL</button><button type="button" class="klank" data-a="jiejie-hook-en">🔊 EN</button><button type="button" class="klank" data-a="jiejie-hook-es">🔊 ES</button></p>
-<p class="sub" id="audnote">Chinees: Mandarijn, moedertaalstem. NL/EN/ES: klank-haken, geen vertaling.</p>
-<details><summary>Klank-haken NL · EN · ES</summary><p><b>NL</b> <i>jee ↘↗ + je (licht)</i>: “Jee... je grote zus weet het weer beter.”<br><b>EN</b> <i>a jay? ↘↗ + jay (light)</i>: “A jay? Big sister chatters like a jay.”<br><b>ES</b> <i>¿yeso? ↘↗ (ye-) + ye (suave)</i>: “¿Yeso? Mi hermana mayor es dura como el yeso.”<br></p><p class="sub">→ 1e toon hoog en vlak · ↗ 2e stijgt · ↘↗ 3e zakt en veert terug · ↘ 4e valt hard · licht = neutraal.</p></details>
-<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis"><li><b>Spoorviaduct</b> <span class="sub">het hele station hangt boven de Metamorfosenallee</span></li><li><b>Stationsgebouw</b> <span class="sub">verkeersgebouw van Edwin Megens, 2005</span></li><li><b>Beschilderde pijlers</b> <span class="sub">muurschildering 2024: groen, geschiedenis, wijk</span></li><li><b>Metalen gevel Lorentz</b> <span class="sub">gevelsysteem van Rakon (?)</span></li><li><b>Cruijff-court</b> <span class="sub">kooiveld op het schoolplein</span></li><li><b>Glaswand aula</b> <span class="sub">grote glazen buitenwand</span></li><li class=anker><b>Zittrap</b> <span class="sub">brede trap die tribune is</span></li><li><b>Vleugel</b> <span class="sub">vleugel in de aula</span></li><li><b>Atrium</b> <span class="sub">hart van de school, grafische prints op de wanden</span></li><li><b>Zwevende gymzaal</b> <span class="sub">sportzaal opgetild naar de 1e verdieping</span></li></ol><p>O'Brien: <b>7</b> Op de zittrap staat mijn grote zus bovenaan, op een stapel stenen blokken (且). IK kijk omhoog: jee ↘↗, je.</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
+<section id="start">
+<h1><span class="hz" id="k-hz"><span id="kop-hz">姐姐</span></span></h1>
+<button type="button" class="groot-audio" id="speel-hz" data-a="jiejie-zh">▶ Luister</button>
+<p class="betekenis"><span id="k-nl"><span id="kop-nl">oudere zus</span></span></p>
+<button type="button" class="begin" id="begin">Begin</button>
+<button type="button" class="stil" id="alles-start">gevorderd? alles tonen</button>
+<p class="lijn" id="lijn">7 korte stappen · ongeveer 10 minuten</p>
 </section>
-<details class="blok" open><summary>Mindmap (Buzan) · tik een tak</summary>
-<div class="plaat-huis" id="plaat-huis"><img class="plaat" src="media/jiejie-mindmap.jpg" alt="Buzan-mindmap 姐姐"><button type="button" class="hot" style="left:64.6%;top:21.1%" data-hot="klank" aria-label="KLANK"></button><button type="button" class="hot" style="left:80.6%;top:55.7%" data-hot="a" aria-label="VROUW"></button><button type="button" class="hot" style="left:54.3%;top:82.4%" data-hot="b" aria-label="STAPEL"></button><button type="button" class="hot" style="left:22.1%;top:64.3%" data-hot="paleis" aria-label="PALEIS"></button><button type="button" class="hot" style="left:28.4%;top:26.5%" data-hot="link" aria-label="LINK"></button><button type="button" class="hot midden" style="left:50%;top:50%" data-hot="centrum" aria-label="midden"></button></div>
-<p class="legenda"><b class="c-plek">● plek</b> <b class="c-beeld">● beeld</b> <b class="c-woord">● woord</b> <b class="c-toon">● toon</b></p>
-<p class="sub">Buzan: centraal beeld · gebogen takken, dik bij het midden · 1 woord per lijn · beeld per tak · kleur per tak · radiaal, met de klok mee vanaf KLANK.</p></details>
-<div class="tools"><button type="button" class="stap" id="tool-toon">Tooncoach</button><button type="button" class="stap" id="tool-oor-1">🔊 姐</button><button type="button" class="stap" id="tool-oor-woord">🔊 姐姐</button><button type="button" class="stap" id="tool-split">Morfeem</button><button type="button" class="stap" id="tool-leeg">Leeg vak</button><button type="button" class="stap" id="tool-beurt">Jouw beurt</button><button type="button" class="stap" id="tool-bord">Bord</button><button type="button" class="stap" id="tool-liniaal">Ademliniaal</button><button type="button" class="stap" id="tool-blik">Eén blik</button></div>
-<div class="tool-uit" id="tool-uit" hidden></div>
-<div class="liniaal" id="liniaal" hidden><span></span></div>
-<h2>Deuren · loop</h2>
-<section class="deur" id="deur-1" tabindex="0" data-klank="" data-img="a" style="background:#F3ECE9;border-color:#8D6E63"><p class="r1">1 · de vrouw <span class="haak">zacht</span></p><p class="r2">Op de zittrap knielt een vrouw.</p><p><span class="hzd">女</span><span class="py">nǚ</span>vrouw</p></section><section class="deur" id="deur-2" tabindex="0" data-klank="" data-img="b" style="background:#FFF8E1;border-color:#E9A400"><p class="r1">2 · de stapel <span class="haak">kalk</span></p><p class="r2">Naast haar een toren van stenen blokken.</p><p><span class="hzd">且</span><span class="py">qiě</span>stapel (klankdeel)</p></section><section class="deur" id="deur-3" tabindex="0" data-klank="0" data-img="centrum" style="background:#E8F1F8;border-color:#457B9D"><p class="r1">3 · de top <span class="haak">„JEE!”</span></p><p class="r2">Mijn grote zus klimt op de stapel; jee, zakt en veert terug.</p><p><span class="hzd">姐</span><span class="py">jiě</span>oudere zus</p></section><section class="deur" id="deur-4" tabindex="0" data-klank="alle" data-img="paleis" style="background:#F3ECFC;border-color:#9B5DE5"><p class="r1">4 · de zittrap <span class="haak">„JEE! je”</span></p><p class="r2">Jee hard, je zacht, haar stem galmt over de trap.</p><p><span class="hzd">姐姐</span><span class="py">jiějie</span>oudere zus</p></section>
-<h2 id="blok-adem">Eén adem</h2>
-<p class="adem">女。且。姐。姐姐。</p>
-<h2>Eerst ophalen</h2>
-<div class="kaart"><b>♠ Terugloop. </b>Achteruit, uit je hoofd: de zittrap, de top, de stapel, de vrouw. Dan pas kijken.
-<p><button type="button" class="stap" id="loop-terug">Terugloop</button><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>姐姐, 姐, 且, 女.</p></div>
-<div class="kaart"><b>♥ Klankhook. </b>JEE↘↗ je·: dal en terug, dan kort en licht.
-<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>Jee?... je. Jee, je grote zus weet het weer beter. Jee zakt en veert terug, het tweede je is kort en licht.</p></div>
-<div class="kaart"><b>♦ Ketting. </b>de vrouw → de stapel → de top → de zittrap.
-<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>Op de zittrap knielt een vrouw. Naast haar een toren van stenen blokken. Mijn grote zus klimt op de stapel; jee, zakt en veert terug. Jee hard, je zacht, haar stem galmt over de trap.</p></div>
-<h2>Herhaal-ladder</h2>
-<div class="ladder" id="ladder"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot"></p></div>
+<nav class="pad" id="pad" aria-label="stappen"><a href="#st-1"><span>1</span>woord</a><a href="#st-2"><span>2</span>klank</a><a href="#st-3"><span>3</span>beeld</a><a href="#st-4"><span>4</span>schrift</a><a href="#st-5"><span>5</span>familie</a><a href="#st-6"><span>6</span>oefen</a><a href="#st-7"><span>7</span>herhaal</a></nav>
 
-<h2 id="blok-kern">1 Kern</h2>
-<table class="kern">
-<tr><td class="c-woord">Woord</td><td class="c-woord hzc" id="k-hz">姐姐</td></tr>
-<tr><td class="c-toon">Klank</td><td class="c-toon" id="k-py">jiějie</td></tr>
-<tr><td class="c-toon">Toon</td><td id="k-toon">3+0</td></tr>
-<tr><td>Vertaling</td><td id="k-nl">oudere zus</td></tr>
-<tr><td>Engels</td><td id="k-en">older sister</td></tr>
-<tr><td class="c-woord">Radicaal</td><td id="k-rad">🔴女🔴 vrouw · ⚫且⚫ klank qiě</td></tr>
-<tr><td class="c-plek">Plek</td><td id="k-plek">Lorentz Lyceum, stop 7 zittrap (4.6) · 3.5: Staatsexamen H6/H7</td></tr>
-<tr><td class="c-beeld">Actie</td><td id="k-actie">Mijn oudere zus staat naast een toren van 且 en zakt diep in.</td></tr>
-</table>
+<details class="stapblok" id="st-1"><summary><h2 id="blok-kern">1 Kern · het woord</h2></summary>
+<div class="kerngrid">
+<p class="kr"><span class="kl">Pinyin</span><span class="kv groot" id="k-py"><span id="kop-py">jiějie</span></span></p>
+<p class="kr"><span class="kl">Toon</span><span class="kv" id="k-toon"><span id="kop-toon">3+0</span></span> <button type="button" class="klank klein" data-a="jiejie-zh-traag">▶ langzaam</button></p>
+<p class="kr"><span class="kl">Engels</span><span class="kv" id="k-en">older sister</span></p>
+</div>
+<h3>Klank-haak · klinkt als</h3>
+<div class="haken"><div class="haak-r"><span class="taal">NL</span><span class="hw">jee ↘↗ + je (licht)</span><span class="sub">„Jee... je grote zus weet het weer beter.”</span><button type="button" class="klank klein" id="speel-haak" data-a="jiejie-hook-nl">▶</button></div><div class="haak-r"><span class="taal">EN</span><span class="hw">a jay? ↘↗ + jay (light)</span><span class="sub">„A jay? Big sister chatters like a jay.”</span><button type="button" class="klank klein" data-a="jiejie-hook-en">▶</button></div><div class="haak-r"><span class="taal">ES</span><span class="hw">¿yeso? ↘↗ (ye-) + ye (suave)</span><span class="sub">„¿Yeso? Mi hermana mayor es dura como el yeso.”</span><button type="button" class="klank klein" data-a="jiejie-hook-es">▶</button></div></div>
+<p class="sub" id="audnote">Chinees = moedertaalstem. NL/EN/ES = klank-haak, geen vertaling.</p>
+<h3>Beeld-haak</h3>
+<p class="hook" id="b-hook">IK zie mijn grote zus hoog op een stapel stenen blokken staan.</p>
+<div class="hook2" id="b-beeldhook"><img src="media/jiejie-centrum.jpg" alt="beeld-haak 1"><img src="media/jiejie-beeld2.jpg" alt="beeld-haak 2"></div>
+<h3>Paleis-plek</h3>
+<p class="plek" id="k-plek">Paleis · Lorentz Lyceum, Arnhem Zuid · stop 7 zittrap</p>
+<button type="button" class="volgende" data-naar="2">Volgende: klank →</button>
+</details>
 
-<h2 id="blok-klank">2 Klank</h2>
-<div class="valrij"><button type="button" class="val t3" id="val-1">JEE!</button><button type="button" class="val t0" id="val-2">je</button><button type="button" class="klank" id="val-beide">JEE! je</button></div>
-<p class="sub">dal en terug, dan kort en licht · tik een lettergreep: hij valt zoals de toon.</p>
-<details><summary>Klank (3.5) + haken</summary><p class="proza" id="b-klank">jiějie — tonen 3+0.
+<details class="stapblok" id="st-2"><summary><h2 id="blok-klank">2 Klank</h2></summary>
+<p class="sub">Tik een lettergreep: hij valt zoals de toon.</p>
+<div class="valrij"><button type="button" class="val t3" id="val-1">JEE!</button><button type="button" class="val t0" id="val-2">je</button></div><button type="button" class="klank breed" id="val-beide">▶ JEE! je samen</button>
+<p class="proza" id="b-klank">dal en terug, dan kort en licht</p>
+<details><summary>De 4 tonen</summary><p class="sub">→ 1e hoog en vlak · ↗ 2e stijgt · ↘↗ 3e zakt en veert terug · ↘ 4e valt hard · licht = neutraal.</p></details>
+<button type="button" class="volgende" data-naar="3">Volgende: beeld →</button>
+</details>
 
-Klankhook: DZJIE-je (vallei)
+<details class="stapblok" id="st-3"><summary><h2 id="blok-beeld">3 Geheugenbeeld</h2></summary>
+<p class="sub">Doe het, zie het, voel het:</p>
+<p class="hook" id="k-actie">Mijn oudere zus staat naast een toren van 且 en zakt diep in.</p>
+<div class="proza" id="b-beeld">In de aula van het Lorentz, op de brede zittrap, staat mijn grote zus helemaal bovenaan. Onder haar voeten een toren van blokken (且). Jee, zeg ik, mijn stem zakt en komt terug; je, zacht.
+Stof van de blokken, koud steen, haar stem die over de trap galmt, grijze blokken, kalk op mijn tong.</div>
+<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis"><li><b>Spoorviaduct</b> <span class="sub">het hele station hangt boven de Metamorfosenallee</span></li><li><b>Stationsgebouw</b> <span class="sub">verkeersgebouw van Edwin Megens, 2005</span></li><li><b>Beschilderde pijlers</b> <span class="sub">muurschildering 2024: groen, geschiedenis, wijk</span></li><li><b>Metalen gevel Lorentz</b> <span class="sub">gevelsysteem van Rakon (?)</span></li><li><b>Cruijff-court</b> <span class="sub">kooiveld op het schoolplein</span></li><li><b>Glaswand aula</b> <span class="sub">grote glazen buitenwand</span></li><li class=anker><b>Zittrap</b> <span class="sub">brede trap die tribune is</span></li><li><b>Vleugel</b> <span class="sub">vleugel in de aula</span></li><li><b>Atrium</b> <span class="sub">hart van de school, grafische prints op de wanden</span></li><li><b>Zwevende gymzaal</b> <span class="sub">sportzaal opgetild naar de 1e verdieping</span></li></ol><p>O'Brien: <b>7</b> Op de zittrap staat mijn grote zus bovenaan, op een stapel stenen blokken (且). IK kijk omhoog: jee ↘↗, je.</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
+<button type="button" class="volgende" data-naar="4">Volgende: schrift →</button>
+</details>
 
-4.6 klank-haken: NL jee ↘↗ + je (licht) · EN a jay? ↘↗ + jay (light) · ES ¿yeso? ↘↗ (ye-) + ye (suave)</p></details>
-
-<h2 id="blok-schrift">3 Schrift</h2>
+<details class="stapblok" id="st-4"><summary><h2 id="blok-schrift">4 Schrift</h2></summary>
 <p id="blik-tian" hidden>女</p>
-<p><b class="rood">女</b> vrouw, betekenisdeel · <b>且</b> qiě, klankdeel</p>
-<p class="proza" id="b-schrift">姐 = 女 vrouw + 且 klank
-
-姐 8: 撇点 撇 横 · 竖 横折 横 横 横</p>
-<details><summary>Geschiedenis</summary><div class="prose" id="gesch"></div></details>
-<details><summary>Twijfel</summary><ul class="twijfel" id="tw"></ul></details>
-
-<h2 id="blok-beeld">4 Geheugenbeeld</h2>
-<p class="voordeur">Paleis · stop 7 zittrap</p>
-<p class="hook" id="b-beeldhook">IK zie mijn grote zus hoog op een stapel stenen blokken staan.</p>
-<div class="hook2"><a href="media/jiejie-centrum.jpg" target="_blank"><img src="media/jiejie-centrum.jpg" alt="beeldhook 1"></a><a href="media/jiejie-beeld2.jpg" target="_blank"><img src="media/jiejie-beeld2.jpg" alt="beeldhook 2"></a></div>
-<p class="proza" id="b-beeld">Mijn oudere zus staat naast een toren van 且 en zakt diep in.</p>
-<details><summary>Scène (Lorentz)</summary><div class="prose">In de aula van het Lorentz, op de brede zittrap, staat mijn grote zus helemaal bovenaan. Onder haar voeten een toren van blokken (且). Jee, zeg ik, mijn stem zakt en komt terug; je, zacht.
-Stof van de blokken, koud steen, haar stem die over de trap galmt, grijze blokken, kalk op mijn tong.</div></details>
-
-<h2 id="blok-recall">5 Actieve recall</h2>
-<div class="tools" id="recall-manieren"><button type="button" class="stap" id="rec-productie">Productie</button><button type="button" class="stap" id="rec-dek">Dek</button><button type="button" class="stap" id="rec-flits">Flits</button><button type="button" class="stap" id="rec-zintuig">Eén zintuig</button><button type="button" class="stap" id="rec-radicaal">Alleen radicaal</button><button type="button" class="stap" id="rec-lucht">Lucht eerst</button></div>
-<div id="recall-veld" class="tool-uit" hidden><p id="recall-zin"></p><p id="recall-antwoord" hidden></p><button type="button" class="stap" id="recall-toon" hidden>toon</button></div>
-<div id="b-vragen"><div id="vragen"></div></div>
-<button type="button" class="gehaald" id="gehaald-vragen">Gehaald</button>
-<div class="leegrij"></div>
-<div class="proza grijs" id="b-antwoorden" hidden>Kijk naar 姐姐.
-Zeg hardop: jiějie.
-Roep de klankhook: DZJIE-je (vallei).
-Zie het beeld: Mijn oudere zus staat naast een toren van 且 en zakt diep in.
-Open #s2 en #s4. Dek, haal op.</div>
-
-<h2 id="blok-volgorde">6 Schrijfvolgorde</h2>
+<p class="proza" id="b-schrift"><b class="rood">女</b> vrouw, betekenisdeel · <b>且</b> qiě, klankdeel</p>
+<h3 id="blok-volgorde">Schrijfvolgorde</h3>
 <div class="row" id="tabs"></div><div id="hw"></div>
 <p id="fb">Tik op Oefen en teken streek 1.</p>
 <div class="row" style="justify-content:center"><button id="demo">Toon</button><button id="quiz" class="on">Oefen</button><button id="reset">Opnieuw</button></div>
@@ -175,44 +176,80 @@ Open #s2 en #s4. Dek, haal op.</div>
 <details><summary>Vrij trekken (bord)</summary>
 <p id="streek-naam"></p><canvas id="streek-vlak" width="640" height="280"></canvas><p id="streek-model"></p>
 <button type="button" class="stap" id="streek-zet">gezet</button> <button type="button" class="stap" id="streek-wis">wis</button></details>
-<details><summary>Streken (3.5)</summary><div class="proza" id="b-streep">姐 8: 撇点 撇 横 · 竖 横折 横 横 横
-姐姐</div></details>
-<label class="hand"><input type="checkbox" id="hand"> Ik heb 姐姐 met de hand op papier geschreven</label>
+<div id="b-streep"><label class="hand"><input type="checkbox" id="hand"> Ik heb het met de hand op papier geschreven</label></div>
 <p id="status"></p>
+<details><summary>Geschiedenis</summary><div class="prose" id="gesch"></div></details>
+<details><summary>Twijfel</summary><ul class="twijfel" id="tw"></ul></details>
+<button type="button" class="volgende" data-naar="5">Volgende: radicaal & familie →</button>
+</details>
 
-<h2>Radicaal</h2>
-<ul class="leden" id="radicaal-leden"><li><span class="rood">女</span>nǚ vrouw</li><li><span class="rood">且</span>qiě stapel (klankdeel)</li></ul>
-<h2>Familie</h2>
-<details><summary>Verbindingen (andere woorden)</summary><ul class="leden fam" id="familie-leden"></ul></details>
-<h2>Herhaal-ladder</h2>
-<div class="ladder" id="ladder-laatste"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot"></p></div>
+<details class="stapblok" id="st-5"><summary><h2>5 Radicaal · Familie</h2></summary>
+<h3>Radicaal</h3>
+<div id="k-rad"><ul class="leden" id="radicaal-leden"><li><span class="rood">女</span>nǚ vrouw</li><li><span class="rood">且</span>qiě stapel (klankdeel)</li></ul></div>
+<h3>Familie</h3>
+<ul class="leden fam" id="familie-leden"></ul>
+<button type="button" class="volgende" data-naar="6">Volgende: oefenen →</button>
+</details>
+
+<details class="stapblok" id="st-6"><summary><h2 id="blok-recall">6 Actieve recall · oefenen</h2></summary>
+<p class="score" id="streep"></p>
+<div id="b-vragen"><div id="vragen"></div></div>
+<button type="button" class="gehaald" id="gehaald-vragen">Gehaald · toon doe-opdrachten</button>
+<div class="proza grijs" id="b-antwoorden" hidden>Kijk naar 姐姐.
+Zeg hardop: jiějie.
+Roep de klankhook: DZJIE-je (vallei).
+Zie het beeld: Mijn oudere zus staat naast een toren van 且 en zakt diep in.
+Open #s2 en #s4. Dek, haal op.</div>
+<details><summary>Snel ophalen · 6 manieren</summary>
+<div class="tools" id="recall-manieren"><button type="button" class="stap" id="rec-productie">Productie</button><button type="button" class="stap" id="rec-dek">Dek</button><button type="button" class="stap" id="rec-flits">Flits</button><button type="button" class="stap" id="rec-zintuig">Eén zintuig</button><button type="button" class="stap" id="rec-radicaal">Alleen radicaal</button><button type="button" class="stap" id="rec-lucht">Lucht eerst</button></div>
+<div id="recall-veld" class="tool-uit" hidden><p id="recall-zin"></p><p id="recall-antwoord" hidden></p><button type="button" class="stap" id="recall-toon" hidden>toon</button></div>
+</details>
+<details id="s5"><summary>Samen oefenen · organisatie</summary>
+<p class="dim">Wij dekken de kaart en tonen een plek. Jij haalt het woord op (zegt of doet).</p>
+<div class="row" id="org"></div><div class="row" id="stations" style="margin-top:8px"></div>
+<img class="cue-still" id="cue-still" src="media/jiejie-paleis.jpg" alt="cue: plek, geen teken"><div class="cue-txt" id="cue-txt">Nog niet gedekt.</div>
+<div class="row"><button type="button" class="kw" id="dek">dek · wij werken</button><button type="button" class="kw" id="gezegd">gezegd / gedaan</button><button type="button" class="kw" id="nog">nog · 10 min</button><button type="button" class="kw" id="niet">nu niet</button></div>
+<p class="dim" id="wij">Wij: cue + tijd. Jij: ophalen.</p>
+<div id="s6"><details><summary>Recall-tabel</summary><table class="rc"><thead><tr><th>Nr</th><th>Hersenen</th><th>Teken</th><th>Station</th><th>Volgende</th></tr></thead><tbody id="tabel"></tbody></table></details></div>
+</details>
+<button type="button" class="volgende" data-naar="7">Volgende: herhalen →</button>
+</details>
+
+<details class="stapblok" id="st-7"><summary><h2>7 Herhaal-ladder</h2></summary>
+<p class="sub">Druk GO: de kaart komt terug na een uur, een dag, een week, een maand, 3 maanden en een jaar.</p>
+<div class="ladder" id="ladder"><p data-sport="uur">uur · nog leeg</p><p data-sport="dag">dag · nog leeg</p><p data-sport="week">week · nog leeg</p><p data-sport="maand">maand · nog leeg</p><p data-sport="laatste">3m + 1j · nog leeg</p><button type="button" class="stap ladder-go">GO</button><p class="ladder-slot" id="ladder-laatste"></p></div>
+</details>
+
+<details class="stapblok extra" id="extra"><summary><h2>Extra · voor gevorderden</h2></summary>
+<details class="blok"><summary>Mindmap (Buzan) · tik een tak</summary>
+<div class="plaat-huis" id="plaat-huis"><img class="plaat" src="media/jiejie-mindmap.jpg" alt="Buzan-mindmap"><button type="button" class="hot" style="left:64.6%;top:21.1%" data-hot="klank" aria-label="KLANK"></button><button type="button" class="hot" style="left:80.6%;top:55.7%" data-hot="a" aria-label="VROUW"></button><button type="button" class="hot" style="left:54.3%;top:82.4%" data-hot="b" aria-label="STAPEL"></button><button type="button" class="hot" style="left:22.1%;top:64.3%" data-hot="paleis" aria-label="PALEIS"></button><button type="button" class="hot" style="left:28.4%;top:26.5%" data-hot="link" aria-label="LINK"></button><button type="button" class="hot midden" style="left:50%;top:50%" data-hot="centrum" aria-label="midden"></button></div>
+<p class="legenda"><b class="c-plek">● plek</b> <b class="c-beeld">● beeld</b> <b class="c-woord">● woord</b> <b class="c-toon">● toon</b></p></details>
+<details class="blok"><summary>Gereedschap · 10 tools</summary>
+<div class="tools"><button type="button" class="stap" id="tool-toon">Tooncoach</button><button type="button" class="stap" id="tool-oor-1">🔊 姐</button><button type="button" class="stap" id="tool-oor-woord">🔊 姐姐</button><button type="button" class="stap" id="tool-split">Morfeem</button><button type="button" class="stap" id="tool-leeg">Leeg vak</button><button type="button" class="stap" id="tool-beurt">Jouw beurt</button><button type="button" class="stap" id="tool-bord">Bord</button><button type="button" class="stap" id="tool-liniaal">Ademliniaal</button><button type="button" class="stap" id="tool-blik">Eén blik</button></div><div class="tool-uit" id="tool-uit" hidden></div><div class="liniaal" id="liniaal" hidden><span></span></div></details>
+<details class="blok"><summary>Paleis-loop · deuren</summary>
+<section class="deur" id="deur-1" tabindex="0" data-klank="" data-img="a" style="background:#F3ECE9;border-color:#8D6E63"><p class="r1">1 · de vrouw <span class="haak">zacht</span></p><p class="r2">Op de zittrap knielt een vrouw.</p><p><span class="hzd">女</span><span class="py">nǚ</span>vrouw</p></section><section class="deur" id="deur-2" tabindex="0" data-klank="" data-img="b" style="background:#FFF8E1;border-color:#E9A400"><p class="r1">2 · de stapel <span class="haak">kalk</span></p><p class="r2">Naast haar een toren van stenen blokken.</p><p><span class="hzd">且</span><span class="py">qiě</span>stapel (klankdeel)</p></section><section class="deur" id="deur-3" tabindex="0" data-klank="0" data-img="centrum" style="background:#E8F1F8;border-color:#457B9D"><p class="r1">3 · de top <span class="haak">„JEE!”</span></p><p class="r2">Mijn grote zus klimt op de stapel; jee, zakt en veert terug.</p><p><span class="hzd">姐</span><span class="py">jiě</span>oudere zus</p></section><section class="deur" id="deur-4" tabindex="0" data-klank="alle" data-img="paleis" style="background:#F3ECFC;border-color:#9B5DE5"><p class="r1">4 · de zittrap <span class="haak">„JEE! je”</span></p><p class="r2">Jee hard, je zacht, haar stem galmt over de trap.</p><p><span class="hzd">姐姐</span><span class="py">jiějie</span>oudere zus</p></section>
+<h3 id="blok-adem">Eén adem</h3><p class="adem">女。且。姐。姐姐。</p>
+<h3>Eerst ophalen</h3>
+<div class="kaart"><b>♠ Terugloop. </b>Loop de deuren achteruit, uit je hoofd. Dan pas kijken.
+<p><button type="button" class="stap" id="loop-terug">Terugloop</button><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>姐姐, 姐, 且, 女.</p></div>
+<div class="kaart"><b>♥ Klankhook. </b>Zeg de drie klank-haken (NL, EN, ES) zonder te kijken.
+<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>Kijk nu bij stap 1.</p></div>
+<div class="kaart"><b>♦ Ketting. </b>Loop vooruit en noem elke deur: de vrouw → de stapel → de top → de zittrap.
+<p><button type="button" class="gehaald">Gehaald</button></p><p class="grijs antwoord" hidden>Open de deuren hierboven om te vergelijken.</p></div>
+</details>
+<details class="blok" id="peek"><summary>Overzicht · spring naar een stap</summary>
+<div class="row"><a class="kw" id="s1" href="#st-1"><i>1</i><span id="kaart">kern</span></a><a class="kw" id="s2" href="#st-2"><i>2</i><span id="klank">klank</span></a><a class="kw" id="s3" href="#st-4"><i>3</i><span id="schrift">schrift</span></a><a class="kw" id="s4" href="#st-3"><i>4</i><span id="beeld">beeld</span></a></div>
+<p class="sub" id="geschiedenis">Elk feit staat één keer op de kaart; dit overzicht linkt alleen.</p><p class="sub" id="still">Alles openen: <button type="button" class="stap" id="alles">alle stappen open</button></p>
+</details>
+</details>
+
 <div id="kamer" hidden><p class="label-beeld">BEELD</p><div class="kamer-beeld" id="kamer-beeld"></div><p class="r1" id="kamer-r1"></p><p class="r2" id="kamer-r2"></p><p id="kamer-vraag" hidden>Welk teken?</p><p id="kamer-hz"></p>
 <button type="button" class="stap" id="kamer-toon" hidden>toon het teken</button> <button type="button" class="stap" id="kamer-volgende" hidden>volgende</button> <button type="button" class="gehaald" id="kamer-terug">Terug</button></div>
 </article>
-
-<details class="blok" id="peek"><summary>Kaartoverzicht 3.5 (punt 1–4 als chips)</summary>
-<section class="box"><div class="hz" id="kop-hz">姐姐</div><div class="row"><span class="kw"><i>pinyin</i><span id="kop-py">jiějie</span></span><span class="kw"><i>toon</i><span id="kop-toon">3+0</span></span><span class="kw"><i>vertaling</i><span id="kop-nl">oudere zus</span></span></div></section>
-<section class="box" id="s1"><h2>1 kaart</h2><div class="row" id="kaart"><span class="kw"><i>symbool</i>姐姐</span><span class="kw"><i>pinyin</i>jiějie</span><span class="kw"><i>toon</i>3+0</span><span class="kw"><i>vertaling</i>oudere zus</span><span class="kw"><i>radicalen</i>🔴女🔴 vrouw · ⚫且⚫ klank qiě</span><span class="kw"><i>klankhook</i>JEE↘↗ je·</span><span class="kw"><i>beeldhook</i>IK zie mijn grote zus hoog op een stapel stenen blokken staan.</span><span class="kw"><i>plek</i>stop 7 zittrap</span><span class="kw"><i>actie</i>Mijn oudere zus staat naast een toren van 且 en zakt diep in.</span></div></section>
-<section class="box" id="s2"><h2>2 klank</h2><div class="row" id="klank"><span class="kw"><i>pinyin</i>jiějie</span><span class="kw"><i>toon 1–4</i>3+0</span><span class="kw"><i>lichaam</i>JEE!</span><span class="kw"><i>brug NL/EN/ES</i>jee ↘↗ + je (licht) · a jay? ↘↗ + jay (light) · ¿yeso? ↘↗ (ye-) + ye (suave)</span></div></section>
-<section class="box" id="s3"><h2>3 schrift</h2><div class="row" id="schrift"><span class="kw"><i>delen</i>女 vrouw, betekenisdeel · 且 qiě, klankdeel</span></div><h2>geschiedenis</h2><article class="proza" id="geschiedenis">姐: 女 (vrouw, betekenis) + 且 (qiě, klank). 且 is oorspronkelijk een stapel / altaartafel voor offers.
-姐姐: verdubbeling; het tweede 姐 heeft de neutrale toon.</article></section>
-<section class="box" id="s4"><h2>4 beeld</h2><div class="row" id="beeld"><span class="kw"><i>BEELD</i>IK zie mijn grote zus hoog op een stapel stenen blokken staan.</span><span class="kw"><i>plek</i>stop 7 zittrap</span><span class="kw"><i>actie</i>Mijn oudere zus staat naast een toren van 且 en zakt diep in.</span></div><img class="still" id="still" src="media/jiejie-centrum.jpg" alt="BEELD"></section>
-</details>
-
-<section class="box" id="s5">
-<h2>5 actief recall · organisatie</h2>
-<p class="dim">Wij dekken de kaart. Wij zetten het beeld neer. Jij haalt op (zegt of doet). Geen quiz. Geen cijfer. Elke hersenen in de organisatie krijgt het woord terug.</p>
-<div class="row" id="org"></div><div class="row" id="stations" style="margin-top:8px"></div>
-<img class="cue-still" id="cue-still" src="media/jiejie-centrum.jpg" alt="cue: beeld, geen teken"><div class="cue-txt" id="cue-txt">Nog niet gedekt.</div>
-<div class="row"><button type="button" class="kw" id="dek">dek · wij werken</button><button type="button" class="kw" id="gezegd">gezegd / gedaan</button><button type="button" class="kw" id="nog">nog · 10 min</button><button type="button" class="kw" id="niet">nu niet</button></div>
-<p class="dim" id="wij">Wij: cue + tijd. Jij: ophalen.</p>
-<div id="s6"><h3>streep + tabel</h3><div class="row" id="streep"><span class="kw"><i>1</i>撇点 姐</span><span class="kw"><i>2</i>撇 姐</span><span class="kw"><i>3</i>提 姐</span><span class="kw"><i>4</i>竖 姐</span><span class="kw"><i>5</i>横折 姐</span><span class="kw"><i>6</i>横 姐</span><span class="kw"><i>7</i>横 姐</span><span class="kw"><i>8</i>横 姐</span></div>
-<details><summary>Recall-tabel</summary><table class="rc"><thead><tr><th>Nr</th><th>Hersenen</th><th>Teken</th><th>Station</th><th>Volgende</th></tr></thead><tbody id="tabel"></tbody></table></details></div>
-</section>
 <footer>zwaar werk door: grok-4.7 (Grok CLI, onderzoek) · Gemini 2.5 TTS (audio) · Gemini 3 Pro Image (beelden) · basis WOORD DIEPTE 4.5</footer>
 </main>
 <script>
-const D={"slug": "jiejie", "hz": "姐姐", "py": "jiějie", "nl": "oudere zus", "klank": "JEE↘↗ je·", "klankuitleg": "dal en terug, dan kort en licht", "val": [["JEE!", "3"], ["je", "0"]], "tabs": ["姐"], "streken": {"姐": [{"nr": 1, "cn": "撇点", "py": "piědiǎn", "nl": "val links-punt", "bet": "afwerpen links + punt", "svg": "<svg class=\"st\" viewBox=\"-84 39 801 801\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 295 461 Q 320 558 344 656 Q 354 704 372 728 Q 385 750 377 763 Q 364 781 317 808 Q 296 821 280 812 Q 267 805 277 789 Q 311 738 251 452 L 240 406 Q 231 346 199 291 Q 189 269 211 251 Q 263 226 305 192 L 340 164 Q 365 145 397 115 Q 413 102 423 100 Q 432 101 437 112 Q 443 124 436 154 Q 427 187 372 213 L 331 233 Q 301 246 263 263 Q 242 272 243 292 Q 264 355 283 419 L 295 461 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 2, "cn": "撇", "py": "piě", "nl": "val links", "bet": "afwerpen naar links", "svg": "<svg class=\"st\" viewBox=\"22 325 570 570\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 305 192 Q 299 186 294 178 Q 269 145 152 63 Q 139 54 151 52 Q 227 45 337 161 Q 338 162 340 164 L 372 213 Q 402 268 432 369 Q 447 444 464 472 Q 474 490 458 499 Q 413 535 389 527 Q 376 523 381 509 Q 387 496 390 481 L 390 452 Q 378 317 331 233 L 305 192 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 3, "cn": "提", "py": "tí", "nl": "opwaarts", "bet": "optillen", "svg": "<svg class=\"st\" viewBox=\"4 252 455 455\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 390 481 Q 344 472 295 461 L 251 452 Q 187 442 119 429 Q 97 425 63 429 Q 50 429 47 420 Q 44 407 52 398 Q 73 379 103 357 Q 113 353 126 360 Q 192 399 240 406 L 283 419 Q 326 434 373 447 Q 380 450 390 452 C 419 459 419 487 390 481 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 4, "cn": "竖", "py": "shù", "nl": "omlaag", "bet": "verticaal", "svg": "<svg class=\"st\" viewBox=\"219 205 675 675\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 581 627 Q 562 643 543 651 Q 530 655 520 650 Q 511 646 515 634 Q 542 577 542 533 Q 543 487 541 90 C 541 60 589 65 589 95 Q 590 183 591 264 L 591 298 Q 592 362 593 421 L 593 455 Q 594 498 595 537 Q 596 589 599 592 C 602 611 602 611 581 627 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 5, "cn": "横折", "py": "héngzhé", "nl": "dwars-knik", "bet": "horizontaal + knik", "svg": "<svg class=\"st\" viewBox=\"362 170 685 685\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 813 124 Q 812 371 822 534 Q 825 576 844 602 Q 857 618 842 637 Q 832 649 777 678 Q 759 690 697 659 Q 594 631 581 627 C 552 619 570 583 599 592 Q 606 593 618 598 Q 744 637 754 628 Q 766 606 756 115 C 755 85 813 94 813 124 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 6, "cn": "横", "py": "héng", "nl": "dwars", "bet": "horizontaal", "svg": "<svg class=\"st\" viewBox=\"524 330 244 244\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 593 421 Q 656 434 703 441 Q 728 447 718 460 Q 705 475 678 477 Q 633 480 593 455 C 567 439 564 415 593 421 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 7, "cn": "横", "py": "héng", "nl": "dwars", "bet": "horizontaal", "svg": "<svg class=\"st\" viewBox=\"521 482 254 254\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 591 264 Q 658 276 710 282 Q 735 286 725 300 Q 713 315 687 319 Q 648 323 591 298 C 563 286 561 259 591 264 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 8, "cn": "横", "py": "héng", "nl": "dwars", "bet": "horizontaal", "svg": "<svg class=\"st\" viewBox=\"352 476 664 664\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 541 90 Q 480 86 413 78 Q 392 77 407 59 Q 420 44 439 39 Q 460 33 476 37 Q 683 88 942 68 Q 943 69 945 68 Q 964 68 970 76 Q 976 88 960 102 Q 900 150 845 130 Q 830 129 813 124 L 756 115 Q 714 111 665 104 Q 628 100 589 95 L 541 90 Z\" fill=\"#b3261e\"/></g></svg>"}]}, "vragen": [{"vraag": "Welke streek komt na streek 1 (撇点 piědiǎn) van 姐?", "opties": ["撇 piě", "点 diǎn", "横 héng", "竖 shù"], "goed": 0, "uitleg": "姐: 撇点 · 撇 · 提 · 竖 · 横折 · 横 · 横 · 横."}, {"vraag": "Hoeveel streken heeft 姐?", "opties": ["7", "8", "9", "10"], "goed": 1, "uitleg": "姐 heeft 8 streken."}, {"vraag": "Welke streek is de laatste van 姐?", "opties": ["横 héng", "撇 piě", "竖 shù", "点 diǎn"], "goed": 0, "uitleg": "姐 eindigt met 横 héng (horizontaal)."}, {"vraag": "Wat betekent 姐姐?"}, {"vraag": "Welke radicalen zitten erin?"}, {"vraag": "Welke tonen?"}, {"vraag": "Productie A: teken → pinyin+toon+NL+hook zonder kijken."}], "familie": [{"hz": "妹妹", "py": "mèimei", "nl": "jongere zus", "deelt": "女"}, {"hz": "奶奶", "py": "nǎinai", "nl": "oma", "deelt": "女"}, {"hz": "弟弟", "py": "dìdi", "nl": "jongere broer", "deelt": "familie"}], "gesch": "姐: 女 (vrouw, betekenis) + 且 (qiě, klank). 且 is oorspronkelijk een stapel / altaartafel voor offers.\n姐姐: verdubbeling; het tweede 姐 heeft de neutrale toon.", "twijfel": ["Wat 且 oorspronkelijk afbeeldt (offertafel of voorouder-tablet): bronnen verschillen.", "ES-hook: \"yeso\" geeft alleen het begin \"ye\" van jiě."], "paleis": "stop 7 zittrap", "ankerTekst": "7 Op de zittrap staat mijn grote zus bovenaan, op een stapel stenen blokken (且). IK kijk omhoog: jee ↘↗, je.", "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>且</b> qiě, klankdeel", "zintuig": [["zacht", "女"], ["kalk", "且"]], "radicaalCue": "女 en 且", "cue": "Kijk naar 姐姐. Beeld: IK zie mijn grote zus hoog op een stapel stenen blokken staan.", "hersenen": ["Leerling A", "Leerling B", "Leerling C"], "zoek": [{"slug": "shouji", "k": ["shouji", "mobiele telefoon", "mobile phone"]}, {"slug": "dadianhua", "k": ["dadianhua", "opbellen", "to make a phone call"]}, {"slug": "meiyou", "k": ["meiyou", "niet hebben, er is geen", "not have; there isn't"]}, {"slug": "didi", "k": ["didi", "jongere broer", "younger brother"]}, {"slug": "jiejie", "k": ["jiejie", "oudere zus", "older sister"]}, {"slug": "meimei", "k": ["meimei", "jongere zus", "younger sister"]}, {"slug": "nainai", "k": ["nainai", "oma (vaders moeder)", "grandma (father’s mother)"]}]};
+const D={"slug": "jiejie", "hz": "姐姐", "py": "jiějie", "nl": "oudere zus", "klank": "JEE↘↗ je·", "klankuitleg": "dal en terug, dan kort en licht", "val": [["JEE!", "3"], ["je", "0"]], "tabs": ["姐"], "streken": {"姐": [{"nr": 1, "cn": "撇点", "py": "piědiǎn", "nl": "val links-punt", "bet": "afwerpen links + punt", "svg": "<svg class=\"st\" viewBox=\"-84 39 801 801\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 295 461 Q 320 558 344 656 Q 354 704 372 728 Q 385 750 377 763 Q 364 781 317 808 Q 296 821 280 812 Q 267 805 277 789 Q 311 738 251 452 L 240 406 Q 231 346 199 291 Q 189 269 211 251 Q 263 226 305 192 L 340 164 Q 365 145 397 115 Q 413 102 423 100 Q 432 101 437 112 Q 443 124 436 154 Q 427 187 372 213 L 331 233 Q 301 246 263 263 Q 242 272 243 292 Q 264 355 283 419 L 295 461 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 2, "cn": "撇", "py": "piě", "nl": "val links", "bet": "afwerpen naar links", "svg": "<svg class=\"st\" viewBox=\"22 325 570 570\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 305 192 Q 299 186 294 178 Q 269 145 152 63 Q 139 54 151 52 Q 227 45 337 161 Q 338 162 340 164 L 372 213 Q 402 268 432 369 Q 447 444 464 472 Q 474 490 458 499 Q 413 535 389 527 Q 376 523 381 509 Q 387 496 390 481 L 390 452 Q 378 317 331 233 L 305 192 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 3, "cn": "提", "py": "tí", "nl": "opwaarts", "bet": "optillen", "svg": "<svg class=\"st\" viewBox=\"4 252 455 455\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 390 481 Q 344 472 295 461 L 251 452 Q 187 442 119 429 Q 97 425 63 429 Q 50 429 47 420 Q 44 407 52 398 Q 73 379 103 357 Q 113 353 126 360 Q 192 399 240 406 L 283 419 Q 326 434 373 447 Q 380 450 390 452 C 419 459 419 487 390 481 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 4, "cn": "竖", "py": "shù", "nl": "omlaag", "bet": "verticaal", "svg": "<svg class=\"st\" viewBox=\"219 205 675 675\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 581 627 Q 562 643 543 651 Q 530 655 520 650 Q 511 646 515 634 Q 542 577 542 533 Q 543 487 541 90 C 541 60 589 65 589 95 Q 590 183 591 264 L 591 298 Q 592 362 593 421 L 593 455 Q 594 498 595 537 Q 596 589 599 592 C 602 611 602 611 581 627 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 5, "cn": "横折", "py": "héngzhé", "nl": "dwars-knik", "bet": "horizontaal + knik", "svg": "<svg class=\"st\" viewBox=\"362 170 685 685\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 813 124 Q 812 371 822 534 Q 825 576 844 602 Q 857 618 842 637 Q 832 649 777 678 Q 759 690 697 659 Q 594 631 581 627 C 552 619 570 583 599 592 Q 606 593 618 598 Q 744 637 754 628 Q 766 606 756 115 C 755 85 813 94 813 124 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 6, "cn": "横", "py": "héng", "nl": "dwars", "bet": "horizontaal", "svg": "<svg class=\"st\" viewBox=\"524 330 244 244\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 593 421 Q 656 434 703 441 Q 728 447 718 460 Q 705 475 678 477 Q 633 480 593 455 C 567 439 564 415 593 421 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 7, "cn": "横", "py": "héng", "nl": "dwars", "bet": "horizontaal", "svg": "<svg class=\"st\" viewBox=\"521 482 254 254\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 591 264 Q 658 276 710 282 Q 735 286 725 300 Q 713 315 687 319 Q 648 323 591 298 C 563 286 561 259 591 264 Z\" fill=\"#b3261e\"/></g></svg>"}, {"nr": 8, "cn": "横", "py": "héng", "nl": "dwars", "bet": "horizontaal", "svg": "<svg class=\"st\" viewBox=\"352 476 664 664\"><g transform=\"translate(0,900) scale(1,-1)\"><path d=\"M 541 90 Q 480 86 413 78 Q 392 77 407 59 Q 420 44 439 39 Q 460 33 476 37 Q 683 88 942 68 Q 943 69 945 68 Q 964 68 970 76 Q 976 88 960 102 Q 900 150 845 130 Q 830 129 813 124 L 756 115 Q 714 111 665 104 Q 628 100 589 95 L 541 90 Z\" fill=\"#b3261e\"/></g></svg>"}]}, "vragen": [{"t": "kies", "soort": "luister → teken", "vraag": "Welk woord hoor je?", "opties": ["手机", "打电话", "没有", "姐姐"], "goed": 3, "uitleg": "姐姐 · jiějie", "audio": "jiejie-zh"}, {"t": "kies", "soort": "teken → pinyin", "vraag": "<span class=\"hzq\">姐姐</span> spreek je uit als …", "opties": ["jiějie", "dǎ diànhuà", "méiyǒu", "shǒujī"], "goed": 0, "uitleg": "jiějie."}, {"t": "kies", "soort": "toon kiezen", "vraag": "Lettergreep 1 van 姐姐: <b>jie</b>. Welke toon?", "opties": ["1e · hoog vlak →", "2e · stijgt ↗", "3e · zakt en veert ↘↗", "4e · valt ↘"], "goed": 2, "uitleg": "jiě = 3e · zakt en veert ↘↗.", "audio": "jiejie-zh-traag"}, {"t": "kies", "soort": "toon kiezen", "vraag": "Lettergreep 2 van 姐姐: <b>jie</b>. Welke toon?", "opties": ["1e · hoog vlak →", "licht (neutraal)", "2e · stijgt ↗", "3e · zakt en veert ↘↗"], "goed": 1, "uitleg": "jie = licht (neutraal).", "audio": "jiejie-zh-traag"}, {"t": "kies", "soort": "teken → betekenis", "vraag": "<span class=\"hzq\">姐姐</span> betekent …", "opties": ["oudere zus", "mobiele telefoon", "niet hebben, er is geen", "opbellen"], "goed": 0, "uitleg": "oudere zus."}, {"t": "kies", "soort": "betekenis → teken", "vraag": "Welk teken betekent „oudere zus”?", "opties": ["手机", "打电话", "没有", "姐姐"], "goed": 3, "uitleg": "姐姐."}, {"t": "kies", "soort": "Engels → teken", "vraag": "Which one means “older sister”?", "opties": ["姐姐", "手机", "打电话", "没有"], "goed": 0, "uitleg": "姐姐."}, {"t": "kies", "soort": "klank-haak", "vraag": "Welke NL klank-haak hoort bij 姐姐?", "opties": ["daar ↘↗ + dien ↘ + hoera ↘", "sjouw ↘↗ + chip →", "jee ↘↗ + je (licht)", "mij? ↗ + jou ↘↗"], "goed": 2, "uitleg": "Klank-haak: jee ↘↗ + je (licht)."}, {"t": "kies", "soort": "klank-haak ES", "vraag": "„¿yeso? ↘↗ (ye-) + ye (suave)” (ES) is de haak van …", "opties": ["姐姐", "手机", "打电话", "没有"], "goed": 0, "uitleg": "姐姐."}, {"t": "kies", "soort": "beeld-haak", "vraag": "„IK zie mijn grote zus hoog op een stapel stenen blokken staan.” Welk woord?", "opties": ["手机", "打电话", "没有", "姐姐"], "goed": 3, "uitleg": "姐姐."}, {"t": "kies", "soort": "paleis-plek", "vraag": "Waar in het Lorentz Lyceum staat 姐姐?", "opties": ["Zwevende gymzaal", "Zittrap", "Glaswand aula", "Stationsgebouw"], "goed": 1, "uitleg": "Stop 7: Zittrap."}, {"t": "kies", "soort": "plek → woord", "vraag": "Je staat bij <b>Zittrap</b>. Welk woord woont hier?", "opties": ["姐姐", "手机", "打电话", "没有"], "goed": 0, "uitleg": "姐姐."}, {"t": "kies", "soort": "aantal streken", "vraag": "Hoeveel streken heeft <span class=\"hzq\">姐</span>?", "opties": ["10", "7", "8", "9"], "goed": 2, "uitleg": "姐 heeft 8 streken."}, {"t": "kies", "soort": "volgende streek", "vraag": "姐: streek 1 is 撇点 piědiǎn. En streek 2?", "opties": ["横 héng", "撇 piě", "点 diǎn", "竖 shù"], "goed": 1, "uitleg": "姐: 撇点 · 撇 · 提 · 竖 · 横折 · 横 · 横 · 横."}, {"t": "kies", "soort": "laatste streek", "vraag": "Welke streek is de laatste van 姐?", "opties": ["横 héng", "撇 piě", "点 diǎn", "竖 shù"], "goed": 0, "uitleg": "姐 eindigt met 横 héng."}, {"t": "schrijf", "soort": "schrijf uit je hoofd", "vraag": "Schrijf het teken voor „oudere zus” zonder voorbeeld.", "c": "姐"}, {"t": "kies", "soort": "zin invullen", "vraag": "＿＿打电话。 <span class=\"sub\">(Grote zus belt.)</span>", "opties": ["姐姐", "弟弟", "手机", "没有"], "goed": 0, "uitleg": "姐姐打电话。"}, {"t": "kies", "soort": "zin invullen", "vraag": "＿＿没有手机。 <span class=\"sub\">(Grote zus heeft geen mobiel.)</span>", "opties": ["姐姐", "弟弟", "打电话", "妹妹"], "goed": 0, "uitleg": "姐姐没有手机。"}, {"t": "kies", "soort": "zin begrijpen", "vraag": "<span class=\"hzq\">姐姐没有手机。</span>", "opties": ["Grote zus heeft geen mobiel.", "Oma heeft geen mobiel.", "Broertje heeft geen mobiel.", "Grote zus belt."], "goed": 0, "uitleg": "姐姐没有手机。 = Grote zus heeft geen mobiel."}, {"t": "kies", "soort": "mini-dialoog", "vraag": "A: 奶奶打电话？<br>B: … (nee, geen mobiel)", "opties": ["妹妹打电话。", "姐姐打电话。", "奶奶没有手机。", "奶奶打电话。"], "goed": 2, "uitleg": "B: 奶奶没有手机。"}, {"t": "open", "soort": "open vraag", "vraag": "Wat betekent 姐姐?", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}, {"t": "open", "soort": "open vraag", "vraag": "Welke radicalen zitten erin?", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}, {"t": "open", "soort": "open vraag", "vraag": "Welke tonen?", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}, {"t": "open", "soort": "open vraag", "vraag": "Productie A: teken → pinyin+toon+NL+hook zonder kijken.", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}], "familie": [{"hz": "妹妹", "py": "mèimei", "nl": "jongere zus", "deelt": "女"}, {"hz": "奶奶", "py": "nǎinai", "nl": "oma", "deelt": "女"}, {"hz": "弟弟", "py": "dìdi", "nl": "jongere broer", "deelt": "familie"}], "gesch": "姐: 女 (vrouw, betekenis) + 且 (qiě, klank). 且 is oorspronkelijk een stapel / altaartafel voor offers.\n姐姐: verdubbeling; het tweede 姐 heeft de neutrale toon.", "twijfel": ["Wat 且 oorspronkelijk afbeeldt (offertafel of voorouder-tablet): bronnen verschillen.", "ES-hook: \"yeso\" geeft alleen het begin \"ye\" van jiě."], "paleis": "stop 7 zittrap", "ankerTekst": "7 Op de zittrap staat mijn grote zus bovenaan, op een stapel stenen blokken (且). IK kijk omhoog: jee ↘↗, je.", "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>且</b> qiě, klankdeel", "zintuig": [["zacht", "女"], ["kalk", "且"]], "radicaalCue": "女 en 且", "cue": "Kijk naar 姐姐. Beeld: IK zie mijn grote zus hoog op een stapel stenen blokken staan.", "hersenen": ["Leerling A", "Leerling B", "Leerling C"], "zoek": [{"slug": "shouji", "k": ["shouji", "mobiele telefoon", "mobile phone"]}, {"slug": "dadianhua", "k": ["dadianhua", "opbellen", "to make a phone call"]}, {"slug": "meiyou", "k": ["meiyou", "niet hebben, er is geen", "not have; there isn't"]}, {"slug": "didi", "k": ["didi", "jongere broer", "younger brother"]}, {"slug": "jiejie", "k": ["jiejie", "oudere zus", "older sister"]}, {"slug": "meimei", "k": ["meimei", "jongere zus", "younger sister"]}, {"slug": "nainai", "k": ["nainai", "oma (vaders moeder)", "grandma (father’s mother)"]}], "oef": [{"t": "kies", "soort": "luister → teken", "vraag": "Welk woord hoor je?", "opties": ["手机", "打电话", "没有", "姐姐"], "goed": 3, "uitleg": "姐姐 · jiějie", "audio": "jiejie-zh"}, {"t": "kies", "soort": "teken → pinyin", "vraag": "<span class=\"hzq\">姐姐</span> spreek je uit als …", "opties": ["jiějie", "dǎ diànhuà", "méiyǒu", "shǒujī"], "goed": 0, "uitleg": "jiějie."}, {"t": "kies", "soort": "toon kiezen", "vraag": "Lettergreep 1 van 姐姐: <b>jie</b>. Welke toon?", "opties": ["1e · hoog vlak →", "2e · stijgt ↗", "3e · zakt en veert ↘↗", "4e · valt ↘"], "goed": 2, "uitleg": "jiě = 3e · zakt en veert ↘↗.", "audio": "jiejie-zh-traag"}, {"t": "kies", "soort": "toon kiezen", "vraag": "Lettergreep 2 van 姐姐: <b>jie</b>. Welke toon?", "opties": ["1e · hoog vlak →", "licht (neutraal)", "2e · stijgt ↗", "3e · zakt en veert ↘↗"], "goed": 1, "uitleg": "jie = licht (neutraal).", "audio": "jiejie-zh-traag"}, {"t": "kies", "soort": "teken → betekenis", "vraag": "<span class=\"hzq\">姐姐</span> betekent …", "opties": ["oudere zus", "mobiele telefoon", "niet hebben, er is geen", "opbellen"], "goed": 0, "uitleg": "oudere zus."}, {"t": "kies", "soort": "betekenis → teken", "vraag": "Welk teken betekent „oudere zus”?", "opties": ["手机", "打电话", "没有", "姐姐"], "goed": 3, "uitleg": "姐姐."}, {"t": "kies", "soort": "Engels → teken", "vraag": "Which one means “older sister”?", "opties": ["姐姐", "手机", "打电话", "没有"], "goed": 0, "uitleg": "姐姐."}, {"t": "kies", "soort": "klank-haak", "vraag": "Welke NL klank-haak hoort bij 姐姐?", "opties": ["daar ↘↗ + dien ↘ + hoera ↘", "sjouw ↘↗ + chip →", "jee ↘↗ + je (licht)", "mij? ↗ + jou ↘↗"], "goed": 2, "uitleg": "Klank-haak: jee ↘↗ + je (licht)."}, {"t": "kies", "soort": "klank-haak ES", "vraag": "„¿yeso? ↘↗ (ye-) + ye (suave)” (ES) is de haak van …", "opties": ["姐姐", "手机", "打电话", "没有"], "goed": 0, "uitleg": "姐姐."}, {"t": "kies", "soort": "beeld-haak", "vraag": "„IK zie mijn grote zus hoog op een stapel stenen blokken staan.” Welk woord?", "opties": ["手机", "打电话", "没有", "姐姐"], "goed": 3, "uitleg": "姐姐."}, {"t": "kies", "soort": "paleis-plek", "vraag": "Waar in het Lorentz Lyceum staat 姐姐?", "opties": ["Zwevende gymzaal", "Zittrap", "Glaswand aula", "Stationsgebouw"], "goed": 1, "uitleg": "Stop 7: Zittrap."}, {"t": "kies", "soort": "plek → woord", "vraag": "Je staat bij <b>Zittrap</b>. Welk woord woont hier?", "opties": ["姐姐", "手机", "打电话", "没有"], "goed": 0, "uitleg": "姐姐."}, {"t": "kies", "soort": "aantal streken", "vraag": "Hoeveel streken heeft <span class=\"hzq\">姐</span>?", "opties": ["10", "7", "8", "9"], "goed": 2, "uitleg": "姐 heeft 8 streken."}, {"t": "kies", "soort": "volgende streek", "vraag": "姐: streek 1 is 撇点 piědiǎn. En streek 2?", "opties": ["横 héng", "撇 piě", "点 diǎn", "竖 shù"], "goed": 1, "uitleg": "姐: 撇点 · 撇 · 提 · 竖 · 横折 · 横 · 横 · 横."}, {"t": "kies", "soort": "laatste streek", "vraag": "Welke streek is de laatste van 姐?", "opties": ["横 héng", "撇 piě", "点 diǎn", "竖 shù"], "goed": 0, "uitleg": "姐 eindigt met 横 héng."}, {"t": "schrijf", "soort": "schrijf uit je hoofd", "vraag": "Schrijf het teken voor „oudere zus” zonder voorbeeld.", "c": "姐"}, {"t": "kies", "soort": "zin invullen", "vraag": "＿＿打电话。 <span class=\"sub\">(Grote zus belt.)</span>", "opties": ["姐姐", "弟弟", "手机", "没有"], "goed": 0, "uitleg": "姐姐打电话。"}, {"t": "kies", "soort": "zin invullen", "vraag": "＿＿没有手机。 <span class=\"sub\">(Grote zus heeft geen mobiel.)</span>", "opties": ["姐姐", "弟弟", "打电话", "妹妹"], "goed": 0, "uitleg": "姐姐没有手机。"}, {"t": "kies", "soort": "zin begrijpen", "vraag": "<span class=\"hzq\">姐姐没有手机。</span>", "opties": ["Grote zus heeft geen mobiel.", "Oma heeft geen mobiel.", "Broertje heeft geen mobiel.", "Grote zus belt."], "goed": 0, "uitleg": "姐姐没有手机。 = Grote zus heeft geen mobiel."}, {"t": "kies", "soort": "mini-dialoog", "vraag": "A: 奶奶打电话？<br>B: … (nee, geen mobiel)", "opties": ["妹妹打电话。", "姐姐打电话。", "奶奶没有手机。", "奶奶打电话。"], "goed": 2, "uitleg": "B: 奶奶没有手机。"}, {"t": "open", "soort": "open vraag", "vraag": "Wat betekent 姐姐?", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}, {"t": "open", "soort": "open vraag", "vraag": "Welke radicalen zitten erin?", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}, {"t": "open", "soort": "open vraag", "vraag": "Welke tonen?", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}, {"t": "open", "soort": "open vraag", "vraag": "Productie A: teken → pinyin+toon+NL+hook zonder kijken.", "tip": "JEE↘↗ je· · IK zie mijn grote zus hoog op een stapel stenen blokken staan."}]};
 const $=id=>document.getElementById(id),esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const KEY='wd46-'+D.slug;
 /* audio (Gemini, mp3 in repo) */
@@ -238,9 +275,10 @@ function openKamer(n,modus){const el=$('deur-'+n);if(!el)return;const k=$('kamer
  $('kamer-vraag').hidden=!v;$('kamer-toon').hidden=!v;$('kamer-volgende').hidden=!v;if(!v)klankVan(el.dataset.klank)}
 function openPlek(){const k=$('kamer');k.hidden=false;k.classList.add('blauw');$('kamer-beeld').style.backgroundImage=`url(media/${D.slug}-paleis.jpg)`;
  $('kamer-r1').textContent='Paleis · '+D.paleis;$('kamer-r2').textContent=D.ankerTekst;['kamer-hz','kamer-vraag','kamer-toon','kamer-volgende'].forEach(i=>$(i).hidden=true)}
-const naar=id=>{const el=$(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'})};
+const open=el=>{for(let p=el&&el.parentElement;p;p=p.parentElement)if(p.tagName==='DETAILS')p.open=true};
+const naar=id=>{const el=$(id);if(el){open(el);el.scrollIntoView({behavior:'smooth',block:'start'})}};
 function hot(k){const d=[...document.querySelectorAll('.deur')].find(x=>x.dataset.img===k);
- if(k==='klank'){naar('blok-klank');valBeide()}else if(k==='paleis'||k==='centrum')openPlek();else if(k==='link'){naar('familie-leden');$('familie-leden').closest('details').open=true}
+ if(k==='klank'){naar('blok-klank');valBeide()}else if(k==='paleis'||k==='centrum')openPlek();else if(k==='link'){naar('familie-leden');}
  else if(d)openKamer(+d.id.slice(5),'kijk');else{$('blik-tian').hidden=false;naar('blok-schrift')}}
 $('plaat-huis').addEventListener('click',e=>{const b=e.target.closest('.hot');if(b)hot(b.dataset.hot)});
 $('blad45').addEventListener('click',e=>{if(e.target.closest('.hot')||e.target.closest('button')||e.target.closest('summary'))return;const d=e.target.closest('.deur');if(d)openKamer(+d.id.slice(5),'kijk')});
@@ -266,9 +304,9 @@ $('tool-toon').onclick=()=>{uit(esc(D.klank)+' · '+esc(D.klankuitleg));speel(D.
 D.tabs.forEach((c,i)=>{const b=$('tool-oor-'+(i+1));if(b)b.onclick=()=>speel(D.slug+'-zh-traag')});
 $('tool-oor-woord').onclick=()=>speel(D.slug+'-zh');
 $('tool-split').onclick=()=>uit(D.delen);
-$('tool-leeg').onclick=()=>{uit('Leeg vak: teken het volgende streepje zelf in het raster.');$('hw').scrollIntoView({block:'center'})};
-$('tool-beurt').onclick=()=>{const el=$('k-hz');if(el.textContent==='dicht')el.textContent=el.dataset.was;else{el.dataset.was=el.textContent;el.textContent='dicht'}el.scrollIntoView({block:'center'})};
-$('tool-bord').onclick=()=>{$('streek-vlak').closest('details').open=true;$('streek-vlak').scrollIntoView({block:'center'})};
+$('tool-leeg').onclick=()=>{uit('Leeg vak: teken het volgende streepje zelf in het raster.');naar('hw')};
+$('tool-beurt').onclick=()=>{const el=$('k-hz');if(el.dataset.was){el.innerHTML=el.dataset.was;el.dataset.was=''}else{el.dataset.was=el.innerHTML;el.textContent='dicht'}naar('k-hz')};
+$('tool-bord').onclick=()=>{naar('streek-vlak')};
 $('tool-liniaal').onclick=()=>{const b=$('liniaal');b.hidden=false;b.classList.remove('val1','val2');void b.offsetWidth;b.classList.add('val1','val2');valBeide()};
 let bt=0;$('tool-blik').onclick=()=>{document.body.classList.add('eenblik');clearTimeout(bt);bt=setTimeout(()=>document.body.classList.remove('eenblik'),3000)};
 /* 5 actieve recall: 6 manieren */
@@ -280,18 +318,33 @@ $('rec-flits').onclick=()=>{rm='f';clearTimeout(ft);$('recall-veld').hidden=fals
  ft=setTimeout(()=>{r.textContent='Weg. Welk teken stond er?';r.style.fontSize='';$('recall-toon').hidden=false},800)};
 $('rec-zintuig').onclick=()=>{rm='z';const s=D.zintuig[zi++%D.zintuig.length];openRecall(s[0]+'. Welk teken hoort hier?',s[1])};
 $('rec-radicaal').onclick=()=>{rm='r';openRecall(D.radicaalCue+'. Welk woord?',D.hz)};
-$('rec-lucht').onclick=()=>{rm='l';openRecall('Trek '+D.tabs.join(' en ')+' in de lucht, streek voor streek. Zeg bij elke streek de naam.',D.tabs.join(' · '));$('hw').scrollIntoView({block:'center'})};
+$('rec-lucht').onclick=()=>{rm='l';openRecall('Trek '+D.tabs.join(' en ')+' in de lucht, streek voor streek. Zeg bij elke streek de naam.',D.tabs.join(' · '));naar('hw')};
 $('recall-toon').onclick=()=>{if(rm==='dek')document.querySelectorAll('#blad45 .dek').forEach(e=>e.classList.remove('dek'));$('recall-antwoord').hidden=false};
-/* vragen: Q1 open, rest achter Meer vragen */
-const S={goed:{},klaar:{}};
-const Q=(q,i)=>q.opties?`<div class="vraag"><p><b>${i+1}.</b> ${esc(q.vraag)}</p><div class="row">${q.opties.map((o,j)=>`<button class="opt" data-q="${i}" data-o="${j}">${esc(o)}</button>`).join('')}</div><p class="sub" id="u${i}"></p></div>`:`<div class="vraag"><p><b>${i+1}.</b> ${esc(q.vraag)}</p></div>`;
-$('vragen').innerHTML=Q(D.vragen[0],0)+`<details id="meer"><summary>Meer vragen (2–${D.vragen.length})</summary>${D.vragen.slice(1).map((q,i)=>Q(q,i+1)).join('')}</details>`;
-const NQ=D.vragen.filter(q=>q.opties).length;
-document.querySelectorAll('.opt').forEach(b=>b.onclick=()=>{const i=+b.dataset.q,q=D.vragen[i],ok=+b.dataset.o===q.goed;b.classList.add(ok?'goed':'fout');$('u'+i).textContent=(ok?'Goed. ':'Nog niet. ')+q.uitleg;if(ok)S.goed[i]=1;upd()});
+/* oefeningen: Q1 zichtbaar, rest onder Meer; score lokaal */
+let SC={};try{SC=JSON.parse(localStorage.getItem(KEY+'-score')||'{}')}catch(e){}
+const bewaar=()=>{try{localStorage.setItem(KEY+'-score',JSON.stringify(SC))}catch(e){}};
+const OE=D.oef;
+function oefHTML(q,i){let h=`<div class="vraag" data-i="${i}"><p class="vk"><span class="nr">${i+1}</span><span class="soort">${esc(q.soort)}</span></p><p class="vv">${q.vraag}</p>`;
+ if(q.audio)h+=`<button type="button" class="klank breed" onclick="speel('${q.audio}')">▶ luister</button>`;
+ if(q.t==='kies')h+=`<div class="opties">${q.opties.map((o,j)=>`<button type="button" class="opt" data-q="${i}" data-o="${j}">${o}</button>`).join('')}</div>`;
+ if(q.t==='schrijf')h+=`<div class="schrijfvak" id="sv${i}"></div><button type="button" class="stap" data-schrijf="${i}">Start schrijven</button>`;
+ if(q.t==='open')h+=`<button type="button" class="stap" data-open="${i}">Toon hint</button><p class="sub" id="oh${i}" hidden>${esc(q.tip||'')}</p><div class="row"><button type="button" class="opt" data-zelf="${i}" data-ok="1">Ik wist het</button><button type="button" class="opt" data-zelf="${i}" data-ok="0">Nog niet</button></div>`;
+ return h+`<p class="sub uitleg" id="u${i}"></p></div>`}
+$('vragen').innerHTML=oefHTML(OE[0],0)+`<details id="meer"><summary>Meer oefeningen (2–${OE.length})</summary>${OE.slice(1).map((q,i)=>oefHTML(q,i+1)).join('')}</details>`;
+function score(){const g=OE.filter((q,i)=>SC[i]===1).length,d=Object.keys(SC).length;$('streep').innerHTML=`<span class="balk"><span style="width:${100*g/OE.length}%"></span></span> ${g} van ${OE.length} goed · ${d} geprobeerd <button type="button" class="stap klein" id="score-wis">opnieuw</button>`;$('score-wis').onclick=()=>{SC={};bewaar();location.reload()}}
+function zet(i,ok,txt){if(SC[i]!==1)SC[i]=ok?1:0;bewaar();$('u'+i).textContent=(ok?'Goed. ':'Nog niet. ')+(txt||'');score()}
+$('b-vragen').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;
+ if(b.dataset.o!=null){const i=+b.dataset.q,q=OE[i],ok=+b.dataset.o===q.goed;b.classList.add(ok?'goed':'fout');if(!ok)b.parentNode.children[q.goed].classList.add('goed');zet(i,ok,q.uitleg)}
+ else if(b.dataset.open!=null)$('oh'+b.dataset.open).hidden=false;
+ else if(b.dataset.zelf!=null)zet(+b.dataset.zelf,b.dataset.ok==='1','');
+ else if(b.dataset.schrijf!=null){const i=+b.dataset.schrijf,q=OE[i],v=$('sv'+i);v.innerHTML='';if(typeof HanziWriter==='undefined'){v.textContent='Schrijven vraagt internet.';return}
+  const w=HanziWriter.create('sv'+i,q.c,{width:220,height:220,padding:8,showOutline:false,showCharacter:false,drawingWidth:20,drawingColor:'#8a4b2a'});
+  w.quiz({showHintAfterMisses:3,onComplete:d=>zet(i,d.totalMistakes<=2,q.c+' · fouten: '+d.totalMistakes)})}});
+score();
 try{$('hand').checked=localStorage.getItem(KEY+'-hand')==='1'}catch(e){}
 $('hand').onchange=()=>{try{localStorage.setItem(KEY+'-hand',$('hand').checked?'1':'0')}catch(e){};upd()};
-function upd(){const nv=Object.keys(S.goed).length,nq=Object.keys(S.klaar).length,ok=(nv===NQ&&nq===D.tabs.length)||$('hand').checked;
- $('status').innerHTML=`Streken ${ok?'<span style="color:var(--goed)">✔</span>':'○'} · vragen ${nv}/${NQ} · vingerquiz ${nq}/${D.tabs.length}${$('hand').checked?' · met de hand ✔':''}`}
+const S={klaar:{}};function upd(){const nq=Object.keys(S.klaar).length,ok=nq===D.tabs.length||$('hand').checked;
+ $('status').innerHTML=`Streken ${ok?'<span style="color:var(--goed)">✔</span>':'○'} · vingerquiz ${nq}/${D.tabs.length}${$('hand').checked?' · met de hand ✔':''}`}
 upd();
 /* 6 schrijfvolgorde: HanziWriter-trainer (ongewijzigd) + losse streken */
 let W=null,cur='';const fb=$('fb');
@@ -336,6 +389,17 @@ renderOrg();tabel();
 /* zoek */
 $('zoek').addEventListener('keydown',function(e){if(e.key!=='Enter')return;const q=this.value.trim().toLowerCase().normalize('NFD').replace(/[\u0300-\u036f\s]/g,'');const h=D.zoek.find(z=>z.k.some(k=>k===q));
  if(h)location.href=h.slug+'.html';else $('lijn').textContent='“'+this.value.trim()+'” staat nog niet in 4.6. Zie de lijst op de startpagina.'});
-load(D.tabs[0]);
+/* stappen: rustig begin, één stap tegelijk */
+const kop=()=>document.documentElement.style.setProperty('--kop',document.querySelector('header').getBoundingClientRect().height+'px');kop();addEventListener('load',kop);addEventListener('resize',kop);
+const STAP=[...document.querySelectorAll('.stapblok:not(.extra)')];
+function pad(){const n=STAP.findIndex(s=>s.open);document.querySelectorAll('#pad a').forEach((a,i)=>{a.classList.toggle('nu',i===n);a.classList.toggle('af',!!(SC.stap||{})[i])});
+ $('lijn').textContent=n<0?'7 korte stappen · ongeveer 10 minuten':'Stap '+(n+1)+' van 7'}
+function gaNaar(n){STAP.forEach((s,i)=>s.open=i===n-1);document.body.classList.remove('rustig');pad();STAP[n-1].scrollIntoView({behavior:'smooth',block:'start'})}
+$('begin').onclick=()=>gaNaar(1);
+document.querySelectorAll('.volgende').forEach(b=>b.onclick=()=>{const n=+b.dataset.naar;SC.stap=SC.stap||{};SC.stap[n-2]=1;bewaar();gaNaar(n)});
+document.querySelectorAll('#pad a').forEach((a,i)=>a.onclick=e=>{e.preventDefault();gaNaar(i+1)});
+STAP.forEach(s=>s.addEventListener('toggle',()=>{if(s.open)document.body.classList.remove('rustig');pad();if(s.id==='st-4'&&s.open&&!W)load(D.tabs[0])}));
+$('alles-start').onclick=$('alles').onclick=()=>{document.body.classList.remove('rustig');document.querySelectorAll('details').forEach(d=>d.open=true);if(!W)load(D.tabs[0])};
+D.tabs.forEach((c,i)=>{});pad();
 
 </script></body></html>
