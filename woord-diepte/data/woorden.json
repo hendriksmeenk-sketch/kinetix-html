@@ -404,7 +404,7 @@
    "nextLabel": "—",
    "source": "woord_diepte",
    "card_id": "wd-好",
-   "status46": "afgekeurd-gate",
+   "status46": "open-media",
    "kaart46": "kaart/hao.html",
    "v46": {
     "klankhaken": {
@@ -421,7 +421,7 @@
       "zin": "Grito '¡Jau!' como un perro alegre que saluda a su dueño."
      }
     },
-    "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en 子 (kind) zichtbaar samenkomen, en roep stralend 'Hǎo!' terwijl ik het zachtjes wieg.",
+    "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en <b class=\"rood\">子</b> (kind) zichtbaar samenkomen, en roep stralend de klank met derde toon (eerst dalen, dan stijgen).",
     "paleisStop": [
      9
     ],

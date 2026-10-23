@@ -1499,7 +1499,7 @@
      "横"
     ]
    },
-   "delen": "<b class=\"rood\">女</b> (vrouw) radicaal/betekenisdeel · 子 (kind) betekenisdeel",
+   "delen": "<b class=\"rood\">女</b> (vrouw) betekenisdeel · <b class=\"rood\">子</b> (kind) betekenisdeel",
    "opbouw": "好 = 女 3 + 子 3",
    "klank": "HAO↘↗",
    "klankuitleg": "De derde toon daalt eerst en stijgt daarna: begin laag, zak nog iets, en veer dan omhoog als een vrolijke uitroep.",
@@ -1520,12 +1520,12 @@
      "Haak: JAU met derde toon: eerst dalen, dan stijgen. Herhaal: JAU. Zin: Grito '¡Jau!' como un perro alegre que saluda a su dueño. Toonuitleg: de derde toon daalt eerst en stijgt dan, als een Spaanse uitroep vol energie."
     ]
    },
-   "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en 子 (kind) zichtbaar samenkomen, en roep stralend 'Hǎo!' terwijl ik het zachtjes wieg.",
+   "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en <b class=\"rood\">子</b> (kind) zichtbaar samenkomen, en roep stralend de klank met derde toon (eerst dalen, dan stijgen).",
    "stop": [
     9
    ],
-   "anker": "<b>N</b> In het Atrium, het hart van het Lorentz Lyceum, zie ik op de wand de grafische print van een moeder die haar kind optilt; aan die plek koppel ik het teken 好.",
-   "scene": "Ik stap het Atrium binnen, het hart van het Lorentz Lyceum. Mijn ogen vallen op de grafische print van een moeder die haar kind optilt. Ik stap als het ware die print binnen: ik ben de moeder, til mijn kind hoog op, wieg het zacht en roep met een stem die eerst daalt en dan stijgt 'Hǎo!'. Ik hoor de klank door de ruimte galmen en voel de trilling in mijn buik. Samen wieg ik op het ritme van 'Hǎo! Hǎo!' en spring op de stijgende toon.",
+   "anker": "<b>N</b> In het Atrium, het hart van het Lorentz Lyceum, zie ik de grafische prints op de wand; aan die plek koppel ik het teken 好.",
+   "scene": "Ik stap het Atrium binnen, het hart van het Lorentz Lyceum. Mijn ogen glijden langs de grafische prints op de wanden. Daar ben ik de moeder: ik til mijn kind hoog op, wieg het zacht en roep met een stem die eerst daalt en dan stijgt 'Hǎo!'. Ik hoor de klank door de ruimte galmen en voel de trilling in mijn buik. Samen wieg ik op het ritme van 'Hǎo! Hǎo!' en spring op de stijgende toon.",
    "fam": [
     [
      "女",
@@ -1546,7 +1546,7 @@
      "bevat 女 als component"
     ]
    ],
-   "gesch": "Volgens makemeahanzi is 好 een ideogram: een vrouw (女) met een kind (子). Shuowen Jiezi (说文解字) verklaart: 美也。从女、子。 De moderne vorm is in vereenvoudigd en traditioneel Chinees identiek.",
+   "gesch": "Volgens makemeahanzi is 好 een ideogram: een vrouw (女) met een kind (子). In het orakelbottenschrift (ca. 1200 v.Chr.) stonden een knielende vrouw en een kind naast elkaar. Shuowen Jiezi (说文解字) verklaart: 美也。从女、子。 De moderne vorm is in vereenvoudigd en traditioneel Chinees identiek.",
    "twijfel": [
     "De exacte oorspronkelijke betekenis van 女+子 ('mooi' vs 'goed') is niet zeker; Shuowen zegt '美也' (mooi).",
     "In klassiek Chinees kan 好 ook 'houden van' betekenen met 4e toon (hào), wat in moderne woorden als 爱好 voortleeft.",
@@ -1554,34 +1554,30 @@
     "Shuowen 美也 gelijktrekken met 'mooi' is smal: 美 dekt in die gloss ook voortreffelijk of goed.",
     "Knielende vrouw, baby en ca. 1200 v.Chr. staan niet in makemeahanzi; dat is een paleografische lezing.",
     "Of vrouw+zoon al in de Shang-tijd 'goed' betekende, of een latere Shuowen-uitleg is, blijft omstreden.",
-    "Hulpwoorden in de zinnen hebben nog geen eigen kaart: 个、吗、很、的、这."
+    "Hulpwoorden in de zinnen, nog geen eigen kaart: 个、吗、很、的、这 (nodig voor correcte grammatica, Grok-feitcheck)"
    ],
    "mm": [
     [
      "KLANK",
-     "geel",
+     "klank",
      [
       [
        "HAUW",
-       "hond"
+       "vrolijke uitroep"
       ],
       [
        "buik",
-       "toon"
-      ],
-      [
-       "uitroep",
-       "blij"
+       "derde toon daalt-stijgt"
       ]
      ]
     ],
     [
      "VROUW",
-     "rood",
+     "a",
      [
       [
        "女",
-       "vrouw"
+       "knielende moeder"
       ],
       [
        "radicaal",
@@ -1591,43 +1587,43 @@
     ],
     [
      "KIND",
-     "blauw",
+     "b",
      [
       [
        "子",
-       "kind"
+       "kind met open armen"
       ],
       [
        "betekenisdeel",
-       "component"
+       "geen radicaal"
       ]
      ]
     ],
     [
      "ATRIUM",
-     "groen",
+     "paleis",
      [
       [
-       "print",
-       "wand"
+       "grafische prints",
+       "wanden"
       ],
       [
-       "hart",
-       "ontmoeting"
+       "hart van school",
+       "ontmoetingsplek"
       ]
      ]
     ],
     [
      "LINK",
-     "paars",
+     "link",
      [
       [
-       "legpuzzel",
-       "combinatie"
+       "moeder + kind",
+       "goed"
       ],
       [
-       "tekening",
-       "betekenis"
+       "ideogram",
+       "betekenis zonder klank"
       ]
      ]
     ]
@@ -1666,13 +1662,13 @@
     "toon": "3",
     "vertaling": "goed, mooi",
     "heelRadicaal": false,
-    "radicalen": "🔴女🔴 (vrouw, radicaal) + 子 (kind, betekenisdeel); alleen 女 is rood.",
+    "radicalen": "🔴女🔴 radicaal + 🔴子🔴 betekenisdeel — alleen 女 is radicaal",
     "klankhook": "HAO! (NL hao) / how (EN, hurk) / jao-niet (ES almost) – 3e toon dal-veer",
-    "beeldhook": "IK hurk in de keuken, veer, til het kind, schreeuw HAO.",
+    "beeldhook": "IK hurk in de keuken, veer, til het kind, schreeuw de klank.",
     "plek": "Atrium",
     "actie": "Hurk laag, veer omhoog en til je armen alsof je een kind optilt; roep daarbij luid 'hǎo'.",
     "klank": "hǎo. Toon 3 vallei.\nNL-brug: HAO.\nEN-brug: how, maar hurk eerst.\nES-brug: bijna jao, niet.\nToonbrug: hurk tot de vloer, veer, HAO!",
-    "schrift": "Streken: 6. 会意. 🔴女🔴 + 子. 说文: 美也。从女、子。 Twijfel: 妇好 als naam. FEIT ≠ keuken.",
+    "schrift": "Streken: 6. 会意. 🔴女🔴 + 🔴子🔴. 说文: 美也。从女、子。 Twijfel: 妇好 als naam. FEIT ≠ keuken.",
     "beeld": "BEELD. Keuken. Reuzin in rood tilt het kind. Pannen. Hurk, veer, HAO. Geur: ui en koper.",
     "img": "A-keuken.jpg",
     "recallDoe": [
@@ -1684,7 +1680,7 @@
     ],
     "recallVragen": [
      "Wat is de pinyin en de toon van 好? Beschrijf de toonbeweging in je lichaam.",
-     "Uit welke twee componenten bestaat 好 en wat betekenen ze? Waarom is 女 rood en 子 niet?",
+     "Uit welke twee componenten bestaat 好 en wat betekenen ze? Welke component is de radicaal en welke is alleen betekenisdeel?",
      "Hoeveel streken heeft 好? Noem de officiële streeknamen in volgorde.",
      "Wat is het geheugenbeeld: wie zie je, wat doet ze, en wat roept ze?",
      "Wat is het verschil tussen feit en beeld? Geef een voorbeeld dat niet als feit mag worden gebruikt."
@@ -1724,48 +1720,91 @@
       "note": "很 before adjective"
      }
     ],
-    "status46": "wacht-op-grok"
+    "status46": "afgekeurd-gate",
+    "kaart46": "kaart/hao.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "HAUW↘↗",
+       "zin": "Ik roep 'HAUW!' als een blije hond die zijn baas begroet."
+      },
+      "en": {
+       "haak": "HOW↘↗",
+       "zin": "I ask 'How?' with a surprised, dipping-then-rising voice."
+      },
+      "es": {
+       "haak": "JAU↘↗",
+       "zin": "Grito '¡Jau!' como un perro alegre que saluda a su dueño."
+      }
+     },
+     "beeldhook": "IK ben de moeder die mijn kind hoog optil, zodat de delen <b class=\"rood\">女</b> (vrouw) en 子 (kind) zichtbaar samenkomen, en roep stralend 'Hǎo!' terwijl ik het zachtjes wieg.",
+     "paleisStop": [
+      9
+     ],
+     "audio": [
+      "kaart/media/hao-zh.mp3",
+      "kaart/media/hao-zh-traag.mp3",
+      "kaart/media/hao-hook-nl.mp3",
+      "kaart/media/hao-hook-en.mp3",
+      "kaart/media/hao-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/hao-centrum.jpg",
+      "kaart/media/hao-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/hao-mindmap.jpg",
+     "streken": {
+      "好": [
+       "撇点",
+       "撇",
+       "提",
+       "横撇",
+       "竖钩",
+       "横"
+      ]
+     }
+    }
    },
-   "zwaar": "zwaar werk door: DeepSeek V4-Pro max (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
+   "zwaar": "zwaar werk door: DeepSeek (web, DeepThink; alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
    "_hot": [
     [
      "KLANK",
-     "geel",
+     "klank",
      64.6,
      21.1
     ],
     [
      "VROUW",
-     "rood",
+     "a",
      80.6,
      55.7
     ],
     [
      "KIND",
-     "blauw",
+     "b",
      54.3,
      82.4
     ],
     [
      "ATRIUM",
-     "groen",
+     "paleis",
      22.1,
      64.3
     ],
     [
      "LINK",
-     "paars",
+     "link",
      28.4,
      26.5
     ]
    ],
    "_mm_open": [
-    "blauw",
+    "a",
+    "b",
     "centrum",
-    "geel",
-    "groen",
-    "paars",
-    "rood"
+    "klank",
+    "link",
+    "paleis"
    ]
   }
  ]
