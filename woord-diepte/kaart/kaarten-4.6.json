@@ -4614,20 +4614,38 @@
     [
      "妈",
      "mā",
-     "mam! (aanspreekvorm)",
-     "deelt 妈"
+     "mama, moeder",
+     "女 + 马; 女 is radicaal"
     ],
     [
-     "干妈",
-     "gānmā",
-     "peetmoeder",
-     "deelt 妈"
+     "好",
+     "hǎo",
+     "goed, fijn",
+     "女 + 子; 女 is radicaal"
     ],
     [
-     "宝妈",
-     "bǎomā",
-     "moeder met jonge kinderen",
-     "deelt 妈"
+     "她",
+     "tā",
+     "zij (vrouw)",
+     "女 + 也; 女 is radicaal"
+    ],
+    [
+     "妹",
+     "mèi",
+     "jongere zus (in 妹妹)",
+     "女 + 未; 女 is radicaal"
+    ],
+    [
+     "姐",
+     "jiě",
+     "oudere zus (in 姐姐)",
+     "女 + 且; 女 is radicaal"
+    ],
+    [
+     "奶",
+     "nǎi",
+     "oma (in 奶奶)",
+     "女 + 乃; 女 is radicaal"
     ]
    ],
    "gesch": "妈 is een pictofonetisch teken: 女 draagt 'vrouw', 马 draagt de klank /ma/. In traditioneel schrift staat 媽 met 馬; de vereenvoudiging maakte 馬→马. 妈妈 is een verdubbeling van 妈 en is de gewone moderne vorm voor 'mama/moeder'; los 妈 is vaak een aanspreekvorm.",
@@ -4637,79 +4655,83 @@
     "De tweede lettergreep van 妈妈 is neutraal/licht; sommige sprekers laten een zwakke toon horen.",
     "马 is mǎ: het klankdeel dekt /ma/, niet de toon van mā.",
     "干妈 is een benoemde, niet-biologische moeder (认干妈); peetmoeder in de doopzin dekt dat niet volledig.",
-    "宝妈 is informeel en recent, vooral een moeder van een baby of peuter.",
-    "Hulpwoorden in de zinnen, nog geen eigen kaart: 也 (nodig voor correcte grammatica, Grok-feitcheck)"
+    "宝妈 is informeel en recent, vooral een moeder van een baby of peuter."
    ],
    "mm": [
     [
-     "HOGE VLAKKE ZANG MET KORTE ECHO",
+     "KLANK",
      "klank",
      [
       [
        "MAA→",
-       "1e toon; beeld: hoog vlak"
+       "krachtbeeld: hoog vlak"
       ],
       [
-       "MA(licht)",
-       "neutraal; beeld: korte echo"
+       "echo",
+       "krachtbeeld: kort wegvallen"
       ]
-     ]
+     ],
+     "krachtbeeld: hoge vlakke zang met korte echo"
     ],
     [
-     "VROUW ALS BETEKENIS",
+     "BETEKENIS",
      "a",
      [
       [
        "女",
-       "vrouw; beeld: geknielde vrouw"
+       "krachtbeeld: vrouw"
       ],
       [
        "妈",
-       "mama; beeld: vrouw roept"
+       "krachtbeeld: mama roept"
       ]
-     ]
+     ],
+     "krachtbeeld: vrouw draagt betekenis"
     ],
     [
-     "PAARD ALS KLANK",
+     "PAARD",
      "b",
      [
       [
        "马",
-       "paard; beeld: paard hinnikt"
+       "krachtbeeld: paard"
       ],
       [
-       "echo",
-       "ma; beeld: hinnik echo"
+       "hinnik",
+       "krachtbeeld: klank /ma/"
       ]
-     ]
+     ],
+     "krachtbeeld: paard draagt klank"
     ],
     [
-     "VLEUGEL IN DE AULA",
+     "VLEUGEL",
      "paleis",
      [
       [
        "toets",
-       "hoog; beeld: toets blijft hoog"
+       "krachtbeeld: hoog"
       ],
       [
-       "echo",
-       "kort; beeld: echo valt"
+       "snaar",
+       "krachtbeeld: trilt"
       ]
-     ]
+     ],
+     "krachtbeeld: vleugel in de aula"
     ],
     [
-     "RODE DRAAD",
+     "DRAAD",
      "link",
      [
       [
        "māma",
-       "klank; beeld: klankdraad"
+       "krachtbeeld: klankdraad"
       ],
       [
        "moeder",
-       "beeld; beeld: vrouw en paard"
+       "krachtbeeld: rode draad"
       ]
-     ]
+     ],
+     "krachtbeeld: klank en beeld als rode draad"
     ]
    ],
    "syl": [
@@ -4726,14 +4748,14 @@
      "Mama heeft geen mobiele telefoon."
     ],
     [
-     "妹妹很好，妈妈也很好。",
-     "Jongere zus is goed, mama ook."
+     "妹妹好，妈妈好。",
+     "Jongere zus is goed, mama is goed."
     ]
    ],
    "dialoog": {
-    "a": "谁打电话？",
+    "a": "妈妈打电话吗？",
     "b": "妈妈打电话。",
-    "hint": "Wie belt? Kies 妈妈.",
+    "hint": "Vraag met 吗; het antwoord herhaalt 妈妈打电话.",
     "fout": [
      "弟弟打电话。",
      "姐姐打电话。",
@@ -4759,33 +4781,144 @@
     "plek": "Vleugel"
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "好",
+     "py": "hǎo",
+     "nl": "goed, fijn",
+     "haak": "女 + 子 = 好: vrouw en kind goed."
+    },
+    {
+     "hz": "她",
+     "py": "tā",
+     "nl": "zij (vrouw)",
+     "haak": "女 + 也 = 她: vrouwelijk persoon."
+    },
+    {
+     "hz": "姐",
+     "py": "jiě",
+     "nl": "oudere zus",
+     "haak": "女 + 且 = 姐: oudere zus."
+    },
+    {
+     "hz": "妹",
+     "py": "mèi",
+     "nl": "jongere zus",
+     "haak": "女 + 未 = 妹: jongere zus."
+    },
+    {
+     "hz": "姓",
+     "py": "xìng",
+     "nl": "achternaam",
+     "haak": "女 + 生 = 姓: familie-naam."
+    },
+    {
+     "hz": "奶",
+     "py": "nǎi",
+     "nl": "melk; borst",
+     "haak": "女 + 乃 = 奶: vrouw geeft melk."
+    }
+   ],
+   "obrien": {
+    "scene": "In de aula hangt een hoge vleugel; een mama in rode jurk zingt 'MAA-MA!' op één toon, dan fluistert een echo 'ma'; ze zwaait met een paardenstaart en de vleugel hinnikt.",
+    "klank": "MAA-MA",
+    "prompt": "Warm drawn illustration of a mother in a red dress singing on one high note in a palace aula, a winged piano and a neighing echo, no text."
+   },
+   "mmbeeld": {
+    "klank": "A high flat singing stage shaped like a bright plateau, short echo bubbles bouncing, colorful drawn style, no text.",
+    "klank-s1": "A cartoon singer holding one long high flat note on a glowing plateau, bright colors, drawn style, no text.",
+    "klank-s2": "A tiny soft echo bubble repeating after a singer in a bright hall, colorful drawn style, no text.",
+    "a": "A strong woman as the meaning, kneeling then calling, warm colorful exaggerated drawn style, no text.",
+    "a-s1": "A cartoon woman kneeling on a bright stage, arms open, strong and colorful, drawn style, no text.",
+    "a-s2": "A cartoon mother cupping her hands and calling loudly, warm colors, drawn style, no text.",
+    "b": "A cartoon horse neighing beside a singing mother, sound waves bouncing, colorful drawn style, no text.",
+    "b-s1": "A lively cartoon horse throwing its head back and neighing, bright colors, drawn style, no text.",
+    "b-s2": "A horse neigh echoing as a bouncing bubble in a bright hall, colorful drawn style, no text.",
+    "paleis": "A grand palace aula with a huge wing-shaped piano, high notes sparkling, colorful drawn style, no text.",
+    "paleis-s1": "A cartoon piano key stuck high on a glowing wing in a palace, bright colors, drawn style, no text.",
+    "paleis-s2": "A short echo falling like a tiny glass ball in a palace aula, colorful drawn style, no text.",
+    "link": "A glowing red thread linking a mother and a horse in a bright palace, drawn style, no text.",
+    "link-s1": "A shiny red thread vibrating with singing sound waves, bright colors, drawn style, no text.",
+    "link-s2": "A cartoon mother and horse connected by a red thread, turning together, colorful drawn style, no text."
+   },
+   "fam5": [
+    {
+     "hz": "妈妈",
+     "py": "māma",
+     "nl": "mama, moeder",
+     "deelt": "妈妈 = moeder",
+     "haak": "twee vrouwen naast elkaar: mama."
+    },
+    {
+     "hz": "妈",
+     "py": "mā",
+     "nl": "mam! (aanspreekvorm)",
+     "deelt": "妈 = moeder",
+     "haak": "vrouw plus paard: mam roept."
+    },
+    {
+     "hz": "干妈",
+     "py": "gānmā",
+     "nl": "peetmoeder",
+     "deelt": "妈 = moeder",
+     "haak": "droge mama: peetmoeder."
+    },
+    {
+     "hz": "宝妈",
+     "py": "bǎomā",
+     "nl": "moeder met jonge kinderen",
+     "deelt": "妈 = moeder",
+     "haak": "schat-mama: moeder met kleintjes."
+    },
+    {
+     "hz": "后妈",
+     "py": "hòumā",
+     "nl": "stiefmoeder",
+     "deelt": "妈 = moeder",
+     "haak": "late mama: stiefmoeder."
+    },
+    {
+     "hz": "大妈",
+     "py": "dàmā",
+     "nl": "tante; oudere mevrouw",
+     "deelt": "妈 = moederfiguur",
+     "haak": "grote mama: oudere tante."
+    },
+    {
+     "hz": "姨妈",
+     "py": "yímā",
+     "nl": "tante (moederskant)",
+     "deelt": "妈 = moeder",
+     "haak": "mama's zus: tante."
+    }
+   ],
    "_hot": [
     [
-     "HOGE VLAKKE ZANG MET KORTE ECHO",
+     "KLANK",
      "klank",
      64.6,
      21.1
     ],
     [
-     "VROUW ALS BETEKENIS",
+     "BETEKENIS",
      "a",
      80.6,
      55.7
     ],
     [
-     "PAARD ALS KLANK",
+     "PAARD",
      "b",
      54.3,
      82.4
     ],
     [
-     "VLEUGEL IN DE AULA",
+     "VLEUGEL",
      "paleis",
      22.1,
      64.3
     ],
     [
-     "RODE DRAAD",
+     "DRAAD",
      "link",
      28.4,
      26.5
@@ -4811,13 +4944,23 @@
    ],
    "_beeld_open": [
     "obrien",
-    "centrum",
-    "beeld2",
     "klank",
+    "klank-s1",
+    "klank-s2",
     "a",
+    "a-s1",
+    "a-s2",
     "b",
+    "b-s1",
+    "b-s2",
     "paleis",
-    "link"
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
    ]
   },
   {
@@ -5625,19 +5768,37 @@
      "好",
      "hǎo",
      "goed, fijn",
-     "deelt 女 als radicaal"
+     "女 + 子; 女 is radicaal"
     ],
     [
      "妈",
      "mā",
-     "mama",
-     "deelt 女 als radicaal"
+     "mama, moeder",
+     "女 + 马; 女 is radicaal"
     ],
     [
      "她",
      "tā",
      "zij (vrouw)",
-     "deelt 女 als radicaal"
+     "女 + 也; 女 is radicaal"
+    ],
+    [
+     "妹",
+     "mèi",
+     "jongere zus (in 妹妹)",
+     "女 + 未; 女 is radicaal"
+    ],
+    [
+     "姐",
+     "jiě",
+     "oudere zus (in 姐姐)",
+     "女 + 且; 女 is radicaal"
+    ],
+    [
+     "奶",
+     "nǎi",
+     "oma (in 奶奶)",
+     "女 + 乃; 女 is radicaal"
     ]
    ],
    "gesch": "Pictografisch teken: een vrouw van opzij. In orakelbeen- en bronsvormen is de menselijke figuur herkenbaar; knielend of met gekruiste armen is een gangbare lezing, geen vaststaand detail. De moderne vorm is gestileerd tot drie streken. 说文 noemt 女 een vrouw en een pictogram (象形).",
@@ -5650,74 +5811,79 @@
    ],
    "mm": [
     [
-     "VALLEI MET VRAGENDE WENK",
+     "AFWENDEN",
+     "a",
+     [
+      [
+       "撇点",
+       "krachtbeeld: gebogen arm"
+      ],
+      [
+       "臂",
+       "krachtbeeld: half afgewend"
+      ]
+     ],
+     "krachtbeeld: vrouw wendt zich half af; eerste streek buigt als arm"
+    ],
+    [
+     "ARMEN",
+     "b",
+     [
+      [
+       "撇",
+       "krachtbeeld: gekruiste arm"
+      ],
+      [
+       "横",
+       "krachtbeeld: grondlijn"
+      ]
+     ],
+     "krachtbeeld: gekruiste armen en grondlijn"
+    ],
+    [
+     "KLANK",
      "klank",
      [
       [
        "NÜ↘↗",
-       "3e toon; beeld: stem zakt en stijgt"
+       "krachtbeeld: dal-stijg toon"
       ],
       [
-       "wenkbrauw",
-       "vraag; beeld: wenkbrauw omhoog"
+       "wenk",
+       "krachtbeeld: wenkbrauw omhoog"
       ]
-     ]
+     ],
+     "krachtbeeld: stem zakt en stijgt met vragende wenk"
     ],
     [
-     "HALF AFGEWEND",
-     "a",
-     [
-      [
-       "女",
-       "vrouw; beeld: zijwaartse houding"
-      ],
-      [
-       "arm",
-       "gekruist; beeld: arm over lichaam"
-      ]
-     ]
-    ],
-    [
-     "KNIE ZOEKT GROND",
-     "b",
-     [
-      [
-       "撇点",
-       "eerste streek; beeld: gebogen arm"
-      ],
-      [
-       "撇",
-       "tweede streek; beeld: snijdend lichaam"
-      ]
-     ]
-    ],
-    [
-     "SPIEGEL MET VROUW",
+     "SPIEGEL",
      "paleis",
      [
       [
        "reflectie",
-       "half; beeld: spiegelbeeld"
+       "krachtbeeld: half spiegelbeeld"
       ],
       [
-       "aula",
-       "glas; beeld: glaswand"
+       "glas",
+       "krachtbeeld: glaswand"
       ]
-     ]
+     ],
+     "krachtbeeld: glaswand weerspiegelt half afgewend lichaam"
     ],
     [
-     "RODE DRAAD",
+     "DRAAD",
      "link",
      [
       [
        "nǚ",
-       "klank; beeld: klankdraad"
+       "krachtbeeld: klankdraad"
       ],
       [
        "vrouw",
-       "beeld; beeld: afwenden"
+       "krachtbeeld: rode draad"
       ]
-     ]
+     ],
+     "krachtbeeld: klank en beeld als rode draad"
     ]
    ],
    "syl": [
@@ -5794,7 +5960,7 @@
     "source": "terminal-4",
     "card_id": "wd-女",
     "zinnen": [],
-    "status46": "wacht-op-grok",
+    "status46": "wacht-op-deepseek",
     "kaart46": "kaart/nu.html",
     "v46": {
      "klankhaken": {
@@ -5837,33 +6003,137 @@
     }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "好",
+     "py": "hǎo",
+     "nl": "goed, fijn",
+     "haak": "女 + 子 = 好: vrouw en kind samen goed."
+    },
+    {
+     "hz": "妈",
+     "py": "mā",
+     "nl": "mama",
+     "haak": "女 + 马 = 妈: vrouw roept mama."
+    },
+    {
+     "hz": "她",
+     "py": "tā",
+     "nl": "zij (vrouw)",
+     "haak": "女 + 也 = 她: vrouwelijk persoon."
+    },
+    {
+     "hz": "姐",
+     "py": "jiě",
+     "nl": "oudere zus",
+     "haak": "女 + 且 = 姐: oudere zus."
+    },
+    {
+     "hz": "妹",
+     "py": "mèi",
+     "nl": "jongere zus",
+     "haak": "女 + 未 = 妹: jongere zus."
+    },
+    {
+     "hz": "姓",
+     "py": "xìng",
+     "nl": "achternaam",
+     "haak": "女 + 生 = 姓: familie-naam."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de spiegel in de aula duwt een mini-vrouwtje met rode strik haar knie door het glas en roept 'NUU!'; haar arm blijft afwerend gekruist en de spiegel piept terug.",
+    "klank": "NUU",
+    "prompt": "Warm drawn illustration of a tiny woman with a red bow pushing her knee through a palace mirror, arm crossed, comic echo, no text."
+   },
+   "mmbeeld": {
+    "klank": "A colorful valley shaped like a giant open mouth, a questioning eyebrow floating above, warm drawn style, no text.",
+    "klank-s1": "A cartoon voice line plunging down then soaring up like a rollercoaster in a bright valley, drawn style, no text.",
+    "klank-s2": "One huge cartoon eyebrow arching high in a puzzled curve over a soft rising cloud, bright colors, drawn style, no text.",
+    "a": "A half-turned woman in a bright valley, body sideways and one arm crossed, colorful drawn style, no text.",
+    "a-s1": "A cartoon woman standing sideways with a long shadow, clear side profile, bright colors, drawn style, no text.",
+    "a-s2": "A cartoon arm folded tightly across a body like a shield, exaggerated, colorful drawn style, no text.",
+    "b": "A giant knee searching for the ground in a colorful valley, bent arm nearby, drawn style, no text.",
+    "b-s1": "A cartoon arm bent like a hook reaching toward the ground, bright colors, drawn style, no text.",
+    "b-s2": "A cartoon body slicing through the air like a falling blade, dynamic, colorful drawn style, no text.",
+    "paleis": "A grand palace hall with a huge mirror reflecting a strong woman, colorful exaggerated drawn style, no text.",
+    "paleis-s1": "A bright mirror showing a half-reflection of a woman, one side empty, colorful drawn style, no text.",
+    "paleis-s2": "A tall glass wall in a palace aula, sparkling and reflective, colorful drawn style, no text.",
+    "link": "A glowing red thread tying a sound wave to a woman in a bright palace, drawn style, no text.",
+    "link-s1": "A shiny red thread vibrating like a sound wave, bright colors, drawn style, no text.",
+    "link-s2": "A woman turning away while a red thread pulls her sleeve, colorful drawn style, no text."
+   },
+   "fam5": [
+    {
+     "hz": "女人",
+     "py": "nǚrén",
+     "nl": "vrouw",
+     "deelt": "女 = vrouw",
+     "haak": "女 plus mens: een vrouw."
+    },
+    {
+     "hz": "女孩",
+     "py": "nǚhái",
+     "nl": "meisje",
+     "deelt": "女 = vrouwelijk",
+     "haak": "vrouw plus kind: een meisje."
+    },
+    {
+     "hz": "女儿",
+     "py": "nǚ'ér",
+     "nl": "dochter",
+     "deelt": "女 = vrouw",
+     "haak": "vrouw plus kind: dochter."
+    },
+    {
+     "hz": "女朋友",
+     "py": "nǚpéngyou",
+     "nl": "vriendin",
+     "deelt": "女 = vrouw",
+     "haak": "vrouw plus vriend: vriendin."
+    },
+    {
+     "hz": "女生",
+     "py": "nǚshēng",
+     "nl": "meisje, schoolmeisje",
+     "deelt": "女 = vrouw",
+     "haak": "vrouw plus leerling: een schoolmeisje."
+    },
+    {
+     "hz": "女王",
+     "py": "nǚwáng",
+     "nl": "koningin",
+     "deelt": "女 = vrouw",
+     "haak": "vrouw plus koning: koningin."
+    }
+   ],
    "_hot": [
     [
-     "VALLEI MET VRAGENDE WENK",
-     "klank",
+     "AFWENDEN",
+     "a",
      64.6,
      21.1
     ],
     [
-     "HALF AFGEWEND",
-     "a",
+     "ARMEN",
+     "b",
      80.6,
      55.7
     ],
     [
-     "KNIE ZOEKT GROND",
-     "b",
+     "KLANK",
+     "klank",
      54.3,
      82.4
     ],
     [
-     "SPIEGEL MET VROUW",
+     "SPIEGEL",
      "paleis",
      22.1,
      64.3
     ],
     [
-     "RODE DRAAD",
+     "DRAAD",
      "link",
      28.4,
      26.5
@@ -5889,13 +6159,23 @@
    ],
    "_beeld_open": [
     "obrien",
-    "centrum",
-    "beeld2",
     "klank",
+    "klank-s1",
+    "klank-s2",
     "a",
+    "a-s1",
+    "a-s2",
     "b",
+    "b-s1",
+    "b-s2",
     "paleis",
-    "link"
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
    ]
   },
   {
