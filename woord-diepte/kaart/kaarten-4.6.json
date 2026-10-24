@@ -843,7 +843,6 @@
     ]
    ],
    "_mm_open": [
-    "b-s1",
     "b-s2",
     "c-s1",
     "c-s2",
@@ -857,7 +856,6 @@
    "_beeld_open": [
     "klank-s1",
     "klank-s2",
-    "b-s1",
     "b-s2",
     "c-s1",
     "c-s2",
@@ -2469,32 +2467,26 @@
      "竖钩"
     ]
    },
-   "delen": "<b class=\"rood\">扌</b> hand (betekenisdeel) · <b>丁</b> klankdeel",
+   "delen": "<b class='rood'>扌</b> hand (betekenisdeel) · <b class='zwart'>丁</b> klankdeel",
    "opbouw": "打 = 扌 3 + 丁 2",
    "klank": "DA↘↗",
-   "klankuitleg": "3e toon: kort dalen en dan stijgen; kin zakt en schiet omhoog.",
+   "klankuitleg": "3e toon: dalen en dan stijgen; kin zakt en schiet omhoog.",
    "hooks": {
     "nl": [
      "DA↘↗",
-     "Ik sla net mis en raak dan: da-a!",
-     "DA... DA↘↗, da, kin zakt en krabbelt omhoog; korte 3e toon met dip."
+     "DA... DA↘↗, da, kin zakt en krabbelt omhoog.",
+     "DA... DA↘↗, da, kin zakt en krabbelt omhoog; volle 3e toon met dip en stijging."
     ],
     "en": [
      "DAH↘↗",
-     "I say dah! — short surprise, then a hit.",
-     "DAH... DAH↘↗, dah, chin drops then rises; short third tone, not day."
+     "DAH... DAH↘↗, dah, chin drops then rises.",
+     "DAH... DAH↘↗, dah, chin drops then rises; full third tone, not day."
     ],
     "es": [
      "DA↘↗",
-     "Digo da! — seco y corto, con un dip.",
-     "DA... DA↘↗, da, la barbilla baja y sube; tercer tono corto y seco."
-    ],
-    "nl[1]": "DA↘↗, da duikt en komt omhoog.",
-    "nl[2]": "DA... DA↘↗, da, kin zakt en krabbelt omhoog; volle 3e toon met dip en stijging.",
-    "en[1]": "I say DAH↘↗ — dah dips, then rises.",
-    "en[2]": "DAH... DAH↘↗, dah, chin drops then rises; full third tone, not day.",
-    "es[1]": "Digo DA↘↗ — da baja y sube.",
-    "es[2]": "DA... DA↘↗, da, la barbilla baja y sube; tercer tono largo, cae y sube."
+     "DA... DA↘↗, da, la barbilla baja y sube.",
+     "DA... DA↘↗, da, la barbilla baja y sube; tercer tono largo, cae y sube."
+    ]
    },
    "beeldhook": "IK hef mijn <b class='rood'>扌</b> hand en sla de <b>丁</b> spijker precies op de kop.",
    "stop": [
@@ -2527,9 +2519,7 @@
     "Of 丁 in 打 ooit letterlijk 'spijker' betekende, is niet zeker; de bron noemt 丁 als klankcomponent.",
     "Los 打 is breed; de betekenis hangt sterk van de collocatie af.",
     "丁 is dīng: alleen de beginmedeklinker deelt 打 (dǎ); de toon komt niet overeen.",
-    "弟弟打电话？ kan als spreektalige intonatievraag. De neutrale ja/nee-vorm is 弟弟打电话吗？.",
-    "打手机 is óók gewoon Chinees voor opbellen, naast 打电话.",
-    "Hulpwoorden in de zinnen, nog geen eigen kaart: 吗 (nodig voor correcte grammatica, Grok-feitcheck)"
+    "打手机 is óók gewoon Chinees voor opbellen, naast 打电话."
    ],
    "mm": [
     [
@@ -2538,11 +2528,11 @@
      [
       [
        "dǎ",
-       "3e toon: dip"
+       "dip"
       ],
       [
        "DA!",
-       "hamer op spijker"
+       "hamer"
       ]
      ]
     ],
@@ -2552,11 +2542,11 @@
      [
       [
        "扌",
-       "rode hand"
+       "rood"
       ],
       [
        "heffen",
-       "klaar om te slaan"
+       "klaar"
       ]
      ]
     ],
@@ -2566,11 +2556,11 @@
      [
       [
        "丁",
-       "zwarte spijker"
+       "zwart"
       ],
       [
        "kop",
-       "precies geraakt"
+       "geraakt"
       ]
      ]
     ],
@@ -2580,10 +2570,10 @@
      [
       [
        "Lorentz",
-       "Arnhem Zuid"
+       "Arnhem"
       ],
       [
-       "Rakon (?)",
+       "Rakon?",
        "gevelsysteem"
       ]
      ]
@@ -2598,7 +2588,7 @@
       ],
       [
        "beeld",
-       "hand slaat spijker"
+       "slag"
       ]
      ]
     ]
@@ -2621,30 +2611,31 @@
     ]
    ],
    "dialoog": {
-    "a": "弟弟打电话？",
+    "a": "弟弟打电话吗？",
     "b": "弟弟打电话。",
     "hint": "Gebruik 打电话 voor 'opbellen'.",
     "fout": [
      "弟弟电话打。",
-     "弟弟没有打电话。",
-     "姐姐打电话。"
+     "弟弟没有打电话。"
     ]
    },
    "oud": {
     "actie": "Ik hef mijn hand en sla op de denkbeeldige spijker.",
     "recallDoe": [
      "Kijk naar 打 en wijs links de hand aan.",
-     "Zeg hardop: DA? met een dalende en stijgende toon.",
+     "Zeg hardop: DA↘↗, met een dalende en stijgende toon.",
      "Beeld je een spijker in en sla met je hand neer.",
      "Noem hardop: 扌 is rood, 丁 is zwart.",
-     "Schrijf 打 in de lucht en tel tot vijf."
+     "Schrijf 打 in de lucht en tel tot vijf.",
+     "Zeg in het Chinees: De oudere zus slaat de jongere broer."
     ],
     "recallVragen": [
      "Welke toon heeft 打?",
      "Welk radicaal zit links en wat betekent het?",
      "Uit hoeveel streken bestaat 打?",
      "Noem één vaste combinatie met 打.",
-     "Welke beweging hoort bij de beeldhook?"
+     "Welke beweging hoort bij de beeldhook?",
+     "Welke leszin betekent 'De jongere broer heeft niet opgebeld'?"
     ],
     "plek": "Metalen gevel Lorentz"
    },
@@ -3700,33 +3691,33 @@
      "捺"
     ]
    },
-   "delen": "<b class=\"rood\">手</b> hand, betekenisdeel · <b class=\"rood\">表</b> tonen/uitdrukken; hier 'horloge', betekenisdeel",
+   "delen": "<b class=\"rood\">手</b> hand, betekenisdeel · <b>毛</b> bont, vormdeel · <b class=\"rood\">衣</b> kleding, radicaal",
    "opbouw": "手表 = 手 4 + 表 8",
-   "klank": "SHOU↗BIAO↘↗",
-   "klankuitleg": "3e+3e; in spraak wordt de eerste 3e vaak 2e: shóubiǎo. Eerst lichte dip, dan diepe dip en stijging.",
+   "klank": "SHOU↘↗ BIAO↘↗",
+   "klankuitleg": "Citaat 3e+3e: shǒubiǎo. In spraak wordt de eerste 3e vaak 2e: shóubiǎo. Eerst volle dip en stijging, dan diepe dip en stijging.",
    "hooks": {
     "nl": [
-     "SHOU↗ BIAO↘↗",
-     "Ik zeg: sjouw↗ ... biauw↘↗ — mijn kin stijgt bij sjouw en zakt bij biauw.",
-     "SHOU↗ BIAO↘↗, sjouw-biauw; 3e+3e wordt 2e+3e, kin stijgt bij shou en zakt dan stijgt bij biao."
+     "SHOU↘↗ BIAO↘↗",
+     "Ik zeg: sjouw↘↗ ... biauw↘↗ — mijn kin zakt en stijgt bij sjouw, en zakt dieper en stijgt bij biauw.",
+     "SHOU↘↗ BIAO↘↗, sjouw-biauw; in spraak 3e+3e → 2e+3e: shóubiǎo, kin stijgt bij shou en zakt dan stijgt bij biao."
     ],
     "en": [
-     "SHOW↗ BEE-OW↘↗",
-     "I say: show↗ ... bee-ow↘↗ — chin rises on show and dips on bee-ow.",
-     "SHOW↗ BEE-OW↘↗, show-bee-ow; third plus third becomes second plus third, chin rises then dips."
+     "SHOW↘↗ BEE-OW↘↗",
+     "I say: show↘↗ ... bee-ow↘↗ — chin dips and rises on show, then dips deeper and rises on bee-ow.",
+     "SHOW↘↗ BEE-OW↘↗, show-bee-ow; third plus third becomes second plus third, chin rises on show, then dips and rises on bee-ow."
     ],
     "es": [
-     "SHOU↗ BIAO↘↗",
-     "Digo: shou↗ ... biao↘↗ — la barbilla sube en shou y baja en biao.",
-     "SHOU↗ BIAO↘↗, shou-biao; 3.º+3.º pasa a 2.º+3.º, la barbilla sube y luego baja y sube."
+     "SHOU↘↗ BIAO↘↗",
+     "Digo: shou↘↗ ... biao↘↗ — la barbilla baja y sube en shou, y baja más y sube en biao.",
+     "SHOU↘↗ BIAO↘↗, shou-biao; 3.º+3.º pasa a 2.º+3.º, la barbilla sube en shou y luego baja y sube en biao."
     ]
    },
-   "beeldhook": "IK gesp mijn hand om mijn pols en laat de wijzerplaat als een huidlaag de tijd tonen.",
+   "beeldhook": "IK gesp mijn <b class=\"rood\">手</b> hand om mijn pols, voel koud metaal en laat de <b class=\"rood\">衣</b>-wijzerplaat als een huidlaag de tijd hoorbaar tikken.",
    "stop": [
     4
    ],
-   "anker": "<b>4</b> Bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid zie ik alleen het metaal en de constructie.",
-   "scene": "Ik sta bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid. Ik voel het koude metaal en zie de constructie. Ik doe mijn hand om mijn pols en zie een wijzerplaat als een huidlaag op het metaal glinsteren. Ik hoor de wijzerplaat tikken, mijn kin stijgt bij SHOU en zakt bij BIAO.",
+   "anker": "<b>4</b> Bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid hangt een strak patroon van metalen gevelpanelen en stalen stijlen; ik zie alleen het metaal en de constructie, geen verzonnen details.",
+   "scene": "Ik sta bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid. Ik voel het koude metaal en zie de constructie. Ik hoor de wijzerplaat overdreven luid tikken, ruik regen op staal en proef een droge metaalsmaak. Ik gesp mijn hand om mijn pols; de wijzerplaat glinstert als een huidlaag op het metaal. Mijn kin zakt en stijgt bij SHOU en zakt dieper en stijgt bij BIAO. Ik voel lichte haast: de tijd tikt door.",
    "fam": [
     [
      "手",
@@ -3739,6 +3730,24 @@
      "shǒujī",
      "mobiele telefoon",
      "deelt 手"
+    ],
+    [
+     "手表",
+     "shǒubiǎo",
+     "horloge",
+     "deelt 手"
+    ],
+    [
+     "打",
+     "dǎ",
+     "slaan",
+     "deelt 扌"
+    ],
+    [
+     "找",
+     "zhǎo",
+     "zoeken",
+     "deelt 扌"
     ],
     [
      "表",
@@ -3766,13 +3775,16 @@
      [
       [
        "shǒu",
-       "3e toon: lichte dip"
+       "3e toon: volle dip en stijging",
+       "kin zakt en stijgt"
       ],
       [
        "biǎo",
-       "3e toon: diepe dip en stijging"
+       "3e toon: diepe dip en stijging",
+       "kin zakt diep en schiet omhoog"
       ]
-     ]
+     ],
+     "golvende toonlijn boven een hand"
     ],
     [
      "HAND",
@@ -3780,13 +3792,16 @@
      [
       [
        "手",
-       "rode hand met vingers"
+       "rode hand met vingers",
+       "open hand"
       ],
       [
        "gesp",
-       "om de pols"
+       "om de pols",
+       "riem gespt"
       ]
-     ]
+     ],
+     "rode hand gespt om pols"
     ],
     [
      "WIJZERPLAAT",
@@ -3794,13 +3809,16 @@
      [
       [
        "表",
-       "毛 + 衣 als beelddelen"
+       "毛 zwart + 衣 rood",
+       "kledinglaag"
       ],
       [
        "tijd",
-       "tikken op de pols"
+       "tikken op de pols",
+       "tikkende wijzer"
       ]
-     ]
+     ],
+     "wijzerplaat als huidlaag"
     ],
     [
      "METAALGEVEL",
@@ -3808,13 +3826,16 @@
      [
       [
        "Lorentz",
-       "Arnhem Zuid"
+       "Arnhem Zuid",
+       "lyceum"
       ],
       [
-       "Rakon (?)",
-       "gevelsysteem"
+       "metaal",
+       "koude gevel",
+       "glinsterend"
       ]
-     ]
+     ],
+     "metalen gevel"
     ],
     [
      "LINK",
@@ -3822,13 +3843,16 @@
      [
       [
        "klank",
-       "SHOU-BIAO"
+       "SHOU-BIAO",
+       "toonboog"
       ],
       [
        "beeld",
-       "hand gespt wijzerplaat om"
+       "hand gespt wijzerplaat om",
+       "gesp"
       ]
-     ]
+     ],
+     "klank en beeld verbonden"
     ]
    ],
    "syl": [
@@ -3878,6 +3902,38 @@
     "plek": "Metalen gevel Lorentz"
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radicaal-familie": [
+    [
+     "手",
+     "shǒu",
+     "hand",
+     "radicaal 手"
+    ],
+    [
+     "手机",
+     "shǒujī",
+     "mobiele telefoon",
+     "bevat 手"
+    ],
+    [
+     "手表",
+     "shǒubiǎo",
+     "horloge",
+     "bevat 手"
+    ],
+    [
+     "打",
+     "dǎ",
+     "slaan",
+     "bevat 扌"
+    ],
+    [
+     "找",
+     "zhǎo",
+     "zoeken",
+     "bevat 扌"
+    ]
+   ],
    "radfam": [
     {
      "hz": "手",
@@ -4076,26 +4132,22 @@
    "klankuitleg": "3e toon: eerst dalen, dan stijgen; teruggetrokken zh en diepe dip.",
    "hooks": {
     "nl": [
-     "ZHAO↘↗",
-     "Ik zoek en zeg: zauw? — net niet gezien, dan toch!",
-     "ZHAO... ZHAO↘↗, zauw, kin zakt en krabbelt omhoog; 3e toon met dip."
+     "zjauw↘↗",
+     "zjauw? — kin zakt en krabbelt omhoog.",
+     "ZHAO... ZHAO↘↗, zjauw, kin zakt en krabbelt omhoog; 3e toon met dip."
     ],
     "en": [
-     "JOW↘↗",
-     "I say jow? — searching, then finding.",
+     "jow↘↗",
+     "jow? — chin drops then rises.",
      "JOW... JOW↘↗, jow, chin drops then rises; third tone dip, not jaw."
     ],
     "es": [
-     "CHAO↘↗",
-     "Digo chao? — busco y encuentro.",
-     "CHAO... CHAO↘↗, chao, la barbilla baja y sube; tercer tono con dip."
-    ],
-    "nl[1]": "zjauw↘↗",
-    "nl[2]": "ZHAO... ZHAO↘↗, zjauw, kin zakt en krabbelt omhoog; 3e toon met dip.",
-    "en[1]": "jow↘↗",
-    "es[1]": "chao↘↗"
+     "zhau↘↗",
+     "zhau? — la barbilla baja y sube.",
+     "ZHAO... ZHAO↘↗, zhau, la barbilla baja y sube; tercer tono con dip."
+    ]
    },
-   "beeldhook": "IK zwaai mijn <b class='rood'>戈</b> speer en tast met mijn <b class='rood'>扌</b> hand in de menigte.",
+   "beeldhook": "IK zwaai mijn <b class='rood'>戈</b> speer langs de metalen gevel en tast met mijn <b class='rood'>扌</b> hand tussen de naden.",
    "stop": [
     4
    ],
@@ -4135,11 +4187,11 @@
      [
       [
        "zhǎo",
-       "3e toon: diepe dip"
+       "dip"
       ],
       [
-       "ZHAO!",
-       "zoekroep"
+       "ZHAO",
+       "roep"
       ]
      ]
     ],
@@ -4149,11 +4201,11 @@
      [
       [
        "扌",
-       "rode hand"
+       "rood"
       ],
       [
-       "tasten",
-       "langs de gevel"
+       "gevel",
+       "hand"
       ]
      ]
     ],
@@ -4163,11 +4215,11 @@
      [
       [
        "戈",
-       "rode speer"
+       "rood"
       ],
       [
        "punt",
-       "wijst de zoekrichting"
+       "richting"
       ]
      ]
     ],
@@ -4177,11 +4229,11 @@
      [
       [
        "Lorentz",
-       "Arnhem Zuid"
+       "gevel"
       ],
       [
-       "Rakon (?)",
-       "gevelsysteem"
+       "staal",
+       "paneel"
       ]
      ]
     ],
@@ -4190,12 +4242,12 @@
      "link",
      [
       [
-       "klank",
-       "ZHAO"
+       "delen",
+       "samen"
       ],
       [
-       "beeld",
-       "hand en speer zoeken"
+       "geheel",
+       "找"
       ]
      ]
     ]
@@ -4233,8 +4285,7 @@
      "Tast met je hand in de lucht en zeg zhǎo.",
      "Houd een denkbeeldige speer schuin en prik vooruit.",
      "Laat je kin zakken en krabbel omhoog bij zhǎo.",
-     "Teken 扌 en 戈 met je vinger.",
-     "Tik 7 op je dij."
+     "Teken 扌 en 戈 met je vinger."
     ],
     "recallVragen": [
      "Welke toon heeft 找 en hoe voelt die in je kin?",
