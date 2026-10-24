@@ -309,7 +309,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-十",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   },
   {
    "hz": "百",
@@ -363,7 +363,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-百",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   },
   {
    "hz": "零",
@@ -411,7 +411,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-零",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   },
   {
    "hz": "子",
@@ -1492,7 +1492,7 @@
    "h1": false,
    "source": "drive-woordkaart 1GqR90rOhxWX7iLyx-FfTwI1Tr7xdW45zrKdBHABqqdQ",
    "card_id": "wd-多少",
-   "status46": "open"
+   "status46": "wacht-op-deepseek"
   }
  ],
  "recallByLearner": {

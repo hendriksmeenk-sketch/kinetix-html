@@ -4749,13 +4749,13 @@
     ],
     [
      "妹妹好，妈妈好。",
-     "Jongere zus is goed, mama is goed."
+     "Hallo jongere zus, hallo mama."
     ]
    ],
    "dialoog": {
-    "a": "妈妈打电话吗？",
+    "a": "妈妈打电话？",
     "b": "妈妈打电话。",
-    "hint": "Vraag met 吗; het antwoord herhaalt 妈妈打电话.",
+    "hint": "Vraag met stijgende intonatie; het antwoord herhaalt 妈妈打电话.",
     "fout": [
      "弟弟打电话。",
      "姐姐打电话。",
@@ -9358,6 +9358,264 @@
     "link-s2",
     "centrum",
     "beeld2"
+   ]
+  },
+  {
+   "slug": "you",
+   "hz": "游",
+   "py": "yóu",
+   "nl": "zwemmen",
+   "toon": "2",
+   "streken": {
+    "游": [
+     "点",
+     "点",
+     "提",
+     "点",
+     "横",
+     "横折钩",
+     "撇",
+     "撇",
+     "横",
+     "横撇",
+     "竖钩",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">氵</b> water, betekenisdeel · <b class=\"rood\">斿</b> yóu, klankdeel (ook beeld: wimpel / vrij zwemmen)",
+   "opbouw": "游 = 氵 3 + 斿 9",
+   "klank": "YOU↗",
+   "klankuitleg": "yóu = 2e toon: kort en stijgend; klinkt als NL 'jow', EN 'you', ES 'yo'.",
+   "hooks": {
+    "nl": [
+     "JO↗",
+     "JO↗ — ik roep stijgend over het water.",
+     "JO↗ ... JO↗ ... Ik roep JO↗ over het water. Toon: 2e toon stijgt."
+    ],
+    "en": [
+     "YO↗",
+     "YO↗ — I call upward across the water.",
+     "YO↗ ... YO↗ ... I call YO↗ across the water. Tone: 2nd tone rises."
+    ],
+    "es": [
+     "YO↗",
+     "YO↗ — grito hacia el agua.",
+     "YO↗ ... YO↗ ... Grito YO↗ hacia el agua. Tono: 2.º tono sube."
+    ]
+   },
+   "beeldhook": "IK zwem vrij door het water en zwaai mijn armen als een wimpel, terwijl ik <b class=\"rood\">氵</b> (water, betekenisdeel) en <b class=\"rood\">斿</b> (yóu, klankdeel; wimpel / vrij zwemmen) naast me zie.",
+   "stop": [
+    10
+   ],
+   "anker": "<b>10</b> Gymzaal 1e verdieping: de sportzaal op de eerste verdieping; ik trek een zwemslag door de lucht en roep YÓU! naar de overkant.",
+   "scene": "Ik sta in de zwevende gymzaal op de 1e verdieping. Ik ruik rubber en een vleug zaalzweet. Ik hoor mijn schoenen piepen en een bal dof tegen de muur echoën. Ik zie de opgetilde sportzaal en de lijnen op de vloer. Ik voel de koude, gladde vloer onder mijn hand. Ik proef een droge metaalsmaak in mijn mond. Ik trek een zwemslag door de lucht en laat mijn kin omhoog schieten bij YÓU↗.",
+   "fam": [
+    [
+     "游泳",
+     "yóuyǒng",
+     "zwemmen",
+     "deelt 游"
+    ],
+    [
+     "旅游",
+     "lǚyóu",
+     "reizen",
+     "deelt 游"
+    ],
+    [
+     "游戏",
+     "yóuxì",
+     "spel",
+     "deelt 游"
+    ]
+   ],
+   "gesch": "游 is in het moderne schrift ⿰氵斿: 氵 plus 斿 (方 + 𠂉 + 子). Woordenboeken: 氵 betekenisdeel (water), 斿 klankdeel (yóu). Makemeahanzi noemt het ideografisch: vrij zwemmen (斿) door de zeeën (氵). 说文 gloss eert het anders: wimpel aan een banier, met klank 汓. Zwemmen leeft voort in 游泳. Rondtrekken en reizen horen traditioneel bij 遊 en vallen in het vereenvoudigd schrift samen met 游. In modern Chinees staat 游 zelden los; de chunk (游泳, 旅游, 游戏) kiest de betekenis.",
+   "twijfel": [
+    "游 en 遊 vallen in vereenvoudigd Chinees vaak samen; traditioneel zijn er verschillen.",
+    "𠂉 is een vormdeel zonder eigen betekenisradicaal.",
+    "Los 游 is zeldzaam/vaag; de chunk bepaalt of het 'zwemmen', 'reizen' of 'spel' is.",
+    "Makemeahanzi zet 游 op ideografisch; woordenboeken op 形声 (氵 betekenis, 斿 klank yóu). 斿 is 亦声.",
+    "De zee-hint van makemeahanzi en de 说文-glos (wimpel aan een banier, klank 汓) zijn twee etymologieën.",
+    "游泳 hoort bij 游 (zwemmen); 旅游 en 游戏 komen van 遊 (rondtrekken, spel). Vereenvoudigd vallen ze samen.",
+    "Hulpwoorden in de zinnen, nog geen eigen kaart: 得 (nodig voor correcte grammatica, Grok-feitcheck)"
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "YOU↗",
+       "krachtbeeld: stijgend"
+      ],
+      [
+       "jow?",
+       "krachtbeeld: wenkbrauw"
+      ]
+     ]
+    ],
+    [
+     "WATER",
+     "a",
+     [
+      [
+       "氵",
+       "krachtbeeld: druppels"
+      ],
+      [
+       "stroom",
+       "krachtbeeld: water"
+      ]
+     ]
+    ],
+    [
+     "WIMPEL",
+     "b",
+     [
+      [
+       "斿",
+       "krachtbeeld: wimpel"
+      ],
+      [
+       "armslag",
+       "krachtbeeld: zwem"
+      ]
+     ]
+    ],
+    [
+     "GYMZAAL",
+     "paleis",
+     [
+      [
+       "opgetild",
+       "krachtbeeld: verdieping"
+      ],
+      [
+       "sportzaal",
+       "krachtbeeld: zwevend"
+      ]
+     ]
+    ],
+    [
+     "DRAAD",
+     "link",
+     [
+      [
+       "yóu",
+       "krachtbeeld: klankdraad"
+      ],
+      [
+       "reizen",
+       "krachtbeeld: route"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "yóu"
+   ],
+   "zinnen": [
+    [
+     "弟弟游泳。",
+     "De jongere broer zwemt."
+    ],
+    [
+     "妹妹没有游泳。",
+     "De jongere zus heeft niet gezwommen."
+    ],
+    [
+     "姐姐游泳得很好。",
+     "De oudere zus zwemt heel goed."
+    ]
+   ],
+   "dialoog": {
+    "a": "弟弟游泳吗？",
+    "b": "弟弟游泳。",
+    "hint": "Herhaal 弟弟 + 游泳.",
+    "fout": [
+     "姐姐游泳。",
+     "妹妹游泳。",
+     "奶奶游泳。"
+    ]
+   },
+   "oud": {
+    "actie": "Trek een zwemslag door de lucht en zeg yóu.",
+    "recallDoe": [
+     "Maak een crawlslag en zeg yóu met stijgende stem.",
+     "Wijs je kin omhoog bij de 2e toon.",
+     "Teken 氵 en 斿 met je vinger.",
+     "Tik 12 op je dij.",
+     "Fluister yóu? en glijd door de spiegel."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 游 en waar voel je die stijgen?",
+     "Welke radicalen zitten in 游?",
+     "Hoeveel streken heeft 游?",
+     "Waarom is 游戏 niet 'zwemmen'?",
+     "Welke beweging hoort bij de beeldhook?"
+    ],
+    "plek": "Zwevende gymzaal"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "WATER",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "WIMPEL",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "GYMZAAL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "DRAAD",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "centrum",
+    "beeld2",
+    "klank",
+    "a",
+    "b",
+    "paleis",
+    "link"
    ]
   },
   {
