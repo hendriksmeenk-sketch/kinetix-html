@@ -2920,9 +2920,13 @@
      "Bye: dip, then lift.",
      "BYE! ... BYE! ... Bye: dip, then lift. Third tone: drop, then bounce up."
     ],
-    "es": "BÁI!↘↗"
+    "es": [
+     "BÁI!↘↗",
+     "Bai: baja y luego sube.",
+     "BÁI! ... BÁI! ... Bai: baja y luego sube. Tercer tono: primero baja, luego rebota."
+    ]
    },
-   "beeldhook": "IK tel op de koude glaswand honderd regendruppels, ruik natte stof, hoor de gong en trek met mijn vinger een rode streep boven de witte lei.",
+   "beeldhook": "IK sta bij de glaswand van de aula, tel honderd regendruppels op het koude glas, ruik natte stof, hoor de gong dalen en terugveren, en trek met mijn vinger een rode streep boven de witte lei.",
    "stop": [
     6
    ],
@@ -3103,24 +3107,24 @@
     "source": "woord_diepte",
     "card_id": "wd-百",
     "zinnen": [],
-    "status46": "wacht-op-grok",
+    "status46": "open-media",
     "kaart46": "kaart/bai.html",
     "v46": {
      "klankhaken": {
       "nl": {
        "haak": "BǍI!↘↗",
-       "zin": "Baai met een dalende kuil, dan weer omhoog."
+       "zin": "Bai: dal, dan veer omhoog."
       },
       "en": {
        "haak": "BYE!↘↗",
-       "zin": "Bye first dips and then lifts."
+       "zin": "Bye: dip, then lift."
       },
       "es": {
        "haak": "B",
        "zin": "Á"
       }
      },
-     "beeldhook": "IK tel druppels op één wit teken, klankdeel en leg een rode streep erboven.",
+     "beeldhook": "IK tel op de koude glaswand honderd regendruppels, ruik natte stof, hoor de gong en trek met mijn vinger een rode streep boven de witte lei.",
      "paleisStop": [
       6
      ],
@@ -3148,7 +3152,7 @@
      }
     }
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
    "recallDoe": [
     "Toon: zeg bǎi met dal en veer.",
     "Toon: fluister de dal, brul de veer.",
@@ -3177,6 +3181,48 @@
     "Welke klank heeft 百 in de derde toon?",
     "Wat is het verschil tussen 百 en 白?"
    ],
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "BǍI!↘↗",
+      "zin": "Baai met een dalende kuil, dan weer omhoog."
+     },
+     "en": {
+      "haak": "BYE!↘↗",
+      "zin": "Bye first dips and then lifts."
+     },
+     "es": {
+      "haak": "BÁI!↘↗",
+      "zin": "Bai: baja y luego sube."
+     }
+    },
+    "beeldhook": "IK sta bij de glaswand van de aula, tel honderd regendruppels op het koude glas, ruik natte stof, hoor de gong dalen en terugveren, en trek met mijn vinger een rode streep boven de witte lei.",
+    "paleisStop": [
+     6
+    ],
+    "audio": [
+     "kaart/media/bai-zh.mp3",
+     "kaart/media/bai-zh-traag.mp3",
+     "kaart/media/bai-hook-nl.mp3",
+     "kaart/media/bai-hook-en.mp3",
+     "kaart/media/bai-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/bai-centrum.jpg",
+     "kaart/media/bai-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/bai-mindmap.jpg",
+    "streken": {
+     "百": [
+      "横",
+      "撇",
+      "竖",
+      "横折",
+      "横",
+      "横"
+     ]
+    }
+   },
    "radfam": [
     {
      "hz": "的",
@@ -3742,18 +3788,22 @@
      "Doe-sjau: eerste vlak hoog, tweede licht.",
      "DUŌ! ... DUŌ! ... SHAO? ... Doe-sjau. Eerste toon vlak hoog, tweede licht/neutraal."
     ],
-    "en": "DO!→ ... SHAO?(light)",
+    "en": [
+     "DO!→ ... SHAO?(light)",
+     "Doe-sjau: first flat high, second light/neutral.",
+     "DO! ... DO! ... SHAO? ... Doe-sjau. First tone flat high, second light/neutral."
+    ],
     "es": [
      "DUO!→ ... CHAO?(licht)",
      "Duo-chao: eerste vlak, tweede licht.",
      "DUO! ... DUO! ... CHAO? ... Duo-chao. Eerste toon vlak hoog, tweede licht/neutraal."
     ]
    },
-   "beeldhook": "IK sta op het Cruijff-court, open mijn handen naar de kooi, voel het koude gaas en de wind, ruik rubber en knijp de kleine streek tot een smalle kier.",
+   "beeldhook": "IK sta op het Cruijff-court, open mijn handen wijd naar de kooi, voel het koude gaas en de wind, ruik rubber en buitenlucht, hoor de bal tegen het hek tikken en knijp de kleine streek krachtig tot een smalle kier.",
    "stop": [
     5
    ],
-   "anker": "<b>5</b> Cruijff-court: kooiveld; mijn open handen meten veel ballen en knijpen tot weinig.",
+   "anker": "<b>5</b> Cruijff-court: het echte kooiveld met gaas; mijn open handen meten veel ballen en knijpen tot weinig.",
    "scene": "Ik sta op het Cruijff-court en open mijn handen wijd naar de kooi. Ik zie de lijnen van het kooiveld en de ballen die rondrollen. Ik hoor het tikken van een bal tegen het hek. Ik voel het koude gaas onder mijn vingers en de wind tussen mijn open handen. Ik ruik rubber en buitenlucht. Ik proef een droge korrel zand tussen mijn tanden en knijp mijn handen tot een smalle opening.",
    "fam": [
     [
@@ -3951,7 +4001,7 @@
      "klankhaken": {
       "nl": {
        "haak": "DUŌ!→ ... SHAO?(licht)",
-       "zin": "Doe-sjau: open hand, dan twijfelende lichte sjau."
+       "zin": "Doe-sjau: eerste vlak hoog, tweede licht."
       },
       "en": {
        "haak": "D",
@@ -3959,10 +4009,10 @@
       },
       "es": {
        "haak": "DUO!→ ... CHAO?(licht)",
-       "zin": "Duo-chao: eerste vlak, tweede krimpt licht."
+       "zin": "Duo-chao: eerste vlak, tweede licht."
       }
      },
-     "beeldhook": "IK open mijn handen voor de avond-tekens en knijp de kleine streek tot een smalle kier.",
+     "beeldhook": "IK sta op het Cruijff-court, open mijn handen naar de kooi, voel het koude gaas en de wind, ruik rubber en knijp de kleine streek tot een smalle kier.",
      "paleisStop": [
       5
      ],
@@ -4026,6 +4076,54 @@
     "Welke klank heeft 少 in de vraag?",
     "Waarom is 多少 niet hetzelfde als 几?"
    ],
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "DUŌ!→ ... SHAO?(licht)",
+      "zin": "Doe-sjau: open hand, dan twijfelende lichte sjau."
+     },
+     "en": {
+      "haak": "DO!→ ... SHAO?(light)",
+      "zin": "Doe-sjau: first flat high, second light/neutral."
+     },
+     "es": {
+      "haak": "DUO!→ ... CHAO?(licht)",
+      "zin": "Duo-chao: eerste vlak, tweede krimpt licht."
+     }
+    },
+    "beeldhook": "IK sta op het Cruijff-court, open mijn handen wijd naar de kooi, voel het koude gaas en de wind, ruik rubber en buitenlucht, hoor de bal tegen het hek tikken en knijp de kleine streek krachtig tot een smalle kier.",
+    "paleisStop": [
+     5
+    ],
+    "audio": [
+     "kaart/media/duoshao-zh.mp3",
+     "kaart/media/duoshao-zh-traag.mp3",
+     "kaart/media/duoshao-hook-nl.mp3",
+     "kaart/media/duoshao-hook-en.mp3",
+     "kaart/media/duoshao-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/duoshao-centrum.jpg",
+     "kaart/media/duoshao-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/duoshao-mindmap.jpg",
+    "streken": {
+     "多": [
+      "撇",
+      "横撇",
+      "点",
+      "撇",
+      "横撇",
+      "点"
+     ],
+     "少": [
+      "竖",
+      "撇",
+      "点",
+      "撇"
+     ]
+    }
+   },
    "radfam": [
     {
      "hz": "小学",

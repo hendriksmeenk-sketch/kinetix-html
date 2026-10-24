@@ -402,7 +402,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-百",
-   "status46": "wacht-op-deepseek",
+   "status46": "open-media",
    "kaart46": "kaart/bai.html",
    "v46": {
     "klankhaken": {
@@ -415,11 +415,11 @@
       "zin": "Bye: dip, then lift."
      },
      "es": {
-      "haak": "B",
-      "zin": "Á"
+      "haak": "BÁI!↘↗",
+      "zin": "Bai: baja y luego sube."
      }
     },
-    "beeldhook": "IK tel op de koude glaswand honderd regendruppels, ruik natte stof, hoor de gong en trek met mijn vinger een rode streep boven de witte lei.",
+    "beeldhook": "IK sta bij de glaswand van de aula, tel honderd regendruppels op het koude glas, ruik natte stof, hoor de gong dalen en terugveren, en trek met mijn vinger een rode streep boven de witte lei.",
     "paleisStop": [
      6
     ],
@@ -1624,7 +1624,7 @@
    "h1": false,
    "source": "drive-woordkaart 1GqR90rOhxWX7iLyx-FfTwI1Tr7xdW45zrKdBHABqqdQ",
    "card_id": "wd-多少",
-   "status46": "wacht-op-deepseek",
+   "status46": "open-media",
    "kaart46": "kaart/duoshao.html",
    "v46": {
     "klankhaken": {
@@ -1633,15 +1633,15 @@
       "zin": "Doe-sjau: eerste vlak hoog, tweede licht."
      },
      "en": {
-      "haak": "D",
-      "zin": "O"
+      "haak": "DO!→ ... SHAO?(light)",
+      "zin": "Doe-sjau: first flat high, second light/neutral."
      },
      "es": {
       "haak": "DUO!→ ... CHAO?(licht)",
       "zin": "Duo-chao: eerste vlak, tweede licht."
      }
     },
-    "beeldhook": "IK sta op het Cruijff-court, open mijn handen naar de kooi, voel het koude gaas en de wind, ruik rubber en knijp de kleine streek tot een smalle kier.",
+    "beeldhook": "IK sta op het Cruijff-court, open mijn handen wijd naar de kooi, voel het koude gaas en de wind, ruik rubber en buitenlucht, hoor de bal tegen het hek tikken en knijp de kleine streek krachtig tot een smalle kier.",
     "paleisStop": [
      5
     ],
