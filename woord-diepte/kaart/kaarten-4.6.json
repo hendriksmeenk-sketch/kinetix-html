@@ -127,6 +127,21 @@
    "héngzhézhézhégōu",
    "dwars-3 knikken-haak",
    "horizontaal + 3 knikken + haak"
+  ],
+  "撇折": [
+   "piězhé",
+   "schuine knikhaal",
+   "streek die begint als 撇 en dan naar rechts knikt"
+  ],
+  "竖提": [
+   "shùtí",
+   "verticale streek met stijgende punt",
+   "verticale streek die naar rechtsboven optrekt"
+  ],
+  "斜钩": [
+   "xiégōu",
+   "schuine haak",
+   "diagonale haal die eindigt met een haak"
   ]
  },
  "kaarten": [
@@ -2440,6 +2455,376 @@
    ]
   },
   {
+   "slug": "da",
+   "hz": "打",
+   "py": "dǎ",
+   "nl": "slaan",
+   "toon": "3",
+   "streken": {
+    "打": [
+     "横",
+     "竖钩",
+     "提",
+     "横",
+     "竖钩"
+    ]
+   },
+   "delen": "<b class=\"rood\">扌</b> hand (betekenisdeel) · <b>丁</b> klankdeel",
+   "opbouw": "打 = 扌 3 + 丁 2",
+   "klank": "DA↘↗",
+   "klankuitleg": "3e toon: kort dalen en dan stijgen; kin zakt en schiet omhoog.",
+   "hooks": {
+    "nl": [
+     "DA↘↗",
+     "Ik sla net mis en raak dan: da-a!",
+     "DA... DA↘↗, da, kin zakt en krabbelt omhoog; korte 3e toon met dip."
+    ],
+    "en": [
+     "DAH↘↗",
+     "I say dah! — short surprise, then a hit.",
+     "DAH... DAH↘↗, dah, chin drops then rises; short third tone, not day."
+    ],
+    "es": [
+     "DA↘↗",
+     "Digo da! — seco y corto, con un dip.",
+     "DA... DA↘↗, da, la barbilla baja y sube; tercer tono corto y seco."
+    ],
+    "nl[1]": "DA↘↗, da duikt en komt omhoog.",
+    "nl[2]": "DA... DA↘↗, da, kin zakt en krabbelt omhoog; volle 3e toon met dip en stijging.",
+    "en[1]": "I say DAH↘↗ — dah dips, then rises.",
+    "en[2]": "DAH... DAH↘↗, dah, chin drops then rises; full third tone, not day.",
+    "es[1]": "Digo DA↘↗ — da baja y sube.",
+    "es[2]": "DA... DA↘↗, da, la barbilla baja y sube; tercer tono largo, cae y sube."
+   },
+   "beeldhook": "IK hef mijn <b class='rood'>扌</b> hand en sla de <b>丁</b> spijker precies op de kop.",
+   "stop": [
+    4
+   ],
+   "anker": "<b>4</b> Bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid zie ik het strakke metalen gevelsysteem; ik gebruik alleen dat zichtbare metaal als anker.",
+   "scene": "Ik sta bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid. Ik voel de koude metalen panelen en zie het strakke metalen gevelsysteem. Ik hoor de wind langs staal fluiten. Ik ruik regen op metaal en proef een droge metaalsmaak. Mijn hand heft zich en slaat op een denkbeeldige spijker; mijn kin zakt bij DA en krabbelt omhoog. De klap galmt tegen de gevel.",
+   "fam": [
+    [
+     "打电话",
+     "dǎ diànhuà",
+     "opbellen",
+     "deelt 打"
+    ],
+    [
+     "打字",
+     "dǎ zì",
+     "typen",
+     "deelt 打"
+    ],
+    [
+     "打开",
+     "dǎkāi",
+     "openen",
+     "deelt 打"
+    ]
+   ],
+   "gesch": "打 is een pictofonetisch teken: 扌 (hand) draagt de betekenis, 丁 is klankcomponent. De oude kern zit bij 'met de hand slaan, raken, treffen'. In modern Chinees is 打 een vrij werkwoord én staat het in vaste combinaties zoals 打电话 en 打字, waar de betekenis verschuift.",
+   "twijfel": [
+    "Of 丁 in 打 ooit letterlijk 'spijker' betekende, is niet zeker; de bron noemt 丁 als klankcomponent.",
+    "Los 打 is breed; de betekenis hangt sterk van de collocatie af.",
+    "丁 is dīng: alleen de beginmedeklinker deelt 打 (dǎ); de toon komt niet overeen.",
+    "弟弟打电话？ kan als spreektalige intonatievraag. De neutrale ja/nee-vorm is 弟弟打电话吗？.",
+    "打手机 is óók gewoon Chinees voor opbellen, naast 打电话.",
+    "Hulpwoorden in de zinnen, nog geen eigen kaart: 吗 (nodig voor correcte grammatica, Grok-feitcheck)"
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "dǎ",
+       "3e toon: dip"
+      ],
+      [
+       "DA!",
+       "hamer op spijker"
+      ]
+     ]
+    ],
+    [
+     "HAND",
+     "a",
+     [
+      [
+       "扌",
+       "rode hand"
+      ],
+      [
+       "heffen",
+       "klaar om te slaan"
+      ]
+     ]
+    ],
+    [
+     "SPIJKER",
+     "b",
+     [
+      [
+       "丁",
+       "zwarte spijker"
+      ],
+      [
+       "kop",
+       "precies geraakt"
+      ]
+     ]
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     [
+      [
+       "Lorentz",
+       "Arnhem Zuid"
+      ],
+      [
+       "Rakon (?)",
+       "gevelsysteem"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "klank",
+       "DA"
+      ],
+      [
+       "beeld",
+       "hand slaat spijker"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "dǎ"
+   ],
+   "zinnen": [
+    [
+     "姐姐打弟弟。",
+     "De oudere zus slaat de jongere broer."
+    ],
+    [
+     "弟弟没有打电话。",
+     "De jongere broer heeft niet opgebeld."
+    ],
+    [
+     "妹妹打电话，好吗？",
+     "De jongere zus belt, oké?"
+    ]
+   ],
+   "dialoog": {
+    "a": "弟弟打电话？",
+    "b": "弟弟打电话。",
+    "hint": "Gebruik 打电话 voor 'opbellen'.",
+    "fout": [
+     "弟弟电话打。",
+     "弟弟没有打电话。",
+     "姐姐打电话。"
+    ]
+   },
+   "oud": {
+    "actie": "Ik hef mijn hand en sla op de denkbeeldige spijker.",
+    "recallDoe": [
+     "Kijk naar 打 en wijs links de hand aan.",
+     "Zeg hardop: DA? met een dalende en stijgende toon.",
+     "Beeld je een spijker in en sla met je hand neer.",
+     "Noem hardop: 扌 is rood, 丁 is zwart.",
+     "Schrijf 打 in de lucht en tel tot vijf."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 打?",
+     "Welk radicaal zit links en wat betekent het?",
+     "Uit hoeveel streken bestaat 打?",
+     "Noem één vaste combinatie met 打.",
+     "Welke beweging hoort bij de beeldhook?"
+    ],
+    "plek": "Metalen gevel Lorentz"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "打",
+     "py": "dǎ",
+     "nl": "slaan",
+     "haak": "hand met hamer slaat"
+    },
+    {
+     "hz": "找",
+     "py": "zhǎo",
+     "nl": "zoeken",
+     "haak": "hand tast langs de muur"
+    },
+    {
+     "hz": "拉",
+     "py": "lā",
+     "nl": "trekken",
+     "haak": "hand trekt aan een touw"
+    },
+    {
+     "hz": "推",
+     "py": "tuī",
+     "nl": "duwen",
+     "haak": "hand duwt een deur"
+    },
+    {
+     "hz": "拍",
+     "py": "pāi",
+     "nl": "klappen",
+     "haak": "hand klapt op een trommel"
+    },
+    {
+     "hz": "指",
+     "py": "zhǐ",
+     "nl": "wijzen",
+     "haak": "hand wijst met één vinger"
+    }
+   ],
+   "obrien": {
+    "scene": "Op de metalen gevel in Arnhem Zuid zwaait een reusachtige rode hand een hamer en roept 'DA!' bij elke slag. Een zwarte spijker springt kletterend uit de gevel en vonken spatten in het rond.",
+    "klank": "DA!",
+    "prompt": "Warm bright drawn illustration: a giant red hand swinging a hammer at a black nail on a shiny metal facade in Arnhem Zuid, sparks flying, no text, no letters, single scene."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn illustration: a big colorful sound wave shaped like a hammer strike, bright motion lines, no text, no letters, single scene.",
+    "klank-s1": "Warm bright drawn illustration: a hammer dipping into a shallow colorful valley then rising, no text, no letters, single scene.",
+    "klank-s2": "Warm bright drawn illustration: a hammer hitting a black nail with a huge comic burst, no text, no letters, single scene.",
+    "a": "Warm bright drawn illustration: a giant red cartoon hand raised high, fingers spread, no text, no letters, single scene.",
+    "a-s1": "Warm bright drawn illustration: a huge red hand with five clear fingers and a bright palm, no text, no letters, single scene.",
+    "a-s2": "Warm bright drawn illustration: a cartoon hand lifted high, ready to slap, with comic motion lines, no text, no letters, single scene.",
+    "b": "Warm bright drawn illustration: a giant black nail with a shiny pointed tip, no text, no letters, single scene.",
+    "b-s1": "Warm bright drawn illustration: a huge black nail standing upright on a wooden board, no text, no letters, single scene.",
+    "b-s2": "Warm bright drawn illustration: a hammer head perfectly hitting the shiny top of a black nail, no text, no letters, single scene.",
+    "paleis": "Warm bright drawn illustration: a shiny metal building facade with geometric panels in Arnhem Zuid, no text, no letters, single scene.",
+    "paleis-s1": "Warm bright drawn illustration: Lorentz avenue in Arnhem Zuid with a modern metal facade and bright sky, no text, no letters, single scene.",
+    "paleis-s2": "Warm bright drawn illustration: a close-up of a metal facade system with interlocking shiny panels, no text, no letters, single scene.",
+    "link": "Warm bright drawn illustration: a glowing link chain connecting a sound wave to a hammer, no text, no letters, single scene.",
+    "link-s1": "Warm bright drawn illustration: a blank speech bubble bursting from a hammer strike, no text, no letters, single scene.",
+    "link-s2": "Warm bright drawn illustration: a red hand swinging a hammer onto a nail, energy lines linking them, no text, no letters, single scene."
+   },
+   "fam5": [
+    {
+     "hz": "打电话",
+     "py": "dǎ diànhuà",
+     "nl": "opbellen",
+     "deelt": "打",
+     "haak": "slaan op telefoonknop"
+    },
+    {
+     "hz": "打字",
+     "py": "dǎ zì",
+     "nl": "typen",
+     "deelt": "打",
+     "haak": "hamer op toetsen"
+    },
+    {
+     "hz": "打开",
+     "py": "dǎkāi",
+     "nl": "openen",
+     "deelt": "打",
+     "haak": "hamer opent deksel"
+    },
+    {
+     "hz": "打球",
+     "py": "dǎqiú",
+     "nl": "bal spelen",
+     "deelt": "打",
+     "haak": "hand slaat bal"
+    },
+    {
+     "hz": "打工",
+     "py": "dǎgōng",
+     "nl": "werken",
+     "deelt": "打",
+     "haak": "hand slaat werktijd"
+    },
+    {
+     "hz": "打针",
+     "py": "dǎzhēn",
+     "nl": "injectie geven",
+     "deelt": "打",
+     "haak": "naald prikt als slag"
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "HAND",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "SPIJKER",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
    "slug": "hao",
    "hz": "好",
    "py": "hǎo",
@@ -2890,6 +3275,1133 @@
     "paleis-s2"
    ],
    "_beeld_open": [
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "meiguanxi",
+   "hz": "没关系",
+   "py": "méiguānxi",
+   "nl": "geen probleem",
+   "toon": "2+1+0",
+   "streken": {
+    "没": [
+     "点",
+     "点",
+     "提",
+     "撇",
+     "横折弯",
+     "横撇",
+     "捺"
+    ],
+    "关": [
+     "点",
+     "撇",
+     "横",
+     "横",
+     "撇",
+     "捺"
+    ],
+    "系": [
+     "撇",
+     "撇折",
+     "撇折",
+     "点",
+     "竖钩",
+     "撇",
+     "点"
+    ]
+   },
+   "delen": "没: <b class=\"rood\">氵</b> water (betekenis) · <b>殳</b> actie/wapen (bron noemt klankdeel, maar klankverband is twijfelachtig); 关: <b class=\"rood\">丷</b> uiteenlopende kopstreken (radicaal) · <b>天</b> vormdeel (bronetymologie onbekend); 系: <b class=\"rood\">糸</b> zijde/draad (betekenis) · <b>丿</b> bovenstreek",
+   "opbouw": "没关系 = 没 7 + 关 6 + 系 7; 没 = 氵 3 + 殳 4; 关 = 丷 2 + 天 4; 系 = 丿 1 + 糸 6 (officiële streekvolgorde: 撇 撇折 撇折 点 竖钩 撇 点)",
+   "klank": "MEI↗ GUAN→ XI(licht)",
+   "klankuitleg": "2e toon stijgt als een wenkbrauw; 1e toon blijft vlak hoog; neutrale toon is kort en licht.",
+   "hooks": {
+    "nl": [
+     "MEI↗ GUAN→ XI(licht)",
+     "Ik zeg: mei? guan. sji. — wenkbrauw omhoog, handpalm stop, korte adem.",
+     "MEI... GUAN... XI... MEI↗ GUAN→ XI(licht), mei-guan-sji, wenkbrauw stijgt, handpalm blijft vlak, laatste klank valt licht weg; 2-1-neutraal."
+    ],
+    "en": [
+     "MAY↗ GWAHN→ SYEE(light)",
+     "I say: may? gwahn. syee. — eyebrow up, flat palm, soft breath.",
+     "MAY... GWAHN... SYEE... MAY↗ GWAHN→ SYEE(light), may-gwahn-syee, brow rises, palm stays level, last sound is light; 2-1-neutral."
+    ],
+    "es": [
+     "MEI↗ GUAN→ SI(leve)",
+     "Digo: mei? guan. si. — ceja arriba, palma plana, soplo corto.",
+     "MEI... GUAN... SI... MEI↗ GUAN→ SI(leve), mei-guan-si, la ceja sube, la palma queda plana, el último sonido es leve; 2-1-neutro."
+    ]
+   },
+   "beeldhook": "IK zwaai mijn open hand en laat het water door de poort wegstromen: 没 <b class='rood'>氵</b> water · <b>殳</b> actie/wapen; 关 <b class='rood'>丷</b> uiteenlopende kopstreken · <b>天</b> vormdeel; 系 <b class='rood'>糸</b> zijde/draad · <b>丿</b> bovenstreek.",
+   "stop": [
+    4
+   ],
+   "anker": "<b>4</b> Bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid zie ik de koude metalen panelen; ik laat MEI↗ GUAN→ XI(licht) tegen dat metaal klinken.",
+   "scene": "Ik sta bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid. Ik voel koude panelen. Ik hoor de wind langs staal suizen. Ik ruik regen op metaal en proef een droge metaalsmaak. Ik zwaai mijn open handpalm naar de gevel en laat denkbeeldig water door een poort stromen. Mijn wenkbrauw schiet omhoog bij MEI, mijn handpalm blijft vlak bij GUAN, en bij XI valt een lichte adem weg.",
+   "fam": [
+    [
+     "关系",
+     "guānxi",
+     "verhouding; connectie",
+     "关系"
+    ],
+    [
+     "没有",
+     "méiyǒu",
+     "niet hebben; er is geen",
+     "没"
+    ],
+    [
+     "系",
+     "xì",
+     "systeem; lijn; verbinding",
+     "系"
+    ]
+   ],
+   "gesch": "没 wordt in de bron als pictofonetisch beschreven: 氵 (water) is semantisch en 殳 zou klankdeel zijn, maar dat klankverband is twijfelachtig; de oude betekenis 'zinken, verdrinken, begraven' ligt achter de negator 'niet/geen' in 没有. 关 is de vereenvoudigde vorm van 關 'grenspoort; sluiten', maar de bron geeft voor 关 zelf geen etymologie; dat gat blijft onbekend. 系 is pictofonetisch met 糸 'zijde, draad' als semantische component en betekent 'systeem, lijn, verbinding'; in 没关系 wordt 系 neutraal uitgesproken.",
+   "twijfel": [
+    "系 in 没关系 wordt neutraal uitgesproken (xi), terwijl de losse lezing xì is; let op toonverlies.",
+    "Traditioneel schrift is 沒關係; de vereenvoudigde vorm 关 heeft in de bron geen etymologie.",
+    "De bron noemt 殳 een klankdeel in 没, maar het klankverband is niet overtuigend; daarom hier als twijfelpunt vermeld.",
+    "AI kan losse delen fout vertalen ('no relationship'); vertrouw AI vooral bij de vaste frase 没关系.",
+    "没 'zinken, verdrinken, begraven' leest mò (toon 4); de bron geeft alleen méi. Dat die betekenis achter de negator méi ligt, zegt de bron niet.",
+    "Bron noemt 系 pictofonetisch zonder klankdeel; 丿 niet als klankdeel invullen.",
+    "Los 系 heeft ook jì 'vastknopen' (系鞋带). In 没关系 telt die lezing niet; daar is het neutrale xi."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "méi",
+       "2e toon: stijgt"
+      ],
+      [
+       "guānxi",
+       "1e vlak + neutraal licht"
+      ]
+     ]
+    ],
+    [
+     "WATER",
+     "a",
+     [
+      [
+       "氵",
+       "water stroomt weg"
+      ],
+      [
+       "殳",
+       "actie/wapen"
+      ]
+     ]
+    ],
+    [
+     "POORT",
+     "b",
+     [
+      [
+       "丷",
+       "kopstreken wijken uiteen"
+      ],
+      [
+       "天",
+       "vormdeel; poortbeeld"
+      ]
+     ]
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     [
+      [
+       "Lorentz",
+       "Arnhem Zuid"
+      ],
+      [
+       "Rakon (?)",
+       "gevelsysteem"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "klank",
+       "MEI-GUAN-XI"
+      ],
+      [
+       "beeld",
+       "water door poort"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "méi",
+    "guān",
+    "xi"
+   ],
+   "zinnen": [
+    [
+     "弟弟没有手机。没关系。",
+     "Jongere broer heeft geen mobiele telefoon. Geen probleem."
+    ],
+    [
+     "妹妹没有打电话。没关系。",
+     "Jongere zus heeft niet opgebeld. Geen probleem."
+    ]
+   ],
+   "dialoog": {
+    "a": "弟弟没有手机。",
+    "b": "没关系。",
+    "hint": "Zeg dat het geen probleem is.",
+    "fout": [
+     "好。",
+     "没有。",
+     "姐姐好。"
+    ]
+   },
+   "oud": {
+    "actie": "Ik zwaai mijn open hand en laat de ruzie als water door de poort stromen.",
+    "recallDoe": [
+     "Zwaai je open handpalm naar voren en zeg MEI-GUAN-SJI.",
+     "Teken met je vinger drie waterdruppels en daarna een poort.",
+     "Wijs je wenkbrauw omhoog voor toon 2, houd je handpalm vlak voor toon 1, adem kort voor toon 0.",
+     "Noem hardop de drie radicalen: 氵, 丷, 糸.",
+     "Tik de streken op je dij: 7 – 6 – 7."
+    ],
+    "recallVragen": [
+     "Welke drie tonen hoor je in méi guānxi?",
+     "Welk radicaal in 没 wijst op de oude waterbetekenis?",
+     "Welk stuk etymologie van 关 blijft onbekend in de bron?",
+     "Waarom is 系 in deze frase neutraal?",
+     "Welke beeldbeweging hoort bij de schilderkamer?"
+    ],
+    "plek": "Metalen gevel Lorentz"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "没",
+     "py": "méi",
+     "nl": "niet hebben",
+     "haak": "waterdruppel valt in rivier"
+    },
+    {
+     "hz": "没有",
+     "py": "méiyǒu",
+     "nl": "niet hebben; er is geen",
+     "haak": "waterdruppel en hand samen"
+    },
+    {
+     "hz": "河",
+     "py": "hé",
+     "nl": "rivier",
+     "haak": "water naast 可"
+    },
+    {
+     "hz": "海",
+     "py": "hǎi",
+     "nl": "zee",
+     "haak": "water en elke druppel"
+    },
+    {
+     "hz": "洗",
+     "py": "xǐ",
+     "nl": "wassen",
+     "haak": "water spoelt handen"
+    },
+    {
+     "hz": "游",
+     "py": "yóu",
+     "nl": "zwemmen",
+     "haak": "water met zwemmer"
+    }
+   ],
+   "obrien": {
+    "scene": "Op de metalen gevel in Arnhem Zuid spat een emmer water door een rode poort. Een jongen haalt zijn schouders op en zingt 'MEI-GWAN-SIE', terwijl waterdruppels als confetti wegspringen.",
+    "klank": "MEI-GWAN-SIE",
+    "prompt": "Warm bright drawn illustration: a bucket of water splashing through a red gate on a shiny metal facade in Arnhem Zuid, a boy shrugging as droplets fly like confetti, no text, no letters, single scene."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn illustration: a rising colorful tone curve shaped like a water drop, bright motion lines, no text, no letters, single scene.",
+    "klank-s1": "Warm bright drawn illustration: a rising rollercoaster track with a tiny water drop sliding upward, no text, no letters, single scene.",
+    "klank-s2": "Warm bright drawn illustration: a flat calm line with a soft glowing lantern and a neutral smiling face, no text, no letters, single scene.",
+    "a": "Warm bright drawn illustration: a giant blue water splash pouring from a bucket, no text, no letters, single scene.",
+    "a-s1": "Warm bright drawn illustration: water streaming away down a shiny drain with swirling motion lines, no text, no letters, single scene.",
+    "a-s2": "Warm bright drawn illustration: a cartoon wooden club swinging with bright action lines, no text, no letters, single scene.",
+    "b": "Warm bright drawn illustration: a tall red gate with an open arch and shiny hinges, no text, no letters, single scene.",
+    "b-s1": "Warm bright drawn illustration: two small roof strokes splitting apart above a red gate like curtains, no text, no letters, single scene.",
+    "b-s2": "Warm bright drawn illustration: a big sky-shaped gate arch with clouds passing through, no text, no letters, single scene.",
+    "paleis": "Warm bright drawn illustration: a shiny metal building facade with geometric panels in Arnhem Zuid, no text, no letters, single scene.",
+    "paleis-s1": "Warm bright drawn illustration: Lorentz avenue in Arnhem Zuid with a modern metal facade and bright sky, no text, no letters, single scene.",
+    "paleis-s2": "Warm bright drawn illustration: a close-up of a metal facade system with interlocking shiny panels, no text, no letters, single scene.",
+    "link": "Warm bright drawn illustration: a glowing link chain connecting a water splash to a red gate, no text, no letters, single scene.",
+    "link-s1": "Warm bright drawn illustration: blank speech bubbles with a water drop icon and a gate icon, no text, no letters, single scene.",
+    "link-s2": "Warm bright drawn illustration: water flowing through an open red gate, droplets bouncing, no text, no letters, single scene."
+   },
+   "fam5": [
+    {
+     "hz": "没关系",
+     "py": "méiguānxi",
+     "nl": "geen probleem",
+     "deelt": "没+关+系",
+     "haak": "geen band, geen probleem"
+    },
+    {
+     "hz": "关系",
+     "py": "guānxi",
+     "nl": "verhouding; connectie",
+     "deelt": "关系",
+     "haak": "twee poorten verbonden"
+    },
+    {
+     "hz": "没有",
+     "py": "méiyǒu",
+     "nl": "niet hebben; er is geen",
+     "deelt": "没",
+     "haak": "water weg, niets over"
+    },
+    {
+     "hz": "系",
+     "py": "xì",
+     "nl": "systeem; afdeling; verbinding",
+     "deelt": "系",
+     "haak": "draad verbindt alles"
+    },
+    {
+     "hz": "关",
+     "py": "guān",
+     "nl": "sluiten",
+     "deelt": "关",
+     "haak": "poort gaat dicht"
+    },
+    {
+     "hz": "有关",
+     "py": "yǒuguān",
+     "nl": "verband houden met",
+     "deelt": "关",
+     "haak": "poort heeft een link"
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "WATER",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "POORT",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "shoubiao",
+   "hz": "手表",
+   "py": "shǒubiǎo",
+   "nl": "horloge",
+   "toon": "3+3",
+   "streken": {
+    "手": [
+     "撇",
+     "横",
+     "横",
+     "竖钩"
+    ],
+    "表": [
+     "横",
+     "横",
+     "竖",
+     "横",
+     "撇",
+     "竖提",
+     "撇",
+     "捺"
+    ]
+   },
+   "delen": "<b class=\"rood\">手</b> hand, betekenisdeel · <b class=\"rood\">表</b> tonen/uitdrukken; hier 'horloge', betekenisdeel",
+   "opbouw": "手表 = 手 4 + 表 8",
+   "klank": "SHOU↗BIAO↘↗",
+   "klankuitleg": "3e+3e; in spraak wordt de eerste 3e vaak 2e: shóubiǎo. Eerst lichte dip, dan diepe dip en stijging.",
+   "hooks": {
+    "nl": [
+     "SHOU↗ BIAO↘↗",
+     "Ik zeg: sjouw↗ ... biauw↘↗ — mijn kin stijgt bij sjouw en zakt bij biauw.",
+     "SHOU↗ BIAO↘↗, sjouw-biauw; 3e+3e wordt 2e+3e, kin stijgt bij shou en zakt dan stijgt bij biao."
+    ],
+    "en": [
+     "SHOW↗ BEE-OW↘↗",
+     "I say: show↗ ... bee-ow↘↗ — chin rises on show and dips on bee-ow.",
+     "SHOW↗ BEE-OW↘↗, show-bee-ow; third plus third becomes second plus third, chin rises then dips."
+    ],
+    "es": [
+     "SHOU↗ BIAO↘↗",
+     "Digo: shou↗ ... biao↘↗ — la barbilla sube en shou y baja en biao.",
+     "SHOU↗ BIAO↘↗, shou-biao; 3.º+3.º pasa a 2.º+3.º, la barbilla sube y luego baja y sube."
+    ]
+   },
+   "beeldhook": "IK gesp mijn hand om mijn pols en laat de wijzerplaat als een huidlaag de tijd tonen.",
+   "stop": [
+    4
+   ],
+   "anker": "<b>4</b> Bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid zie ik alleen het metaal en de constructie.",
+   "scene": "Ik sta bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid. Ik voel het koude metaal en zie de constructie. Ik doe mijn hand om mijn pols en zie een wijzerplaat als een huidlaag op het metaal glinsteren. Ik hoor de wijzerplaat tikken, mijn kin stijgt bij SHOU en zakt bij BIAO.",
+   "fam": [
+    [
+     "手",
+     "shǒu",
+     "hand",
+     "deelt 手"
+    ],
+    [
+     "手机",
+     "shǒujī",
+     "mobiele telefoon",
+     "deelt 手"
+    ],
+    [
+     "表",
+     "biǎo",
+     "tabel; oppervlak; tonen",
+     "deelt 表"
+    ]
+   ],
+   "gesch": "手 is een pictografisch teken: een hand met gespreide vingers. 表 is volgens makemeahanzi ideografisch: 毛 (bont) boven 衣 (kleding), een hint naar een omslagdoek of wikkel. De betekenis schoof later op naar 'buitenkant, tonen, uitdrukken'; de bron noemt ook 'horloge'. In 手表 is 手 'hand/pols' en 表 'horloge': een horloge aan de pols.",
+   "twijfel": [
+    "Toon sandhi: woordenboek 3+3, in spraak wordt de eerste 3e vaak 2e (shóubiǎo).",
+    "表 alleen kan 'tabel, oppervlak, tonen' betekenen; 手表 is de vaste chunk voor 'horloge'.",
+    "㇙ is hier als 竖提 benoemd; die naam staat niet in de aangeleverde officiële lijst.",
+    "Smartwatch wordt vaak 智能手表, niet los 手表.",
+    "Sandhi in het woord 手表 is regel: shóubiǎo. De citaattonen op de kaart blijven 3+3.",
+    "竖提 in 表 stijgt aan het eind naar rechtsboven. 竖钩 in 手 heeft een haak naar links.",
+    "Traditioneel is het uurwerk 錶 en het woord 手錶. 手表 is de vereenvoudigde vorm.",
+    "弟弟没有手表？ is een intonatievraag. De neutrale vraag is 弟弟没有手表吗？",
+    "Hulpwoorden in de zinnen, nog geen eigen kaart: 也、很 (nodig voor correcte grammatica, Grok-feitcheck)"
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "shǒu",
+       "3e toon: lichte dip"
+      ],
+      [
+       "biǎo",
+       "3e toon: diepe dip en stijging"
+      ]
+     ]
+    ],
+    [
+     "HAND",
+     "a",
+     [
+      [
+       "手",
+       "rode hand met vingers"
+      ],
+      [
+       "gesp",
+       "om de pols"
+      ]
+     ]
+    ],
+    [
+     "WIJZERPLAAT",
+     "b",
+     [
+      [
+       "表",
+       "毛 + 衣 als beelddelen"
+      ],
+      [
+       "tijd",
+       "tikken op de pols"
+      ]
+     ]
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     [
+      [
+       "Lorentz",
+       "Arnhem Zuid"
+      ],
+      [
+       "Rakon (?)",
+       "gevelsysteem"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "klank",
+       "SHOU-BIAO"
+      ],
+      [
+       "beeld",
+       "hand gespt wijzerplaat om"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "shǒu",
+    "biǎo"
+   ],
+   "zinnen": [
+    [
+     "弟弟没有手表。",
+     "Mijn jongere broer heeft geen horloge."
+    ],
+    [
+     "姐姐没有手表，妹妹也没有手表。",
+     "Mijn oudere zus heeft geen horloge, mijn jongere zus ook niet."
+    ],
+    [
+     "手机很好，手表也很好。",
+     "De mobiele telefoon is goed, het horloge ook."
+    ]
+   ],
+   "dialoog": {
+    "a": "弟弟没有手表？",
+    "b": "弟弟没有手表。",
+    "hint": "Herhaal 弟弟 + 没有 + 手表.",
+    "fout": [
+     "姐姐没有手表。",
+     "妹妹没有手表。",
+     "奶奶没有手表。"
+    ]
+   },
+   "oud": {
+    "actie": "Gesp een denkbeeldig horloge om je pols en zeg shǒubiǎo.",
+    "recallDoe": [
+     "Wijs je pols aan en zeg shǒubiǎo.",
+     "Teken met je vinger 手 in de lucht en noem 4 streken.",
+     "Teken 表 na en noem 8 streken.",
+     "Fluister shóubiǎo met een dalende kin.",
+     "Roep SHOU-BIAO! en tik op je dij."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 手表 in het woordenboek en hoe klinkt de eerste lettergreep in spraak?",
+     "Welke componenten zitten in 表?",
+     "Hoeveel streken heeft 手表 samen?",
+     "Waarom zeg je 手表 en niet los 表 voor 'horloge'?",
+     "Welke beweging hoort bij de beeldhook?"
+    ],
+    "plek": "Metalen gevel Lorentz"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "手",
+     "py": "shǒu",
+     "nl": "hand",
+     "haak": "rode hand met vijf vingers"
+    },
+    {
+     "hz": "手机",
+     "py": "shǒujī",
+     "nl": "mobiele telefoon",
+     "haak": "hand houdt trillende telefoon"
+    },
+    {
+     "hz": "洗手",
+     "py": "xǐshǒu",
+     "nl": "handen wassen",
+     "haak": "handen onder stromend water"
+    },
+    {
+     "hz": "左手",
+     "py": "zuǒshǒu",
+     "nl": "linkerhand",
+     "haak": "linkerhand zwaait aan de rand"
+    },
+    {
+     "hz": "右手",
+     "py": "yòushǒu",
+     "nl": "rechterhand",
+     "haak": "rechterhand steekt op"
+    },
+    {
+     "hz": "打",
+     "py": "dǎ",
+     "nl": "slaan",
+     "haak": "hand heft hamer met 扌"
+    }
+   ],
+   "obrien": {
+    "scene": "Op de metalen gevel in Arnhem Zuid hangt een reusachtig gouden horloge. Een rode hand grijpt mijn pols, gespt de wijzerplaat vast en tikt luid 'SJOUW-BJAU' terwijl de wijzers als gekken ronddraaien.",
+    "klank": "SJOUW-BJAU",
+    "prompt": "Warm bright drawn illustration: a giant golden wristwatch on a shiny metal facade in Arnhem Zuid, a red cartoon hand strapping it onto a boy's wrist, spinning clock hands, no text, no letters, single scene."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn illustration: floating sound wave shaped like a wristwatch, two colorful tone curves bouncing, no text, no letters, single scene.",
+    "klank-s1": "Warm bright drawn illustration: a shallow dipping rollercoaster track with a tiny watch hand sliding down and up, no text, no letters, single scene.",
+    "klank-s2": "Warm bright drawn illustration: a deep valley curve with a golden watch hand diving steeply then rising high, no text, no letters, single scene.",
+    "a": "Warm bright drawn illustration: a giant red cartoon hand holding a golden wristwatch, no text, no letters, single scene.",
+    "a-s1": "Warm bright drawn illustration: a huge red hand with five clear fingers, palm open, no text, no letters, single scene.",
+    "a-s2": "Warm bright drawn illustration: a golden watch strap buckling around a cartoon wrist, metal clasp shiny, no text, no letters, single scene.",
+    "b": "Warm bright drawn illustration: a giant round watch face with colorful hands and a shiny metal rim, no text, no letters, single scene.",
+    "b-s1": "Warm bright drawn illustration: a fuzzy hair stroke and a tiny shirt shape merging into a watch face, no text, no letters, single scene.",
+    "b-s2": "Warm bright drawn illustration: a cartoon boy tapping his wrist where a watch ticks with little motion lines, no text, no letters, single scene.",
+    "paleis": "Warm bright drawn illustration: a shiny metal building facade with geometric panels in Arnhem Zuid, no text, no letters, single scene.",
+    "paleis-s1": "Warm bright drawn illustration: Lorentz avenue in Arnhem Zuid with a modern metal facade and bright sky, no text, no letters, single scene.",
+    "paleis-s2": "Warm bright drawn illustration: a close-up of a metal facade system with interlocking shiny panels, no text, no letters, single scene.",
+    "link": "Warm bright drawn illustration: a glowing link chain connecting a sound wave to a wristwatch, no text, no letters, single scene.",
+    "link-s1": "Warm bright drawn illustration: two blank colorful speech bubbles with a hand icon and a watch icon, no text, no letters, single scene.",
+    "link-s2": "Warm bright drawn illustration: a red hand fastening a watch face onto a wrist, motion lines linking action, no text, no letters, single scene."
+   },
+   "fam5": [
+    {
+     "hz": "手机",
+     "py": "shǒujī",
+     "nl": "mobiele telefoon",
+     "deelt": "手",
+     "haak": "hand plus telefoon in één"
+    },
+    {
+     "hz": "手",
+     "py": "shǒu",
+     "nl": "hand",
+     "deelt": "手",
+     "haak": "losse hand als basis"
+    },
+    {
+     "hz": "表",
+     "py": "biǎo",
+     "nl": "tabel; oppervlak; tonen",
+     "deelt": "表",
+     "haak": "wijzerplaat toont de tijd"
+    },
+    {
+     "hz": "钟表",
+     "py": "zhōngbiǎo",
+     "nl": "klokken en horloges",
+     "deelt": "表",
+     "haak": "klok naast horloge"
+    },
+    {
+     "hz": "怀表",
+     "py": "huáibiǎo",
+     "nl": "zakhorloge",
+     "deelt": "表",
+     "haak": "horloge in borstzak"
+    },
+    {
+     "hz": "腕表",
+     "py": "wànbiǎo",
+     "nl": "polshorloge",
+     "deelt": "表",
+     "haak": "horloge om de pols"
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "HAND",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "WIJZERPLAAT",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "zhao",
+   "hz": "找",
+   "py": "zhǎo",
+   "nl": "zoeken",
+   "toon": "3",
+   "streken": {
+    "找": [
+     "横",
+     "竖钩",
+     "提",
+     "横",
+     "斜钩",
+     "撇",
+     "点"
+    ]
+   },
+   "delen": "<b class=\"rood\">扌</b> hand, betekenisdeel · <b class=\"rood\">戈</b> speer, betekenis/beelddeel",
+   "opbouw": "找 = 扌 3 + 戈 4",
+   "klank": "ZHAO↘↗",
+   "klankuitleg": "3e toon: eerst dalen, dan stijgen; teruggetrokken zh en diepe dip.",
+   "hooks": {
+    "nl": [
+     "ZHAO↘↗",
+     "Ik zoek en zeg: zauw? — net niet gezien, dan toch!",
+     "ZHAO... ZHAO↘↗, zauw, kin zakt en krabbelt omhoog; 3e toon met dip."
+    ],
+    "en": [
+     "JOW↘↗",
+     "I say jow? — searching, then finding.",
+     "JOW... JOW↘↗, jow, chin drops then rises; third tone dip, not jaw."
+    ],
+    "es": [
+     "CHAO↘↗",
+     "Digo chao? — busco y encuentro.",
+     "CHAO... CHAO↘↗, chao, la barbilla baja y sube; tercer tono con dip."
+    ],
+    "nl[1]": "zjauw↘↗",
+    "nl[2]": "ZHAO... ZHAO↘↗, zjauw, kin zakt en krabbelt omhoog; 3e toon met dip.",
+    "en[1]": "jow↘↗",
+    "es[1]": "chao↘↗"
+   },
+   "beeldhook": "IK zwaai mijn <b class='rood'>戈</b> speer en tast met mijn <b class='rood'>扌</b> hand in de menigte.",
+   "stop": [
+    4
+   ],
+   "anker": "<b>4</b> Bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid voel ik de koude panelen.",
+   "scene": "Ik sta bij de metalen gevel van het Lorentz Lyceum in Arnhem Zuid. Ik voel koude panelen. Ik hoor metaal tikken in de wind. Ik ruik regen op staal en proef stof. Ik houd een speer schuin en tast met mijn hand langs de gevel; mijn kin zakt bij ZHAO en krabbelt omhoog. Ik zoek tussen de metalen naden en vind een glimmende plek.",
+   "fam": [
+    [
+     "找到",
+     "zhǎodào",
+     "vinden",
+     "deelt 找"
+    ],
+    [
+     "找钱",
+     "zhǎoqián",
+     "wisselgeld teruggeven",
+     "deelt 找"
+    ],
+    [
+     "找人",
+     "zhǎorén",
+     "iemand zoeken",
+     "deelt 找"
+    ]
+   ],
+   "gesch": "找 is ⿰扌戈. Makemeahanzi: ideogram, met een speer 戈 in de hand 扌 gaan zoeken. De combinatie draagt het zoeken; de hand is niet apart het tasten en de speer niet het afweren. 戈 (gē) is geen klankdeel van zhǎo. De bron noemt ook change (wisselgeld); een afleiding uit zoeken geeft zij niet.",
+   "twijfel": [
+    "找钱 kan 'wisselgeld teruggeven' betekenen, niet alleen 'geld zoeken'.",
+    "Oudste vorm en precieze evolutie zijn deels onbekend; de bron geeft alleen de ideografische hint.",
+    "Makemeahanzi zet change naast zoeken, maar geeft geen historische afleiding via 找钱.",
+    "Los 找 is in zinnen vaker zoeken; vinden is vaak het resultaat 找到, al noemt de bron ook to find."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "zhǎo",
+       "3e toon: diepe dip"
+      ],
+      [
+       "ZHAO!",
+       "zoekroep"
+      ]
+     ]
+    ],
+    [
+     "HAND",
+     "a",
+     [
+      [
+       "扌",
+       "rode hand"
+      ],
+      [
+       "tasten",
+       "langs de gevel"
+      ]
+     ]
+    ],
+    [
+     "SPEER",
+     "b",
+     [
+      [
+       "戈",
+       "rode speer"
+      ],
+      [
+       "punt",
+       "wijst de zoekrichting"
+      ]
+     ]
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     [
+      [
+       "Lorentz",
+       "Arnhem Zuid"
+      ],
+      [
+       "Rakon (?)",
+       "gevelsysteem"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "klank",
+       "ZHAO"
+      ],
+      [
+       "beeld",
+       "hand en speer zoeken"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "zhǎo"
+   ],
+   "zinnen": [
+    [
+     "弟弟找手机。",
+     "De jongere broer zoekt zijn mobiele telefoon."
+    ],
+    [
+     "奶奶找姐姐。",
+     "Oma zoekt de oudere zus."
+    ],
+    [
+     "妹妹没有找弟弟。",
+     "De jongere zus heeft de jongere broer niet gezocht."
+    ]
+   ],
+   "dialoog": {
+    "a": "弟弟找手机？",
+    "b": "弟弟找手机。",
+    "hint": "Herhaal 弟弟 + 找 + 手机.",
+    "fout": [
+     "姐姐找手机。",
+     "妹妹找手机。",
+     "奶奶找手机。"
+    ]
+   },
+   "oud": {
+    "actie": "Doe alsof je met een speer in je hand iets zoekt en zeg zhǎo.",
+    "recallDoe": [
+     "Tast met je hand in de lucht en zeg zhǎo.",
+     "Houd een denkbeeldige speer schuin en prik vooruit.",
+     "Laat je kin zakken en krabbel omhoog bij zhǎo.",
+     "Teken 扌 en 戈 met je vinger.",
+     "Tik 7 op je dij."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 找 en hoe voelt die in je kin?",
+     "Welke twee componenten zie je en welke kleur krijgen ze?",
+     "Hoeveel streken heeft 找?",
+     "Waarom is 找钱 niet altijd 'geld zoeken'?",
+     "Welke beweging hoort bij de beeldhook?"
+    ],
+    "plek": "Metalen gevel Lorentz"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "找",
+     "py": "zhǎo",
+     "nl": "zoeken",
+     "haak": "hand tast langs de muur"
+    },
+    {
+     "hz": "打",
+     "py": "dǎ",
+     "nl": "slaan",
+     "haak": "hand slaat met hamer"
+    },
+    {
+     "hz": "拉",
+     "py": "lā",
+     "nl": "trekken",
+     "haak": "hand trekt touw"
+    },
+    {
+     "hz": "推",
+     "py": "tuī",
+     "nl": "duwen",
+     "haak": "hand duwt deur"
+    },
+    {
+     "hz": "抓",
+     "py": "zhuā",
+     "nl": "grijpen",
+     "haak": "hand grijpt naar iets"
+    },
+    {
+     "hz": "提",
+     "py": "tí",
+     "nl": "tillen",
+     "haak": "hand licht emmer op"
+    }
+   ],
+   "obrien": {
+    "scene": "Op de metalen gevel in Arnhem Zuid zwaait een rode hand met een speer en roept 'ZHAO!' De speerpunt wijst naar een verstopte sleutel, terwijl mijn ogen als zoeklichten langs de panelen tasten.",
+    "klank": "ZHAO!",
+    "prompt": "Warm bright drawn illustration: a red cartoon hand holding a spear on a shiny metal facade in Arnhem Zuid, spear tip pointing to a hidden key, searching eyes, no text, no letters, single scene."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn illustration: a colorful sound wave shaped like a searching cone, bright motion lines, no text, no letters, single scene.",
+    "klank-s1": "Warm bright drawn illustration: a deep dipping rollercoaster curve with a tiny searching eye sliding down, no text, no letters, single scene.",
+    "klank-s2": "Warm bright drawn illustration: a blank speech bubble bursting like a search call over a shiny facade, no text, no letters, single scene.",
+    "a": "Warm bright drawn illustration: a giant red cartoon hand reaching forward, fingers spread, no text, no letters, single scene.",
+    "a-s1": "Warm bright drawn illustration: a huge red hand with five clear fingers, palm open, no text, no letters, single scene.",
+    "a-s2": "Warm bright drawn illustration: a red hand groping along a shiny metal facade with motion lines, no text, no letters, single scene.",
+    "b": "Warm bright drawn illustration: a giant red spear with a shiny pointed tip, no text, no letters, single scene.",
+    "b-s1": "Warm bright drawn illustration: a red spear standing upright with a bright metal point, no text, no letters, single scene.",
+    "b-s2": "Warm bright drawn illustration: a red spear tip pointing at a hidden golden key on a metal panel, no text, no letters, single scene.",
+    "paleis": "Warm bright drawn illustration: a shiny metal building facade with geometric panels in Arnhem Zuid, no text, no letters, single scene.",
+    "paleis-s1": "Warm bright drawn illustration: Lorentz avenue in Arnhem Zuid with a modern metal facade and bright sky, no text, no letters, single scene.",
+    "paleis-s2": "Warm bright drawn illustration: a close-up of a metal facade system with interlocking shiny panels, no text, no letters, single scene.",
+    "link": "Warm bright drawn illustration: a glowing link chain connecting a searching cone to a red spear, no text, no letters, single scene.",
+    "link-s1": "Warm bright drawn illustration: a blank speech bubble with a magnifying glass icon over a metal facade, no text, no letters, single scene.",
+    "link-s2": "Warm bright drawn illustration: a red hand holding a spear, both searching along a shiny wall, no text, no letters, single scene."
+   },
+   "fam5": [
+    {
+     "hz": "找到",
+     "py": "zhǎodào",
+     "nl": "vinden",
+     "deelt": "找",
+     "haak": "zoeken raakt doel"
+    },
+    {
+     "hz": "找钱",
+     "py": "zhǎoqián",
+     "nl": "wisselgeld teruggeven",
+     "deelt": "找",
+     "haak": "zoeken naar munten"
+    },
+    {
+     "hz": "找人",
+     "py": "zhǎorén",
+     "nl": "iemand zoeken",
+     "deelt": "找",
+     "haak": "zoeken naar persoon"
+    },
+    {
+     "hz": "寻找",
+     "py": "xúnzhǎo",
+     "nl": "zoeken",
+     "deelt": "找",
+     "haak": "speurtocht met speer"
+    },
+    {
+     "hz": "找工作",
+     "py": "zhǎo gōngzuò",
+     "nl": "werk zoeken",
+     "deelt": "找",
+     "haak": "zoeken naar baan"
+    },
+    {
+     "hz": "找路",
+     "py": "zhǎo lù",
+     "nl": "de weg zoeken",
+     "deelt": "找",
+     "haak": "zoeken naar pad"
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "HAND",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "SPEER",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "METAALGEVEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
     "klank",
     "klank-s1",
     "klank-s2",
