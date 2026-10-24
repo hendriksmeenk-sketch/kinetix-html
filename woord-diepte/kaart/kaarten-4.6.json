@@ -4782,6 +4782,385 @@
    ]
   },
   {
+   "slug": "fu",
+   "hz": "父",
+   "py": "fù",
+   "nl": "vader",
+   "toon": "4",
+   "streken": {
+    "父": [
+     "撇",
+     "点",
+     "撇",
+     "捺"
+    ]
+   },
+   "delen": "<b class=\"rood\">父</b> vader (hele teken/radicaal) · <b>八</b> bijl/werktuig (betekenisdeel) · <b>乂</b> hand (betekenisdeel)",
+   "opbouw": "父 = 八 2 + 乂 2",
+   "klank": "FÙ↘",
+   "klankuitleg": "fù is de 4e toon: kort, zwaar en scherp dalend, als een bijl die neerkomt.",
+   "hooks": {
+    "nl": [
+     "FÙ!↘",
+     "Ik zet de bijl neer: FÙ! en het hakblok splijt.",
+     "FÙ... FÙ... Ik zet de bijl neer: FÙ! en het hakblok splijt. Vierde toon: scherp dalend, als een bijl die neerkomt."
+    ],
+    "en": [
+     "FOO↘",
+     "I bring the axe down: FOO! and the block splits.",
+     "FOO... FOO... I bring the axe down: FOO! and the block splits. Fourth tone: sharp falling, like an axe landing."
+    ],
+    "es": [
+     "FU↘",
+     "Yo bajo el hacha: ¡FU! y el tajo se parte.",
+     "FU... FU... Yo bajo el hacha: ¡FU! y el tajo se parte. Cuarto tono: caída aguda, como un hacha que golpea."
+    ]
+   },
+   "beeldhook": "IK laat de bijl neerkomen, hoor FÙ! op het hakblok, voel de steel trillen en zie 父 boven 八 en 乂.",
+   "stop": [
+    3
+   ],
+   "anker": "<b>3</b> De pijlers bij de aula van het Lorentz Lyceum Arnhem Zuid dragen de muurschildering uit 2024 met groen, geschiedenis en wijk. Daar staat de vader met de bijl bij het hakblok.",
+   "scene": "Ik sta bij de pijlers met de muurschildering en zie groen, geschiedenis en wijk om me heen. Ik hoor de doffe slag van de bijl in het hakblok. Ik voel de houten steel trillen in mijn handpalm. Ik ruik hars en stof dat opwaait. Ik proef droge stof op mijn tong. Ik zie houtsplinters door de lucht vliegen. Ik zet mijn schouders en laat de bijl neerkomen: FÙ!",
+   "fam": [
+    [
+     "爸爸",
+     "bàba",
+     "vader",
+     "betekenis familie"
+    ],
+    [
+     "爷",
+     "yé",
+     "opa",
+     "bevat 父 als radicaal in 爷"
+    ],
+    [
+     "爷爷",
+     "yéye",
+     "opa",
+     "bevat 父 als radicaal in 爷"
+    ]
+   ],
+   "gesch": "父 is ideografisch: een hand (乂) die een bijl of werktuig (八) vasthoudt; zo ontstond de betekenis ‘vader’ als hoofd van het gezin en drager van gezag en arbeid. In modern Chinees is 父 formeel of gebonden; 爸爸 is de gewone spreektaalvorm.",
+   "twijfel": [
+    "父 is formeel/gebonden; 爸爸 is alledaagser.",
+    "De uitleg ‘hand met bijl’ is een etymologische interpretatie; bron geeft ideographic hint.",
+    "八 en 乂 zijn in deze uitleg delen, maar niet de moderne radicalen van 父."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "FÙ↘",
+       "slag"
+      ],
+      [
+       "bijl",
+       "zwaar"
+      ]
+     ]
+    ],
+    [
+     "BIJL",
+     "a",
+     [
+      [
+       "八",
+       "boven"
+      ],
+      [
+       "scheiding",
+       "visueel"
+      ]
+     ]
+    ],
+    [
+     "HAND",
+     "b",
+     [
+      [
+       "乂",
+       "onder"
+      ],
+      [
+       "gezag",
+       "arbeid"
+      ]
+     ]
+    ],
+    [
+     "PIJLERS",
+     "paleis",
+     [
+      [
+       "muurschildering",
+       "groen"
+      ],
+      [
+       "Lorentz",
+       "Arnhem"
+      ]
+     ]
+    ],
+    [
+     "VADER",
+     "link",
+     [
+      [
+       "爸爸",
+       "modern"
+      ],
+      [
+       "FÙ!",
+       "beeldhook"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "fù"
+   ],
+   "zinnen": [
+    [
+     "父是爸爸。",
+     "Vader is papa."
+    ],
+    [
+     "爸爸是父。",
+     "Papa is vader."
+    ],
+    [
+     "父没有手机。",
+     "Vader heeft geen mobiele telefoon."
+    ]
+   ],
+   "dialoog": {
+    "a": "父打电话吗？",
+    "b": "父打电话。",
+    "hint": "Ja, vader belt op.",
+    "fout": [
+     "父没有手机。",
+     "父没有手表。",
+     "父找手机。"
+    ]
+   },
+   "oud": {
+    "actie": "Roep ‘FÙ!’ met een scherpe dalende toon en zet denkbeeldig de bijl neer.",
+    "recallDoe": [
+     "Schrijf 父 in de lucht: 撇, 点, 撇, 捺.",
+     "Trek 父 met je vinger op tafel en zeg fù.",
+     "Roep FÙ! met een scherpe daling en zet de bijl neer.",
+     "Wijs 八 boven aan en zeg: bijl.",
+     "Wijs 乂 onder aan en zeg: hand.",
+     "Beeld je de pijlers en het hakblok in.",
+     "Maak met 爸爸 een zin met 没有 en 手机.",
+     "Maak met 爸爸 een zin met 打电话.",
+     "Maak met 爸爸 een zin met 找 en 手表.",
+     "Lees 父是爸爸。 hardop en wijs 父 en 爸爸 aan.",
+     "Lees 爸爸是父。 hardop en wijs 爸爸 en 父 aan.",
+     "Lees 父没有手机。 hardop en wijs 父 aan.",
+     "Voer de dialoog: 父打电话吗？ — 父打电话."
+    ],
+    "recallVragen": [
+     "Wat is de pinyin en toon van 父?",
+     "Welke delen 八 en 乂 zie je in 父?",
+     "Hoeveel streken heeft 父?",
+     "Welk oud beeld zit achter 父?",
+     "Waarom is 爸爸 moderner dan 父?",
+     "Wat betekent 父 in het Nederlands?",
+     "Welk woord uit de les betekent ‘mobiele telefoon’?",
+     "Welk woord uit de les betekent ‘opbellen’?",
+     "Welk woord uit de les betekent ‘horloge’?"
+    ],
+    "plek": "Beschilderde pijlers"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "爸爸",
+     "py": "bàba",
+     "nl": "papa",
+     "haak": "父 boven: papa draagt het dak."
+    },
+    {
+     "hz": "父母",
+     "py": "fùmǔ",
+     "nl": "ouders",
+     "haak": "父 boven: vader en moeder."
+    },
+    {
+     "hz": "父亲",
+     "py": "fùqīn",
+     "nl": "vader",
+     "haak": "父 boven: vader met bijl."
+    },
+    {
+     "hz": "父子",
+     "py": "fùzǐ",
+     "nl": "vader en zoon",
+     "haak": "父 boven: vader en zoon."
+    },
+    {
+     "hz": "伯父",
+     "py": "bófù",
+     "nl": "oom",
+     "haak": "父 rechts: oom naast vader."
+    },
+    {
+     "hz": "叔父",
+     "py": "shūfù",
+     "nl": "jongere oom",
+     "haak": "父 rechts: jongere oom."
+    }
+   ],
+   "obrien": {
+    "scene": "Bij de groene muurschildering tussen de pijlers van het Lorentz Lyceum zwaait een vader met een reuze bijl 'FÙ!' en hakt neer; stof dwarrelt, zijn arm trilt, de schoolbel tikt.",
+    "klank": "FÙ!",
+    "prompt": "By a green school mural between pillars, a father swings a giant axe down with a heavy shout, dust swirling, arm shaking, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A giant hammer slamming down from a storm cloud, shockwave rings, drawn illustration, no text.",
+    "klank-s1": "A heavy anvil dropping straight down onto a trampoline, loud motion lines, drawn illustration, no text.",
+    "klank-s2": "A short heavy axe chopping a log, wood chips flying, drawn illustration, no text.",
+    "a": "A giant colorful axe embedded in a tree stump, glowing edge, drawn illustration, no text.",
+    "a-s1": "Two shiny axe blades forming a wide roof above a tiny handle, drawn illustration, no text.",
+    "a-s2": "A glowing axe splitting a giant fruit into two clean halves, drawn illustration, no text.",
+    "b": "A huge strong hand gripping a wooden handle, warm light, drawn illustration, no text.",
+    "b-s1": "Two crossed hands forming an X under a floating axe, red spotlight, drawn illustration, no text.",
+    "b-s2": "A firm hand holding a golden tool and a small crown, colorful aura, drawn illustration, no text.",
+    "paleis": "Tall green pillars with a colorful mural in a school hallway, sunlight, drawn illustration, no text.",
+    "paleis-s1": "A green school mural showing houses, trees and history scenes on a wall, drawn illustration, no text.",
+    "paleis-s2": "A cheerful modern Dutch school building with big windows and green courtyard, bicycles, drawn illustration, no text.",
+    "link": "A warm strong father lifting a child high, golden glow, drawn illustration, no text.",
+    "link-s1": "A formal father in a neat suit holding a red seal, dignified pose, drawn illustration, no text.",
+    "link-s2": "A father shouting through a megaphone with a big heavy sound wave shaped like an axe, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "父亲",
+     "py": "fùqīn",
+     "nl": "vader",
+     "deelt": "父",
+     "haak": "Formele vader met bijl."
+    },
+    {
+     "hz": "父母",
+     "py": "fùmǔ",
+     "nl": "ouders",
+     "deelt": "父",
+     "haak": "Vader en moeder samen."
+    },
+    {
+     "hz": "父女",
+     "py": "fùnǚ",
+     "nl": "vader en dochter",
+     "deelt": "父",
+     "haak": "Vader tilt dochter hoog."
+    },
+    {
+     "hz": "父子",
+     "py": "fùzǐ",
+     "nl": "vader en zoon",
+     "deelt": "父",
+     "haak": "Vader leert zoon hakken."
+    },
+    {
+     "hz": "伯父",
+     "py": "bófù",
+     "nl": "oom",
+     "deelt": "父",
+     "haak": "Oudere oom naast vader."
+    },
+    {
+     "hz": "叔父",
+     "py": "shūfù",
+     "nl": "jongere oom",
+     "deelt": "父",
+     "haak": "Jongere oom met pet."
+    },
+    {
+     "hz": "祖父",
+     "py": "zǔfù",
+     "nl": "opa",
+     "deelt": "父",
+     "haak": "Grootvader aan vaderskant."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "BIJL",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "HAND",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PIJLERS",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "VADER",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
    "slug": "hao",
    "hz": "好",
    "py": "hǎo",
@@ -5232,6 +5611,395 @@
     "paleis-s2"
    ],
    "_beeld_open": [
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "jie",
+   "hz": "姐",
+   "py": "jiě",
+   "nl": "oudere zus",
+   "toon": "3",
+   "streken": {
+    "姐": [
+     "撇点",
+     "撇",
+     "提",
+     "竖",
+     "横折",
+     "横",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw (betekenisdeel) · <b>且</b> klankdeel",
+   "opbouw": "姐 = 女 3 + 且 5",
+   "klank": "JIĚ↘↗",
+   "klankuitleg": "jiě is de 3e toon: eerst dalend, dan stijgend, als een aarzeling die een bevel wordt.",
+   "hooks": {
+    "nl": [
+     "JE↘↗",
+     "Ik fluit terug: JE? en kijk om van het fornuis.",
+     "JE... JE... Ik fluit terug: JE? en kijk om van het fornuis. Derde toon: eerst dalen, dan stijgen."
+    ],
+    "en": [
+     "JYEH↘↗",
+     "I call back: JYEH? and glance back from the stove.",
+     "JYEH... JYEH... I call back: JYEH? and glance back from the stove. Third tone: dip down, then rise."
+    ],
+    "es": [
+     "HIE↘↗",
+     "Yo llamo: ¡HIE? y miro atrás desde el fogón.",
+     "HIE... HIE... Yo llamo: ¡HIE? y miro atrás desde el fogón. Tercer tono: baja y luego sube."
+    ]
+   },
+   "beeldhook": "IK fluit terug: JIĚ?, kijk om van het fornuis, voel de koude lak van de Vleugel en zie 女 links en 且 rechts naast het fornuis.",
+   "stop": [
+    8
+   ],
+   "anker": "<b>8</b> De Vleugel staat in de aula van het Lorentz Lyceum Arnhem Zuid. Bij de vleugel klinkt de dalende en stijgende JIĚ? door de ruimte.",
+   "scene": "Ik sta bij de Vleugel in de aula en voel de koude lak van het instrument onder mijn vingers. Ik hoor de JIĚ? eerst zakken en dan omhoogveren tegen de glaswand. Ik zie de jongere zus in de deuropening verschijnen. Ik ruik knoflook en warme lucht uit de keuken die ik me voorstel. Ik proef zout op mijn lippen. Ik kijk om van het fornuis en mijn kin zakt, dan trekt mijn stem omhoog. Ik roep: JIĚ?",
+   "fam": [
+    [
+     "姐姐",
+     "jiějie",
+     "oudere zus",
+     "zelfde teken 姐"
+    ],
+    [
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "zelfde radicaal 女"
+    ],
+    [
+     "妈妈",
+     "māma",
+     "mama",
+     "zelfde radicaal 女"
+    ]
+   ],
+   "gesch": "姐 is pictofonetisch: 女 (vrouw) als betekenisradicaal, 且 als klankcomponent. De moderne uitspraak van 且 (qiě) ligt niet dicht bij jiě, maar historisch hoorden ze bij dezelfde klankfamilie. Modern is 姐姐 de gewone spreektaalvorm; 姐 leeft verder in 姐妹, 小姐 en 大姐.",
+   "twijfel": [
+    "且 (qiě) als klankcomponent wijkt modern af van jiě.",
+    "小姐 kan ‘juffrouw’ betekenen, maar is register- en contextgevoelig.",
+    "Los 姐 is minder gewoon dan 姐姐 in alledaags Mandarijn."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "JIĚ↘↗",
+       "dip"
+      ],
+      [
+       "terugroep",
+       "bevel"
+      ]
+     ]
+    ],
+    [
+     "VROUW",
+     "a",
+     [
+      [
+       "女",
+       "links"
+      ],
+      [
+       "zus",
+       "familie"
+      ]
+     ]
+    ],
+    [
+     "TAFEL",
+     "b",
+     [
+      [
+       "且",
+       "rechts"
+      ],
+      [
+       "lagen",
+       "offertafel"
+      ]
+     ]
+    ],
+    [
+     "VLEUGEL",
+     "paleis",
+     [
+      [
+       "aula",
+       "glaswand"
+      ],
+      [
+       "Lorentz",
+       "Arnhem"
+      ]
+     ]
+    ],
+    [
+     "OUDERE ZUS",
+     "link",
+     [
+      [
+       "姐姐",
+       "herhaling"
+      ],
+      [
+       "JIĚ?",
+       "beeldhook"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "jiě"
+   ],
+   "zinnen": [
+    [
+     "姐姐没有手机。",
+     "De oudere zus heeft geen mobiele telefoon."
+    ],
+    [
+     "姐姐打电话。",
+     "De oudere zus belt op."
+    ],
+    [
+     "姐姐找手表。",
+     "De oudere zus zoekt een horloge."
+    ]
+   ],
+   "dialoog": {
+    "a": "姐姐打电话吗？",
+    "b": "姐姐打电话。",
+    "hint": "Ja, de oudere zus belt op.",
+    "fout": [
+     "姐姐没有手机。",
+     "姐姐没有手表。",
+     "姐姐找手机。"
+    ]
+   },
+   "oud": {
+    "actie": "Roep ‘JIĚ?’ met een dalende en weer stijgende toon en kijk om van het fornuis.",
+    "recallDoe": [
+     "Schrijf 姐 in de lucht: eerst 女, dan 且.",
+     "Trek 姐 met je vinger op tafel en zeg jiě.",
+     "Roep JIĚ? met eerst dalen en dan stijgen.",
+     "Wijs 女 links aan en zeg: vrouw.",
+     "Wijs 且 rechts aan en zeg: klankdeel.",
+     "Beeld je de Vleugel en het omkijken van het fornuis in.",
+     "Maak met 姐姐 een zin met 没有 en 手机.",
+     "Maak met 姐姐 een zin met 打电话.",
+     "Maak met 姐姐 een zin met 找 en 手表.",
+     "Lees 姐姐没有手机。 hardop en wijs 姐姐 aan.",
+     "Lees 姐姐打电话。 hardop en klap op 打电话.",
+     "Lees 姐姐找手表。 hardop en wijs 手表 aan.",
+     "Voer de dialoog: 姐姐打电话吗？ — 姐姐打电话."
+    ],
+    "recallVragen": [
+     "Wat is de pinyin en toon van 姐?",
+     "Welk component is betekenisdeel en welk klankdeel?",
+     "Hoeveel streken heeft 姐?",
+     "Hoe voelt de 3e toon in je lichaam?",
+     "Waarom is 小姐 een AI-valkuil?",
+     "Wat betekent 姐姐 in het Nederlands?",
+     "Welk woord uit de les betekent ‘mobiele telefoon’?",
+     "Welk woord uit de les betekent ‘opbellen’?",
+     "Welk woord uit de les betekent ‘horloge’?"
+    ],
+    "plek": "Vleugel"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "妈妈",
+     "py": "māma",
+     "nl": "mama",
+     "haak": "女 en 马: mama's paard staat links."
+    },
+    {
+     "hz": "姐姐",
+     "py": "jiějie",
+     "nl": "oudere zus",
+     "haak": "女 en 且: zus links, tafel rechts."
+    },
+    {
+     "hz": "妹妹",
+     "py": "mèimei",
+     "nl": "jongere zus",
+     "haak": "女 en 未: zus nog niet groot."
+    },
+    {
+     "hz": "奶奶",
+     "py": "nǎinai",
+     "nl": "oma",
+     "haak": "女 en 乃: oma links, melk rechts."
+    },
+    {
+     "hz": "她",
+     "py": "tā",
+     "nl": "zij",
+     "haak": "女 en 也: zij is vrouw."
+    },
+    {
+     "hz": "好",
+     "py": "hǎo",
+     "nl": "goed",
+     "haak": "女 en 子: goed met vrouw en kind."
+    },
+    {
+     "hz": "姓",
+     "py": "xìng",
+     "nl": "achternaam",
+     "haak": "女 en 生: surname begint bij vrouw."
+    }
+   ],
+   "obrien": {
+    "scene": "In de glazen aula-vleugel van het Lorentz Lyceum roept een oudere zus 'JIĚ?' en aarzelt, dan wijst ze als een sergeant; haar vleugelmouwen wapperen, glas rinkelt.",
+    "klank": "JIĚ?",
+    "prompt": "In a glass-walled school atrium wing, an older sister hesitates then points like a sergeant, her cape sleeves flapping, glass shimmering, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A bright rollercoaster track dipping then rising, a big sound wave riding it, drawn illustration, no text.",
+    "klank-s1": "A colorful ball bouncing down a stair then springing high, motion lines, drawn illustration, no text.",
+    "klank-s2": "A hesitant girl with a question-mark-shaped cloud turning into a loud megaphone command, drawn illustration, no text.",
+    "a": "A strong friendly woman superhero with a glowing pink cape, colorful aura, drawn illustration, no text.",
+    "a-s1": "A small pink woman radical standing on the left side of a giant glowing stage, spotlight, drawn illustration, no text.",
+    "a-s2": "Two sisters sharing a giant ice cream under a rainbow, drawn illustration, no text.",
+    "b": "A towering stack of colorful wooden table layers balanced like a shrine, warm drawn illustration, no text.",
+    "b-s1": "A tiny golden table leaning on the right side of a giant tree trunk, red spotlight, drawn illustration, no text.",
+    "b-s2": "An ancient offering table with stacked fruit layers and glowing candles, drawn illustration, no text.",
+    "paleis": "A bright glass-walled school atrium wing with sunlight and reflections, drawn illustration, no text.",
+    "paleis-s1": "A spacious school auditorium with a huge glass wall and colorful chairs, drawn illustration, no text.",
+    "paleis-s2": "A cheerful modern Dutch school building with big windows and green courtyard, bicycles, drawn illustration, no text.",
+    "link": "A confident older sister with a red cape holding a golden star, drawn illustration, no text.",
+    "link-s1": "Two identical older sisters standing side by side like twin towers, matching red capes, drawn illustration, no text.",
+    "link-s2": "An older sister shouting through a paper megaphone with a big question-mark sound wave, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "姐姐",
+     "py": "jiějie",
+     "nl": "oudere zus",
+     "deelt": "姐",
+     "haak": "Grote zus zwaait met cape."
+    },
+    {
+     "hz": "姐妹",
+     "py": "jiěmèi",
+     "nl": "zussen",
+     "deelt": "姐",
+     "haak": "Zussen delen een ijsje."
+    },
+    {
+     "hz": "姐弟",
+     "py": "jiědì",
+     "nl": "zus en broer",
+     "deelt": "姐",
+     "haak": "Zus leidt kleine broer."
+    },
+    {
+     "hz": "姐夫",
+     "py": "jiěfu",
+     "nl": "zwager",
+     "deelt": "姐",
+     "haak": "Man van oudere zus."
+    },
+    {
+     "hz": "表姐",
+     "py": "biǎojiě",
+     "nl": "oudere nicht",
+     "deelt": "姐",
+     "haak": "Nicht aan moeders kant."
+    },
+    {
+     "hz": "大姐",
+     "py": "dàjiě",
+     "nl": "oudste zus",
+     "deelt": "姐",
+     "haak": "Oudste zus draagt kroon."
+    },
+    {
+     "hz": "小姐",
+     "py": "xiǎojiě",
+     "nl": "jonge dame",
+     "deelt": "姐",
+     "haak": "Jonge dame met waaier."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "VROUW",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "TAFEL",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "VLEUGEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "OUDERE ZUS",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
     "klank",
     "klank-s1",
     "klank-s2",
@@ -6467,6 +7235,388 @@
     ],
     [
      "DRAAD",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "mei",
+   "hz": "妹",
+   "py": "mèi",
+   "nl": "jongere zus",
+   "toon": "4",
+   "streken": {
+    "妹": [
+     "撇点",
+     "撇",
+     "提",
+     "横",
+     "横",
+     "竖",
+     "撇",
+     "捺"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw (betekenisdeel) · <b>未</b> klankdeel",
+   "opbouw": "妹 = 女 3 + 未 5",
+   "klank": "MÈI↘",
+   "klankuitleg": "mèi is de 4e toon: kort en scherp dalend, als een bevel dat naar beneden valt.",
+   "hooks": {
+    "nl": [
+     "MÈI!↘",
+     "Ik maan: MÈI! en de deur slaat dicht.",
+     "MÈI... MÈI... Ik maan: MÈI! en de deur slaat dicht. Vierde toon: scherp dalend, als een deur die dichtslaat."
+    ],
+    "en": [
+     "MAY↘",
+     "I snap: MAY! and the door slams shut.",
+     "MAY... MAY... I snap: MAY! and the door slams shut. Fourth tone: sharp falling, like a slamming door."
+    ],
+    "es": [
+     "ME↘",
+     "Yo advierto: ¡ME! y la puerta se cierra de golpe.",
+     "ME... ME... Yo advierto: ¡ME! y la puerta se cierra de golpe. Cuarto tono: caída aguda, como una puerta que se cierra."
+    ]
+   },
+   "beeldhook": "IK duw met mijn schouder de deur dicht, hoor MÈI! tegen de glaswand kaatsen, voel de trap onder mijn schoenen en zie 女 links en 未 rechts op de deur.",
+   "stop": [
+    7
+   ],
+   "anker": "<b>7</b> De Zittrap is de tribunetrap in de aula van het Lorentz Lyceum Arnhem Zuid. Daar staat de deur met 女 links en 未 rechts.",
+   "scene": "Ik sta op de Zittrap en voel de brede treden onder mijn schoenen. Ik hoor mijn eigen korte MÈI! tegen de glazen aulawand kaatsen. Ik zie de deur trillen en het stof dwarrelen in het licht. Ik ruik de droge lucht van het trappenhuis. Ik proef die droogte op mijn tong. Ik duw met mijn schouder de deur dicht en mijn kin zakt scherp omlaag. Ik brul nog eens: MÈI!",
+   "fam": [
+    [
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "zelfde teken 妹"
+    ],
+    [
+     "姐姐",
+     "jiějie",
+     "oudere zus",
+     "zelfde radicaal 女"
+    ],
+    [
+     "妈妈",
+     "māma",
+     "mama",
+     "zelfde radicaal 女"
+    ]
+   ],
+   "gesch": "妹 is een pictofonetisch teken: links 女 (vrouw) als betekenisradicaal, rechts 未 als klankcomponent. 未 gaat terug op een beeld van een boom met extra takken; in 妹 draagt het vooral de klank. In modern Chinees is 妹 meestal gebonden in 妹妹 en verwante familieworden.",
+   "twijfel": [
+    "Moderne uitspraak van 未 (wèi) wijkt af van mèi; de relatie is historisch-klankmatig.",
+    "Los 妹 is minder alledaags dan 妹妹 in modern Mandarijn.",
+    "In namen of slang kan een AI de familiebetekenis verkeerd interpreteren."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "MÈI!↘",
+       "daling"
+      ],
+      [
+       "deur",
+       "klap"
+      ]
+     ]
+    ],
+    [
+     "VROUW",
+     "a",
+     [
+      [
+       "女",
+       "links"
+      ],
+      [
+       "zus",
+       "familie"
+      ]
+     ]
+    ],
+    [
+     "NOG NIET",
+     "b",
+     [
+      [
+       "未",
+       "rechts"
+      ],
+      [
+       "boom",
+       "takken"
+      ]
+     ]
+    ],
+    [
+     "ZITTRAP",
+     "paleis",
+     [
+      [
+       "tribune",
+       "aula"
+      ],
+      [
+       "Lorentz",
+       "Arnhem"
+      ]
+     ]
+    ],
+    [
+     "JONGERE ZUS",
+     "link",
+     [
+      [
+       "妹妹",
+       "herhaling"
+      ],
+      [
+       "MÈI!",
+       "beeldhook"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "mèi"
+   ],
+   "zinnen": [
+    [
+     "妹妹没有手机。",
+     "De jongere zus heeft geen mobiele telefoon."
+    ],
+    [
+     "妹妹打电话。",
+     "De jongere zus belt op."
+    ],
+    [
+     "妹妹找手表。",
+     "De jongere zus zoekt een horloge."
+    ]
+   ],
+   "dialoog": {
+    "a": "妹妹打电话吗？",
+    "b": "妹妹打电话。",
+    "hint": "Ja, de jongere zus belt op.",
+    "fout": [
+     "妹妹没有手机。",
+     "妹妹没有手表。",
+     "妹妹找手机。"
+    ]
+   },
+   "oud": {
+    "actie": "Roep ‘MÈI!’ met een scherpe dalende toon en duw denkbeeldig de deur dicht.",
+    "recallDoe": [
+     "Schrijf 妹 in de lucht: eerst 女, dan 未.",
+     "Trek 妹 met je vinger op tafel en zeg mèi.",
+     "Roep MÈI! met een scherpe daling en duw de deur dicht.",
+     "Wijs 女 links aan en zeg: vrouw.",
+     "Wijs 未 rechts aan en zeg: klankdeel.",
+     "Beeld je de Zittrap en de dichtslaande deur in.",
+     "Maak met 妹妹 een zin met 没有 en 手机.",
+     "Maak met 妹妹 een zin met 打电话.",
+     "Maak met 妹妹 een zin met 找 en 手表.",
+     "Lees 妹妹没有手机。 hardop en wijs 妹妹 aan.",
+     "Lees 妹妹打电话。 hardop en klap op 打电话.",
+     "Lees 妹妹找手表。 hardop en wijs 手表 aan.",
+     "Voer de dialoog: 妹妹打电话吗？ — 妹妹打电话."
+    ],
+    "recallVragen": [
+     "Wat is de pinyin en toon van 妹?",
+     "Welk component is betekenisdeel en welk klankdeel?",
+     "Hoeveel streken heeft 妹?",
+     "Waarom is 妹妹 gewoner dan 妹 alleen?",
+     "Welke klankbrug gebruik je voor de 4e toon?",
+     "Wat betekent 妹妹 in het Nederlands?",
+     "Welk woord uit de les betekent ‘mobiele telefoon’?",
+     "Welk woord uit de les betekent ‘opbellen’?",
+     "Welk woord uit de les betekent ‘horloge’?"
+    ],
+    "plek": "Zittrap"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "妈妈",
+     "py": "māma",
+     "nl": "mama",
+     "haak": "女 en 马: mama's paard staat links."
+    },
+    {
+     "hz": "姐姐",
+     "py": "jiějie",
+     "nl": "oudere zus",
+     "haak": "女 en 且: zus links, tafel rechts."
+    },
+    {
+     "hz": "妹妹",
+     "py": "mèimei",
+     "nl": "jongere zus",
+     "haak": "女 en 未: zus nog niet groot."
+    },
+    {
+     "hz": "奶奶",
+     "py": "nǎinai",
+     "nl": "oma",
+     "haak": "女 en 乃: oma links, melk rechts."
+    },
+    {
+     "hz": "她",
+     "py": "tā",
+     "nl": "zij",
+     "haak": "女 en 也: zij is vrouw."
+    },
+    {
+     "hz": "好",
+     "py": "hǎo",
+     "nl": "goed",
+     "haak": "女 en 子: goed met vrouw en kind."
+    },
+    {
+     "hz": "姓",
+     "py": "xìng",
+     "nl": "achternaam",
+     "haak": "女 en 生: surname begint bij vrouw."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de brede zittrap van de aula in het Lorentz Lyceum laat een kleine jongere zus met een megafoon 'MÈI!' naar beneden vallen; haar staart zwaait, de tribune dreunt, snoep vliegt.",
+    "klank": "MÈI!",
+    "prompt": "At the wide seating stairs of a school atrium, a tiny younger sister shouts through a megaphone and tumbles down, candy flying, warm bright drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A huge red megaphone diving down like a sharp ski slope, one bold sound wave crashing to the floor, drawn illustration, no text.",
+    "klank-s1": "A bright yellow arrow plunging steeply from a cloud into a tiny trampoline, sharp motion lines, drawn illustration, no text.",
+    "klank-s2": "A giant wooden door slamming shut in a windy school hallway, papers swirling, loud motion lines, drawn illustration, no text.",
+    "a": "A colorful woman superhero with flowing cape and bright pink aura, strong friendly pose, drawn illustration, no text.",
+    "a-s1": "A small pink woman radical standing on the left side of a giant glowing stage, spotlight, drawn illustration, no text.",
+    "a-s2": "Two sisters holding hands under a rainbow, one taller and one smaller, colorful warm drawn illustration, no text.",
+    "b": "A giant green traffic light stuck on amber with a cheeky clock face yawning, waiting, drawn illustration, no text.",
+    "b-s1": "A tiny wooden ladder leaning on the right side of a huge tree trunk, red spotlight, drawn illustration, no text.",
+    "b-s2": "An ancient giant tree with layered branches and tiny carved wooden plaques, warm drawn illustration, no text.",
+    "paleis": "A wide colorful school auditorium seating stair like a giant tribune, sunbeams, empty and inviting, drawn illustration, no text.",
+    "paleis-s1": "A broad school tribune with rows of bright seats, a megaphone on the top step, drawn illustration, no text.",
+    "paleis-s2": "A cheerful modern Dutch school building with big windows and a green courtyard, bicycle racks, drawn illustration, no text.",
+    "link": "A small younger sister with pigtails jumping in a bright pink bubble, candy hearts around, drawn illustration, no text.",
+    "link-s1": "Two identical tiny sisters popping up side by side like twin mushrooms, matching pink bows, drawn illustration, no text.",
+    "link-s2": "A little sister shouting through a paper megaphone, a big red sound wave shaped like a heart, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "妹妹",
+     "py": "mèimei",
+     "nl": "jongere zus",
+     "deelt": "妹",
+     "haak": "Klein zusje met staartjes."
+    },
+    {
+     "hz": "姐妹",
+     "py": "jiěmèi",
+     "nl": "zussen",
+     "deelt": "妹",
+     "haak": "Twee zussen naast elkaar."
+    },
+    {
+     "hz": "兄妹",
+     "py": "xiōngmèi",
+     "nl": "broer en zus",
+     "deelt": "妹",
+     "haak": "Broer beschermt kleine zus."
+    },
+    {
+     "hz": "妹夫",
+     "py": "mèifu",
+     "nl": "zwager",
+     "deelt": "妹",
+     "haak": "Man van jongere zus."
+    },
+    {
+     "hz": "表妹",
+     "py": "biǎomèi",
+     "nl": "jongere nicht",
+     "deelt": "妹",
+     "haak": "Nichtje aan moeders kant."
+    },
+    {
+     "hz": "小妹",
+     "py": "xiǎomèi",
+     "nl": "kleine zus",
+     "deelt": "妹",
+     "haak": "Kleinste zus roept hard."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "VROUW",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "NOG NIET",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "ZITTRAP",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "JONGERE ZUS",
      "link",
      28.4,
      26.5
@@ -10713,6 +11863,381 @@
     ],
     [
      "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "yeye",
+   "hz": "爷爷",
+   "py": "yéye",
+   "nl": "opa (vadersvader)",
+   "toon": "2+0",
+   "streken": {
+    "爷": [
+     "撇",
+     "点",
+     "撇",
+     "捺",
+     "横折钩",
+     "竖"
+    ]
+   },
+   "delen": "<b class=\"rood\">父</b> vader/familie (betekenisdeel) · <b>卩</b> vormdeel; traditioneel <b>耶</b> klankdeel",
+   "opbouw": "爷爷 = 爷 6 + 爷 6",
+   "klank": "YÉ↗YE(licht)",
+   "klankuitleg": "yéye heeft een stijgende 2e toon op yé en daarna een korte neutrale ye.",
+   "hooks": {
+    "nl": [
+     "YÉ↗ ye(licht)",
+     "Ik til de kleinzoon op: YÉ? ye!",
+     "YÉ... ye... Ik til de kleinzoon op: YÉ? ye! Tweede toon stijgt, de tweede lettergreep is kort en licht."
+    ],
+    "en": [
+     "YEAH↗ ye(light)",
+     "I lift the grandson: YEAH? ye!",
+     "YEAH... ye... I lift the grandson: YEAH? ye! Second tone rises, the second syllable is short and light."
+    ],
+    "es": [
+     "YE↗ ye(ligero)",
+     "Yo levanto al nieto: ¡YE? ye!",
+     "YE... ye... Yo levanto al nieto: ¡YE? ye! Segundo tono sube, la segunda sílaba es corta y ligera."
+    ]
+   },
+   "beeldhook": "IK hurk, til de kleinzoon omhoog, hoor YÉ? ye!, voel kleine handen om mijn nek en zie 父 boven 卩 en 耶 meeklinken.",
+   "stop": [
+    9
+   ],
+   "anker": "<b>9</b> Het Atrium van het Lorentz Lyceum Arnhem Zuid heeft grafische prints op de wanden. Daar tilt de opa de kleinzoon omhoog.",
+   "scene": "Ik sta in het Atrium en zie de grafische prints op de wanden om me heen. Ik hoor de stijgende YÉ? en het zachte ye daarna tegen de ruimte kaatsen. Ik voel kleine handen om mijn nek en de warmte van de kleinzoon. Ik ruik buitenlucht die met hem mee naar binnen komt. Ik proef zoetigheid op mijn lippen. Ik hurk, strek mijn armen en til hem op. Ik brul: YÉ? ye!",
+   "fam": [
+    [
+     "爷",
+     "yé",
+     "opa",
+     "zelfde teken 爷"
+    ],
+    [
+     "爸爸",
+     "bàba",
+     "vader",
+     "父 als radicaal in 爷"
+    ],
+    [
+     "奶奶",
+     "nǎinai",
+     "oma",
+     "familierol; geen teken deel"
+    ]
+   ],
+   "gesch": "爷 is de vereenvoudigde vorm van 爺; traditioneel 爺 = 父 + 耶, met 父 als betekenisdeel en 耶 als klankdrager. De reduplicatie 爷爷 maakt een warme familieroep voor de vadersvader. De tweede lettergreep verliest zijn toon en wordt neutraal: yéye.",
+   "twijfel": [
+    "爷 is vereenvoudigd uit 爺; traditioneel 父 + 耶.",
+    "De tweede lettergreep is neutraal (yéye), niet volle 2e toon.",
+    "爷爷 is vadersvader; moedersvader is 外公/姥爷, niet in deze lesstof."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "YÉ↗",
+       "stijging"
+      ],
+      [
+       "ye(licht)",
+       "neutraal"
+      ]
+     ]
+    ],
+    [
+     "VADER",
+     "a",
+     [
+      [
+       "父",
+       "boven"
+      ],
+      [
+       "gezag",
+       "familie"
+      ]
+     ]
+    ],
+    [
+     "ZEGEL",
+     "b",
+     [
+      [
+       "卩",
+       "onder"
+      ],
+      [
+       "耶",
+       "klank"
+      ]
+     ]
+    ],
+    [
+     "ATRIUM",
+     "paleis",
+     [
+      [
+       "prints",
+       "wand"
+      ],
+      [
+       "Lorentz",
+       "Arnhem"
+      ]
+     ]
+    ],
+    [
+     "OPA",
+     "link",
+     [
+      [
+       "爷爷",
+       "herhaling"
+      ],
+      [
+       "YÉ?",
+       "beeldhook"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "yé",
+    "ye"
+   ],
+   "zinnen": [
+    [
+     "爷爷没有手机。",
+     "Opa heeft geen mobiele telefoon."
+    ],
+    [
+     "爷爷打电话。",
+     "Opa belt op."
+    ],
+    [
+     "爷爷找手表。",
+     "Opa zoekt een horloge."
+    ]
+   ],
+   "dialoog": {
+    "a": "爷爷打电话吗？",
+    "b": "爷爷打电话。",
+    "hint": "Ja, opa belt op.",
+    "fout": [
+     "爷爷没有手机。",
+     "爷爷没有手表。",
+     "爷爷找手机。"
+    ]
+   },
+   "oud": {
+    "actie": "Roep ‘YÉ? — ye’ met een stijgende toon en til denkbeeldig de kleinzoon op.",
+    "recallDoe": [
+     "Schrijf 爷 in de lucht: 父 boven, 卩 onder; daarna nog eens.",
+     "Trek 爷爷 met je vinger op tafel en zeg yéye.",
+     "Roep YÉ? — ye met een stijging en til denkbeeldig de kleinzoon op.",
+     "Wijs 父 boven aan en zeg: vader.",
+     "Wijs 卩 onder aan en zeg: vormdeel.",
+     "Beeld je het Atrium en het optillen in.",
+     "Maak met 爷爷 een zin met 没有 en 手机.",
+     "Maak met 爷爷 een zin met 打电话.",
+     "Maak met 爷爷 een zin met 找 en 手表.",
+     "Lees 爷爷没有手机。 hardop en wijs 爷爷 aan.",
+     "Lees 爷爷打电话。 hardop en klap op 打电话.",
+     "Lees 爷爷找手表。 hardop en wijs 手表 aan.",
+     "Voer de dialoog: 爷爷打电话吗？ — 爷爷打电话."
+    ],
+    "recallVragen": [
+     "Wat is de pinyin en toon van 爷爷?",
+     "Welke radicalen zijn rood en waarom?",
+     "Hoeveel streken heeft 爷?",
+     "Waarom is de tweede lettergreep neutraal?",
+     "Welke familie-relatie kan AI verliezen bij ‘grandfather’?",
+     "Wat betekent 爷爷 in het Nederlands?",
+     "Welk woord uit de les betekent ‘mobiele telefoon’?",
+     "Welk woord uit de les betekent ‘opbellen’?",
+     "Welk woord uit de les betekent ‘horloge’?"
+    ],
+    "plek": "Atrium"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "爸爸",
+     "py": "bàba",
+     "nl": "papa",
+     "haak": "父 boven: papa onder het dak."
+    },
+    {
+     "hz": "父亲",
+     "py": "fùqīn",
+     "nl": "vader",
+     "haak": "父 boven: vader met bijl."
+    },
+    {
+     "hz": "父母",
+     "py": "fùmǔ",
+     "nl": "ouders",
+     "haak": "父 boven: vader en moeder."
+    },
+    {
+     "hz": "爷爷",
+     "py": "yéye",
+     "nl": "opa",
+     "haak": "父 boven: opa onder het dak."
+    },
+    {
+     "hz": "伯父",
+     "py": "bófù",
+     "nl": "oom",
+     "haak": "父 rechts: oom naast vader."
+    },
+    {
+     "hz": "叔父",
+     "py": "shūfù",
+     "nl": "jongere oom",
+     "haak": "父 rechts: jongere oom."
+    }
+   ],
+   "obrien": {
+    "scene": "In het atrium van het Lorentz Lyceum langs de grafische prints huppelt een opa met rollator 'YÉ-YE!' en zwaait met een reuze theekop; prints kleuren op, leerlingen lachen.",
+    "klank": "YÉ-YE!",
+    "prompt": "In a school atrium with graphic wall prints, a cheerful grandpa hops with a walker and waves a giant teacup, prints glowing, students laughing, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A bright balloon rising from a school floor into sunbeams, joyful motion lines, drawn illustration, no text.",
+    "klank-s1": "A springy green arrow bouncing upward from a tiny trampoline, drawn illustration, no text.",
+    "klank-s2": "A tiny feather floating down and fading into soft light, drawn illustration, no text.",
+    "a": "A warm strong father lifting a child high, golden glow, drawn illustration, no text.",
+    "a-s1": "A glowing father figure standing on top of a family tree, warm light, drawn illustration, no text.",
+    "a-s2": "A gentle father holding a golden staff and a small crown, family silhouettes, drawn illustration, no text.",
+    "b": "A giant red seal stamp pressing a bright star into paper, colorful ink splash, drawn illustration, no text.",
+    "b-s1": "A small golden seal kneeling under a giant glowing arch, red spotlight, drawn illustration, no text.",
+    "b-s2": "An ancient scroll with a glowing seal and musical sound waves, drawn illustration, no text.",
+    "paleis": "A bright school atrium with colorful graphic prints on the walls, sunlight, drawn illustration, no text.",
+    "paleis-s1": "Colorful abstract graphic prints covering a school wall, bold shapes, drawn illustration, no text.",
+    "paleis-s2": "A cheerful modern Dutch school building with big windows and green courtyard, bicycles, drawn illustration, no text.",
+    "link": "A cheerful grandpa with round glasses and a walking stick jumping high, warm drawn illustration, no text.",
+    "link-s1": "A dignified grandfather in traditional Chinese robe holding a red seal, drawn illustration, no text.",
+    "link-s2": "A grandpa cheering through a megaphone with a rising sound wave, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "爷爷",
+     "py": "yéye",
+     "nl": "opa",
+     "deelt": "爷",
+     "haak": "Opa huppelt met rollator."
+    },
+    {
+     "hz": "爷",
+     "py": "yé",
+     "nl": "opa",
+     "deelt": "爷",
+     "haak": "Enkele opa zwaait."
+    },
+    {
+     "hz": "祖父",
+     "py": "zǔfù",
+     "nl": "grootvader",
+     "deelt": "vadersvader",
+     "haak": "Formele opa met zegel."
+    },
+    {
+     "hz": "外祖父",
+     "py": "wàizǔfù",
+     "nl": "opa van moederskant",
+     "deelt": "grootvader",
+     "haak": "Opa aan moeders kant."
+    },
+    {
+     "hz": "老爷爷",
+     "py": "lǎoyéye",
+     "nl": "oude opa",
+     "deelt": "爷",
+     "haak": "Oude opa met baard."
+    },
+    {
+     "hz": "伯祖父",
+     "py": "bózǔfù",
+     "nl": "oudere grootoom",
+     "deelt": "grootvader",
+     "haak": "Oudere broer van opa."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "VADER",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "ZEGEL",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "ATRIUM",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "OPA",
      "link",
      28.4,
      26.5
