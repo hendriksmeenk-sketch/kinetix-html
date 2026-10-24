@@ -8852,6 +8852,371 @@
    ]
   },
   {
+   "slug": "qiyue",
+   "hz": "七月",
+   "py": "qīyuè",
+   "nl": "juli (de zevende maand)",
+   "toon": "1+4",
+   "streken": {
+    "七": [
+     "横",
+     "竖弯钩"
+    ],
+    "月": [
+     "撇",
+     "横折钩",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">七</b> zeven · <b class=\"rood\">月</b> maan/maand",
+   "opbouw": "七月 = 七 2 + 月 4",
+   "klank": "TSJIE! — JU!↘",
+   "klankuitleg": "1e toon vlak hoog (→); 4e toon scherp dalend (↘).",
+   "hooks": {
+    "nl": [
+     "TSJIE! — JU!↘",
+     "Ik slijp één hoog mesje en laat de klif vallen.",
+     "TSJIE... TSJIE! —, dan JU... JU! ↘. Ik slijp één hoog mesje en laat de klif vallen. 1e toon vlak hoog, 4e toon scherp dalend."
+    ],
+    "en": [
+     "CHEE! — YOU!↘",
+     "I say cheese high and flat, then shout you as it drops.",
+     "CHEE... CHEE! —, then YOU... YOU! ↘. I say cheese high and flat, then shout you as it drops. 1st tone level high, 4th tone sharp falling."
+    ],
+    "es": [
+     "CHI! — LLUE!↘",
+     "Digo CHI! alto y llano; luego LLUE! cae como lluvia.",
+     "CHI... CHI! —, LLUE... LLUE! ↘. Digo CHI! alto y llano; luego LLUE! cae como lluvia. 1er tono alto y llano, 4º tono con caída seca."
+    ]
+   },
+   "beeldhook": "IK snijd <b class='rood'>七</b> zeven gaten uit de hemel en leg ze in een rij bij de <b class='rood'>月</b> sikkel.",
+   "stop": [
+    6
+   ],
+   "anker": "<b>6</b> De glaswand van de aula is een grote glazen buitenwand; door dat glas zie ik de maan boven de donkere buitenkant van de school.",
+   "scene": "Ik sta bij de grote glaswand van de aula en kijk naar buiten. Ik zie de maan door het glas en zeven kleine maantjes als gloeiende munten op de vensterbank. Ik hoor mijn mes heel hoog sissen: tsjie-tsjie-tsjie. Ik voel de kou van het glas tegen mijn voorhoofd en de harde rand van de vensterbank. Ik ruik schoon glas en een vleug metaal van de snede. Ik proef de bittere nachtlucht en de zoete maan als een koude munt op mijn tong. Ik snijd zeven snelle halen in de lucht en trek de maan met een diepe val naar beneden: TSJIE-JU!",
+   "fam": [
+    [
+     "上个月",
+     "shàng ge yuè",
+     "vorige maand",
+     "deelt 月"
+    ],
+    [
+     "这个月",
+     "zhè ge yuè",
+     "deze maand",
+     "deelt 月"
+    ],
+    [
+     "下个月",
+     "xià ge yuè",
+     "volgende maand",
+     "deelt 月"
+    ]
+   ],
+   "gesch": "七 is al vroeg als getal ‘zeven’ gebruikt; de vorm wordt in verband gebracht met een oud teken voor een snede of doorgesneden stuk. 月 is pictografisch: een halve maan, en betekent ‘maan’ en ‘maand’. 七月 volgt het productieve patroon getal + 月 voor maandnamen: de zevende maand, juli.",
+   "twijfel": [
+    "七月 kan zowel ‘juli’ als ‘zevende maand’ betekenen; context beslist.",
+    "Pinyin wordt soms met spatie geschreven: qī yuè."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "TSJIE!→ JU!↘",
+       "1e vlak hoog + 4e scherp dal"
+      ],
+      [
+       "qī yuè",
+       "zeven + maand"
+      ]
+     ]
+    ],
+    [
+     "DEEL A: 七",
+     "a",
+     [
+      [
+       "七",
+       "zeven; 2 streken"
+      ],
+      [
+       "snede en gebogen haak",
+       "horizontaal + 乚"
+      ]
+     ]
+    ],
+    [
+     "DEEL B: 月",
+     "b",
+     [
+      [
+       "月",
+       "maan/maand; 4 streken"
+      ],
+      [
+       "omkaderde maan",
+       "冂 + 二 binnenin"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: GLASWAND AULA",
+     "paleis",
+     [
+      [
+       "grote glazen buitenwand",
+       "maan zichtbaar door glas"
+      ],
+      [
+       "zeven manen op vensterbank",
+       "rij van gloeiende munten"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "TSJIE-JU roept de snede en de val",
+       "klank wordt actie"
+      ],
+      [
+       "zeven manen = juli",
+       "beeld en feit verbonden"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "qī",
+    "yuè"
+   ],
+   "zinnen": [
+    [
+     "七月，我打电话。",
+     "In juli bel ik."
+    ],
+    [
+     "七月，我们学习中文。",
+     "In juli leren wij Chinees."
+    ],
+    [
+     "七月，他回家。",
+     "In juli gaat hij naar huis."
+    ]
+   ],
+   "dialoog": {
+    "a": "你什么时候学习中文？",
+    "b": "七月，我学习中文。",
+    "hint": "Gebruik 七月 voor ‘in juli’.",
+    "fout": [
+     "明天，我学习中文。",
+     "今天，我学习中文。",
+     "上周，我学习中文。"
+    ]
+   },
+   "oud": {
+    "actie": "Snijd in de lucht zeven manen en trek de maan naar beneden: 七月!",
+    "recallDoe": [
+     "Zeg hardop: qī yuè.",
+     "Teken 七 in de lucht: 横, dan 竖弯钩.",
+     "Teken 月: 撇, 横折钩, 横, 横.",
+     "Roep ‘TSJIE-JU!’ en beeld je zeven manen in.",
+     "Noem de radicalen: 一 en 月.",
+     "Schrijf 七月 op zonder voorbeeld."
+    ],
+    "recallVragen": [
+     "Hoeveel streken heeft 七 en hoeveel 月?",
+     "Welke streeknamen hoor je bij 月?",
+     "Wat betekent 七月?",
+     "Waarom is 七月 een regelmatige maandnaam?",
+     "Welke klank gebruik je voor de 4e toon van 月?"
+    ],
+    "plek": "Glaswand aula"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "朋友",
+     "py": "péngyou",
+     "nl": "vriend",
+     "haak": "Twee manen naast elkaar: maan+maan = vrienden."
+    },
+    {
+     "hz": "有",
+     "py": "yǒu",
+     "nl": "hebben",
+     "haak": "Onder de maan hangt een hand: hebben."
+    },
+    {
+     "hz": "服",
+     "py": "fú",
+     "nl": "kleding",
+     "haak": "Maan links, lichaam in doek: kleding."
+    },
+    {
+     "hz": "期",
+     "py": "qī",
+     "nl": "periode",
+     "haak": "Maan links, tijdperk erbij: periode."
+    },
+    {
+     "hz": "腿",
+     "py": "tuǐ",
+     "nl": "been",
+     "haak": "Maan als vlees: het been."
+    },
+    {
+     "hz": "脸",
+     "py": "liǎn",
+     "nl": "gezicht",
+     "haak": "Maan als vlees: gezicht."
+    }
+   ],
+   "obrien": {
+    "scene": "In de glazen aula van het paleis barst een reuzenjulizon door de wand; zeven gloeiende maanmunten rollen van de vensterbank en roepen 'TSJIE-JU-E!' terwijl een kalendermaand smelt.",
+    "klank": "TSJIE-JU-E",
+    "prompt": "Warm bright drawn illustration: a giant July sun bursts through a glass hall wall, seven glowing moon-coins roll along the windowsill, exaggerated comic motion, no text or letters."
+   },
+   "mmbeeld": {
+    "klank": "Warm bright drawn style: a giant comic sound wave shaped like a glowing mouth bounces through a palace hall, no text or letters.",
+    "klank-s1": "Warm drawn style: a glowing high plateau suddenly drops into a sharp valley, comic arrow-like motion, no text or letters.",
+    "klank-s2": "Warm drawn style: seven glowing moons arc over one big calendar page, bright colors, exaggerated, no text or letters.",
+    "a": "Warm drawn style: seven red lanterns stacked into a leaning zigzag tower, glowing, exaggerated, no text or letters.",
+    "a-s1": "Warm drawn style: two giant paintbrush strokes, one flat and one hooked, crossing in bright ink, no text or letters.",
+    "a-s2": "Warm drawn style: a glowing horizontal cut and a curved hook rising from it, comic motion, no text or letters.",
+    "b": "Warm drawn style: a huge smiling crescent moon over a calendar page, warm glow, no text or letters.",
+    "b-s1": "Warm drawn style: four bright brush strokes orbiting a glowing moon, colorful, no text or letters.",
+    "b-s2": "Warm drawn style: a framed moon inside a tall glowing doorway, two bright bars inside, no text or letters.",
+    "paleis": "Warm drawn style: a grand palace hall with a huge glass outer wall, moonlight streaming through, no text or letters.",
+    "paleis-s1": "Warm drawn style: a huge glass wall in a palace hall, a bright moon visible through the glass, no text or letters.",
+    "paleis-s2": "Warm drawn style: seven glowing moon-coins lined up on a palace windowsill, bright reflections, no text or letters.",
+    "link": "Warm drawn style: a comic sound wave shouting into a sharp cut and a falling curve, action lines, no text or letters.",
+    "link-s1": "Warm drawn style: a glowing sound wave kicks a falling hook off a cliff, comic action, no text or letters.",
+    "link-s2": "Warm drawn style: seven glowing moons join into one calendar page over a summer beach, bright link, no text or letters."
+   },
+   "fam5": [
+    {
+     "hz": "七",
+     "py": "qī",
+     "nl": "zeven",
+     "deelt": "七",
+     "haak": "Zeven: horizontaal plus haak."
+    },
+    {
+     "hz": "七十",
+     "py": "qīshí",
+     "nl": "zeventig",
+     "deelt": "七",
+     "haak": "Zeven boven tien: zeventig."
+    },
+    {
+     "hz": "十七",
+     "py": "shíqī",
+     "nl": "zeventien",
+     "deelt": "七",
+     "haak": "Tien plus zeven: zeventien."
+    },
+    {
+     "hz": "七点",
+     "py": "qī diǎn",
+     "nl": "zeven uur",
+     "deelt": "七",
+     "haak": "Zeven stip aan de klok."
+    },
+    {
+     "hz": "八月",
+     "py": "bāyuè",
+     "nl": "augustus",
+     "deelt": "月/maand",
+     "haak": "Achtste maan: augustus."
+    },
+    {
+     "hz": "月份",
+     "py": "yuèfèn",
+     "nl": "maand",
+     "deelt": "月",
+     "haak": "Maan plus deel: maand als eenheid."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "DEEL A: 七",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "DEEL B: 月",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PALEIS: GLASWAND AULA",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
    "slug": "san",
    "hz": "三",
    "py": "sān",
@@ -9290,6 +9655,378 @@
     ],
     [
      "ATRIUM",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "shangban",
+   "hz": "上班",
+   "py": "shàngbān",
+   "nl": "naar het werk gaan",
+   "toon": "4+1",
+   "streken": {
+    "上": [
+     "竖",
+     "横",
+     "横"
+    ],
+    "班": [
+     "横",
+     "横",
+     "竖",
+     "横",
+     "竖",
+     "竖钩",
+     "横",
+     "横",
+     "竖",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">上</b> op/omhoog/naar · <b class=\"rood\">班</b> ploeg/dienst/werk",
+   "opbouw": "上班 = 上 3 + 班 10",
+   "klank": "SJANG!↘ BAAN! —",
+   "klankuitleg": "4e toon scherp dalend (↘); 1e toon vlak hoog (→).",
+   "hooks": {
+    "nl": [
+     "SJANG!↘ BAAN! —",
+     "Ik val met een scherpe stap en laat de machine hoog zoemen.",
+     "SJANG... SJANG! ↘, dan BAAN... BAAN! —. Ik val met een scherpe stap en laat de machine hoog zoemen. 4e toon scherp dalend, 1e toon vlak hoog."
+    ],
+    "en": [
+     "SHUN!↘ BUN! —",
+     "I shun with a sharp drop, then a bun springs high and flat.",
+     "SHUN... SHUN! ↘, then BUN... BUN! —. I shun with a sharp drop, then a bun springs high and flat. 4th tone sharp falling, 1st tone level high."
+    ],
+    "es": [
+     "CHAN!↘ BAN! —",
+     "Digo CHAN! con caída seca y BAN! alto y llano.",
+     "CHAN... CHAN! ↘, BAN... BAN! —. Digo CHAN! con caída seca y BAN! alto y llano. 4º tono con caída seca, 1er tono alto y llano."
+    ]
+   },
+   "beeldhook": "IK klim de <b class='rood'>上</b> trap op en snijd een stuk jade doormidden voor de <b class='rood'>班</b> splitsing.",
+   "stop": [
+    7
+   ],
+   "anker": "<b>7</b> De zittrap is een brede trap die als tribune werkt; op die brede treden klim ik naar mijn werkbank.",
+   "scene": "Ik sta op de brede zittrap die als tribune werkt. Ik zie boven aan de trap mijn werkbank met een stuk jade en een mes. Ik hoor mijn voetstap scherp dalen: sjang, sjang, sjang. Ik voel de koude stenen treden onder mijn schoenen en de harde rand van de tribune. Ik ruik stof in de trap en een droge metaalgeur van het mes. Ik proef de bittere lucht van jade en de zoete spanning voor de snede. Ik klim de trap op en snijd het stuk jade doormidden: SJANG-BAAN!",
+   "fam": [
+    [
+     "上个月",
+     "shàng ge yuè",
+     "vorige maand",
+     "deelt 上"
+    ],
+    [
+     "上周",
+     "shàng zhōu",
+     "vorige week",
+     "deelt 上"
+    ],
+    [
+     "早上好",
+     "zǎoshang hǎo",
+     "goedemorgen",
+     "deelt 上"
+    ]
+   ],
+   "gesch": "上 is een ideogram: een streep boven een basislijn, tegenpool van 下 ‘beneden’. 班 is een ideogram: een mes 刂 snijdt jade 王 in twee stukken, symbool voor het verdelen in klassen of ploegen. 上班 combineert 上 ‘op/naar’ met 班 ‘dienst, ploeg’ tot ‘naar het werk gaan’.",
+   "twijfel": [
+    "上班 kan ‘naar het werk gaan’ of ‘aan het werk zijn’ betekenen; context beslist.",
+    "班 heeft als hoofdradicaal 王; 刂 is een component, geen hoofdradicaal."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "SJANG!↘ BAAN!→",
+       "4e dal + 1e vlak hoog"
+      ],
+      [
+       "shàng bān",
+       "op/omhoog + ploeg/dienst"
+      ]
+     ]
+    ],
+    [
+     "DEEL A: 上",
+     "a",
+     [
+      [
+       "上",
+       "op/omhoog; 3 streken"
+      ],
+      [
+       "basislijn en paal",
+       "一 + ⺊"
+      ]
+     ]
+    ],
+    [
+     "DEEL B: 班",
+     "b",
+     [
+      [
+       "班",
+       "ploeg/dienst; 10 streken"
+      ],
+      [
+       "twee jade + mes",
+       "王 + 刂 + 王"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: ZITTRAP",
+     "paleis",
+     [
+      [
+       "brede tribunetrap",
+       "klim naar werkbank"
+      ],
+      [
+       "jade snijden bovenaan",
+       "twee helften voor de ploeg"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "SJANG-BAAN verbindt trap en snede",
+       "klank wordt actie"
+      ],
+      [
+       "trap op + jade snijden = werken",
+       "beeld en betekenis verbonden"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "shàng",
+    "bān"
+   ],
+   "zinnen": [
+    [
+     "我明天上班。",
+     "Ik ga morgen naar het werk."
+    ],
+    [
+     "今天，我们上班。",
+     "Vandaag gaan wij naar het werk."
+    ],
+    [
+     "爸爸上班，妈妈回家。",
+     "Papa gaat naar het werk, mama gaat naar huis."
+    ]
+   ],
+   "dialoog": {
+    "a": "你明天上班吗？",
+    "b": "我明天上班。",
+    "hint": "Antwoord met 上班.",
+    "fout": [
+     "我明天回家。",
+     "我明天学习中文。",
+     "我明天打电话。"
+    ]
+   },
+   "oud": {
+    "actie": "Klim de trap op en snijd een stuk jade doormidden: 上班!",
+    "recallDoe": [
+     "Zeg hardop: shàng bān.",
+     "Teken 上: 竖, 横, 横.",
+     "Teken 班: links 王, midden 刂, rechts 王.",
+     "Roep ‘SJANG-BAAN!’ en beeld je de trap en de jade in.",
+     "Noem de radicalen: 一, 王, 刂, 王.",
+     "Schrijf 上班 op zonder voorbeeld."
+    ],
+    "recallVragen": [
+     "Hoeveel streken heeft 上 en hoeveel 班?",
+     "Welke streeknamen hoor je bij 班?",
+     "Wat betekent 上班?",
+     "Waarom is 上班 een werkwoordelijke samenstelling?",
+     "Welke klank gebruik je voor de 4e toon van 上?"
+    ],
+    "plek": "Zittrap"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "玩",
+     "py": "wán",
+     "nl": "spelen",
+     "haak": "Jade-koning naast speelgoed: spelen."
+    },
+    {
+     "hz": "球",
+     "py": "qiú",
+     "nl": "bal",
+     "haak": "Jade-koning naast een bal: voetbal."
+    },
+    {
+     "hz": "班",
+     "py": "bān",
+     "nl": "ploeg/klas",
+     "haak": "Twee jade-koningen met mes: ploeg."
+    },
+    {
+     "hz": "王",
+     "py": "wáng",
+     "nl": "koning",
+     "haak": "Drie strepen: jade-koning."
+    },
+    {
+     "hz": "理",
+     "py": "lǐ",
+     "nl": "regelen/reden",
+     "haak": "Jade-koning naast dorp: regelen."
+    },
+    {
+     "hz": "现",
+     "py": "xiàn",
+     "nl": "verschijnen",
+     "haak": "Jade-koning naast zien: verschijnen."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de brede paleistribune sjouwt een reusachtige ploeg jade-snijders de trap op; ze roepen 'SJANG-BAAN!' en snijden glinsterende jade terwijl ze naar hun werkbank klimmen.",
+    "klank": "SJANG-BAAN",
+    "prompt": "Warm bright drawn illustration: a giant crew of jade cutters climbs broad palace steps, waving tools, comic effort, glowing jade halves, no text or letters."
+   },
+   "mmbeeld": {
+    "klank": "Warm drawn style: a giant comic sound wave shaped like a trumpet blasting through a palace, bright colors, no text or letters.",
+    "klank-s1": "Warm drawn style: a sound wave dives into a deep valley then jumps onto a high flat plateau, comic motion, no text or letters.",
+    "klank-s2": "Warm drawn style: a glowing arrow rises from a climbing crew toward a workbench, bright and exaggerated, no text or letters.",
+    "a": "Warm drawn style: a bright arrow rising from a baseline over a tiny hill, warm glow, no text or letters.",
+    "a-s1": "Warm drawn style: three giant paint strokes forming a rising ladder, colorful, no text or letters.",
+    "a-s2": "Warm drawn style: a thick baseline with a vertical pole and a small branch rising, simple bold shapes, no text or letters.",
+    "b": "Warm drawn style: two jade halves split by a gleaming knife beside a marching work crew, no text or letters.",
+    "b-s1": "Warm drawn style: ten bright brush strokes swirl around two jade blocks, comic energy, no text or letters.",
+    "b-s2": "Warm drawn style: two glowing jade blocks with a sharp knife between them, colorful sparks, no text or letters.",
+    "paleis": "Warm drawn style: a wide palace tribune staircase glowing in warm light, grand and empty, no text or letters.",
+    "paleis-s1": "Warm drawn style: a broad palace staircase leading up to a bright workbench, comic climb, no text or letters.",
+    "paleis-s2": "Warm drawn style: at the top of palace steps a jade cutter splits a glowing block into two halves, no text or letters.",
+    "link": "Warm drawn style: a comic sound wave ties a palace staircase to a jade-cutting knife, action lines, no text or letters.",
+    "link-s1": "Warm drawn style: a glowing sound ribbon pulls a climbing worker toward a jade knife, comic action, no text or letters.",
+    "link-s2": "Warm drawn style: a worker climbs palace steps while cutting glowing jade, one clear working action, no text or letters."
+   },
+   "fam5": [
+    {
+     "hz": "上学",
+     "py": "shàngxué",
+     "nl": "naar school gaan",
+     "deelt": "上",
+     "haak": "Omhoog naar school."
+    },
+    {
+     "hz": "上网",
+     "py": "shàngwǎng",
+     "nl": "online gaan",
+     "deelt": "上",
+     "haak": "Omhoog het net in."
+    },
+    {
+     "hz": "上午",
+     "py": "shàngwǔ",
+     "nl": "ochtend",
+     "deelt": "上",
+     "haak": "Zon omhoog: ochtend."
+    },
+    {
+     "hz": "上车",
+     "py": "shàngchē",
+     "nl": "instappen",
+     "deelt": "上",
+     "haak": "Stap omhoog in de auto."
+    },
+    {
+     "hz": "早上",
+     "py": "zǎoshang",
+     "nl": "ochtend",
+     "deelt": "上",
+     "haak": "Vroeg zonnetje boven."
+    },
+    {
+     "hz": "下班",
+     "py": "xiàbān",
+     "nl": "dienst uit",
+     "deelt": "班/dienst",
+     "haak": "Tegenpool: dienst uit."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "DEEL A: 上",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "DEEL B: 班",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PALEIS: ZITTRAP",
      "paleis",
      22.1,
      64.3
