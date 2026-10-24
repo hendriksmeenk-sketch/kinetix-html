@@ -309,7 +309,46 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-十",
-   "status46": "wacht-op-deepseek"
+   "status46": "open-media",
+   "kaart46": "kaart/shi.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "SJÍ!↗",
+      "zin": "SJÍ! — een sis die stijgt, mijn kin gaat omhoog."
+     },
+     "en": {
+      "haak": "SHI↗",
+      "zin": "SHI↗ — a hiss that rises, chin up."
+     },
+     "es": {
+      "haak": "SHÍ↗",
+      "zin": "SHÍ↗ — un siseo que sube, la barbilla arriba."
+     }
+    },
+    "beeldhook": "IK sla een kruis van horizontaal en verticaal, radicaal.",
+    "paleisStop": [
+     7
+    ],
+    "audio": [
+     "kaart/media/shi-zh.mp3",
+     "kaart/media/shi-zh-traag.mp3",
+     "kaart/media/shi-hook-nl.mp3",
+     "kaart/media/shi-hook-en.mp3",
+     "kaart/media/shi-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/shi-centrum.jpg",
+     "kaart/media/shi-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/shi-mindmap.jpg",
+    "streken": {
+     "十": [
+      "横",
+      "竖"
+     ]
+    }
+   }
   },
   {
    "hz": "百",
@@ -363,7 +402,50 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-百",
-   "status46": "wacht-op-deepseek"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/bai.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "BǍI!↘↗",
+      "zin": "Baai met een dalende kuil, dan weer omhoog."
+     },
+     "en": {
+      "haak": "BYE!↘↗",
+      "zin": "Bye first dips and then lifts."
+     },
+     "es": {
+      "haak": "B",
+      "zin": "Á"
+     }
+    },
+    "beeldhook": "IK tel druppels op één wit teken, klankdeel en leg een rode streep erboven.",
+    "paleisStop": [
+     6
+    ],
+    "audio": [
+     "kaart/media/bai-zh.mp3",
+     "kaart/media/bai-zh-traag.mp3",
+     "kaart/media/bai-hook-nl.mp3",
+     "kaart/media/bai-hook-en.mp3",
+     "kaart/media/bai-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/bai-centrum.jpg",
+     "kaart/media/bai-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/bai-mindmap.jpg",
+    "streken": {
+     "百": [
+      "横",
+      "撇",
+      "竖",
+      "横折",
+      "横",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "零",
@@ -411,7 +493,57 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-零",
-   "status46": "wacht-op-deepseek"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/ling.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "LÍNG!↗",
+      "zin": "Ling! De bel slingert omhoog uit de regen."
+     },
+     "en": {
+      "haak": "LING!↗",
+      "zin": "Ling! A bell lingers and rises."
+     },
+     "es": {
+      "haak": "LIN-NG!↗",
+      "zin": "Lin-ng! La campana sube con la nasal."
+     }
+    },
+    "beeldhook": "IK hoor een bel “ling” en zie regen vallen boven het bevel-teken, klankdeel slingert omhoog.",
+    "paleisStop": [
+     8
+    ],
+    "audio": [
+     "kaart/media/ling-zh.mp3",
+     "kaart/media/ling-zh-traag.mp3",
+     "kaart/media/ling-hook-nl.mp3",
+     "kaart/media/ling-hook-en.mp3",
+     "kaart/media/ling-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/ling-centrum.jpg",
+     "kaart/media/ling-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/ling-mindmap.jpg",
+    "streken": {
+     "零": [
+      "横",
+      "竖",
+      "横折钩",
+      "竖",
+      "点",
+      "点",
+      "点",
+      "点",
+      "撇",
+      "捺",
+      "点",
+      "横撇",
+      "点"
+     ]
+    }
+   }
   },
   {
    "hz": "子",
@@ -1492,7 +1624,56 @@
    "h1": false,
    "source": "drive-woordkaart 1GqR90rOhxWX7iLyx-FfTwI1Tr7xdW45zrKdBHABqqdQ",
    "card_id": "wd-多少",
-   "status46": "wacht-op-deepseek"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/duoshao.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "DUŌ!→ ... SHAO?(licht)",
+      "zin": "Doe-sjau: open hand, dan twijfelende lichte sjau."
+     },
+     "en": {
+      "haak": "D",
+      "zin": "O"
+     },
+     "es": {
+      "haak": "DUO!→ ... CHAO?(licht)",
+      "zin": "Duo-chao: eerste vlak, tweede krimpt licht."
+     }
+    },
+    "beeldhook": "IK open mijn handen voor de avond-tekens en knijp de kleine streek tot een smalle kier.",
+    "paleisStop": [
+     5
+    ],
+    "audio": [
+     "kaart/media/duoshao-zh.mp3",
+     "kaart/media/duoshao-zh-traag.mp3",
+     "kaart/media/duoshao-hook-nl.mp3",
+     "kaart/media/duoshao-hook-en.mp3",
+     "kaart/media/duoshao-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/duoshao-centrum.jpg",
+     "kaart/media/duoshao-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/duoshao-mindmap.jpg",
+    "streken": {
+     "多": [
+      "撇",
+      "横撇",
+      "点",
+      "撇",
+      "横撇",
+      "点"
+     ],
+     "少": [
+      "竖",
+      "撇",
+      "点",
+      "撇"
+     ]
+    }
+   }
   }
  ],
  "recallByLearner": {

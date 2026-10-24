@@ -2890,6 +2890,405 @@
    ]
   },
   {
+   "slug": "bai",
+   "hz": "百",
+   "py": "bǎi",
+   "nl": "honderd",
+   "toon": "3",
+   "streken": {
+    "百": [
+     "横",
+     "撇",
+     "竖",
+     "横折",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">一</b> een, betekenisdeel · <b>白</b> wit, klankdeel",
+   "opbouw": "百 = 一 1 + 白 5",
+   "klank": "BǍI↘↗",
+   "klankuitleg": "3e toon: dalend en dan stijgend; een gong die terugveert.",
+   "hooks": {
+    "nl": [
+     "BǍI!↘↗",
+     "Baai met een dalende kuil, dan weer omhoog.",
+     "BǍI! ... BǍI! ... Baai met een dalende kuil, dan weer omhoog. Derde toon: eerst zakken, dan terug tikken."
+    ],
+    "en": [
+     "BYE!↘↗",
+     "Bye first dips and then lifts.",
+     "BYE! ... BYE! ... Bye first dips and then lifts. Third tone: drop, then bounce up."
+    ],
+    "es": "BÁI!↘↗"
+   },
+   "beeldhook": "IK tel druppels op één wit teken, klankdeel en leg een rode streep erboven.",
+   "stop": [
+    6
+   ],
+   "anker": "<b>6</b> Glaswand aula: grote glazen buitenwand; honderd regendruppels op de witte glaslei.",
+   "scene": "Ik sta bij de glaswand van de aula en kijk naar de grote glazen buitenwand. Ik zie regendruppels als kleine tellen op het glas. Ik hoor de gong in mijn hoofd eerst zakken en dan terugveren. Ik voel het koude glas onder mijn vingers. Ik ruik natte stof en schoon glas. Ik proef een koele druppel en sla met mijn hand één tel op de glaslei.",
+   "fam": [
+    [
+     "一百",
+     "yībǎi",
+     "honderd",
+     "百 met 一"
+    ],
+    [
+     "百姓",
+     "bǎixìng",
+     "gewone mensen",
+     "百 in vaste betekenis ‘vele/gewone’"
+    ],
+    [
+     "百分之",
+     "bǎifēnzhī",
+     "procent",
+     "百 in ‘honderd delen’"
+    ]
+   ],
+   "gesch": "百 = ⿱一白: pictofonetisch, 白 als klankcomponent en 一 als semantische hint ‘een’. De bron noemt ‘one hundred; numerous, many’. Diepere vroege vormdetails geeft de bron niet.",
+   "twijfel": [
+    "百姓 betekent ‘gewone mensen’, niet letterlijk ‘honderd achternamen’.",
+    "De bron geeft alleen pictofonetisch; vroege vormdetails niet invullen."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "BǍI!",
+       "gongdal"
+      ],
+      [
+       "honderd",
+       "tel terug"
+      ]
+     ]
+    ],
+    [
+     "A: EEN",
+     "a",
+     [
+      [
+       "一",
+       "bovenstreep"
+      ],
+      [
+       "eenheid",
+       "betekenisdeel"
+      ]
+     ]
+    ],
+    [
+     "B: WIT",
+     "b",
+     [
+      [
+       "白",
+       "klankdeel"
+      ],
+      [
+       "lei",
+       "wit vlak"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: GLASWAND AULA",
+     "paleis",
+     [
+      [
+       "glaswand",
+       "buitenwand"
+      ],
+      [
+       "druppels",
+       "honderd tellen"
+      ]
+     ]
+    ],
+    [
+     "LINK: HONDERD",
+     "link",
+     [
+      [
+       "honderd",
+       "vele"
+      ],
+      [
+       "gong",
+       "dalend"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "bǎi"
+   ],
+   "zinnen": [
+    [
+     "我有一百个苹果。",
+     "Ik heb honderd appels."
+    ],
+    [
+     "弟弟有三百个鸡蛋。",
+     "Mijn jongere broer heeft driehonderd eieren."
+    ],
+    [
+     "姐姐有五百个蛋糕。",
+     "Mijn oudere zus heeft vijfhonderd cakes."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有多少个苹果？",
+    "b": "我有一百个苹果。",
+    "hint": "Antwoord met 一百 en 个.",
+    "fout": [
+     "我有十个苹果。",
+     "我有二十个苹果。",
+     "我有三十个苹果。"
+    ]
+   },
+   "oud": {
+    "hz": "百",
+    "pinyin": "bǎi",
+    "toon": "3",
+    "vertaling": "honderd",
+    "heelRadicaal": false,
+    "radicalen": "🔴一🔴 (één) + ⚫白⚫ (wit) — 一 is radicaal-component",
+    "klankhook": "BAI! (NL bai) / bye (EN) / bai (ES) – 3e toon dal-veer",
+    "beeldhook": "IK hurk onder honderd witte briefjes tot ik veer.",
+    "plek": "Glaswand aula",
+    "actie": "Ik hurk, veer omhoog en tel honderd tellen op een gong.",
+    "klank": "bǎi. Toon 3 vallei: hurk, veer.\nNL-brug: BAI, als 'bye' met dal.\nEN-brug: bye, maar hurk eerst.\nES-brug: bai / bye.\nToonbrug: je zakt onder de stapel en komt terug.\nKlank → honderd. Woord → BAI!",
+    "schrift": "Streken: 6.\nDelen: 🔴一🔴 boven + ⚫白⚫ (wit). Functie: 白 is vaak klankcomponent; 一 betekenis 'veel/één honderd'. 说文-detail: ONBEKEND hier, niet verzinnen.\nModern: 一百 = honderd. 白 alleen ≠ honderd.\nAI vertaalt 百 als 100, mist 老百姓, 百分.",
+    "beeld": "BEELD. Keuken. Honderd witte briefjes, te veel, ze dwarrelen. IK hurk tot de stoel kraakt, veer, til de stapel. BAI! Ster bladert. Papier ruikt droog.",
+    "recallDoe": [
+     "Hurk en veer bij bǎi.",
+     "Roep BǍI!",
+     "Wijs boven 一 en onder 白.",
+     "Schrijf 百: 横, 撇, 竖, 横折, 横, 横.",
+     "Zeg: 一百 is honderd, 白 alleen is wit.",
+     "Fluister de vallei, brul de veer."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 百?",
+     "Uit welke twee delen bestaat 百?",
+     "Hoeveel streken heeft 百?",
+     "Wat betekent 百姓 niet letterlijk?",
+     "Wat is het beeldhook in ik-vorm?"
+    ],
+    "strekenLos": [
+     "㇐",
+     "㇔",
+     "㇕",
+     "㇐",
+     "㇑",
+     "㇐"
+    ],
+    "strekenSamen": [
+     "一",
+     "丶",
+     "白…",
+     "百"
+    ],
+    "status": "nieuw",
+    "station": 0,
+    "nextLabel": "—",
+    "h1": true,
+    "img": "",
+    "source": "woord_diepte",
+    "card_id": "wd-百",
+    "zinnen": [],
+    "status46": "wacht-op-deepseek"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "的",
+     "py": "de",
+     "nl": "bezitspartikel",
+     "haak": "白 links in 的."
+    },
+    {
+     "hz": "白天",
+     "py": "báitiān",
+     "nl": "overdag",
+     "haak": "Wit daglicht."
+    },
+    {
+     "hz": "明白",
+     "py": "míngbai",
+     "nl": "begrijpen; duidelijk",
+     "haak": "Helder als wit."
+    },
+    {
+     "hz": "白色",
+     "py": "báisè",
+     "nl": "wit; witte kleur",
+     "haak": "Witte kleur."
+    },
+    {
+     "hz": "白酒",
+     "py": "báijiǔ",
+     "nl": "witte sterke drank",
+     "haak": "Witte sterke drank."
+    },
+    {
+     "hz": "白",
+     "py": "bái",
+     "nl": "wit",
+     "haak": "白 is helder wit."
+    }
+   ],
+   "obrien": {
+    "scene": "In de glaswand-aula slaat een reusachtige gong BǍI! en de glaswand telt honderd druppels terug. Ik glijd dalend langs de wand, proef metaal, en bij honderd springt een hondenbel als een gek.",
+    "klank": "BǍI!",
+    "prompt": "Warm storybook illustration: a giant gong in a glass-walled hall, a child slides down the glass as hundred drops bounce, a dog bell jumps, no text."
+   },
+   "mmbeeld": {
+    "klank": "Warm drawn storybook: giant gong shaped like a white plate rings in a glass-walled hall, sound waves ripple, child covers ears, no text.",
+    "klank-s1": "Warm drawn storybook: child strikes a gong with mallet, a falling spiral wave, glass wall vibrates, no text.",
+    "klank-s2": "Warm drawn storybook: child counts backward down many glass steps, tiny gong at bottom, no text.",
+    "a": "Warm drawn storybook: a huge horizontal beam like a single stroke floats above glass hall, child balances, no text.",
+    "a-s1": "Warm drawn storybook: one thick horizontal brushstroke as a plank over glass wall, child tiptoes, no text.",
+    "a-s2": "Warm drawn storybook: a single glowing beam hugs a white plate, unit spark, no text.",
+    "b": "Warm drawn storybook: a giant white plate with a shiny rim in glass hall, child polishes it, reflections, no text.",
+    "b-s1": "Warm drawn storybook: white plate sounds like a bell, child taps it with spoon, glass echoes, no text.",
+    "b-s2": "Warm drawn storybook: a white flower garland draped over a glass wall, child peeks through, no text.",
+    "paleis": "Warm drawn storybook: glass-walled school hall with a huge white gong, child sliding down, no text.",
+    "paleis-s1": "Warm drawn storybook: outside glass wall of a hall, reflections of children, one child presses nose, no text.",
+    "paleis-s2": "Warm drawn storybook: child counts hundred water drops on glass wall, each drop rings, no text.",
+    "link": "Warm drawn storybook: a giant white plate linked to a hundred tiny bells on glass wall, child points, no text.",
+    "link-s1": "Warm drawn storybook: a huge white plate overflowing with many colorful candies, child counts, no text.",
+    "link-s2": "Warm drawn storybook: a gong falls down a glass slide, child slides after it, sound waves, no text."
+   },
+   "fam5": [
+    {
+     "hz": "百",
+     "py": "bǎi",
+     "nl": "honderd",
+     "deelt": "百 zelf",
+     "haak": "Eén boven wit = honderd."
+    },
+    {
+     "hz": "一百",
+     "py": "yībǎi",
+     "nl": "honderd",
+     "deelt": "一 + 百",
+     "haak": "Eén honderd."
+    },
+    {
+     "hz": "两百",
+     "py": "liǎngbǎi",
+     "nl": "tweehonderd",
+     "deelt": "两 + 百",
+     "haak": "Twee honderd."
+    },
+    {
+     "hz": "百姓",
+     "py": "bǎixìng",
+     "nl": "gewone mensen",
+     "deelt": "百 + 姓",
+     "haak": "Honderd families."
+    },
+    {
+     "hz": "百分之",
+     "py": "bǎifēnzhī",
+     "nl": "procent",
+     "deelt": "百 + 分 + 之",
+     "haak": "Honderd delen van."
+    },
+    {
+     "hz": "百年",
+     "py": "bǎinián",
+     "nl": "honderd jaar",
+     "deelt": "百 + 年",
+     "haak": "Honderd jaar."
+    },
+    {
+     "hz": "百货",
+     "py": "bǎihuò",
+     "nl": "allerlei waren; warenhuis",
+     "deelt": "百 + 货",
+     "haak": "Honderd soorten waren."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "A: EEN",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "B: WIT",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PALEIS: GLASWAND AULA",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK: HONDERD",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
    "slug": "da",
    "hz": "打",
    "py": "dǎ",
@@ -3218,6 +3617,426 @@
     "link-s1",
     "paleis",
     "paleis-s1"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "duoshao",
+   "hz": "多少",
+   "py": "duōshao",
+   "nl": "hoeveel",
+   "toon": "1+0",
+   "streken": {
+    "多": [
+     "撇",
+     "横撇",
+     "点",
+     "撇",
+     "横撇",
+     "点"
+    ],
+    "少": [
+     "竖",
+     "撇",
+     "点",
+     "撇"
+    ]
+   },
+   "delen": "<b class=\"rood\">夕</b> avond, betekenisdeel · <b class=\"rood\">夕</b> avond, betekenisdeel · <b class=\"rood\">小</b> klein, klank- en betekenisdeel · <b class=\"rood\">丿</b> schuine streek, betekenisdeel",
+   "opbouw": "多少 = 多 6 + 少 4",
+   "klank": "DUŌ→SHAO(licht)",
+   "klankuitleg": "1e toon vlak hoog; 少 in de vraag vaak neutraal/licht, in duōshǎo 3e toon.",
+   "hooks": {
+    "nl": [
+     "DUŌ!→ ... SHAO?(licht)",
+     "Doe-sjau: open hand, dan twijfelende lichte sjau.",
+     "DUŌ! ... DUŌ! ... SHAO? ... Doe-sjau: open hand, dan twijfelende lichte sjau. Eerste toon vlak hoog, tweede licht/neutraal."
+    ],
+    "en": "DO!→ ... SHAO?(light)",
+    "es": [
+     "DUO!→ ... CHAO?(licht)",
+     "Duo-chao: eerste vlak, tweede krimpt licht.",
+     "DUO! ... DUO! ... CHAO? ... Duo-chao: eerste vlak, tweede krimpt licht. Primer tono alto y plano; segundo neutro/ligero."
+    ]
+   },
+   "beeldhook": "IK open mijn handen voor de avond-tekens en knijp de kleine streek tot een smalle kier.",
+   "stop": [
+    5
+   ],
+   "anker": "<b>5</b> Cruijff-court: kooiveld op het schoolplein; mijn open handen meten veel ballen en knijpen tot weinig.",
+   "scene": "Ik sta op het Cruijff-court en open mijn handen wijd naar de kooi. Ik zie de lijnen van het kooiveld en de ballen die rondrollen. Ik hoor het tikken van een bal tegen het hek. Ik voel het koude gaas onder mijn vingers en de wind tussen mijn open handen. Ik ruik rubber en buitenlucht. Ik proef een droge korrel zand tussen mijn tanden en knijp mijn handen tot een smalle opening.",
+   "fam": [
+    [
+     "多",
+     "duō",
+     "veel",
+     "deelt 多: veel"
+    ],
+    [
+     "少",
+     "shǎo",
+     "weinig",
+     "deelt 少: weinig"
+    ],
+    [
+     "多多少少",
+     "duōduōshǎoshǎo",
+     "in meer of mindere mate",
+     "herhaalt 多 en 少"
+    ]
+   ],
+   "gesch": "多 = ⿱夕夕: twee avonden 夕, ideografisch ‘veel’. 少 = ⿱小丿: pictografisch ‘korrels zand’, met 小 as klank- en betekeniscomponent. Samen vraagt 多少 naar ‘hoeveel’ (veel of weinig).",
+   "twijfel": [
+    "In de vraag is 少 vaak neutraal (duōshao); in ‘meer of minder’ is het duōshǎo met 3e toon.",
+    "AI kan 多少 in 多少有点 verkeerd als ‘hoeveel’ vertalen."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "DUŌ!",
+       "vlak hoog"
+      ],
+      [
+       "SHAO?",
+       "licht/neutraal"
+      ]
+     ]
+    ],
+    [
+     "A: AVOND",
+     "a",
+     [
+      [
+       "夕",
+       "eerste nacht"
+      ],
+      [
+       "stapel",
+       "veel"
+      ]
+     ]
+    ],
+    [
+     "B: KLEIN",
+     "b",
+     [
+      [
+       "小",
+       "klein"
+      ],
+      [
+       "丿",
+       "schuine streek"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: CRUIJFF-COURT",
+     "paleis",
+     [
+      [
+       "kooiveld",
+       "schoolplein"
+      ],
+      [
+       "handen",
+       "open en knijp"
+      ]
+     ]
+    ],
+    [
+     "LINK: HOEVEEL",
+     "link",
+     [
+      [
+       "veel",
+       "open hand"
+      ],
+      [
+       "weinig",
+       "bijna niets"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "duō",
+    "shao"
+   ],
+   "zinnen": [
+    [
+     "你问我有多少个苹果。",
+     "Je vraagt mij hoeveel appels ik heb."
+    ],
+    [
+     "妈妈问弟弟有多少个手表。",
+     "Mama vraagt aan mijn jongere broer hoeveel horloges hij heeft."
+    ],
+    [
+     "他问我有多少牛奶。",
+     "Hij vraagt mij hoeveel melk ik heb."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有多少个苹果？",
+    "b": "我有十个苹果。",
+    "hint": "Vraag naar aantal met 多少; antwoord met 十 en 个.",
+    "fout": [
+     "我有十二个苹果。",
+     "我有二十个苹果。",
+     "我有三十个苹果。"
+    ]
+   },
+   "oud": {
+    "hz": "多少",
+    "pinyin": "duō shǎo",
+    "toon": "1e toon + 3e toon",
+    "vertaling": "hoeveel; een aantal; min of meer",
+    "heelRadicaal": false,
+    "radicalen": "夕 (avond, radicaal van 多) 小 (klein, radicaal van 少)",
+    "klankhook": "“Dwo! Shauw?” (NL: dwo als in “doo” met een w; shauw als in “sjauw” met een dal) / EN: dwaw + shao / ES: duo + chau – eerst vlak en hoog, dan een kuil die weer omhoog kruipt",
+    "beeldhook": "IK stapel twee avonden op elkaar en vraag hoe klein het verschil nog is.",
+    "plek": "Cruijff-court",
+    "actie": "Ik open mijn handen wijd en knijp ze daarna samen tot een kier.",
+    "klank": "Pinyin: duō shǎo\nToon: 1e toon + 3e toon. Eerst vlak en hoog: DWO… Dan een kuil die weer omhoog kruipt: SHAUW…? Het is geen bevel, geen kreet. Het is een vraag die blijft hangen. Alsof je eerst iets aanreikt en dan je hand terugtrekt, twijfelend.\nNL-brug: “Dwo” – zoals “doo” in “dooier”, maar dan met een w die erbij glijdt. Het is een ronde, hoge klank. En “shauw” – zoals “sjauw” zeggen tegen een kat, maar dan met een dalende en weer stijgende toon. Alsof je “sjauw?” zegt met een vragende ondertoon.\nEN-brug: dwaw (zoals in dwarf zonder de rf) – rond en hoog. En shao (zoals in shout zonder de t), maar dan met een kuil. Dwaw… Shao…?\nES-brug: duo (zoals in duodeno, maar dan zonder de deno) – de u is kort, de o is rond. En chau (zoals in chauvinista, maar dan zonder de vinista) – de ch is zacht, bijna als sj. Duo… Chau…?\nToonbrug: De 1e toon is een vlakke plaat, hoog en rustig. Geen beweging. De 3e toon is een kuil: je zakt in een dal en kruipt er weer uit. Dus: DWO… (vlak) – SHAUW…? (kuil). Het is een beweging van zekerheid naar twijfel.\nKlank → woord: Hoor je “dwo shauw”, dan hoor je iemand die eerst iets vaststelt en dan een vraag stelt. Hoeveel? Het is de klank van een hand die eerst vol is en dan leegloopt, en weer vult.\nWoord → klank: Denk aan een marktkoopman die zijn handen opent: Dwo… En dan zijn vingers spreidt: Shauw? Hoeveel? De klank is de beweging van de handen.\nBeeldhook (ik-vorm):IK stapel twee avonden op elkaar en vraag hoe klein het verschil nog is.",
+    "schrift": "Aantal streken: 多 = 6 streken. 少 = 4 streken. Totaal: 10 streken.\nRadicalen & Componenten\nRadicalen:\n夕 (xī) – “avond”. Dit is het radicaal van 多. Het stelt de maan voor die net opkomt, of de schemering. In 多 is het twee keer gestapeld: twee avonden op elkaar.\n小 (xiǎo) – “klein”. Dit is het radicaal van 少. Het stelt drie korrels voor, of drie druppels, of een klein ding dat uiteenvalt.\nOverige componenten:\n夕 (tweede keer) – In 多 is de onderste 夕 geen apart radicaal, maar een herhaling van het bovenste deel. Het is een vormcomponent die de betekenis versterkt: twee avonden = veel.\n丿 (piě) – een diagonale streek naar links. In 少 is dit de bovenste streek, die de beweging van het kleine ding aangeeft.\n丶 (diǎn) – een punt. In 少 is dit de onderste streek, die de punt van het kleine ding aangeeft.\nFunctie van elk deel:\n多: 夕 is het betekenisradicaal (avond). De tweede 夕 is een herhaling die de betekenis versterkt: twee avonden = veel. Samen: veel.\n少: 小 is het betekenisradicaal (klein). 丿 en 丶 zijn vormcomponenten die de beweging en de punt van het kleine ding aangeven. Samen: weinig.\nGeschiedenis en evolutie\n多 is een oud teken. Het bestaat uit twee keer 夕 (avond). De oorspronkelijke betekenis was “veel” of “talrijk”. Twee avonden op elkaar: dat is meer dan één avond. Dat is veel avonden. De betekenis “hoeveel” komt voort uit de vraag: hoeveel avonden? Hoeveel nachten? Het is een vraag naar aantal.\n少 is ook een oud teken. Het bestaat uit 小 (klein) met een diagonale streek en een punt. De oorspronkelijke betekenis was “weinig” of “klein”. Drie korrels die uiteenvallen: dat is weinig. De betekenis “hoeveel” komt voort uit de vraag: hoe weinig? Hoeveel minder?\nVisuele uitsplitsing van radicalen en componenten:\n多 (6 streken):\nStreek · Vorm · Deel\n1 · ㇒ · 夕 – diagonale streek van de bovenste avond\n2 · ㇕ · 夕 – het “raam” van de bovenste avond\n3 · ㇔ · 夕 – punt van de bovenste avond\n4 · ㇒ · 夕 – diagonale streek van de onderste avond\n5 · ㇕ · 夕 – het “raam” van de onderste avond\n6 · ㇔ · 夕 – punt van de onderste avond\nZeg hardop: “Twee AVONDEN (夕) op elkaar: dat is VEEL.”\n少 (4 streken):\nStreek · Vorm · Deel\n1 · ㇑ · 小 – verticale streek van het kleine ding\n2 · ㇒ · 小 – diagonale streek naar links\n3 · ㇔ · 小 – diagonale streek naar rechts\n4 · ㇒ · 丿 – de diagonale streek die het kleine ding nog kleiner maakt\nZeg hardop: “KLEIN (小) met een streek erbij: dat is WEINIG.”\nKlassiek vs modern:\nIn het klassiek Chinees betekende 多 “veel” en 少 “weinig”. Het waren zelfstandige woorden. De combinatie 多少 betekende “hoeveel” – letterlijk: “veel of weinig?” Het is een vraag naar de mate van iets.\nIn het moderne Chinees is 多少 een veelgebruikt vraagwoord. Je gebruikt het om naar een aantal of een prijs te vragen. 多少 betekent ook “min of meer” of “een beetje” in zinnen zoals 多少有点 (duōshǎo yǒu diǎn, “een beetje, min of meer”).\nWaarom zeg je 多少 en niet 多 alleen? Omdat 多 alleen “veel” betekent. Als je “hoeveel” wilt zeggen, moet je de tegenstelling gebruiken: veel of weinig? De combinatie maakt de vraag compleet.\nHedendaags gebruik (2026)\nIn 2026 is 多少 nog steeds het standaardwoord voor “hoeveel” in het Chinees. Maar de context is veranderd. Mensen vragen vaker 多少钱? (duōshǎo qián?, “hoeveel geld?”) in online winkels, en 多少人? (duōshǎo rén?, “hoeveel mensen?”) in sociale media-analyses.\nEen nieuwe trend: 多少 wordt gebruikt in datacontexten. 多少流量? (duōshǎo liúliàng?, “hoeveel data?”), 多少点赞? (duōshǎo diǎnzàn?, “hoeveel likes?”). Het is een vraagwoord geworden voor de digitale economie.\nEen andere ontwikkeling: 多少 wordt gebruikt in AI-gesprekken. Mensen vragen: 多少 tokens? (duōshǎo tokens?, “hoeveel tokens?”), 多少参数? (duōshǎo cānshù?, “hoeveel parameters?”). Het is een vraagwoord geworden voor de taal van machines.\nAI-vertaling en valkuilen\nGoogle Translate vertaalt 多少 meestal correct als “how many” of “how much”. Maar AI begrijpt niet altijd het verschil tussen 多少 en 几 (jǐ). 多少 wordt gebruikt voor grote, onbepaalde aantallen. 几 wordt gebruikt voor kleine, bepaalde aantallen (meestal minder dan tien). Als je zegt “Hoeveel mensen?”, vertaalt Google Translate dat als “How many people?” – maar in het Chinees moet je kiezen: 多少人? (groot aantal) of 几个人? (klein aantal).\nEen grotere valkuil: AI begrijpt niet altijd het verschil tussen 多少 als vraagwoord en 多少 als bijwoord. In 多少有点 betekent het “een beetje, min of meer”. AI vertaalt het soms als “how much” in plaats van “somewhat”.\nPraktische tip: vertrouw AI voor de basisbetekenis van 多少, maar niet voor de nuance. Als je wilt weten of iemand een groot of klein aantal bedoelt, moet je doorvragen. AI vertaalt woorden, geen intenties.\nBeeldhook (ik-vorm):IK stapel twee avonden op elkaar en vraag hoe klein het verschil nog is.\n\nSchrijfvolgorde\n多少\nDit is het klankanker voor 多少. Twee bewegingen: een vlakke plaat en een kuil die weer omhoog kruipt. Twee avonden op elkaar, een klein ding dat uiteenvalt. De vraag die je stelt met open handen: hoeveel?",
+    "beeld": "Ik sta op de ruwe, ijskoude stenen trap voor mijn voordeur. De schemering valt plotseling en hard in. Ik adem diep in en ruik de scherpe, vochtige geur van natte bladeren en koude avondlucht. Boven de dakrand schraapt een gigantische, zilveren maan luid krakend langs de dakpannen omhoog. Voor me grijp ik de avondlucht zelf vast—het voelt als een dikke, zware donkerblauwe deken. Ik pak nóg een avondlucht uit de lucht, een paarsrode deken, en klap ze met een doffe klap stevig bovenop elkaar. BAM. Het massieve, drukkende gewicht van de twee gestapelde avonden (夕 over 夕) duwt mijn schouders naar beneden. Twee avonden op elkaar gestapeld: dat is zó VEEL. Plotseling voel ik iets scherps prikken in mijn blote voetzool op de steen. Ik kijk naar beneden. Daar liggen drie minuscule, gloeiend hete zandkorrels (小) met een piepklein roodgloeiend takje (丿) er schuin doorheen gestoken. Ze knetteren zachtjes en schrompelen in elkaar tot bijna niets. Het is pijnlijk WEINIG. Ik kniel op de koude steen, raap de gloeiende korrels op, en voel hoe ze lichtjes branden in mijn palm. Nu sta ik daar. Mijn linkerhand zeult aan de massieve, zware avonddekens. Mijn rechterhand gloeit van de wegschrijnende korreltjes. Ik sla mijn handpalmen in de lucht naar elkaar toe. Mijn handen schieten eerst kaarsrecht vooruit, hoog en strak gespannen in de koude lucht: DWO... Dan zakken mijn handen abrupt weg in een onzichtbare kuil, om vervolgens met een ruk, vol twijfel, weer vragend omhoog te klauwen: SHAUW...? De overvloed links, de absolute schaarste rechts. Ik kijk naar mijn geopende, vragendinge handen en brul het de lege, koude straat in met de galm van een gong: DWO! SHAUW?",
+    "recallDoe": [
+     "Open je handen voor veel.",
+     "Knijp ze tot weinig.",
+     "Zeg duō vlak en shao licht/dalend.",
+     "Roep DWO-SJAO!",
+     "Schrijf 多: 撇, 横撇, 点, 撇, 横撇, 点.",
+     "Schrijf 少: 竖, 点, 点, 撇."
+    ],
+    "recallVragen": [
+     "Welke twee tekens vormen 多少?",
+     "Hoeveel streken heeft 多 en 少?",
+     "Wanneer is 少 in 多少 derde toon?",
+     "Welke radicalen zitten in 多 en 少?",
+     "Wat is het beeldhook in ik-vorm?"
+    ],
+    "strekenLos": [
+     "Rij 1: de losse streken van 多",
+     "Streek 1: ㇒",
+     "Streek 2: ㇕",
+     "Streek 3: ㇔",
+     "Streek 4: ㇒",
+     "Streek 5: ㇕",
+     "Streek 6: ㇔",
+     "Rij 1: de losse streken van 少",
+     "Streek 1: ㇑",
+     "Streek 2: ㇒",
+     "Streek 3: ㇔",
+     "Streek 4: ㇒"
+    ],
+    "strekenSamen": [
+     "Rij 2: de opbouwende vormen van 多",
+     "Na streek 1: ㇒",
+     "Na streek 1+2: 夕",
+     "Na streek 1+2+3: 夕",
+     "Na streek 1+2+3+4: 多",
+     "Na streek 1+2+3+4+5: 多",
+     "Na streek 1+2+3+4+5+6 (volledig 多): 多",
+     "Rij 2: de opbouwende vormen van 少",
+     "Na streek 1: 丨",
+     "Na streek 1+2: 小",
+     "Na streek 1+2+3: 小",
+     "Na streek 1+2+3+4 (volledig 少): 少",
+     "Volledig teken:"
+    ],
+    "status": "nieuw",
+    "station": 0,
+    "nextLabel": "—",
+    "img": "",
+    "source": "drive-3.5",
+    "card_id": "wd-多少",
+    "zinnen": [],
+    "status46": "wacht-op-deepseek"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "小学",
+     "py": "xiǎoxué",
+     "nl": "basisschool",
+     "haak": "小 staat boven 学."
+    },
+    {
+     "hz": "小心",
+     "py": "xiǎoxīn",
+     "nl": "voorzichtig",
+     "haak": "Klein hart = voorzichtig."
+    },
+    {
+     "hz": "小时",
+     "py": "xiǎoshí",
+     "nl": "uur",
+     "haak": "Klein uur."
+    },
+    {
+     "hz": "小姐",
+     "py": "xiǎojiě",
+     "nl": "juffrouw; meisje",
+     "haak": "Kleine dame."
+    },
+    {
+     "hz": "小朋友",
+     "py": "xiǎopéngyou",
+     "nl": "kind; kleine vriend",
+     "haak": "Kleine vriend."
+    },
+    {
+     "hz": "少",
+     "py": "shǎo",
+     "nl": "weinig",
+     "haak": "小-radicaal met schuine streek: weinig."
+    }
+   ],
+   "obrien": {
+    "scene": "Op het Cruijff-Court staat een reusachtige open hand vol snoepjes en een lege knijphand ernaast. Ik roep DWOO-SJAU? en de handen openen en knijpen om het aantal te vragen. Een scheidsrechter fluit, kooien ratelen, en ik proef zoet en leeg tegelijk.",
+    "klank": "DWOO-SJAU?",
+    "prompt": "Warm storybook illustration: a giant open hand full of candy and an empty pinching hand above a caged school court, child asks, referee whistles, no text."
+   },
+   "mmbeeld": {
+    "klank": "Warm drawn storybook: a giant mouth calls across a court, two hand-shaped clouds open and squeeze, no text.",
+    "klank-s1": "Warm drawn storybook: high flat sound wave as a hovering plank over court, child stretches tall, no text.",
+    "klank-s2": "Warm drawn storybook: light neutral sound wave as a soft feather floating, child tilts head, no text.",
+    "a": "Warm drawn storybook: evening court under giant orange sun, a child stacks glowing dusk balls into a tall pile, no text.",
+    "a-s1": "Warm drawn storybook: first night crescent moon over court, child opens a curtain of darkness, no text.",
+    "a-s2": "Warm drawn storybook: a wobbly stack of many glowing evening balls, child balances on top, no text.",
+    "b": "Warm drawn storybook: tiny child with huge open hands in a court cage, one hand open, one pinching, no text.",
+    "b-s1": "Warm drawn storybook: a tiny sprout in a giant hand, child kneels on a court, no text.",
+    "b-s2": "Warm drawn storybook: a slanted falling brushstroke like a slide, child slides down into a court, no text.",
+    "paleis": "Warm drawn storybook: caged court field with goalposts, children holding open and pinching hands, referee whistles, no text.",
+    "paleis-s1": "Warm drawn storybook: caged school court with colorful goal nets, child counts hands through fence, no text.",
+    "paleis-s2": "Warm drawn storybook: giant hands open and squeeze above a court, children measure handfuls of candy, no text.",
+    "link": "Warm drawn storybook: a crossroads shaped like two hands, one open full of candy, one pinching almost nothing, no text.",
+    "link-s1": "Warm drawn storybook: a giant open hand overflowing with colorful candy on a court, child cheers, no text.",
+    "link-s2": "Warm drawn storybook: a giant pinching hand holding one tiny crumb above empty court, child squints, no text."
+   },
+   "fam5": [
+    {
+     "hz": "多",
+     "py": "duō",
+     "nl": "veel",
+     "deelt": "多 zelf",
+     "haak": "Twee avonden op elkaar."
+    },
+    {
+     "hz": "少",
+     "py": "shǎo",
+     "nl": "weinig",
+     "deelt": "少 zelf",
+     "haak": "Klein met een schuine tik."
+    },
+    {
+     "hz": "多少",
+     "py": "duōshao",
+     "nl": "hoeveel",
+     "deelt": "多 + 少",
+     "haak": "Veel of weinig? Hoeveel?"
+    },
+    {
+     "hz": "很多",
+     "py": "hěnduō",
+     "nl": "heel veel",
+     "deelt": "多",
+     "haak": "Heel veel avonden."
+    },
+    {
+     "hz": "很少",
+     "py": "hěnshǎo",
+     "nl": "heel weinig",
+     "deelt": "少",
+     "haak": "Heel weinig korrels."
+    },
+    {
+     "hz": "不多",
+     "py": "bùduō",
+     "nl": "niet veel",
+     "deelt": "多",
+     "haak": "Niet veel."
+    },
+    {
+     "hz": "多多少少",
+     "py": "duōduōshǎoshǎo",
+     "nl": "in meer of mindere mate",
+     "deelt": "多 + 少",
+     "haak": "Veel-veel, weinig-weinig."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "A: AVOND",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "B: KLEIN",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PALEIS: CRUIJFF-COURT",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK: HOEVEEL",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
    ],
    "_beeld_open": [
     "obrien",
@@ -4166,6 +4985,410 @@
     "paleis-s2"
    ],
    "_beeld_open": [
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "ling",
+   "hz": "零",
+   "py": "líng",
+   "nl": "nul",
+   "toon": "2",
+   "streken": {
+    "零": [
+     "横",
+     "竖",
+     "横折钩",
+     "竖",
+     "点",
+     "点",
+     "点",
+     "点",
+     "撇",
+     "捺",
+     "点",
+     "横撇",
+     "点"
+    ]
+   },
+   "delen": "<b class=\"rood\">雨</b> regen, betekenisdeel · <b>令</b> bevel/klank, klankdeel",
+   "opbouw": "零 = 雨 8 + 令 5",
+   "klank": "LÍNG↗",
+   "klankuitleg": "2e toon: stijgend; heldere bel met neusklank.",
+   "hooks": {
+    "nl": [
+     "LÍNG!↗",
+     "Ling! De bel slingert omhoog uit de regen.",
+     "LÍNG! ... LÍNG! ... Ling! De bel slingert omhoog uit de regen. Tweede toon: je stem veert omhoog."
+    ],
+    "en": [
+     "LING!↗",
+     "Ling! A bell lingers and rises.",
+     "LING! ... LING! ... Ling! A bell lingers and rises. Second tone: your voice springs upward."
+    ],
+    "es": [
+     "LIN-NG!↗",
+     "Lin-ng! La campana sube con la nasal.",
+     "LIN-NG! ... LIN-NG! ... Lin-ng! La campana sube con la nasal. Segundo tono: la voz sube."
+    ]
+   },
+   "beeldhook": "IK hoor een bel “ling” en zie regen vallen boven het bevel-teken, klankdeel slingert omhoog.",
+   "stop": [
+    8
+   ],
+   "anker": "<b>8</b> Vleugel: vleugel in de aula; ik trek een denkbeeldige bel en hoor “ling” boven de snaren.",
+   "scene": "Ik sta bij de vleugel in de aula en leg mijn vinger op de koude rand. Ik zie de glanzende snaren. Ik hoor een heldere “ling” die uit de vleugel lijkt op te stijgen. Ik voel de trilling van een snaar door mijn vingertop. Ik ruik hout, lak en een vleugje regen van buiten. Ik proef metaal op mijn tong en trek een denkbeeldig belkoord naar beneden.",
+   "fam": [
+    [
+     "零钱",
+     "língqián",
+     "wisselgeld",
+     "零 als losse rest/klein geld"
+    ],
+    [
+     "零食",
+     "língshí",
+     "snacks",
+     "零 als losse/kleine hap"
+    ],
+    [
+     "一百零八",
+     "yībǎi líng bā",
+     "108",
+     "零 als nul in getallen"
+    ]
+   ],
+   "gesch": "零 = ⿱雨令: pictofonetisch, 雨 (regen) is het betekenisradicaal en 令 de klankcomponent. De oude betekenis hangt aan regen/druppels; later verschuift ze naar ‘fragment, rest’ en ‘nul’.",
+   "twijfel": [
+    "零 kan ‘nul’ of ‘fragment/rest’ betekenen; context beslist.",
+    "In vaste woorden als 零钱/零食 is het niet letterlijk ‘zero’."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "LÍNG!",
+       "bel"
+      ],
+      [
+       "nul",
+       "leeg rondje"
+      ]
+     ]
+    ],
+    [
+     "A: REGEN",
+     "a",
+     [
+      [
+       "雨",
+       "betekenisdeel"
+      ],
+      [
+       "druppels",
+       "vallen"
+      ]
+     ]
+    ],
+    [
+     "B: BEVEL/KLANK",
+     "b",
+     [
+      [
+       "令",
+       "klankdeel"
+      ],
+      [
+       "bel",
+       "trilt"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: VLEUGEL",
+     "paleis",
+     [
+      [
+       "vleugel",
+       "aula"
+      ],
+      [
+       "snaren",
+       "trillen"
+      ]
+     ]
+    ],
+    [
+     "LINK: LEEG RONDJE",
+     "link",
+     [
+      [
+       "nul",
+       "rondje"
+      ],
+      [
+       "bel",
+       "ling"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "líng"
+   ],
+   "zinnen": [
+    [
+     "我有一百零八个苹果。",
+     "Ik heb honderdacht appels."
+    ],
+    [
+     "弟弟有三百零五个鸡蛋。",
+     "Mijn jongere broer heeft driehonderdvijf eieren."
+    ],
+    [
+     "妹妹有二百零六个蛋糕。",
+     "Mijn jongere zus heeft tweehonderdzes cakes."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有多少个苹果？",
+    "b": "我有一百零八个苹果。",
+    "hint": "Gebruik 零 in het getal.",
+    "fout": [
+     "我有一百个苹果。",
+     "我有一百零六个苹果。",
+     "我有一百零七个苹果。"
+    ]
+   },
+   "oud": {
+    "hz": "零",
+    "pinyin": "líng",
+    "toon": "2",
+    "vertaling": "nul",
+    "heelRadicaal": false,
+    "radicalen": "🔴雨🔴 (regen) + ⚫令⚫ (bevel/klank) — 雨 is radicaal",
+    "klankhook": "LING! (NL ling) / linger-afgekapt (EN) / lin (ES) – 2e toon trap op",
+    "beeldhook": "IK hoor regen op nul, en de toon klimt.",
+    "plek": "Vleugel",
+    "actie": "Ik trek aan een denkbeeldige bel en hoor líng.",
+    "klank": "líng. Toon 2 stijgend.\nNL-brug: LING in 'lingo', omhoog.\nEN-brug: linger, alleen lin-.\nES-brug: lin.\nToonbrug: regen begint, de toon klimt.\nKlank → nul/leeg + regen. Woord → LING!",
+    "schrift": "Streken: 13.\n🔴雨🔴 regen (betekenisradicaal) + ⚫令⚫ (klank, 'bevel'). FEIT: 零 was 'motregen/rest', later 'nul' in getallen.\nModern: 零 = 0 in 一百零八. AI ziet 零 als 'zero' of 'odd' (零碎) en mixt ze.",
+    "beeld": "BEELD. Taxi-dak. Regen, te hard, het metaal kraakt. Op de meter staat 0. IK wijs de lege o. LING! stijgt met de ruitenwissers. Lotus zegt: niks, nul.",
+    "recallDoe": [
+     "Wijs een lege nul in de lucht.",
+     "Zeg líng met stijgende toon.",
+     "Roep LÍNG!",
+     "Wijs 雨 boven en 令 onder.",
+     "Schrijf 零: 13 streken, eerst 雨 dan 令.",
+     "Hoor regen en bel samen."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 零?",
+     "Welk deel is betekenisradicaal en welke kleur?",
+     "Hoeveel streken heeft 零?",
+     "Waarom is 零钱 niet ‘zero money’?",
+     "Wat is het beeldhook in ik-vorm?"
+    ],
+    "strekenLos": [
+     "雨-blok",
+     "令-blok"
+    ],
+    "strekenSamen": [
+     "雨",
+     "零"
+    ],
+    "status": "nieuw",
+    "station": 0,
+    "nextLabel": "—",
+    "h1": true,
+    "img": "",
+    "source": "woord_diepte",
+    "card_id": "wd-零",
+    "zinnen": [],
+    "status46": "wacht-op-deepseek"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "雨",
+     "py": "yǔ",
+     "nl": "regen",
+     "haak": "雨 is de regenradicaal."
+    },
+    {
+     "hz": "下雨",
+     "py": "xiàyǔ",
+     "nl": "regenen",
+     "haak": "雨 valt naar beneden."
+    },
+    {
+     "hz": "雪",
+     "py": "xuě",
+     "nl": "sneeuw",
+     "haak": "雨 boven, sneeuw valt."
+    },
+    {
+     "hz": "下雪",
+     "py": "xiàxuě",
+     "nl": "sneeuwen",
+     "haak": "雪 valt met 雨 bovenop."
+    },
+    {
+     "hz": "雨衣",
+     "py": "yǔyī",
+     "nl": "regenjas",
+     "haak": "雨 + 衣: jas tegen regen."
+    },
+    {
+     "hz": "雨伞",
+     "py": "yǔsǎn",
+     "nl": "paraplu",
+     "haak": "雨 + 伞: scherm tegen regen."
+    }
+   ],
+   "obrien": {
+    "scene": "In de paleisvleugel hangt een glinsterende bel. Ik sla erop: LÍNG! De snaren trillen, een leeg rondje rolt als een hoepel weg. Ik proef metaal, zie nul druppels vallen en de bel lacht.",
+    "klank": "LÍNG!",
+    "prompt": "Warm storybook illustration: a glowing silver bell in a palace wing, strings tremble, an empty round hoop rolls away, child tastes metal, no text."
+   },
+   "mmbeeld": {
+    "klank": "Warm drawn storybook: giant silver bell rings in palace wing, sound waves make empty round hoop roll, child chases, no text.",
+    "klank-s1": "Warm drawn storybook: child strikes a huge bell, bright sound wave as ribbon, strings vibrate, no text.",
+    "klank-s2": "Warm drawn storybook: a perfect empty circle hoop rolls through palace wing, child points at zero drops, no text.",
+    "a": "Warm drawn storybook: raincloud bursts over palace wing, child catches falling drops in a giant cup, no text.",
+    "a-s1": "Warm drawn storybook: a giant rain radical cloud with four drops over wing, child under umbrella, no text.",
+    "a-s2": "Warm drawn storybook: many glossy raindrops fall like beads onto palace floor, child splashes, no text.",
+    "b": "Warm drawn storybook: a command bell shaped like a trumpet orders strings to tremble in palace wing, no text.",
+    "b-s1": "Warm drawn storybook: a glowing bell command sits on a music stand, child bows, strings quiver, no text.",
+    "b-s2": "Warm drawn storybook: a huge bell trembles so hard its clapper bounces, child covers ears, no text.",
+    "paleis": "Warm drawn storybook: palace wing with vibrating strings and a giant bell, child conducts, no text.",
+    "paleis-s1": "Warm drawn storybook: palace wing opened like a giant instrument, child peeks inside, no text.",
+    "paleis-s2": "Warm drawn storybook: strings stretched across palace wing tremble, child plucks one, no text.",
+    "link": "Warm drawn storybook: an empty round hoop linked to a ringing bell on palace wing, child points, no text.",
+    "link-s1": "Warm drawn storybook: a giant empty circle hoop rolls around palace wing, child jumps through, no text.",
+    "link-s2": "Warm drawn storybook: a bell shaped like a zero rings, child holds a hoop, strings vibrate, no text."
+   },
+   "fam5": [
+    {
+     "hz": "零",
+     "py": "líng",
+     "nl": "nul",
+     "deelt": "零 zelf",
+     "haak": "Regen + bevel = nul."
+    },
+    {
+     "hz": "零钱",
+     "py": "língqián",
+     "nl": "wisselgeld",
+     "deelt": "零 + 钱",
+     "haak": "Losse muntjes."
+    },
+    {
+     "hz": "零食",
+     "py": "língshí",
+     "nl": "snacks",
+     "deelt": "零 + 食",
+     "haak": "Losse hapjes."
+    },
+    {
+     "hz": "一百零八",
+     "py": "yībǎi líng bā",
+     "nl": "108",
+     "deelt": "零 in getal",
+     "haak": "Nul in 108."
+    },
+    {
+     "hz": "零度",
+     "py": "língdù",
+     "nl": "nul graden",
+     "deelt": "零 + 度",
+     "haak": "Nul graden."
+    },
+    {
+     "hz": "零星",
+     "py": "língxīng",
+     "nl": "verspreid; fragmentarisch",
+     "deelt": "零 + 星",
+     "haak": "Losse sterren."
+    },
+    {
+     "hz": "零下",
+     "py": "língxià",
+     "nl": "onder nul",
+     "deelt": "零 + 下",
+     "haak": "Onder nul."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "A: REGEN",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "B: BEVEL/KLANK",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PALEIS: VLEUGEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK: LEEG RONDJE",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
     "klank",
     "klank-s1",
     "klank-s2",
@@ -6623,6 +7846,405 @@
     ],
     [
      "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "centrum",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": [
+    "obrien",
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
+   ]
+  },
+  {
+   "slug": "shi",
+   "hz": "十",
+   "py": "shí",
+   "nl": "tien",
+   "toon": "2",
+   "streken": {
+    "十": [
+     "横",
+     "竖"
+    ]
+   },
+   "delen": "<b class=\"rood\">十</b> tien, radicaal · <b class=\"rood\">一</b> een, radicaal · <b class=\"rood\">丨</b> verticale streek, radicaal",
+   "opbouw": "十 = 一 1 + 丨 1",
+   "klank": "SHÍ↗",
+   "klankuitleg": "2e toon: stijgend; een sis met klimmende kin.",
+   "hooks": {
+    "nl": [
+     "SJÍ!↗",
+     "SJÍ! — een sis die stijgt, mijn kin gaat omhoog.",
+     "SJÍ! ... SJÍ! ... Een sis die stijgt, mijn kin gaat omhoog. Toon: 2e toon stijgt."
+    ],
+    "en": [
+     "SHI↗",
+     "SHI↗ — a hiss that rises, chin up.",
+     "SHI↗ ... SHI↗ ... A hiss that rises, chin up. Tone: 2nd tone rises."
+    ],
+    "es": [
+     "SHÍ↗",
+     "SHÍ↗ — un siseo que sube, la barbilla arriba.",
+     "SHÍ↗ ... SHÍ↗ ... Un siseo que sube, la barbilla arriba. Tono: el 2.º tono sube."
+    ]
+   },
+   "beeldhook": "IK sla een kruis van horizontaal en verticaal, radicaal.",
+   "stop": [
+    7
+   ],
+   "anker": "<b>7</b> Zittrap: brede trap die tribune is; ik tel de treden als een kruis van horizontaal en verticaal.",
+   "scene": "Ik zit op de brede zittrap van het Lorentz Lyceum en kijk naar de horizontale tree en de verticale riser. Ik hoor mijn voetstap op de trap en de echo in de aula. Ik voel het koude beton onder mijn hand en de scherpe rand van een tree. Ik ruik schoon beton en krijtstof uit een lokaal. Ik proef een droge metaalsmaak bij de sis. Ik trek met mijn arm één horizontale adem en zet daar loodrecht een verticale bliksem door.",
+   "fam": [
+    [
+     "十一",
+     "shíyī",
+     "elf",
+     "十 + 一"
+    ],
+    [
+     "十二",
+     "shí'èr",
+     "twaalf",
+     "十 + 二"
+    ],
+    [
+     "二十",
+     "èrshí",
+     "twintig",
+     "二 + 十"
+    ]
+   ],
+   "gesch": "De bron geeft voor 十 geen etymologie (null); de vroege oorsprong is dus onbekend. Zeker is dat 十 een van de eenvoudigste tekens is en in het modern Chinees ‘tien’ betekent. De vorm is een kruising van 一 en 丨.",
+   "twijfel": [
+    "De bron geeft geen etymologie; vroege vorm dus niet invullen.",
+    "Toon en uitspraak zijn standaard; geen echte varianten in deze bron."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "SJÍ!",
+       "sis met stijgende toon"
+      ],
+      [
+       "tien",
+       "tel die stopt"
+      ]
+     ]
+    ],
+    [
+     "A: ADEM",
+     "a",
+     [
+      [
+       "一",
+       "horizontale streek"
+      ],
+      [
+       "een",
+       "radicaal"
+      ]
+     ]
+    ],
+    [
+     "B: BLIKSEM",
+     "b",
+     [
+      [
+       "丨",
+       "verticale streek"
+      ],
+      [
+       "kruis",
+       "loodrecht"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: ZITTRAP",
+     "paleis",
+     [
+      [
+       "brede trap",
+       "tribune"
+      ],
+      [
+       "treden tellen",
+       "tien stappen"
+      ]
+     ]
+    ],
+    [
+     "LINK: KRUIS",
+     "link",
+     [
+      [
+       "tien",
+       "getal"
+      ],
+      [
+       "kruispunt",
+       "adem plus bliksem"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "shí"
+   ],
+   "zinnen": [
+    [
+     "我有十个苹果。",
+     "Ik heb tien appels."
+    ],
+    [
+     "今天是十月。",
+     "Het is vandaag oktober."
+    ],
+    [
+     "弟弟有十二个鸡蛋。",
+     "Mijn jongere broer heeft twaalf eieren."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有多少个苹果？",
+    "b": "我有十个苹果。",
+    "hint": "Antwoord met 十 en 个.",
+    "fout": [
+     "我有二十个苹果。",
+     "我有十二个苹果。",
+     "我有三十个苹果。"
+    ]
+   },
+   "oud": {
+    "hz": "十",
+    "pinyin": "shí",
+    "toon": "2",
+    "vertaling": "tien",
+    "heelRadicaal": true,
+    "radicalen": "🔴十🔴 — het hele teken is radicaal",
+    "klankhook": "SJR! (NL sjir, stijgend) / sure-afgekapt (EN) / shi (ES) – 2e toon trap op",
+    "beeldhook": "IK kruis de wegen in Arnhem tot een plus.",
+    "plek": "Zittrap",
+    "actie": "Ik trek één horizontale adem en zet daar loodrecht een verticale bliksem door.",
+    "klank": "shí. Toon 2: trap omhoog.\nNL-brug: SJIR, alsof je vraagt.\nEN-brug: sure, alleen de sj-start, dan omhoog.\nES-brug: shi.\nToonbrug: je komt de kruising op, de toon gaat mee omhoog.\nKlank → plus-teken. Woord → SJR!",
+    "schrift": "Streken: 2 (竖, 横).\n🔴十🔴 pictogram: kruis / tien. Heel radicaal.\nFEIT: oude vorm vaak een verticale lijn met knop; later kruis.\nModern: 十, 十一, 二十. AI leest 十 sometimes as 'cross' in plaatjes, niet als tien.",
+    "beeld": "BEELD. IK rijd de kruising op. Twee wegen, plus. De paal is te groot, hij scheurt de lucht. Lotus wijst: tien. De toon klimt. SJR!",
+    "recallDoe": [
+     "Teken een plus in de lucht: eerst horizontaal, dan verticaal.",
+     "Zeg shí met stijgende toon.",
+     "Roep SJÍ!",
+     "Schrijf 十: 横, 竖.",
+     "Tel tien vingers en kruis ze.",
+     "Fluister dan stijg-brul."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 十?",
+     "Welke twee streeknamen horen bij 十?",
+     "Hoeveel streken heeft 十?",
+     "Wat is het beeldhook in ik-vorm?",
+     "Wat zegt de bron over de etymologie?"
+    ],
+    "strekenLos": [
+     "㇑ 竖",
+     "㇐ 横"
+    ],
+    "strekenSamen": [
+     "丨",
+     "十"
+    ],
+    "status": "nieuw",
+    "station": 0,
+    "nextLabel": "—",
+    "h1": true,
+    "img": "",
+    "source": "woord_diepte",
+    "card_id": "wd-十",
+    "zinnen": [],
+    "status46": "wacht-op-deepseek"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "十月",
+     "py": "shíyuè",
+     "nl": "oktober",
+     "haak": "Tien staat rechtop in 十月."
+    },
+    {
+     "hz": "十分",
+     "py": "shífēn",
+     "nl": "zeer; tien minuten",
+     "haak": "Tien deeltjes maken 十分."
+    },
+    {
+     "hz": "一千",
+     "py": "yīqiān",
+     "nl": "duizend",
+     "haak": "千 draagt 十 met een schuine tik."
+    },
+    {
+     "hz": "一半",
+     "py": "yībàn",
+     "nl": "de helft",
+     "haak": "半 heeft 十 als basis."
+    },
+    {
+     "hz": "半天",
+     "py": "bàntiān",
+     "nl": "half dagdeel",
+     "haak": "半 met 十 onderop."
+    },
+    {
+     "hz": "中华",
+     "py": "Zhōnghuá",
+     "nl": "China; Chinese cultuur",
+     "haak": "华 draagt bovenaan 十."
+    },
+    {
+     "hz": "千万",
+     "py": "qiānwàn",
+     "nl": "tien miljoen; beslist",
+     "haak": "千 = 十 met schuine tik."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de brede zittrap van het paleis hangt een reusachtig houten kruis. Ik sla met een gongstok tegen de tien treden en roep SHÍ! bij elke stap. De tribune telt luid mee, kruimels vliegen, en bij de tiende tree springt een gummikruis op mijn neus.",
+    "klank": "SHÍ!",
+    "prompt": "Warm storybook illustration: a giant wooden cross on wide palace tribune steps, a child strikes ten steps with a gong mallet, crumbs fly, rubber cross bouncing, no text."
+   },
+   "mmbeeld": {
+    "klank": "Warm drawn storybook: a giant ringing bell shaped like a cross, sound waves bounce off palace stairs, child covers ears, no text.",
+    "klank-s1": "Warm drawn storybook: a child shouts upward, rising spiral sound wave, eyebrows lifted, cross-shaped balloon lifts, no text.",
+    "klank-s2": "Warm drawn storybook: a counting finger stops at ten on a giant cross, ten tiny steps freeze mid-air, surprised face, no text.",
+    "a": "Warm drawn storybook: a child breathes on a huge horizontal beam, breath puffs push it across palace tribune, no text.",
+    "a-s1": "Warm drawn storybook: one thick horizontal brushstroke floats like a plank above stairs, child balances on it, no text.",
+    "a-s2": "Warm drawn storybook: a tiny single beam hugs a glowing cross on palace stairs, no text.",
+    "b": "Warm drawn storybook: a cartoon lightning bolt slices through a palace tribune, child ducks under a giant cross, sparks, no text.",
+    "b-s1": "Warm drawn storybook: a thick vertical lightning stroke stands upright on stairs, child slides down it, no text.",
+    "b-s2": "Warm drawn storybook: two giant beams cross at right angles above a tribune, a child balances at the crossing, no text.",
+    "paleis": "Warm drawn storybook: wide palace tribune with a huge ten-step staircase, a child counts steps with a giant foam finger, no text.",
+    "paleis-s1": "Warm drawn storybook: broad palace tribune steps like a giant ladder, colorful spectators, one child climbs, no text.",
+    "paleis-s2": "Warm drawn storybook: child counts ten glowing treads, each step pops a glowing bubble, no text.",
+    "link": "Warm drawn storybook: a giant cross marks a crossroads on palace stairs, blank signposts, child points, no text.",
+    "link-s1": "Warm drawn storybook: a giant cross holds ten colorful balls in a net, child counts them, no text.",
+    "link-s2": "Warm drawn storybook: a crossroads where a breath puff and a lightning bolt meet at a cross, child referee whistles, no text."
+   },
+   "fam5": [
+    {
+     "hz": "十",
+     "py": "shí",
+     "nl": "tien",
+     "deelt": "十 zelf",
+     "haak": "Eén kruis telt tien."
+    },
+    {
+     "hz": "十一",
+     "py": "shíyī",
+     "nl": "elf",
+     "deelt": "十 + 一",
+     "haak": "Tien plus één."
+    },
+    {
+     "hz": "十二",
+     "py": "shí'èr",
+     "nl": "twaalf",
+     "deelt": "十 + 二",
+     "haak": "Tien plus twee."
+    },
+    {
+     "hz": "二十",
+     "py": "èrshí",
+     "nl": "twintig",
+     "deelt": "二 + 十",
+     "haak": "Twee tienen."
+    },
+    {
+     "hz": "十三",
+     "py": "shísān",
+     "nl": "dertien",
+     "deelt": "十 + 三",
+     "haak": "Tien plus drie."
+    },
+    {
+     "hz": "三十",
+     "py": "sānshí",
+     "nl": "dertig",
+     "deelt": "三 + 十",
+     "haak": "Drie tienen."
+    },
+    {
+     "hz": "十分",
+     "py": "shífēn",
+     "nl": "zeer; tien minuten",
+     "deelt": "十 + 分",
+     "haak": "Tien delen = heel/zeer."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "A: ADEM",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "B: BLIKSEM",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "PALEIS: ZITTRAP",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK: KRUIS",
      "link",
      28.4,
      26.5
@@ -9388,9 +11010,9 @@
    "klankuitleg": "yóu = 2e toon: kort en stijgend; klinkt als NL 'jow', EN 'you', ES 'yo'.",
    "hooks": {
     "nl": [
-     "JO↗",
-     "JO↗ — ik roep stijgend over het water.",
-     "JO↗ ... JO↗ ... Ik roep JO↗ over het water. Toon: 2e toon stijgt."
+     "YOU↗",
+     "YOU↗ — ik roep stijgend over het water.",
+     "YOU↗ ... YOU↗ ... Ik roep YOU↗ over het water. Toon: 2e toon stijgt."
     ],
     "en": [
      "YO↗",
@@ -9410,34 +11032,65 @@
    "anker": "<b>10</b> Gymzaal 1e verdieping: de sportzaal op de eerste verdieping; ik trek een zwemslag door de lucht en roep YÓU! naar de overkant.",
    "scene": "Ik sta in de zwevende gymzaal op de 1e verdieping. Ik ruik rubber en een vleug zaalzweet. Ik hoor mijn schoenen piepen en een bal dof tegen de muur echoën. Ik zie de opgetilde sportzaal en de lijnen op de vloer. Ik voel de koude, gladde vloer onder mijn hand. Ik proef een droge metaalsmaak in mijn mond. Ik trek een zwemslag door de lucht en laat mijn kin omhoog schieten bij YÓU↗.",
    "fam": [
-    [
-     "游泳",
-     "yóuyǒng",
-     "zwemmen",
-     "deelt 游"
-    ],
-    [
-     "旅游",
-     "lǚyóu",
-     "reizen",
-     "deelt 游"
-    ],
-    [
-     "游戏",
-     "yóuxì",
-     "spel",
-     "deelt 游"
-    ]
+    {
+     "hz": "游泳",
+     "py": "yóuyǒng",
+     "nl": "zwemmen",
+     "deelt": "游",
+     "haak": "Water + wimpel = zwemmen."
+    },
+    {
+     "hz": "旅游",
+     "py": "lǚyóu",
+     "nl": "reizen",
+     "deelt": "游",
+     "haak": "Reis met 游."
+    },
+    {
+     "hz": "游戏",
+     "py": "yóuxì",
+     "nl": "spel",
+     "deelt": "游",
+     "haak": "Spel met 游."
+    },
+    {
+     "hz": "游客",
+     "py": "yóukè",
+     "nl": "toerist",
+     "deelt": "游",
+     "haak": "Reiziger met 游."
+    },
+    {
+     "hz": "游乐园",
+     "py": "yóulèyuán",
+     "nl": "pretpark",
+     "deelt": "游",
+     "haak": "Pret met 游."
+    },
+    {
+     "hz": "郊游",
+     "py": "jiāoyóu",
+     "nl": "uitstapje",
+     "deelt": "游",
+     "haak": "Buiten met 游."
+    },
+    {
+     "hz": "游览",
+     "py": "yóulǎn",
+     "nl": "bezichtigen",
+     "deelt": "游",
+     "haak": "Rondkijken met 游."
+    }
    ],
-   "gesch": "游 is in het moderne schrift ⿰氵斿: 氵 plus 斿 (方 + 𠂉 + 子). Woordenboeken: 氵 betekenisdeel (water), 斿 klankdeel (yóu). Makemeahanzi noemt het ideografisch: vrij zwemmen (斿) door de zeeën (氵). 说文 gloss eert het anders: wimpel aan een banier, met klank 汓. Zwemmen leeft voort in 游泳. Rondtrekken en reizen horen traditioneel bij 遊 en vallen in het vereenvoudigd schrift samen met 游. In modern Chinees staat 游 zelden los; de chunk (游泳, 旅游, 游戏) kiest de betekenis.",
+   "gesch": "游 = 氵 + 斿 (方 + vormdeel + 子). Woordenboeken: 氵 betekenisdeel (water), 斿 klankdeel (yóu). Makemeahanzi noemt het ideografisch: vrij zwemmen (斿) door de zeeën (氵). 说文 gloss eert het anders: wimpel aan een banier, met klank 汓. Zwemmen leeft voort in 游泳. Rondtrekken en reizen horen traditioneel bij 遊 en vallen in het vereenvoudigd schrift samen met 游. In modern Chinees staat 游 zelden los; de chunk (游泳, 旅游, 游戏) kiest de betekenis.",
    "twijfel": [
     "游 en 遊 vallen in vereenvoudigd Chinees vaak samen; traditioneel zijn er verschillen.",
-    "𠂉 is een vormdeel zonder eigen betekenisradicaal.",
+    "Het vormdeel in 斿 heeft geen eigen betekenisradicaal.",
     "Los 游 is zeldzaam/vaag; de chunk bepaalt of het 'zwemmen', 'reizen' of 'spel' is.",
     "Makemeahanzi zet 游 op ideografisch; woordenboeken op 形声 (氵 betekenis, 斿 klank yóu). 斿 is 亦声.",
     "De zee-hint van makemeahanzi en de 说文-glos (wimpel aan een banier, klank 汓) zijn twee etymologieën.",
     "游泳 hoort bij 游 (zwemmen); 旅游 en 游戏 komen van 遊 (rondtrekken, spel). Vereenvoudigd vallen ze samen.",
-    "Hulpwoorden in de zinnen, nog geen eigen kaart: 得 (nodig voor correcte grammatica, Grok-feitcheck)"
+    "Hulpwoord in de zinnen, nog geen eigen kaart: 得."
    ],
    "mm": [
     [
@@ -9557,6 +11210,123 @@
     "plek": "Zwevende gymzaal"
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "河",
+     "py": "hé",
+     "nl": "rivier",
+     "haak": "Links drie waterdruppels: rivier."
+    },
+    {
+     "hz": "海",
+     "py": "hǎi",
+     "nl": "zee",
+     "haak": "Waterradicaal links: zee vol druppels."
+    },
+    {
+     "hz": "湖",
+     "py": "hú",
+     "nl": "meer",
+     "haak": "Drie druppels links: meer."
+    },
+    {
+     "hz": "洗",
+     "py": "xǐ",
+     "nl": "wassen",
+     "haak": "Water links: wassen met water."
+    },
+    {
+     "hz": "酒",
+     "py": "jiǔ",
+     "nl": "alcohol/wijn",
+     "haak": "Drie waterdruppels links: drank."
+    },
+    {
+     "hz": "汗",
+     "py": "hàn",
+     "nl": "zweet",
+     "haak": "Water links: zweetdruppels."
+    },
+    {
+     "hz": "清",
+     "py": "qīng",
+     "nl": "helder",
+     "haak": "Water links: helder water."
+    }
+   ],
+   "obrien": {
+    "scene": "In de Zwevende gymzaal duik ik van de opgetilde vloer het water in; ik roep “YÓU!” en zwem tussen zwevende sportballen.",
+    "klank": "YÓU!",
+    "prompt": "Warm drawn illustration of a child diving into a floating school gym flooded with water, swimming among sport balls, energetic, no text"
+   },
+   "mmbeeld": {
+    "klank": "A huge rising YOU sound wave bouncing through a warm drawn school atrium, one subject, no text",
+    "klank-s1": "A colorful arrow of sound climbing upward like a joyful slide, drawn style, no text",
+    "klank-s2": "A giant curved eyebrow rising in surprise above water, drawn style, no text",
+    "a": "Three shiny water droplets forming the water radical beside a swimmer, drawn style, no text",
+    "a-s1": "Close-up of three bold blue water droplets splashing, drawn style, no text",
+    "a-s2": "A clear flowing stream curling around a swimmer, drawn style, no text",
+    "b": "A waving cloth pennant on a pole beside a swimming arm, drawn style, no text",
+    "b-s1": "A bright pennant flapping in wind above blue water, drawn style, no text",
+    "b-s2": "A powerful swimmer arm stroking through water, drawn style, no text",
+    "paleis": "A school gym lifted to the first floor, floating over a courtyard, drawn style, no text",
+    "paleis-s1": "A gym floor rising on invisible lift beams above a school, drawn style, no text",
+    "paleis-s2": "A floating indoor sports hall with balls hovering inside, drawn style, no text",
+    "link": "A glowing thread linking the sound YOU to a travel route across water, drawn style, no text",
+    "link-s1": "A luminous sound thread coiling from a mouth to a swimmer, drawn style, no text",
+    "link-s2": "A dotted travel route winding over water and land, drawn style, no text"
+   },
+   "fam5": [
+    {
+     "hz": "游泳",
+     "py": "yóuyǒng",
+     "nl": "zwemmen",
+     "deelt": "游 + 泳, zwemmen",
+     "haak": "In het water zwemmen."
+    },
+    {
+     "hz": "旅游",
+     "py": "lǚyóu",
+     "nl": "reizen",
+     "deelt": "游 in reizen",
+     "haak": "Reisroute met 游."
+    },
+    {
+     "hz": "游戏",
+     "py": "yóuxì",
+     "nl": "spel",
+     "deelt": "游 in spel",
+     "haak": "Spelen met 游."
+    },
+    {
+     "hz": "游客",
+     "py": "yóukè",
+     "nl": "toerist",
+     "deelt": "游 = reizen",
+     "haak": "Reiziger die toert."
+    },
+    {
+     "hz": "导游",
+     "py": "dǎoyóu",
+     "nl": "gids",
+     "deelt": "游 = rondleiden",
+     "haak": "Gids leidt de toer."
+    },
+    {
+     "hz": "游乐园",
+     "py": "yóulèyuán",
+     "nl": "pretpark",
+     "deelt": "游 = vermaak",
+     "haak": "Pretpark vol 游."
+    },
+    {
+     "hz": "游船",
+     "py": "yóuchuán",
+     "nl": "cruiseschip",
+     "deelt": "游 = varen",
+     "haak": "Boot om te toeren."
+    }
+   ],
    "_hot": [
     [
      "KLANK",
@@ -9609,13 +11379,23 @@
    ],
    "_beeld_open": [
     "obrien",
-    "centrum",
-    "beeld2",
     "klank",
+    "klank-s1",
+    "klank-s2",
     "a",
+    "a-s1",
+    "a-s2",
     "b",
+    "b-s1",
+    "b-s2",
     "paleis",
-    "link"
+    "paleis-s1",
+    "paleis-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "centrum",
+    "beeld2"
    ]
   },
   {
