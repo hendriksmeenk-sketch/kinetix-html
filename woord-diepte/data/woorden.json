@@ -404,7 +404,7 @@
    "nextLabel": "—",
    "source": "woord_diepte",
    "card_id": "wd-好",
-   "status46": "wacht-op-deepseek",
+   "status46": "open-media",
    "kaart46": "kaart/hao.html",
    "v46": {
     "klankhaken": {
@@ -502,7 +502,50 @@
    "nextLabel": "—",
    "h1": false,
    "provenience": "redactie Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)",
-   "status46": "wacht-op-grok"
+   "status46": "open-media",
+   "kaart46": "kaart/ye.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "JEE?↗",
+      "zin": "Jee? — yé?"
+     },
+     "en": {
+      "haak": "YEAH?↗",
+      "zin": "Yeah? — yé?"
+     },
+     "es": {
+      "haak": "YE?↗",
+      "zin": "¿Ye? — yé?"
+     }
+    },
+    "beeldhook": "IK ben de grootvader met <b class=\"rood\">父</b>-vadershanden die boven een knielend <b class=\"rood\">卩</b>-kind een zegenboog maakt.",
+    "paleisStop": [
+     9
+    ],
+    "audio": [
+     "kaart/media/ye-zh.mp3",
+     "kaart/media/ye-zh-traag.mp3",
+     "kaart/media/ye-hook-nl.mp3",
+     "kaart/media/ye-hook-en.mp3",
+     "kaart/media/ye-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/ye-centrum.jpg",
+     "kaart/media/ye-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/ye-mindmap.jpg",
+    "streken": {
+     "爷": [
+      "撇",
+      "点",
+      "撇",
+      "捺",
+      "横折钩",
+      "竖"
+     ]
+    }
+   }
   },
   {
    "hz": "字",

@@ -4,7 +4,7 @@
 <title>%HZ% · WOORD DIEPTE 4.6</title>
 <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
 <style>%CSS%</style></head><body class="rustig">
-<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="zoek" type="search" placeholder="zoek woord" autocomplete="off"></header>
+<header><a href="../index.html"><b>WOORD DIEPTE 4.6</b></a><input class="zoek" id="hubzoek" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="zoek: 手 · shouji · telefoon · family" aria-label="Zoek een woord"></header><script src="../zoek.js" data-base="../" data-overlay="1" defer></script>
 <main>
 <article id="blad45">
 <section id="start">
@@ -28,9 +28,9 @@
 <p class="sub" id="audnote">Chinees = moedertaalstem. NL/EN/ES = klank-haak, geen vertaling.</p>
 <h3>Beeld-haak</h3>
 <p class="hook" id="b-hook">%BEELDHOOK%</p>
-<div class="hook2" id="b-beeldhook"><img src="media/%SLUG%-centrum.jpg" alt="beeld-haak 1"><img src="media/%SLUG%-beeld2.jpg" alt="beeld-haak 2"></div>
+%BEELDHAAK%
 <h3>Paleis-plek</h3>
-<p class="plek" id="k-plek">Paleis · De Brug · %PALEIS%</p>
+<p class="plek" id="k-plek"><span class="pl-mijn">Paleis · Lorentz Lyceum, Arnhem Zuid · %PALEIS%</span><span class="pl-wereld" hidden>%WPLEK%</span></p><div class="pl-switch" role="group" aria-label="Kies paleis"><button type="button" data-pl="mijn" aria-pressed="true">Mijn paleis</button><button type="button" data-pl="wereld" aria-pressed="false">Wereldwonderen</button></div>
 <button type="button" class="volgende" data-naar="2">Volgende: klank →</button>
 </details>
 
@@ -43,10 +43,10 @@
 </details>
 
 <details class="stapblok" id="st-3"><summary><h2 id="blok-beeld">3 Geheugenbeeld</h2></summary>
-<p class="sub">Doe het, zie het, voel het:</p>
+%BEELD3%
 <p class="hook" id="k-actie">%ACTIE%</p>
-<div class="proza" id="b-beeld">%SCENE%</div>
-<details><summary>Paleis · De Brug, 10 stops</summary><ol class="paleis">%STOPS%</ol><p>O'Brien: %ANKER%</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
+<details class="obrien-uitleg"><summary>uitleg</summary><div class="proza" id="b-beeld">%SCENE%</div></details>
+<details><summary>Paleis · Lorentz Lyceum, 10 stops</summary><ol class="paleis pl-mijn">%STOPS%</ol><ol class="paleis pl-wereld" hidden>%WSTOPS%</ol><p>O'Brien: %ANKER%</p><p class="sub">Alleen echte, unieke kenmerken (monument-regel). (?) = niet zeker.</p></details>
 <button type="button" class="volgende" data-naar="4">Volgende: schrift →</button>
 </details>
 
