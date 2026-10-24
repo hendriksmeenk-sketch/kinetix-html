@@ -2912,22 +2912,22 @@
    "hooks": {
     "nl": [
      "BǍI!↘↗",
-     "Baai met een dalende kuil, dan weer omhoog.",
-     "BǍI! ... BǍI! ... Baai met een dalende kuil, dan weer omhoog. Derde toon: eerst zakken, dan terug tikken."
+     "Bai: dal, dan veer omhoog.",
+     "BǍI! ... BǍI! ... Bai: dal, dan veer omhoog. Derde toon: eerst zakken, dan terug tikken."
     ],
     "en": [
      "BYE!↘↗",
-     "Bye first dips and then lifts.",
-     "BYE! ... BYE! ... Bye first dips and then lifts. Third tone: drop, then bounce up."
+     "Bye: dip, then lift.",
+     "BYE! ... BYE! ... Bye: dip, then lift. Third tone: drop, then bounce up."
     ],
     "es": "BÁI!↘↗"
    },
-   "beeldhook": "IK tel druppels op één wit teken, klankdeel en leg een rode streep erboven.",
+   "beeldhook": "IK tel op de koude glaswand honderd regendruppels, ruik natte stof, hoor de gong en trek met mijn vinger een rode streep boven de witte lei.",
    "stop": [
     6
    ],
-   "anker": "<b>6</b> Glaswand aula: grote glazen buitenwand; honderd regendruppels op de witte glaslei.",
-   "scene": "Ik sta bij de glaswand van de aula en kijk naar de grote glazen buitenwand. Ik zie regendruppels als kleine tellen op het glas. Ik hoor de gong in mijn hoofd eerst zakken en dan terugveren. Ik voel het koude glas onder mijn vingers. Ik ruik natte stof en schoon glas. Ik proef een koele druppel en sla met mijn hand één tel op de glaslei.",
+   "anker": "<b>6</b> Glaswand aula: glazen wand; honderd regendruppels op de witte glaslei.",
+   "scene": "Ik sta bij de glaswand van de aula en kijk naar de glazen wand. Ik zie regendruppels als kleine tellen op het glas. Ik hoor de gong in mijn hoofd eerst zakken en dan terugveren. Ik voel het koude glas onder mijn vingers. Ik ruik natte stof en schoon glas. Ik proef een koele druppel en sla met mijn hand één tel op de glaslei.",
    "fam": [
     [
      "一百",
@@ -2960,11 +2960,11 @@
      [
       [
        "BǍI!",
-       "gongdal"
+       "dal"
       ],
       [
        "honderd",
-       "tel terug"
+       "tel"
       ]
      ]
     ],
@@ -2974,11 +2974,11 @@
      [
       [
        "一",
-       "bovenstreep"
+       "streep"
       ],
       [
        "eenheid",
-       "betekenisdeel"
+       "deel"
       ]
      ]
     ],
@@ -2988,11 +2988,11 @@
      [
       [
        "白",
-       "klankdeel"
+       "klank"
       ],
       [
        "lei",
-       "wit vlak"
+       "wit"
       ]
      ]
     ],
@@ -3002,11 +3002,11 @@
      [
       [
        "glaswand",
-       "buitenwand"
+       "aula"
       ],
       [
        "druppels",
-       "honderd tellen"
+       "tellen"
       ]
      ]
     ],
@@ -3016,11 +3016,11 @@
      [
       [
        "honderd",
-       "vele"
+       "veel"
       ],
       [
        "gong",
-       "dalend"
+       "dal"
       ]
      ]
     ]
@@ -3103,9 +3103,80 @@
     "source": "woord_diepte",
     "card_id": "wd-百",
     "zinnen": [],
-    "status46": "wacht-op-deepseek"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/bai.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "BǍI!↘↗",
+       "zin": "Baai met een dalende kuil, dan weer omhoog."
+      },
+      "en": {
+       "haak": "BYE!↘↗",
+       "zin": "Bye first dips and then lifts."
+      },
+      "es": {
+       "haak": "B",
+       "zin": "Á"
+      }
+     },
+     "beeldhook": "IK tel druppels op één wit teken, klankdeel en leg een rode streep erboven.",
+     "paleisStop": [
+      6
+     ],
+     "audio": [
+      "kaart/media/bai-zh.mp3",
+      "kaart/media/bai-zh-traag.mp3",
+      "kaart/media/bai-hook-nl.mp3",
+      "kaart/media/bai-hook-en.mp3",
+      "kaart/media/bai-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/bai-centrum.jpg",
+      "kaart/media/bai-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/bai-mindmap.jpg",
+     "streken": {
+      "百": [
+       "横",
+       "撇",
+       "竖",
+       "横折",
+       "横",
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "recallDoe": [
+    "Toon: zeg bǎi met dal en veer.",
+    "Toon: fluister de dal, brul de veer.",
+    "Schrijf 百: 横, 撇, 竖, 横折, 横, 横.",
+    "Schrijf 百 nog eens en wijs 一 boven 白.",
+    "Luister: hoor je BǍI! in je hoofd? Zeg na.",
+    "Productie: zeg 一百.",
+    "Productie: zeg 三百.",
+    "Vul in: 弟弟有___个鸡蛋。 (三百)",
+    "Vul in: 姐姐有___个蛋糕。 (五百)",
+    "Dialoog: vraag 你有多少个苹果？",
+    "Dialoog: antwoord 我有一百个苹果。",
+    "Open: noem een getal met 百 uit de lesstof."
+   ],
+   "recallVragen": [
+    "Welke toon heeft 百?",
+    "Uit welke twee delen bestaat 百?",
+    "Hoeveel streken heeft 百?",
+    "Wat betekent 百 alleen?",
+    "Wat betekent 一百?",
+    "Wat betekent 百姓 niet letterlijk?",
+    "Welke kleur heeft het betekenisdeel in de kaart?",
+    "Wat is het beeldhook in ik-vorm?",
+    "Noem een voorbeeldzin met 百 uit de lesstof.",
+    "Waarom is 白 alleen niet honderd?",
+    "Welke klank heeft 百 in de derde toon?",
+    "Wat is het verschil tussen 百 en 白?"
+   ],
    "radfam": [
     {
      "hz": "的",
@@ -3661,28 +3732,28 @@
      "撇"
     ]
    },
-   "delen": "<b class=\"rood\">夕</b> avond, betekenisdeel · <b class=\"rood\">夕</b> avond, betekenisdeel · <b class=\"rood\">小</b> klein, klank- en betekenisdeel · <b class=\"rood\">丿</b> schuine streek, betekenisdeel",
+   "delen": "<b class=\"rood\">夕+夕</b> avond (twee avonden), betekenisdeel · <b class=\"rood\">小</b> klein, klank- en betekenisdeel · <b class=\"rood\">丿</b> schuine streek, betekenisdeel",
    "opbouw": "多少 = 多 6 + 少 4",
    "klank": "DUŌ→SHAO(licht)",
    "klankuitleg": "1e toon vlak hoog; 少 in de vraag vaak neutraal/licht, in duōshǎo 3e toon.",
    "hooks": {
     "nl": [
      "DUŌ!→ ... SHAO?(licht)",
-     "Doe-sjau: open hand, dan twijfelende lichte sjau.",
-     "DUŌ! ... DUŌ! ... SHAO? ... Doe-sjau: open hand, dan twijfelende lichte sjau. Eerste toon vlak hoog, tweede licht/neutraal."
+     "Doe-sjau: eerste vlak hoog, tweede licht.",
+     "DUŌ! ... DUŌ! ... SHAO? ... Doe-sjau. Eerste toon vlak hoog, tweede licht/neutraal."
     ],
     "en": "DO!→ ... SHAO?(light)",
     "es": [
      "DUO!→ ... CHAO?(licht)",
-     "Duo-chao: eerste vlak, tweede krimpt licht.",
-     "DUO! ... DUO! ... CHAO? ... Duo-chao: eerste vlak, tweede krimpt licht. Primer tono alto y plano; segundo neutro/ligero."
+     "Duo-chao: eerste vlak, tweede licht.",
+     "DUO! ... DUO! ... CHAO? ... Duo-chao. Eerste toon vlak hoog, tweede licht/neutraal."
     ]
    },
-   "beeldhook": "IK open mijn handen voor de avond-tekens en knijp de kleine streek tot een smalle kier.",
+   "beeldhook": "IK sta op het Cruijff-court, open mijn handen naar de kooi, voel het koude gaas en de wind, ruik rubber en knijp de kleine streek tot een smalle kier.",
    "stop": [
     5
    ],
-   "anker": "<b>5</b> Cruijff-court: kooiveld op het schoolplein; mijn open handen meten veel ballen en knijpen tot weinig.",
+   "anker": "<b>5</b> Cruijff-court: kooiveld; mijn open handen meten veel ballen en knijpen tot weinig.",
    "scene": "Ik sta op het Cruijff-court en open mijn handen wijd naar de kooi. Ik zie de lijnen van het kooiveld en de ballen die rondrollen. Ik hoor het tikken van een bal tegen het hek. Ik voel het koude gaas onder mijn vingers en de wind tussen mijn open handen. Ik ruik rubber en buitenlucht. Ik proef een droge korrel zand tussen mijn tanden en knijp mijn handen tot een smalle opening.",
    "fam": [
     [
@@ -3716,11 +3787,11 @@
      [
       [
        "DUŌ!",
-       "vlak hoog"
+       "vlak"
       ],
       [
        "SHAO?",
-       "licht/neutraal"
+       "licht"
       ]
      ]
     ],
@@ -3730,7 +3801,7 @@
      [
       [
        "夕",
-       "eerste nacht"
+       "nacht"
       ],
       [
        "stapel",
@@ -3748,7 +3819,7 @@
       ],
       [
        "丿",
-       "schuine streek"
+       "streek"
       ]
      ]
     ],
@@ -3757,12 +3828,12 @@
      "paleis",
      [
       [
-       "kooiveld",
+       "kooi",
        "schoolplein"
       ],
       [
        "handen",
-       "open en knijp"
+       "knijp"
       ]
      ]
     ],
@@ -3772,11 +3843,11 @@
      [
       [
        "veel",
-       "open hand"
+       "open"
       ],
       [
        "weinig",
-       "bijna niets"
+       "leeg"
       ]
      ]
     ]
@@ -3874,9 +3945,87 @@
     "source": "drive-3.5",
     "card_id": "wd-多少",
     "zinnen": [],
-    "status46": "wacht-op-deepseek"
+    "status46": "open-media",
+    "kaart46": "kaart/duoshao.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "DUŌ!→ ... SHAO?(licht)",
+       "zin": "Doe-sjau: open hand, dan twijfelende lichte sjau."
+      },
+      "en": {
+       "haak": "D",
+       "zin": "O"
+      },
+      "es": {
+       "haak": "DUO!→ ... CHAO?(licht)",
+       "zin": "Duo-chao: eerste vlak, tweede krimpt licht."
+      }
+     },
+     "beeldhook": "IK open mijn handen voor de avond-tekens en knijp de kleine streek tot een smalle kier.",
+     "paleisStop": [
+      5
+     ],
+     "audio": [
+      "kaart/media/duoshao-zh.mp3",
+      "kaart/media/duoshao-zh-traag.mp3",
+      "kaart/media/duoshao-hook-nl.mp3",
+      "kaart/media/duoshao-hook-en.mp3",
+      "kaart/media/duoshao-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/duoshao-centrum.jpg",
+      "kaart/media/duoshao-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/duoshao-mindmap.jpg",
+     "streken": {
+      "多": [
+       "撇",
+       "横撇",
+       "点",
+       "撇",
+       "横撇",
+       "点"
+      ],
+      "少": [
+       "竖",
+       "撇",
+       "点",
+       "撇"
+      ]
+     }
+    }
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
+   "recallDoe": [
+    "Toon: zeg 多 vlak hoog.",
+    "Toon: zeg 少 met derde toon in duōshǎo.",
+    "Schrijf 多: 撇, 横撇, 点, 撇, 横撇, 点.",
+    "Schrijf 少: 竖, 撇, 点, 撇.",
+    "Wijs de twee 夕 in 多 aan.",
+    "Wijs 小 en 丿 in 少 aan.",
+    "Zeg hardop: 多少 = hoeveel.",
+    "Vul in: 你问我有___个苹果。 (多少)",
+    "Vul in: 妈妈问弟弟有___个手表。 (多少)",
+    "Dialoog: vraag 你有多少个苹果？",
+    "Dialoog: antwoord 我有十个苹果。",
+    "Open: noem een vraag met 多少 uit de lesstof.",
+    "Open: leg uit wanneer 少 licht/neutraal klinkt."
+   ],
+   "recallVragen": [
+    "Welke twee tekens vormen 多少?",
+    "Hoeveel streken heeft 多?",
+    "Hoeveel streken heeft 少?",
+    "Wanneer is 少 in 多少 derde toon?",
+    "Welke radicalen zitten in 多 en 少?",
+    "Wat betekent 多少 in 你有多少个苹果？",
+    "Wat betekent 多少 in 多少有点?",
+    "Noem een voorbeeldzin met 多少 uit de lesstof.",
+    "Wat is het beeldhook in ik-vorm?",
+    "Welke klank heeft 多 in 多少?",
+    "Welke klank heeft 少 in de vraag?",
+    "Waarom is 多少 niet hetzelfde als 几?"
+   ],
    "radfam": [
     {
      "hz": "小学",
@@ -5048,12 +5197,12 @@
      "LIN-NG! ... LIN-NG! ... Lin-ng! La campana sube con la nasal. Segundo tono: la voz sube."
     ]
    },
-   "beeldhook": "IK hoor een bel “ling” en zie regen vallen boven het bevel-teken, klankdeel slingert omhoog.",
+   "beeldhook": "IK hoor een heldere bel 'ling' boven de vleugel, zie regen op de snaren vallen, voel de trilling en trek het belkoord omlaag.",
    "stop": [
     8
    ],
-   "anker": "<b>8</b> Vleugel: vleugel in de aula; ik trek een denkbeeldige bel en hoor “ling” boven de snaren.",
-   "scene": "Ik sta bij de vleugel in de aula en leg mijn vinger op de koude rand. Ik zie de glanzende snaren. Ik hoor een heldere “ling” die uit de vleugel lijkt op te stijgen. Ik voel de trilling van een snaar door mijn vingertop. Ik ruik hout, lak en een vleugje regen van buiten. Ik proef metaal op mijn tong en trek een denkbeeldig belkoord naar beneden.",
+   "anker": "<b>8</b> Vleugel: vleugel bij de aula; ik trek een denkbeeldige bel en hoor “ling” boven de snaren.",
+   "scene": "Ik sta bij de vleugel naast de aula en leg mijn vinger op de koude rand. Ik zie de glanzende snaren. Ik hoor een heldere “ling” die uit de vleugel lijkt op te stijgen. Ik voel de trilling van een snaar door mijn vingertop. Ik ruik hout, lak en een vleugje regen van buiten. Ik proef metaal op mijn tong en trek een denkbeeldig belkoord naar beneden.",
    "fam": [
     [
      "零钱",
@@ -5089,8 +5238,8 @@
        "bel"
       ],
       [
-       "nul",
-       "leeg rondje"
+       "toon",
+       "stijgt"
       ]
      ]
     ],
@@ -5100,7 +5249,7 @@
      [
       [
        "雨",
-       "betekenisdeel"
+       "regen"
       ],
       [
        "druppels",
@@ -5114,7 +5263,7 @@
      [
       [
        "令",
-       "klankdeel"
+       "bevel"
       ],
       [
        "bel",
@@ -5145,7 +5294,7 @@
        "rondje"
       ],
       [
-       "bel",
+       "leeg",
        "ling"
       ]
      ]
@@ -5223,9 +5372,87 @@
     "source": "woord_diepte",
     "card_id": "wd-零",
     "zinnen": [],
-    "status46": "wacht-op-deepseek"
+    "status46": "open-media",
+    "kaart46": "kaart/ling.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "LÍNG!↗",
+       "zin": "Ling! De bel slingert omhoog uit de regen."
+      },
+      "en": {
+       "haak": "LING!↗",
+       "zin": "Ling! A bell lingers and rises."
+      },
+      "es": {
+       "haak": "LIN-NG!↗",
+       "zin": "Lin-ng! La campana sube con la nasal."
+      }
+     },
+     "beeldhook": "IK hoor een bel “ling” en zie regen vallen boven het bevel-teken, klankdeel slingert omhoog.",
+     "paleisStop": [
+      8
+     ],
+     "audio": [
+      "kaart/media/ling-zh.mp3",
+      "kaart/media/ling-zh-traag.mp3",
+      "kaart/media/ling-hook-nl.mp3",
+      "kaart/media/ling-hook-en.mp3",
+      "kaart/media/ling-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/ling-centrum.jpg",
+      "kaart/media/ling-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/ling-mindmap.jpg",
+     "streken": {
+      "零": [
+       "横",
+       "竖",
+       "横折钩",
+       "竖",
+       "点",
+       "点",
+       "点",
+       "点",
+       "撇",
+       "捺",
+       "点",
+       "横撇",
+       "点"
+      ]
+     }
+    }
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
+   "recallDoe": [
+    "Toon: zeg líng met stijgende toon.",
+    "Toon: laat je stem als een bel omhoog veren.",
+    "Schrijf 零: 13 streken, eerst 雨 dan 令.",
+    "Schrijf 零 nog eens en wijs 雨 boven 令.",
+    "Luister: hoor de bel 'ling' en zeg na.",
+    "Productie: zeg 一百零八.",
+    "Productie: zeg 三百零五.",
+    "Vul in: 妹妹有二百___六个蛋糕。 (零)",
+    "Vul in: 我有一百___八个苹果。 (零)",
+    "Dialoog: vraag 你有多少个苹果？",
+    "Dialoog: antwoord 我有一百零八个苹果。",
+    "Open: noem een getal met 零 uit de lesstof."
+   ],
+   "recallVragen": [
+    "Welke toon heeft 零?",
+    "Welk deel is betekenisradicaal?",
+    "Welk deel is klankdeel?",
+    "Hoeveel streken heeft 零?",
+    "Waarom is 零钱 niet ‘zero money’?",
+    "Wat betekent 零 in 一百零八?",
+    "Wat is het beeldhook in ik-vorm?",
+    "Noem een voorbeeldzin met 零 uit de lesstof.",
+    "Welke kleur heeft 雨 in de kaart?",
+    "Hoe klinkt 零 als je het roept?",
+    "Wat betekent 零食?",
+    "Wat is het verschil tussen 零 als nul en 零 als fragment?"
+   ],
    "radfam": [
     {
      "hz": "雨",

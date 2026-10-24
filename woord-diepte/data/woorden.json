@@ -408,18 +408,18 @@
     "klankhaken": {
      "nl": {
       "haak": "BǍI!↘↗",
-      "zin": "Baai met een dalende kuil, dan weer omhoog."
+      "zin": "Bai: dal, dan veer omhoog."
      },
      "en": {
       "haak": "BYE!↘↗",
-      "zin": "Bye first dips and then lifts."
+      "zin": "Bye: dip, then lift."
      },
      "es": {
       "haak": "B",
       "zin": "Á"
      }
     },
-    "beeldhook": "IK tel druppels op één wit teken, klankdeel en leg een rode streep erboven.",
+    "beeldhook": "IK tel op de koude glaswand honderd regendruppels, ruik natte stof, hoor de gong en trek met mijn vinger een rode streep boven de witte lei.",
     "paleisStop": [
      6
     ],
@@ -493,7 +493,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-零",
-   "status46": "wacht-op-deepseek",
+   "status46": "open-media",
    "kaart46": "kaart/ling.html",
    "v46": {
     "klankhaken": {
@@ -510,7 +510,7 @@
       "zin": "Lin-ng! La campana sube con la nasal."
      }
     },
-    "beeldhook": "IK hoor een bel “ling” en zie regen vallen boven het bevel-teken, klankdeel slingert omhoog.",
+    "beeldhook": "IK hoor een heldere bel 'ling' boven de vleugel, zie regen op de snaren vallen, voel de trilling en trek het belkoord omlaag.",
     "paleisStop": [
      8
     ],
@@ -1630,7 +1630,7 @@
     "klankhaken": {
      "nl": {
       "haak": "DUŌ!→ ... SHAO?(licht)",
-      "zin": "Doe-sjau: open hand, dan twijfelende lichte sjau."
+      "zin": "Doe-sjau: eerste vlak hoog, tweede licht."
      },
      "en": {
       "haak": "D",
@@ -1638,10 +1638,10 @@
      },
      "es": {
       "haak": "DUO!→ ... CHAO?(licht)",
-      "zin": "Duo-chao: eerste vlak, tweede krimpt licht."
+      "zin": "Duo-chao: eerste vlak, tweede licht."
      }
     },
-    "beeldhook": "IK open mijn handen voor de avond-tekens en knijp de kleine streek tot een smalle kier.",
+    "beeldhook": "IK sta op het Cruijff-court, open mijn handen naar de kooi, voel het koude gaas en de wind, ruik rubber en knijp de kleine streek tot een smalle kier.",
     "paleisStop": [
      5
     ],
