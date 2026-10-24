@@ -46,7 +46,45 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-一",
-   "status46": "wacht-op-deepseek"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/yi.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "IE!→",
+      "zin": "Ik hoor IE! als een strakke hoge lijn."
+     },
+     "en": {
+      "haak": "EE!→",
+      "zin": "I hear EE! as a tight high line."
+     },
+     "es": {
+      "haak": "Í",
+      "zin": "!"
+     }
+    },
+    "beeldhook": "IK trek <b class='rood'>一</b> als een ononderbroken streek van links naar rechts over het papier.",
+    "paleisStop": [
+     7
+    ],
+    "audio": [
+     "kaart/media/yi-zh.mp3",
+     "kaart/media/yi-zh-traag.mp3",
+     "kaart/media/yi-hook-nl.mp3",
+     "kaart/media/yi-hook-en.mp3",
+     "kaart/media/yi-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/yi-centrum.jpg",
+     "kaart/media/yi-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/yi-mindmap.jpg",
+    "streken": {
+     "一": [
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "二",
@@ -94,7 +132,46 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-二",
-   "status46": "wacht-op-deepseek"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/er.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "ER!↘",
+      "zin": "Ik laat ER! als latten neervallen."
+     },
+     "en": {
+      "haak": "ERR!↘",
+      "zin": "I drop ERR! like falling slats."
+     },
+     "es": {
+      "haak": "ER!↘",
+      "zin": "Dejo caer ER! como listones."
+     }
+    },
+    "beeldhook": "IK leg <b class='rood'>一</b> boven <b class='rood'>一</b>, los van elkaar, en hoor de latten tikken.",
+    "paleisStop": [
+     6
+    ],
+    "audio": [
+     "kaart/media/er-zh.mp3",
+     "kaart/media/er-zh-traag.mp3",
+     "kaart/media/er-hook-nl.mp3",
+     "kaart/media/er-hook-en.mp3",
+     "kaart/media/er-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/er-centrum.jpg",
+     "kaart/media/er-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/er-mindmap.jpg",
+    "streken": {
+     "二": [
+      "横",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "三",
@@ -144,7 +221,47 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-三",
-   "status46": "wacht-op-deepseek"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/san.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "SAAN→",
+      "zin": "Ik tel SAAN! als vlakke planken."
+     },
+     "en": {
+      "haak": "SAAN→",
+      "zin": "I count SAAN! as level planks."
+     },
+     "es": {
+      "haak": "SAAN→",
+      "zin": "Cuento SAAN! como tablones planos."
+     }
+    },
+    "beeldhook": "IK trek met mijn vinger drie gelijke horizontale streken over de koude atriumwand; alleen de bovenste streek is rood als radicaal 一.",
+    "paleisStop": [
+     9
+    ],
+    "audio": [
+     "kaart/media/san-zh.mp3",
+     "kaart/media/san-zh-traag.mp3",
+     "kaart/media/san-hook-nl.mp3",
+     "kaart/media/san-hook-en.mp3",
+     "kaart/media/san-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/san-centrum.jpg",
+     "kaart/media/san-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/san-mindmap.jpg",
+    "streken": {
+     "三": [
+      "横",
+      "横",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "十",
