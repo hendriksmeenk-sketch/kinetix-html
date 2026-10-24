@@ -3319,7 +3319,7 @@
    ],
    "mm": [
     [
-     "MES VALT TUSSEN LATTEN",
+     "KLANK",
      "klank",
      [
       [
@@ -3327,13 +3327,13 @@
        "kort dal; beeld: mes valt"
       ],
       [
-       "lat",
-       "evenwijdig; beeld: latten"
+       "mes",
+       "valt; beeld: mes"
       ]
      ]
     ],
     [
-     "BOVENSTE LAT",
+     "BOVEN",
      "a",
      [
       [
@@ -3341,27 +3341,27 @@
        "bovenste streek; deel van 二"
       ],
       [
-       "二",
-       "heel teken; radicaal 二"
+       "boven",
+       "eerste lat; beeld: bovenlat"
       ]
      ]
     ],
     [
-     "ONDERSTE LAT",
+     "ONDER",
      "b",
      [
       [
-       "一",
-       "onderste streek; deel van 二"
-      ],
-      [
        "二",
        "heel teken; radicaal 二"
+      ],
+      [
+       "onder",
+       "tweede lat; beeld: onderlat"
       ]
      ]
     ],
     [
-     "GLASWAND MET REFLECTIE",
+     "GLASWAND",
      "paleis",
      [
       [
@@ -3375,7 +3375,7 @@
      ]
     ],
     [
-     "RODE DRAAD",
+     "LINK",
      "link",
      [
       [
@@ -3383,8 +3383,8 @@
        "twee; beeld: klankdraad"
       ],
       [
-       "lat",
-       "valt; beeld: latten"
+       "draad",
+       "rode draad; beeld: link"
       ]
      ]
     ]
@@ -3394,22 +3394,22 @@
    ],
    "zinnen": [
     [
-     "我有二十个手机。",
-     "Ik heb twintig mobiele telefoons."
+     "我有二十个苹果。",
+     "Ik heb twintig appels."
     ],
     [
-     "她有十二个手表。",
-     "Zij heeft twaalf horloges."
+     "她有十二个鸡蛋。",
+     "Zij heeft twaalf eieren."
     ]
    ],
    "dialoog": {
-    "a": "你有二十个手机吗？",
-    "b": "我有二十个手机。她有十二个手表。",
-    "hint": "antwoord met 二十; noem ook 十二",
+    "a": "我有二十个苹果。",
+    "b": "她有十二个鸡蛋。",
+    "hint": "gebruik 有, 二十 en 十二",
     "fout": [
-     "我有十二个手表。",
-     "我没有手机。",
-     "我有三十个手机。"
+     "我有十二个鸡蛋。",
+     "我没有苹果。",
+     "我有三十个苹果。"
     ]
    },
    "oud": {
@@ -3457,7 +3457,46 @@
     "source": "woord_diepte",
     "card_id": "wd-二",
     "zinnen": [],
-    "status46": "wacht-op-grok"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/er.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "ER!↘",
+       "zin": "Ik laat ER! als latten neervallen."
+      },
+      "en": {
+       "haak": "ERR!↘",
+       "zin": "I drop ERR! like falling slats."
+      },
+      "es": {
+       "haak": "ER!↘",
+       "zin": "Dejo caer ER! como listones."
+      }
+     },
+     "beeldhook": "IK leg <b class='rood'>一</b> boven <b class='rood'>一</b>, los van elkaar, en hoor de latten tikken.",
+     "paleisStop": [
+      6
+     ],
+     "audio": [
+      "kaart/media/er-zh.mp3",
+      "kaart/media/er-zh-traag.mp3",
+      "kaart/media/er-hook-nl.mp3",
+      "kaart/media/er-hook-en.mp3",
+      "kaart/media/er-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/er-centrum.jpg",
+      "kaart/media/er-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/er-mindmap.jpg",
+     "streken": {
+      "二": [
+       "横",
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "radicaal-familie": [
@@ -3491,6 +3530,14 @@
      "februari",
      "bevat 二"
     ]
+   ],
+   "recallDoe": [
+    "Trek twee horizontale strepen in de lucht; maak de bovenste korter.",
+    "Zeg èr met een scherpe daling; laat je hand vallen.",
+    "Roep 'ER!' als twee latten die neerkomen.",
+    "Schrijf 二 en zeg hardop èr.",
+    "Fluister èr en brul daarna 'ER!'.",
+    "Zeg hardop: 'IK leg twee latten.'"
    ],
    "radfam": [
     {
@@ -3599,31 +3646,31 @@
    ],
    "_hot": [
     [
-     "MES VALT TUSSEN LATTEN",
+     "KLANK",
      "klank",
      64.6,
      21.1
     ],
     [
-     "BOVENSTE LAT",
+     "BOVEN",
      "a",
      80.6,
      55.7
     ],
     [
-     "ONDERSTE LAT",
+     "ONDER",
      "b",
      54.3,
      82.4
     ],
     [
-     "GLASWAND MET REFLECTIE",
+     "GLASWAND",
      "paleis",
      22.1,
      64.3
     ],
     [
-     "RODE DRAAD",
+     "LINK",
      "link",
      28.4,
      26.5
@@ -5747,7 +5794,47 @@
     "source": "terminal-4",
     "card_id": "wd-女",
     "zinnen": [],
-    "status46": "wacht-op-grok"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/nu.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "NU↘↗",
+       "zin": "NU↘↗ — ik draai me half weg en vraag het met een wenkbrauw."
+      },
+      "en": {
+       "haak": "NÜ↘↗",
+       "zin": "NÜ↘↗ — I turn half away and ask it with a raised brow."
+      },
+      "es": {
+       "haak": "NÜ↘↗",
+       "zin": "NÜ↘↗ — me giro a medias y lo pregunto con una ceja."
+      }
+     },
+     "beeldhook": "IK wend me half af, kruis mijn armen en zak met één knie, terwijl de hele vorm <b class='rood'>女</b> zichtbaar blijft.",
+     "paleisStop": [
+      6
+     ],
+     "audio": [
+      "kaart/media/nu-zh.mp3",
+      "kaart/media/nu-zh-traag.mp3",
+      "kaart/media/nu-hook-nl.mp3",
+      "kaart/media/nu-hook-en.mp3",
+      "kaart/media/nu-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/nu-centrum.jpg",
+      "kaart/media/nu-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/nu-mindmap.jpg",
+     "streken": {
+      "女": [
+       "撇点",
+       "撇",
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "_hot": [
@@ -5893,7 +5980,7 @@
    "mm": [
     [
      "KLANK",
-     "klank; krachtbeeld: vlakke plank",
+     "klank",
      [
       [
        "SAAN→",
@@ -5907,7 +5994,7 @@
     ],
     [
      "BOVENTREDE",
-     "a; krachtbeeld: bovenste trede",
+     "a",
      [
       [
        "boven",
@@ -5921,7 +6008,7 @@
     ],
     [
      "ONDERTREDE",
-     "b; krachtbeeld: onderste trede",
+     "b",
      [
       [
        "middel",
@@ -5935,7 +6022,7 @@
     ],
     [
      "ATRIUM",
-     "paleis; krachtbeeld: atrium met prints",
+     "paleis",
      [
       [
        "prints",
@@ -5949,7 +6036,7 @@
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      [
       [
        "sān",
@@ -5976,13 +6063,13 @@
     ]
    ],
    "dialoog": {
-    "a": "你有三十个手机吗？",
-    "b": "我有三十个手机。",
-    "hint": "antwoord met 三十",
+    "a": "我有三个手表。",
+    "b": "她有三十个手机。",
+    "hint": "gebruik 有 en 三十",
     "fout": [
-     "我有三个手表。",
-     "我有二十个手机。",
-     "我没有手机。"
+     "我有三十个手机。",
+     "她有三十个手表。",
+     "我没有手表。"
     ]
    },
    "oud": {
@@ -6032,7 +6119,47 @@
     "source": "woord_diepte",
     "card_id": "wd-三",
     "zinnen": [],
-    "status46": "wacht-op-grok"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/san.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "SAAN→",
+       "zin": "Ik tel SAAN! als vlakke planken."
+      },
+      "en": {
+       "haak": "SAAN→",
+       "zin": "I count SAAN! as level planks."
+      },
+      "es": {
+       "haak": "SAAN→",
+       "zin": "Cuento SAAN! como tablones planos."
+      }
+     },
+     "beeldhook": "IK trek met mijn vinger drie gelijke horizontale streken over de koude atriumwand; alleen de bovenste streek is rood als radicaal 一.",
+     "paleisStop": [
+      9
+     ],
+     "audio": [
+      "kaart/media/san-zh.mp3",
+      "kaart/media/san-zh-traag.mp3",
+      "kaart/media/san-hook-nl.mp3",
+      "kaart/media/san-hook-en.mp3",
+      "kaart/media/san-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/san-centrum.jpg",
+      "kaart/media/san-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/san-mindmap.jpg",
+     "streken": {
+      "三": [
+       "横",
+       "横",
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "radicaal-familie": [
@@ -6192,52 +6319,52 @@
    "_hot": [
     [
      "KLANK",
-     "klank; krachtbeeld: vlakke plank",
+     "klank",
      64.6,
      21.1
     ],
     [
      "BOVENTREDE",
-     "a; krachtbeeld: bovenste trede",
+     "a",
      80.6,
      55.7
     ],
     [
      "ONDERTREDE",
-     "b; krachtbeeld: onderste trede",
+     "b",
      54.3,
      82.4
     ],
     [
      "ATRIUM",
-     "paleis; krachtbeeld: atrium met prints",
+     "paleis",
      22.1,
      64.3
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      28.4,
      26.5
     ]
    ],
    "_mm_open": [
-    "a; krachtbeeld: bovenste trede",
-    "a; krachtbeeld: bovenste trede-s1",
-    "a; krachtbeeld: bovenste trede-s2",
-    "b; krachtbeeld: onderste trede",
-    "b; krachtbeeld: onderste trede-s1",
-    "b; krachtbeeld: onderste trede-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
     "centrum",
-    "klank; krachtbeeld: vlakke plank",
-    "klank; krachtbeeld: vlakke plank-s1",
-    "klank; krachtbeeld: vlakke plank-s2",
-    "link; krachtbeeld: rode draad",
-    "link; krachtbeeld: rode draad-s1",
-    "link; krachtbeeld: rode draad-s2",
-    "paleis; krachtbeeld: atrium met prints",
-    "paleis; krachtbeeld: atrium met prints-s1",
-    "paleis; krachtbeeld: atrium met prints-s2"
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
    ],
    "_beeld_open": [
     "obrien",
@@ -6693,31 +6820,31 @@
    },
    "delen": "<b class=\"rood\">囗</b> omheining · <b>儿</b> kind/benen",
    "opbouw": "四 = 囗 3 + 儿 2",
-   "klank": "SI↘",
+   "klank": "SIS↘",
    "klankuitleg": "4e toon: scherp dalend; de sis valt dicht als vier muren.",
    "hooks": {
     "nl": [
-     "SIE!↘",
-     "Ik hoor SIE! als een deur die dichtvalt.",
+     "SIS!↘",
+     "Ik hoor SIS! als een deur die dichtvalt.",
      "4e toon: scherp dalend; de sis valt dicht als een deur."
     ],
     "en": [
-     "SEE!↘",
-     "I hear SEE! as a door snapping shut.",
-     "Fourth tone: sharp falling; SEE! snaps shut like a door."
+     "SIS!↘",
+     "I hear SIS! as a door snapping shut.",
+     "Fourth tone: sharp falling; SIS! snaps shut like a door."
     ],
     "es": [
-     "SI!↘",
-     "Oigo SI! como una puerta que se cierra de golpe.",
-     "Cuarto tono: caída brusca; SI! cae como una puerta."
+     "SIS!↘",
+     "Oigo SIS! como una puerta que se cierra de golpe.",
+     "Cuarto tono: caída brusca; SIS! cae como una puerta."
     ]
    },
    "beeldhook": "IK sluit <b class='rood'>囗</b> om <b>儿</b> en tel de hoeken.",
    "stop": [
     4
    ],
-   "anker": "<b>Lorentz</b> Metalen gevel: het gevelsysteem van Rakon toont hoeken in het metaal; ik roep SI↘ en teken een hoek op de spiegel.",
-   "scene": "Ik sta bij de metalen gevel van de Lorentz; het gevelsysteem van Rakon toont hoeken in het metaal. Ik ruik koud staal, hoor de wind langs de panelen, voel de scherpe rand en zie mijn adem op het metaal. Ik teken hoeken op de beslagen spiegel en roep SI↘ kort en dalend; de deur valt dicht.",
+   "anker": "<b>Lorentz</b> Metalen gevel: de panelen van de Lorentz tonen hoeken in het metaal; ik roep SIS↘ en teken een hoek op de spiegel.",
+   "scene": "Ik sta bij de metalen gevel van de Lorentz; de panelen tonen hoeken in het metaal. Ik ruik koud staal, hoor de wind langs de panelen, voel de scherpe rand en zie mijn adem op het metaal. Ik teken hoeken op de beslagen spiegel en roep SIS↘ kort en dalend; de deur valt dicht.",
    "fam": [
     [
      "四",
@@ -6761,10 +6888,10 @@
    "mm": [
     [
      "KLANK",
-     "klank; krachtbeeld: deur valt dicht",
+     "klank",
      [
       [
-       "SI!↘",
+       "SIS!↘",
        "kort dal; beeld: deur"
       ],
       [
@@ -6775,7 +6902,7 @@
     ],
     [
      "OMHEINING",
-     "a; krachtbeeld: buitenmuur",
+     "a",
      [
       [
        "囗",
@@ -6789,7 +6916,7 @@
     ],
     [
      "KIND",
-     "b; krachtbeeld: kind met benen",
+     "b",
      [
       [
        "儿",
@@ -6803,21 +6930,21 @@
     ],
     [
      "GEVEL",
-     "paleis; krachtbeeld: metalen gevel",
+     "paleis",
      [
       [
        "hoek",
        "metaal; beeld: hoeken"
       ],
       [
-       "Rakon",
-       "gevelsysteem; beeld: gevel"
+       "paneel",
+       "metaal; beeld: paneel"
       ]
      ]
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      [
       [
        "sì",
@@ -6848,13 +6975,13 @@
     ]
    ],
    "dialoog": {
-    "a": "你有四个手机吗？",
-    "b": "我有四个手机。",
-    "hint": "Vraag met 吗; antwoord met 有.",
+    "a": "我有四个手机。",
+    "b": "弟弟有四个手表。",
+    "hint": "gebruik 有 en 四个",
     "fout": [
      "我有三个手机。",
-     "我有五个手机。",
-     "我没有手机。"
+     "弟弟有五个手表。",
+     "妈妈有四个手机。"
     ]
    },
    "oud": {
@@ -6894,7 +7021,49 @@
     "station": 0,
     "nextLabel": "—",
     "zinnen": [],
-    "status46": "wacht-op-grok"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/si.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "SIE!↘",
+       "zin": "Ik hoor SIE! als een deur die dichtvalt."
+      },
+      "en": {
+       "haak": "SEE!↘",
+       "zin": "I hear SEE! as a door snapping shut."
+      },
+      "es": {
+       "haak": "SI!↘",
+       "zin": "Oigo SI! como una puerta que se cierra de golpe."
+      }
+     },
+     "beeldhook": "IK sluit <b class='rood'>囗</b> om <b>儿</b> en tel de hoeken.",
+     "paleisStop": [
+      4
+     ],
+     "audio": [
+      "kaart/media/si-zh.mp3",
+      "kaart/media/si-zh-traag.mp3",
+      "kaart/media/si-hook-nl.mp3",
+      "kaart/media/si-hook-en.mp3",
+      "kaart/media/si-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/si-centrum.jpg",
+      "kaart/media/si-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/si-mindmap.jpg",
+     "streken": {
+      "四": [
+       "竖",
+       "横折",
+       "撇",
+       "竖弯钩",
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "radicaal-familie": [
@@ -7037,52 +7206,52 @@
    "_hot": [
     [
      "KLANK",
-     "klank; krachtbeeld: deur valt dicht",
+     "klank",
      64.6,
      21.1
     ],
     [
      "OMHEINING",
-     "a; krachtbeeld: buitenmuur",
+     "a",
      80.6,
      55.7
     ],
     [
      "KIND",
-     "b; krachtbeeld: kind met benen",
+     "b",
      54.3,
      82.4
     ],
     [
      "GEVEL",
-     "paleis; krachtbeeld: metalen gevel",
+     "paleis",
      22.1,
      64.3
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      28.4,
      26.5
     ]
    ],
    "_mm_open": [
-    "a; krachtbeeld: buitenmuur",
-    "a; krachtbeeld: buitenmuur-s1",
-    "a; krachtbeeld: buitenmuur-s2",
-    "b; krachtbeeld: kind met benen",
-    "b; krachtbeeld: kind met benen-s1",
-    "b; krachtbeeld: kind met benen-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
     "centrum",
-    "klank; krachtbeeld: deur valt dicht",
-    "klank; krachtbeeld: deur valt dicht-s1",
-    "klank; krachtbeeld: deur valt dicht-s2",
-    "link; krachtbeeld: rode draad",
-    "link; krachtbeeld: rode draad-s1",
-    "link; krachtbeeld: rode draad-s2",
-    "paleis; krachtbeeld: metalen gevel",
-    "paleis; krachtbeeld: metalen gevel-s1",
-    "paleis; krachtbeeld: metalen gevel-s2"
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
    ],
    "_beeld_open": [
     "obrien",
@@ -7564,7 +7733,7 @@
    "mm": [
     [
      "KLANK",
-     "klank; krachtbeeld: dalende put",
+     "klank",
      [
       [
        "WOE!↘↗",
@@ -7578,7 +7747,7 @@
     ],
     [
      "HEMEL",
-     "a; krachtbeeld: twee latten",
+     "a",
      [
       [
        "二",
@@ -7592,7 +7761,7 @@
     ],
     [
      "MIDDEN",
-     "b; krachtbeeld: open midden",
+     "b",
      [
       [
        "midden",
@@ -7606,7 +7775,7 @@
     ],
     [
      "GYMZAAL",
-     "paleis; krachtbeeld: zwevende gymzaal",
+     "paleis",
      [
       [
        "sportzaal",
@@ -7620,7 +7789,7 @@
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      [
       [
        "wǔ",
@@ -7697,7 +7866,48 @@
     "station": 0,
     "nextLabel": "—",
     "zinnen": [],
-    "status46": "wacht-op-grok"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/wu.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "WOE!↘↗",
+       "zin": "Ik laat WOE! eerst zakken en dan terugveren."
+      },
+      "en": {
+       "haak": "WOO!↘↗",
+       "zin": "I let WOO! dip down and spring back up."
+      },
+      "es": {
+       "haak": "W",
+       "zin": "U"
+      }
+     },
+     "beeldhook": "IK zet <b class='rood'>二</b> als hemel en aarde en hang het middenstuk tussen mijn vingers.",
+     "paleisStop": [
+      10
+     ],
+     "audio": [
+      "kaart/media/wu-zh.mp3",
+      "kaart/media/wu-zh-traag.mp3",
+      "kaart/media/wu-hook-nl.mp3",
+      "kaart/media/wu-hook-en.mp3",
+      "kaart/media/wu-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/wu-centrum.jpg",
+      "kaart/media/wu-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/wu-mindmap.jpg",
+     "streken": {
+      "五": [
+       "横",
+       "竖",
+       "横折",
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "recallVragen": [
@@ -7847,52 +8057,52 @@
    "_hot": [
     [
      "KLANK",
-     "klank; krachtbeeld: dalende put",
+     "klank",
      64.6,
      21.1
     ],
     [
      "HEMEL",
-     "a; krachtbeeld: twee latten",
+     "a",
      80.6,
      55.7
     ],
     [
      "MIDDEN",
-     "b; krachtbeeld: open midden",
+     "b",
      54.3,
      82.4
     ],
     [
      "GYMZAAL",
-     "paleis; krachtbeeld: zwevende gymzaal",
+     "paleis",
      22.1,
      64.3
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      28.4,
      26.5
     ]
    ],
    "_mm_open": [
-    "a; krachtbeeld: twee latten",
-    "a; krachtbeeld: twee latten-s1",
-    "a; krachtbeeld: twee latten-s2",
-    "b; krachtbeeld: open midden",
-    "b; krachtbeeld: open midden-s1",
-    "b; krachtbeeld: open midden-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
     "centrum",
-    "klank; krachtbeeld: dalende put",
-    "klank; krachtbeeld: dalende put-s1",
-    "klank; krachtbeeld: dalende put-s2",
-    "link; krachtbeeld: rode draad",
-    "link; krachtbeeld: rode draad-s1",
-    "link; krachtbeeld: rode draad-s2",
-    "paleis; krachtbeeld: zwevende gymzaal",
-    "paleis; krachtbeeld: zwevende gymzaal-s1",
-    "paleis; krachtbeeld: zwevende gymzaal-s2"
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
    ],
    "_beeld_open": [
     "obrien",
@@ -8353,7 +8563,7 @@
     7
    ],
    "anker": "<b>7</b> Zittrap: de brede trap is tegelijk tribune; een lange lijn van treden ligt voor mij.",
-   "scene": "De Zittrap: brede treden klimmen als een tribune omhoog; O'Brien wijst naar de betonnen rand. Ik trek met mijn vinger een lange lijn over de betonnen rand, voel de kou en de korrel, ruik beton en hoor mijn stem IE! hoog en vlak.",
+   "scene": "De Zittrap: brede treden klimmen als een tribune omhoog; een gids wijst naar de betonnen rand. Ik trek met mijn vinger een lange lijn over de betonnen rand, voel de kou en de korrel, ruik beton en hoor mijn stem IE! hoog en vlak.",
    "fam": [
     [
      "十一",
@@ -8363,25 +8573,25 @@
     ],
     [
      "一百",
-     "yībǎi",
+     "yìbǎi",
      "honderd",
      "一 + 百 (lesstof 百)"
     ],
     [
      "一个",
-     "yī gè",
+     "yí gè",
      "één (stuk)",
      "一 + maatwoord 个"
     ],
     [
      "一半",
-     "yībàn",
+     "yíbàn",
      "helft",
      "一 + 半 (lesstof 半)"
     ],
     [
      "一万",
-     "yīwàn",
+     "yíwàn",
      "tienduizend",
      "一 + 万 (lesstof 万)"
     ]
@@ -8395,7 +8605,7 @@
    "mm": [
     [
      "KLANK",
-     "klank; krachtbeeld: strakke hoge lijn",
+     "klank",
      [
       [
        "IE!→",
@@ -8409,7 +8619,7 @@
     ],
     [
      "EENHEID",
-     "a; krachtbeeld: één balk",
+     "a",
      [
       [
        "一",
@@ -8423,7 +8633,7 @@
     ],
     [
      "HORIZON",
-     "b; krachtbeeld: lange horizon",
+     "b",
      [
       [
        "horizon",
@@ -8437,7 +8647,7 @@
     ],
     [
      "ZITTRAP",
-     "paleis; krachtbeeld: brede tribune",
+     "paleis",
      [
       [
        "tribune",
@@ -8451,7 +8661,7 @@
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      [
       [
        "yī",
@@ -8531,7 +8741,45 @@
     "source": "woord_diepte",
     "card_id": "wd-一",
     "zinnen": [],
-    "status46": "wacht-op-grok"
+    "status46": "wacht-op-grok",
+    "kaart46": "kaart/yi.html",
+    "v46": {
+     "klankhaken": {
+      "nl": {
+       "haak": "IE!→",
+       "zin": "Ik hoor IE! als een strakke hoge lijn."
+      },
+      "en": {
+       "haak": "EE!→",
+       "zin": "I hear EE! as a tight high line."
+      },
+      "es": {
+       "haak": "Í",
+       "zin": "!"
+      }
+     },
+     "beeldhook": "IK trek <b class='rood'>一</b> als een ononderbroken streek van links naar rechts over het papier.",
+     "paleisStop": [
+      7
+     ],
+     "audio": [
+      "kaart/media/yi-zh.mp3",
+      "kaart/media/yi-zh-traag.mp3",
+      "kaart/media/yi-hook-nl.mp3",
+      "kaart/media/yi-hook-en.mp3",
+      "kaart/media/yi-hook-es.mp3"
+     ],
+     "beelden": [
+      "kaart/media/yi-centrum.jpg",
+      "kaart/media/yi-beeld2.jpg"
+     ],
+     "mindmap": "kaart/media/yi-mindmap.jpg",
+     "streken": {
+      "一": [
+       "横"
+      ]
+     }
+    }
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
    "recallDoe": [
@@ -8550,7 +8798,9 @@
     "Welke klankbrug uit NL, EN of ES blijft bij jou het makkelijkst hangen?",
     "Waar zie je 一 terug in 十一, 一百 en 一个?",
     "Hoe schrijf je 一 met één streek van links naar rechts?",
-    "Welk beeld uit de Zittrap helpt je bij 一?"
+    "Welk beeld uit de Zittrap helpt je bij 一?",
+    "Noem één vaste combinatie met 一 en zeg de toon die je hoort.",
+    "Zeg hardop een zin met 一 en 个."
    ],
    "radicaalFam": [
     [
@@ -8593,25 +8843,25 @@
     ],
     [
      "一百",
-     "yībǎi",
+     "yìbǎi",
      "honderd",
      "一 + 百 (lesstof 百)"
     ],
     [
      "一个",
-     "yī gè",
+     "yí gè",
      "één (stuk)",
      "一 + maatwoord 个"
     ],
     [
      "一半",
-     "yībàn",
+     "yíbàn",
      "helft",
      "一 + 半 (lesstof 半)"
     ],
     [
      "一万",
-     "yīwàn",
+     "yíwàn",
      "tienduizend",
      "一 + 万 (lesstof 万)"
     ]
@@ -8762,52 +9012,52 @@
    "_hot": [
     [
      "KLANK",
-     "klank; krachtbeeld: strakke hoge lijn",
+     "klank",
      64.6,
      21.1
     ],
     [
      "EENHEID",
-     "a; krachtbeeld: één balk",
+     "a",
      80.6,
      55.7
     ],
     [
      "HORIZON",
-     "b; krachtbeeld: lange horizon",
+     "b",
      54.3,
      82.4
     ],
     [
      "ZITTRAP",
-     "paleis; krachtbeeld: brede tribune",
+     "paleis",
      22.1,
      64.3
     ],
     [
      "LINK",
-     "link; krachtbeeld: rode draad",
+     "link",
      28.4,
      26.5
     ]
    ],
    "_mm_open": [
-    "a; krachtbeeld: één balk",
-    "a; krachtbeeld: één balk-s1",
-    "a; krachtbeeld: één balk-s2",
-    "b; krachtbeeld: lange horizon",
-    "b; krachtbeeld: lange horizon-s1",
-    "b; krachtbeeld: lange horizon-s2",
+    "a",
+    "a-s1",
+    "a-s2",
+    "b",
+    "b-s1",
+    "b-s2",
     "centrum",
-    "klank; krachtbeeld: strakke hoge lijn",
-    "klank; krachtbeeld: strakke hoge lijn-s1",
-    "klank; krachtbeeld: strakke hoge lijn-s2",
-    "link; krachtbeeld: rode draad",
-    "link; krachtbeeld: rode draad-s1",
-    "link; krachtbeeld: rode draad-s2",
-    "paleis; krachtbeeld: brede tribune",
-    "paleis; krachtbeeld: brede tribune-s1",
-    "paleis; krachtbeeld: brede tribune-s2"
+    "klank",
+    "klank-s1",
+    "klank-s2",
+    "link",
+    "link-s1",
+    "link-s2",
+    "paleis",
+    "paleis-s1",
+    "paleis-s2"
    ],
    "_beeld_open": [
     "obrien",

@@ -46,7 +46,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-一",
-   "status46": "wacht-op-deepseek",
+   "status46": "afgekeurd-gate",
    "kaart46": "kaart/yi.html",
    "v46": {
     "klankhaken": {
@@ -132,7 +132,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-二",
-   "status46": "wacht-op-deepseek",
+   "status46": "afgekeurd-gate",
    "kaart46": "kaart/er.html",
    "v46": {
     "klankhaken": {
@@ -221,7 +221,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-三",
-   "status46": "wacht-op-deepseek",
+   "status46": "open-media",
    "kaart46": "kaart/san.html",
    "v46": {
     "klankhaken": {
