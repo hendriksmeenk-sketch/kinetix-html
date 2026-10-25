@@ -489,82 +489,6 @@
      "deelt": "手机",
      "haak": "手机 + 壳: een schaal om je mobiel."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "hand",
-     80.5,
-     44.0
-    ],
-    [
-     "HOUT",
-     "hout",
-     73.5,
-     71.4
-    ],
-    [
-     "TAFEL",
-     "tafel",
-     48.8,
-     82.7
-    ],
-    [
-     "MACHINE",
-     "machine",
-     25.0,
-     69.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     20.0,
-     41.5
-    ],
-    [
-     "LINK",
-     "link",
-     37.7,
-     20.0
-    ]
-   ],
-   "_mm_open": [
-    "hand-s1",
-    "hand-s2",
-    "hout-s1",
-    "hout-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "machine-s1",
-    "machine-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "tafel-s1",
-    "tafel-s2"
-   ],
-   "_beeld_open": [
-    "klank-s1",
-    "klank-s2",
-    "hand-s1",
-    "hand-s2",
-    "hout-s1",
-    "hout-s2",
-    "tafel-s1",
-    "tafel-s2",
-    "machine-s1",
-    "machine-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -849,64 +773,6 @@
      "deelt": "打 + 折",
      "haak": "Een hand knipt een prijskaartje door."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "SLAAN",
-     "a",
-     81.0,
-     48.9
-    ],
-    [
-     "BLIKSEM",
-     "b",
-     66.5,
-     77.8
-    ],
-    [
-     "TONG",
-     "c",
-     35.4,
-     78.9
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     19.0,
-     51.1
-    ],
-    [
-     "LINK",
-     "link",
-     33.5,
-     22.2
-    ]
-   ],
-   "_mm_open": [
-    "c-s1",
-    "c-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "klank-s1",
-    "klank-s2",
-    "c-s1",
-    "c-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -1185,73 +1051,6 @@
      "deelt": "有 + 趣",
      "haak": "Heeft plezier: 有 voor 趣."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "WATER",
-     "a",
-     81.0,
-     48.9
-    ],
-    [
-     "HAND",
-     "b",
-     66.5,
-     77.8
-    ],
-    [
-     "VLEES",
-     "c",
-     35.4,
-     78.9
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     19.0,
-     51.1
-    ],
-    [
-     "LINK",
-     "link",
-     33.5,
-     22.2
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "c-s1",
-    "c-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "c-s1",
-    "c-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -1510,63 +1309,6 @@
      "deelt": "弟",
      "haak": "Jonge generatie speelt in de tuin."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "TOUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "BROER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -1827,63 +1569,6 @@
      "deelt": "familielid",
      "haak": "Oma breit een lange sjaal"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "STAPEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -2131,62 +1816,6 @@
      "deelt": "familieveld",
      "haak": "Grote broer in het familieveld."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "BOOMPJE",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -2438,62 +2067,302 @@
      "deelt": "familieveld",
      "haak": "Mensen onder één dak."
     }
+   ]
+  },
+  {
+   "hz": "八",
+   "py": "bā",
+   "nl": "acht",
+   "toon": "1",
+   "streken": {
+    "八": [
+     "撇",
+     "捺"
+    ]
+   },
+   "delen": "<b class=\"rood\">八</b> (verdelen; acht) heel radicaal · ideogram van twee gebogen lijnen",
+   "opbouw": "八 = 撇 1 + 捺 1",
+   "klank": "BA→",
+   "klankuitleg": "De eerste toon ligt hoog en blijft vlak: begin hoog en houd die hoogte vast, als een fluit die niet daalt en niet stijgt. De bron geeft de pinyin bā.",
+   "hooks": {
+    "nl": [
+     "BAA→",
+     "Ik houd 'BAA!' hoog en vlak, als een schaap dat één lange roep doet.",
+     "Haak: BAA met eerste toon: hoog en vlak. Herhaal: BAA. Zin: Ik houd 'BAA!' hoog en vlak, als een schaap dat één lange roep doet. Toonuitleg: de eerste toon begint hoog en blijft op dezelfde hoogte, zonder dalen en zonder stijgen."
+    ],
+    "en": [
+     "BAH→",
+     "I hold 'BAH!' high and flat, like a sheep that will not let the note drop.",
+     "Haak: BAH met eerste toon: hoog en vlak. Herhaal: BAH. Zin: I hold 'BAH!' high and flat, like a sheep that will not let the note drop. Toonuitleg: the first tone starts high and stays level, with no fall and no rise."
+    ],
+    "es": [
+     "PA→",
+     "Grito '¡PA!' alto y plano, como una oveja que no sube ni baja.",
+     "Haak: PA met eerste toon: hoog en vlak. Herhaal: PA. Zin: Grito '¡PA!' alto y plano, como una oveja que no sube ni baja. Toonuitleg: de eerste toon begint hoog en blijft vlak, zonder dalen en zonder stijgen."
+    ]
+   },
+   "beeldhook": "IK spreid mijn armen als de twee gebogen lijnen van <b class=\"rood\">八</b> en houd de klank hoog en vlak, zonder te dalen en zonder te stijgen.",
+   "stop": [
+    1
    ],
-   "_hot": [
+   "anker": "<b>S</b> Bij het Spoorviaduct zie ik twee sporen uit elkaar lopen; aan die plek koppel ik het teken 八.",
+   "scene": "Ik loop het Spoorviaduct op. Onder de bogen splijten twee sporen, links en rechts. Ik zet mijn voeten uit elkaar, houd mijn stem hoog en vlak en roep 'Bā!'. Het metaal zoemt mee op één hoogte. Ik leg een hand op de leuning, voel de trilling en houd nog een keer 'Bā!' aan, even hoog.",
+   "fam": [
+    [
+     "八",
+     "bā",
+     "acht; rondom",
+     "heel teken is het radicaal"
+    ],
+    [
+     "六",
+     "liù",
+     "zes",
+     "deksel boven op dit radicaal"
+    ],
+    [
+     "公",
+     "gōng",
+     "openbaar",
+     "dit radicaal staat boven"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 八 een ideogram. De hint noemt twee gebogen lijnen met de betekenis 'to divide' (verdelen). Het radicaal is 八 zelf. De definitie is 'eight; all around, all sides'. De pinyin is bā. De decompositie in de bron is onbekend, weergegeven als ？. De oude 3.5-kaart geeft pinyin bā, vertaling 'acht' en 'heel radicaal'.",
+   "twijfel": [
+    "De definitie begint bij 'eight', terwijl de etymologiehint 'to divide' is. Of het getal oorspronkelijk is of een latere leenbetekenis, zegt de bron niet.",
+    "De decompositie is ？. De twee lijnen zijn in de bron geen deeltekens met eigen pinyin.",
+    "De glos 'all around, all sides' staat in de bron; de oude 3.5-kaart vertaalt alleen 'acht'.",
+    "De bron noemt het type ideographic, niet een pictogram en niet een leen-teken. Die drie lezingen worden in de vakliteratuur soms uit elkaar gehaald; deze bron kiest ideographic."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "BAA",
+       "hoge vlakke roep"
+      ],
+      [
+       "fluit",
+       "blijft op hoogte"
+      ]
+     ]
     ],
     [
-     "VROUW",
+     "LINKS",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "linker val",
+       "lijn naar links"
+      ],
+      [
+       "verdelen",
+       "ideogram"
+      ]
+     ]
     ],
     [
-     "DRAAD",
+     "RECHTS",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "rechter val",
+       "lijn naar rechts"
+      ],
+      [
+       "radicaal",
+       "het hele teken"
+      ]
+     ]
     ],
     [
-     "PALEIS",
+     "VIADUCT",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "twee sporen",
+       "lopen uiteen"
+      ],
+      [
+       "bogen",
+       "doorgang onder spoor"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "uit elkaar",
+       "verdelen"
+      ],
+      [
+       "getalnaam",
+       "naast rondom"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "bā"
    ],
-   "_beeld_open": [
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
+   "zinnen": [
+    [
+     "今天八月八号。",
+     "Vandaag is het 8 augustus."
+    ],
+    [
+     "他有八个苹果。",
+     "Hij heeft acht appels."
+    ],
+    [
+     "姐姐也有八个。",
+     "Oudere zus heeft er ook acht."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有八个苹果吗？",
+    "b": "我有八个苹果。",
+    "hint": "Heb jij acht appels? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "我有六个苹果。",
+     "我没有苹果。",
+     "今天八月。"
+    ]
+   },
+   "oud": {
+    "actie": "Teken met je vinger twee lijnen die uit elkaar vallen en houd de klank hoog en vlak.",
+    "recallDoe": [
+     "Schrijf het teken groot: eerst de linker val, dan de rechter val.",
+     "Zeg de klank drie keer op exact dezelfde hoogte.",
+     "Wijs twee sporen aan die splitsen en koppel ze aan dit teken.",
+     "Noem het radicaal zonder de Nederlandse glos te gebruiken.",
+     "Zoek in je hoofd twee tekens waarin dit radicaal onderaan staat."
+    ],
+    "recallVragen": [
+     "Hoeveel streken telt het teken, en hoe heten ze in volgorde?",
+     "Welk etymologietype en welke hint geeft de bron?",
+     "Welke twee Engelse betekenissen staan in de definitie?",
+     "Wat doet de eerste toon, en wat doet ze niet?",
+     "Waarom staat de decompositie in de bron als een vraagteken?"
+    ],
+    "plek": "Spoorviaduct"
+   },
+   "slug": "ba",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh (inhoud) · Gemini web QC groen · DeepSeek web QC groen · audio/beelden: OPEN",
+   "radfam": [
+    {
+     "hz": "六",
+     "py": "liù",
+     "nl": "zes",
+     "haak": "亠 boven, 八 onder."
+    },
+    {
+     "hz": "公",
+     "py": "gōng",
+     "nl": "openbaar",
+     "haak": "八 boven, 厶 onder."
+    },
+    {
+     "hz": "共",
+     "py": "gòng",
+     "nl": "samen",
+     "haak": "Onderaan twee uitwaaierende streken als 八."
+    },
+    {
+     "hz": "其",
+     "py": "qí",
+     "nl": "zijn, dat",
+     "haak": "八 als twee poten onder het blok."
+    },
+    {
+     "hz": "具",
+     "py": "jù",
+     "nl": "gereedschap; beschikken",
+     "haak": "八 als twee steunen onder het bovenstuk."
+    },
+    {
+     "hz": "兵",
+     "py": "bīng",
+     "nl": "soldaat",
+     "haak": "八 als twee voeten onder het bovenstuk."
+    }
+   ],
+   "obrien": {
+    "scene": "Onder het spoorviaduct splijt de bedding in twee richtingen. Ik sta in de vork, armen wijd, en houd een hoge vlakke roep 'BĀ!' aan tot de bogen meetrillen.",
+    "klank": "BĀ!",
+    "prompt": "Under a brick railway viaduct at dusk, a person stands in the fork of two splitting tracks with arms spread wide, one steady high shout, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "One high level beam of sound held in a straight glowing line across the sky, drawn illustration, no text.",
+    "a": "A single ink stroke falling down to the left, splitting away from an empty center, drawn illustration, no text.",
+    "b": "A single ink stroke falling down to the right, mirroring the left stroke, drawn illustration, no text.",
+    "paleis": "A brick railway viaduct where two tracks divide under the arches, dusk, drawn illustration, no text.",
+    "link": "Two paths peeling apart like open arms over dark gravel, warm ink illustration, no text.",
+    "klank-s1": "Warm drawn storybook detail: BAA as hoge vlakke roep, single clear exaggerated subject, no text or letters.",
+    "klank-s2": "Warm drawn storybook detail: fluit as blijft op hoogte, single clear exaggerated subject, no text or letters.",
+    "a-s1": "Warm drawn storybook detail: linker val as lijn naar links, single clear exaggerated subject, no text or letters.",
+    "a-s2": "Warm drawn storybook detail: verdelen as ideogram, single clear exaggerated subject, no text or letters.",
+    "b-s1": "Warm drawn storybook detail: rechter val as lijn naar rechts, single clear exaggerated subject, no text or letters.",
+    "b-s2": "Warm drawn storybook detail: radicaal as het hele teken, single clear exaggerated subject, no text or letters.",
+    "paleis-s1": "Warm drawn storybook detail: twee sporen as lopen uiteen, single clear exaggerated subject, no text or letters.",
+    "paleis-s2": "Warm drawn storybook detail: bogen as doorgang onder spoor, single clear exaggerated subject, no text or letters.",
+    "link-s1": "Warm drawn storybook detail: uit elkaar as verdelen, single clear exaggerated subject, no text or letters.",
+    "link-s2": "Warm drawn storybook detail: getalnaam as naast rondom, single clear exaggerated subject, no text or letters."
+   },
+   "fam5": [
+    {
+     "hz": "十八",
+     "py": "shíbā",
+     "nl": "achttien",
+     "deelt": "八",
+     "haak": "八 rechts van 十."
+    },
+    {
+     "hz": "八十",
+     "py": "bāshí",
+     "nl": "tachtig",
+     "deelt": "八",
+     "haak": "八 links van 十."
+    },
+    {
+     "hz": "八月",
+     "py": "bāyuè",
+     "nl": "augustus",
+     "deelt": "八",
+     "haak": "八 links van 月."
+    },
+    {
+     "hz": "八百",
+     "py": "bābǎi",
+     "nl": "achthonderd",
+     "deelt": "八",
+     "haak": "八 links van 百."
+    },
+    {
+     "hz": "八号",
+     "py": "bāhào",
+     "nl": "de achtste; nummer acht",
+     "deelt": "八",
+     "haak": "八 links van 号."
+    },
+    {
+     "hz": "分",
+     "py": "fēn",
+     "nl": "verdelen",
+     "deelt": "八",
+     "haak": "八 boven, 刀 onder."
+    },
+    {
+     "hz": "六",
+     "py": "liù",
+     "nl": "zes",
+     "deelt": "八",
+     "haak": "Punt en 横 als deksel, 八 eronder."
+    }
    ]
   },
   {
@@ -2817,76 +2686,6 @@
      "deelt": "familie",
      "haak": "Opa boven papa."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VADER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KLANKDEEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -3333,6 +3132,297 @@
      "deelt": "百 + 货",
      "haak": "Honderd soorten waren."
     }
+   ]
+  },
+  {
+   "hz": "白",
+   "py": "bái",
+   "nl": "wit, helder",
+   "toon": "2",
+   "streken": {
+    "白": [
+     "撇",
+     "竖",
+     "横折",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">日</b> (zon) in de ontleding · <b class=\"rood\">白</b> (kaarsvlam) ideogram, hele teken is radicaal",
+   "opbouw": "白 = ⿻？日, 5 streken",
+   "klank": "BAI↗",
+   "klankuitleg": "Op bái gaat de tweede toon omhoog: je zet middelhoog in en laat de stem klimmen.",
+   "hooks": {
+    "nl": [
+     "BAAI↗",
+     "Ik roep 'BAAI!' als het pad naar de baai omhoog loopt en mijn stem mee stijgt.",
+     "Haak: BAAI met tweede toon: stijgend. Herhaal: BAAI. Zin: Ik roep 'BAAI!' als het pad naar de baai omhoog loopt en mijn stem mee stijgt. Toonuitleg: de tweede toon begint middelhoog en stijgt, als het pad dat naar de baai omhoog klimt."
+    ],
+    "en": [
+     "BYE↗",
+     "I call 'Bye!' with a voice that lifts upward at the end.",
+     "Haak: BYE met tweede toon: stijgend. Herhaal: BYE. Zin: I call 'Bye!' with a voice that lifts upward at the end. Toonuitleg: the second tone starts mid and rises, like a quick goodbye that climbs."
+    ],
+    "es": [
+     "BAI↗",
+     "Grito '¡Bai!' con una voz que sube de golpe.",
+     "Haak: BAI met tweede toon: stijgend. Herhaal: BAI. Zin: Grito '¡Bai!' con una voz que sube de golpe. Toonuitleg: de tweede toon stijgt vanaf het midden, als een korte roep die omhoog schiet."
+    ]
+   },
+   "beeldhook": "IK zet een brandende kaars in de zonnestralen van <b class=\"rood\">日</b> binnen <b class=\"rood\">白</b>, en roep de klank in de tweede toon: stijgend.",
+   "stop": [
+    6
+   ],
+   "anker": "<b>G</b> Bij de glaswand van de aula zie ik het daglicht door het glas; aan die plek koppel ik het teken 白.",
+   "scene": "Ik sta bij de glaswand van de aula. Helder daglicht valt naar binnen. Op de vensterbank brandt een kaars; de vlam laat een wit schijnsel op het glas. Ik roep met een stijgende stem 'Bái!'. Het glas trilt zacht. Ik volg de witte vlam omhoog en herhaal 'Bái! Bái!' terwijl de toon klimt.",
+   "fam": [
+    [
+     "白",
+     "bái",
+     "wit",
+     "radicaal is het hele teken"
+    ],
+    [
+     "日",
+     "rì",
+     "zon",
+     "genoemd in ⿻？日, niet zelf het radicaal"
+    ],
+    [
+     "百",
+     "bǎi",
+     "honderd",
+     "leshanzi dat het radicaal 白 deelt"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 白 een ideogram (ideographic). De hint luidt: a burning candle; the rays of the sun. Het radicaal is 白. De ontleding is ⿻？日. De bron geeft pinyin bái en de definitie white; clear, pure, unblemished; bright.",
+   "twijfel": [
+    "De hint geeft twee beelden tegelijk: een brandende kaars en de stralen van de zon. De bron wijst geen primair beeld aan.",
+    "De ontleding ⿻？日 laat één deel onbekend; dat deel krijgt hier geen verzonnen teken.",
+    "Sommige glosses geven alleen „wit”; makemeahanzi noemt ook clear, pure, unblemished en bright.",
+    "Het radicaal is het hele teken 白, niet 日, ook al staat 日 in de ontleding.",
+    "泉 lijkt bovenaan op 白 maar heeft radicaal 水; gelijkenis is geen gedeeld radicaal.",
+    "De bronlijst pinyin bevat alleen bái."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "BAAI",
+       "baai-roep"
+      ],
+      [
+       "stijging",
+       "tweede toon"
+      ]
+     ]
+    ],
+    [
+     "ZON",
+     "a",
+     [
+      [
+       "日",
+       "in ontleding"
+      ],
+      [
+       "stralen",
+       "hint noemt zon"
+      ]
+     ]
+    ],
+    [
+     "KAARS",
+     "b",
+     [
+      [
+       "vlam",
+       "brandende kaars"
+      ],
+      [
+       "ideogram",
+       "tweede beeld"
+      ]
+     ]
+    ],
+    [
+     "GLASWAND",
+     "paleis",
+     [
+      [
+       "glaswand",
+       "van de aula"
+      ],
+      [
+       "daglicht",
+       "door het glas"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "kaars plus zon",
+       "beeld voor wit"
+      ],
+      [
+       "radicaal",
+       "hele teken"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "bái"
+   ],
+   "zinnen": [
+    [
+     "牛奶是白的。",
+     "De melk is helemaal wit."
+    ],
+    [
+     "这是白茶。",
+     "Dit is witte thee."
+    ],
+    [
+     "白马很大。",
+     "Het witte paard is groot."
+    ]
+   ],
+   "dialoog": {
+    "a": "牛奶是白的吗？",
+    "b": "牛奶是白的。",
+    "hint": "Is melk wit? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "这是白茶。",
+     "白马很大。",
+     "茶是白的。"
+    ]
+   },
+   "oud": {
+    "actie": "Zet in gedachten een kaars voor een raam en zeg bái met een stem die vanaf het midden omhoog klimt.",
+    "recallDoe": [
+     "Roep BAAI met een duidelijk stijgende stem.",
+     "Noem de vijf streeknamen van 白 in schrijfvolgorde.",
+     "Ga in gedachten naar de glaswand van de aula en zeg daar 白.",
+     "Noem de twee beelden uit de hint, zonder een derde beeld te verzinnen.",
+     "Zeg welk teken in de ontleding bekend is en welk deel ？ blijft."
+    ],
+    "recallVragen": [
+     "Welke definitie geeft makemeahanzi, breder dan alleen wit?",
+     "Waarom zijn kaars en zon allebei in de hint gezet?",
+     "Wat is het radicaal, en waarom is dat niet 日?",
+     "Welke paleisstop draagt 白?",
+     "Waarom hoort 泉 niet in de radicaalfamilie?"
+    ],
+    "plek": "Glaswand aula"
+   },
+   "slug": "bai2",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "白",
+     "py": "bái",
+     "nl": "wit",
+     "haak": "Vijf streken; het hele vak is het radicaal."
+    },
+    {
+     "hz": "百",
+     "py": "bǎi",
+     "nl": "honderd",
+     "haak": "一 als dekstreep boven 白."
+    },
+    {
+     "hz": "的",
+     "py": "de",
+     "nl": "bezitswoord",
+     "haak": "白 links, 勺 rechts."
+    },
+    {
+     "hz": "皇",
+     "py": "huáng",
+     "nl": "keizer",
+     "haak": "白 boven 王."
+    },
+    {
+     "hz": "帛",
+     "py": "bó",
+     "nl": "zijde",
+     "haak": "白 boven doek 巾."
+    },
+    {
+     "hz": "皆",
+     "py": "jiē",
+     "nl": "allen",
+     "haak": "白 onder 比."
+    }
+   ],
+   "obrien": {
+    "scene": "Aan de glaswand van de aula staat een brandende kaars in het binnenvallende zonlicht; een figuur roept 'BÁI!' met stijgende stem, het glas trilt, de vlam beweegt.",
+    "klank": "BÁI!",
+    "prompt": "Beside a tall glass wall in a school hall, a burning candle stands in incoming sunlight, a rising call, glass trembling, flame moving, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A sound wave climbing steadily upward through bright air, drawn illustration, no text.",
+    "a": "Rays bursting outward from a square sun, drawn illustration, no text.",
+    "b": "A single candle flame burning in a quiet room, drawn illustration, no text.",
+    "paleis": "A tall glass wall of a school hall with daylight pouring through, drawn illustration, no text.",
+    "link": "A candle flame standing in front of strong sun rays, both glowing, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "白天",
+     "py": "báitiān",
+     "nl": "overdag",
+     "deelt": "白",
+     "haak": "白 links van 天."
+    },
+    {
+     "hz": "白茶",
+     "py": "báichá",
+     "nl": "witte thee",
+     "deelt": "白",
+     "haak": "白 links van 茶."
+    },
+    {
+     "hz": "白菜",
+     "py": "báicài",
+     "nl": "Chinese kool",
+     "deelt": "白",
+     "haak": "白 links van 菜."
+    },
+    {
+     "hz": "空白",
+     "py": "kòngbái",
+     "nl": "blanco, leeg",
+     "deelt": "白",
+     "haak": "白 rechts van 空."
+    },
+    {
+     "hz": "明白",
+     "py": "míngbai",
+     "nl": "begrijpen",
+     "deelt": "白",
+     "haak": "白 rechts van 明."
+    },
+    {
+     "hz": "蛋白",
+     "py": "dànbái",
+     "nl": "eiwit",
+     "deelt": "白",
+     "haak": "白 rechts van 蛋."
+    },
+    {
+     "hz": "白马",
+     "py": "báimǎ",
+     "nl": "wit paard",
+     "deelt": "白",
+     "haak": "白 links van 马."
+    }
    ],
    "_hot": [
     [
@@ -3342,67 +3432,326 @@
      21.1
     ],
     [
-     "A: EEN",
+     "ZON",
      "a",
      80.6,
      55.7
     ],
     [
-     "B: WIT",
+     "KAARS",
      "b",
      54.3,
      82.4
     ],
     [
-     "PALEIS: GLASWAND AULA",
+     "GLASWAND",
      "paleis",
      22.1,
      64.3
     ],
     [
-     "LINK: HONDERD",
+     "LINK",
      "link",
      28.4,
      26.5
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "_mm_open": [],
+   "_beeld_open": []
+  },
+  {
+   "hz": "班",
+   "py": "bān",
+   "nl": "klas, ploeg, dienst",
+   "toon": "1",
+   "streken": {
+    "班": [
+     "横",
+     "横",
+     "竖",
+     "提",
+     "点",
+     "撇",
+     "横",
+     "横",
+     "竖",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">王</b> (jade, links) betekenisdeel · <b class=\"rood\">刂</b> (mes) betekenisdeel · <b class=\"rood\">王</b> (jade, rechts) betekenisdeel",
+   "opbouw": "班 = 王 4 + 刂 2 + 王 4",
+   "klank": "BAN→",
+   "klankuitleg": "Bān heeft de eerste toon: één hoge noot die van begin tot eind niet buigt, als een fluitsignaal dat blijft hangen.",
+   "hooks": {
+    "nl": [
+     "BAAN→",
+     "Ik fluit 'BAAN!' op één hoge toon die niet omhoog en niet omlaag gaat.",
+     "Haak: BAAN met eerste toon: hoog en vlak. Herhaal: BAAN. Zin: Ik fluit 'BAAN!' op één hoge toon die niet omhoog en niet omlaag gaat. Toonuitleg: de eerste toon blijft van begin tot eind op dezelfde hoogte."
+    ],
+    "en": [
+     "BAHN→",
+     "I whistle 'Bahn!' as one high note that stays level from start to end.",
+     "Haak: BAHN met eerste toon: hoog en vlak. Herhaal: BAHN. Zin: I whistle 'Bahn!' as one high note that stays level from start to end. Toonuitleg: the first tone stays on one high pitch and does not bend."
+    ],
+    "es": [
+     "BAN→",
+     "Silbo '¡Ban!' como una nota alta y plana de principio a fin.",
+     "Haak: BAN met eerste toon: hoog en vlak. Herhaal: BAN. Zin: Silbo '¡Ban!' como una nota alta y plana de principio a fin. Toonuitleg: de eerste toon blijft hoog en vlak, zonder stijging en zonder daling."
+    ]
+   },
+   "beeldhook": "IK zet twee keer <b class=\"rood\">王</b> (jade) met <b class=\"rood\">刂</b> (mes) ertussen en fluit de klank hoog en vlak.",
+   "stop": [
+    10
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "anker": "<b>Z</b> In de Zwevende gymzaal, op de hoge houten vloer onder de ramen, koppel ik 班 aan het zwevende vloervlak.",
+   "scene": "Ik ga de Zwevende gymzaal in. De vloer hangt boven de verdieping eronder, hoog licht valt door de ramen en het hout veert onder mijn schoenen. In elke hand houd ik een stuk jade en ik haal een mes ertussendoor, zodat er twee delen ontstaan. Ik fluit 'Bān!' op één hoogte die niet buigt. De toon blijft hangen zoals de zaal zelf en trilt zacht in de vloer.",
+   "fam": [
+    [
+     "王",
+     "wáng",
+     "jade in dit ideogram",
+     "links en rechts in 班"
+    ],
+    [
+     "刂",
+     "dāo",
+     "mes",
+     "midden van 班"
+    ],
+    [
+     "玉",
+     "yù",
+     "jade",
+     "lijkt op 王, maar met een extra stip"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 班 een ideogram. De hint luidt: een mes 刂 snijdt een stuk jade 王 in tweeën, als beeld voor two classes. Definitie: class, squad, team, work shift. Pinyin: bān. Decompositie: ⿲王刂王. Radicaal: 王.",
+   "twijfel": [
+    "Makemeahanzi noemt 王 in dit ideogram jade. Het losse teken 王 betekent king. De bron werkt die jade-geschiedenis niet verder uit.",
+    "De hint koppelt het beeld aan two classes. De definitie noemt daarnaast squad, team en work shift, zonder één kern te kiezen.",
+    "Het radicaal is 王. De linker jadevorm in tekens als 球 heeft geen stip en eindigt op een 提, en is dus niet dezelfde vorm als de volle 王 in 班.",
+    "Decompositie ⿲王刂王 toont drie delen. De bron zegt niet of de rechter 王 in de oudste vormen al symmetrisch was.",
+    "刂 is de smalle mesvorm. Makemeahanzi geeft geen aparte pinyin voor dat deel, alleen de hint Cutting 刂."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "BAAN",
+       "hoge vlakke fluit"
+      ],
+      [
+       "mond",
+       "één hoogte"
+      ]
+     ]
+    ],
+    [
+     "JADE",
+     "a",
+     [
+      [
+       "linker 王",
+       "vier streken"
+      ],
+      [
+       "rechter 王",
+       "zelfde vorm"
+      ]
+     ]
+    ],
+    [
+     "MES",
+     "b",
+     [
+      [
+       "刂",
+       "twee streken"
+      ],
+      [
+       "snede",
+       "tussen de jades"
+      ]
+     ]
+    ],
+    [
+     "GYMZAAL",
+     "paleis",
+     [
+      [
+       "hoge vloer",
+       "hangt boven verdieping"
+      ],
+      [
+       "hoge ramen",
+       "licht op hout"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "mes snijdt jade",
+       "twee klassen"
+      ],
+      [
+       "ideogram",
+       "radicaal 王"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "bān"
+   ],
+   "zinnen": [
+    [
+     "这个班有二十个人。",
+     "Deze klas heeft twintig mensen."
+    ],
+    [
+     "弟弟在这个班。",
+     "Mijn jongere broer is in deze klas."
+    ],
+    [
+     "我们班有很多人。",
+     "Onze klas heeft veel mensen."
+    ]
+   ],
+   "dialoog": {
+    "a": "这个班有很多人吗？",
+    "b": "这个班有很多人。",
+    "hint": "Heeft deze klas veel mensen? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "这个班很好。",
+     "没有人。",
+     "弟弟在家。"
+    ]
+   },
+   "oud": {
+    "actie": "Houd links en rechts een jade, snijd ze in gedachten met een mes en fluit één vlakke toon.",
+    "recallDoe": [
+     "Schrijf de linker 王: ligger, ligger, staander, ligt.",
+     "Zet 刂 ernaast: punt en afhaal.",
+     "Schrijf de rechter 王 met dezelfde vier streken.",
+     "Zeg de hint: een mes snijdt jade als beeld voor twee klassen.",
+     "Fluit bān hoog en vlak in de Zwevende gymzaal."
+    ],
+    "recallVragen": [
+     "Uit welke drie delen bestaat 班 volgens de decompositie?",
+     "Wat betekent 王 in de hint van makemeahanzi?",
+     "Welke betekenissen geeft de definitie?",
+     "Welk radicaal noemt de bron?",
+     "Hoe zijn de tien streken over de drie delen verdeeld?"
+    ],
+    "plek": "Zwevende gymzaal"
+   },
+   "slug": "ban",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "王",
+     "py": "wáng",
+     "nl": "koning",
+     "haak": "Drie liggers en één staander, geen extra stip."
+    },
+    {
+     "hz": "班",
+     "py": "bān",
+     "nl": "klas, ploeg",
+     "haak": "Volle 王 links en rechts, 刂 in het midden."
+    },
+    {
+     "hz": "玉",
+     "py": "yù",
+     "nl": "jade",
+     "haak": "De 王-vorm plus een stip rechtsonder."
+    },
+    {
+     "hz": "球",
+     "py": "qiú",
+     "nl": "bal",
+     "haak": "Links de smalle jadevorm zonder stip, met een 提 onderaan, rechts 求."
+    },
+    {
+     "hz": "现",
+     "py": "xiàn",
+     "nl": "verschijnen; nu",
+     "haak": "Links de smalle jadevorm zonder stip, met een 提 onderaan, rechts 见."
+    },
+    {
+     "hz": "玩",
+     "py": "wán",
+     "nl": "spelen",
+     "haak": "Links de smalle jadevorm zonder stip, met een 提 onderaan, rechts 元."
+    }
+   ],
+   "obrien": {
+    "scene": "Boven in de hangende gymzaal klieft een mes een blok jade in twee gelijke helften terwijl ik 'Bān!' fluit op één vlakke hoogte. Splinters blijven even in het hoge licht hangen.",
+    "klank": "Bān!",
+    "prompt": "Inside a high suspended gymnasium, a large knife cleaves a green jade block into two equal pieces, splinters hanging in tall window light above a floating wooden floor, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "One high flat whistle above a wooden floor, the note neither rising nor falling, drawn illustration, no text.",
+    "a": "Two jade plaques, each with three horizontal bars and one vertical bar, left and right, drawn illustration, no text.",
+    "b": "A slim knife standing in the gap between two jade plaques, drawn illustration, no text.",
+    "paleis": "A gymnasium hovering above a lower floor, tall windows, light on wooden boards, drawn illustration, no text.",
+    "link": "A knife dividing one jade block into two matching pieces, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "班",
+     "py": "bān",
+     "nl": "klas, ploeg, dienst",
+     "deelt": "班",
+     "haak": "王 links, 刂 midden, 王 rechts."
+    },
+    {
+     "hz": "上班",
+     "py": "shàngbān",
+     "nl": "naar het werk",
+     "deelt": "班",
+     "haak": "上 links, 班 rechts."
+    },
+    {
+     "hz": "下班",
+     "py": "xiàbān",
+     "nl": "einde van de dienst",
+     "deelt": "班",
+     "haak": "下 links, 班 rechts."
+    },
+    {
+     "hz": "班级",
+     "py": "bānjí",
+     "nl": "klasgroep",
+     "deelt": "班",
+     "haak": "班 links, 级 rechts."
+    },
+    {
+     "hz": "班长",
+     "py": "bānzhǎng",
+     "nl": "klashoofd",
+     "deelt": "班",
+     "haak": "班 links, 长 rechts."
+    },
+    {
+     "hz": "航班",
+     "py": "hángbān",
+     "nl": "lijnvlucht",
+     "deelt": "班",
+     "haak": "航 links, 班 rechts."
+    },
+    {
+     "hz": "班车",
+     "py": "bānchē",
+     "nl": "pendelbus",
+     "deelt": "班",
+     "haak": "班 links, 车 rechts."
+    }
    ]
   },
   {
@@ -3689,71 +4038,297 @@
      "deelt": "打",
      "haak": "naald prikt als slag"
     }
+   ]
+  },
+  {
+   "hz": "多",
+   "py": "duō",
+   "nl": "veel, meer",
+   "toon": "1",
+   "streken": {
+    "多": [
+     "撇",
+     "横撇",
+     "点",
+     "撇",
+     "横撇",
+     "点"
+    ]
+   },
+   "delen": "<b class=\"rood\">夕</b> (avond) betekenisdeel · <b class=\"rood\">夕</b> (avond) betekenisdeel",
+   "opbouw": "多 = 夕 3 + 夕 3",
+   "klank": "DUO→",
+   "klankuitleg": "Duō heeft de eerste toon: een hoge, vlakke lijn. Je zet in op die hoogte als een fluit en je blijft daar, zonder dip en zonder klim.",
+   "hooks": {
+    "nl": [
+     "DWO→",
+     "Ik zing 'DWO!' als een hoge fluit die op één hoogte blijft liggen.",
+     "Haak: DWO met eerste toon: hoog en vlak. Herhaal: DWO. Zin: Ik zing 'DWO!' als een hoge fluit die op één hoogte blijft liggen. Toonuitleg: de eerste toon begint hoog en houdt die hoogte vast, zonder daling en zonder stijging."
+    ],
+    "en": [
+     "DWOE→",
+     "I hold 'Dwoe!' like a high whistle that stays on one flat pitch.",
+     "Haak: DWOE met eerste toon: hoog en vlak. Herhaal: DWOE. Zin: I hold 'Dwoe!' like a high whistle that stays on one flat pitch. Toonuitleg: the first tone starts high and stays level, with no fall and no rise."
+    ],
+    "es": [
+     "DUO→",
+     "Grito '¡Duo!' como un silbido alto que se queda plano.",
+     "Haak: DUO met eerste toon: hoog en vlak. Herhaal: DUO. Zin: Grito '¡Duo!' como un silbido alto que se queda plano. Toonuitleg: de eerste toon blijft hoog en vlak, als een roep die niet buigt."
+    ]
+   },
+   "beeldhook": "IK stapel twee keer <b class=\"rood\">夕</b> (avond) tot één teken en houd de klank hoog en vlak, zonder daling en zonder stijging.",
+   "stop": [
+    5
    ],
-   "_hot": [
+   "anker": "<b>K</b> Op het Cruijff-court, bij de stille bal tegen het hek, koppel ik 多 aan de witte lijnen op de grond.",
+   "scene": "Ik loop het Cruijff-court op. Witte lijnen delen de grond in vakken, een bal ligt stil tegen het hek en de wind ruist langs het gaas. Ik leg twee dezelfde avondvormen op elkaar, de ene precies onder de andere. Dan pers ik 'Duō!' als een hoge fluit die op één lijn blijft. Mijn hand blijft waterpas. De toon zakt niet en ik voel de trilling in mijn borst.",
+   "fam": [
+    [
+     "夕",
+     "xī",
+     "avond",
+     "bovenste deel van 多"
+    ],
+    [
+     "夕",
+     "xī",
+     "avond",
+     "onderste deel van 多"
+    ],
+    [
+     "外",
+     "wài",
+     "buiten",
+     "夕 staat links, ter vergelijking"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 多 een ideogram: twee nachten 夕, wat many suggereert. Definitie: much, many, multi-; more than, over. Pinyin: duō. Decompositie: ⿱夕夕. Radicaal: 夕.",
+   "twijfel": [
+    "De hint zegt dat twee nachten many suggereren. Waarom het beeld een nacht is, legt de bron niet uit.",
+    "De definitie dekt much, many, multi- én more than, over. Een glos 'veel' dekt 'meer dan' niet helemaal.",
+    "Het radicaal is 夕. 月 en 歹 lijken soms op 夕, maar dat zijn andere radicalen.",
+    "Makemeahanzi noemt het type ideographic en de decompositie ⿱夕夕. Een klankdragende ontleding staat niet in deze bron.",
+    "Beide delen heten 夕 en hebben dezelfde drie streken. De bron zegt niet of boven en onder in oud schrift verschilden."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "DWO",
+       "hoge vlakke toon"
+      ],
+      [
+       "hand",
+       "blijft waterpas"
+      ]
+     ]
     ],
     [
-     "HAND",
+     "BOVEN",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "夕",
+       "bovenste avond"
+      ],
+      [
+       "drie streken",
+       "schuin dwars punt"
+      ]
+     ]
     ],
     [
-     "SPIJKER",
+     "ONDER",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "夕",
+       "onderste avond"
+      ],
+      [
+       "herhaling",
+       "tweede nacht"
+      ]
+     ]
     ],
     [
-     "METAALGEVEL",
+     "CRUIJFFCOURT",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "witte lijnen",
+       "vakken op grond"
+      ],
+      [
+       "stille bal",
+       "tegen het hek"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "twee nachten",
+       "suggereert veel"
+      ],
+      [
+       "ideogram",
+       "geen klankdeel"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
+   "syl": [
+    "duō"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "zinnen": [
+    [
+     "我有很多苹果。",
+     "Ik heb veel appels."
+    ],
+    [
+     "这个班有很多人。",
+     "Deze klas heeft veel mensen."
+    ],
+    [
+     "姐姐有很多香蕉。",
+     "Mijn oudere zus heeft veel bananen."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有很多苹果吗？",
+    "b": "我有很多苹果。",
+    "hint": "Heb jij veel appels? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "我有苹果。",
+     "苹果很好。",
+     "没有香蕉。"
+    ]
+   },
+   "oud": {
+    "actie": "Stapel twee avondvormen op je hand en zing één hoge toon die vlak blijft.",
+    "recallDoe": [
+     "Schrijf de bovenste 夕: schuin, dwars-schuin, punt.",
+     "Schrijf dezelfde drie streken eronder.",
+     "Wijs de hint aan: twee nachten suggereren veel.",
+     "Zing duō op één hoogte zonder te zakken.",
+     "Sta op het Cruijff-court en leg 多 op een witte lijn."
+    ],
+    "recallVragen": [
+     "Welk radicaal heeft 多?",
+     "Welk etymologietype geeft de bron?",
+     "Wat suggereert de hint van twee 夕?",
+     "Welke glos naast much en many staat in de definitie?",
+     "Hoe beweegt de eerste toon van duō?"
+    ],
+    "plek": "Cruijff-court"
+   },
+   "slug": "duo",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "夕",
+     "py": "xī",
+     "nl": "avond",
+     "haak": "Eén avondvorm: schuin, dwars-schuin, punt."
+    },
+    {
+     "hz": "外",
+     "py": "wài",
+     "nl": "buiten",
+     "haak": "夕 links, 卜 rechts."
+    },
+    {
+     "hz": "多",
+     "py": "duō",
+     "nl": "veel",
+     "haak": "夕 boven op een tweede 夕."
+    },
+    {
+     "hz": "夜",
+     "py": "yè",
+     "nl": "nacht",
+     "haak": "夕 rechtsonder, onder het dak."
+    },
+    {
+     "hz": "梦",
+     "py": "mèng",
+     "nl": "droom",
+     "haak": "夕 onder 林."
+    },
+    {
+     "hz": "够",
+     "py": "gòu",
+     "nl": "genoeg",
+     "haak": "Rechts 多, twee 夕; links 句."
+    }
+   ],
+   "obrien": {
+    "scene": "Midden op de witte courtlijnen stapelen twee nachtboogvormen zich tot een roep 'Duō!' die als een rechte streep in de lucht blijft. De bal bij het hek rolt niet.",
+    "klank": "Duō!",
+    "prompt": "On an outdoor sports court with white grid lines, two crescent night-shapes stack while a flat horizontal sound line hangs in the air, a still ball by a fence, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A single high flat whistle line that does not rise or fall, a level hand beneath it, drawn illustration, no text.",
+    "a": "One evening-crescent shape at the top, three brush marks, drawn illustration, no text.",
+    "b": "The same evening-crescent repeated directly underneath, drawn illustration, no text.",
+    "paleis": "An outdoor court, white lines dividing the ground, a still ball against a fence, drawn illustration, no text.",
+    "link": "Two stacked night-crescents with a crowd of small shapes spilling sideways, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "多么",
+     "py": "duōme",
+     "nl": "hoezeer",
+     "deelt": "多",
+     "haak": "多 links, 么 rechts."
+    },
+    {
+     "hz": "多少",
+     "py": "duōshǎo",
+     "nl": "hoeveel",
+     "deelt": "多",
+     "haak": "多 links, 少 rechts."
+    },
+    {
+     "hz": "好多",
+     "py": "hǎoduō",
+     "nl": "heel veel",
+     "deelt": "多",
+     "haak": "好 links, 多 rechts."
+    },
+    {
+     "hz": "很多",
+     "py": "hěnduō",
+     "nl": "erg veel",
+     "deelt": "多",
+     "haak": "很 links, 多 rechts."
+    },
+    {
+     "hz": "多半",
+     "py": "duōbàn",
+     "nl": "grotendeels; waarschijnlijk",
+     "deelt": "多",
+     "haak": "多 links, 半 rechts."
+    },
+    {
+     "hz": "太多",
+     "py": "tàiduō",
+     "nl": "te veel",
+     "deelt": "多",
+     "haak": "太 links, 多 rechts."
+    },
+    {
+     "hz": "多余",
+     "py": "duōyú",
+     "nl": "overtollig",
+     "deelt": "多",
+     "haak": "多 links, 余 rechts."
+    }
    ]
   },
   {
@@ -4234,76 +4809,6 @@
      "deelt": "多 + 少",
      "haak": "Veel-veel, weinig-weinig."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A: AVOND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B: KLEIN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: CRUIJFF-COURT",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK: HOEVEEL",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -4709,76 +5214,298 @@
      "deelt": "bevat 二",
      "haak": "twee snaren op een viool."
     }
+   ]
+  },
+  {
+   "hz": "二十",
+   "py": "èrshí",
+   "nl": "twintig",
+   "toon": "4-2",
+   "streken": {
+    "二": [
+     "横",
+     "横"
+    ],
+    "十": [
+     "横",
+     "竖"
+    ]
+   },
+   "delen": "<b class=\"rood\">二</b> (twee) betekenisdeel · <b class=\"rood\">十</b> (tien) betekenisdeel",
+   "opbouw": "二十 = 二 2 + 十 2",
+   "klank": "ER↘ SHI↗",
+   "klankuitleg": "Èrshí heeft twee tonen na elkaar. Èr is de vierde toon: een steile val. Shí is de tweede toon: een klim omhoog. Eerst zakken, dan meteen stijgen. Dat is niet de derde toon op één lettergreep.",
+   "hooks": {
+    "nl": [
+     "UR↘ SJIE↗",
+     "Ik roep 'UR SJIE!' als een steile val meteen gevolgd door een stijgende roep.",
+     "Haak: UR SJIE met vierde toon dalend en tweede toon stijgend. Herhaal: UR SJIE. Zin: Ik roep 'UR SJIE!' als een steile val meteen gevolgd door een stijgende roep. Toonuitleg: de vierde toon valt steil omlaag en de tweede toon stijgt meteen daarna."
+    ],
+    "en": [
+     "ARE↘ SHE↗",
+     "I shout 'Are she!' as a steep drop followed at once by a rising call.",
+     "Haak: ARE SHE met vierde toon dalend en tweede toon stijgend. Herhaal: ARE SHE. Zin: I shout 'Are she!' as a steep drop followed at once by a rising call. Toonuitleg: the fourth tone falls steeply, then the second tone rises at once."
+    ],
+    "es": [
+     "ER↘ CHI↗",
+     "Grito '¡Er chi!' como una caída brusca seguida de una llamada que sube.",
+     "Haak: ER CHI met vierde toon dalend en tweede toon stijgend. Herhaal: ER CHI. Zin: Grito '¡Er chi!' como una caída brusca seguida de una llamada que sube. Toonuitleg: de vierde toon valt steil en de tweede toon stijgt meteen daarna, als een roep die eerst zakt en dan klimt."
+    ]
+   },
+   "beeldhook": "IK zet <b class=\"rood\">二</b> (twee liggers) naast <b class=\"rood\">十</b> (kruis) en roep de klank met een steile val en daarna een stijging.",
+   "stop": [
+    2
    ],
-   "_hot": [
+   "anker": "<b>S</b> In het Stationsgebouw, onder de ronde klok boven de doorgang, koppel ik 二十 aan het koude steen van de hal.",
+   "scene": "Ik stap het Stationsgebouw binnen. De hal is hoog, de vloer is koud steen en een ronde klok tikt boven de doorgang. Ik trek met de vlakke hand twee liggers in de lucht, de onderste langer, en daarna een kruis. Mijn stem valt steil op 'Èr!' en klimt meteen op 'Shí!'. De klank kaatst tegen het glas van de deuren. Ik zak door mijn knieën op de val en kom omhoog op de stijging.",
+   "fam": [
+    [
+     "二",
+     "èr",
+     "twee; tweemaal",
+     "linker teken van 二十"
+    ],
+    [
+     "十",
+     "shí",
+     "tien; volledig",
+     "rechter teken van 二十"
+    ],
+    [
+     "一",
+     "yī",
+     "één",
+     "vergelijking in de hint bij 二, geen deel van 二十"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 二 een ideogram: twee evenwijdige lijnen; vergelijk 一 (one) en 三 (three). Definitie: two; twice. Pinyin: èr. Decompositie: ⿱一一. Radicaal: 二. Voor 十 is de etymologie null. Definitie: ten, tenth; complete; perfect. Pinyin: shí. Decompositie: ⿻一丨. Radicaal: 十. Het leswoord 二十 zet deze twee tekens naast elkaar. Een aparte brondefinitie van dat samengestelde woord zit niet in deze gegevens.",
+   "twijfel": [
+    "Makemeahanzi geeft voor 十 etymology null. Een oorsprongsverhaal bij de kruisvorm staat niet in de bron.",
+    "De definitie van 十 noemt ook tenth, complete en perfect, niet alleen ten. Welke glos in 二十 meeklinkt, zegt de bron niet.",
+    "二 wordt glossed als two; twice. De bron beschrijft het samengestelde woord 二十 zelf niet.",
+    "De hint bij 二 vergelijkt 一 en 三. Dat de onderste lijn in de moderne schrijfwijze langer is, is geen aparte etymologische uitspraak in de bron.",
+    "Of 二十 buiten de lezing èrshí nog een andere lezing heeft, bespreekt makemeahanzi hier niet."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "UR SJIE",
+       "val dan stijging"
+      ],
+      [
+       "knieën",
+       "eerst zakken dan rijzen"
+      ]
+     ]
     ],
     [
-     "BOVEN",
+     "TWEE",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "二",
+       "twee liggers"
+      ],
+      [
+       "onderste langer",
+       "moderne vorm"
+      ]
+     ]
     ],
     [
-     "ONDER",
+     "TIEN",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "十",
+       "ligger door staander"
+      ],
+      [
+       "bron zwijgt",
+       "etymologie null"
+      ]
+     ]
     ],
     [
-     "GLASWAND",
+     "STATIONSGEBOUW",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "klok",
+       "boven de doorgang"
+      ],
+      [
+       "hal",
+       "koud steen"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "twee naast tien",
+       "het leswoord"
+      ],
+      [
+       "geen klankdeel",
+       "beide betekenis"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "èr",
+    "shí"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "zinnen": [
+    [
+     "我有二十个苹果。",
+     "Ik heb twintig appels."
+    ],
+    [
+     "这个班有二十个人。",
+     "Deze klas heeft twintig mensen."
+    ],
+    [
+     "弟弟有二十个香蕉。",
+     "Mijn jongere broer heeft twintig bananen."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有二十个苹果吗？",
+    "b": "我有二十个苹果。",
+    "hint": "Heb jij twintig appels? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "姐姐有苹果。",
+     "苹果很好。",
+     "我没有香蕉。"
+    ]
+   },
+   "oud": {
+    "actie": "Trek in de lucht twee liggers en een kruis en laat je stem eerst vallen en dan stijgen.",
+    "recallDoe": [
+     "Schrijf 二: eerst de bovenligger, dan de langere onderligger.",
+     "Schrijf 十: eerst de ligger, dan de staander.",
+     "Zet ze naast elkaar en zeg èr met een steile val.",
+     "Zeg shí meteen daarna met een klim omhoog.",
+     "Loop in gedachten het Stationsgebouw in en leg 二十 op de klok."
+    ],
+    "recallVragen": [
+     "Welke toon heeft èr en welke toon heeft shí?",
+     "Wat is de ideografische hint van 二?",
+     "Welke etymologie geeft makemeahanzi voor 十?",
+     "Hoeveel streken heeft 二 en hoeveel heeft 十?",
+     "Welke glossen naast ten noemt de bron bij 十?"
+    ],
+    "plek": "Stationsgebouw"
+   },
+   "slug": "ershi",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "二",
+     "py": "èr",
+     "nl": "twee",
+     "haak": "Twee liggers alleen; de onderste is langer."
+    },
+    {
+     "hz": "于",
+     "py": "yú",
+     "nl": "in, aan",
+     "haak": "二 boven: twee liggers boven de verticale haak."
+    },
+    {
+     "hz": "云",
+     "py": "yún",
+     "nl": "wolk",
+     "haak": "二 boven: twee liggers boven 厶."
+    },
+    {
+     "hz": "些",
+     "py": "xiē",
+     "nl": "enkele",
+     "haak": "二 onder: twee liggers onder 此."
+    },
+    {
+     "hz": "互",
+     "py": "hù",
+     "nl": "elkaar",
+     "haak": "De liggers van 二 haken in elkaar tot één vorm."
+    },
+    {
+     "hz": "井",
+     "py": "jǐng",
+     "nl": "waterput",
+     "haak": "Twee liggers met twee staanders erdoor."
+    }
+   ],
+   "obrien": {
+    "scene": "Onder de klok in de stationshal donderen twee reusachtige liggers steil naar de tegels en een kruis schiet daarna omhoog. Ik roep 'Èr shí!' en het stof danst mee op val en klim.",
+    "klank": "Èr shí!",
+    "prompt": "Inside a tall station hall, two giant parallel beams drop steeply onto stone tiles and a cross springs upward, dust jumping, a round clock above a passage, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A steep falling sound-stroke then a separate rising curve, knees dropping and lifting, drawn illustration, no text.",
+    "a": "Two parallel horizontal beams, the lower one longer, floating in open air, drawn illustration, no text.",
+    "b": "One horizontal beam crossed by one vertical beam, drawn illustration, no text.",
+    "paleis": "A high station hall, cold stone floor, round clock above a passage, drawn illustration, no text.",
+    "link": "Two horizontal beams standing beside a simple cross, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "二十",
+     "py": "èrshí",
+     "nl": "twintig",
+     "deelt": "二+十",
+     "haak": "二 links, 十 rechts."
+    },
+    {
+     "hz": "十二",
+     "py": "shí'èr",
+     "nl": "twaalf",
+     "deelt": "十+二",
+     "haak": "十 links, 二 rechts."
+    },
+    {
+     "hz": "二月",
+     "py": "èryuè",
+     "nl": "februari",
+     "deelt": "二",
+     "haak": "二 links, 月 rechts."
+    },
+    {
+     "hz": "二手",
+     "py": "èrshǒu",
+     "nl": "tweedehands",
+     "deelt": "二",
+     "haak": "二 links, 手 rechts."
+    },
+    {
+     "hz": "十月",
+     "py": "shíyuè",
+     "nl": "oktober",
+     "deelt": "十",
+     "haak": "十 links, 月 rechts."
+    },
+    {
+     "hz": "十分",
+     "py": "shífēn",
+     "nl": "zeer; volledig",
+     "deelt": "十",
+     "haak": "十 links, 分 rechts."
+    },
+    {
+     "hz": "千",
+     "py": "qiān",
+     "nl": "duizend",
+     "deelt": "十",
+     "haak": "撇 boven op 十."
+    }
    ]
   },
   {
@@ -5068,72 +5795,202 @@
      "deelt": "父",
      "haak": "Grootvader aan vaderskant."
     }
+   ]
+  },
+  {
+   "slug": "gege",
+   "hz": "哥哥",
+   "py": "gēge",
+   "nl": "oudere broer",
+   "toon": "1+0",
+   "streken": {
+    "哥": [
+     "横",
+     "竖",
+     "横折",
+     "横",
+     "竖钩",
+     "横",
+     "竖",
+     "横折",
+     "横",
+     "竖钩"
+    ]
+   },
+   "delen": "<b class=\"rood\">口</b> mond (betekenisradicaal) · <b>丁</b> restcomponent (vorm, geen duidelijke klank) · <b class=\"rood\">口</b> mond (betekenisradicaal) · <b>丁</b> restcomponent (vorm, geen duidelijke klank)",
+   "opbouw": "哥 = 可 5 + 可 5; 哥哥 = 哥 10 + 哥 10",
+   "klank": "GĒ!→ — ge (licht)",
+   "klankuitleg": "1e toon hoog vlak; 2e lettergreep neutraal, kort en licht.",
+   "hooks": {
+    "nl": [
+     "GĒ!→ — ge (licht)",
+     "Mijn bovenmond roept GĒ hoog en vlak; mijn ondermond fluistert ge.",
+     "GĒ... GĒ! →, ge... ge. Mijn bovenmond roept GĒ hoog en vlak; mijn ondermond fluistert ge. 1e toon hoog vlak, 2e lettergreep neutraal licht."
+    ],
+    "en": [
+     "GUH!→ — guh (light)",
+     "My upper mouth shouts GUH high and flat; my lower mouth whispers guh.",
+     "GUH... GUH! →, guh... guh. My upper mouth shouts GUH high and flat; my lower mouth whispers guh. 1st tone high level, 2nd syllable neutral light."
+    ],
+    "es": [
+     "GUE!→ — gue (licht)",
+     "Mi boca superior grita GUE alto y llano; mi boca inferior susurra gue.",
+     "GUE... GUE! →, gue... gue. Mi boca superior grita GUE alto y llano; mi boca inferior susurra gue. 1er tono alto y llano, 2ª sílaba neutra y ligera."
+    ]
+   },
+   "beeldhook": "IK stapel een bovenmond (<b class='rood'>口</b> mond) en een bovenlat (<b>丁</b> restcomponent) op een ondermond (<b class='rood'>口</b> mond) en een onderlat (<b>丁</b> restcomponent): boven roept GĒ, onder antwoordt ge.",
+   "stop": [
+    7
    ],
-   "_hot": [
+   "anker": "<b>7</b> De zittrap is een brede trap die als tribune werkt; op twee naast elkaar liggende treden stapel ik twee monden.",
+   "scene": "Ik zit op de brede zittrap die als tribune werkt. Ik zie twee treden boven elkaar als twee gestapelde monden. Ik hoor hoog en vlak ‘GĒ!’ en daarna zacht ‘ge’. Ik voel de harde trap onder mijn benen en de warme adem in mijn keel. Ik ruik beton, stof en een vleug adem. Ik proef de korte klik van de neutrale toon. Ik beweeg mijn kaak twee keer en stapel de twee monden met mijn handen: boven praat, onder antwoordt.",
+   "fam": [
+    [
+     "弟弟",
+     "dìdi",
+     "jongere broer",
+     "familie: broer"
+    ],
+    [
+     "姐姐",
+     "jiějie",
+     "oudere zus",
+     "familie: oudere sibling"
+    ],
+    [
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "familie: sibling"
+    ]
+   ],
+   "gesch": "哥 is ⿱可可: twee keer 可 boven elkaar; elke 可 bevat 口. De bronhint noemt dit ideografisch: 'One person talking 可 over another 可'. Het teken is geen los pictogram van 'broer'; de verdubbeling 哥哥 is in het moderne Chinees de gewone vorm voor 'oudere broer'.",
+   "twijfel": [
+    "Tweede lettergreep van 哥哥 is neutraal (ge), niet vol 1e toon.",
+    "Pinyin voor de verdubbeling wordt soms als 'gē ge' gespaced; standaard leerkaart: 'gēge'.",
+    "De etymologische hint 'one person talking 可 over another 可' is een interpretatie, geen harde 说文-zekerheid; 哥 is geen eenvoudig pictogram.",
+    "In internet- en fancontext kan 哥哥 ook 'idool/oudere jongen' aanduiden.",
+    "Etymologische hint 'one person talking 可 over another 可' is een interpretatie, geen harde 说文-zekerheid."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "GĒ!→ ge (licht)",
+       "1e hoog vlak + neutraal"
+      ],
+      [
+       "gēge",
+       "twee monden"
+      ]
+     ]
     ],
     [
-     "BIJL",
+     "DEEL A: 哥",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "哥",
+       "10 streken; bovenmond"
+      ],
+      [
+       "口 + 丁",
+       "mond + restcomponent"
+      ]
+     ]
     ],
     [
-     "HAND",
+     "DEEL B: 哥",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "哥",
+       "10 streken; ondermond"
+      ],
+      [
+       "口 + 丁",
+       "mond + restcomponent"
+      ]
+     ]
     ],
     [
-     "PIJLERS",
+     "PALEIS: ZITTRAP",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "brede tribunetrap",
+       "twee treden"
+      ],
+      [
+       "twee monden",
+       "boven praat, onder antwoordt"
+      ]
+     ]
     ],
     [
-     "VADER",
+     "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "GĒ-ge klinkt als twee monden",
+       "klank wordt stapeling"
+      ],
+      [
+       "twee 哥 = oudere broer",
+       "beeld en feit verbonden"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
+   "syl": [
+    "gē",
+    "ge"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
-   ]
+   "zinnen": [
+    [
+     "哥哥没有手机。",
+     "Oudere broer heeft geen mobiele telefoon."
+    ],
+    [
+     "哥哥打电话。",
+     "Oudere broer belt op."
+    ],
+    [
+     "哥哥吃蛋糕。",
+     "Oudere broer eet cake."
+    ]
+   ],
+   "dialoog": {
+    "a": "哥哥吃什么？",
+    "b": "哥哥吃蛋糕。",
+    "hint": "Vraag wat de oudere broer eet; antwoord met een gerecht uit de lesstof.",
+    "fout": [
+     "哥哥吃苹果。",
+     "哥哥吃面包。",
+     "哥哥吃米饭。"
+    ]
+   },
+   "oud": {
+    "actie": "Doe alsof je de oudere broer bent: stapel twee monden en zeg hoog 'GĒ', dan zacht 'ge'.",
+    "recallDoe": [
+     "Teken met je handen twee gestapelde monden.",
+     "Zeg 'GĒ' hoog en vlak, daarna 'ge' kort en zacht.",
+     "Noem het radicaal dat twee keer in 哥 zit.",
+     "Noem het aantal streken van 哥 alleen.",
+     "Zeg klank, beeld en feit in één adem: 'GĒ-ge — twee monden — 10 streken'."
+    ],
+    "recallVragen": [
+     "Welke toon heeft de eerste 哥 en welke de tweede?",
+     "Welk radicaal zit twee keer in 哥?",
+     "Hoeveel streken heeft 哥 alleen?",
+     "Waarom is de bovenste mond in het geheugenbeeld de 'oudere'?",
+     "Wat kan 哥哥 in internettaal nog meer betekenen dan 'oudere broer'?"
+    ],
+    "plek": "Zittrap"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "hao",
@@ -5534,75 +6391,6 @@
      "deelt": "bevat 好 (goed)",
      "haak": "Precies goed, klokslag raak."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KIND",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -5922,76 +6710,6 @@
      "deelt": "姐",
      "haak": "Jonge dame met waaier."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "TAFEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "OUDERE ZUS",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -6404,152 +7122,72 @@
      "deelt": "零 + 下",
      "haak": "Onder nul."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A: REGEN",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B: BEVEL/KLANK",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK: LEEG RONDJE",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
    "slug": "ma",
-   "hz": "妈",
-   "py": "mā",
-   "nl": "mama, moeder",
-   "toon": "1",
+   "hz": "马",
+   "py": "mǎ",
+   "nl": "paard",
+   "toon": "3",
    "streken": {
-    "妈": [
-     "撇点",
-     "撇",
-     "提",
+    "马": [
      "横折",
      "竖折折钩",
      "横"
     ]
    },
-   "delen": "<b class='rood'>女</b> vrouw, betekenisradicaal · <b class='zwart'>马</b> paard, klankcomponent",
-   "opbouw": "妈 = 女 3 + 马 3",
-   "klank": "MĀ→",
-   "klankuitleg": "1e toon: hoog en vlak; de toon blijft gelijk, zonder daling.",
+   "delen": "<b class=\"rood\">马</b> paard, radicaal (hele teken) · geen apart klankdeel",
+   "opbouw": "马 = 马 3",
+   "klank": "MA↘↗",
+   "klankuitleg": "Derde toon: eerst dalen, dan stijgen; klinkt als een paard dat hortend inhoudt.",
    "hooks": {
     "nl": [
-     "MĀ→",
-     "Ik zing MĀ→ hoog en vlak, als een wiegelied dat niet zakt.",
-     "MĀ... MĀ→, mā, hoog en vlak; de toon blijft hangen en daalt niet."
+     "MA!↘↗",
+     "Ik trek de teugels aan: MA!↘↗.",
+     "MA!... MA!... Ik trek de teugels aan. Derde toon: eerst dalen, dan stijgen."
     ],
     "en": [
-     "MAH→",
-     "I sing MAH→ high and flat, like a lullaby that never falls.",
-     "MAH... MAH→, mah, high and flat; the tone stays level, not falling."
+     "MA!↘↗",
+     "I pull the reins: MA!↘↗.",
+     "MA!... MA!... I pull the reins. Third tone: first dip, then rise."
     ],
     "es": [
-     "MĀ→",
-     "Canto MĀ→ alto y plano, como una nana que no baja.",
-     "MĀ... MĀ→, ma, alto y plano; el tono queda nivelado y no cae."
-    ],
-    "nl[1]": "Ik zing MĀ→ hoog en vlak, als een fluittoon die blijft liggen en niet zakt.",
-    "en[1]": "I sing MAH→ high and flat, like a flute tone that stays level and never falls.",
-    "es[1]": "Canto MĀ→ alto y plano, como un tono de flauta que se queda nivelado y no baja."
+     "MAMÁ!↘↗",
+     "Tiro de las riendas: ¡MAMÁ!↘↗.",
+     "MAMÁ!... MAMÁ!... Tiro de las riendas. Tercer tono: primero baja, luego sube."
+    ]
    },
-   "beeldhook": "IK ben de <b class='rood'>女</b> vrouw naast het <b class='zwart'>马</b> paard; ik roep MĀ en het paard houdt zijn manen stil.",
+   "beeldhook": "IK trek de teugels aan en het <b class=\"rood\">马</b>-teken (radicaal, hele teken; geen apart klankdeel) houdt hortend in: MA!↘↗.",
    "stop": [
-    8
+    5
    ],
-   "anker": "<b>8</b> In de aula van het Lorentz Lyceum in Arnhem Zuid staat de vleugel; ik hoor een hoge, vlakke toon boven de snaren.",
-   "scene": "Ik sta bij de vleugel in de aula van het Lorentz Lyceum in Arnhem Zuid. Ik voel de koude toetsen en zie de glanzende vleugel. Ik hoor een hoge, vlakke toon MĀĀĀ boven de snaren hangen. Ik ruik het hout van de vleugel. Ik proef de ronde /a/ op mijn tong. Ik houd mijn hand hoog en stil boven de snaren.",
+   "anker": "<b>5</b> Het Cruijff-court is het kooiveld op het schoolplein; daar trek ik de teugels in.",
+   "scene": "Ik sta op het Cruijff-court, het kooiveld op het schoolplein. Mijn handen houden het leer van de teugels vast. Ik hoor de hoefslag op het kunstgras stoppen. Ik zie het paard naar links schrikken en zijn manen schudden. Ik ruik stof en paardenzweet. Ik proef droge lucht op mijn tong. Ik trek de teugels aan en zeg MA!↘↗.",
    "fam": [
     [
-     "女",
-     "nǚ",
-     "vrouw",
-     "betekenisradicaal in 妈"
-    ],
-    [
-     "马",
-     "mǎ",
-     "paard",
-     "klankcomponent in 妈"
+     "妈",
+     "mā",
+     "mama, moeder",
+     "klank mā (andere toon)"
     ],
     [
      "妈妈",
      "māma",
-     "mama",
-     "verdubbeling van 妈"
+     "mama, moeder",
+     "klank ma"
+    ],
+    [
+     "吗",
+     "ma",
+     "vraagpartikel",
+     "klank ma (licht)"
     ]
    ],
-   "gesch": "妈 is een pictofonetisch teken: links 女 (vrouw) draagt de betekenis, rechts 马 (paard) draagt de klank /ma/. In traditioneel schrift staat 媽 met 馬; de vereenvoudiging maakte 馬 → 马. 女 komt van een gestileerde vrouw, 马 van een gestileerd paard. De eerste opkomst van 妈 als spreektaalvorm is ONBEKEND.",
+   "gesch": "马 is de vereenvoudigde vorm van 馬, een pictografisch teken voor een paard dat naar links galoppeert. De oude vorm beeldde manen, poten en staart af; in de moderne vereenvoudiging blijven drie streken over. De precieze oudste pictografische details zijn deels onbekend.",
    "twijfel": [
-    "Eerste datering van 妈 als spreektaalvorm is ONBEKEND.",
-    "Los 妈 is vaak vocatief; 妈妈 is de standaard voor 'moeder/mama'.",
-    "Traditioneel 媽 vs vereenvoudigd 妈.",
-    "马 is mǎ (toon 3); de klank dekt /ma/, niet toon 1 van mā.",
-    "妈妈 is standaard māma (tweede lettergreep lichttoon); bij nadruk hoor je soms māmā.",
-    "妈打电话 kan ook vocatief zijn: Mama, bel!"
+    "De exacte oudste pictografische details van 馬 zijn niet volledig bekend.",
+    "In de vereenvoudigde vorm is het hele teken radicaal; er is geen apart zwart component."
    ],
    "mm": [
     [
@@ -6557,54 +7195,54 @@
      "klank",
      [
       [
-       "mā",
-       "hoog vlak"
+       "mǎ",
+       "3e toon dal-stijg"
       ],
       [
        "MA!",
-       "niet dalen"
+       "trek teugels in"
       ]
      ]
     ],
     [
-     "VROUW",
+     "A",
      "a",
      [
       [
-       "女",
-       "rood"
+       "马",
+       "paard"
       ],
       [
-       "zwaaien",
-       "bij"
+       "radicaal",
+       "hele teken"
       ]
      ]
     ],
     [
-     "PAARD",
+     "B",
      "b",
      [
       [
-       "马",
-       "zwart"
+       "geen",
+       "apart klankdeel"
       ],
       [
-       "manen",
-       "stil"
+       "pictografie",
+       "gestileerd paard"
       ]
      ]
     ],
     [
-     "VLEUGEL",
+     "PALEIS",
      "paleis",
      [
       [
-       "vleugel",
-       "aula"
+       "Cruijff-court",
+       "kooiveld"
       ],
       [
-       "toon",
-       "hoog"
+       "schoolplein",
+       "hek"
       ]
      ]
     ],
@@ -6613,63 +7251,62 @@
      "link",
      [
       [
-       "klank",
-       "MĀ"
+       "teugels",
+       "inhouden"
       ],
       [
-       "beeld",
-       "vrouw"
+       "mǎ",
+       "paard"
       ]
      ]
     ]
    ],
    "syl": [
-    "mā"
+    "mǎ"
    ],
    "zinnen": [
     [
-     "妈没有手机。",
-     "Mama heeft geen mobiele telefoon."
+     "我没有马。",
+     "Ik heb geen paard."
     ],
     [
-     "妈打电话。",
-     "Mama belt."
+     "马好吗？",
+     "Is het paard goed?"
     ],
     [
-     "妈没有妹妹。",
-     "Mama heeft geen jongere zus."
+     "马是什么？",
+     "Wat is een paard?"
     ]
    ],
    "dialoog": {
-    "a": "妈没有手机？",
-    "b": "妈没有手机。",
-    "hint": "Vraag met 没有; antwoord herhaalt 没有.",
+    "a": "马好吗？",
+    "b": "好。",
+    "hint": "Antwoord met 好: het paard is goed.",
     "fout": [
-     "妈没有弟弟。",
-     "妈打电话。",
-     "妈没有姐姐。"
+     "我没有马。",
+     "马是什么？",
+     "再见。"
     ]
    },
    "oud": {
-    "actie": "Houd je handpalm hoog en zeg MĀ; streel denkbeeldige paardenmanen.",
+    "actie": "Trek denkbeeldig de teugels aan en zeg hardop mǎ.",
     "recallDoe": [
-     "Kijk naar 妈: links 女, rechts 马.",
-     "Zeg mā hoog en vlak, als een wiegelied dat niet zakt.",
-     "Roep MA! en houd je hand hoog stil.",
-     "Noem de radicalen: 女 en 马, beide rood.",
-     "Schrijf in de lucht: 女 3, 马 3, samen 6.",
-     "Zeg hardop: 妈 los is vaak 'Mam!'; 妈妈 is mama."
+     "Teken 马 met je vinger in de lucht en tel de drie streken.",
+     "Zeg mǎ met een dalende en dan stijgende toon.",
+     "Beeld je een paard in dat naar links galoppeert en hortend inhoudt.",
+     "Noem het radicaal en de drie streeknamen hardop.",
+     "Wijs de onderlijn 横 aan en zeg: dit is streek 3."
     ],
     "recallVragen": [
-     "Hoeveel streken heeft 妈 en welke component komt eerst?",
-     "Welke kleur hebben beide componenten en waarom?",
-     "Welke toon gebruik je en hoe blijft die in je lichaam?",
-     "Wat is het verschil tussen 妈 en 妈妈?",
-     "Noem één AI-valkuil bij 妈."
+     "Wat is de pinyin en de toon van 马?",
+     "Hoeveel streken heeft 马 en welke streek is de onderlijn?",
+     "Waarom is 马 een pictografisch teken?",
+     "Wat is het radicaal van 马?",
+     "Waar kan AI-vertaling bij 马 de mist in gaan?"
     ],
-    "plek": "Vleugel"
+    "plek": "Cruijff-court"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · Gemini (audio, beelden, STT) · bronnen: hanzi-writer-data, makemeahanzi",
    "radfam": [
     {
      "hz": "女",
@@ -6786,76 +7423,6 @@
      "deelt": "familieveld",
      "haak": "Opa zwaait naast mama."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "PAARD",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -7182,76 +7749,6 @@
      "deelt": "妈 = moeder",
      "haak": "mama's zus: tante."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "BETEKENIS",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "PAARD",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -7564,76 +8061,6 @@
      "deelt": "妹",
      "haak": "Kleinste zus roept hard."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "NOG NIET",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "JONGERE ZUS",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -8011,77 +8438,193 @@
      "deelt": "关",
      "haak": "poort heeft een link"
     }
+   ]
+  },
+  {
+   "slug": "nai",
+   "hz": "奶",
+   "py": "nǎi",
+   "nl": "melk",
+   "toon": "3",
+   "streken": {
+    "奶": [
+     "撇点",
+     "撇",
+     "横",
+     "横折折折钩",
+     "撇"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw, betekenisdeel · <b>乃</b> klankdeel (nǎi)",
+   "opbouw": "奶 = 女 3 + 乃 2",
+   "klank": "NAI!↘↗",
+   "klankuitleg": "Derde toon: eerst zakken, dan omhoog twijfelen; als een dalende zucht bij warme melk.",
+   "hooks": {
+    "nl": [
+     "NAI!↘↗",
+     "Ik zucht dalend en stijgend: NAI!↘↗.",
+     "NAI!... NAI!... Derde toon: eerst dalen, dan stijgen."
+    ],
+    "en": [
+     "NIGH!↘↗",
+     "I sigh dipping and rising: NIGH!↘↗.",
+     "NIGH!... NIGH!... Third tone: first dip, then rise."
+    ],
+    "es": [
+     "NAI!↘↗",
+     "Suspiro bajando y subiendo: ¡NAI!↘↗.",
+     "NAI!... NAI!... Tercer tono: primero baja, luego sube."
+    ]
+   },
+   "beeldhook": "IK ben de <b class=\"rood\">女</b>-vrouw die een kom schenkt en met een dalende zucht <b>乃</b> (klankdeel) zegt: NAI!↘↗.",
+   "stop": [
+    6
    ],
-   "_hot": [
+   "anker": "<b>6</b> De glaswand van de aula is de grote glazen buitenwand; daarvoor schenk ik melk.",
+   "scene": "Ik sta bij de glaswand van de aula, de grote glazen buitenwand. Ik zie mijn hand met een pak melk weerspiegeld in het glas. Ik hoor de melk in de kom klotsen. Ik ruik lauwe melk. Ik voel de kou van het pak en de warme kom. Ik proef een druppel zoet op mijn lip. Ik zucht dalend en laat mijn stem stijgen: NAI!↘↗.",
+   "fam": [
+    [
+     "牛奶",
+     "niúnǎi",
+     "melk (koeienmelk)",
+     "deelt 奶"
+    ],
+    [
+     "奶奶",
+     "nǎinai",
+     "oma (vaders moeder)",
+     "deelt 奶 (reduplicatie)"
+    ],
+    [
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "deelt 女-radicaal"
+    ]
+   ],
+   "gesch": "奶 is een pictofonetisch teken: 女 is de betekenisradicaal (vrouw/zorg) en 乃 is de klankdrager. De betekenis melk/borst/zogen hangt aan de vrouw; de grootmoederbetekenis komt via reduplicatie 奶奶. Vroege bronnen geven geen volledig beeld van de oudste vormen.",
+   "twijfel": [
+    "De vroege geschiedenis van 奶 is niet volledig bekend.",
+    "奶 alleen is in modern Mandarijn geen neutraal standaardwoord voor melk; 牛奶 is gebruikelijk."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "nǎi",
+       "3e toon dal-stijg"
+      ],
+      [
+       "NAI!",
+       "zucht bij melk"
+      ]
+     ]
     ],
     [
-     "WATER",
+     "A",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "女",
+       "vrouw"
+      ],
+      [
+       "radicaal",
+       "betekenisdeel"
+      ]
+     ]
     ],
     [
-     "POORT",
+     "B",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "乃",
+       "klankdeel"
+      ],
+      [
+       "nǎi",
+       "klankdrager"
+      ]
+     ]
     ],
     [
-     "METAALGEVEL",
+     "PALEIS",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "Glaswand aula",
+       "grote glazen buitenwand"
+      ],
+      [
+       "melk",
+       "kom"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "melk",
+       "schenken"
+      ],
+      [
+       "nǎi",
+       "zucht"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "nǎi"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
-   ]
+   "zinnen": [
+    [
+     "我喝牛奶。",
+     "Ik drink melk."
+    ],
+    [
+     "奶奶好吗？",
+     "Is oma goed?"
+    ],
+    [
+     "我没有牛奶。",
+     "Ik heb geen melk."
+    ]
+   ],
+   "dialoog": {
+    "a": "你喝牛奶吗？",
+    "b": "我喝牛奶。",
+    "hint": "Antwoord met 我喝牛奶: ja, ik drink melk.",
+    "fout": [
+     "我没有牛奶。",
+     "奶奶好吗？",
+     "我喝咖啡。"
+    ]
+   },
+   "oud": {
+    "actie": "Schenk denkbeeldig melk in een kom en zeg zacht dalend nǎi.",
+    "recallDoe": [
+     "Teken 奶 met je vinger en tel de vijf streken.",
+     "Zeg nǎi met een dalende en dan stijgende toon.",
+     "Wijs links 女 aan en zeg: dit is het rode betekenisdeel.",
+     "Wijs rechts 乃 aan en zeg: dit is het zwarte klankdeel.",
+     "Beeld je in dat je melk in een kom schenkt en zucht: nǎi."
+    ],
+    "recallVragen": [
+     "Welke klankhook hoor je hardop bij 奶?",
+     "Welke component is rood en waarom?",
+     "Hoeveel streken heeft 奶 en welke streek is de vierde?",
+     "Waarom zegt modern Mandarijn liever 牛奶 dan 奶 alleen?",
+     "Waar faalt AI-vertaling bij 奶凶 of 小奶狗?"
+    ],
+    "plek": "Glaswand aula"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "niunai",
@@ -8334,67 +8877,198 @@
      "speciaal",
      "radicaal 牛"
     ]
+   ]
+  },
+  {
+   "slug": "nu'er",
+   "hz": "女儿",
+   "py": "nǚ'ér",
+   "nl": "dochter",
+   "toon": "3+2",
+   "streken": {
+    "女": [
+     "撇点",
+     "撇",
+     "横"
+    ],
+    "儿": [
+     "撇",
+     "竖弯钩"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> vrouw/meisje (betekenisradicaal) · <b class=\"rood\">儿</b> kind (betekenisradicaal; hier 'kind', niet specifiek 'zoon')",
+   "opbouw": "女儿 = 女 3 + 儿 2",
+   "klank": "NÜ?↘↗ — ÉR!↗",
+   "klankuitleg": "3e toon daalt en stijgt; 2e toon stijgt.",
+   "hooks": {
+    "nl": [
+     "NÜ?↘↗ — ÉR!↗",
+     "Ik tuit NÜ, zak en kom omhoog; dan springt ÉR omhoog.",
+     "NÜ... NÜ? ↘↗, ÉR... ÉR! ↗. Ik tuit NÜ, zak en kom omhoog; dan springt ÉR omhoog. 3e toon daalt en stijgt, 2e toon stijgt."
+    ],
+    "en": [
+     "NEW?↘↗ — AIR!↗",
+     "I round NEW, dip and rise; then AIR springs up.",
+     "NEW... NEW? ↘↗, AIR... AIR! ↗. I round NEW, dip and rise; then AIR springs up. 3rd tone dips and rises, 2nd tone rises."
+    ],
+    "es": [
+     "NU?↘↗ — EL!↗",
+     "Redondeo NU, bajo y subo; luego EL salta hacia arriba.",
+     "NU... NU? ↘↗, EL... EL! ↗. Redondeo NU, bajo y subo; luego EL salta hacia arriba. 3er tono baja y sube, 2º tono sube."
+    ]
+   },
+   "beeldhook": "IK teken een vrouw (<b class='rood'>女</b> vrouw/meisje) en een kind (<b class='rood'>儿</b> kind) dat omhoog springt.",
+   "stop": [
+    9
    ],
-   "_hot": [
+   "anker": "<b>9</b> Het atrium is het hart van de school met grafische prints op de wanden; op de vloer teken ik een vrouw en een springend kind.",
+   "scene": "Ik teken de vrouw en het kind naast elkaar.",
+   "fam": [
     [
-     "RODE WIP",
-     "klank",
-     64.6,
-     21.1
+     "妈妈",
+     "māma",
+     "mama, moeder",
+     "deelt 女 in 妈"
     ],
     [
-     "RODE OSSEKOP",
-     "a",
-     80.6,
-     55.7
+     "姐姐",
+     "jiějie",
+     "oudere zus",
+     "deelt 女-radicaal"
     ],
     [
-     "VROUW AAN ZEEF",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM MET MELKVLEKKEN",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "RODE DRAAD",
-     "link",
-     28.4,
-     26.5
+     "妹妹",
+     "mèimei",
+     "jongere zus",
+     "deelt 女-radicaal"
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "gesch": "女 is pictografisch: een vrouw opzij gedraaid (bronhint: 'A woman turned to the side'). 儿 is de vereenvoudigde vorm van 兒, een beeld van een kind; vergelijk 人 (bronhint: 'Simplified form of 兒, a picture of a child; compare 人'). In 女儿 draagt 女 'vrouw/meisje' en 儿 'kind', samen 'dochter'.",
+   "twijfel": [
+    "Pinyin met apostrophe: nǚ'ér; zonder apostrophe kan de leesbaarheid verwarren.",
+    "儿 betekent zelf vaak 'zoon/kind' of suffix; in 女儿 is het 'kind', niet 'zoon'.",
+    "De bron geeft voor 女 decomposition '？'; er is geen betrouwbare componentopsplitsing in de bron.",
+    "儿 is vereenvoudigd uit 兒; traditioneel is het woord 女兒."
    ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "NÜ?↘↗ ÉR!↗",
+       "3e dip + 2e stijgend"
+      ],
+      [
+       "nǚ'ér",
+       "vrouw + kind"
+      ]
+     ]
+    ],
+    [
+     "DEEL A: 女",
+     "a",
+     [
+      [
+       "女",
+       "vrouw/meisje; 3 streken"
+      ],
+      [
+       "gedraaide vrouw",
+       "zachte bocht"
+      ]
+     ]
+    ],
+    [
+     "DEEL B: 儿",
+     "b",
+     [
+      [
+       "儿",
+       "kind; 2 streken"
+      ],
+      [
+       "twee springbenen",
+       "丿 + 乚"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: ATRIUM",
+     "paleis",
+     [
+      [
+       "hart van de school",
+       "grafische prints"
+      ],
+      [
+       "vrouw + springend kind",
+       "dochter"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "NÜ-ÉR klinkt als dip en sprong",
+       "klank wordt beweging"
+      ],
+      [
+       "vrouw plus kind = dochter",
+       "beeld en feit verbonden"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "nǚ",
+    "ér"
+   ],
+   "zinnen": [
+    [
+     "女儿没有手机。",
+     "Dochter heeft geen mobiele telefoon."
+    ],
+    [
+     "女儿打电话。",
+     "Dochter belt op."
+    ],
+    [
+     "她是女儿。",
+     "Zij is dochter."
+    ]
+   ],
+   "dialoog": {
+    "a": "女儿打电话吗？",
+    "b": "女儿打电话。",
+    "hint": "Vraag of de dochter opbelt; het juiste antwoord herhaalt 打电话.",
+    "fout": [
+     "女儿没有手机。",
+     "女儿吃蛋糕。",
+     "女儿喝牛奶。"
+    ]
+   },
+   "oud": {
+    "actie": "Doe alsof je de dochter bent: tuit je lippen voor 'NÜ', zak en spring op 'ÉR'.",
+    "recallDoe": [
+     "Teken met je handen links een vrouw en rechts een kind.",
+     "Tuit je lippen voor 'NÜ', zak door je knieën en spring op 'ÉR'.",
+     "Noem de twee rode radicalen van 女儿.",
+     "Noem het aantal streken van 女 en van 儿.",
+     "Zeg klank, beeld en feit in één adem: 'NÜ-ÉR — vrouw + kind — 5 streken'."
+    ],
+    "recallVragen": [
+     "Welke toon heeft 女 en welke 儿?",
+     "Waarom is 女儿 niet 'vrouwelijke zoon'?",
+     "Hoeveel streken heeft 女儿 samen?",
+     "Welke twee radicalen zijn hier rood?",
+     "Wat is het verschil tussen 女儿 en 儿子?"
+    ],
+    "plek": "Atrium"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "nu",
@@ -8779,83 +9453,13 @@
      "deelt": "女 = vrouw",
      "haak": "vrouw plus koning: koningin."
     }
-   ],
-   "_hot": [
-    [
-     "AFWENDEN",
-     "a",
-     64.6,
-     21.1
-    ],
-    [
-     "ARMEN",
-     "b",
-     80.6,
-     55.7
-    ],
-    [
-     "KLANK",
-     "klank",
-     54.3,
-     82.4
-    ],
-    [
-     "SPIEGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
    "slug": "qiyue",
    "hz": "七月",
    "py": "qīyuè",
-   "nl": "juli (de zevende maand)",
+   "nl": "juli",
    "toon": "1+4",
    "streken": {
     "七": [
@@ -8894,8 +9498,8 @@
    "stop": [
     6
    ],
-   "anker": "<b>6</b> De glaswand van de aula is een grote glazen buitenwand; door dat glas zie ik de maan boven de donkere buitenkant van de school.",
-   "scene": "Ik sta bij de grote glaswand van de aula en kijk naar buiten. Ik zie de maan door het glas en zeven kleine maantjes als gloeiende munten op de vensterbank. Ik hoor mijn mes heel hoog sissen: tsjie-tsjie-tsjie. Ik voel de kou van het glas tegen mijn voorhoofd en de harde rand van de vensterbank. Ik ruik schoon glas en een vleug metaal van de snede. Ik proef de bittere nachtlucht en de zoete maan als een koude munt op mijn tong. Ik snijd zeven snelle halen in de lucht en trek de maan met een diepe val naar beneden: TSJIE-JU!",
+   "anker": "<b>6</b> De glaswand van de schoolaula is een grote glazen buitenwand; door dat glas zie ik de maan boven de donkere buitenkant van de school.",
+   "scene": "Ik sta bij de grote glaswand van de schoolaula en kijk naar buiten. Ik zie de maan door het glas en zeven kleine maantjes als gloeiende munten op de vensterbank. Ik hoor mijn mes heel hoog sissen: tsjie-tsjie-tsjie. Ik voel de kou van het glas tegen mijn voorhoofd en de harde rand van de vensterbank. Ik ruik schoon glas en een vleug metaal van de snede. Ik proef de bittere nachtlucht en de zoete maan als een koude munt op mijn tong. Ik snijd zeven snelle halen in de lucht en trek de maan met een diepe val naar beneden: TSJIE-JU!",
    "fam": [
     [
      "上个月",
@@ -8918,8 +9522,9 @@
    ],
    "gesch": "七 is al vroeg als getal ‘zeven’ gebruikt; de vorm wordt in verband gebracht met een oud teken voor een snede of doorgesneden stuk. 月 is pictografisch: een halve maan, en betekent ‘maan’ en ‘maand’. 七月 volgt het productieve patroon getal + 月 voor maandnamen: de zevende maand, juli.",
    "twijfel": [
-    "七月 kan zowel ‘juli’ als ‘zevende maand’ betekenen; context beslist.",
-    "Pinyin wordt soms met spatie geschreven: qī yuè."
+    "七月 kan ‘juli’ of ‘zevende maand’ betekenen; context beslist.",
+    "Pinyin wordt soms met spatie geschreven: qī yuè.",
+    "De Nederlandse vertaling is kort ‘juli’; ‘de zevende maand’ is uitleg, geen tweede vertaling."
    ],
    "mm": [
     [
@@ -9029,18 +9634,32 @@
      "Teken 月: 撇, 横折钩, 横, 横.",
      "Roep ‘TSJIE-JU!’ en beeld je zeven manen in.",
      "Noem de radicalen: 一 en 月.",
-     "Schrijf 七月 op zonder voorbeeld."
+     "Schrijf 七月 op zonder voorbeeld.",
+     "Wijs in de glaswandscène de zeven manen en de sikkel aan.",
+     "Fluister qī vlak hoog; laat yuè scherp dalen.",
+     "Noem één familielid met 月: 上个月.",
+     "Noem nog een familielid met 月: 这个月.",
+     "Noem nog een familielid met 月: 下个月.",
+     "Lees de voorbeeldzin ‘七月，我打电话。’ hardop.",
+     "Lees ‘七月，我们学习中文。’ hardop.",
+     "Lees ‘七月，他回家。’ hardop."
     ],
     "recallVragen": [
      "Hoeveel streken heeft 七 en hoeveel 月?",
      "Welke streeknamen hoor je bij 月?",
      "Wat betekent 七月?",
      "Waarom is 七月 een regelmatige maandnaam?",
-     "Welke klank gebruik je voor de 4e toon van 月?"
+     "Welke klank gebruik je voor de 4e toon van 月?",
+     "Welk getal zit in 七月?",
+     "Welk teken betekent ‘maan/maand’?",
+     "Noem de drie familiewoorden met 月.",
+     "Hoe zeg je ‘in juli’ met 七月?",
+     "Wat is de toon van qī en wat is de toon van yuè?"
     ],
     "plek": "Glaswand aula"
    },
    "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
+   "plek": "Schoolaula",
    "radfam": [
     {
      "hz": "朋友",
@@ -9052,7 +9671,7 @@
      "hz": "有",
      "py": "yǒu",
      "nl": "hebben",
-     "haak": "Onder de maan hangt een hand: hebben."
+     "haak": "Hand boven de maan: hebben."
     },
     {
      "hz": "服",
@@ -9064,19 +9683,19 @@
      "hz": "期",
      "py": "qī",
      "nl": "periode",
-     "haak": "Maan links, tijdperk erbij: periode."
+     "haak": "其 links, maan rechts: periode."
     },
     {
-     "hz": "腿",
-     "py": "tuǐ",
-     "nl": "been",
-     "haak": "Maan als vlees: het been."
+     "hz": "望",
+     "py": "wàng",
+     "nl": "hopen",
+     "haak": "Maan rechtsboven, koning eronder: hopen."
     },
     {
-     "hz": "脸",
-     "py": "liǎn",
-     "nl": "gezicht",
-     "haak": "Maan als vlees: gezicht."
+     "hz": "朗",
+     "py": "lǎng",
+     "nl": "helder",
+     "haak": "Maan rechts: helder."
     }
    ],
    "obrien": {
@@ -9114,7 +9733,7 @@
      "py": "qīshí",
      "nl": "zeventig",
      "deelt": "七",
-     "haak": "Zeven boven tien: zeventig."
+     "haak": "Zeven maal tien, zij aan zij: zeventig."
     },
     {
      "hz": "十七",
@@ -9144,76 +9763,6 @@
      "deelt": "月",
      "haak": "Maan plus deel: maand als eenheid."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 七",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 月",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: GLASWAND AULA",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -9633,76 +10182,299 @@
      "deelt": "bevat 三",
      "haak": "drie lagen brood bij elkaar."
     }
+   ]
+  },
+  {
+   "hz": "三十",
+   "py": "sānshí",
+   "nl": "dertig",
+   "toon": "1-2",
+   "streken": {
+    "三": [
+     "横",
+     "横",
+     "横"
+    ],
+    "十": [
+     "横",
+     "竖"
+    ]
+   },
+   "delen": "<b class=\"rood\">三</b> (drie) ideogram, radicaal 一 · <b class=\"rood\">十</b> (tien; compleet) radicaal 十, etymologie niet gegeven",
+   "opbouw": "三十 = 三 3 + 十 2",
+   "klank": "SAN→ SHI↗",
+   "klankuitleg": "三 heeft de eerste toon: hoog en vlak, zonder dalen of stijgen. 十 heeft de tweede toon: vanuit het midden omhoog, als een klimmende vraag. In 三十 blijven die twee tonen zo. Er is hier geen toonsandhi. De pinyin is sānshí.",
+   "hooks": {
+    "nl": [
+     "SAAN→SJÉR↗",
+     "Ik fluit 'SAAN-SJÉR!': de eerste noot blijft hoog en vlak, de tweede klimt.",
+     "Haak: SAAN-SJÉR met eerste toon en tweede toon: eerst hoog en vlak, daarna stijgen. Herhaal: SAAN-SJÉR. Zin: Ik fluit 'SAAN-SJÉR!': de eerste noot blijft hoog en vlak, de tweede klimt. Toonuitleg: de eerste toon blijft hoog en vlak; de tweede toon begint middelhoog en stijgt."
+    ],
+    "en": [
+     "SAHN→SHR↗",
+     "I whistle 'SAHN-SHR!': the first note stays high and flat, the second climbs.",
+     "Haak: SAHN-SHR met eerste toon en tweede toon: eerst hoog en vlak, daarna stijgen. Herhaal: SAHN-SHR. Zin: I whistle 'SAHN-SHR!': the first note stays high and flat, the second climbs. Toonuitleg: the first tone stays high and level; the second tone starts mid and rises."
+    ],
+    "es": [
+     "SAN→SHR↗",
+     "Grito '¡San-shr!': la primera nota queda alta y plana, la segunda sube.",
+     "Haak: SAN-SHR met eerste toon en tweede toon: eerst hoog en vlak, daarna stijgen. Herhaal: SAN-SHR. Zin: Grito '¡San-shr!': la primera nota queda alta y plana, la segunda sube. Toonuitleg: de eerste toon blijft hoog en vlak; de tweede toon stijgt vanuit het midden."
+    ]
+   },
+   "beeldhook": "IK leg <b class=\"rood\">三</b> (drie evenwijdige lijnen) links van <b class=\"rood\">十</b> (kruis) en roep de eerste lettergreep hoog en vlak, de tweede stijgend.",
+   "stop": [
+    4
    ],
-   "_hot": [
+   "anker": "<b>L</b> Op de metalen gevel van het Lorentz zie ik drie horizontale banden en een kruisnaad; aan die plek koppel ik het woord 三十.",
+   "scene": "Ik sta voor de metalen gevel van het Lorentz. Drie banden lopen evenwijdig over het staal, en een kruisnaad vat ze samen. Ik klop de banden en houd mijn stem hoog en vlak. Bij de naad laat ik de stem klimmen. Het staal zoemt na. Mijn vingertoppen zijn koud, en ik zeg het woord nog eens: vlak, en dan omhoog.",
+   "fam": [
+    [
+     "三",
+     "sān",
+     "drie",
+     "drie evenwijdige lijnen"
+    ],
+    [
+     "十",
+     "shí",
+     "tien",
+     "horizontale lijn kruist een staaf"
+    ],
+    [
+     "千",
+     "qiān",
+     "duizend",
+     "schuine streek leunt op het kruis"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 三 een ideogram: drie evenwijdige lijnen, te vergelijken met 一 (one) en 二 (two). Radicaal: 一. Definitie: 'three'. Pinyin: sān. Decompositie: ⿱一二, dus 一 boven 二. Voor 十 geeft dezelfde bron geen etymologie (null). Decompositie: ⿻一丨, een 一 die een 丨 kruist. Radicaal: 十. Definitie: 'ten, tenth; complete; perfect'. Pinyin: shí. 三十 is de samenstelling: drie tientallen, dertig. Het woord als geheel heeft geen eigen makemeahanzi-ingang in de bron. Een oude 3.5-invulling is leeg.",
+   "twijfel": [
+    "De etymologie van 十 is null. Alleen de vorm ⿻一丨 en de glossen ten, tenth, complete en perfect zijn gegeven. Een oorsprongsverhaal over een knoop of een naald staat niet in deze bron.",
+    "'Complete; perfect' staat bij de definitie, niet bij de etymologie. Of dat een oude kernbetekenis is, zegt de bron niet.",
+    "De hint bij 三 noemt drie evenwijdige lijnen en de vergelijking met 一 en 二. Een lezing hemel-aarde-mens staat niet in deze bron.",
+    "De volgorde draagt de waarde: 三十 is drie tientallen, 十三 is een ander woord. De bron geeft de tekens apart, niet deze rekenregel.",
+    "三 hoort bij radicaal 一 en 十 bij radicaal 十. Het woord heeft dus twee radicalen, niet één."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "SAAN-SJÉR",
+       "vlak dan stijgend"
+      ],
+      [
+       "geen sandhi",
+       "toon een twee"
+      ]
+     ]
     ],
     [
-     "BOVENTREDE",
+     "DRIE",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "drie lijnen",
+       "evenwijdig"
+      ],
+      [
+       "vergelijk een",
+       "en twee"
+      ]
+     ]
     ],
     [
-     "ONDERTREDE",
+     "TIEN",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "kruisvorm",
+       "een door staaf"
+      ],
+      [
+       "compleet",
+       "glos naast getal"
+      ]
+     ]
     ],
     [
-     "ATRIUM",
+     "GEVEL",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "drie banden",
+       "horizontaal metaal"
+      ],
+      [
+       "kruisnaad",
+       "op het staal"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "drie tientallen",
+       "dertig"
+      ],
+      [
+       "volgorde telt",
+       "anders dertien"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "sān",
+    "shí"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "zinnen": [
+    [
+     "他有三十个苹果。",
+     "Hij heeft dertig appels."
+    ],
+    [
+     "我也有三十个。",
+     "Ik heb er ook dertig."
+    ],
+    [
+     "姐姐没有三十个苹果。",
+     "Oudere zus heeft geen dertig appels."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有三十个苹果吗？",
+    "b": "我有三十个苹果。",
+    "hint": "Heb jij dertig appels? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "我有十个苹果。",
+     "我有三个苹果。",
+     "我没有苹果。"
+    ]
+   },
+   "oud": {
+    "actie": "Teken drie evenwijdige lijnen en een kruis ernaast, en laat de tweede klank omhoog lopen.",
+    "recallDoe": [
+     "Schrijf drie horizontale streken van boven naar beneden.",
+     "Schrijf het kruis: eerst de horizontale streek, dan de verticale.",
+     "Zeg de eerste lettergreep vlak en de tweede klimmend.",
+     "Zet de twee tekens in omgekeerde volgorde en zeg welk getal dat dan is.",
+     "Noem het radicaal van elk teken."
+    ],
+    "recallVragen": [
+     "Welke hint geeft de bron bij de drie lijnen, en waarmee vergelijkt ze die?",
+     "Wat staat er bij de etymologie van het kruisteken?",
+     "Welke glossen geeft de bron bij dat kruisteken naast het getal?",
+     "Waarom verandert de waarde als de twee tekens van plaats wisselen?",
+     "Wat is het verschil tussen de twee radicalen in dit woord?"
+    ],
+    "plek": "Metalen gevel Lorentz"
+   },
+   "slug": "sanshi",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "千",
+     "py": "qiān",
+     "nl": "duizend",
+     "haak": "Een 撇 leunt op 十."
+    },
+    {
+     "hz": "午",
+     "py": "wǔ",
+     "nl": "middag",
+     "haak": "Een 撇 boven een kruis als 十."
+    },
+    {
+     "hz": "升",
+     "py": "shēng",
+     "nl": "stijgen",
+     "haak": "Lange 撇 links van een kruis."
+    },
+    {
+     "hz": "半",
+     "py": "bàn",
+     "nl": "half",
+     "haak": "Twee punten boven, onderaan een kruis als 十."
+    },
+    {
+     "hz": "协",
+     "py": "xié",
+     "nl": "samenwerken",
+     "haak": "十 links, 办 rechts."
+    },
+    {
+     "hz": "博",
+     "py": "bó",
+     "nl": "uitgebreid; geleerd",
+     "haak": "十 links, 尃 rechts."
+    }
+   ],
+   "obrien": {
+    "scene": "Op de metalen gevel liggen drie horizontale banden over een kruisnaad. Ik klop de banden vlak en laat bij de naad een klimmende roep los: 'SĀN SHÍ!'. Het staal zoemt na onder mijn hand.",
+    "klank": "SĀNSHÍ!",
+    "prompt": "A person taps three long horizontal bands on a cool metal facade, then a cross-shaped joint, one level call followed by a rising call, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A level horn-streak held high, then a second streak climbing upward, motion lines, drawn illustration, no text.",
+    "a": "Three parallel horizontal ink bars stacked with even gaps, drawn illustration, no text.",
+    "b": "One horizontal brushstroke crossed by one vertical brushstroke, ink on paper, drawn illustration, no text.",
+    "paleis": "A modern metal facade with three long horizontal bands and one cross-shaped joint, drawn illustration, no text.",
+    "link": "Three even stacks bound by a single cross-shaped tally, warm illustration, no numerals, no text."
+   },
+   "fam5": [
+    {
+     "hz": "三十",
+     "py": "sānshí",
+     "nl": "dertig",
+     "deelt": "三+十",
+     "haak": "三 links, 十 rechts."
+    },
+    {
+     "hz": "十三",
+     "py": "shísān",
+     "nl": "dertien",
+     "deelt": "三",
+     "haak": "十 links, 三 rechts."
+    },
+    {
+     "hz": "三百",
+     "py": "sānbǎi",
+     "nl": "driehonderd",
+     "deelt": "三",
+     "haak": "三 links van 百."
+    },
+    {
+     "hz": "三千",
+     "py": "sānqiān",
+     "nl": "drieduizend",
+     "deelt": "三",
+     "haak": "三 links van 千."
+    },
+    {
+     "hz": "三月",
+     "py": "sānyuè",
+     "nl": "maart",
+     "deelt": "三",
+     "haak": "三 links van 月."
+    },
+    {
+     "hz": "二十",
+     "py": "èrshí",
+     "nl": "twintig",
+     "deelt": "十",
+     "haak": "十 rechts van 二."
+    },
+    {
+     "hz": "十",
+     "py": "shí",
+     "nl": "tien",
+     "deelt": "十",
+     "haak": "Horizontaal kruist verticaal."
+    }
    ]
   },
   {
@@ -10005,77 +10777,684 @@
      "deelt": "班/dienst",
      "haak": "Tegenpool: dienst uit."
     }
+   ]
+  },
+  {
+   "slug": "shanggeyue",
+   "hz": "上个月",
+   "py": "shàng ge yuè",
+   "nl": "vorige maand",
+   "toon": "4+0+4",
+   "streken": {
+    "上": [
+     "竖",
+     "横",
+     "横"
+    ],
+    "个": [
+     "撇",
+     "竖",
+     "捺"
+    ],
+    "月": [
+     "撇",
+     "横折钩",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">上</b> boven/vorige · <b>个</b> maatwoord · <b>月</b> maan/maand",
+   "opbouw": "上 = ⺊ 2 + 一 1 · 个 = 人 2 + 丨 1 · 月 = 冂 2 + 二 2",
+   "klank": "SJANG↘-guh(licht)-JUÉ↘",
+   "klankuitleg": "4e toon scherp dalend, neutrale ge kort en licht, 4e toon opnieuw scherp dalend.",
+   "hooks": {
+    "nl": [
+     "SJANG↘-guh(licht)-JUÉ↘",
+     "Roep verbaasd SJANG, mompel guh en laat JUÉ scherp vallen.",
+     "SJANG... SJANG... guh... JUÉ... Roep verbaasd SJANG, mompel guh en laat JUÉ scherp vallen. Toon: eerste en laatste scherp dalend, middelste kort en licht."
+    ],
+    "en": [
+     "SHANG↘-guh(licht)-YWEH↘",
+     "Bark SHANG, whisper guh, then drop YWEH sharply.",
+     "SHANG... SHANG... guh... YWEH... Bark SHANG, whisper guh, then drop YWEH sharply. Tone: sharp falls on the first and last, short light middle."
+    ],
+    "es": [
+     "SHANG↘-guh(licht)-YUE↘",
+     "Grita SHANG, susurra guh y deja caer YUE seco.",
+     "SHANG... SHANG... guh... YUE... Grita SHANG, susurra guh y deja caer YUE seco. Tono: caída fuerte al inicio y al final, medio breve y suave."
+    ]
+   },
+   "beeldhook": "IK zet mijn hand boven mijn hoofd, scheur één kalenderblad terug en wijs de vorige maan aan, waarbij <b class=\"rood\">上</b> boven/terugwijst, <b>个</b> het maatwoordblaadje is en <b>月</b> de maan/maand.",
+   "stop": [
+    9
    ],
-   "_hot": [
+   "anker": "<b>9</b> In het atrium van het Lorentz Lyceum hangen de grafische prints op de wanden.",
+   "scene": "Ik sta in het atrium van het Lorentz Lyceum en zie de grafische prints op de wanden. Ik hoor papier scheuren: tsjèk. Ik voel de koude rand van de kalender tussen mijn vingers. Ik ruik oud papier en inkt. Ik proef een droge kalkkorrel op mijn tong. Ik zie de maan achter de kalender terugzakken. Ik brul SJANG-guh-JUÉ! en wijs de vorige maand aan.",
+   "fam": [
+    [
+     "上",
+     "shàng",
+     "boven; vorige",
+     "deelt 上"
+    ],
+    [
+     "月",
+     "yuè",
+     "maan; maand",
+     "deelt 月"
+    ],
+    [
+     "下个月",
+     "xià ge yuè",
+     "volgende maand",
+     "deelt 个月"
+    ]
+   ],
+   "gesch": "上 is ideografisch: een streep boven een basislijn = boven/op/vorige. 个 begon als een streepje dat personen telde en werd later een algemeen maatwoord. 月 is pictografisch: een maansikkel, met de betekenissen maan en maand. 上个月 is een moderne, doorzichtige chunk: 上 'vorige' + 个 (maatwoord) + 月 'maand'.",
+   "twijfel": [
+    "De toon van 个 is neutraal; soms wordt hij in pinyin apart als 'ge' zonder toonteken geschreven.",
+    "De streekvolgorde van 上 begint met de verticale streek; sommige leerders denken ten onrechte dat de onderste horizontale streek eerst komt.",
+    "个 is hier een maatwoord en betekent niet los 'stuk' of 'individu'."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "SJANG↘-guh-JUÉ↘",
+       "drie klankstoten"
+      ],
+      [
+       "4 + 0 + 4",
+       "scherp, licht, scherp"
+      ]
+     ]
     ],
     [
      "DEEL A: 上",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "上",
+       "boven/vorige"
+      ],
+      [
+       "3 streken",
+       "⺊ + 一"
+      ]
+     ]
     ],
     [
-     "DEEL B: 班",
+     "DEEL B: 月",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "月",
+       "maan/maand"
+      ],
+      [
+       "4 streken",
+       "sikkel"
+      ]
+     ]
     ],
     [
-     "PALEIS: ZITTRAP",
+     "PALEIS: ATRIUM",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "kalender",
+       "tussen prints"
+      ],
+      [
+       "vorige maan",
+       "terugwijzen"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "hand boven hoofd",
+       "scheur terug"
+      ],
+      [
+       "10 streken",
+       "3 + 3 + 4"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "shàng",
+    "ge",
+    "yuè"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "zinnen": [
+    [
+     "上个月我没有手机。",
+     "Vorige maand had ik geen mobiele telefoon."
+    ],
+    [
+     "上个月我打电话。",
+     "Vorige maand belde ik op."
+    ],
+    [
+     "上个月我没有上班。",
+     "Vorige maand ging ik niet naar het werk."
+    ]
+   ],
+   "dialoog": {
+    "a": "你上个月上班吗？",
+    "b": "我上个月没有上班。",
+    "hint": "Antwoord met 没有 + werkwoord.",
+    "fout": [
+     "我上个月上班。",
+     "我上个月没有手机。",
+     "我上个月打电话。"
+    ]
+   },
+   "oud": {
+    "actie": "Ik scheur één kalenderblad terug en wijs de vorige maan aan.",
+    "recallDoe": [
+     "Zeg hardop shàng ge yuè en laat je stem bij shàng en yuè scherp dalen.",
+     "Houd je hand boven je hoofd en wijs naar beneden bij shàng.",
+     "Scheur denkbeeldig één kalenderblad terug en zeg ge.",
+     "Wijs de maan aan en zeg yuè met een dalende toon.",
+     "Schrijf 上个月 in de lucht en noem 10 streken."
+    ],
+    "recallVragen": [
+     "Wat betekent 上个月?",
+     "Hoeveel streken heeft 上个月 in totaal?",
+     "Welke radicalen zie je in 上, 个 en 月?",
+     "Welke toon heeft shàng en welke heeft yuè?",
+     "Waarom is 个 hier een maatwoord en geen 'stuk'?"
+    ],
+    "plek": "Atrium"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
+  },
+  {
+   "hz": "少",
+   "py": "shǎo",
+   "nl": "weinig, minder",
+   "toon": "3",
+   "streken": {
+    "少": [
+     "竖",
+     "撇",
+     "点",
+     "撇"
+    ]
+   },
+   "delen": "<b class=\"rood\">小</b> (klein) klank- en betekenisdeel · <b class=\"rood\">丿</b> (schuine streep) vormdeel",
+   "opbouw": "少 = 小 3 + 丿 1",
+   "klank": "SHAO↘↗",
+   "klankuitleg": "Op shǎo daalt de derde toon eerst en veert daarna terug omhoog; de stem maakt een klein dal.",
+   "hooks": {
+    "nl": [
+     "SJAUW↘↗",
+     "Ik roep 'SJAUW!' bij een zware tas, met een stem die zakt en dan stijgt.",
+     "Haak: SJAUW met derde toon: eerst dalen, dan stijgen. Herhaal: SJAUW. Zin: Ik roep 'SJAUW!' bij een zware tas, met een stem die zakt en dan stijgt. Toonuitleg: de derde toon begint laag, zakt nog iets, en stijgt dan omhoog als je de tas eindelijk neerzet."
+    ],
+    "en": [
+     "SHAW↘↗",
+     "I yell 'Shaw!' when the path dips down and then climbs back up.",
+     "Haak: SHAW met derde toon: eerst dalen, dan stijgen. Herhaal: SHAW. Zin: I yell 'Shaw!' when the path dips down and then climbs back up. Toonuitleg: the third tone starts low, dips lower, then rises as the path climbs out of a dip."
+    ],
+    "es": [
+     "SAU↘↗",
+     "Grito '¡Sau!' al soltar un saco pesado, con la voz que baja y luego sube.",
+     "Haak: SAU met derde toon: eerst dalen, dan stijgen. Herhaal: SAU. Zin: Grito '¡Sau!' al soltar un saco pesado, con la voz que baja y luego sube. Toonuitleg: de derde toon daalt eerst en stijgt dan, als een kreet die met de last meegeeft en weer opveert."
+    ]
+   },
+   "beeldhook": "IK laat een paar zandkorrels zien, met <b class=\"rood\">小</b> (klein) boven de extra <b class=\"rood\">丿</b>, en roep de klank in de derde toon: eerst dalen, dan stijgen.",
+   "stop": [
+    3
+   ],
+   "anker": "<b>P</b> Bij de beschilderde pijlers van het Lorentz Lyceum zie ik de groene muurschildering; aan die plek koppel ik het teken 少.",
+   "scene": "Ik blijf staan tussen de beschilderde pijlers. Voor de groene muurschildering laat ik zandkorrels uit mijn vuist vallen, zie <b class=\"rood\">小</b> met één schuine streep eronder, en roep met een stem die eerst zakt en dan stijgt 'Shǎo!'. De korrels tikken op de vloer. Mijn buik zakt mee en veert op bij 'Shǎo! Shǎo!'.",
+   "fam": [
+    [
+     "小",
+     "xiǎo",
+     "klein",
+     "leverancier van klank en betekenis volgens de hint"
+    ],
+    [
+     "丿",
+     "piě",
+     "schuine streep",
+     "onderste stuk in de ontleding ⿱小丿"
+    ],
+    [
+     "少",
+     "shǎo",
+     "weinig",
+     "pictogram, radicaal blijft 小"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 少 een pictogram (pictographic). De hint luidt: grains of sand; 小 provides the pronunciation and meaning. De ontleding is ⿱小丿. Het radicaal is 小. De bron geeft pinyin shǎo en de definitie few, little; less; inadequate.",
+   "twijfel": [
+    "Het type pictographic staat naast een hint waarin 小 ook uitspraak en betekenis levert; de bron legt die combinatie niet uit.",
+    "De hint noemt zandkorrels, maar zegt niet of dat het oorspronkelijke beeld is of een latere duiding.",
+    "⿱小丿 telt naar 4 streken, maar 小 heeft gewoonlijk een 竖钩 en 少 een 竖 plus een extra 撇; de streken zijn niet letterlijk die van 小 plus één streep.",
+    "De bronlijst geeft alleen shǎo. De lezing shào, zoals in 少年, staat niet in deze bron.",
+    "Dat 小 de uitspraak zou leveren, volgt de hint; modern xiǎo en shǎo klinken niet gelijk.",
+    "不少 betekent niet 'weinig' maar 'aardig wat'; het deelt wel het teken 少."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "SJAUW",
+       "zware roep"
+      ],
+      [
+       "dal",
+       "derde toon"
+      ]
+     ]
+    ],
+    [
+     "ZAND",
+     "a",
+     [
+      [
+       "小",
+       "klein en klank"
+      ],
+      [
+       "korrels",
+       "hint noemt zand"
+      ]
+     ]
+    ],
+    [
+     "STREEK",
+     "b",
+     [
+      [
+       "丿",
+       "schuine streep"
+      ],
+      [
+       "onder",
+       "vierde streek"
+      ]
+     ]
+    ],
+    [
+     "PIJLERS",
+     "paleis",
+     [
+      [
+       "groene schildering",
+       "tussen pijlers"
+      ],
+      [
+       "schoolmuur",
+       "beschilderd vlak"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "zandkorrels",
+       "beeld voor weinig"
+      ],
+      [
+       "pictogram",
+       "hint noemt zand"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "shǎo"
+   ],
+   "zinnen": [
+    [
+     "今天人很少。",
+     "Vandaag zijn er weinig mensen."
+    ],
+    [
+     "水很少。",
+     "Er is weinig water."
+    ],
+    [
+     "姐姐的茶很少。",
+     "Mijn oudere zus heeft weinig thee."
+    ]
+   ],
+   "dialoog": {
+    "a": "水很少吗？",
+    "b": "水很少。",
+    "hint": "Is er weinig water? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "水很多。",
+     "今天人很少。",
+     "茶很少。"
+    ]
+   },
+   "oud": {
+    "actie": "Laat een snuf zand vallen in de vorm van 小, trek daarna één schuine streep en zeg shǎo met een dal die weer omhoog komt.",
+    "recallDoe": [
+     "Roep SJAUW met een stem die zakt en daarna stijgt.",
+     "Noem de vier streeknamen van 少 in schrijfvolgorde.",
+     "Loop in gedachten naar de beschilderde pijlers en zeg daar 少.",
+     "Zeg welk stuk volgens de hint klank en betekenis levert.",
+     "Bouw hardop een korte zin met 很少 uit de leswoorden."
+    ],
+    "recallVragen": [
+     "Welke definitie geeft de bron bij shǎo?",
+     "Hoe beweegt de derde toon in dit woord?",
+     "Welke ontleding geeft makemeahanzi?",
+     "Welk radicaal hoort bij 少, en welk teken is dat niet?",
+     "Welke lezing van 少 ontbreekt in de bronlijst?"
+    ],
+    "plek": "Beschilderde pijlers"
+   },
+   "slug": "shao",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "小",
+     "py": "xiǎo",
+     "nl": "klein",
+     "haak": "Drie open streken: het radicaal zelf."
+    },
+    {
+     "hz": "少",
+     "py": "shǎo",
+     "nl": "weinig",
+     "haak": "小-vorm plus een extra 撇 als vierde streek."
+    },
+    {
+     "hz": "尖",
+     "py": "jiān",
+     "nl": "scherp, punt",
+     "haak": "小 boven op 大, punt naar boven."
+    },
+    {
+     "hz": "劣",
+     "py": "liè",
+     "nl": "slecht, minder",
+     "haak": "少 boven op 力."
+    },
+    {
+     "hz": "尘",
+     "py": "chén",
+     "nl": "stof",
+     "haak": "小 boven op 土."
+    },
+    {
+     "hz": "尚",
+     "py": "shàng",
+     "nl": "nog, achten",
+     "haak": "⺌ als klein kapje boven de doos 冋."
+    }
+   ],
+   "obrien": {
+    "scene": "Tussen de pijlers, voor de groene muurschildering, laat een figuur zandkorrels vallen en roept 'SHǍO!'; de stem zakt en stijgt, korrels tikken, de verf glanst.",
+    "klank": "SHǍO!",
+    "prompt": "Between school pillars in front of a green mural, a figure lets sand grains fall while the voice dips and rises, grains hitting the floor, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A voice path dipping into a small valley and springing back up, sand grains bouncing, drawn illustration, no text.",
+    "a": "Three tiny grains in a small open cluster, warm light, drawn illustration, no text.",
+    "b": "One long diagonal stroke under a small cluster of grains, drawn illustration, no text.",
+    "paleis": "Painted school pillars with a green mural between them, sandy light, drawn illustration, no text.",
+    "link": "A nearly empty palm holding only a few sand grains, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "多少",
+     "py": "duōshǎo",
+     "nl": "hoeveel",
+     "deelt": "少",
+     "haak": "少 rechts van 多."
+    },
+    {
+     "hz": "至少",
+     "py": "zhìshǎo",
+     "nl": "minstens",
+     "deelt": "少",
+     "haak": "少 rechts van 至."
+    },
+    {
+     "hz": "减少",
+     "py": "jiǎnshǎo",
+     "nl": "verminderen",
+     "deelt": "少",
+     "haak": "少 rechts van 减."
+    },
+    {
+     "hz": "缺少",
+     "py": "quēshǎo",
+     "nl": "ontbreken",
+     "deelt": "少",
+     "haak": "少 rechts van 缺."
+    },
+    {
+     "hz": "不少",
+     "py": "bùshǎo",
+     "nl": "heel wat",
+     "deelt": "少",
+     "haak": "少 rechts van 不."
+    },
+    {
+     "hz": "少见",
+     "py": "shǎojiàn",
+     "nl": "zeldzaam",
+     "deelt": "少",
+     "haak": "少 links van 见."
+    },
+    {
+     "hz": "少许",
+     "py": "shǎoxǔ",
+     "nl": "een beetje",
+     "deelt": "少",
+     "haak": "少 links van 许."
+    }
    ]
+  },
+  {
+   "slug": "shi'er",
+   "hz": "十二",
+   "py": "shí'èr",
+   "nl": "twaalf (12)",
+   "toon": "2+4",
+   "streken": {
+    "十": [
+     "横",
+     "竖"
+    ],
+    "二": [
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">十</b> tien (betekenisdeel) · <b class=\"rood\">二</b> twee (betekenisdeel)",
+   "opbouw": "十二 = 十 2 + 二 2",
+   "klank": "SHI?↗ — ER!↘",
+   "klankuitleg": "2e toon stijgt; 4e toon valt scherp.",
+   "hooks": {
+    "nl": [
+     "SHI?↗ — ER!↘",
+     "Ik vraag SHI? en laat ER! als een steen vallen.",
+     "SHI... SHI? —, ER... ER! ↘. Ik vraag SHI? en laat ER! als een steen vallen. 2e toon stijgt, 4e toon valt scherp."
+    ],
+    "en": [
+     "SHE?↗ — AIR!↘",
+     "I ask SHE? and drop AIR! like a brick.",
+     "SHE... SHE? —, AIR... AIR! ↘. I ask SHE? and drop AIR! like a brick. 2nd tone rises, 4th tone falls sharply."
+    ],
+    "es": [
+     "SI?↗ — ERA!↘",
+     "Pregunto SI? y dejo caer ERA! como una piedra.",
+     "SI... SI? —, ERA... ERA! ↘. Pregunto SI? y dejo caer ERA! como una piedra. 2º tono sube, 4º tono cae seco."
+    ]
+   },
+   "beeldhook": "IK tel tien stenen (<b class='rood'>十</b> tien) en leg er twee (<b class='rood'>二</b> twee) bij.",
+   "stop": [
+    8
+   ],
+   "anker": "<b>8</b> De vleugel in de aula is een echte vleugel; op de gesloten klep leg ik tien stenen en twee losse latten.",
+   "scene": "Ik leg twee latten naast de tien stenen en tel hardop.",
+   "fam": [
+    [
+     "十一",
+     "shíyī",
+     "elf",
+     "deelt 十 en de getalopbouw"
+    ],
+    [
+     "二十",
+     "èrshí",
+     "twintig",
+     "deelt 二 en 十"
+    ],
+    [
+     "三十",
+     "sānshí",
+     "dertig",
+     "deelt 十 als tiental"
+    ]
+   ],
+   "gesch": "十 heeft volgens de bron geen etymologie; het is radicaal 十 en betekent tien. 二 is ideografisch: twee parallelle lijnen stellen twee voor; de bron vergelijkt met 一 (een) en 三 (drie). 十二 is een getalsamenstelling: tien + twee = twaalf.",
+   "twijfel": [
+    "De bron geeft voor 十 geen etymologie.",
+    "二 heeft bij maatwoorden soms 两 als alternatief, maar 十二 blijft shí'èr.",
+    "Pinyin kan als shí'èr met apostrof of shí èr met spatie geschreven worden."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "SHI?↗ ER!↘",
+       "2e stijgend + 4e dalend"
+      ],
+      [
+       "shí'èr",
+       "tien + twee"
+      ]
+     ]
+    ],
+    [
+     "DEEL A: 十",
+     "a",
+     [
+      [
+       "十",
+       "tien; 2 streken"
+      ],
+      [
+       "kruis",
+       "horizontaal + verticaal"
+      ]
+     ]
+    ],
+    [
+     "DEEL B: 二",
+     "b",
+     [
+      [
+       "二",
+       "twee; 2 streken"
+      ],
+      [
+       "twee latten",
+       "parallel horizontaal"
+      ]
+     ]
+    ],
+    [
+     "PALEIS: VLEUGEL",
+     "paleis",
+     [
+      [
+       "vleugel in de aula",
+       "zwarte klep"
+      ],
+      [
+       "tien stenen + twee latten",
+       "twaalf"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "SHI-ER hijst en laat vallen",
+       "klank wordt telactie"
+      ],
+      [
+       "tien plus twee = twaalf",
+       "beeld en feit verbonden"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "shí",
+    "èr"
+   ],
+   "zinnen": [
+    [
+     "我有十二个苹果。",
+     "Ik heb twaalf appels."
+    ],
+    [
+     "弟弟有十二个苹果。",
+     "Mijn jongere broer heeft twaalf appels."
+    ],
+    [
+     "姐姐有十二个苹果。",
+     "Mijn oudere zus heeft twaalf appels."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有多少个苹果？",
+    "b": "我有十二个苹果。",
+    "hint": "Gebruik 十二 voor twaalf.",
+    "fout": [
+     "我有十一个苹果。",
+     "我有十个苹果。",
+     "我有二十个苹果。"
+    ]
+   },
+   "oud": {
+    "actie": "Ik tel tien stenen en leg er twee bij: twaalf.",
+    "recallDoe": [
+     "Zeg hardop shí'èr.",
+     "Teken 十 en 二 na.",
+     "Noem de twee rode radicalen.",
+     "Hijs SHI omhoog en laat ER vallen.",
+     "Schrijf de vier streken in volgorde."
+    ],
+    "recallVragen": [
+     "Welke twee tonen hoor je in shí'èr?",
+     "Welk deel betekent tien en welk deel betekent twee?",
+     "Hoeveel streken heeft 十二 samen?",
+     "Wat is rood in 十二?",
+     "Waarom zeg je 十二 en niet 一十二 in gewone telling?"
+    ],
+    "plek": "Vleugel"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "shi",
@@ -10404,76 +11783,483 @@
      "deelt": "十 + 分",
      "haak": "Tien delen = heel/zeer."
     }
+   ]
+  },
+  {
+   "slug": "shiyi",
+   "hz": "十一",
+   "py": "shíyī",
+   "nl": "elf (11)",
+   "toon": "2+1",
+   "streken": {
+    "十": [
+     "横",
+     "竖"
+    ],
+    "一": [
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">十</b> tien (betekenisdeel) · <b class=\"rood\">一</b> één (betekenisdeel)",
+   "opbouw": "十一 = 十 2 + 一 1",
+   "klank": "SJIE?↗ — IE!→",
+   "klankuitleg": "2e toon stijgt als een vraag; 1e toon is vlak hoog.",
+   "hooks": {
+    "nl": [
+     "SJIE?↗ — IE!→",
+     "Ik vraag SJIE? en roep IE! hoog en vlak.",
+     "SJIE... SJIE? —, IE... IE! →. Ik vraag SJIE? en roep IE! hoog en vlak. 2e toon stijgt, 1e toon vlak hoog."
+    ],
+    "en": [
+     "SHE?↗ — EE!→",
+     "I ask SHE? and shout EE! high and flat.",
+     "SHE... SHE? —, EE... EE! →. I ask SHE? and shout EE! high and flat. 2nd tone rises, 1st tone level high."
+    ],
+    "es": [
+     "SÍ?↗ — I!→",
+     "Pregunto SÍ? y grito I! alto y llano.",
+     "SÍ... SÍ? —, I... I! →. Pregunto SÍ? y grito I! alto y llano. 2º tono sube, 1º tono alto y llano."
+    ]
+   },
+   "beeldhook": "IK steek een kruis (<b class='rood'>十</b> tien) in de grond en leg er één stok (<b class='rood'>一</b> één) naast.",
+   "stop": [
+    10
    ],
-   "_hot": [
+   "anker": "<b>10</b> De gymzaal is op de eerste verdieping; op de vloer leg ik tien telstenen en één losse stok.",
+   "scene": "Ik leg een kruis van twee stenen en schuif de ene stok ernaast.",
+   "fam": [
+    [
+     "十二",
+     "shí'èr",
+     "twaalf",
+     "deelt 十 en de getalopbouw"
+    ],
+    [
+     "二十",
+     "èrshí",
+     "twintig",
+     "deelt 十 als tiental"
+    ],
+    [
+     "三十",
+     "sānshí",
+     "dertig",
+     "deelt 十 als tiental"
+    ]
+   ],
+   "gesch": "十 heeft volgens de bron geen etymologie; het is radicaal 十 en betekent tien. 一 is ideografisch: één horizontale lijn stelt het getal één voor; de bron noemt hemel, aarde of getal 1. 十一 is een getalsamenstelling: tien + één = elf.",
+   "twijfel": [
+    "De bron geeft voor 十 geen etymologie.",
+    "Pinyin kan als shíyī of shí yī geschreven worden.",
+    "De etymologiehint van 一 noemt meerdere mogelijkheden: hemel, aarde of getal 1."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "SJIE?↗ IE!→",
+       "2e stijgend + 1e vlak hoog"
+      ],
+      [
+       "shí yī",
+       "tien + één"
+      ]
+     ]
     ],
     [
-     "A: ADEM",
+     "DEEL A: 十",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "十",
+       "tien; 2 streken"
+      ],
+      [
+       "kruis",
+       "horizontaal + verticaal"
+      ]
+     ]
     ],
     [
-     "B: BLIKSEM",
+     "DEEL B: 一",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "一",
+       "één; 1 streek"
+      ],
+      [
+       "enkele lijn",
+       "horizontaal"
+      ]
+     ]
     ],
     [
-     "PALEIS: ZITTRAP",
+     "PALEIS: ZWEVENDE GYMZAAL",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "opgetilde sportzaal",
+       "1e verdieping"
+      ],
+      [
+       "telstenen en één stok",
+       "tien + één"
+      ]
+     ]
     ],
     [
-     "LINK: KRUIS",
+     "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "SJIE-IE roept het kruis en de losse stok",
+       "klank wordt actie"
+      ],
+      [
+       "tien plus één = elf",
+       "beeld en feit verbonden"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "shí",
+    "yī"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "zinnen": [
+    [
+     "我有十一个苹果。",
+     "Ik heb elf appels."
+    ],
+    [
+     "弟弟有十一个苹果。",
+     "Mijn jongere broer heeft elf appels."
+    ],
+    [
+     "姐姐有十一个苹果。",
+     "Mijn oudere zus heeft elf appels."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有多少个苹果？",
+    "b": "我有十一个苹果。",
+    "hint": "Gebruik 十一 voor elf.",
+    "fout": [
+     "我有十个苹果。",
+     "我有十二个苹果。",
+     "我有二十个苹果。"
+    ]
+   },
+   "oud": {
+    "actie": "Ik steek een kruis in de grond en leg er één stok naast: elf.",
+    "recallDoe": [
+     "Zeg hardop shí yī.",
+     "Teken 十 en 一 na.",
+     "Noem de twee rode radicalen.",
+     "Beeld je het kruis plus één stok na.",
+     "Schrijf de drie streken in volgorde."
+    ],
+    "recallVragen": [
+     "Hoeveel streken heeft 十一 samen?",
+     "Welke radicalen zijn rood in 十一?",
+     "Welke toon heeft shí en welke toon heeft yī?",
+     "Wat is de beeldhook van 十一 in één zin?",
+     "Waarom is 十一 een getalsamenstelling?"
+    ],
+    "plek": "Zwevende gymzaal"
+   },
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
+  },
+  {
+   "hz": "手",
+   "py": "shǒu",
+   "nl": "hand",
+   "toon": "3",
+   "streken": {
+    "手": [
+     "撇",
+     "横",
+     "横",
+     "竖钩"
+    ]
+   },
+   "delen": "<b class=\"rood\">手</b> (vingers) bovenaan gespreid · <b class=\"rood\">手</b> (竖钩) stam met haak onder",
+   "opbouw": "手 = pictogram, 4 streken",
+   "klank": "SHOU↘↗",
+   "klankuitleg": "Op shǒu maakt de derde toon een kuil: laag starten, nog iets zakken, dan omhoog komen.",
+   "hooks": {
+    "nl": [
+     "SJOU↘↗",
+     "Ik roep 'SJOU!' als een uil, met een stem die eerst zakt en dan stijgt.",
+     "Haak: SJOU met derde toon: eerst dalen, dan stijgen. Herhaal: SJOU. Zin: Ik roep 'SJOU!' als een uil, met een stem die eerst zakt en dan stijgt. Toonuitleg: de derde toon begint laag, zakt nog iets, en stijgt dan als de roep van een uil die opveert."
+    ],
+    "en": [
+     "SHOW↘↗",
+     "I call 'Show!' with a surprised voice that dips and then rises.",
+     "Haak: SHOW met derde toon: eerst dalen, dan stijgen. Herhaal: SHOW. Zin: I call 'Show!' with a surprised voice that dips and then rises. Toonuitleg: the third tone starts low, dips lower, then rises like a surprised call."
+    ],
+    "es": [
+     "SOU↘↗",
+     "Grito '¡Sou!' como un silbato que baja y después sube.",
+     "Haak: SOU met derde toon: eerst dalen, dan stijgen. Herhaal: SOU. Zin: Grito '¡Sou!' como un silbato que baja y después sube. Toonuitleg: de derde toon daalt eerst en stijgt dan, als een fluit die wegzakt en weer omhoog gaat."
+    ]
+   },
+   "beeldhook": "IK spreid de vingers en laat de onderste haak van <b class=\"rood\">手</b> zien, en roep de klank in de derde toon: eerst dalen, dan stijgen.",
+   "stop": [
+    8
+   ],
+   "anker": "<b>V</b> In de vleugel van het lyceum zie ik de lange gang; aan die plek koppel ik het teken 手.",
+   "scene": "Ik loop de vleugel in, de lange gang door. Ik til mijn hand op, vingers wijd, de verticale haak wijst naar de vloer. Ik roep met een stem die eerst zakt en dan stijgt 'Shǒu!'. De gang galmt. Ik voel de trilling in mijn palm en herhaal 'Shǒu! Shǒu!' op de stijging.",
+   "fam": [
+    [
+     "手",
+     "shǒu",
+     "hand",
+     "pictogram met gespreide vingers"
+    ],
+    [
+     "撇",
+     "piě",
+     "bovenstreek",
+     "eerste streek, licht dalend naar links"
+    ],
+    [
+     "竖钩",
+     "shùgōu",
+     "verticale haak",
+     "onderste streek, haakt naar links"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 手 een pictogram (pictographic). De hint luidt: a hand with the fingers splayed. Het radicaal is 手. De ontleding staat als ？, dus zonder benoemde delen. De bron geeft pinyin shǒu en de definitie hand.",
+   "twijfel": [
+    "De ontleding is ？. Vingers tegenover de onderste haak is een geheugensplitsing van één pictogram, geen IDS uit de bron.",
+    "De hint noemt een hand met gespreide vingers en geen apart klankdeel.",
+    "De eerste streek heet in sommige indelingen 平撇; die naam staat niet in de lijst, daarom staat hier 撇.",
+    "扌 is de linkervorm van hetzelfde radicaal 手; de bron noemt alleen het radicaal 手.",
+    "看 bevat een handvorm maar heeft radicaal 目, dus 看 deelt dit radicaal niet."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "SJOU",
+       "uilroep"
+      ],
+      [
+       "kuil",
+       "derde toon"
+      ]
+     ]
+    ],
+    [
+     "VINGERS",
+     "a",
+     [
+      [
+       "gespreid",
+       "hint van bron"
+      ],
+      [
+       "boven",
+       "drie streken"
+      ]
+     ]
+    ],
+    [
+     "HAAK",
+     "b",
+     [
+      [
+       "竖钩",
+       "haakt links"
+      ],
+      [
+       "onder",
+       "vierde streek"
+      ]
+     ]
+    ],
+    [
+     "VLEUGEL",
+     "paleis",
+     [
+      [
+       "lange gang",
+       "schoolvleugel"
+      ],
+      [
+       "lokalen",
+       "langs de kant"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "gespreide vingers",
+       "beeld voor hand"
+      ],
+      [
+       "pictogram",
+       "bron zonder delen"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "shǒu"
+   ],
+   "zinnen": [
+    [
+     "这是我的手。",
+     "Dit is mijn hand."
+    ],
+    [
+     "他的手很大。",
+     "Zijn hand is groot."
+    ],
+    [
+     "姐姐的手很好。",
+     "De hand van mijn oudere zus is goed."
+    ]
+   ],
+   "dialoog": {
+    "a": "这是你的手吗？",
+    "b": "这是我的手。",
+    "hint": "Is dit jouw hand? Bevestig en wissel jij naar ik.",
+    "fout": [
+     "这是他的手。",
+     "他的手很大。",
+     "这不是我的手。"
+    ]
+   },
+   "oud": {
+    "actie": "Spreid je vingers, laat de onderste haak naar links wijzen en zeg shǒu met een kuil in je stem.",
+    "recallDoe": [
+     "Roep SJOU met een daling die weer omhoog komt.",
+     "Schrijf 手 in vier streken: schuin, liggend, liggend, haak.",
+     "Loop in gedachten de vleugel in en zeg daar 手.",
+     "Wijs aan welk deel de bron niet benoemt, omdat de ontleding ？ is.",
+     "Zeg een zin waarin 手 jouw eigen hand is."
+    ],
+    "recallVragen": [
+     "Welke hint geeft makemeahanzi bij dit pictogram?",
+     "Welk radicaal noemt de bron, en welke ontleding?",
+     "Waarom is de vinger-haak-splitsing geen bron-IDS?",
+     "Welke paleisstop draagt 手?",
+     "Waarom hoort 看 niet bij de radicaalfamilie van 手?"
+    ],
+    "plek": "Vleugel"
+   },
+   "slug": "shou",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "手",
+     "py": "shǒu",
+     "nl": "hand",
+     "haak": "Vingers boven, 竖钩 door het midden, haak links onder."
+    },
+    {
+     "hz": "打",
+     "py": "dǎ",
+     "nl": "slaan",
+     "haak": "扌 links, 丁 rechts."
+    },
+    {
+     "hz": "找",
+     "py": "zhǎo",
+     "nl": "zoeken",
+     "haak": "扌 links, 戈 rechts."
+    },
+    {
+     "hz": "拿",
+     "py": "ná",
+     "nl": "pakken",
+     "haak": "手 onder 合."
+    },
+    {
+     "hz": "掌",
+     "py": "zhǎng",
+     "nl": "handpalm",
+     "haak": "手 onder 尚."
+    },
+    {
+     "hz": "拳",
+     "py": "quán",
+     "nl": "vuist",
+     "haak": "手 onderaan, de vuistvorm erboven."
+    }
+   ],
+   "obrien": {
+    "scene": "In de schoolvleugel heft een figuur een hand met wijd gespreide vingers en roept 'SHǑU!'; de stem zakt en stijgt, de haak wijst omlaag, de gang galmt.",
+    "klank": "SHǑU!",
+    "prompt": "Inside a long school wing, a figure raises one hand with fingers spread wide, voice dipping then rising, corridor echoing, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "Sound waves that drop into a trough and leap upward beside an open palm, drawn illustration, no text.",
+    "a": "Four fingers spread wide against a plain sky, drawn illustration, no text.",
+    "b": "A vertical line ending in a small leftward hook under a palm, drawn illustration, no text.",
+    "paleis": "A long school-wing corridor with doors along one side, drawn illustration, no text.",
+    "link": "An open hand with splayed fingers held up in a quiet hallway, drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "手机",
+     "py": "shǒujī",
+     "nl": "mobiele telefoon",
+     "deelt": "手",
+     "haak": "手 links van 机."
+    },
+    {
+     "hz": "手表",
+     "py": "shǒubiǎo",
+     "nl": "horloge",
+     "deelt": "手",
+     "haak": "手 links van 表."
+    },
+    {
+     "hz": "手指",
+     "py": "shǒuzhǐ",
+     "nl": "vinger",
+     "deelt": "手",
+     "haak": "手 links van 指."
+    },
+    {
+     "hz": "左手",
+     "py": "zuǒshǒu",
+     "nl": "linkerhand",
+     "deelt": "手",
+     "haak": "手 rechts van 左."
+    },
+    {
+     "hz": "右手",
+     "py": "yòushǒu",
+     "nl": "rechterhand",
+     "deelt": "手",
+     "haak": "手 rechts van 右."
+    },
+    {
+     "hz": "握手",
+     "py": "wòshǒu",
+     "nl": "handdruk",
+     "deelt": "手",
+     "haak": "手 rechts van 握."
+    },
+    {
+     "hz": "手足",
+     "py": "shǒuzú",
+     "nl": "handen en voeten",
+     "deelt": "手",
+     "haak": "手 links van 足."
+    }
    ]
   },
   {
@@ -10825,71 +12611,6 @@
      "deelt": "表",
      "haak": "horloge om de pols"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "WIJZERPLAAT",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "METAALGEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -11291,76 +13012,6 @@
      "deelt": "bevat 四",
      "haak": "vier en dan tienduizend."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "OMHEINING",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KIND",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -11672,76 +13323,6 @@
      "deelt": "klank tā, pronoun",
      "haak": "ding piept tā."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "NAAST",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -12142,76 +13723,617 @@
      "deelt": "bevat 五",
      "haak": "vijf en dan tienduizend."
     }
+   ]
+  },
+  {
+   "hz": "五月",
+   "py": "wǔyuè",
+   "nl": "mei",
+   "toon": "3-4",
+   "streken": {
+    "五": [
+     "横",
+     "竖",
+     "横折",
+     "横"
+    ],
+    "月": [
+     "撇",
+     "横折钩",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">五</b> (vijf) ideogram, radicaal 二 · <b class=\"rood\">月</b> (maan, maand) pictogram, heel radicaal",
+   "opbouw": "五月 = 五 4 + 月 4",
+   "klank": "WU↘↗ YUE↘",
+   "klankuitleg": "In het woordenboek heeft 五 de derde toon: eerst dalen, dan stijgen. 月 heeft de vierde toon: van hoog snel omlaag. In 五月, vóór die vierde toon, blijft 五 in lopende spraak meestal laag: alleen de daling, zonder de stijging. De pinyin blijft wǔyuè. 五 wordt hier geen tweede toon; dat gebeurt alleen als twee derde tonen op elkaar volgen.",
+   "hooks": {
+    "nl": [
+     "WOE↘↗JWE↘",
+     "Ik roep 'WOE-JWE!': eerst zak ik en veer ik op, daarna hak ik de tweede klank omlaag.",
+     "Haak: WOE-JWE met derde toon en vierde toon: eerst dalen en stijgen, daarna vallen. Herhaal: WOE-JWE. Zin: Ik roep 'WOE-JWE!': eerst zak ik en veer ik op, daarna hak ik de tweede klank omlaag. Toonuitleg: de derde toon daalt en stijgt; de vierde toon valt van hoog naar laag. In lopende spraak blijft de eerste lettergreep vaak laag, zonder de stijging."
+    ],
+    "en": [
+     "WOO↘↗YWEH↘",
+     "I call 'WOO-YWEH!': my voice dips, springs up, then chops down.",
+     "Haak: WOO-YWEH met derde toon en vierde toon: eerst dalen en stijgen, daarna vallen. Herhaal: WOO-YWEH. Zin: I call 'WOO-YWEH!': my voice dips, springs up, then chops down. Toonuitleg: the third tone dips and then rises; the fourth tone falls steeply. In running speech the first syllable often stays low, without the rise."
+    ],
+    "es": [
+     "UU↘↗YUE↘",
+     "Grito '¡Uu-yue!': bajo, subo y después corto hacia abajo.",
+     "Haak: UU-YUE met derde toon en vierde toon: eerst dalen en stijgen, daarna vallen. Herhaal: UU-YUE. Zin: Grito '¡Uu-yue!': bajo, subo y después corto hacia abajo. Toonuitleg: de derde toon daalt en stijgt; de vierde toon valt scherp. In lopende spraak blijft de eerste lettergreep vaak laag, zonder de stijging."
+    ]
+   },
+   "beeldhook": "IK zet <b class=\"rood\">五</b> (kruis tussen twee lange lijnen) links naast <b class=\"rood\">月</b> (maansikkel) en laat mijn stem eerst dalen en stijgen, daarna vallen.",
+   "stop": [
+    6
    ],
-   "_hot": [
+   "anker": "<b>G</b> Bij de glaswand van de aula zie ik de avondhemel in het raam; aan die plek koppel ik het woord 五月.",
+   "scene": "Ik sta voor de glaswand van de aula. In het glas hangt een smalle sikkel. Met mijn vinger zet ik ervoor twee lange lijnen en een kruis ertussen. Mijn stem zakt op de eerste lettergreep en blijft laag, daarna hakt ze omlaag: 'Yuè!'. De ruit trilt koel tegen mijn hand. Ik zeg het hele woord nog eens en voel de val in mijn borst.",
+   "fam": [
+    [
+     "五",
+     "wǔ",
+     "vijf",
+     "kruis tussen twee lange lijnen"
+    ],
+    [
+     "月",
+     "yuè",
+     "maan; maand",
+     "sikkel met twee binnenstrepen"
+    ],
+    [
+     "二",
+     "èr",
+     "twee",
+     "radicaal waarin 五 is ingedeeld"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 五 een ideogram. De hint: vijf elementen, het kruis met de extra streek, tussen hemel 一 en aarde 一. Radicaal: 二. Definitie: 'five; surname'. Pinyin: wǔ. Decompositie: ⿴二？, dus 二 omsluit een deel dat de bron niet benoemt. 月 is volgens dezelfde bron een pictogram van een maansikkel. Radicaal: 月, het maan-radicaal, niet het vlees-radicaal dat erop lijkt. Definitie: 'moon; month'. Pinyin: yuè. Decompositie: ⿵冂二. 五月 is de samenstelling van die twee: de vijfde maand, mei. Een aparte makemeahanzi-ingang voor het woord als geheel zit niet in de bron. Een oude 3.5-invulling is leeg.",
+   "twijfel": [
+    "De hint bij 五 noemt een kruis met een extra streek, maar de decompositie laat dat binnenste deel open als ？.",
+    "Geïsoleerd is 五 toon 3, met daling én stijging. In 五月 wordt de stijging in lopende spraak meestal weggelaten. De geschreven pinyin verandert daardoor niet.",
+    "De sandhi waarbij een derde toon een tweede toon wordt, geldt bij twee derde tonen na elkaar, niet bij toon 3 gevolgd door toon 4.",
+    "月 dekt in de bron zowel moon als month. 五月 is hier de vijfde maand. Een duur van vijf maanden is een andere constructie en heeft geen eigen glos in de bron.",
+    "五 alleen kan volgens de definitie ook een achternaam zijn. In 五月 speelt die lezing niet.",
+    "De hint zegt 'five elements' maar somt ze niet op. Welke reeks precies bedoeld is, werkt de bron niet uit."
+   ],
+   "mm": [
     [
      "KLANK",
      "klank",
-     64.6,
-     21.1
+     [
+      [
+       "WOE-JWE",
+       "zak veer val"
+      ],
+      [
+       "halve derde",
+       "laag voor val"
+      ]
+     ]
     ],
     [
-     "HEMEL",
+     "VIJF",
      "a",
-     80.6,
-     55.7
+     [
+      [
+       "hemel aarde",
+       "twee lange lijnen"
+      ],
+      [
+       "kruis",
+       "extra streek"
+      ]
+     ]
     ],
     [
-     "MIDDEN",
+     "MAAN",
      "b",
-     54.3,
-     82.4
+     [
+      [
+       "maansikkel",
+       "pictogram"
+      ],
+      [
+       "maand",
+       "zelfde teken"
+      ]
+     ]
     ],
     [
-     "GYMZAAL",
+     "GLASWAND",
      "paleis",
-     22.1,
-     64.3
+     [
+      [
+       "avondglas",
+       "weerspiegeling"
+      ],
+      [
+       "aula",
+       "hoge wand"
+      ]
+     ]
     ],
     [
      "LINK",
      "link",
-     28.4,
-     26.5
+     [
+      [
+       "vijfde maand",
+       "mei"
+      ],
+      [
+       "twee tekens",
+       "samenstelling"
+      ]
+     ]
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
+   "syl": [
+    "wǔ",
+    "yuè"
    ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
+   "zinnen": [
+    [
+     "这个月是五月。",
+     "Deze maand is mei."
+    ],
+    [
+     "姐姐五月回来。",
+     "Oudere zus komt in mei terug."
+    ],
+    [
+     "五月五号她回来。",
+     "Zij komt op 5 mei terug."
+    ]
+   ],
+   "dialoog": {
+    "a": "这个月是五月吗？",
+    "b": "这个月是五月。",
+    "hint": "Is deze maand mei? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "五月是这个月。",
+     "姐姐五号回来。",
+     "她五号回来。"
+    ]
+   },
+   "oud": {
+    "actie": "Leg een kruis tussen twee lijnen naast een sikkel en spreek het woord uit: eerst laag, dan vallend.",
+    "recallDoe": [
+     "Schrijf beide tekens naast elkaar in deze volgorde.",
+     "Zeg de eerste lettergreep laag, zonder omhoog te veren, en laat de tweede vallen.",
+     "Wijs een sikkel in een raam aan en zeg het woord.",
+     "Noem het radicaal van elk teken apart.",
+     "Zeg ter vergelijking het woord voor de achtste maand, en daarna dit woord nog eens."
+    ],
+    "recallVragen": [
+     "Wat staat volgens de hint tussen hemel en aarde in het eerste teken?",
+     "Is het tweede teken in de bron een pictogram of een ideogram?",
+     "Waarom wordt de derde toon in dit woord vaak niet afgemaakt?",
+     "Wanneer wordt een derde toon wél een tweede toon, en waarom geldt dat hier niet?",
+     "Welke twee betekenissen geeft de bron aan het tweede teken?"
+    ],
+    "plek": "Glaswand aula"
+   },
+   "slug": "wuyue",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "期",
+     "py": "qī",
+     "nl": "periode",
+     "haak": "maan-月 rechts van 其."
+    },
+    {
+     "hz": "朝",
+     "py": "zhāo",
+     "nl": "ochtend",
+     "haak": "maan-月 aan de rechterkant."
+    },
+    {
+     "hz": "望",
+     "py": "wàng",
+     "nl": "volle maan; kijken",
+     "haak": "maan-月 linksonder."
+    },
+    {
+     "hz": "朔",
+     "py": "shuò",
+     "nl": "nieuwe maan",
+     "haak": "maan-月 rechts."
+    },
+    {
+     "hz": "朗",
+     "py": "lǎng",
+     "nl": "helder",
+     "haak": "maan-月 rechts van 良."
+    },
+    {
+     "hz": "朦",
+     "py": "méng",
+     "nl": "wazig",
+     "haak": "maan-月 links van 蒙."
+    }
+   ],
+   "obrien": {
+    "scene": "Voor de hoge glaswand drijft een sikkel in het avondlicht. Ik trek met de hand twee lijnen en een kruis, zak met mijn stem en hak daarna omlaag: 'WǓ YUÈ!'. Het glas trilt na.",
+    "klank": "WǓYUÈ!",
+    "prompt": "At dusk in front of a tall glass wall, a crescent moon reflected in the pane, a person traces two long lines and a cross while the glass shivers, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A sound path that sinks, flicks upward, then drops in a steep stroke, abstract motion, drawn illustration, no text.",
+    "a": "Two long horizontal bars with a small cross and one extra mark floating between them, ink diagram, no text.",
+    "b": "A thin crescent moon in a deep blue sky, silver edge only, drawn illustration, no text.",
+    "paleis": "A school auditorium glass wall reflecting a crescent at dusk, drawn illustration, no text.",
+    "link": "A crescent resting beside a small cross set between two bars, warm illustration, no numerals, no text."
+   },
+   "fam5": [
+    {
+     "hz": "五月",
+     "py": "wǔyuè",
+     "nl": "mei",
+     "deelt": "五+月",
+     "haak": "五 links, 月 rechts."
+    },
+    {
+     "hz": "十五",
+     "py": "shíwǔ",
+     "nl": "vijftien",
+     "deelt": "五",
+     "haak": "五 rechts van 十."
+    },
+    {
+     "hz": "五十",
+     "py": "wǔshí",
+     "nl": "vijftig",
+     "deelt": "五",
+     "haak": "五 links van 十."
+    },
+    {
+     "hz": "周五",
+     "py": "zhōuwǔ",
+     "nl": "vrijdag",
+     "deelt": "五",
+     "haak": "五 rechts van 周."
+    },
+    {
+     "hz": "一月",
+     "py": "yīyuè",
+     "nl": "januari",
+     "deelt": "月",
+     "haak": "月 rechts van 一."
+    },
+    {
+     "hz": "八月",
+     "py": "bāyuè",
+     "nl": "augustus",
+     "deelt": "月",
+     "haak": "月 rechts van 八."
+    },
+    {
+     "hz": "月光",
+     "py": "yuèguāng",
+     "nl": "maanlicht",
+     "deelt": "月",
+     "haak": "月 links van 光."
+    }
+   ]
+  },
+  {
+   "hz": "下个月",
+   "py": "xià gè yuè",
+   "nl": "volgende maand",
+   "toon": "4-4-4",
+   "streken": {
+    "下": [
+     "横",
+     "竖",
+     "点"
+    ],
+    "个": [
+     "撇",
+     "捺",
+     "竖"
+    ],
+    "月": [
+     "撇",
+     "横折钩",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">下</b> (onder; volgend) betekenisdeel · <b class=\"rood\">个</b> (maatwoord) betekenisdeel · <b class=\"rood\">月</b> (maan; maand) betekenisdeel",
+   "opbouw": "下个月 = 下 3 + 个 3 + 月 4",
+   "klank": "XIA↘ GE↘ YUE↘",
+   "klankuitleg": "In de bronvorm zijn alle drie de lettergrepen vierde toon. Elke lettergreep zet hoog in en valt in één keer omlaag. De lettergreep erna begint opnieuw hoog, zonder stijging en zonder vlakke toon.",
+   "hooks": {
+    "nl": [
+     "SJAA↘ GUH↘ JUE↘",
+     "Ik sla drie keer met de vlakke hand op mijn dij en roep bij elke klap 'SJAA-GUH-JUE!'.",
+     "Haak: SJAA GUH JUE met vierde toon: drie keer van hoog naar laag. Herhaal: SJAA GUH JUE. Zin: Ik sla drie keer met de vlakke hand op mijn dij en roep bij elke klap 'SJAA-GUH-JUE!'. Toonuitleg: elke lettergreep zet hoog in en valt steil, als drie losse klappen."
+    ],
+    "en": [
+     "SHYAH↘ GUH↘ YWEH↘",
+     "I slap my palm on my knee three times and bark 'SHYAH-GUH-YWEH!' on every slap.",
+     "Haak: SHYAH GUH YWEH met vierde toon: drie keer van hoog naar laag. Herhaal: SHYAH GUH YWEH. Zin: I slap my palm on my knee three times and bark 'SHYAH-GUH-YWEH!' on every slap. Toonuitleg: the fourth tone starts high and drops steeply, three separate drops, with no rise."
+    ],
+    "es": [
+     "SIA↘ GUE↘ YUE↘",
+     "Golpeo tres veces el suelo y grito '¡Sia-gue-yue!' en cada golpe.",
+     "Haak: SIA GUE YUE met vierde toon: drie keer van hoog naar laag. Herhaal: SIA GUE YUE. Zin: Golpeo tres veces el suelo y grito '¡Sia-gue-yue!' en cada golpe. Toonuitleg: de vierde toon begint hoog en valt steil, drie losse vallen zonder stijging."
+    ]
+   },
+   "beeldhook": "IK schuif <b class=\"rood\">下</b> als streep-onder-streep, <b class=\"rood\">个</b> als mens met telstok en <b class=\"rood\">月</b> als sikkel tegen elkaar, en ik knal mijn stem op elk stuk van hoog naar laag.",
+   "stop": [
+    1
+   ],
+   "anker": "<b>S</b> In het Spoorviaduct zie ik de betonnen bogen over het pad; aan die plek koppel ik het woord 下个月.",
+   "scene": "Ik kom aanlopen en het Spoorviaduct sluit zich boven me. De trein is net weg; ik wijs naar de lege baan als wat er nog aankomt. Ik zak drie keer door mijn knieën: eerst de vlakke hand, dan één vinger als telstok, dan een sikkel tussen duim en wijsvinger. Op die drie zakken roep ik 'Xià!', 'Gè!' en 'Yuè!'. Mijn buik doet elke val. Het staal geeft een korte nagalm.",
+   "fam": [
+    [
+     "下",
+     "xià",
+     "onder; volgend",
+     "linker teken: een streek onder een streek"
+    ],
+    [
+     "个",
+     "gè",
+     "maatwoord",
+     "middelste teken: mens met stok"
+    ],
+    [
+     "月",
+     "yuè",
+     "maan; maand",
+     "rechter teken: de sikkel"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 下 een ideogram. Hint: One stroke under another; compare 上 (above). Ontleding: ⿱一卜. Radicaal: 一. Pinyin: xià. Definitie: below, underneath; inferior; to bring down; next. 个 is een ideogram. Hint: A tally 丨 of people 人. Ontleding: ⿱人丨. Radicaal: 丨. Pinyin: gè. Definitie: this, that; single; measure word for individuals. 月 is een pictogram. Hint: A crescent moon. Ontleding: ⿵冂二. Radicaal: 月. Pinyin: yuè. Definitie: moon; month. Achter elkaar geven die bronbetekenissen next, measure word en month het woord 下个月: volgende maand.",
+   "twijfel": [
+    "De bron geeft voor 个 alleen gè, vierde toon. Een toonloze variant in 下个月 komt in de bron niet voor.",
+    "De hint bij 下 noemt alleen een streek onder een andere, te vergelijken met 上. De definitie noemt ook next. De stap van onder naar volgend legt de bron niet uit.",
+    "De definitie noemt 个 een measure word for individuals. In 下个月 staat 个 bij de maand, niet bij een persoon. Of de glos individuals daar te smal voor is, zegt de bron niet.",
+    "De ontleding van 月 is ⿵冂二. De vier streeknamen zijn 撇, 横折钩, 横 en 横. Of de linker 撇 de linkerhelft van 冂 is, staat niet bij de streeknamen in de bron.",
+    "De ontleding ⿱人丨 zet de stok onder 人. De bron zegt niet of die verticale streek in het geschreven teken al tussen 撇 en 捺 begint.",
+    "De bronnen beschrijven de losse tekens. Ze zeggen niet of 下 en 月 zonder 个 dezelfde betekenis houden."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "SJAA",
+       "eerste val"
+      ],
+      [
+       "GUH",
+       "tweede val"
+      ],
+      [
+       "JUE",
+       "derde val"
+      ]
+     ]
+    ],
+    [
+     "ONDER",
+     "a",
+     [
+      [
+       "bovenstreep",
+       "één horizontale"
+      ],
+      [
+       "middenstok",
+       "verticale eronder"
+      ],
+      [
+       "punt",
+       "rechtsonder"
+      ]
+     ]
+    ],
+    [
+     "MAATWOORD",
+     "b",
+     [
+      [
+       "mensvorm",
+       "boven als 人"
+      ],
+      [
+       "stok",
+       "丨 eronder"
+      ]
+     ]
+    ],
+    [
+     "SPOORVIADUCT",
+     "paleis",
+     [
+      [
+       "rails",
+       "boven het pad"
+      ],
+      [
+       "grind",
+       "onder de bogen"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "erna",
+       "na het nu"
+      ],
+      [
+       "eenheid",
+       "één maat"
+      ],
+      [
+       "sikkel",
+       "telt als maand"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "xià",
+    "gè",
+    "yuè"
+   ],
+   "zinnen": [
+    [
+     "姐姐下个月来。",
+     "Mijn oudere zus komt volgende maand."
+    ],
+    [
+     "下个月我去中国。",
+     "Volgende maand ga ik naar China."
+    ],
+    [
+     "他下个月不在家。",
+     "Hij is volgende maand niet thuis."
+    ]
+   ],
+   "dialoog": {
+    "a": "你下个月回家吗？",
+    "b": "我下个月回家。",
+    "hint": "Ga jij volgende maand naar huis? Antwoord bevestigend met ik en hetzelfde tijdstip.",
+    "fout": [
+     "我回家。",
+     "他下个月来。",
+     "我不在家。"
+    ]
+   },
+   "oud": {
+    "actie": "Tik drie keer op je dij en laat je stem telkens van hoog naar laag vallen.",
+    "recallDoe": [
+     "Zeg xià, gè en yuè, elk als een val van hoog naar laag.",
+     "Teken 下 in de lucht: bovenstreep, verticale, punt.",
+     "Teken 个 in de lucht: mensvorm, dan de stok omlaag.",
+     "Teken 月 in de lucht: 撇, haakboog, twee dwarsstrepen.",
+     "Ga in gedachten onder het spoorviaduct staan en roep daar de drie vallen."
+    ],
+    "recallVragen": [
+     "Wat doet je stem bij xià, bij gè en bij yuè?",
+     "De vorm van 下 is een streek onder een streek. Welke betekenis uit de bron past in 下个月?",
+     "Wat doet 个 in 下个月, vlak voor 月?",
+     "Welk beeld en welk radicaal geeft de bron voor 月?",
+     "Welke plek op de route hoort bij dit woord, en wat gaat er boven je langs?"
+    ],
+    "plek": "Spoorviaduct"
+   },
+   "slug": "xiageyue",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "期望",
+     "py": "qīwàng",
+     "nl": "verwachting",
+     "haak": "期: 月 rechts van 其."
+    },
+    {
+     "hz": "朝夕",
+     "py": "zhāoxī",
+     "nl": "ochtend en avond",
+     "haak": "朝: 月 rechts, haak naar links."
+    },
+    {
+     "hz": "希望",
+     "py": "xīwàng",
+     "nl": "hoop",
+     "haak": "望: 月 linksonder, onder 亡."
+    },
+    {
+     "hz": "朗月",
+     "py": "lǎngyuè",
+     "nl": "heldere maan",
+     "haak": "朗: 月 rechts van 良."
+    },
+    {
+     "hz": "朔月",
+     "py": "shuòyuè",
+     "nl": "nieuwe maan",
+     "haak": "朔: 月 rechts van 屰."
+    },
+    {
+     "hz": "朦胧",
+     "py": "ménglóng",
+     "nl": "wazig",
+     "haak": "月 links in 朦 en in 胧."
+    }
+   ],
+   "obrien": {
+    "scene": "Onder het spoorviaduct beukt een reusachtige vuist drie keer het grind en brult 'Xià gè yuè', een maansikkel flitst tussen de bogen, de rails gillen, en stof slaat in mijn neus.",
+    "klank": "XIÀ! GÈ! YUÈ!",
+    "prompt": "Beneath a railway viaduct a giant fist pounds the gravel three times, a crescent flashing between the arches, tracks screaming above, dust bursting upward, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "Three mallets dropping one after another, each from high to low with a separate impact, warm drawn illustration, no text.",
+    "a": "One horizontal beam, a vertical post under its middle, a small dot at the lower right, warm drawn illustration, no text.",
+    "b": "A person-like mark stacked above a vertical tally stick, warm drawn illustration, no text.",
+    "paleis": "Railway viaduct with heavy arches, tracks on top, gravel underneath, warm drawn illustration, no text.",
+    "link": "A lower step beneath an upper step, a tally stick, and a crescent with two inner bars, warm drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "下面",
+     "py": "xiàmiàn",
+     "nl": "onder, beneden",
+     "deelt": "下",
+     "haak": "下 links: 横 boven, 点 rechts."
+    },
+    {
+     "hz": "下午",
+     "py": "xiàwǔ",
+     "nl": "middag",
+     "deelt": "下",
+     "haak": "下 links van 午: verticale onder de bovenstreep."
+    },
+    {
+     "hz": "下次",
+     "py": "xiàcì",
+     "nl": "volgende keer",
+     "deelt": "下",
+     "haak": "下 links: punt rechts van de verticale."
+    },
+    {
+     "hz": "上个月",
+     "py": "shànggèyuè",
+     "nl": "vorige maand",
+     "deelt": "月",
+     "haak": "月 rechts: twee 横 in de boog."
+    },
+    {
+     "hz": "月亮",
+     "py": "yuèliang",
+     "nl": "maan",
+     "deelt": "月",
+     "haak": "月 links van 亮: 撇, dan de haakboog."
+    },
+    {
+     "hz": "个月",
+     "py": "gèyuè",
+     "nl": "maatwoord plus maand",
+     "deelt": "个",
+     "haak": "个 links: 人 boven, 丨 eronder."
+    },
+    {
+     "hz": "个人",
+     "py": "gèrén",
+     "nl": "individu",
+     "deelt": "个",
+     "haak": "个 links: de stok zit onder de mensvorm."
+    }
    ]
   },
   {
@@ -12547,76 +14669,6 @@
      "deelt": "爷 als titel/familie",
      "haak": "grote oom = 大爷."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -12901,71 +14953,6 @@
      "deelt": "grootvader",
      "haak": "Oudere broer van opa."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VADER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "ZEGEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "OPA",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -13446,76 +15433,6 @@
      "deelt": "bevat 一",
      "haak": "één gelijke vorm."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "EENHEID",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "HORIZON",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -13862,76 +15779,6 @@
      "deelt": "游 = varen",
      "haak": "Boot om te toeren."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "WATER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "WIMPEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GYMZAAL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -14221,71 +16068,6 @@
      "deelt": "找",
      "haak": "zoeken naar pad"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "SPEER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "METAALGEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   }
  ]
