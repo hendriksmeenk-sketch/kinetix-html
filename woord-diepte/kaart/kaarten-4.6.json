@@ -3423,41 +3423,7 @@
      "deelt": "白",
      "haak": "白 links van 马."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "ZON",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KAARS",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GLASWAND",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "hz": "班",
@@ -3752,7 +3718,393 @@
      "deelt": "班",
      "haak": "班 links, 车 rechts."
     }
-   ]
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "JADE",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "MES",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "GYMZAAL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": []
+  },
+  {
+   "hz": "八月",
+   "py": "bāyuè",
+   "nl": "augustus",
+   "toon": "1+4",
+   "streken": {
+    "八": [
+     "撇",
+     "捺"
+    ],
+    "月": [
+     "撇",
+     "横折钩",
+     "横",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">八</b> (acht; verdelen) ideogram · <b class=\"rood\">月</b> (maan; maand) pictogram",
+   "opbouw": "八月 = 八 2 + 月 4",
+   "klank": "BA→ YUE↘",
+   "klankuitleg": "bā is de eerste toon: hoog en vlak. yuè is de vierde toon: hoog beginnen en scherp naar beneden vallen.",
+   "hooks": {
+    "nl": [
+     "BAA→ JWEH↘",
+     "Ik roep 'BAA-JWEH!' eerst vlak en hoog, en laat de tweede klank hard vallen.",
+     "Haak: BAA JWEH met eerste toon en vierde toon: eerst vlak, dan vallen. Herhaal: BAA JWEH. Zin: Ik roep 'BAA-JWEH!' eerst vlak en hoog, en laat de tweede klank hard vallen. Toonuitleg: de eerste lettergreep blijft hoog, de tweede begint hoog en valt scherp."
+    ],
+    "en": [
+     "BAH→ YWEH↘",
+     "I call 'BAH-YWEH!' with a high flat note and then a sharp fall.",
+     "Haak: BAH YWEH met eerste toon en vierde toon: eerst vlak, dan vallen. Herhaal: BAH YWEH. Zin: I call 'BAH-YWEH!' with a high flat note and then a sharp fall. Toonuitleg: the first syllable stays high and level, the second starts high and drops."
+    ],
+    "es": [
+     "BA→ YUE↘",
+     "Grito '¡BA-YUE!' con una nota alta y plana y después una caída fuerte.",
+     "Haak: BA YUE met eerste toon en vierde toon: eerst vlak, dan vallen. Herhaal: BA YUE. Zin: Grito '¡BA-YUE!' con una nota alta y plana y después una caída fuerte. Toonuitleg: de eerste lettergreep blijft hoog, de tweede valt scherp, als een Spaanse uitroep die afkapt."
+    ]
+   },
+   "beeldhook": "IK trek twee lijnen uit elkaar en zet er een sikkel naast, zodat <b class=\"rood\">八</b> (acht) en <b class=\"rood\">月</b> (maand) de achtste maand tonen. De eerste klank blijft hoog, de tweede valt.",
+   "stop": [
+    10
+   ],
+   "anker": "<b>G</b> In de Zwevende gymzaal, de losse zaal van de tiende stop, zie ik de hellende vloer en de sikkel in de lucht; aan die plek koppel ik het woord 八月.",
+   "scene": "Ik stap de Zwevende gymzaal in. Met twee armen trek ik de lijnen van 八 uiteen en til daarna de sikkel van 月. Ik roep 'Bā!' hoog en vlak, en laat 'Yuè!' scherp vallen. Mijn knieën gaan mee naar beneden. Ik herhaal 'Bā yuè!' tot de achtste maand in de lucht blijft hangen.",
+   "fam": [
+    [
+     "八",
+     "bā",
+     "acht",
+     "eerste teken van 八月"
+    ],
+    [
+     "月",
+     "yuè",
+     "maan, maand",
+     "tweede teken van 八月"
+    ],
+    [
+     "十",
+     "shí",
+     "tien",
+     "staat naast 八 in 十八 en 八十"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 八 een ideogram. De hint luidt: twee gebogen lijnen die 'to divide' betekenen. De definitie is 'eight; all around, all sides'. De pinyin is bā. Het radicaal is 八. De ontleding staat als '？'. 月 is een pictogram. De hint is 'A crescent moon'. De definitie is 'moon; month'. De pinyin is yuè. De ontleding is ⿵冂二. Het radicaal is 月. Het woord 八月 verbindt de getalslezing 'eight' met de maand-lezing van 月: de achtste maand, augustus.",
+   "twijfel": [
+    "De bronnen glossen 八 en 月 apart. 'Augustus' is de gewone lezing van de samenstelling acht + maand, geen aparte mmah-ingang.",
+    "八 heeft ook de glos 'all around, all sides'. In 八月 telt de getalsbetekenis 'eight'.",
+    "De ontleding van 八 is '？'. De hint 'twee gebogen lijnen' zegt niet welke moderne streken dat zijn. De streeknaam 撇 plus 捺 is de moderne schrijfvolgorde.",
+    "月 betekent zowel 'moon' als 'month'. In 八月 geldt de maand. In een langere zin als 八个月 kan het patroon ook een duur van acht maanden zijn.",
+    "⿵冂二 is een structuurontleding. De bron zegt niet dat 冂 of 二 zelf 'maan' betekenen. De linker streek van 月 heet in de moderne volgorde 撇.",
+    "Een familie bij 月 telt de maan. Vleesvormen met ⺼, zoals in 肚 of 脚, lijken erop en horen er niet bij. 八月 heeft daarnaast het eigen radicaal 八."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "BAA",
+       "hoog en vlak"
+      ],
+      [
+       "YUE",
+       "valt scherp"
+      ]
+     ]
+    ],
+    [
+     "ACHT",
+     "a",
+     [
+      [
+       "twee lijnen",
+       "wijken uiteen"
+      ],
+      [
+       "ideogram",
+       "hint verdelen"
+      ]
+     ]
+    ],
+    [
+     "MAAN",
+     "b",
+     [
+      [
+       "sikkel",
+       "maan-pictogram"
+      ],
+      [
+       "binnenstrepen",
+       "twee keer horizontaal"
+      ]
+     ]
+    ],
+    [
+     "GYMZAAL",
+     "paleis",
+     [
+      [
+       "zwevende zaal",
+       "tiende stop"
+      ],
+      [
+       "gymzaal",
+       "losse vloer"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "achtste maand",
+       "augustus"
+      ],
+      [
+       "acht plus maand",
+       "kalenderwoord"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "bā",
+    "yuè"
+   ],
+   "zinnen": [
+    [
+     "我八月去中国。",
+     "Ik ga in augustus naar China."
+    ],
+    [
+     "八月我在家。",
+     "In augustus ben ik thuis."
+    ],
+    [
+     "她八月在中国。",
+     "Zij is in augustus in China."
+    ]
+   ],
+   "dialoog": {
+    "a": "这个月是八月吗？",
+    "b": "这个月是八月。",
+    "hint": "Is deze maand augustus? Antwoord bevestigend met hetzelfde onderwerp.",
+    "fout": [
+     "今天是八月。",
+     "我在中国。",
+     "八月很好。"
+    ]
+   },
+   "oud": {
+    "actie": "Trek de twee lijnen van 八 open, teken daarna 月, en zeg bā vlak en yuè vallend.",
+    "recallDoe": [
+     "Schrijf 八 in twee streken en 月 in vier streken.",
+     "Zeg bāyuè met toon 1 en daarna toon 4.",
+     "Noem de hint van 八 en de hint van 月.",
+     "Zeg hardop: 这个月是八月。",
+     "Ga in gedachten de Zwevende gymzaal in en koppel daar 八月.",
+     "Noem twee andere maanden die op 月 eindigen."
+    ],
+    "recallVragen": [
+     "Wat betekent 八月?",
+     "Welke twee tonen zitten in bāyuè?",
+     "Wat is de hint bij het ideogram 八?",
+     "Hoe ontleedt makemeahanzi het teken 月?",
+     "Welke lezing van 月 gebruik je in 八月: maan of maand?"
+    ],
+    "plek": "Zwevende gymzaal"
+   },
+   "slug": "bayue",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "月",
+     "py": "yuè",
+     "nl": "maan, maand",
+     "haak": "Sikkel zelf: boog links, haak rechts, twee strepen erin."
+    },
+    {
+     "hz": "朋",
+     "py": "péng",
+     "nl": "vriend",
+     "haak": "Twee 月 naast elkaar, links en rechts."
+    },
+    {
+     "hz": "期",
+     "py": "qī",
+     "nl": "termijn",
+     "haak": "月 rechts, 其 links."
+    },
+    {
+     "hz": "朗",
+     "py": "lǎng",
+     "nl": "helder",
+     "haak": "月 rechts, 良 links."
+    },
+    {
+     "hz": "朔",
+     "py": "shuò",
+     "nl": "nieuwe maan",
+     "haak": "月 rechts, 屰 links."
+    },
+    {
+     "hz": "望",
+     "py": "wàng",
+     "nl": "uitkijken",
+     "haak": "亡 linksboven, 月 rechtsboven, 王 onder."
+    }
+   ],
+   "obrien": {
+    "scene": "In de Zwevende gymzaal trek ik twee lijnen wijd open en laat een sikkel vallen op de kreet 'BĀ YUÈ!'. De vloer helt mee, stof dwarrelt, de zaal zoemt op de val.",
+    "klank": "BĀ YUÈ!",
+    "prompt": "Inside a gymnasium hanging above the ground, a person pulls two lines apart and a crescent drops as the floor tilts, dust drifting, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A flat high bar of sound followed by a sharp falling slash, drawn illustration, no text.",
+    "a": "Two bent lines splitting apart like a path dividing, drawn illustration, no text.",
+    "b": "A crescent moon in a soft frame with two horizontal lines inside, drawn illustration, no text.",
+    "paleis": "A gymnasium floating above the ground, floor tilted, a crescent in the air, drawn illustration, no text.",
+    "link": "Divided lines beside a crescent, a late-summer month felt in the air, warm drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "八月",
+     "py": "bāyuè",
+     "nl": "augustus",
+     "deelt": "八月",
+     "haak": "八 links, 月 rechts."
+    },
+    {
+     "hz": "十八",
+     "py": "shíbā",
+     "nl": "achttien",
+     "deelt": "八",
+     "haak": "十 links, 八 rechts."
+    },
+    {
+     "hz": "八十",
+     "py": "bāshí",
+     "nl": "tachtig",
+     "deelt": "八",
+     "haak": "八 links, 十 rechts."
+    },
+    {
+     "hz": "一月",
+     "py": "yīyuè",
+     "nl": "januari",
+     "deelt": "月",
+     "haak": "一 links, 月 rechts."
+    },
+    {
+     "hz": "二月",
+     "py": "èryuè",
+     "nl": "februari",
+     "deelt": "月",
+     "haak": "二 links, 月 rechts."
+    },
+    {
+     "hz": "九月",
+     "py": "jiǔyuè",
+     "nl": "september",
+     "deelt": "月",
+     "haak": "九 links, 月 rechts."
+    },
+    {
+     "hz": "十月",
+     "py": "shíyuè",
+     "nl": "oktober",
+     "deelt": "月",
+     "haak": "十 links, 月 rechts."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "ACHT",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "MAAN",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "GYMZAAL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": []
   },
   {
    "slug": "da",
@@ -7424,6 +7776,334 @@
      "haak": "Opa zwaait naast mama."
     }
    ]
+  },
+  {
+   "hz": "妈",
+   "py": "mā",
+   "nl": "moeder, mama",
+   "toon": "1",
+   "streken": {
+    "妈": [
+     "撇点",
+     "撇",
+     "提",
+     "横折",
+     "竖折折钩",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">女</b> (vrouw) betekenisdeel · <b class=\"rood\">马</b> (paard) klankdeel",
+   "opbouw": "妈 = 女 3 + 马 3",
+   "klank": "MA→",
+   "klankuitleg": "De eerste toon van mā ligt hoog en blijft vlak: geen daling en geen stijging, als een sein dat één hoogte aanhoudt.",
+   "hooks": {
+    "nl": [
+     "MAA→",
+     "Ik houd 'MAA!' vast als een hoge, vlakke fluittoon.",
+     "Haak: MAA met eerste toon: hoog en vlak. Herhaal: MAA. Zin: Ik houd 'MAA!' vast als een hoge, vlakke fluittoon. Toonuitleg: de eerste toon blijft hoog en vlak, als een fluit die één noot aanhoudt."
+    ],
+    "en": [
+     "MAH→",
+     "I hold 'MAH!' as one high, flat note.",
+     "Haak: MAH met eerste toon: hoog en vlak. Herhaal: MAH. Zin: I hold 'MAH!' as one high, flat note. Toonuitleg: the first tone stays high and level, like a note that does not rise or fall."
+    ],
+    "es": [
+     "MA→",
+     "Sostengo '¡MA!' como una nota alta y plana.",
+     "Haak: MA met eerste toon: hoog en vlak. Herhaal: MA. Zin: Sostengo '¡MA!' como una nota alta y plana. Toonuitleg: de eerste toon blijft hoog en vlak, als een Spaanse noot die niet buigt."
+    ]
+   },
+   "beeldhook": "IK zet de vrouw links en het paard rechts, zodat <b class=\"rood\">女</b> (vrouw, betekenis) en <b class=\"rood\">马</b> (paard, klank) samen 妈 vormen, en houd de klank hoog en vlak.",
+   "stop": [
+    2
+   ],
+   "anker": "<b>S</b> In het Stationsgebouw, het gebouw van de tweede stop, zie ik links de vrouw en rechts het paard in de hal; aan die plek koppel ik het teken 妈.",
+   "scene": "Ik loop het Stationsgebouw binnen. Links zet ik de vrouw, rechts het paard, en ik roep hoog en vlak 'Mā!'. De noot zakt niet en stijgt niet. Ik voel haar stil in mijn borst hangen en herhaal 'Mā! Mā!' tot de hal de toon recht teruggeeft.",
+   "fam": [
+    [
+     "女",
+     "nǚ",
+     "vrouw",
+     "linker betekenisdeel van 妈"
+    ],
+    [
+     "马",
+     "mǎ",
+     "paard",
+     "rechter klankdeel van 妈"
+    ],
+    [
+     "好",
+     "hǎo",
+     "goed",
+     "deelt het radicaal 女"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 妈 een pictofonetisch teken. Het klankdeel is 马, het betekenisdeel is 女, met de hint 'woman'. De definitie is 'mother, mama'. De pinyin is mā. De ontleding is ⿰女马: links 女, rechts 马. Het radicaal is 女. oude_3.5 is leeg voor dit teken.",
+   "twijfel": [
+    "Het klankdeel 马 is mǎ, toon 3, terwijl 妈 mā, toon 1, is. Het klankdeel dekt de lettergreep, niet de toon.",
+    "De hint bij 女 is 'woman', niet 'mother'. De precieze betekenis 'mother, mama' staat in de definitie, niet in het betekenisdeel zelf.",
+    "Omdat het type pictophonetic is, draagt 马 de klank. De bron zegt niet dat het paard een betekenis aan 'moeder' toevoegt.",
+    "makemeahanzi geeft geen oud schrift en geen Shuowen-citaat voor 妈. De vormgeschiedenis staat niet in de bron."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "MAA",
+       "hoge vlakke toon"
+      ],
+      [
+       "fluitnoot",
+       "blijft hoog"
+      ]
+     ]
+    ],
+    [
+     "VROUW",
+     "a",
+     [
+      [
+       "女",
+       "links betekenisdeel"
+      ],
+      [
+       "radicaal",
+       "hint vrouw"
+      ]
+     ]
+    ],
+    [
+     "PAARD",
+     "b",
+     [
+      [
+       "马",
+       "rechts klankdeel"
+      ],
+      [
+       "mǎ-klank",
+       "toon wijkt af"
+      ]
+     ]
+    ],
+    [
+     "STATION",
+     "paleis",
+     [
+      [
+       "stationsgebouw",
+       "tweede stop"
+      ],
+      [
+       "routeplek",
+       "het gebouw"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "vrouw plus klank",
+       "moeder"
+      ],
+      [
+       "pictofonetisch",
+       "klank en betekenis"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "mā"
+   ],
+   "zinnen": [
+    [
+     "姐姐的妈妈很好。",
+     "De moeder van mijn oudere zus is goed."
+    ],
+    [
+     "这是我妈妈。",
+     "Dit is mijn moeder."
+    ],
+    [
+     "她妈妈在家。",
+     "Haar moeder is thuis."
+    ]
+   ],
+   "dialoog": {
+    "a": "你妈妈好吗？",
+    "b": "我妈妈很好。",
+    "hint": "Is jouw moeder goed? Antwoord bevestigend over je eigen moeder.",
+    "fout": [
+     "妈妈在中国。",
+     "这是姐姐。",
+     "她不好。"
+    ]
+   },
+   "oud": {
+    "actie": "Wijs links de vrouw en rechts het paard aan, schrijf 妈, en houd mā hoog en vlak.",
+    "recallDoe": [
+     "Schrijf 妈 uit het hoofd in zes streken.",
+     "Wijs het betekenisdeel 女 en het klankdeel 马 aan.",
+     "Zeg mā drie keer op een hoge vlakke toon.",
+     "Zeg hardop: 这是我妈妈。",
+     "Loop in gedachten het Stationsgebouw in en roep daar Mā."
+    ],
+    "recallVragen": [
+     "Wat betekent 妈?",
+     "Welk deel geeft de betekenis en welk deel de klank?",
+     "Welke toon heeft mā, en welke toon heeft 马?",
+     "Wat is het radicaal van 妈?",
+     "Waarom maakt het paard 妈 niet tot een plaatje van vrouw plus paard?"
+    ],
+    "plek": "Stationsgebouw"
+   },
+   "slug": "ma1",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "她",
+     "py": "tā",
+     "nl": "zij",
+     "haak": "女 links, 也 rechts."
+    },
+    {
+     "hz": "姐",
+     "py": "jiě",
+     "nl": "oudere zus",
+     "haak": "女 links, 且 rechts."
+    },
+    {
+     "hz": "妹",
+     "py": "mèi",
+     "nl": "jongere zus",
+     "haak": "女 links, 未 rechts."
+    },
+    {
+     "hz": "奶",
+     "py": "nǎi",
+     "nl": "melk",
+     "haak": "女 links, 乃 rechts."
+    },
+    {
+     "hz": "好",
+     "py": "hǎo",
+     "nl": "goed",
+     "haak": "女 links, 子 rechts."
+    },
+    {
+     "hz": "女",
+     "py": "nǚ",
+     "nl": "vrouw",
+     "haak": "女 alleen: het radicaal zonder deel ernaast."
+    }
+   ],
+   "obrien": {
+    "scene": "In het Stationsgebouw staat een vrouw naast een paard en houdt een hoge vlakke roep 'MĀ!' aan. Hoeven tikken, de noot blijft recht, de borst zoemt op één hoogte.",
+    "klank": "MĀ!",
+    "prompt": "Inside a station building, a woman stands beside a horse and calls on one high level note, hooves tapping, the sound drawn as a straight beam, warm illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A single high flat flute tone held as a straight beam of light, no rise and no fall, drawn illustration, no text.",
+    "a": "A woman standing on the left side of a frame, calm posture, drawn illustration, no text.",
+    "b": "A horse standing on the right side of a frame, ears forward, drawn illustration, no text.",
+    "paleis": "A station building interior with a woman and a horse in the open room, drawn illustration, no text.",
+    "link": "A woman beside a horse, a level line of light leaving her mouth, warm drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "妈妈",
+     "py": "māma",
+     "nl": "mama",
+     "deelt": "妈",
+     "haak": "妈 links en nog een 妈 rechts."
+    },
+    {
+     "hz": "大妈",
+     "py": "dàmà",
+     "nl": "oudere vrouw",
+     "deelt": "妈",
+     "haak": "大 links, 妈 rechts."
+    },
+    {
+     "hz": "姑妈",
+     "py": "gūmā",
+     "nl": "tante van vaderskant",
+     "deelt": "妈",
+     "haak": "姑 links, 妈 rechts."
+    },
+    {
+     "hz": "姨妈",
+     "py": "yímā",
+     "nl": "tante van moederskant",
+     "deelt": "妈",
+     "haak": "姨 links, 妈 rechts."
+    },
+    {
+     "hz": "后妈",
+     "py": "hòumā",
+     "nl": "stiefmoeder",
+     "deelt": "妈",
+     "haak": "后 links, 妈 rechts."
+    },
+    {
+     "hz": "奶妈",
+     "py": "nǎimā",
+     "nl": "zoogmoeder",
+     "deelt": "妈",
+     "haak": "奶 links, 妈 rechts."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "VROUW",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "PAARD",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "STATION",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": []
   },
   {
    "slug": "mama",
@@ -16069,6 +16749,339 @@
      "haak": "zoeken naar pad"
     }
    ]
+  },
+  {
+   "hz": "子",
+   "py": "zǐ",
+   "nl": "zoon, kind, meester, zaad",
+   "toon": "3",
+   "streken": {
+    "子": [
+     "横撇",
+     "竖钩",
+     "横"
+    ]
+   },
+   "delen": "<b class=\"rood\">子</b> is zelf het radicaal · ontleding <b class=\"rood\">了</b> overlappend met <b class=\"rood\">一</b>",
+   "opbouw": "子 = ⿻了一, 3 streken",
+   "klank": "ZI↘↗",
+   "klankuitleg": "De derde toon van zǐ zakt eerst en komt dan terug: laag inzetten, nog een stap lager, en daarna opveren.",
+   "hooks": {
+    "nl": [
+     "DZE↘↗",
+     "Ik laat 'DZE!' eerst zakken en dan omhoog veren.",
+     "Haak: DZE met derde toon: eerst dalen, dan stijgen. Herhaal: DZE. Zin: Ik laat 'DZE!' eerst zakken en dan omhoog veren. Toonuitleg: de derde toon begint laag, zakt nog iets, en veert daarna omhoog."
+    ],
+    "en": [
+     "DZUH↘↗",
+     "I let 'DZUH!' dip down and then spring up.",
+     "Haak: DZUH met derde toon: eerst dalen, dan stijgen. Herhaal: DZUH. Zin: I let 'DZUH!' dip down and then spring up. Toonuitleg: the third tone starts low, dips lower, then springs back up."
+    ],
+    "es": [
+     "DSE↘↗",
+     "Dejo que '¡DSE!' baje y luego suba.",
+     "Haak: DSE met derde toon: eerst dalen, dan stijgen. Herhaal: DSE. Zin: Dejo que '¡DSE!' baje y luego suba. Toonuitleg: de derde toon daalt eerst en stijgt daarna, als een Spaanse uitroep die keert."
+    ]
+   },
+   "beeldhook": "IK ben het kind in een doek, armen wijd als <b class=\"rood\">一</b> en lijf gebogen als <b class=\"rood\">了</b>, en laat de klank eerst dalen en dan stijgen.",
+   "stop": [
+    8
+   ],
+   "anker": "<b>V</b> In de Vleugel, de lange schoolvleugel van de achtste stop, zie ik het kind in een doek in de gang; aan die plek koppel ik het teken 子.",
+   "scene": "Ik stap de Vleugel in. Daar zit het kind in een doek: armen wijd, benen samen. Ik roep 'Zǐ!' met een stem die eerst daalt en dan stijgt. De gang vangt de daling en kaatst de stijging terug. Ik voel de draai in mijn buik en herhaal 'Zǐ! Zǐ!'.",
+   "fam": [
+    [
+     "了",
+     "liǎo",
+     "af, klaar",
+     "bovenste structuurdeel in ⿻了一"
+    ],
+    [
+     "一",
+     "yī",
+     "een",
+     "de dwarsstreep in 子"
+    ],
+    [
+     "好",
+     "hǎo",
+     "goed",
+     "bevat 子, radicaal blijft 女"
+    ]
+   ],
+   "gesch": "Volgens makemeahanzi is 子 een pictogram. De hint luidt: een kind in een doek, met uitgestrekte armen maar samengebonden benen. De definitie is 'son, child; seed, egg; fruit; small thing'. De pinyin in die bron staat als 'zi', zonder toonteken. De ontleding is ⿻了一. Het radicaal is 子. oude_3.5 geeft de pinyin zǐ, de vertaling 'zoon, kind, meester, zaad', en zegt dat het hele teken het radicaal is.",
+   "twijfel": [
+    "makemeahanzi schrijft 'zi' zonder toon. oude_3.5 schrijft zǐ, derde toon. De kaart gebruikt zǐ voor de losse lezing zoon of kind.",
+    "Als achtervoegsel, zoals in 孩子 of 儿子, is 子 meestal toonloos. Die lezing staat niet apart in de gegeven definitie.",
+    "'meester' staat in oude_3.5 en niet in de mmah-definitie. 'egg', 'fruit' en 'small thing' staan in mmah en niet in oude_3.5.",
+    "De hint beschrijft het hele pictogram. ⿻了一 is een moderne structuurontleding. Dat 一 de armen zijn en 了 het ingebakerde lijf, is een lezing van hint plus ontleding, geen aparte gloss.",
+    "mmah zegt 'son'. oude_3.5 zegt ook 'kind'. Zoon en kind staan allebei in de bronnen, niet als één gesloten keuze."
+   ],
+   "mm": [
+    [
+     "KLANK",
+     "klank",
+     [
+      [
+       "DZE",
+       "daalt en stijgt"
+      ],
+      [
+       "buik",
+       "derde toon"
+      ]
+     ]
+    ],
+    [
+     "LIJF",
+     "a",
+     [
+      [
+       "doekvorm",
+       "benen samen"
+      ],
+      [
+       "structuur",
+       "lijkt op 了"
+      ]
+     ]
+    ],
+    [
+     "ARMEN",
+     "b",
+     [
+      [
+       "dwarsstreep",
+       "armen wijd"
+      ],
+      [
+       "een",
+       "streek horizontaal"
+      ]
+     ]
+    ],
+    [
+     "VLEUGEL",
+     "paleis",
+     [
+      [
+       "schoolvleugel",
+       "achtste stop"
+      ],
+      [
+       "lange zijde",
+       "van de school"
+      ]
+     ]
+    ],
+    [
+     "LINK",
+     "link",
+     [
+      [
+       "kind in doek",
+       "zoon"
+      ],
+      [
+       "hele teken",
+       "is het radicaal"
+      ]
+     ]
+    ]
+   ],
+   "syl": [
+    "zǐ"
+   ],
+   "zinnen": [
+    [
+     "她的儿子很好。",
+     "Haar zoon is goed."
+    ],
+    [
+     "姐姐有一个儿子。",
+     "Mijn oudere zus heeft een zoon."
+    ],
+    [
+     "弟弟有一个儿子。",
+     "Mijn jongere broer heeft een zoon."
+    ]
+   ],
+   "dialoog": {
+    "a": "你有儿子吗？",
+    "b": "我有一个儿子。",
+    "hint": "Heb je een zoon? Antwoord bevestigend met een aantal.",
+    "fout": [
+     "儿子在家。",
+     "我有姐姐。",
+     "她很好。"
+    ]
+   },
+   "oud": {
+    "actie": "Teken 子 in drie streken, armen wijd, en laat zǐ eerst dalen en dan stijgen.",
+    "recallDoe": [
+     "Schrijf 子 uit het hoofd: 横撇, 竖钩, 横.",
+     "Wijs in het teken de ontleding ⿻了一 aan.",
+     "Zeg zǐ drie keer in de derde toon.",
+     "Zeg hardop: 我有一个儿子。",
+     "Ga in gedachten de Vleugel in en zet daar het kind in de doek."
+    ],
+    "recallVragen": [
+     "Wat betekent 子 volgens de twee bronnen?",
+     "Welke toon hoort bij de losse lezing zoon of kind?",
+     "Wat zegt de pictografische hint over armen en benen?",
+     "Waarom is het hele teken het radicaal?",
+     "Wanneer wordt de toon van 子 meestal neutraal?"
+    ],
+    "plek": "Vleugel"
+   },
+   "slug": "zi",
+   "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
+   "radfam": [
+    {
+     "hz": "存",
+     "py": "cún",
+     "nl": "bestaan, bewaren",
+     "haak": "子 onderaan, 才 ernaast."
+    },
+    {
+     "hz": "学",
+     "py": "xué",
+     "nl": "leren",
+     "haak": "子 onderaan, onder de kap."
+    },
+    {
+     "hz": "孩",
+     "py": "hái",
+     "nl": "kind",
+     "haak": "子 links, 亥 rechts."
+    },
+    {
+     "hz": "孙",
+     "py": "sūn",
+     "nl": "kleinkind",
+     "haak": "子 links, 小 rechts."
+    },
+    {
+     "hz": "孔",
+     "py": "kǒng",
+     "nl": "gat",
+     "haak": "子 links, een haak rechts."
+    },
+    {
+     "hz": "季",
+     "py": "jì",
+     "nl": "seizoen",
+     "haak": "禾 boven, 子 onder."
+    }
+   ],
+   "obrien": {
+    "scene": "In de Vleugel zit een kind in een doek, armen wijd en benen samen, en roept 'ZǏ!' eerst omlaag en dan omhoog. De doek ritselt, de gang galmt, de buik draait mee.",
+    "klank": "ZǏ!",
+    "prompt": "In a long school-wing corridor, a small child wrapped in cloth sits with arms stretched wide and legs bundled, the voice dipping then rising, cloth rustling, warm drawn illustration, no text."
+   },
+   "mmbeeld": {
+    "klank": "A voice line that dips down and springs back up, like a bounce, drawn illustration, no text.",
+    "a": "A small body wrapped in cloth with legs bundled into a curved shape, drawn illustration, no text.",
+    "b": "Two arms stretched wide as one straight horizontal line, drawn illustration, no text.",
+    "paleis": "A long school wing with a wrapped child seated in the corridor, drawn illustration, no text.",
+    "link": "A wrapped child with arms wide, one clear picture-figure, warm drawn illustration, no text."
+   },
+   "fam5": [
+    {
+     "hz": "孩子",
+     "py": "háizi",
+     "nl": "kind",
+     "deelt": "子",
+     "haak": "孩 links, 子 rechts."
+    },
+    {
+     "hz": "儿子",
+     "py": "érzi",
+     "nl": "zoon",
+     "deelt": "子",
+     "haak": "儿 links, 子 rechts."
+    },
+    {
+     "hz": "子女",
+     "py": "zǐnǚ",
+     "nl": "kinderen",
+     "deelt": "子",
+     "haak": "子 links, 女 rechts."
+    },
+    {
+     "hz": "女子",
+     "py": "nǚzǐ",
+     "nl": "vrouw",
+     "deelt": "子",
+     "haak": "女 links, 子 rechts."
+    },
+    {
+     "hz": "弟子",
+     "py": "dìzǐ",
+     "nl": "leerling",
+     "deelt": "子",
+     "haak": "弟 links, 子 rechts."
+    },
+    {
+     "hz": "日子",
+     "py": "rìzi",
+     "nl": "dag",
+     "deelt": "子",
+     "haak": "日 links, 子 rechts."
+    },
+    {
+     "hz": "个子",
+     "py": "gèzi",
+     "nl": "lichaamslengte",
+     "deelt": "子",
+     "haak": "个 links, 子 rechts."
+    }
+   ],
+   "_hot": [
+    [
+     "KLANK",
+     "klank",
+     64.6,
+     21.1
+    ],
+    [
+     "LIJF",
+     "a",
+     80.6,
+     55.7
+    ],
+    [
+     "ARMEN",
+     "b",
+     54.3,
+     82.4
+    ],
+    [
+     "VLEUGEL",
+     "paleis",
+     22.1,
+     64.3
+    ],
+    [
+     "LINK",
+     "link",
+     28.4,
+     26.5
+    ]
+   ],
+   "_mm_open": [
+    "a-s1",
+    "a-s2",
+    "b-s1",
+    "b-s2",
+    "klank-s1",
+    "klank-s2",
+    "link-s1",
+    "link-s2",
+    "paleis-s1",
+    "paleis-s2"
+   ],
+   "_beeld_open": []
   }
  ]
 }
