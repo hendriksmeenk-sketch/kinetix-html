@@ -489,56 +489,6 @@
      "deelt": "手机",
      "haak": "手机 + 壳: een schaal om je mobiel."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "hand",
-     80.5,
-     44.0
-    ],
-    [
-     "HOUT",
-     "hout",
-     73.5,
-     71.4
-    ],
-    [
-     "TAFEL",
-     "tafel",
-     48.8,
-     82.7
-    ],
-    [
-     "MACHINE",
-     "machine",
-     25.0,
-     69.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     20.0,
-     41.5
-    ],
-    [
-     "LINK",
-     "link",
-     37.7,
-     20.0
-    ]
-   ],
-   "_mm_open": [
-    "klank-s1"
-   ],
-   "_beeld_open": [
-    "klank-s1"
    ]
   },
   {
@@ -823,52 +773,6 @@
      "deelt": "打 + 折",
      "haak": "Een hand knipt een prijskaartje door."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "SLAAN",
-     "a",
-     81.0,
-     48.9
-    ],
-    [
-     "BLIKSEM",
-     "b",
-     66.5,
-     77.8
-    ],
-    [
-     "TONG",
-     "c",
-     35.4,
-     78.9
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     19.0,
-     51.1
-    ],
-    [
-     "LINK",
-     "link",
-     33.5,
-     22.2
-    ]
-   ],
-   "_mm_open": [
-    "klank-s2",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "klank-s2",
-    "paleis-s2"
    ]
   },
   {
@@ -1147,73 +1051,6 @@
      "deelt": "有 + 趣",
      "haak": "Heeft plezier: 有 voor 趣."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "WATER",
-     "a",
-     81.0,
-     48.9
-    ],
-    [
-     "HAND",
-     "b",
-     66.5,
-     77.8
-    ],
-    [
-     "VLEES",
-     "c",
-     35.4,
-     78.9
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     19.0,
-     51.1
-    ],
-    [
-     "LINK",
-     "link",
-     33.5,
-     22.2
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "c-s1",
-    "c-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "c-s1",
-    "c-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -1472,63 +1309,6 @@
      "deelt": "弟",
      "haak": "Jonge generatie speelt in de tuin."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "TOUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "BROER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -1789,63 +1569,6 @@
      "deelt": "familielid",
      "haak": "Oma breit een lange sjaal"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "STAPEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank-s1",
-    "klank-s2",
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis-s1",
-    "paleis-s2",
-    "link-s1",
-    "link-s2"
    ]
   },
   {
@@ -2093,44 +1816,6 @@
      "deelt": "familieveld",
      "haak": "Grote broer in het familieveld."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "BOOMPJE",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "klank-s2"
-   ],
-   "_beeld_open": [
-    "klank-s2"
    ]
   },
   {
@@ -2382,46 +2067,6 @@
      "deelt": "familieveld",
      "haak": "Mensen onder één dak."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DRAAD",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "b-s2"
-   ],
-   "_beeld_open": [
-    "a-s1",
-    "b-s2"
    ]
   },
   {
@@ -2718,41 +2363,7 @@
      "deelt": "八",
      "haak": "Punt en 横 als deksel, 八 eronder."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "LINKS",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "RECHTS",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VIADUCT",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "baba",
@@ -3075,41 +2686,7 @@
      "deelt": "familie",
      "haak": "Opa boven papa."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VADER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KLANKDEEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "bai",
@@ -3555,44 +3132,6 @@
      "deelt": "百 + 货",
      "haak": "Honderd soorten waren."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A: EEN",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B: WIT",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: GLASWAND AULA",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK: HONDERD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "paleis-s1"
    ]
   },
   {
@@ -3884,41 +3423,7 @@
      "deelt": "白",
      "haak": "白 links van 马."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "ZON",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KAARS",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GLASWAND",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "hz": "班",
@@ -4213,41 +3718,7 @@
      "deelt": "班",
      "haak": "班 links, 车 rechts."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "JADE",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "MES",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GYMZAAL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "hz": "八月",
@@ -4543,41 +4014,7 @@
      "deelt": "月",
      "haak": "十 links, 月 rechts."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "ACHT",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "MAAN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GYMZAAL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "da",
@@ -4863,71 +4300,6 @@
      "deelt": "打",
      "haak": "naald prikt als slag"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "SPIJKER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "METAALGEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -5219,65 +4591,6 @@
      "deelt": "多",
      "haak": "多 links, 余 rechts."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "BOVEN",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "ONDER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "CRUIJFFCOURT",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
    ]
   },
   {
@@ -5758,76 +5071,6 @@
      "deelt": "多 + 少",
      "haak": "Veel-veel, weinig-weinig."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A: AVOND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B: KLEIN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: CRUIJFF-COURT",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK: HOEVEEL",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -6233,44 +5476,6 @@
      "deelt": "bevat 二",
      "haak": "twee snaren op een viool."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "BOVEN",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "ONDER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GLASWAND",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "link-s1"
-   ],
-   "_beeld_open": [
-    "link-s1"
    ]
   },
   {
@@ -6563,65 +5768,6 @@
      "deelt": "十",
      "haak": "撇 boven op 十."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "TWEE",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "TIEN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "STATIONSGEBOUW",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
    ]
   },
   {
@@ -6911,41 +6057,7 @@
      "deelt": "父",
      "haak": "Grootvader aan vaderskant."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "BIJL",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "HAND",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PIJLERS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "VADER",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "gege",
@@ -7140,67 +6252,7 @@
     ],
     "plek": "Zittrap"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 哥",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 哥",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "hao",
@@ -7601,41 +6653,7 @@
      "deelt": "bevat 好 (goed)",
      "haak": "Precies goed, klokslag raak."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KIND",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "jie",
@@ -7954,76 +6972,6 @@
      "deelt": "姐",
      "haak": "Jonge dame met waaier."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "TAFEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "OUDERE ZUS",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -8068,8 +7016,8 @@
    "stop": [
     1
    ],
-   "anker": "<b>N</b> Bij het Spoorviaduct zie ik de overspanning boven het spoor; aan die plek koppel ik het teken 拉.",
-   "scene": "Ik sta bij het Spoorviaduct en kijk naar de overspanning boven het spoor. Mijn hand sluit om een dik touw en haalt het in een rechte lijn naar me toe. Ik roep hoog en vlak 'Lā!'. Het touw zoemt in mijn palm, mijn schouder blijft strak, en de klank zakt niet en stijgt niet. Ik houd die hoogte vast: 'Lā! Lā!'",
+   "anker": "<b>N</b> Op de Chinese Muur zie ik de eindeloze stenen draak over de bergkammen; aan die plek koppel ik het teken 拉.",
+   "scene": "Ik sta op de Chinese Muur en kijk naar de stenen draak over de bergkammen. Mijn hand sluit om een dik touw en haalt het in een rechte lijn naar me toe. Ik roep hoog en vlak 'Lā!'. Het touw zoemt in mijn palm, mijn schouder blijft strak, en de klank zakt niet en stijgt niet. Ik houd die hoogte vast: 'Lā! Lā!'",
    "fam": [
     [
      "扌",
@@ -8142,12 +7090,12 @@
      ]
     ],
     [
-     "SPOORVIADUCT",
+     "CHINESE MUUR",
      "paleis",
      [
       [
-       "overspanning",
-       "boven het spoor"
+       "stenen draak",
+       "over de bergkammen"
       ],
       [
        "touw",
@@ -8203,7 +7151,7 @@
      "Zeg LAA drie keer hoog en vlak.",
      "Wijs links 扌 aan en rechts 立.",
      "Teken 拉 met acht streken in de lucht.",
-     "Ga in gedachten naar het Spoorviaduct en koppel daar 拉.",
+     "Ga in gedachten naar de Chinese Muur en koppel daar 拉.",
      "Maak een zin met 拉 en 手."
     ],
     "recallVragen": [
@@ -8213,7 +7161,7 @@
      "Welke daad noemt de bron naast naar je toe halen en slepen?",
      "Welke paleisstop hoort bij 拉?"
     ],
-    "plek": "Spoorviaduct"
+    "plek": "Chinese Muur"
    },
    "slug": "la",
    "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
@@ -8256,15 +7204,15 @@
     }
    ],
    "obrien": {
-    "scene": "Bij het Spoorviaduct haalt een persoon een dik touw in een rechte lijn naar zich toe en roept 'LĀ!' hoog en vlak; het touw zoemt, de arm trilt, de klank blijft op één hoogte.",
+    "scene": "Op de Chinese Muur haalt een persoon een dik touw in een rechte lijn naar zich toe en roept 'LĀ!' hoog en vlak; het touw zoemt, de arm trilt, de klank blijft op één hoogte.",
     "klank": "LĀ!",
-    "prompt": "Beside a railway viaduct a person hauls a thick rope in a straight line, arm taut, rope humming, one high steady tone in the air, warm drawn illustration, no text."
+    "prompt": "On the Great Wall of China a person hauls a thick rope in a straight line, arm taut, rope humming, one high steady tone in the air, warm drawn illustration, no text."
    },
    "mmbeeld": {
     "klank": "A single musical tone drawn as a perfectly level high beam of light, calm and steady, warm drawn illustration, no text.",
     "a": "A hand entering from the left, three clear strokes, reaching sideways, warm drawn illustration, no text.",
     "b": "A standing figure on the right, feet on a flat ground line, warm drawn illustration, no text.",
-    "paleis": "A person hauling a thick rope beside a railway viaduct, rope taut, body level, warm drawn illustration, no text.",
+    "paleis": "A person hauling a thick rope on the Great Wall of China, rope taut, body level, warm drawn illustration, no text.",
     "link": "A hand on the left drawing a standing figure inward, level waves above them, warm drawn illustration, no text."
    },
    "fam5": [
@@ -8338,7 +7286,7 @@
      82.4
     ],
     [
-     "SPOORVIADUCT",
+     "CHINESE MUUR",
      "paleis",
      22.1,
      64.3
@@ -8350,33 +7298,8 @@
      26.5
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
-   ]
+   "_mm_open": [],
+   "_beeld_open": []
   },
   {
    "hz": "林",
@@ -8420,8 +7343,8 @@
    "stop": [
     3
    ],
-   "anker": "<b>N</b> Bij de Beschilderde pijlers zie ik de geschilderde pilaren naast elkaar; aan die plek koppel ik het teken 林.",
-   "scene": "Ik sta bij de Beschilderde pijlers. Twee pilaren rijzen naast elkaar op als twee stammen. Ik groei mee omhoog, links één boom en rechts één boom, en roep met een stijgende stem 'Lín!'. De klank klimt tussen de pijlers door. Ik voel de stijging in mijn borst en kom op mijn tenen: 'Lín! Lín!'",
+   "anker": "<b>N</b> Bij Angkor Wat zie ik de stenen lotustorens naast elkaar, gespiegeld in de vijver; aan die plek koppel ik het teken 林.",
+   "scene": "Ik sta voor de lotustorens van Angkor Wat. Twee torens rijzen naast elkaar op als twee stammen. Ik groei mee omhoog, links één boom en rechts één boom, en roep met een stijgende stem 'Lín!'. De klank klimt tussen de torens door. Ik voel de stijging in mijn borst en kom op mijn tenen: 'Lín! Lín!'",
    "fam": [
     [
      "木",
@@ -8494,11 +7417,11 @@
      ]
     ],
     [
-     "PIJLERS",
+     "ANGKOR WAT",
      "paleis",
      [
       [
-       "beschilderde pijlers",
+       "lotustorens",
        "naast elkaar"
       ],
       [
@@ -8555,7 +7478,7 @@
      "Zeg LIEN drie keer met een stijgende toon.",
      "Teken twee 木 naast elkaar in de lucht.",
      "Wijs welke 木 eindigt op een punt en welke op een na.",
-     "Loop in gedachten naar de Beschilderde pijlers en koppel daar 林.",
+     "Loop in gedachten naar Angkor Wat en koppel daar 林.",
      "Maak een zin met 林 en 大."
     ],
     "recallVragen": [
@@ -8565,7 +7488,7 @@
      "Hoeveel streken heeft 林?",
      "Welke paleisstop hoort bij 林?"
     ],
-    "plek": "Beschilderde pijlers"
+    "plek": "Angkor Wat"
    },
    "slug": "lin",
    "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
@@ -8608,15 +7531,15 @@
     }
    ],
    "obrien": {
-    "scene": "Tussen de Beschilderde pijlers schieten twee bomen naast elkaar omhoog terwijl iemand 'LÍN!' roept met een klimmende stem; bladeren ritselen, de stammen trillen, de klank eindigt hoog.",
+    "scene": "Voor de lotustorens van Angkor Wat schieten twee bomen naast elkaar omhoog terwijl iemand 'LÍN!' roept met een klimmende stem; bladeren ritselen, de stammen trillen, de klank eindigt hoog.",
     "klank": "LÍN!",
-    "prompt": "Between painted pillars two trees rise side by side, leaves rustling, trunks trembling, a rising motion in the air, warm drawn illustration, no text."
+    "prompt": "Before the lotus towers of Angkor Wat two trees rise side by side, leaves rustling, trunks trembling, a rising motion in the air, warm drawn illustration, no text."
    },
    "mmbeeld": {
     "klank": "A rising curve of light climbing from mid air to high air, warm drawn illustration, no text.",
     "a": "One tree on the left, its right branch only a short dot, warm drawn illustration, no text.",
     "b": "One tree on the right, its right branch a long sweeping stroke, warm drawn illustration, no text.",
-    "paleis": "Painted pillars in a row like trunks, the two nearest standing side by side, warm drawn illustration, no text.",
+    "paleis": "The stone towers of Angkor Wat in a row like trunks, the two nearest standing side by side, warm drawn illustration, no text.",
     "link": "Two trees side by side becoming one grove, warm drawn illustration, no text."
    },
    "fam5": [
@@ -8690,7 +7613,7 @@
      82.4
     ],
     [
-     "PIJLERS",
+     "ANGKOR WAT",
      "paleis",
      22.1,
      64.3
@@ -8702,33 +7625,8 @@
      26.5
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
-   ]
+   "_mm_open": [],
+   "_beeld_open": []
   },
   {
    "slug": "ling",
@@ -9140,76 +8038,6 @@
      "deelt": "零 + 下",
      "haak": "Onder nul."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A: REGEN",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B: BEVEL/KLANK",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK: LEEG RONDJE",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -9511,76 +8339,6 @@
      "deelt": "familieveld",
      "haak": "Opa zwaait naast mama."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -9864,41 +8622,7 @@
      "deelt": "妈",
      "haak": "奶 links, 妈 rechts."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "PAARD",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "STATION",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "mama",
@@ -10224,76 +8948,6 @@
      "deelt": "妈 = moeder",
      "haak": "mama's zus: tante."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "BETEKENIS",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "PAARD",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -10606,76 +9260,6 @@
      "deelt": "妹",
      "haak": "Kleinste zus roept hard."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "NOG NIET",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "JONGERE ZUS",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -11053,76 +9637,6 @@
      "deelt": "关",
      "haak": "poort heeft een link"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "WATER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "POORT",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "METAALGEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -11309,67 +9823,7 @@
     ],
     "plek": "Glaswand aula"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "niunai",
@@ -11622,52 +10076,7 @@
      "speciaal",
      "radicaal 牛"
     ]
-   ],
-   "_hot": [
-    [
-     "RODE WIP",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "RODE OSSEKOP",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "VROUW AAN ZEEF",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM MET MELKVLEKKEN",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "RODE DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a-s1",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank-s1",
-    "klank-s2",
-    "link-s1",
-    "link-s2",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "nu'er",
@@ -11858,67 +10267,7 @@
     ],
     "plek": "Atrium"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 女",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 儿",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "nu",
@@ -12303,60 +10652,6 @@
      "deelt": "女 = vrouw",
      "haak": "vrouw plus koning: koningin."
     }
-   ],
-   "_hot": [
-    [
-     "AFWENDEN",
-     "a",
-     64.6,
-     21.1
-    ],
-    [
-     "ARMEN",
-     "b",
-     80.6,
-     55.7
-    ],
-    [
-     "KLANK",
-     "klank",
-     54.3,
-     82.4
-    ],
-    [
-     "SPIEGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "klank",
-    "link",
-    "link-s2",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "klank",
-    "a",
-    "a-s2",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "link",
-    "link-s2"
    ]
   },
   {
@@ -12667,46 +10962,6 @@
      "deelt": "月",
      "haak": "Maan plus deel: maand als eenheid."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 七",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 月",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: GLASWAND AULA",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "b-s2",
-    "centrum"
-   ],
-   "_beeld_open": [
-    "b-s2",
-    "centrum"
    ]
   },
   {
@@ -13126,48 +11381,6 @@
      "deelt": "bevat 三",
      "haak": "drie lagen brood bij elkaar."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "BOVENTREDE",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "ONDERTREDE",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "centrum",
-    "link-s1",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "paleis-s1",
-    "link-s1",
-    "centrum"
    ]
   },
   {
@@ -13461,65 +11674,6 @@
      "deelt": "十",
      "haak": "Horizontaal kruist verticaal."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DRIE",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "TIEN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
    ]
   },
   {
@@ -13822,76 +11976,6 @@
      "deelt": "班/dienst",
      "haak": "Tegenpool: dienst uit."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 上",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 班",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -14090,67 +12174,7 @@
     ],
     "plek": "Atrium"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 上",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 月",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "hz": "少",
@@ -14440,41 +12464,7 @@
      "deelt": "少",
      "haak": "少 links van 许."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VORM-小",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "VORM-丿",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "BETEKENIS",
-     "link",
-     22.1,
-     64.3
-    ],
-    [
-     "PALEIS-scene",
-     "paleis",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "shi'er",
@@ -14663,67 +12653,7 @@
     ],
     "plek": "Vleugel"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 十",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 二",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "slug": "shi",
@@ -15052,76 +12982,6 @@
      "deelt": "十 + 分",
      "haak": "Tien delen = heel/zeer."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A: ADEM",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B: BLIKSEM",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK: KRUIS",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -15310,67 +13170,7 @@
     ],
     "plek": "Zwevende gymzaal"
    },
-   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi",
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "DEEL A: 十",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "DEEL B: 一",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS: ZWEVENDE GYMZAAL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "centrum",
-    "beeld2",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link"
-   ]
+   "zwaar": "zwaar werk door: DeepSeek web (DeepThink) (alle inhoud, 3.5-prompt) · grok-4.7 xhigh, Grok CLI (feitcheck, review) · audio en beelden: nog niet gemaakt (Gemini-tegoed op) · bronnen: hanzi-writer-data, makemeahanzi"
   },
   {
    "hz": "手",
@@ -15659,65 +13459,6 @@
      "deelt": "手",
      "haak": "手 links van 足."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VINGERS",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "HAAK",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
    ]
   },
   {
@@ -16069,71 +13810,6 @@
      "deelt": "表",
      "haak": "horloge om de pols"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "WIJZERPLAAT",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "METAALGEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -16179,8 +13855,8 @@
    "stop": [
     6
    ],
-   "anker": "<b>N</b> Bij de Glaswand aula zie ik het grote glas; aan die plek koppel ik het teken 树.",
-   "scene": "Ik sta bij de Glaswand van de aula. Het glas is hoog en koel onder mijn hand. Ik zet één boom vlak voor het glas neer en roep met een stem die steil valt 'Shù!'. Het glas zoemt kort. Mijn stem zakt weg tot onder in mijn buik en één blad daalt langs de ruit: 'Shù!'",
+   "anker": "<b>N</b> Bij de Piramides van Gizeh zie ik de reusachtige stenen driehoek in de woestijn; aan die plek koppel ik het teken 树.",
+   "scene": "Ik sta voor de Piramides van Gizeh. De steen is hoog en warm onder mijn hand. Ik zet één boom vlak voor de piramide neer en roep met een stem die steil valt 'Shù!'. Het zand zoemt kort. Mijn stem zakt weg tot onder in mijn buik en één blad daalt langs de steen: 'Shù!'",
    "fam": [
     [
      "木",
@@ -16253,12 +13929,12 @@
      ]
     ],
     [
-     "GLASWAND",
+     "GIZEH",
      "paleis",
      [
       [
-       "glaswand aula",
-       "groot glas"
+       "Piramides van Gizeh",
+       "stenen driehoek"
       ],
       [
        "één stam",
@@ -16314,7 +13990,7 @@
      "Zeg SJOE drie keer met een vallende toon.",
      "Wijs links 木 aan en rechts 对.",
      "Teken 树 met negen streken in de lucht; de zesde, de tweede van 又, is een punt.",
-     "Ga in gedachten naar de Glaswand aula en koppel daar 树.",
+     "Ga in gedachten naar de Piramides van Gizeh en koppel daar 树.",
      "Maak een zin met 树 en 是.",
      "Noem het radicaal van 树."
     ],
@@ -16325,7 +14001,7 @@
      "Hoeveel streken heeft 树?",
      "Welke paleisstop hoort bij 树?"
     ],
-    "plek": "Glaswand aula"
+    "plek": "Piramides van Gizeh"
    },
    "slug": "shu",
    "zwaar": "zwaar werk door: grok-4.7 xhigh, Grok CLI (alle inhoud) · Gemini web (QC) · audio en beelden: nog niet gemaakt · bronnen: hanzi-writer-data, makemeahanzi",
@@ -16368,15 +14044,15 @@
     }
    ],
    "obrien": {
-    "scene": "Voor de glaswand van de aula zet iemand één boom neer en roept 'SHÙ!' met een stem die steil valt; het glas zoemt, een blad daalt, de klank eindigt laag.",
+    "scene": "Voor de Piramides van Gizeh zet iemand één boom neer en roept 'SHÙ!' met een stem die steil valt; het zand zoemt, een blad daalt, de klank eindigt laag.",
     "klank": "SHÙ!",
-    "prompt": "In front of a tall school glass wall one tree is set down, the glass trembling, one leaf falling, a steep downward motion, warm drawn illustration, no text."
+    "prompt": "In front of the Great Pyramid of Giza one tree is set down, the sand trembling, one leaf falling, a steep downward motion, warm drawn illustration, no text."
    },
    "mmbeeld": {
     "klank": "A steep falling streak of light from high to low, warm drawn illustration, no text.",
     "a": "A single trunk with branches standing on the left, warm drawn illustration, no text.",
     "b": "A right-hand shape with a small hook and a separate dot, warm drawn illustration, no text.",
-    "paleis": "One tree set in front of a tall school glass wall, warm drawn illustration, no text.",
+    "paleis": "One tree set in front of the Great Pyramid of Giza, warm drawn illustration, no text.",
     "link": "A trunk on the left joined to a facing shape on the right, forming one planted tree, warm drawn illustration, no text."
    },
    "fam5": [
@@ -16450,7 +14126,7 @@
      82.4
     ],
     [
-     "GLASWAND",
+     "GIZEH",
      "paleis",
      22.1,
      64.3
@@ -16462,33 +14138,8 @@
      26.5
     ]
    ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
-   ]
+   "_mm_open": [],
+   "_beeld_open": []
   },
   {
    "slug": "si",
@@ -16889,76 +14540,6 @@
      "deelt": "bevat 四",
      "haak": "vier en dan tienduizend."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "OMHEINING",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "KIND",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -17270,41 +14851,7 @@
      "deelt": "klank tā, pronoun",
      "haak": "ding piept tā."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VROUW",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "NAAST",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "wu",
@@ -17704,76 +15251,6 @@
      "deelt": "bevat 五",
      "haak": "vijf en dan tienduizend."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HEMEL",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "MIDDEN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GYMZAAL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -18071,65 +15548,6 @@
      "deelt": "月",
      "haak": "月 links van 光."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VIJF",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "MAAN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GLASWAND",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
    ]
   },
   {
@@ -18444,68 +15862,6 @@
      "deelt": "个",
      "haak": "个 links: de stok zit onder de mensvorm."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "ONDER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "MAATWOORD",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "SPOORVIADUCT",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "a-s3",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "klank-s3",
-    "link",
-    "link-s1",
-    "link-s2",
-    "link-s3",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "a",
-    "b",
-    "paleis",
-    "link",
-    "centrum"
    ]
   },
   {
@@ -18841,48 +16197,6 @@
      "deelt": "爷 als titel/familie",
      "haak": "grote oom = 大爷."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "A",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "B",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "PALEIS",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "klank-s1",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "klank-s1",
-    "paleis-s1",
-    "paleis-s2"
    ]
   },
   {
@@ -19167,41 +16481,7 @@
      "deelt": "grootvader",
      "haak": "Oudere broer van opa."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "VADER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "ZEGEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ATRIUM",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "OPA",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   },
   {
    "slug": "yi",
@@ -19681,76 +16961,6 @@
      "deelt": "bevat 一",
      "haak": "één gelijke vorm."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "EENHEID",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "HORIZON",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "ZITTRAP",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -20097,76 +17307,6 @@
      "deelt": "游 = varen",
      "haak": "Boot om te toeren."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "WATER",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "WIMPEL",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "GYMZAAL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "DRAAD",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -20456,71 +17596,6 @@
      "deelt": "找",
      "haak": "zoeken naar pad"
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "HAND",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "SPEER",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "METAALGEVEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [
-    "a",
-    "a-s1",
-    "b",
-    "b-s1",
-    "centrum",
-    "klank",
-    "klank-s1",
-    "link",
-    "link-s1",
-    "paleis",
-    "paleis-s1"
-   ],
-   "_beeld_open": [
-    "obrien",
-    "klank",
-    "klank-s1",
-    "klank-s2",
-    "a",
-    "a-s1",
-    "a-s2",
-    "b",
-    "b-s1",
-    "b-s2",
-    "paleis",
-    "paleis-s1",
-    "paleis-s2",
-    "link",
-    "link-s1",
-    "link-s2",
-    "centrum",
-    "beeld2"
    ]
   },
   {
@@ -20809,41 +17884,7 @@
      "deelt": "子",
      "haak": "个 links, 子 rechts."
     }
-   ],
-   "_hot": [
-    [
-     "KLANK",
-     "klank",
-     64.6,
-     21.1
-    ],
-    [
-     "LIJF",
-     "a",
-     80.6,
-     55.7
-    ],
-    [
-     "ARMEN",
-     "b",
-     54.3,
-     82.4
-    ],
-    [
-     "VLEUGEL",
-     "paleis",
-     22.1,
-     64.3
-    ],
-    [
-     "LINK",
-     "link",
-     28.4,
-     26.5
-    ]
-   ],
-   "_mm_open": [],
-   "_beeld_open": []
+   ]
   }
  ]
 }
