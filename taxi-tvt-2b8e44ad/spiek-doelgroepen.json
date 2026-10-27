@@ -1,0 +1,820 @@
+{
+ "coach": "Zo klinkt het op het examen. Zeg het na, hardop.",
+ "rijm": "Tas, stok, oor en hond, wiel en kraal: zes op de grond.",
+ "volgorde": [
+  "LEERLINGEN",
+  "OUDEREN",
+  "DOVEN",
+  "BLINDEN",
+  "ROLSTOEL",
+  "VERSTANDELIJK",
+  "DEMENTIE"
+ ],
+ "groepen": {
+  "OUDEREN": {
+   "kort": "Ouderen",
+   "titel": "Ouderen: ik haal de 7 stappen uit mijn hoofd en zeg ze hardop, ook op examendag.",
+   "beeld": "Bij de achterdeur tikt een wandelstok rustig: «geen haast».",
+   "anker": "Stok tikt, geen haast: plek, praat, tijd, hulp, rollator, gordel, soepel.",
+   "hardop": "Bij ouderen neem ik de tijd. Ik stop dicht bij de deur, waar het veilig is. Ik vraag of hulp welkom is, bij instappen, uitstappen en bagage. De rollator klap ik in als de passagier zit, en ik berg hem veilig op. Ik check de gordel, ik rijd rustig en soepel, en ik praat helder en respectvol.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Plek",
+     "vraag": "Wat doe je bij plek? (3 sleutelwoorden)",
+     "kw": "dicht bij de deur · veilig · stoeprand",
+     "a": "De chauffeur stopt zo dicht mogelijk bij de deur, waar dat veilig kan. Uitstappen gaat aan de stoeprand.",
+     "zeg": "Ik stop zo dicht mogelijk bij de deur, op een veilige plek. U stapt uit aan de stoeprand.",
+     "bron": "[1] content.json (service-conflict) · [4] ochtendkaart 19 okt"
+    },
+    {
+     "kop": "Stap 2 · Praat",
+     "vraag": "Wat doe je bij praat? (3 sleutelwoorden)",
+     "kw": "helder · respectvol · praatje",
+     "a": "De chauffeur spreekt helder en respectvol, niet betuttelend. Haakje: een vriendelijk praatje, bijvoorbeeld over het weer.",
+     "zeg": "Goedemorgen, ik ben vandaag uw chauffeur.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 3 · Tijd",
+     "vraag": "Wat doe je bij tijd? (2 sleutelwoorden)",
+     "kw": "extra tijd · geen haast",
+     "a": "De chauffeur neemt extra tijd en haast niet bij in- en uitstappen.",
+     "zeg": "Neemt u rustig de tijd om in te stappen.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 4 · Hulp",
+     "vraag": "Wat doe je bij hulp? (3 sleutelwoorden)",
+     "kw": "vragen · in en uit · bagage",
+     "a": "De chauffeur biedt hulp aan bij het instappen en vraagt hoe hulp welkom is. Hij helpt met in- en uitstappen en met de bagage.",
+     "zeg": "Kan ik u helpen met in- of uitstappen?",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf) · [4] ochtendkaart 19 okt"
+    },
+    {
+     "kop": "Stap 5 · Rollator",
+     "vraag": "Wat doe je bij rollator? (3 sleutelwoorden)",
+     "kw": "eerst zitten · inklappen · veilig opbergen",
+     "a": "Eerst laat de chauffeur de passagier instappen en zitten. Dan klapt hij de rollator in en bergt hem veilig op.",
+     "zeg": "Gaat u eerst rustig zitten. Dan klap ik de rollator in en berg ik hem veilig op.",
+     "bron": "[2] collega-gids (Wolf) · [4] ochtendkaart 19 okt"
+    },
+    {
+     "kop": "Stap 6 · Gordel",
+     "vraag": "Wat doe je bij gordel? (2 sleutelwoorden)",
+     "kw": "gordel · check",
+     "a": "De chauffeur controleert de gordel.",
+     "zeg": "Wilt u alstublieft de veiligheidsgordel omdoen? Ik wacht even tot de gordel vastzit.",
+     "bron": "[2] collega-gids (Wolf) · [1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 7 · Soepel",
+     "vraag": "Wat doe je bij soepel? (3 sleutelwoorden)",
+     "kw": "rustig · soepel · niet abrupt",
+     "a": "De chauffeur rijdt rustig en anticiperend, zonder abrupt te remmen: soepel optrekken en soepel remmen.",
+     "zeg": "Ik rijd rustig: soepel optrekken, soepel remmen.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Hoe helpt u een passagier die moeilijk ter been is?",
+     "kw": "",
+     "a": "Tijd geven, niet haasten. Zo dicht mogelijk bij de deur stoppen, waar het veilig kan. Hulp aanbieden bij in- en uitstappen en met de bagage. De gordel controleren. Rustig en soepel rijden.",
+     "zeg": "Ik neem de tijd, ik stop dicht bij de deur en ik vraag of ik u mag helpen met in- en uitstappen.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De klant loopt met een rollator. Kan deze mee in de taxi?",
+     "kw": "",
+     "a": "Ja, de rollator gaat mee als hulpmiddel. Eerst laat de chauffeur de passagier instappen en zitten. Dan klapt hij de rollator in en bergt hem veilig op.",
+     "zeg": "Ja, de rollator gaat mee. Eerst gaat u zitten, dan klap ik hem in en berg ik hem veilig op.",
+     "bron": "[2] collega-gids (Wolf)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Waar kan een passagier die moeilijk ter been is het beste plaatsnemen in de taxi, voorin of achterin?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · CBR/officieel: niets gevonden over voorin of achterin · vraag Martijn. Wel officieel [8]: bied hulp bij de gordel aan en vertrek pas als de passagier veilig zit. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De passagier die u naar het ziekenhuis brengt, vraagt of u meeloopt naar de afdeling. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Bron 1 en 2 geven geen antwoord; kop onleesbaar. CBR/officieel: niets gevonden over meelopen naar de afdeling · vraag Martijn. CBR [7] noemt alleen: rekening houden met passagiers met een ziekte. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De passagier wil vóór thuis nog langs de apotheek om medicijnen te halen. Kan dat?",
+     "kw": "",
+     "a": "Een ander adres dan in de opdracht moet de centrale eerst goedkeuren. De chauffeur legt het vriendelijk uit en biedt aan om toestemming te vragen. Zonder toestemming rijdt hij naar het geplande adres.",
+     "zeg": "Een ander adres vereist toestemming van de centrale. Ik bel even met het kantoor voor overleg.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": ""
+    }
+   ],
+   "hash": "d9ee039"
+  },
+  "ROLSTOEL": {
+   "kort": "Rolstoel / fysieke beperking",
+   "titel": "Rolstoel en fysieke beperking: ik haal de 7 stappen uit mijn hoofd en zeg ze hardop, ook op examendag.",
+   "beeld": "Rechts op de achterbank: de rem van de rolstoel klikt, vier haken zetten hem vast.",
+   "anker": "Rem klikt, vier haken vast: vragen, overstap, plaat, rem, banden, gordel, rustig.",
+   "hardop": "Eerst vraag ik hoe ik kan helpen; ik til niet zonder ja. De hoofdregel: overstappen naar een gewone stoel, de rolstoel gaat mee als bagage. Blijft de passagier in de rolstoel, dan gaat de rem erop en zet ik hem vast op vier punten met spanbanden, bij het haaksymbool. De passagier krijgt een aparte gordel; de heupband alleen is niet genoeg. Kan het niet veilig vast, dan weiger ik het vervoer. Ik rijd rustig over drempels en rotondes.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Vragen",
+     "vraag": "Wat doe je bij vragen? (3 sleutelwoorden)",
+     "kw": "eerst vragen · niet tillen zonder ja · zitpositie",
+     "a": "De chauffeur vraagt hoe hij het beste kan helpen. Hij duwt of tilt niet zonder toestemming. Haakje: hij vraagt of de zitpositie goed is.",
+     "zeg": "Hoe kan ik u het beste helpen? Ik til of duw pas als u ja zegt.",
+     "bron": "[2] collega-gids (Wolf) · [4] ochtendkaart 19 okt · [1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 2 · Overstap",
+     "vraag": "Wat doe je bij overstap? (2 sleutelwoorden)",
+     "kw": "gewone zitplaats · rolstoel = bagage",
+     "a": "Hoofdregel: de passagier stapt over naar een gewone zitplaats. De rolstoel gaat mee als bagage.",
+     "zeg": "De hoofdregel is: u stapt over naar een gewone stoel, en de rolstoel gaat mee als bagage.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 3 · Plaat",
+     "vraag": "Wat doe je bij plaat? (3 sleutelwoorden)",
+     "kw": "oprijplaat · lift · veilig",
+     "a": "De chauffeur gebruikt de oprijplaat of de lift veilig.",
+     "zeg": "Ik gebruik de oprijplaat of de lift veilig.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 4 · Rem",
+     "vraag": "Wat doe je bij rem? (3 sleutelwoorden)",
+     "kw": "rem erop · haaksymbool · ISO 7176-19",
+     "a": "De chauffeur zet de rolstoel op de rem. Het haaksymbool (ISO 7176-19) op de vier vastzetpunten betekent: een veilig vervoerbare rolstoel. Daar maakt hij de banden aan vast.",
+     "zeg": "Ik zet de rolstoel op de rem. Het haaksymbool laat zien waar de banden vast moeten.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 5 · Banden",
+     "vraag": "Wat doe je bij banden? (3 sleutelwoorden)",
+     "kw": "4 vloerpunten · spanbanden · NEN-ISO 10542",
+     "a": "Blijft de passagier in de rolstoel, dan zet de chauffeur die vast met een systeem volgens NEN-ISO 10542: vier vloerpunten, spanbanden. Kan de rolstoel niet veilig vast, dan weigert de chauffeur het vervoer.",
+     "zeg": "De rolstoel staat vast op vier punten met spanbanden. Kan dat niet veilig, dan weiger ik het vervoer.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 6 · Gordel",
+     "vraag": "Wat doe je bij gordel? (2 sleutelwoorden)",
+     "kw": "aparte gordel · heupband ≠ genoeg",
+     "a": "De passagier krijgt een aparte veiligheidsgordel: de voertuiggordel of de gordel van het vastzetsysteem. Alleen de eigen heupband van de rolstoel is niet genoeg, en alleen de rolstoel vastzetten ook niet. Zit de gordel niet goed, dan rijdt de chauffeur niet.",
+     "zeg": "U krijgt een aparte veiligheidsgordel. De heupband van de rolstoel alleen is niet genoeg.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 7 · Rustig",
+     "vraag": "Wat doe je bij rustig? (3 sleutelwoorden)",
+     "kw": "drempels · rotondes · slechte bestrating",
+     "a": "De chauffeur past route en rijgedrag aan op drempels, rotondes en slechte bestrating.",
+     "zeg": "Wij naderen zometeen een verkeersdrempel.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "U haalt een klant op die in een rolstoel zit. Welke vragen stelt u bij de kennismaking?",
+     "kw": "",
+     "a": "Hoe kan ik u het beste helpen? Mag ik u duwen of tillen (nooit zonder ja)? Zit u goed (zitpositie)? Afgeleid van de hoofdregel: kunt u overstappen naar een gewone zitplaats?",
+     "zeg": "Hoe kan ik u het beste helpen? Kunt u overstappen naar een gewone stoel?",
+     "bron": "[2] collega-gids (Wolf) · [1] content.json (service-conflict)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "U haalt een klant op die met krukken loopt. Welke vragen stelt u bij de kennismaking?",
+     "kw": "",
+     "a": "Deels: vraag hoe je het beste kunt helpen; duw of til niet zonder toestemming.",
+     "zeg": "Hoe kan ik u het beste helpen?",
+     "bron": "[2] collega-gids (Wolf)",
+     "open": "DEELS · Officieel [8]: vraag altijd eerst hoe u het beste kunt helpen; raak de krukken of wandelstok niet aan, bied uw arm aan. Waar de krukken in de taxi blijven: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De klant in de rolstoel heeft ook een begeleider mee. Wie spreekt u aan?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · CBR/officieel: niets gevonden over wie u aanspreekt, klant of begeleider · vraag Martijn. Officieel [8] zegt wel: vraag de passagier wat voor hulp hij nodig heeft. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De klant kan niet overstappen en moet in de rolstoel vervoerd worden. Waar let u op bij de rolstoel?",
+     "kw": "",
+     "a": "Haaksymbool (ISO 7176-19) op de vier vastzetpunten: daar komen de banden. Vastzetten volgens NEN-ISO 10542: vier vloerpunten, spanbanden. Rem erop. Een aparte veiligheidsgordel; de heupband alleen is niet genoeg. Oprijplaat of lift veilig gebruiken. Kan het niet veilig vast: vervoer weigeren.",
+     "zeg": "Ik kijk naar het haaksymbool, ik zet de rolstoel op de rem en vast op vier punten, en u krijgt een aparte gordel.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Waar kunt u een passagier mee helpen die zijn armen of handen niet kan gebruiken?",
+     "kw": "",
+     "a": "Deels: vraag hoe je het beste kunt helpen; doe niets zonder toestemming.",
+     "zeg": "Waar kan ik u mee helpen?",
+     "bron": "[2] collega-gids (Wolf)",
+     "open": "DEELS · Officieel [8]: bied in de taxi hulp aan bij het vastmaken van de gordel; neem genoeg tijd voor uitstappen, ook voor bagage. Deur: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    }
+   ],
+   "hash": "a67d3f3"
+  },
+  "LEERLINGEN": {
+   "kort": "Leerlingen",
+   "titel": "Leerlingen: ik haal de 7 stappen uit mijn hoofd en zeg ze hardop, ook op examendag.",
+   "beeld": "Op de stoep staat een rij schooltassen, elk met een eigen gordel om.",
+   "anker": "Tassen in de gordel: gordel, lijst, toezicht, stoep, slot, regels, tijd.",
+   "hardop": "Bij leerlingen rijd ik pas als iedereen goed vastzit. Ik check de lijst: niemand vergeten, niemand extra. Ik laat een kind nooit zonder toezicht. In- en uitstappen gaat aan de stoepkant. Het kinderslot zet ik niet standaard aan; lukt een afspraak niet, dan een andere plek. Ik leg de regels kort uit en ik houd vaste tijden en routes.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Gordel",
+     "vraag": "Wat doe je bij gordel? (3 sleutelwoorden)",
+     "kw": "tot 12 jaar · volgens de regels · pas dan starten",
+     "a": "Kinderen tot 12 jaar: de chauffeur rijdt niet als zij niet volgens de regels vastzitten. Hij start pas als iedereen goed vastzit. Zo nodig een zitverhoger of kinderzitje.",
+     "zeg": "Ik rijd pas weg als iedereen goed vastzit.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 2 · Lijst",
+     "vraag": "Wat doe je bij lijst? (3 sleutelwoorden)",
+     "kw": "presentielijst · niemand vergeten · niemand extra",
+     "a": "De chauffeur controleert de presentielijst: niemand vergeten, niemand meenemen die niet op de lijst staat.",
+     "zeg": "Ik controleer de lijst: niemand vergeten, niemand extra.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 3 · Toezicht",
+     "vraag": "Wat doe je bij toezicht? (1 sleutelwoorden)",
+     "kw": "nooit alleen",
+     "a": "De chauffeur laat nooit een kind zonder toezicht.",
+     "zeg": "Ik laat een kind nooit zonder toezicht.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 4 · Stoep",
+     "vraag": "Wat doe je bij stoep? (1 sleutelwoorden)",
+     "kw": "stoepkant",
+     "a": "In- en uitstappen gaat aan de kant van de stoep.",
+     "zeg": "De kinderen stappen in en uit aan de stoepkant.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 5 · Slot",
+     "vraag": "Wat doe je bij slot? (2 sleutelwoorden)",
+     "kw": "niet standaard · andere plek",
+     "a": "De chauffeur stelt het kinderslot niet standaard handmatig in. Een kind met wie geen afspraken lukken, krijgt een andere plek, niet aan de deur.",
+     "zeg": "Het kinderslot zet ik niet standaard aan. Lukt een afspraak niet, dan krijgt het kind een andere plek.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 6 · Regels",
+     "vraag": "Wat doe je bij regels? (3 sleutelwoorden)",
+     "kw": "pictokaarten · kort uitleggen · geen discussie",
+     "a": "De chauffeur begroet rustig en legt de regels kort uit voor vertrek, met pictokaarten. Hij gaat niet in discussie over regels. Haakje: hij vraagt hoe de dag op school was.",
+     "zeg": "Goedemorgen. Dit zijn de regels in de taxi.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 7 · Tijd",
+     "vraag": "Wat doe je bij tijd? (2 sleutelwoorden)",
+     "kw": "vaste tijden · vaste routes",
+     "a": "De chauffeur houdt zich aan vaste tijden en routes.",
+     "zeg": "Ik houd me aan de vaste tijden en de vaste route.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Wat moet u doen als u de leerling niet op tijd kunt ophalen?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Huisbronnen en CBR [7]: niets over te laat komen · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De leerling wil de gordel niet om doen. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "De chauffeur rijdt niet weg zolang de leerling niet goed vastzit. Gaat de gordel onderweg los: veilig stoppen en pas verder als de gordel vastzit.",
+     "zeg": "Ik rijd pas als de gordel vastzit.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Mogen de leerlingen op school zelf uitstappen en naar school lopen?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Wel [2]: nooit een kind zonder toezicht; uitstappen aan de stoepkant. Over zelf naar binnen lopen: niets · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Mag u een lastige leerling tijdens de rit uit de auto zetten?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Wel [2]: laat nooit een kind zonder toezicht. Een kind met wie geen afspraken lukken krijgt een andere plek [1]. Uitzetten: niets officieels · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Mag u een leerling op een ander adres dan in de BCT uit laten stappen, bijvoorbeeld bij een vriendje?",
+     "kw": "",
+     "a": "Een ander adres dan in de opdracht moet de centrale eerst goedkeuren. Zonder toestemming rijdt de chauffeur naar het geplande adres.",
+     "zeg": "Een ander adres vereist toestemming van de centrale.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Wat doet u als bij het thuisbrengen geen ouder of verzorger thuis is?",
+     "kw": "",
+     "a": "Deels: de chauffeur laat het kind nooit zonder toezicht en neemt contact op met de centrale of de ouders.",
+     "zeg": "Ik laat het kind niet alleen en ik bel de centrale.",
+     "bron": "[2] collega-gids (Wolf)",
+     "open": "DEELS · Wat daarna (wachten, terug naar school): niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Zijn er situaties waarbij de leerling wel mag eten in de bus?",
+     "kw": "",
+     "a": "Standaard wordt er nooit gegeten in de taxi. Een uitzondering kan, bijvoorbeeld een kind met diabetes volgens het calamiteitenprotocol; de chauffeur moet daarvan op de hoogte zijn.",
+     "zeg": "Eten mag niet, behalve als het protocol het zegt, zoals bij diabetes.",
+     "bron": "[10] Code VVK: veiligheid (medicijnen, eten, kinderslot)",
+     "open": "DEELS · Code VVK [10], geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Wat doet u als u bij het huis aankomt en er niemand buiten staat te wachten?",
+     "kw": "",
+     "a": "De chauffeur neemt contact op met de centrale of de ouders en volgt het protocol; hij wacht niet te lang.",
+     "zeg": "Ik bel de centrale of de ouders en volg het protocol.",
+     "bron": "[2] collega-gids (Wolf)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "U merkt dat een leerling in de bus gepest wordt. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Huisbronnen en CBR [7]: niets over pesten · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    }
+   ],
+   "hash": "e3bc6e7"
+  },
+  "DOVEN": {
+   "kort": "Doven en slechthorenden",
+   "titel": "Doven en slechthorenden: ik haal de 7 stappen uit mijn hoofd en zeg ze hardop, ook op examendag.",
+   "beeld": "Achterbank links: een groot oor met een koptelefoon; je praat met je gezicht naar hem toe.",
+   "anker": "Groot oor, gezicht ernaar: aandacht, aankijken, duidelijk, radio uit, schrift, stilstaan, bevestig.",
+   "hardop": "Bij een dove of slechthorende passagier trek ik eerst rustig de aandacht. Ik kijk de passagier aan, met licht op mijn gezicht. Ik praat duidelijk, niet harder, in korte zinnen, en de radio gaat uit. Ik vraag hoe de passagier wil communiceren; pen, papier of telefoon helpen. Belangrijke informatie geef ik als de auto stilstaat, en ik bevestig de bestemming op schrift.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Aandacht",
+     "vraag": "Wat doe je bij aandacht? (2 sleutelwoorden)",
+     "kw": "naam noemen · schouder tikken",
+     "a": "De chauffeur vraagt eerst de aandacht: naam noemen, even op de schouder tikken. Haakje: groeten met een vriendelijk handgebaar.",
+     "zeg": "Ik trek eerst rustig uw aandacht.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Stap 2 · Aankijken",
+     "vraag": "Wat doe je bij aankijken? (3 sleutelwoorden)",
+     "kw": "gezicht · licht · lippen",
+     "a": "De chauffeur kijkt de passagier aan, met het licht op zijn eigen gezicht, zodat de lippen te zien zijn.",
+     "zeg": "Ik kijk u aan, zodat u mijn lippen ziet.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 3 · Duidelijk",
+     "vraag": "Wat doe je bij duidelijk? (3 sleutelwoorden)",
+     "kw": "articuleren · niet schreeuwen · korte zinnen",
+     "a": "De chauffeur articuleert duidelijk, niet overdreven, schreeuwt niet en gebruikt korte zinnen.",
+     "zeg": "Ik praat rustig en duidelijk, niet harder.",
+     "bron": "[1] content.json (service-conflict) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Stap 4 · Radio uit",
+     "vraag": "Wat doe je bij radio uit? (1 sleutelwoorden)",
+     "kw": "radio uit",
+     "a": "De chauffeur zet de radio uit.",
+     "zeg": "De radio gaat uit.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 5 · Schrift",
+     "vraag": "Wat doe je bij schrift? (2 sleutelwoorden)",
+     "kw": "pen en papier · telefoon",
+     "a": "Pen en papier, gebaren of een telefoonscherm helpen. De chauffeur vraagt hoe de passagier wil communiceren.",
+     "zeg": "Hoe communiceert u het liefst? Ik kan het ook opschrijven.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Stap 6 · Stilstaan",
+     "vraag": "Wat doe je bij stilstaan? (2 sleutelwoorden)",
+     "kw": "belangrijke info · auto stil",
+     "a": "De chauffeur geeft belangrijke informatie als de auto stilstaat.",
+     "zeg": "Ik vertel het belangrijkste als de auto stilstaat.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 7 · Bevestig",
+     "vraag": "Wat doe je bij bevestig? (2 sleutelwoorden)",
+     "kw": "bestemming · op schrift",
+     "a": "De chauffeur bevestigt de bestemming, het liefst schriftelijk.",
+     "zeg": "Ik schrijf de bestemming even voor u op.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "In de BCT staat dat de klant doof is. Wat is belangrijk bij de kennismaking?",
+     "kw": "",
+     "a": "Rustig de aandacht trekken (handgebaar of schouder tikken), de klant aankijken met licht op het gezicht, duidelijk en niet te hard praten, vragen hoe de klant wil communiceren, en de bestemming bevestigen, liefst op schrift.",
+     "zeg": "Ik kijk u aan en ik schrijf de bestemming even op.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De klant verbaast zich dat u geen gebarentaal spreekt. Bent u verplicht dit te kunnen?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · CBR [7]: niets over gebarentaal. Officieel [8]: zoek uit hoe de persoon wil communiceren (gebarentaal, gebaren, schrijven of spreken) en stel een andere manier voor. Verplichting: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Hoe kunt u tijdens de rit contact houden met een dove passagier?",
+     "kw": "",
+     "a": "Deels: belangrijke informatie geven als de auto stilstaat; schrift, gebaren of een telefoonscherm gebruiken.",
+     "zeg": "Bij stilstand laat ik het u zien of schrijf ik het op.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)",
+     "open": "DEELS · Tijdens het rijden zelf: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Is het verstandig om de radio harder te zetten om de stilte te doorbreken?",
+     "kw": "",
+     "a": "Nee. De chauffeur zet de radio uit.",
+     "zeg": "Nee, de radio gaat juist uit.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": ""
+    }
+   ],
+   "hash": "3adabe1"
+  },
+  "BLINDEN": {
+   "kort": "Blinden en slechtzienden",
+   "titel": "Blinden en slechtzienden: ik haal de 7 stappen uit mijn hoofd en zeg ze hardop, ook op examendag.",
+   "beeld": "Midden: een geleidehond die gewoon blijft werken. Niet aaien.",
+   "anker": "Hond werkt, niet aaien: voorstellen, arm, niet aanraken, zeggen, klink, gordel, veilige plek.",
+   "hardop": "Bij een blinde of slechtziende passagier stel ik mij eerst voor, met naam en bedrijf. Ik pak nooit zomaar vast; ik bied mijn arm aan en noem de hindernissen. Stok en hond raak ik niet aan, de hond is aan het werk. Ik zeg concreet waar iets is en ik wijs niet. Ik breng de hand naar de deurklink, ik vraag of hulp bij de gordel welkom is, en ik zeg wanneer ik de motor start. Bij aankomst breng ik de passagier naar een veilige, herkenbare plek.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Voorstellen",
+     "vraag": "Wat doe je bij voorstellen? (2 sleutelwoorden)",
+     "kw": "naam · bedrijf",
+     "a": "De chauffeur stelt zich voor met zijn stem, naam en bedrijf; iemand die slecht ziet, ziet hem niet aankomen.",
+     "zeg": "Goedemorgen, ik ben uw chauffeur van het taxibedrijf.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 2 · Arm",
+     "vraag": "Wat doe je bij arm? (3 sleutelwoorden)",
+     "kw": "arm aanbieden · eerst vragen · nooit vastpakken",
+     "a": "De chauffeur pakt de passagier nooit zomaar vast. Hij vraagt of hulp gewenst is, gaat naast de passagier staan en biedt zijn arm aan. Onderweg noemt hij de hindernissen.",
+     "zeg": "Wilt u mijn arm?",
+     "bron": "[1] content.json (service-conflict) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Stap 3 · Niet aanraken",
+     "vraag": "Wat doe je bij niet aanraken? (2 sleutelwoorden)",
+     "kw": "stok · hond met tuig = werk",
+     "a": "De chauffeur raakt stok en geleidehond niet aan; een hond met tuig is aan het werk. Hij vraagt waar de hond in de taxi moet.",
+     "zeg": "Waar wilt u de hond in de taxi hebben?",
+     "bron": "[1] content.json (service-conflict) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Stap 4 · Zeggen",
+     "vraag": "Wat doe je bij zeggen? (3 sleutelwoorden)",
+     "kw": "concreet · niet wijzen · trede, stoeprand, deur",
+     "a": "De chauffeur zegt concreet waar iets is en wijst niet. Hij beschrijft de omgeving: trede, stoeprand, deur.",
+     "zeg": "De deur is rechts van u.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 5 · Klink",
+     "vraag": "Wat doe je bij klink? (2 sleutelwoorden)",
+     "kw": "hand via arm · deurklink",
+     "a": "Bij instappen brengt de chauffeur de hand via zijn arm naar de deurklink.",
+     "zeg": "Hier is de deurklink.",
+     "bron": "[2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Stap 6 · Gordel",
+     "vraag": "Wat doe je bij gordel? (3 sleutelwoorden)",
+     "kw": "hulp vragen · vertellen wat je doet · motor start",
+     "a": "De chauffeur vraagt of hulp bij de gordel gewenst is en vertelt wat hij doet. Haakje: hij zegt duidelijk wanneer hij de motor start.",
+     "zeg": "Ik start nu de motor.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 7 · Veilige plek",
+     "vraag": "Wat doe je bij veilige plek? (3 sleutelwoorden)",
+     "kw": "veilig · herkenbaar · bestemming melden",
+     "a": "De chauffeur meldt de stop op tijd en laat de passagier achter op een veilige, herkenbare plek, bijvoorbeeld naast een muur of bank.",
+     "zeg": "Wij zijn er bijna. Ik breng u naar een veilige plek.",
+     "bron": "[2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "In de BCT staat dat de klant blind of slechtziend is. Wat is belangrijk bij de kennismaking?",
+     "kw": "",
+     "a": "Zich voorstellen met de stem (naam en bedrijf), vragen of en hoe hulp gewenst is, nooit zomaar vastpakken.",
+     "zeg": "Goedemorgen, ik ben uw chauffeur. Hoe kan ik u helpen?",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Op welke manier kunt u de klant helpen naar de taxi?",
+     "kw": "",
+     "a": "Naast de klant gaan staan en de arm aanbieden. Zodra de klant de arm vastheeft, alle hindernissen op de weg noemen.",
+     "zeg": "Ik bied u mijn arm aan. Er komt zo een stoeprand.",
+     "bron": "[8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
+     "open": "DEELS · bron [8] is België, geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Wat is belangrijk om te vertellen en te doen als u de klant helpt instappen?",
+     "kw": "",
+     "a": "De hand via de arm naar de deurklink brengen. Concreet zeggen waar iets is, niet wijzen. Vragen of hulp bij de gordel gewenst is en vertellen wat u doet.",
+     "zeg": "Hier is de deurklink. Zal ik helpen met de gordel?",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
+     "open": ""
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Welke informatie over de route kan prettig zijn om te delen?",
+     "kw": "",
+     "a": "Vertragingen of omleidingen op de route, en op tijd melden dat de stop eraan komt. Duidelijk zeggen wanneer de motor start.",
+     "zeg": "Er is een omleiding. Over twee minuten zijn wij er.",
+     "bron": "[8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR) · [1] content.json (service-conflict)",
+     "open": "DEELS · bron [8] is België, geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De passagier heeft een hulphond. Mag deze mee?",
+     "kw": "",
+     "a": "Ja. Een hulphond mag mee in openbaar vervoer en taxi.",
+     "zeg": "Ja, uw hulphond mag mee.",
+     "bron": "[9] Rijksoverheid: Mag ik mijn hulphond overal mee naartoe nemen? · [2] collega-gids (Wolf)",
+     "open": "DEELS · Rijksoverheid [9], geen CBR-tekst. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Mag de chauffeur de hulphond overnemen om deze in de taxi te begeleiden?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Wel: de chauffeur raakt de geleidehond niet aan [1]; officieel [8]: ga aan de andere kant dan de hond staan en vraag waar de hond in de taxi moet. Overnemen: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Mag de chauffeur de hulphond aaien of een koekje geven?",
+     "kw": "",
+     "a": "Niet aaien: een hond met tuig is aan het werk.",
+     "zeg": "Uw hond is aan het werk, dus ik aai hem niet.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": "DEELS · Koekje geven: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De blinde klant vraagt of u hem wilt begeleiden naar de ingang van de bestemming. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "Deels: de plek beschrijven, de hand begeleiden en meelopen tot een veilig punt.",
+     "zeg": "Ik loop met u mee tot een veilige plek.",
+     "bron": "[2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
+     "open": "DEELS · Of het tot de ingang moet: niets officieels · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    }
+   ],
+   "hash": "209e06a"
+  },
+  "VERSTANDELIJK": {
+   "kort": "Verstandelijke beperking",
+   "titel": "Verstandelijke beperking: ik haal de 7 stappen uit mijn hoofd en zeg ze hardop, ook op examendag.",
+   "beeld": "Kofferbak: een ketting met losse kralen, één zin per kraal.",
+   "anker": "Eén zin per kraal: kennismaken, kort, kalm, vooraf, respect, begeleider, plek.",
+   "hardop": "Bij een passagier met een verstandelijke beperking stel ik een eenvoudige vraag ter geruststelling. Ik praat in korte, eenvoudige zinnen en ik blijf kalm, ook bij onrust. Een wijziging leg ik vooraf uit. Ik praat niet kinderachtig en ik ga niet in discussie. Ik werk samen met de begeleider.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Kennismaken",
+     "vraag": "Wat doe je bij kennismaken? (2 sleutelwoorden)",
+     "kw": "eenvoudige vraag · geruststellen",
+     "a": "Haakje: de chauffeur stelt een eenvoudige vraag ter geruststelling.",
+     "zeg": "Goedemorgen. Gaat het goed met u?",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Stap 2 · Kort",
+     "vraag": "Wat doe je bij kort? (3 sleutelwoorden)",
+     "kw": "korte zinnen · eenvoudige woorden · één vraag",
+     "a": "De chauffeur spreekt in korte, eenvoudige zinnen en geeft eenvoudige, rustige instructies.",
+     "zeg": "Wij gaan nu rijden.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 3 · Kalm",
+     "vraag": "Wat doe je bij kalm? (2 sleutelwoorden)",
+     "kw": "rustig blijven · geruststellen",
+     "a": "De chauffeur blijft rustig, ook bij onrust, let op signalen van onrust en stelt gerust.",
+     "zeg": "Het is goed. Wij zijn zo op de plek.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 4 · Vooraf",
+     "vraag": "Wat doe je bij vooraf? (2 sleutelwoorden)",
+     "kw": "wijziging uitleggen · vaste routine",
+     "a": "De chauffeur legt wijzigingen vooraf en helder uit. Geduld en een vaste routine; geen verrassingen.",
+     "zeg": "Vandaag rijden wij een andere weg, want de weg is dicht.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 5 · Respect",
+     "vraag": "Wat doe je bij respect? (2 sleutelwoorden)",
+     "kw": "niet kinderachtig · geen discussie",
+     "a": "De chauffeur spreekt niet kinderachtig of betuttelend en gaat niet in discussie bij onrust.",
+     "zeg": "Ik spreek u gewoon aan, met respect.",
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 6 · Begeleider",
+     "vraag": "Wat doe je bij begeleider? (1 sleutelwoorden)",
+     "kw": "samenwerken",
+     "a": "De chauffeur werkt samen met een eventuele begeleider.",
+     "zeg": "Ik overleg even met uw begeleider.",
+     "bron": "[2] collega-gids (Wolf)"
+    },
+    {
+     "kop": "Stap 7 · Plek",
+     "vraag": "Wat doe je bij plek? (1 sleutelwoorden)",
+     "kw": "niet aan de deur",
+     "a": "Een kind aan de deur met wie geen afspraken lukken, krijgt een andere zitplaats.",
+     "zeg": "U krijgt een andere plek, niet bij de deur.",
+     "bron": "[1] content.json (service-conflict)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "U haalt een klant op met een verstandelijke beperking. Welke vragen stelt u bij de kennismaking?",
+     "kw": "",
+     "a": "Deels: een eenvoudige vraag ter geruststelling, en vragen welke hulp de klant nodig heeft.",
+     "zeg": "Goedemorgen. Gaat het goed? Waar kan ik u mee helpen?",
+     "bron": "[1] content.json (service-conflict) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
+     "open": "DEELS · Welke vragen precies: niets officieels · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De passagier wil steeds de gordel losmaken. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "Deels: de chauffeur start pas als iedereen goed vastzit, en blijft kalm met korte zinnen.",
+     "zeg": "Ik rijd pas als de gordel vastzit.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": "DEELS · Bij herhaling onderweg: niets officieels · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De passagier wil de taxi niet uit op de bestemming. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Wel: kalm blijven, kort en eenvoudig praten, geen discussie [1]; samenwerken met begeleider [2]. Wat verder: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Een andere passagier maakt kwetsende opmerkingen naar de passagier met een verstandelijke beperking. Wat doe je?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Huisbronnen en CBR [7]: niets specifiek · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "De passagier wil op een andere bestemming uitstappen dan in de BCT staat. Hoe gaat u hiermee om?",
+     "kw": "",
+     "a": "Een ander adres dan in de opdracht moet de centrale eerst goedkeuren. Zonder toestemming rijdt de chauffeur naar het geplande adres.",
+     "zeg": "Een ander adres vereist toestemming van de centrale.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": ""
+    }
+   ],
+   "hash": "6847092"
+  },
+  "DEMENTIE": {
+   "kort": "Dementie · extra",
+   "titel": "Dementie (extra leeronderwerp, geen 7e CBR-doelgroep): ik haal de 6 stappen uit mijn hoofd en zeg ze hardop.",
+   "beeld": "OPEN beeld · nog geen huisbron-hook. Werkbeeld: een naamkaartje op het dashboard: «ik ben uw chauffeur». Eigenaar Saidy kiest.",
+   "anker": "Naamkaartje: voorstellen, aankijken, één vraag, tijd, radio uit, gevoel.",
+   "hardop": "Bij een passagier met dementie stel ik mij voor en zeg ik wat ik kom doen. Ik kijk de passagier aan en praat rustig. Ik vraag één ding tegelijk, met korte zinnen. Ik geef tijd, de radio gaat uit, en ik benoem wat ik zie aan gevoel.",
+   "deuren": [
+    {
+     "kop": "Stap 1 · Voorstellen",
+     "vraag": "Wat doe je bij voorstellen? (3 sleutelwoorden)",
+     "kw": "naam · wie ik ben · wat ik kom doen",
+     "a": "Noem de persoon bij naam, stel jezelf voor en vertel wat je komt doen; ook als je elkaar kent, kan iemand je niet herkennen.",
+     "zeg": "Goedemorgen. Ik ben uw chauffeur. Ik breng u naar huis.",
+     "bron": "[11] V&VN Handreiking communicatie met mensen met dementie (geen CBR)"
+    },
+    {
+     "kop": "Stap 2 · Aankijken",
+     "vraag": "Wat doe je bij aankijken? (2 sleutelwoorden)",
+     "kw": "gezichtsveld · oogcontact",
+     "a": "Benader de persoon binnen het gezichtsveld en maak oogcontact; praat met normaal stemvolume.",
+     "zeg": "Ik kijk u aan en praat rustig.",
+     "bron": "[11] V&VN Handreiking communicatie met mensen met dementie (geen CBR)"
+    },
+    {
+     "kop": "Stap 3 · Eén vraag",
+     "vraag": "Wat doe je bij eén vraag? (3 sleutelwoorden)",
+     "kw": "korte zinnen · één ding tegelijk · ja/nee",
+     "a": "Houd het simpel: korte zinnen, één ding tegelijk, één vraag tegelijk, liefst ja/nee of keuzevragen.",
+     "zeg": "Zit u goed?",
+     "bron": "[11] V&VN Handreiking communicatie met mensen met dementie (geen CBR)"
+    },
+    {
+     "kop": "Stap 4 · Tijd",
+     "vraag": "Wat doe je bij tijd? (2 sleutelwoorden)",
+     "kw": "laag tempo · tijd om te reageren",
+     "a": "Houd het tempo laag en geef tijd om te reageren.",
+     "zeg": "Neemt u rustig de tijd.",
+     "bron": "[11] V&VN Handreiking communicatie met mensen met dementie (geen CBR)"
+    },
+    {
+     "kop": "Stap 5 · Radio uit",
+     "vraag": "Wat doe je bij radio uit? (1 sleutelwoorden)",
+     "kw": "minder prikkels",
+     "a": "Vermijd storende achtergrondgeluiden zoals radio.",
+     "zeg": "De radio gaat uit.",
+     "bron": "[11] V&VN Handreiking communicatie met mensen met dementie (geen CBR)"
+    },
+    {
+     "kop": "Stap 6 · Gevoel",
+     "vraag": "Wat doe je bij gevoel? (2 sleutelwoorden)",
+     "kw": "benoemen · niet negeren",
+     "a": "Let op de reactie en benoem gevoelens; ontken of negeer ze niet.",
+     "zeg": "Ik zie dat u schrikt. Het is goed.",
+     "bron": "[11] V&VN Handreiking communicatie met mensen met dementie (geen CBR)"
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Is dementie een aparte CBR-doelgroep?",
+     "kw": "",
+     "a": "Nee, niet als aparte groep gevonden. De huisbronnen noemen 6 CBR-doelgroepen [3]. CBR [7] toetsterm 7.3 noemt wel: rekening houden met passagiers met een functiebeperking, verstandelijke handicap of ziekte.",
+     "zeg": "Op het examen noem ik zes doelgroepen.",
+     "bron": "[3] parate-kennis Kaart B · [7] CBR Exameneisen TVT vanaf 1 sep 2025, toetsterm 7.3",
+     "open": "DEELS · Of de examinator dementie onder ouderen of verstandelijke beperking vraagt: niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Een passagier met dementie weet de bestemming niet meer of wil ergens anders heen. Wat doet u?",
+     "kw": "",
+     "a": "Deels: een ander adres dan in de opdracht moet de centrale eerst goedkeuren.",
+     "zeg": "Ik bel even met de centrale.",
+     "bron": "[1] content.json (service-conflict)",
+     "open": "DEELS · Specifiek bij dementie (familie bellen, overdracht): niets gevonden · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Examenvraag",
+     "vraag": "Moet u een passagier met dementie bij aankomst overdragen aan iemand?",
+     "kw": "",
+     "a": "",
+     "zeg": "",
+     "bron": "",
+     "open": "NOG OPEN · Huisbronnen en CBR [7]: niets · vraag Martijn. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    }
+   ],
+   "hash": "1c00ab7"
+  }
+ }
+}

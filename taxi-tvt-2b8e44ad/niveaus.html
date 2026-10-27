@@ -1,0 +1,117 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><link rel="icon" href="data:,"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="robots" content="noindex,nofollow"><title>Niveaus · Kruiper Loper Renner</title><style>
+:root{--bg:#101114;--card:#1b1d22;--card2:#24272e;--tx:#eef0f3;--mu:#9aa1ac;--ok:#1f8a4c;--no:#a83232;--ac:#f5c400;--r:14px}
+*{box-sizing:border-box}html,body{margin:0;background:var(--bg);color:var(--tx);font:18px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+img.qimg{display:block;width:100%;max-height:62vh;border-radius:var(--r);margin:6px 0 10px;object-fit:contain;background:#fff}
+main{max-width:680px;margin:auto;padding:12px 14px 96px}
+h1{font-size:22px;margin:6px 0 2px}h2{font-size:19px;margin:14px 0 8px}h3{font-size:17px;margin:12px 0 6px}
+.mu{color:var(--mu);font-size:16px}.sm{font-size:16px}
+button,.btn{display:block;width:100%;margin:8px 0;padding:14px 16px;font:inherit;border-radius:var(--r);border:1px solid #2e323a;background:var(--card2);color:var(--tx);text-align:left;cursor:pointer}
+button:disabled{opacity:.92;cursor:default}
+.big{background:var(--ac);color:#111;font-weight:700;text-align:center;border:0}
+.row{display:flex;gap:8px;flex-wrap:wrap}.row>button{flex:1;min-width:0;text-align:center}
+.chip{display:inline-block;padding:7px 12px;margin:3px 3px 3px 0;border-radius:999px;background:var(--card2);border:1px solid #333;font-size:16px;cursor:pointer;width:auto}
+.chip.on{background:var(--ac);color:#111;border-color:var(--ac);font-weight:700}
+.card{background:var(--card);border-radius:var(--r);padding:14px;margin:10px 0}
+.lvl{border-left:6px solid var(--ac)}
+.opt.ok{background:var(--ok);border-color:var(--ok)}.opt.no{background:var(--no);border-color:var(--no)}.opt.sel{outline:3px solid var(--ac)}
+.tag{display:inline-block;font-size:16px;padding:2px 8px;border-radius:8px;background:#2c3038;color:#cfd3da;margin-right:6px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;font-size:16px;color:var(--mu);margin-bottom:6px}
+.q{font-size:20px;font-weight:600;margin:8px 0 10px}
+mark{background:#ffe066;color:#111;padding:0 3px;border-radius:4px}
+.fb{border-radius:var(--r);padding:12px 14px;margin:10px 0;background:#15171b;border:1px solid #2a2e35}
+.fb .res{font-weight:800;font-size:20px}.res.ok{color:#4ade80}.res.no{color:#f87171}
+.el{margin:6px 0;padding:8px 10px;border-radius:10px;background:#1d2026;font-size:16px}
+.el b{margin-right:4px}
+textarea,input[type=number],input[type=date],input[type=text]{width:100%;font:inherit;padding:12px;border-radius:12px;border:1px solid #333;background:#0c0d10;color:var(--tx)}
+textarea{min-height:80px}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:#0b0c0e;border-top:1px solid #23262c;padding-bottom:env(safe-area-inset-bottom)}
+nav button{margin:0;border:0;border-radius:0;background:transparent;text-align:center;font-size:16px;padding:10px 2px;color:var(--mu)}
+nav button.on{color:var(--ac);font-weight:700}nav span{display:block;font-size:20px}
+.timer{font-variant-numeric:tabular-nums;font-weight:700;color:var(--tx)}.timer.warn{color:#f87171}
+.bar{height:10px;background:#2a2d33;border-radius:6px;overflow:hidden}.bar i{display:block;height:100%}
+.cheat{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.cheat div{border-radius:12px;padding:10px;color:#fff;min-height:84px}
+.cheat b{display:block;font-size:24px;line-height:1.1;margin-bottom:4px}
+.cheat span{font-size:16px;opacity:.95}
+.chunk{display:flex;gap:10px;align-items:flex-start;margin:8px 0}.chunk i{flex:0 0 30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:800;color:#111}
+.mm{position:relative;width:100%;max-width:360px;aspect-ratio:1;margin:10px auto}
+.mm .c{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:34%;aspect-ratio:1;border-radius:50%;display:flex;align-items:center;justify-content:center;text-align:center;font-weight:800;font-size:16px;color:#111;padding:6px;z-index:2}
+.mm .b{position:absolute;transform:translate(-50%,-50%);width:30%;text-align:center;font-size:16px;line-height:1.2;padding:6px 4px;border-radius:10px;background:#23262d;border:2px solid;z-index:2}
+.mm .l{position:absolute;left:50%;top:50%;height:2px;transform-origin:0 50%;z-index:1;opacity:.7}
+.flip{perspective:1000px;margin:10px 0;cursor:pointer}
+.flip .in{position:relative;min-height:190px;transition:transform .45s;transform-style:preserve-3d}
+.flip.f .in{transform:rotateY(180deg)}
+.flip .fa,.flip .ba{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:var(--r);padding:16px;display:flex;align-items:center;justify-content:center;text-align:center;font-size:18px}
+.flip .fa{background:var(--card2)}.flip .ba{background:#1e3a2a;transform:rotateY(180deg)}
+.station{border-radius:var(--r);padding:14px;background:linear-gradient(135deg,#2b2140,#1b1d22)}
+.station em{color:#d7b8ff}
+.ord{display:flex;flex-direction:column;gap:6px}.ord button{margin:0}
+.ans li{margin:4px 0}
+.banner{background:#3a2f00;border:1px solid var(--ac);border-radius:var(--r);padding:14px;margin:10px 0}
+.hide{display:none!important}
+details{background:var(--card);border-radius:12px;padding:10px 12px;margin:8px 0}summary{cursor:pointer;font-weight:600}
+
+.lv{padding:0;overflow:hidden}.lv img{display:block;width:100%;aspect-ratio:16/7;object-fit:cover}.lv b{display:block;font-size:20px;padding:10px 14px 0}.lv .mu,.lv .sm{padding:0 14px}.lv .sm{padding-bottom:12px}
+.back{color:var(--ac);font-size:16px;text-decoration:none;display:inline-block;margin:4px 0}
+.tg{display:flex;justify-content:space-between;align-items:center;gap:12px;cursor:pointer;position:relative}.tg input{position:absolute;opacity:0}.tg i{flex:0 0 52px;height:30px;border-radius:15px;background:#444;position:relative;transition:.2s}.tg i:after{content:'';position:absolute;left:3px;top:3px;width:24px;height:24px;border-radius:50%;background:#fff;transition:.2s}.tg input:checked+i{background:var(--ok)}.tg input:checked+i:after{left:25px}.tg input:focus-visible+i{outline:3px solid var(--ac)}
+.opt.gone{opacity:.35;text-decoration:line-through}
+.flow{display:flex;align-items:center;gap:8px;font-size:16px;color:var(--mu)}.flow .bar{flex:1}
+body.groot{font-size:22px}body.groot .q{font-size:25px}body.groot button{font-size:21px}
+body.dys,body.dys button{font-family:Verdana,'Comic Sans MS',sans-serif;letter-spacing:.06em;word-spacing:.16em;line-height:1.7}
+</style></head><body><main id="app"><p class="mu">Laden…</p></main><script>const $=s=>document.querySelector(s);let D,P={},LV,R,TM;
+const AIDS=[['hint','💡 Hints','Een duwtje in de goede richting'],['uitleg','📖 Uitleg na antwoord','Waarom goed/fout'],['voorlees','🔊 Voorlezen','Vraag en antwoorden hardop (stem van je telefoon)'],['groot','🔠 Grotere tekst','Alles groter'],['dys','🅳 Dyslexie-vriendelijk','Ruimere letters en regels, rustig lettertype'],['timer','⏱️ Rustige timer','60 seconden per vraag'],['extratijd','➕ Extra tijd','Timer ×2'],['plaatje','🖼️ Plaatje bij vraag','Foto of bord tonen'],['vijftig','✂️ Twee fout weg','Twee foute antwoorden worden weggestreept'],['simpel','🔤 Eenvoudig Nederlands','Korte, simpele zin als die er is']];
+const DEF={hint:1,uitleg:1,voorlees:0,groot:0,dys:0,timer:0,extratijd:0,plaatje:1,vijftig:0,simpel:1};
+let S=JSON.parse(localStorage.getItem('r13niv')||'{}');S.aid=Object.assign({},DEF,S.aid||{});S.best=S.best||{};
+function save(){localStorage.setItem('r13niv',JSON.stringify(S))}
+function esc(t){return String(t??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function shuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[a[i],a[j]]=[a[j],a[i]]}return a}
+function applyAids(){document.body.classList.toggle('groot',!!S.aid.groot);document.body.classList.toggle('dys',!!S.aid.dys)}
+function speak(t){if(!S.aid.voorlees||!window.speechSynthesis)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='nl-NL';u.rate=.95;speechSynthesis.speak(u)}
+function stopT(){clearInterval(TM);TM=null}
+fetch('questions.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{D=d;const all=[];d.sets.forEach(s=>s.vragen.forEach(q=>{if(!q.reken&&(q.type=='mc'||q.type=='multi'))all.push(q)}));
+ P.kruiper=all.filter(q=>q.niveau=='kruipen');P.loper=all.filter(q=>q.niveau=='lopen');P.rennen=all.filter(q=>q.niveau=='rennen');P.sprint=d.renner_sprint||[];applyAids();home()}).catch(e=>{$('#app').innerHTML='<p>Kon vragen niet laden.</p>'});
+function home(){stopT();LV=null;const hero=(k,e,n,d,c,cnt)=>`<button class="lv card" data-lv="${k}" onclick="start('${k}')" style="border-left:6px solid ${c}"><img src="img/r13/lvl-${k}.webp" alt="" loading="lazy"><b>${e} ${n}</b><div class="mu">${d}</div><div class="sm">${cnt} vragen${S.best[k]!=null?` · beste ${S.best[k]}`:''}</div></button>`;
+ $('#app').innerHTML=`<a class="back" href="index.html">← terug naar app</a><h1>Kies je niveau</h1><div class="mu">Zelfde kennis, drie snelheden. CBR + taxi-wijsheden + A.N.B.A.</div>`+
+ hero('kruiper','🐢','Kruiper','Alle hulpmiddelen. Zet ze aan of uit in Instellingen.','#4ade80',P.kruiper.length)+
+ hero('loper','🚶','Loper','Natuurlijke flow. Geen tijdsdruk. Past zich aan jou aan.','#f5c400',P.loper.length)+
+ hero('renner','🏃','Renner','Echt sprinten: 8–15 s per vraag, geen hints, steeds moeilijker, scenario\'s.','#f87171',P.rennen.length+P.sprint.length)+
+ `<button onclick="settings()">⚙️ Instellingen · hulpmiddelen kruiper</button><div class="mu sm">Bronnen per vraag staan bij de uitleg. 'te checken' = nog niet hard bevestigd.</div>`}
+function settings(){stopT();$('#app').innerHTML=`<a class="back" href="#" onclick="home();return false">← niveaus</a><h1>⚙️ Hulpmiddelen (kruiper)</h1><div class="mu">Elk hulpmiddel apart aan of uit. Wordt bewaard op dit toestel.</div>`+
+ AIDS.map(([k,n,d])=>`<label class="tg card"><span><b>${n}</b><br><span class="mu">${d}</span></span><input type="checkbox" ${S.aid[k]?'checked':''} onchange="S.aid['${k}']=this.checked?1:0;save();applyAids()"><i></i></label>`).join('')+
+ `<div class="row"><button onclick="AIDS.forEach(a=>S.aid[a[0]]=1);save();applyAids();settings()">Alles aan</button><button onclick="AIDS.forEach(a=>S.aid[a[0]]=0);save();applyAids();settings()">Alles uit</button></div><button class="big" onclick="start('kruiper')">▶ Start kruiper</button>`}
+function start(l){LV=l;R={i:0,g:0,f:0,streak:0,flow:0,list:[],lvlNow:'loper'};
+ if(l=='kruiper')R.list=shuf(P.kruiper).slice(0,15);
+ if(l=='loper')R.list=[];
+ if(l=='renner'){const base=shuf(P.rennen).slice(0,6).map(q=>Object.assign({d:3},q));const d4=shuf(P.sprint.filter(q=>q.d==4&&q.type!='scen'));const d5=shuf(P.sprint.filter(q=>q.d>=5&&q.type!='scen'));const sc=shuf(P.sprint.filter(q=>q.type=='scen')).slice(0,2);R.list=base.concat(d4.slice(0,6),d5.slice(0,6),sc);R.step=0}
+ next()}
+function pickLoper(){const used=new Set(R.done||[]);R.done=R.done||[];let src=R.flow>=3?P.rennen:R.flow<=-2?P.kruiper:P.loper;let c=src.filter(q=>!used.has(q.id));if(!c.length)c=P.loper;const q=c[Math.random()*c.length|0];R.done.push(q.id);return q}
+function cur(){return LV=='loper'?R.q:R.list[R.i]}
+function next(){stopT();if(LV=='loper'){if(R.i>=15)return end();R.q=pickLoper()}else if(R.i>=R.list.length)return end();R.ans=null;R.sel=[];render()}
+function tlimit(q,st){if(LV=='renner')return (st&&st.tijd)||q.tijd||(q.type=='multi'?15:12);if(LV=='kruiper'&&S.aid.timer)return 60*(S.aid.extratijd?2:1);return 0}
+function render(){const q=cur();const sc=q.type=='scen';const st=sc?q.steps[R.step]:null;const Q=st||q;const A=LV=='kruiper'?S.aid:{};
+ let qt=(A.simpel&&q.simpel)?q.simpel:Q.q;const opts=Q.opts.map((o,i)=>({o,i}));
+ if(!R.hid){R.hid=[];if(A.vijftig&&Q.type!='multi'&&!sc&&opts.length>2){R.hid=shuf(opts.filter(x=>x.i!==Q.ok).map(x=>x.i)).slice(0,Math.min(2,opts.length-2))}}
+ const n=LV=='loper'?15:R.list.length;let h=`<div class="top"><a class="back" href="#" onclick="home();return false">← niveaus</a><span>${{kruiper:'🐢 Kruiper',loper:'🚶 Loper',renner:'🏃 Renner'}[LV]} · ${R.i+1}/${n}</span><span class="timer" id="tm"></span></div>`;
+ if(LV=='renner')h+=`<div class="bar"><i id="tb" style="width:100%;background:#f87171"></i></div><div class="mu sm">Moeilijkheid ${'●'.repeat(q.d||3)}${'○'.repeat(5-(q.d||3))}${q.mix?' · '+q.mix.join('+'):''}</div>`;
+ if(LV=='loper')h+=`<div class="flow"><span>Flow</span><div class="bar"><i style="width:${Math.max(8,Math.min(100,50+R.flow*12))}%;background:#f5c400"></i></div><span>🔥 ${R.streak}</span></div>`;
+ if(sc)h+=`<div class="card sm"><b>Scenario</b> · ${esc(q.q)} <span class="tag">stap ${R.step+1}/${q.steps.length}</span></div>`;
+ if(q.img&&(LV!='kruiper'||A.plaatje)&&!sc)h+=`<img class="qimg" src="${esc(q.img)}" alt="${esc(q.alt||'')}">`;
+ h+=`<div class="q">${esc(qt)}</div>`;if(Q.type=='multi')h+=`<div class="mu sm">Kies ALLE juiste, dan 'Klaar'.</div>`;
+ if(LV=='kruiper'&&A.hint&&q.hint&&!sc)h+=`<details class="sm"><summary>💡 Hint</summary>${esc(q.hint)}${q.kern?`<div class="mu">Kern: ${esc(q.kern)}</div>`:''}</details>`;
+ h+=opts.map(({o,i})=>`<button class="opt${R.hid.includes(i)?' gone':''}" ${R.hid.includes(i)?'disabled':''} id="o${i}" onclick="pick(${i})">${esc(o)}</button>`).join('');
+ if(Q.type=='multi')h+=`<button class="big" onclick="answer()">Klaar</button>`;
+ h+=`<div id="fb"></div>`;$('#app').innerHTML=h;window.scrollTo(0,0);speak(qt+'. '+opts.filter(x=>!R.hid.includes(x.i)).map((x,k)=>'Antwoord '+(k+1)+': '+x.o).join('. '));
+ const tl=tlimit(q,st);if(tl){R.left=tl;R.tl=tl;tick();TM=setInterval(tick,1000)}else $('#tm').textContent=''}
+function tick(){const e=$('#tm');if(!e)return stopT();e.textContent=R.left+'s';e.classList.toggle('warn',R.left<=4);const b=$('#tb');if(b)b.style.width=(100*R.left/R.tl)+'%';if(R.left--<=0){stopT();answer(true)}}
+function pick(i){if(R.ans)return;const q=cur(),Q=q.type=='scen'?q.steps[R.step]:q;if(Q.type=='multi'){R.sel.includes(i)?R.sel.splice(R.sel.indexOf(i),1):R.sel.push(i);$('#o'+i).classList.toggle('sel');return}R.sel=[i];answer()}
+function answer(timeout){if(R.ans)return;stopT();const q=cur(),sc=q.type=='scen',Q=sc?q.steps[R.step]:q;let ok;
+ if(Q.type=='multi'){const a=[...R.sel].sort().join(),b=[...Q.ok].sort().join();ok=a==b}else ok=!timeout&&R.sel[0]===Q.ok;R.ans=1;
+ const good=Q.type=='multi'?Q.ok:[Q.ok];Q.opts.forEach((o,i)=>{const e=$('#o'+i);if(!e)return;e.disabled=true;if(good.includes(i))e.classList.add('ok');else if(R.sel.includes(i))e.classList.add('no')});
+ const showWhy=LV!='kruiper'||S.aid.uitleg;let h=`<div class="fb"><div class="res ${ok?'ok':'no'}">${ok?'Goed':timeout?'Tijd op':'Fout'}</div>`;
+ if(showWhy){h+=`<div class="sm">${esc(Q.why)}</div>`;if(q.val&&!sc)h+=`<div class="el"><b>Strik:</b>${esc(q.val)}</div>`;h+=`<div class="mu sm">Bron: ${esc(q.bron)}${q.status&&/check/.test(q.status)?' · <b>te checken</b>':''}</div>`}
+ const last=!sc||R.step>=q.steps.length-1;h+=`<button class="big" onclick="adv()">${last?'Volgende':'Volgende stap'}</button></div>`;$('#fb').innerHTML=h;
+ if(ok){R.g++;R.streak++;R.flow=Math.min(R.flow+1,4)}else{R.f++;R.streak=0;R.flow=Math.max(R.flow-1,-3)}speak((ok?'Goed. ':'Fout. ')+(showWhy?Q.why:''))}
+function adv(){const q=cur();R.hid=null;if(q.type=='scen'&&R.step<q.steps.length-1){R.step++;R.ans=null;R.sel=[];return render()}R.step=0;R.i++;next()}
+function end(){stopT();const t=R.g+R.f,p=Math.round(100*R.g/Math.max(1,t));S.best[LV]=Math.max(S.best[LV]||0,p)+'%';save();
+ $('#app').innerHTML=`<h1>Klaar · ${R.g}/${t} goed (${p}%)</h1><div class="mu">${LV=='renner'?(p>=80?'Sprintniveau. Morgen opnieuw, andere volgorde.':'Terug naar loper voor de fouten, dan weer sprinten.'):LV=='loper'?'Flow-ronde klaar.':'Zet morgen één hulpmiddel uit.'}</div><button class="big" onclick="start('${LV}')">Nog een ronde</button><button onclick="home()">Niveaus</button>`}
+</script></body></html>
