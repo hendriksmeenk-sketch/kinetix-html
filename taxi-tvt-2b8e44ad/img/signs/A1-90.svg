@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Afgeleid van Commons File:Nederlands verkeersbord A1.svg (publiek domein, Bouwe Brouwer): cirkel, rand en cijfer 0 ongewijzigd; alleen het eerste cijfer vervangen door een eigen tekening (9) in dezelfde lijndikte en kleur. -->
+<svg id="Nederlands_verkeersbord_A1_90_afgeleid" width="300" height="300" viewBox="0 0 100 100"
+xmlns="http://www.w3.org/2000/svg" version="1.1">
+
+<circle id="witte cirkel met rode rand" cx="50" cy="50" r="43.5"
+fill="#f7fbf5" stroke="#c1121c" stroke-width="13" />
+
+<g id="nummer 90">
+<g id="nummer 9"><ellipse cx="35.65" cy="43.0" rx="11.1" ry="9.4" fill="none" stroke="#2a2d2f" stroke-width="6.4"/><path d="M 46.75,43 C 46.75,56 42.5,62.7 30.5,62.7 L 24.5,62.7" fill="none" stroke="#2a2d2f" stroke-width="6.4"/></g>
+<path id="nummer 0" fill="#2a2d2f"
+     d="M 67.453195,30.429929 C 76.568337,30.429929 81.790409,37.727013 81.790409,48.117189 C 81.790409,58.518256 76.419399,65.858905 67.453195,65.858905 C 58.48699,65.858905 53.094743,58.678901 53.094743,48.117189 C 53.094743,37.727013 58.48699,30.429929 67.453195,30.429929 z M 67.453195,59.487571 C 72.111646,59.487571 75.408966,56.08408 75.408966,48.117189 C 75.408966,40.618618 72.111646,36.959185 67.453195,36.959185 C 62.784125,36.959185 59.795299,40.618618 59.795299,48.117189 C 59.795299,55.776404 62.784125,59.487571 67.453195,59.487571" />
+</g>
+
+</svg>
