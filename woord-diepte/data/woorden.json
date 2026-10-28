@@ -221,7 +221,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-三",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/san.html",
    "v46": {
     "klankhaken": {
@@ -309,7 +309,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-十",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/shi.html",
    "v46": {
     "klankhaken": {
@@ -402,7 +402,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-百",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/bai.html",
    "v46": {
     "klankhaken": {
@@ -493,7 +493,7 @@
    "img": "",
    "source": "woord_diepte",
    "card_id": "wd-零",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/ling.html",
    "v46": {
     "klankhaken": {
@@ -597,7 +597,47 @@
    "h1": false,
    "source": "woord_diepte",
    "card_id": "wd-子",
-   "status46": "afgekeurd-gate"
+   "status46": "wacht-op-deepseek",
+   "kaart46": "kaart/zi.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "DZE↘↗",
+      "zin": "Ik laat 'DZE!' eerst zakken en dan omhoog veren."
+     },
+     "en": {
+      "haak": "DZUH↘↗",
+      "zin": "I let 'DZUH!' dip down and then spring up."
+     },
+     "es": {
+      "haak": "DSE↘↗",
+      "zin": "Dejo que '¡DSE!' baje y luego suba."
+     }
+    },
+    "beeldhook": "IK ben het kind in een doek, armen wijd als <b class=\"rood\">一</b> en lijf gebogen als <b class=\"rood\">了</b>, en laat de klank eerst dalen en dan stijgen.",
+    "paleisStop": [
+     8
+    ],
+    "audio": [
+     "kaart/media/zi-zh.mp3",
+     "kaart/media/zi-zh-traag.mp3",
+     "kaart/media/zi-hook-nl.mp3",
+     "kaart/media/zi-hook-en.mp3",
+     "kaart/media/zi-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/zi-centrum.jpg",
+     "kaart/media/zi-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/zi-mindmap.jpg",
+    "streken": {
+     "子": [
+      "横撇",
+      "竖钩",
+      "横"
+     ]
+    }
+   }
   },
   {
    "h1": false,
@@ -653,7 +693,7 @@
    "nextLabel": "—",
    "source": "woord_diepte",
    "card_id": "wd-好",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/hao.html",
    "v46": {
     "klankhaken": {
@@ -751,7 +791,7 @@
    "nextLabel": "—",
    "h1": false,
    "provenience": "redactie Desktop chat «爷 klankanker» 2026-09-23; geïnstalleerd in skelet door Kraan (geen web-captcha-pad)",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/ye.html",
    "v46": {
     "klankhaken": {
@@ -904,7 +944,52 @@
    "station": 0,
    "nextLabel": "10 min",
    "geleerdAt": 1792394585840,
-   "status46": "open"
+   "status46": "4.6-klaar",
+   "kaart46": "kaart/xue.html",
+   "v46": {
+    "klankhaken": {
+     "nl": {
+      "haak": "SJWE↗",
+      "zin": "Ik roep 'SJWE!' als een fluittoon die omhoog schiet."
+     },
+     "en": {
+      "haak": "SHWEH↗",
+      "zin": "I call 'Shweh!' as a whistle climbs higher."
+     },
+     "es": {
+      "haak": "SHUE↗",
+      "zin": "Grito '¡Shue!' como un silbido que sube."
+     }
+    },
+    "beeldhook": "IK ben het kind <b class=\"rood\">子</b> onder het dak <b class=\"rood\">冖</b>, met het klankdeel <b class=\"rood\">⺍</b> boven mij, en ik roep de klank met tweede toon (stijgend).",
+    "paleisStop": [
+     6
+    ],
+    "audio": [
+     "kaart/media/xue-zh.mp3",
+     "kaart/media/xue-zh-traag.mp3",
+     "kaart/media/xue-hook-nl.mp3",
+     "kaart/media/xue-hook-en.mp3",
+     "kaart/media/xue-hook-es.mp3"
+    ],
+    "beelden": [
+     "kaart/media/xue-centrum.jpg",
+     "kaart/media/xue-beeld2.jpg"
+    ],
+    "mindmap": "kaart/media/xue-mindmap.jpg",
+    "streken": {
+     "学": [
+      "点",
+      "点",
+      "撇",
+      "点",
+      "横钩",
+      "横撇",
+      "竖钩",
+      "横"
+     ]
+    }
+   }
   },
   {
    "hz": "孩",
@@ -1624,7 +1709,7 @@
    "h1": false,
    "source": "drive-woordkaart 1GqR90rOhxWX7iLyx-FfTwI1Tr7xdW45zrKdBHABqqdQ",
    "card_id": "wd-多少",
-   "status46": "open-media",
+   "status46": "4.6-klaar",
    "kaart46": "kaart/duoshao.html",
    "v46": {
     "klankhaken": {
