@@ -1610,4 +1610,77 @@ window.dg30uit=function(){V22.v='home';DG30G=null;leren()};
 window.leren=leren=function(){if(V22.v=='dg30'){$('#app').innerHTML='<div class="r20"><button class="r19back" onclick="dg30uit()">← Terug naar Leren</button>'+body()+'</div>';return}_l.apply(this,arguments);
  if(V22.v=='home'){const m=document.querySelector('#app .bz28in');if(m&&!document.querySelector('.dg30in'))m.insertAdjacentHTML('beforebegin','<button class="bz28in dg30in" onclick="dg30(null,0)">🚖 Doelgroepen-Spiek · 6 + dementie</button>')}};
 })();</script>
+
+<script id="motorruimte">
+/* Motorruimte: tik de vloeistof. Data: motor.json (set-motor-01 blijft daar; niet in de examenvragenbank). */
+(function(){
+const css=document.createElement('style');
+css.textContent='.motor-top{align-items:flex-start;gap:8px}.motor-top span:first-child{flex:1;min-width:0}.motor-top #motor-score{flex:0 0 auto;white-space:nowrap}.motor-frame{position:relative;margin:6px 0}.motor-frame img{display:block;width:100%;height:auto;border-radius:var(--r);background:#111;cursor:crosshair}.motor-zone{position:absolute;border:3px solid var(--ac);border-radius:6px;box-shadow:0 0 0 2px rgba(0,0,0,.55);pointer-events:none}.motor-credit{display:block;color:var(--mu);font-size:14px;line-height:1.35;margin:4px 0 8px}.motor-credit a{color:inherit}.motor-q mark{background:var(--ac);color:#111;border-radius:6px;padding:0 4px}#nav button{font-size:clamp(11px,2.5vw,15px);padding:8px 0;line-height:1.1}';
+document.head.appendChild(css);
+let M=null,foto=null,key=null,g=0,f=0,done=false,gen=0;
+function vl(k){return (M.vloeistoffen||[]).find(v=>v.key===k)||{naam:k,cues:'',controle:''}}
+function known(ft){return Object.keys(ft.zones||{}).filter(k=>{const z=ft.zones[k];return z&&z!=='unknown'&&typeof z==='object'})}
+function pick(){
+ const fotos=M.fotos.filter(ft=>known(ft).length);
+ let last=parseInt(localStorage.getItem('tvtMotorIx'),10);if(!Number.isFinite(last))last=-1;
+ let i=0,n=0;do{i=Math.floor(Math.random()*fotos.length)}while(fotos.length>1&&i===last&&++n<20);
+ localStorage.setItem('tvtMotorIx',String(i));
+ foto=fotos[i];const ks=known(foto);key=ks[Math.floor(Math.random()*ks.length)];done=false;
+}
+function credit(ft){
+ if(ft.author&&ft.license&&ft.source)return 'Foto: '+esc(ft.author)+' · <a href="'+esc(ft.license_url||ft.source)+'" target="_blank" rel="noopener">'+esc(ft.license)+'</a> · <a href="'+esc(ft.source)+'" target="_blank" rel="noopener">Wikimedia Commons</a> · verkleind';
+ return esc(ft.credit||'Foto')+' · verkleind';
+}
+function render(){
+ const v=vl(key);
+ $('#app').innerHTML='<div class="top motor-top"><span>Motorruimte · '+esc(foto.merk)+'</span><span id="motor-score">'+g+' ✓ · '+f+' ✗</span></div><div class="q motor-q">Tik waar de <mark>'+esc(v.naam)+'</mark> zit.</div><div class="motor-frame" id="motor-frame"><img id="motor-img" alt="Motorruimte '+esc(foto.merk)+'" src="'+esc(foto.file)+'"></div><small class="motor-credit">'+credit(foto)+'</small><div id="motor-fb"></div><button type="button" onclick="go(\'oefen\')">Menu</button>';
+ $('#motor-img').addEventListener('click',onTap);
+}
+function onTap(e){
+ if(done||!foto)return;
+ const img=e.currentTarget,w=img.clientWidth||1,h=img.clientHeight||1;
+ let x=e.offsetX,y=e.offsetY;
+ if(typeof x!=='number'||typeof y!=='number'){const r=img.getBoundingClientRect();x=e.clientX-r.left;y=e.clientY-r.top}
+ x=x/w*100;y=y/h*100;
+ const z=foto.zones[key];
+ const ok=x>=z.x-4&&y>=z.y-4&&x<=z.x+z.w+4&&y<=z.y+z.h+4;
+ done=true;ok?g++:f++;
+ const v=vl(key);
+ $('#motor-frame').insertAdjacentHTML('beforeend','<div class="motor-zone" style="left:'+z.x+'%;top:'+z.y+'%;width:'+z.w+'%;height:'+z.h+'%"></div>');
+ const sc=$('#motor-score');if(sc)sc.textContent=g+' ✓ · '+f+' ✗';
+ $('#motor-fb').innerHTML='<div class="fb"><div class="res '+(ok?'ok':'no')+'">'+(ok?'Goed.':'Net niet. Het gele vak is '+esc(v.naam)+'.')+'</div><p><b>Herkenning.</b> '+esc(v.cues)+'</p><p><b>Controle.</b> '+esc(v.controle)+'</p><button class="big" type="button" onclick="motorNext()">Volgende</button></div>';
+ img.style.cursor='default';
+}
+window.motorNext=function(){pick();render();scrollTo(0,0)};
+window.startMotor=async function(){
+ const my=++gen;
+ try{
+  if(!M){const r=await fetch('motor.json',{cache:'no-store'});if(!r.ok)throw new Error('motor');M=await r.json()}
+  if(TAB!=='motor'||my!==gen)return;
+  g=0;f=0;pick();render();
+ }catch(err){
+  if(TAB!=='motor'||my!==gen)return;
+  $('#app').innerHTML='<div class="card"><h2>Motorruimte</h2><p>De module kon niet laden.</p></div><button type="button" onclick="go(\'oefen\')">Menu</button>';
+ }
+};
+const _nav=nav;
+window.nav=nav=function(){
+ const it=[['oefen','🎯','Oefenen'],['leren','📚','Leren'],['reken','🧮','Rekenen'],['examen','⏱️','Examen'],['motor','🔧','Motor'],['stats','📈','Voortgang']];
+ $('#nav').innerHTML=it.map(([k,e,n])=>'<button class="'+(TAB==k?'on':'')+'" onclick="go(\''+k+'\')"><span>'+e+'</span>'+n+'</button>').join('');
+};
+const _go=go;
+window.go=go=function(t){
+ if(t==='motor'){stopT();TAB='motor';R=null;nav();startMotor();scrollTo(0,0);return}
+ _go(t);
+};
+const _home=home;
+window.home=home=function(){
+ _home();
+ const h=$('#app h1');
+ if(h&&!$('#app .motor-in'))h.insertAdjacentHTML('afterend','<button class="big motor-in" type="button" onclick="go(\'motor\')">🔧 Motorruimte</button>');
+};
+if($('#nav')&&D)nav();
+})();
+</script>
+
 </body></html>

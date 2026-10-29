@@ -1,0 +1,640 @@
+{
+ "schema": "tvt-quiz/1",
+ "module": "motorruimte",
+ "bijgewerkt": "2026-10-22",
+ "vloeistoffen": [
+  {
+   "key": "koelvloeistof",
+   "naam": "Koelvloeistof (expansievat)",
+   "cues": "Doorzichtig plastic vat met MIN/MAX-streep; vloeistof meestal roze/rood, paars, groen of blauw. Dop vaak zwart/grijs met waarschuwingssymbool (hand/stoom, thermometer) – 'niet openen als heet'.",
+   "functie": "Voert warmte af van de motor naar de radiateur; beschermt tegen bevriezing en corrosie.",
+   "controle": "Alleen bij KOUDE motor: niveau tussen MIN en MAX op het vat aflezen zonder dop te openen. Nooit openen bij warme motor (koelsysteem staat onder druk, verbrandingsgevaar). Hybrides hebben vaak een TWEEDE vat voor de omvormer/elektronica.",
+   "bij_laag": "Motor raakt oververhit (temperatuurlampje/meter in rood) → koppakking- of motorschade. Bijvullen met juiste soort; bij steeds dalend niveau: lek, naar garage.",
+   "relevantie": "Hoort bij de dagelijkse rijklaarcontrole/onderhoudsplicht van de chauffeur (veilig en bedrijfszeker rijden). Niet expliciet als losse exameneis in de CBR-TVT-eisen gevonden – vooral praktijk/algemene kennis."
+  },
+  {
+   "key": "motorolie",
+   "naam": "Motorolie (peilstok + vuldop)",
+   "cues": "Peilstok met (vaak gele of oranje) ring/handgreep; vuldop bovenop de motor met oliekan-symbool (druppelend kannetje).",
+   "functie": "Smeert en koelt bewegende delen van de motor, vermindert slijtage.",
+   "controle": "Auto vlak, motor uit en enkele minuten laten staan (bij voorkeur koud/afgekoeld). Peilstok eruit, afvegen, helemaal terugsteken, weer eruit: niveau tussen MIN- en MAX-merk. Sommige moderne auto's hebben geen peilstok maar een elektronische meting via het display.",
+   "bij_laag": "Rood olielampje (oliekan) = direct veilig stoppen en motor uit; te weinig olie geeft ernstige motorschade. Bijvullen via vuldop met juiste specificatie, niet boven MAX.",
+   "relevantie": "Rijklaarcontrole; het rode olielampje herkennen en juist handelen (stoppen) is veiligheidskennis. Niet als losse CBR-TVT-eis gevonden."
+  },
+  {
+   "key": "remvloeistof",
+   "naam": "Remvloeistof (reservoir)",
+   "cues": "Klein doorzichtig/witachtig reservoir, meestal achterin bij het schutbord aan bestuurderszijde, op de hoofdremcilinder. Dop vaak geel of zwart met remsymbool (cirkel tussen haakjes) en 'DOT 4'. Vloeistof heldergeel tot bruin.",
+   "functie": "Brengt de kracht van het rempedaal hydraulisch over naar de remmen.",
+   "controle": "Niveau tussen MIN en MAX op het reservoir aflezen, dop dicht laten. Remvloeistof trekt water aan: om de ±2 jaar vervangen (garage). Giftig en tast lak aan.",
+   "bij_laag": "Rood remlampje (!) in cirkel; sponzig/zakkend pedaal, langere remweg → niet doorrijden. Laag niveau kan wijzen op lek of versleten remblokken.",
+   "relevantie": "Direct verkeersveiligheid; remmen hoort bij de technische staat die de chauffeur moet bewaken. Niet als losse CBR-TVT-eis gevonden."
+  },
+  {
+   "key": "ruitensproeier",
+   "naam": "Ruitensproeiervloeistof",
+   "cues": "Grootste vuldop, bijna altijd BLAUW met ruit/sproeier-symbool (ruit met waterstraal); vaak vooraan op de hoek.",
+   "functie": "Reinigt de voorruit (en achterruit/koplampen) voor goed zicht.",
+   "controle": "Visueel of via lampje; mag altijd bijgevuld worden (ook warme motor). In de winter antivriesmiddel gebruiken.",
+   "bij_laag": "Slecht zicht door vuil/insecten/zout → onveilig. Geen motorschade, wel risico en mogelijk boete voor slecht zicht.",
+   "relevantie": "Goed zicht = veilig rijden met passagiers; makkelijkste bijvulpunt. Niet als losse CBR-TVT-eis gevonden."
+  }
+ ],
+ "fotos": [
+  {
+   "file": "motor/img/2020-skoda-octavia-rs-245-sedan-2-0-litre-tsi-gasoline-engin.jpg",
+   "merk": "Škoda Octavia RS (IV, 2.0 TSI)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 0,
+     "y": 28,
+     "w": 13,
+     "h": 22
+    },
+    "motorolie": {
+     "x": 13,
+     "y": 46,
+     "w": 7,
+     "h": 11
+    },
+    "remvloeistof": {
+     "x": 14,
+     "y": 13,
+     "w": 9,
+     "h": 17
+    },
+    "ruitensproeier": "unknown"
+   },
+   "twijfel": "Gele ring links-onder (4-8%,88-94%) mogelijk sproeiervuldop, niet zeker; motorolie = gele peilstokgreep.",
+   "credit": "Foto: AIMHO'S REBELLION 8490s, CC BY-SA 4.0, via Wikimedia Commons",
+   "author": "AIMHO'S REBELLION 8490s",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:2020_Skoda_Octavia_RS-245_sedan_2.0-litre_TSI_gasoline_engine_view_in_Brunei.jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/skoda-octavia-iv-1-4-tsi-rf.jpg",
+   "merk": "Škoda Octavia IV 1.4 TSI",
+   "zones": {
+    "koelvloeistof": {
+     "x": 0,
+     "y": 29,
+     "w": 14,
+     "h": 21
+    },
+    "motorolie": {
+     "x": 22,
+     "y": 37,
+     "w": 12,
+     "h": 10
+    },
+    "remvloeistof": {
+     "x": 60,
+     "y": 28,
+     "w": 8,
+     "h": 13
+    },
+    "ruitensproeier": {
+     "x": 84,
+     "y": 66,
+     "w": 11,
+     "h": 11
+    }
+   },
+   "twijfel": "Motorolie = gele peilstokgreep + vuldop ernaast.",
+   "credit": "Foto: Mike-fiesta, CC BY-SA 4.0, via Wikimedia Commons",
+   "author": "Mike-fiesta",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_IV_1.4_TSI_RF.jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/2023-denver-auto-show-kia-niro-ex-touring-engine-bay.jpg",
+   "merk": "Kia Niro HEV (2023)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 15,
+     "y": 39,
+     "w": 12,
+     "h": 18
+    },
+    "motorolie": {
+     "x": 54,
+     "y": 49,
+     "w": 7,
+     "h": 9
+    },
+    "remvloeistof": {
+     "x": 60,
+     "y": 34,
+     "w": 8,
+     "h": 9
+    },
+    "ruitensproeier": {
+     "x": 17,
+     "y": 59,
+     "w": 7,
+     "h": 9
+    }
+   },
+   "twijfel": "Rechter roze tank (75-82%) is waarschijnlijk omvormer-koelvloeistof (hybride), niet de motor. Olie = zwarte vuldop, iets onzeker.",
+   "credit": "Foto: Corqe, CC0, via Wikimedia Commons",
+   "author": "Corqe",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Kia_Niro_EX_Touring_engine_bay.jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/2025-toyota-corolla-1-8-hybrid-engine.jpg",
+   "merk": "Toyota Corolla 1.8 Hybrid (2025)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 9,
+     "y": 59,
+     "w": 12,
+     "h": 24
+    },
+    "motorolie": {
+     "x": 33,
+     "y": 64,
+     "w": 6,
+     "h": 7
+    },
+    "remvloeistof": {
+     "x": 60,
+     "y": 13,
+     "w": 10,
+     "h": 12
+    },
+    "ruitensproeier": {
+     "x": 25,
+     "y": 78,
+     "w": 8,
+     "h": 10
+    }
+   },
+   "twijfel": "Roze tank rechts (75-83%) = omvormer-koeling hybride. Olie = gele peilstokgreep, klein.",
+   "credit": "Foto: Sezenkerem, CC BY-SA 4.0, via Wikimedia Commons",
+   "author": "Sezenkerem",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Corolla_1.8_Hybrid_Engine.jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/hybrid-engine-2012-toyota-prius-v-8228834228.jpg",
+   "merk": "Toyota Prius v (2012)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 1,
+     "y": 28,
+     "w": 13,
+     "h": 30
+    },
+    "motorolie": "unknown",
+    "remvloeistof": {
+     "x": 74,
+     "y": 16,
+     "w": 9,
+     "h": 10
+    },
+    "ruitensproeier": {
+     "x": 7,
+     "y": 61,
+     "w": 6,
+     "h": 9
+    }
+   },
+   "twijfel": "Roze tank rechts (73-82%, 25-40%) = omvormer-koeling. Peilstok niet zichtbaar.",
+   "credit": "Foto: Michael Sheehan, CC BY 2.0, via Wikimedia Commons",
+   "author": "Michael Sheehan",
+   "license": "CC BY 2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Hybrid_Engine_-_2012_Toyota_Prius_V_(8228834228).jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/mb-cla-motorraum.jpg",
+   "merk": "Mercedes-Benz CLA (C117)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 8,
+     "y": 40,
+     "w": 9,
+     "h": 13
+    },
+    "motorolie": {
+     "x": 31,
+     "y": 37,
+     "w": 8,
+     "h": 7
+    },
+    "remvloeistof": {
+     "x": 56,
+     "y": 35,
+     "w": 8,
+     "h": 11
+    },
+    "ruitensproeier": {
+     "x": 83,
+     "y": 51,
+     "w": 8,
+     "h": 10
+    }
+   },
+   "twijfel": "Olie = ronde vuldop op motorkap-afdekking; remvloeistof achteraan bij schutbord, iets onzeker.",
+   "credit": "Foto: KarleHorn, CC BY-SA 3.0, via Wikimedia Commons",
+   "author": "KarleHorn",
+   "license": "CC BY-SA 3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "source": "https://commons.wikimedia.org/wiki/File:MB_CLA_Motorraum.JPG",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/motorraum-vw-caddy-2k-ecofuel.jpg",
+   "merk": "Volkswagen Caddy (2K) EcoFuel",
+   "zones": {
+    "koelvloeistof": {
+     "x": 0,
+     "y": 29,
+     "w": 10,
+     "h": 12
+    },
+    "motorolie": {
+     "x": 54,
+     "y": 28,
+     "w": 8,
+     "h": 8
+    },
+    "remvloeistof": {
+     "x": 71,
+     "y": 16,
+     "w": 8,
+     "h": 9
+    },
+    "ruitensproeier": {
+     "x": 0,
+     "y": 43,
+     "w": 9,
+     "h": 13
+    }
+   },
+   "twijfel": "Olie = vuldop met oliekan-symbool; gele peilstok onderaan (43-48%,82-87%) ook olie.",
+   "credit": "Foto: StefanNWiki, CC BY-SA 4.0, via Wikimedia Commons",
+   "author": "StefanNWiki",
+   "license": "CC BY-SA 4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "source": "https://commons.wikimedia.org/wiki/File:Motorraum_VW_Caddy_(2K)_EcoFuel.jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/the-engine-room-of-toyota-rav4-hybrid-5th-gen.jpg",
+   "merk": "Toyota RAV4 Hybrid (5e gen, RHD)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 0,
+     "y": 46,
+     "w": 7,
+     "h": 28
+    },
+    "motorolie": {
+     "x": 35,
+     "y": 49,
+     "w": 5,
+     "h": 8
+    },
+    "remvloeistof": {
+     "x": 8,
+     "y": 0,
+     "w": 13,
+     "h": 13
+    },
+    "ruitensproeier": "unknown"
+   },
+   "twijfel": "Koelvloeistoftank maar half in beeld; sproeiertank niet zichtbaar. Rechtsgestuurd: rem links in beeld.",
+   "credit": "Foto: Oq10pass, CC0, via Wikimedia Commons",
+   "author": "Oq10pass",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:The_engine_room_of_Toyota_RAV4_Hybrid_(5th-gen).jpg",
+   "verkleind": true
+  },
+  {
+   "file": "motor/img/2023-denver-auto-show-kia-sportage-hybrid-engine-bay.jpg",
+   "merk": "Kia Sportage HEV (2023)",
+   "zones": {
+    "koelvloeistof": {
+     "x": 66,
+     "y": 45,
+     "w": 11,
+     "h": 13
+    },
+    "motorolie": "unknown",
+    "remvloeistof": {
+     "x": 65,
+     "y": 35,
+     "w": 8,
+     "h": 9
+    },
+    "ruitensproeier": {
+     "x": 12,
+     "y": 61,
+     "w": 6,
+     "h": 10
+    }
+   },
+   "twijfel": "Roze tank kan ook omvormer-koeling zijn (hybride) – twijfel. Olie niet duidelijk.",
+   "credit": "Foto: Corqe, CC0, via Wikimedia Commons",
+   "author": "Corqe",
+   "license": "CC0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "source": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Kia_Sportage_Hybrid_engine_bay.jpg",
+   "verkleind": true
+  }
+ ],
+ "sets": [
+  {
+   "id": "set-motor-01",
+   "naam": "Motorruimte: de 4 vloeistoffen",
+   "datum": "2026-10-22",
+   "vragen": [
+    {
+     "id": "m1-t4-01",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "multi",
+     "q": "Benoem de 4 vloeistoffen die je in de motorruimte controleert. Kies ALLE juiste.",
+     "opts": [
+      "Koelvloeistof",
+      "Motorolie",
+      "Remvloeistof",
+      "Ruitensproeiervloeistof",
+      "Bandenvloeistof",
+      "Accuzuur bijvullen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "Koelvloeistof, motorolie, remvloeistof en ruitensproeiervloeistof zijn de vier standaard controles.",
+     "wrong": [
+      "",
+      "",
+      "",
+      "",
+      "Bestaat niet; banden controleer je op spanning en profiel.",
+      "Moderne accu's zijn onderhoudsvrij; dat is geen dagelijkse controle."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)",
+     "kern": [
+      "4 vloeistoffen"
+     ]
+    },
+    {
+     "id": "m1-t4-02",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Welke dop is bijna altijd BLAUW met een ruit-symbool?",
+     "opts": "De sproeiervuldop is meestal blauw met een ruit+waterstraal-symbool.",
+     "ok": [
+      "Koelvloeistof",
+      "Ruitensproeiervloeistof",
+      "Remvloeistof"
+     ],
+     "why": 1,
+     "wrong": [
+      "Koelvloeistof heeft een dop met waarschuwing voor heet/druk.",
+      "",
+      "Remvloeistof heeft een klein reservoir met remsymbool/DOT."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-03",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Wanneer controleer je de koelvloeistof?",
+     "opts": "Koelsysteem staat warm onder druk: openen geeft verbrandingsgevaar. Lees af op het vat bij koude motor.",
+     "ok": [
+      "Bij koude motor, zonder dop te openen",
+      "Direct na de rit, dop eraf",
+      "Tijdens het rijden via de peilstok"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Heet en onder druk – gevaarlijk.",
+      "Koelvloeistof heeft geen peilstok."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-04",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "order",
+     "q": "Zet de stappen van de oliecontrole in de juiste volgorde.",
+     "opts": [
+      "Auto vlak zetten, motor uit, even wachten",
+      "Peilstok eruit en afvegen",
+      "Peilstok helemaal terugsteken",
+      "Opnieuw eruit en niveau tussen MIN en MAX aflezen"
+     ],
+     "ok": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "why": "Vlak, uit en laten zakken; afvegen; volledig terugsteken; aflezen tussen MIN en MAX.",
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-05",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Tijdens een rit gaat het rode oliekan-lampje branden. Wat doe je?",
+     "opts": "Rood olielampje = te lage oliedruk. Doorrijden kan de motor binnen korte tijd vernielen; veilig stoppen gaat voor, informeer passagier/centrale.",
+     "ok": [
+      "Doorrijden tot het eind van de rit",
+      "Zo snel mogelijk veilig stoppen en motor uitzetten",
+      "Ruitensproeiervloeistof bijvullen"
+     ],
+     "why": 1,
+     "wrong": [
+      "Risico op motorschade en stilstand op gevaarlijke plek.",
+      "",
+      "Heeft niets met olie te maken."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-06",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Het niveau in het remvloeistofreservoir staat onder MIN en het pedaal voelt sponzig. Wat is juist?",
+     "opts": "Laag remvloeistofniveau + sponzig pedaal = remwerking in gevaar. Met passagiers nooit riskeren.",
+     "ok": [
+      "Gewoon de dienst rijden, morgen kijken",
+      "Niet rijden; laten nakijken (mogelijk lek of versleten remmen)",
+      "Bijvullen met koelvloeistof"
+     ],
+     "why": 1,
+     "wrong": [
+      "Onveilig: langere remweg.",
+      "",
+      "Verkeerde vloeistof beschadigt het remsysteem."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-07",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Wat doet koelvloeistof?",
+     "opts": "Koelvloeistof koelt de motor en bevat antivries.",
+     "ok": [
+      "Smeert de motor",
+      "Voert warmte af en beschermt tegen bevriezing",
+      "Brengt rempedaalkracht over"
+     ],
+     "why": 1,
+     "wrong": [
+      "Dat doet motorolie.",
+      "",
+      "Dat doet remvloeistof."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-08",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Je rijdt een hybride taxi (bijv. Toyota Corolla/Kia Niro) en ziet TWEE roze vaten. Wat is waarschijnlijk?",
+     "opts": "Hybrides hebben vaak een apart koelcircuit voor de omvormer (inverter). Beide controleer je bij koude auto.",
+     "ok": [
+      "Eén is voor de motor, één voor omvormer/elektronica",
+      "Eén is remvloeistof",
+      "Het tweede is ruitensproeiervloeistof"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Remvloeistof is geel/helder, klein reservoir met DOT-dop.",
+      "Sproeier heeft een blauwe dop."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-09",
+     "tak": 4,
+     "niveau": "lopen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "multi",
+     "q": "Welke kenmerken horen bij het remvloeistofreservoir? Kies ALLE juiste.",
+     "opts": [
+      "Opschrift 'DOT 4' op de dop",
+      "Vaak achterin bij het schutbord aan bestuurderszijde",
+      "Grote blauwe dop vooraan",
+      "Helder geel tot bruine vloeistof"
+     ],
+     "ok": [
+      0,
+      1,
+      3
+     ],
+     "why": "Klein reservoir achter in de motorruimte bij het schutbord, op de hoofdremcilinder, dop met 'DOT'/remsymbool, vloeistof helder geel tot bruin.",
+     "wrong": [
+      "",
+      "",
+      "Dat is de sproeiertank.",
+      ""
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-10",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Welke vloeistof mag je ook bij een WARME motor gewoon bijvullen?",
+     "opts": "Het sproeiersysteem staat niet onder druk en is niet heet.",
+     "ok": [
+      "Koelvloeistof",
+      "Ruitensproeiervloeistof",
+      "Geen enkele"
+     ],
+     "why": 1,
+     "wrong": [
+      "Onder druk en heet – eerst laten afkoelen.",
+      "",
+      "Sproeiervloeistof kan wel."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-11",
+     "tak": 4,
+     "niveau": "kruipen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Waaraan herken je de vuldop van de motorolie?",
+     "opts": "De olievuldop heeft het kannetje-symbool; de peilstok heeft vaak een gele/oranje greep.",
+     "ok": [
+      "Oliekan-symbool op de dop bovenop de motor",
+      "Blauwe dop met ruit-symbool",
+      "Dop met 'DOT 4'"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Dat is ruitensproeier.",
+      "Dat is remvloeistof."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    },
+    {
+     "id": "m1-t4-12",
+     "tak": 4,
+     "niveau": "rennen",
+     "et": "praktijk (rijklaarcontrole)",
+     "type": "mc",
+     "q": "Waarom vervang je remvloeistof ongeveer om de 2 jaar, ook als het niveau goed is?",
+     "opts": "Remvloeistof is hygroscopisch: water verlaagt het kookpunt → kans op remuitval bij zwaar remmen.",
+     "ok": [
+      "Omdat het water opneemt en het kookpunt daalt",
+      "Omdat het verdampt",
+      "Omdat het van kleur moet veranderen"
+     ],
+     "why": 0,
+     "wrong": [
+      "",
+      "Het verdampt nauwelijks; daling wijst op lek/slijtage.",
+      "Kleur is een signaal, niet de reden."
+     ],
+     "bron": "Algemene autotechniek / handleiding fabrikant (geen specifieke CBR-TVT-eis)"
+    }
+   ]
+  }
+ ]
+}
