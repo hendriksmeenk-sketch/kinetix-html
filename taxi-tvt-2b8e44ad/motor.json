@@ -1,20 +1,100 @@
 {
  "schema": "tvt-quiz/1",
  "module": "motorruimte",
- "bijgewerkt": "2026-10-22",
- "vloeistoffen": [
+ "bijgewerkt": "2026-10-30",
+ "titel": "Motorruimte",
+ "wagen": "VW Transporter TDI · examenwagen",
+ "spiek": "Eerst ophalen, zonder kijken. Dan Kijk. Hardop. 5×.",
+ "ritme": "1 uur · 1 dag · 1 week · 1 maand · 3 maanden",
+ "hero": {
+  "file": "motor/img/motor-overzicht.jpg",
+  "alt": "Motorruimte van boven: TDI 2.0-deksel, roze koelvat rechts, gele peilstok, blauwe dop links",
+  "caption": "TDI 2.0-deksel · olie (gele peilstok en zwarte dop) · koel roze rechts · rem klein bij het schutbord · sproeier blauwe dop links"
+ },
+ "context": {
+  "file": "motor/img/motor-kap-open.jpg",
+  "alt": "Motorkap open, van voren, VW Transporter TDI",
+  "caption": "Zelfde motorruimte van voren. De vier vloeistoffen leer je op de foto hierboven."
+ },
+ "dagcheck": [
+  "Olie — peilstok MIN–MAX",
+  "Koel — koud, MIN–MAX, dop dicht",
+  "Rem — DOT 4 MIN–MAX en het pedaal",
+  "Sproeier — blauwe dop, bijvullen mag"
+ ],
+ "open": [
   {
-   "key": "koelvloeistof",
-   "naam": "Koelvloeistof (expansievat)",
-   "cues": "Doorzichtig plastic vat met MIN/MAX-streep; vloeistof meestal roze/rood, paars, groen of blauw. Dop vaak zwart/grijs met waarschuwingssymbool (hand/stoom, thermometer) – 'niet openen als heet'.",
-   "functie": "Voert warmte af van de motor naar de radiateur; beschermt tegen bevriezing en corrosie.",
-   "controle": "Alleen bij KOUDE motor: niveau tussen MIN en MAX op het vat aflezen zonder dop te openen. Nooit openen bij warme motor (koelsysteem staat onder druk, verbrandingsgevaar). Hybrides hebben vaak een TWEEDE vat voor de omvormer/elektronica.",
-   "bij_laag": "Motor raakt oververhit (temperatuurlampje/meter in rood) → koppakking- of motorschade. Bijvullen met juiste soort; bij steeds dalend niveau: lek, naar garage.",
-   "relevantie": "Hoort bij de dagelijkse rijklaarcontrole/onderhoudsplicht van de chauffeur (veilig en bedrijfszeker rijden). Niet expliciet als losse exameneis in de CBR-TVT-eisen gevonden – vooral praktijk/algemene kennis."
+   "punt": "Extra wit vat links (blauwe dop)",
+   "status": "OPEN",
+   "actie": "Niet raden — check bij rijinstructeur Martijn"
   },
   {
+   "punt": "Klein reservoir vóór de deksel",
+   "status": "OPEN",
+   "actie": "Niet invullen — check bij rijinstructeur Martijn"
+  },
+  {
+   "punt": "Peilstok op de foto boven MAX",
+   "status": "DEELS",
+   "actie": "Hercontrole: afvegen en opnieuw steken. Check bij rijinstructeur Martijn"
+  },
+  {
+   "punt": "Soort koelvloeistof",
+   "status": "OPEN",
+   "actie": "Geen type invullen — check bij rijinstructeur Martijn"
+  },
+  {
+   "punt": "Vervanginterval remvloeistof",
+   "status": "DEELS",
+   "actie": "Garage. Check bij rijinstructeur Martijn"
+  }
+ ],
+ "openZones": [
+  {
+   "id": "extra-links",
+   "open": 0,
+   "x": 5,
+   "y": 55,
+   "w": 14,
+   "h": 22
+  },
+  {
+   "id": "extra-onder",
+   "open": 1,
+   "x": 58,
+   "y": 68,
+   "w": 14,
+   "h": 18
+  }
+ ],
+ "noot": "CBR noemt deze vier niet als losse TVT-eis — wel rijklaar, technische staat en zicht.",
+ "vloeistoffen": [
+  {
    "key": "motorolie",
-   "naam": "Motorolie (peilstok + vuldop)",
+   "naam": "Motorolie",
+   "kort": "Olie",
+   "cue": "Gele peilstokring + oliekansymbool op de zwarte dop",
+   "check": "Vlak · motor uit · wachten · afvegen · MIN–MAX",
+   "lamp": "Rood oliekan → stoppen, motor uit",
+   "hardop": "Olie: peilstok tussen MIN en MAX. Rood oliekan: stoppen en motor uit.",
+   "foto": "motor/img/olie.jpg",
+   "alt": "Gele peilstok en zwarte oliedop op de TDI-deksel",
+   "zones": [
+    {
+     "x": 33.5,
+     "y": 30.5,
+     "w": 10,
+     "h": 13,
+     "deel": "dop"
+    },
+    {
+     "x": 39,
+     "y": 71,
+     "w": 8,
+     "h": 12,
+     "deel": "peilstok"
+    }
+   ],
    "cues": "Peilstok met (vaak gele of oranje) ring/handgreep; vuldop bovenop de motor met oliekan-symbool (druppelend kannetje).",
    "functie": "Smeert en koelt bewegende delen van de motor, vermindert slijtage.",
    "controle": "Auto vlak, motor uit en enkele minuten laten staan (bij voorkeur koud/afgekoeld). Peilstok eruit, afvegen, helemaal terugsteken, weer eruit: niveau tussen MIN- en MAX-merk. Sommige moderne auto's hebben geen peilstok maar een elektronische meting via het display.",
@@ -22,8 +102,47 @@
    "relevantie": "Rijklaarcontrole; het rode olielampje herkennen en juist handelen (stoppen) is veiligheidskennis. Niet als losse CBR-TVT-eis gevonden."
   },
   {
+   "key": "koelvloeistof",
+   "naam": "Koelvloeistof",
+   "kort": "Koel",
+   "cue": "Roze vat rechts · MAX en MIN",
+   "check": "Alleen koud · niveau zonder dop openen",
+   "lamp": "Temperatuur rood → stoppen. Dop nooit bij warm.",
+   "hardop": "Koel: koud aflezen, dop dicht. Rood temperatuur: stoppen.",
+   "foto": "motor/img/koelvloeistof.jpg",
+   "alt": "Roze koelvloeistof in het expansievat",
+   "zones": [
+    {
+     "x": 80,
+     "y": 26,
+     "w": 18,
+     "h": 42
+    }
+   ],
+   "cues": "Doorzichtig plastic vat met MIN/MAX-streep; vloeistof meestal roze/rood, paars, groen of blauw. Dop vaak zwart/grijs met waarschuwingssymbool (hand/stoom, thermometer) – 'niet openen als heet'.",
+   "functie": "Voert warmte af van de motor naar de radiateur; beschermt tegen bevriezing en corrosie.",
+   "controle": "Alleen bij KOUDE motor: niveau tussen MIN en MAX op het vat aflezen zonder dop te openen. Nooit openen bij warme motor (koelsysteem staat onder druk, verbrandingsgevaar). Hybrides hebben vaak een TWEEDE vat voor de omvormer/elektronica.",
+   "bij_laag": "Motor raakt oververhit (temperatuurlampje/meter in rood) → koppakking- of motorschade. Bijvullen met juiste soort; bij steeds dalend niveau: lek, naar garage.",
+   "relevantie": "Hoort bij de dagelijkse rijklaarcontrole/onderhoudsplicht van de chauffeur (veilig en bedrijfszeker rijden). Niet expliciet als losse exameneis in de CBR-TVT-eisen gevonden – vooral praktijk/algemene kennis."
+  },
+  {
    "key": "remvloeistof",
-   "naam": "Remvloeistof (reservoir)",
+   "naam": "Remvloeistof",
+   "kort": "Rem",
+   "cue": "Klein reservoir · DOT 4 · bij het schutbord",
+   "check": "MIN–MAX · dop dicht · giftig",
+   "lamp": "Remlamp of sponzig pedaal → niet doorrijden",
+   "hardop": "Rem: niveau MIN–MAX en het pedaal. Sponzig: niet rijden.",
+   "foto": "motor/img/remvloeistof.jpg",
+   "alt": "Klein remvloeistofreservoir met gele vloeistof",
+   "zones": [
+    {
+     "x": 68.5,
+     "y": 25,
+     "w": 12,
+     "h": 20
+    }
+   ],
    "cues": "Klein doorzichtig/witachtig reservoir, meestal achterin bij het schutbord aan bestuurderszijde, op de hoofdremcilinder. Dop vaak geel of zwart met remsymbool (cirkel tussen haakjes) en 'DOT 4'. Vloeistof heldergeel tot bruin.",
    "functie": "Brengt de kracht van het rempedaal hydraulisch over naar de remmen.",
    "controle": "Niveau tussen MIN en MAX op het reservoir aflezen, dop dicht laten. Remvloeistof trekt water aan: om de ±2 jaar vervangen (garage). Giftig en tast lak aan.",
@@ -32,7 +151,22 @@
   },
   {
    "key": "ruitensproeier",
-   "naam": "Ruitensproeiervloeistof",
+   "naam": "Ruitensproeier",
+   "kort": "Sproeier",
+   "cue": "Blauwe dop + ruit-icoon (niet het koelvat)",
+   "check": "Mag altijd bijvullen · in de winter antivries",
+   "lamp": "Slecht zicht → onveilig met passagiers",
+   "hardop": "Sproeier: blauwe dop, bijvullen mag.",
+   "foto": "motor/img/sproeier.jpg",
+   "alt": "Blauwe sproeierdop met ruit-icoon",
+   "zones": [
+    {
+     "x": 1,
+     "y": 32,
+     "w": 17,
+     "h": 22
+    }
+   ],
    "cues": "Grootste vuldop, bijna altijd BLAUW met ruit/sproeier-symbool (ruit met waterstraal); vaak vooraan op de hoek.",
    "functie": "Reinigt de voorruit (en achterruit/koplampen) voor goed zicht.",
    "controle": "Visueel of via lampje; mag altijd bijgevuld worden (ook warme motor). In de winter antivriesmiddel gebruiken.",
@@ -71,7 +205,8 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source": "https://commons.wikimedia.org/wiki/File:2020_Skoda_Octavia_RS-245_sedan_2.0-litre_TSI_gasoline_engine_view_in_Brunei.jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/skoda-octavia-iv-1-4-tsi-rf.jpg",
@@ -108,7 +243,8 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Skoda_Octavia_IV_1.4_TSI_RF.jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/2023-denver-auto-show-kia-niro-ex-touring-engine-bay.jpg",
@@ -145,7 +281,8 @@
    "license": "CC0",
    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "source": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Kia_Niro_EX_Touring_engine_bay.jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/2025-toyota-corolla-1-8-hybrid-engine.jpg",
@@ -182,7 +319,8 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source": "https://commons.wikimedia.org/wiki/File:2025_Toyota_Corolla_1.8_Hybrid_Engine.jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/hybrid-engine-2012-toyota-prius-v-8228834228.jpg",
@@ -214,7 +352,8 @@
    "license": "CC BY 2.0",
    "license_url": "https://creativecommons.org/licenses/by/2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Hybrid_Engine_-_2012_Toyota_Prius_V_(8228834228).jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/mb-cla-motorraum.jpg",
@@ -251,7 +390,8 @@
    "license": "CC BY-SA 3.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
    "source": "https://commons.wikimedia.org/wiki/File:MB_CLA_Motorraum.JPG",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/motorraum-vw-caddy-2k-ecofuel.jpg",
@@ -288,7 +428,8 @@
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Motorraum_VW_Caddy_(2K)_EcoFuel.jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/the-engine-room-of-toyota-rav4-hybrid-5th-gen.jpg",
@@ -320,7 +461,8 @@
    "license": "CC0",
    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "source": "https://commons.wikimedia.org/wiki/File:The_engine_room_of_Toyota_RAV4_Hybrid_(5th-gen).jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   },
   {
    "file": "motor/img/2023-denver-auto-show-kia-sportage-hybrid-engine-bay.jpg",
@@ -352,7 +494,8 @@
    "license": "CC0",
    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
    "source": "https://commons.wikimedia.org/wiki/File:2023_Denver_Auto_Show_Kia_Sportage_Hybrid_engine_bay.jpg",
-   "verkleind": true
+   "verkleind": true,
+   "rol": "voorbeeld"
   }
  ],
  "sets": [

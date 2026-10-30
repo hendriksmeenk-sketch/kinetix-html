@@ -1612,52 +1612,179 @@ window.leren=leren=function(){if(V22.v=='dg30'){$('#app').innerHTML='<div class=
 })();</script>
 
 <script id="motorruimte">
-/* Motorruimte: tik de vloeistof. Data: motor.json (set-motor-01 blijft daar; niet in de examenvragenbank). */
+/* Motorruimte: één motor (examenwagen). Data: motor.json.
+   Standaard = overzicht + vier vloeistoffen. Stockfoto's alleen onder «Andere auto's».
+   set-motor-01 blijft in motor.json en niet in de examenvragenbank. */
 (function(){
 const css=document.createElement('style');
-css.textContent='.motor-top{align-items:flex-start;gap:8px}.motor-top span:first-child{flex:1;min-width:0}.motor-top #motor-score{flex:0 0 auto;white-space:nowrap}.motor-frame{position:relative;margin:6px 0}.motor-frame img{display:block;width:100%;height:auto;border-radius:var(--r);background:#111;cursor:crosshair}.motor-zone{position:absolute;border:3px solid var(--ac);border-radius:6px;box-shadow:0 0 0 2px rgba(0,0,0,.55);pointer-events:none}.motor-credit{display:block;color:var(--mu);font-size:14px;line-height:1.35;margin:4px 0 8px}.motor-credit a{color:inherit}.motor-q mark{background:var(--ac);color:#111;border-radius:6px;padding:0 4px}#nav button{font-size:clamp(11px,2.5vw,15px);padding:8px 0;line-height:1.1}';
+css.textContent='.motor-top{align-items:flex-start;gap:8px}.motor-top span:first-child{flex:1;min-width:0}.motor-map{position:relative;margin:8px 0}.motor-map img{display:block;width:100%;height:auto;border-radius:var(--r);background:#111}.motor-hot{position:absolute;display:flex;align-items:flex-end;justify-content:flex-start;width:auto;margin:0;padding:0;border:2px solid var(--ac);border-radius:10px;background:rgba(245,196,0,.08);color:#111;font-weight:800;font-size:14px;line-height:1.1;text-align:left;min-width:44px;min-height:36px}.motor-hot>span{background:var(--ac);color:#111;border-radius:6px;padding:2px 6px;white-space:nowrap}.motor-hot.open{border-color:#d5dbe3;background:rgba(0,0,0,.12);font-weight:700}.motor-hot.open>span{background:rgba(16,17,20,.82);color:#fff}.motor-hot.on{outline:2px solid #fff}.motor-card.on{outline:3px solid var(--ac)}.motor-grid{display:grid;gap:8px}@media(min-width:720px){.motor-grid{grid-template-columns:1fr 1fr}}.motor-grid img,.motor-ex img{display:block;width:100%;height:auto;border-radius:10px;background:#111}.motor-k{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--mu);margin:10px 0 0}.motor-tag{display:inline-block;padding:1px 8px;border-radius:6px;font-size:13px;font-weight:800;background:#4a3520;color:#e6a23c}.motor-tag.deels{background:#2a3a28;color:#86efac}.motor-ol{margin:0;padding-left:1.2rem}.motor-ol li{margin:4px 0}.motor-credit{display:block;color:var(--mu);font-size:14px;line-height:1.35;margin:4px 0 8px}.motor-credit a{color:inherit}.motor-ex{display:grid;gap:12px}.motor-ex figure{margin:0}#nav button{font-size:clamp(11px,2.5vw,15px);padding:8px 0;line-height:1.1}';
 document.head.appendChild(css);
-let M=null,foto=null,key=null,g=0,f=0,done=false,gen=0;
-function vl(k){return (M.vloeistoffen||[]).find(v=>v.key===k)||{naam:k,cues:'',controle:''}}
-function known(ft){return Object.keys(ft.zones||{}).filter(k=>{const z=ft.zones[k];return z&&z!=='unknown'&&typeof z==='object'})}
-function pick(){
- const fotos=M.fotos.filter(ft=>known(ft).length);
- let last=parseInt(localStorage.getItem('tvtMotorIx'),10);if(!Number.isFinite(last))last=-1;
- let i=0,n=0;do{i=Math.floor(Math.random()*fotos.length)}while(fotos.length>1&&i===last&&++n<20);
- localStorage.setItem('tvtMotorIx',String(i));
- foto=fotos[i];const ks=known(foto);key=ks[Math.floor(Math.random()*ks.length)];done=false;
-}
+let M=null,view='map',g=0,f=0,tikKey=null,tikDone=false,qI=0,qPhase=null,qPick=[],gen=0;
+const RITME_FALLBACK='1 uur · 1 dag · 1 week · 1 maand · 3 maanden';
+function vl(k){return (M.vloeistoffen||[]).find(v=>v.key===k)}
+function zones(v){const z=v&&v.zones;if(!z)return [];return Array.isArray(z)?z:(z.x!=null?[z]:[])}
+function four(){return M.vloeistoffen||[]}
 function credit(ft){
- if(ft.author&&ft.license&&ft.source)return 'Foto: '+esc(ft.author)+' · <a href="'+esc(ft.license_url||ft.source)+'" target="_blank" rel="noopener">'+esc(ft.license)+'</a> · <a href="'+esc(ft.source)+'" target="_blank" rel="noopener">Wikimedia Commons</a> · verkleind';
- return esc(ft.credit||'Foto')+' · verkleind';
+ let s;
+ if(ft.author&&ft.license&&ft.source)s='Foto: '+esc(ft.author)+' · <a href="'+esc(ft.license_url||ft.source)+'" target="_blank" rel="noopener">'+esc(ft.license)+'</a> · <a href="'+esc(ft.source)+'" target="_blank" rel="noopener">bron</a>';
+ else s=esc(ft.credit||ft.merk||'Foto');
+ if(ft.verkleind)s+=' · verkleind';
+ return s;
 }
-function render(){
- const v=vl(key);
- $('#app').innerHTML='<div class="top motor-top"><span>Motorruimte · '+esc(foto.merk)+'</span><span id="motor-score">'+g+' ✓ · '+f+' ✗</span></div><div class="q motor-q">Tik waar de <mark>'+esc(v.naam)+'</mark> zit.</div><div class="motor-frame" id="motor-frame"><img id="motor-img" alt="Motorruimte '+esc(foto.merk)+'" src="'+esc(foto.file)+'"></div><small class="motor-credit">'+credit(foto)+'</small><div id="motor-fb"></div><button type="button" onclick="go(\'oefen\')">Menu</button>';
- $('#motor-img').addEventListener('click',onTap);
+function hot(style,cls,attrs,label){
+ return '<button type="button" class="motor-hot'+(cls?' '+cls:'')+'" style="'+style+'" '+attrs+'><span>'+label+'</span></button>';
 }
-function onTap(e){
- if(done||!foto)return;
- const img=e.currentTarget,w=img.clientWidth||1,h=img.clientHeight||1;
+function boxStyle(z){return 'left:'+z.x+'%;top:'+z.y+'%;width:'+z.w+'%;height:'+z.h+'%'}
+function cardHtml(v,open){
+ return '<article class="card motor-card'+(open?' on':'')+'" id="mcard-'+v.key+'"><h3>'+esc(v.naam)+'</h3><img src="'+esc(v.foto)+'" alt="'+esc(v.alt||v.naam)+'" loading="lazy"><button class="big'+(open?' hide':'')+'" type="button" id="mkijk-'+v.key+'" onclick="motorKijk(\''+v.key+'\')">Gezegd? Kijk</button><div id="mdeep-'+v.key+'"'+(open?'':' class="hide"')+'><div class="motor-k">Cue</div><p>'+esc(v.cue)+'</p><div class="motor-k">Check</div><p>'+esc(v.check)+'</p><div class="motor-k">Lamp</div><p>'+esc(v.lamp)+'</p><p><b>Hardop.</b> «'+esc(v.hardop)+'»</p><details><summary>Meer</summary><p>'+esc(v.functie||'')+'</p><p>'+esc(v.controle||'')+'</p><p>'+esc(v.bij_laag||'')+'</p><p class="mu sm">'+esc(v.relevantie||'')+'</p></details></div></article>';
+}
+function mapHtml(){
+ const h=M.hero||{};
+ let boxes='';
+ four().forEach(v=>zones(v).forEach(z=>{
+  const deel=z.deel?v.kort+', '+z.deel:v.naam;
+  boxes+=hot(boxStyle(z),'','data-k="'+v.key+'" onclick="motorKijk(\''+v.key+'\')" aria-label="'+esc(deel)+'"',esc(v.kort));
+ }));
+ (M.openZones||[]).forEach(z=>{
+  const row=(M.open||[])[z.open]||{};
+  boxes+=hot(boxStyle(z),'open','onclick="motorOpen('+z.open+')" aria-label="'+esc(row.punt||'OPEN')+'"','OPEN');
+ });
+ const chips=four().map(v=>'<button type="button" class="chip" onclick="motorKijk(\''+v.key+'\')">'+esc(v.kort)+'</button>').join('');
+ const cards=four().map(v=>cardHtml(v,false)).join('');
+ const dag=(M.dagcheck||[]).map(s=>'<li>'+esc(s)+'</li>').join('');
+ const opens=(M.open||[]).map((o,i)=>'<div class="card" id="mopen-'+i+'"><span class="motor-tag'+(o.status==='DEELS'?' deels':'')+'">'+esc(o.status||'OPEN')+'</span> <b>'+esc(o.punt)+'</b><div class="mu">'+esc(o.actie||'check bij rijinstructeur Martijn')+'</div></div>').join('');
+ const voor=(M.fotos||[]).filter(ft=>ft.rol==='voorbeeld').map(ft=>'<figure><img src="'+esc(ft.file)+'" alt="'+esc(ft.merk||'Motorruimte')+'" loading="lazy"><figcaption class="motor-credit"><b>'+esc(ft.merk||'')+'</b><br>'+credit(ft)+'</figcaption></figure>').join('');
+ const ctx=M.context||{};
+ const n=((M.sets||[])[0]||{}).vragen; const nq=n?n.length:0;
+ return '<h1>'+esc(M.titel||'Motorruimte')+'</h1><p class="mu">'+esc(M.wagen||'')+'</p><p>'+esc(M.spiek||'')+'</p><p class="mu sm">Eén motor. Tik een vak: cue, check, lamp.</p><div class="motor-map" id="motor-map"><img id="motor-img" alt="'+esc(h.alt||'Motorruimte')+'" src="'+esc(h.file)+'">'+boxes+'</div><p class="mu sm">'+esc(h.caption||'')+'</p><div>'+chips+'</div><h2>Vier vloeistoffen</h2><div class="motor-grid">'+cards+'</div><h2>Dagcheck, hardop</h2><ol class="motor-ol">'+dag+'</ol><p class="mu sm">5×: '+esc(M.ritme||RITME_FALLBACK)+'</p><h2>OPEN</h2><p class="mu sm">'+esc(M.noot||'')+'</p>'+opens+'<button class="big" type="button" onclick="motorTik()">Plek oefenen</button>'+(nq?'<button type="button" onclick="motorVragen()">'+nq+' vragen</button>':'')+(ctx.file?'<details><summary>Hele kap van voren</summary><figure class="motor-ex"><img src="'+esc(ctx.file)+'" alt="'+esc(ctx.alt||'')+'" loading="lazy"><figcaption class="mu sm">'+esc(ctx.caption||'')+'</figcaption></figure></details>':'')+'<details><summary>Andere auto\'s · niet deze motor</summary><p class="mu sm">Voorbeelden ter vergelijking. De les en de plek-oefening gaan over de examenwagen hierboven.</p><div class="motor-ex">'+voor+'</div></details><button type="button" onclick="go(\'oefen\')">Menu</button>';
+}
+function renderMap(){view='map';$('#app').innerHTML=mapHtml()}
+window.motorKijk=function(key){
+ const b=document.getElementById('mkijk-'+key),d=document.getElementById('mdeep-'+key);
+ if(b)b.classList.add('hide');if(d)d.classList.remove('hide');
+ document.querySelectorAll('.motor-hot').forEach(el=>el.classList.toggle('on',el.dataset.k===key));
+ document.querySelectorAll('.motor-card').forEach(el=>el.classList.toggle('on',el.id==='mcard-'+key));
+ const card=document.getElementById('mcard-'+key);
+ if(card)card.scrollIntoView({behavior:'smooth',block:'nearest'});
+};
+window.motorOpen=function(i){
+ const row=document.getElementById('mopen-'+i);
+ document.querySelectorAll('[id^=mopen-]').forEach(el=>el.classList.toggle('on',el===row));
+ if(row)row.scrollIntoView({behavior:'smooth',block:'nearest'});
+};
+function pickTik(){
+ const ks=four().map(v=>v.key);
+ let k=ks[Math.floor(Math.random()*ks.length)];
+ if(ks.length>1&&k===tikKey)k=ks[(ks.indexOf(k)+1)%ks.length];
+ tikKey=k;tikDone=false;
+}
+function renderTik(){
+ view='tik';
+ const v=vl(tikKey),h=M.hero||{};
+ $('#app').innerHTML='<div class="top motor-top"><span>Plek oefenen · '+esc(M.wagen||'')+'</span><span id="motor-score">'+g+' ✓ · '+f+' ✗</span></div><div class="q">Tik waar <mark style="background:var(--ac);color:#111;border-radius:6px;padding:0 4px">'+esc(v.naam)+'</mark> zit.</div><div class="motor-map" id="motor-map"><img id="motor-img" alt="'+esc(h.alt||'')+'" src="'+esc(h.file)+'"></div><div id="motor-fb"></div><button type="button" onclick="motorMap()">Terug naar het overzicht</button>';
+ $('#motor-img').addEventListener('click',onTik);
+}
+function onTik(e){
+ if(tikDone||view!=='tik')return;
+ const img=e.currentTarget,w=img.clientWidth||1,hh=img.clientHeight||1;
  let x=e.offsetX,y=e.offsetY;
  if(typeof x!=='number'||typeof y!=='number'){const r=img.getBoundingClientRect();x=e.clientX-r.left;y=e.clientY-r.top}
- x=x/w*100;y=y/h*100;
- const z=foto.zones[key];
- const ok=x>=z.x-4&&y>=z.y-4&&x<=z.x+z.w+4&&y<=z.y+z.h+4;
- done=true;ok?g++:f++;
- const v=vl(key);
- $('#motor-frame').insertAdjacentHTML('beforeend','<div class="motor-zone" style="left:'+z.x+'%;top:'+z.y+'%;width:'+z.w+'%;height:'+z.h+'%"></div>');
+ x=x/w*100;y=y/hh*100;
+ const v=vl(tikKey);
+ const hit=zones(v).some(z=>x>=z.x-4&&y>=z.y-4&&x<=z.x+z.w+4&&y<=z.y+z.h+4);
+ tikDone=true;hit?g++:f++;
  const sc=$('#motor-score');if(sc)sc.textContent=g+' ✓ · '+f+' ✗';
- $('#motor-fb').innerHTML='<div class="fb"><div class="res '+(ok?'ok':'no')+'">'+(ok?'Goed.':'Net niet. Het gele vak is '+esc(v.naam)+'.')+'</div><p><b>Herkenning.</b> '+esc(v.cues)+'</p><p><b>Controle.</b> '+esc(v.controle)+'</p><button class="big" type="button" onclick="motorNext()">Volgende</button></div>';
+ zones(v).forEach(z=>{$('#motor-map').insertAdjacentHTML('beforeend','<div class="motor-hot on" style="'+boxStyle(z)+';pointer-events:none"><span>'+esc(v.kort)+'</span></div>')});
+ $('#motor-fb').innerHTML='<div class="fb"><div class="res '+(hit?'ok':'no')+'">'+(hit?'Goed.':'Net niet. Het gele vak is '+esc(v.naam)+'.')+'</div>'+cardHtml(v,true)+'<button class="big" type="button" onclick="motorTikNext()">Volgende</button></div>';
  img.style.cursor='default';
 }
-window.motorNext=function(){pick();render();scrollTo(0,0)};
+window.motorTik=function(){g=0;f=0;pickTik();renderTik();scrollTo(0,0)};
+window.motorTikNext=function(){pickTik();renderTik();scrollTo(0,0)};
+window.motorMap=function(){renderMap();scrollTo(0,0)};
+function qNorm(q){
+ if(q.type==='multi')return {kind:'multi',opts:q.opts||[],correct:(q.ok||[]).slice(),why:typeof q.why==='string'?q.why:'',hint:''};
+ if(q.type==='order')return {kind:'order',opts:q.opts||[],correct:(q.ok||[]).slice(),why:typeof q.why==='string'?q.why:'',hint:''};
+ const opts=Array.isArray(q.opts)?q.opts:(q.ok||[]);
+ const why=typeof q.why==='number'?q.why:0;
+ return {kind:'mc',opts:opts,correct:[why],why:'',hint:typeof q.opts==='string'?q.opts:''};
+}
+function qHead(q,i,n){
+ return '<div class="top"><span>Vragen · '+(i+1)+'/'+n+'</span><span>'+esc(q.niveau||'')+'</span></div><div class="q">'+esc(q.q)+'</div>';
+}
+function renderVragen(){
+ view='vragen';
+ const vragen=((M.sets||[])[0]||{}).vragen||[];
+ if(!vragen.length){renderMap();return}
+ if(qI>=vragen.length){
+  $('#app').innerHTML='<div class="card"><h2>Klaar</h2><p>'+g+' goed · '+f+' nog niet, van '+vragen.length+'.</p></div><button class="big" type="button" onclick="motorVragen()">Opnieuw</button><button type="button" onclick="motorMap()">Terug naar het overzicht</button>';
+  return;
+ }
+ const q=vragen[qI],n=qNorm(q);
+ let body=qHead(q,qI,vragen.length);
+ if(n.kind==='mc'){
+  body+=n.opts.map((o,i)=>'<button type="button" onclick="motorMc('+i+')" '+(qPhase!=null?'disabled':'')+'>'+esc(o)+'</button>').join('');
+ }else if(n.kind==='multi'){
+  const sel=qPick;
+  body+='<p class="mu sm">Kies alle juiste.</p>'+n.opts.map((o,i)=>'<button type="button" onclick="motorMulti('+i+')" '+(qPhase!=null?'disabled':'')+'>'+(sel.includes(i)?'☑ ':'☐ ')+esc(o)+'</button>').join('');
+  if(qPhase==null)body+='<button class="big" type="button" onclick="motorMultiOk()">Klaar</button>';
+ }else{
+  const left=n.opts.map((_,i)=>i).filter(i=>!qPick.includes(i));
+  body+='<p class="mu sm">Tik de stappen in de juiste volgorde.</p>';
+  if(qPick.length)body+='<ol class="motor-ol">'+qPick.map(i=>'<li>'+esc(n.opts[i])+'</li>').join('')+'</ol>';
+  if(qPhase==null){
+   body+=left.map(i=>'<button type="button" onclick="motorOrder('+i+')">'+esc(n.opts[i])+'</button>').join('');
+   if(qPick.length)body+='<button type="button" onclick="motorOrderUndo()">Stap terug</button>';
+  }
+ }
+ if(qPhase!=null){
+  const ok=qPhase===true;
+  let extra='';
+  if(n.kind==='mc'){
+   extra='<p><b>'+esc(n.opts[n.correct[0]])+'</b></p>';
+   const w=(q.wrong||[])[qPick[0]];
+   if(!ok&&w)extra+='<p>'+esc(w)+'</p>';
+   if(n.hint)extra+='<p class="mu sm">'+esc(n.hint)+'</p>';
+  }else if(n.why)extra='<p>'+esc(n.why)+'</p>';
+  if(n.kind==='order')extra+='<ol class="motor-ol">'+n.correct.map(i=>'<li>'+esc(n.opts[i])+'</li>').join('')+'</ol>';
+  body+='<div class="fb"><div class="res '+(ok?'ok':'no')+'">'+(ok?'Goed.':'Net niet.')+'</div>'+extra+'<button class="big" type="button" onclick="motorNextQ()">Volgende</button></div>';
+ }
+ body+='<button type="button" onclick="motorMap()">Terug naar het overzicht</button>';
+ $('#app').innerHTML=body;
+}
+window.motorVragen=function(){g=0;f=0;qI=0;qPhase=null;qPick=[];renderVragen();scrollTo(0,0)};
+window.motorMc=function(i){
+ if(qPhase!=null)return;
+ const q=((M.sets[0].vragen)||[])[qI],n=qNorm(q);
+ qPick=[i];qPhase=i===n.correct[0];qPhase?g++:f++;renderVragen();
+};
+window.motorMulti=function(i){
+ if(qPhase!=null)return;
+ const ix=qPick.indexOf(i);if(ix>=0)qPick.splice(ix,1);else qPick.push(i);
+ renderVragen();
+};
+window.motorMultiOk=function(){
+ if(qPhase!=null)return;
+ const q=M.sets[0].vragen[qI],n=qNorm(q);
+ const a=qPick.slice().sort((x,y)=>x-y),b=n.correct.slice().sort((x,y)=>x-y);
+ qPhase=a.length===b.length&&a.every((v,i)=>v===b[i]);qPhase?g++:f++;renderVragen();
+};
+window.motorOrder=function(i){
+ if(qPhase!=null||qPick.includes(i))return;
+ qPick.push(i);
+ const q=M.sets[0].vragen[qI],n=qNorm(q);
+ if(qPick.length===n.opts.length){
+  qPhase=qPick.every((v,ix)=>v===n.correct[ix]);qPhase?g++:f++;
+ }
+ renderVragen();
+};
+window.motorOrderUndo=function(){if(qPhase!=null)return;qPick.pop();renderVragen()};
+window.motorNextQ=function(){qI++;qPhase=null;qPick=[];renderVragen();scrollTo(0,0)};
 window.startMotor=async function(){
  const my=++gen;
  try{
   if(!M){const r=await fetch('motor.json',{cache:'no-store'});if(!r.ok)throw new Error('motor');M=await r.json()}
   if(TAB!=='motor'||my!==gen)return;
-  g=0;f=0;pick();render();
+  g=0;f=0;renderMap();
  }catch(err){
   if(TAB!=='motor'||my!==gen)return;
   $('#app').innerHTML='<div class="card"><h2>Motorruimte</h2><p>De module kon niet laden.</p></div><button type="button" onclick="go(\'oefen\')">Menu</button>';
@@ -1681,6 +1808,7 @@ window.home=home=function(){
 };
 if($('#nav')&&D)nav();
 })();
+
 </script>
 
 </body></html>

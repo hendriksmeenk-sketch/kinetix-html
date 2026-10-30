@@ -1,5 +1,71 @@
 [
  {
+  "file": "motor/img/motor-overzicht.jpg",
+  "title": "Motorruimte examenwagen, overzicht",
+  "author": "",
+  "license": "eigen foto",
+  "license_url": "",
+  "source": "",
+  "merk": "VW Transporter TDI · examenwagen",
+  "verkleind": false,
+  "note": "Eigen foto van de examenwagen. Geen kenteken in de app."
+ },
+ {
+  "file": "motor/img/motor-kap-open.jpg",
+  "title": "Motorruimte examenwagen, kap open",
+  "author": "",
+  "license": "eigen foto",
+  "license_url": "",
+  "source": "",
+  "merk": "VW Transporter TDI · examenwagen",
+  "verkleind": false,
+  "note": "Eigen foto van de examenwagen. Geen kenteken in de app."
+ },
+ {
+  "file": "motor/img/olie.jpg",
+  "title": "Motorolie, close-up",
+  "author": "",
+  "license": "eigen foto",
+  "license_url": "",
+  "source": "",
+  "merk": "VW Transporter TDI · examenwagen",
+  "verkleind": false,
+  "note": "Eigen foto."
+ },
+ {
+  "file": "motor/img/koelvloeistof.jpg",
+  "title": "Koelvloeistof, close-up",
+  "author": "",
+  "license": "eigen foto",
+  "license_url": "",
+  "source": "",
+  "merk": "VW Transporter TDI · examenwagen",
+  "verkleind": false,
+  "note": "Eigen foto."
+ },
+ {
+  "file": "motor/img/remvloeistof.jpg",
+  "title": "Remvloeistof, close-up",
+  "author": "",
+  "license": "eigen foto",
+  "license_url": "",
+  "source": "",
+  "merk": "VW Transporter TDI · examenwagen",
+  "verkleind": false,
+  "note": "Eigen foto."
+ },
+ {
+  "file": "motor/img/sproeier.jpg",
+  "title": "Ruitensproeier, close-up",
+  "author": "",
+  "license": "eigen foto",
+  "license_url": "",
+  "source": "",
+  "merk": "VW Transporter TDI · examenwagen",
+  "verkleind": false,
+  "note": "Eigen foto."
+ },
+ {
   "file": "motor/img/2020-skoda-octavia-rs-245-sedan-2-0-litre-tsi-gasoline-engin.jpg",
   "title": "File:2020 Skoda Octavia RS-245 sedan 2.0-litre TSI gasoline engine view in Brunei.jpg",
   "author": "AIMHO'S REBELLION 8490s",
