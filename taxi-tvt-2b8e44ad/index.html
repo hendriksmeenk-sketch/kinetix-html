@@ -1612,14 +1612,15 @@ window.leren=leren=function(){if(V22.v=='dg30'){$('#app').innerHTML='<div class=
 })();</script>
 
 <script id="motorruimte">
-/* Motorruimte: één motor (examenwagen). Data: motor.json.
-   Standaard = overzicht + vier vloeistoffen. Stockfoto's alleen onder «Andere auto's».
+/* Motorruimte: examenwagen eerst. «Oefen alle motoren» draait daarna alle foto's,
+   elke vloeistof even vaak (ook rem). Vak zonder zone = OPEN + Martijn, niet overslaan.
    set-motor-01 blijft in motor.json en niet in de examenvragenbank. */
 (function(){
 const css=document.createElement('style');
-css.textContent='.motor-top{align-items:flex-start;gap:8px}.motor-top span:first-child{flex:1;min-width:0}.motor-map{position:relative;margin:8px 0}.motor-map img{display:block;width:100%;height:auto;border-radius:var(--r);background:#111}.motor-hot{position:absolute;display:flex;align-items:flex-end;justify-content:flex-start;width:auto;margin:0;padding:0;border:2px solid var(--ac);border-radius:10px;background:rgba(245,196,0,.08);color:#111;font-weight:800;font-size:14px;line-height:1.1;text-align:left;min-width:44px;min-height:36px}.motor-hot>span{background:var(--ac);color:#111;border-radius:6px;padding:2px 6px;white-space:nowrap}.motor-hot.open{border-color:#d5dbe3;background:rgba(0,0,0,.12);font-weight:700}.motor-hot.open>span{background:rgba(16,17,20,.82);color:#fff}.motor-hot.on{outline:2px solid #fff}.motor-card.on{outline:3px solid var(--ac)}.motor-grid{display:grid;gap:8px}@media(min-width:720px){.motor-grid{grid-template-columns:1fr 1fr}}.motor-grid img,.motor-ex img{display:block;width:100%;height:auto;border-radius:10px;background:#111}.motor-k{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--mu);margin:10px 0 0}.motor-tag{display:inline-block;padding:1px 8px;border-radius:6px;font-size:13px;font-weight:800;background:#4a3520;color:#e6a23c}.motor-tag.deels{background:#2a3a28;color:#86efac}.motor-ol{margin:0;padding-left:1.2rem}.motor-ol li{margin:4px 0}.motor-credit{display:block;color:var(--mu);font-size:14px;line-height:1.35;margin:4px 0 8px}.motor-credit a{color:inherit}.motor-ex{display:grid;gap:12px}.motor-ex figure{margin:0}#nav button{font-size:clamp(11px,2.5vw,15px);padding:8px 0;line-height:1.1}';
+css.textContent='.motor-top{align-items:flex-start;gap:8px}.motor-top span:first-child{flex:1;min-width:0}.motor-map{position:relative;margin:8px 0}.motor-map img{display:block;width:100%;height:auto;border-radius:var(--r);background:#111}.motor-hot{position:absolute;display:flex;align-items:flex-end;justify-content:flex-start;width:auto;margin:0;padding:0;border:2px solid var(--ac);border-radius:10px;background:rgba(245,196,0,.08);color:#111;font-weight:800;font-size:14px;line-height:1.1;text-align:left;min-width:44px;min-height:36px}.motor-hot>span{background:var(--ac);color:#111;border-radius:6px;padding:2px 6px;white-space:nowrap}.motor-hot.open{border-color:#d5dbe3;background:rgba(0,0,0,.12);font-weight:700}.motor-hot.open>span{background:rgba(16,17,20,.82);color:#fff}.motor-hot.on{outline:2px solid #fff}.motor-card.on{outline:3px solid var(--ac)}.motor-grid{display:grid;gap:8px}@media(min-width:720px){.motor-grid{grid-template-columns:1fr 1fr}}.motor-grid img,.motor-ex img{display:block;width:100%;height:auto;border-radius:10px;background:#111}.motor-k{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--mu);margin:10px 0 0}.motor-tag{display:inline-block;padding:1px 8px;border-radius:6px;font-size:13px;font-weight:800;background:#4a3520;color:#e6a23c}.motor-tag.deels{background:#2a3a28;color:#86efac}.motor-ol{margin:0;padding-left:1.2rem}.motor-ol li{margin:4px 0}.motor-credit{display:block;color:var(--mu);font-size:14px;line-height:1.35;margin:4px 0 8px}.motor-credit a{color:inherit}.motor-ex{display:grid;gap:12px}.motor-ex figure{margin:0}.motor-thumb{display:block;width:100%;max-height:200px;object-fit:cover;border-radius:10px;margin-top:8px;background:#111}.motor-bal{font-size:15px;line-height:1.4}#nav button{font-size:clamp(11px,2.5vw,15px);padding:8px 0;line-height:1.1}';
 document.head.appendChild(css);
-let M=null,view='map',g=0,f=0,tikKey=null,tikDone=false,qI=0,qPhase=null,qPick=[],gen=0;
+let M=null,view='map',g=0,f=0,qI=0,qPhase=null,qPick=[],gen=0;
+let deck=null,di=0,shown=false,tapped=false,goal={},seen={},practiceOnly=null;
 const RITME_FALLBACK='1 uur · 1 dag · 1 week · 1 maand · 3 maanden';
 function vl(k){return (M.vloeistoffen||[]).find(v=>v.key===k)}
 function zones(v){const z=v&&v.zones;if(!z)return [];return Array.isArray(z)?z:(z.x!=null?[z]:[])}
@@ -1656,7 +1657,7 @@ function mapHtml(){
  const voor=(M.fotos||[]).filter(ft=>ft.rol==='voorbeeld').map(ft=>'<figure><img src="'+esc(ft.file)+'" alt="'+esc(ft.merk||'Motorruimte')+'" loading="lazy"><figcaption class="motor-credit"><b>'+esc(ft.merk||'')+'</b><br>'+credit(ft)+'</figcaption></figure>').join('');
  const ctx=M.context||{};
  const n=((M.sets||[])[0]||{}).vragen; const nq=n?n.length:0;
- return '<h1>'+esc(M.titel||'Motorruimte')+'</h1><p class="mu">'+esc(M.wagen||'')+'</p><p>'+esc(M.spiek||'')+'</p><p class="mu sm">Eén motor. Tik een vak: cue, check, lamp.</p><div class="motor-map" id="motor-map"><img id="motor-img" alt="'+esc(h.alt||'Motorruimte')+'" src="'+esc(h.file)+'">'+boxes+'</div><p class="mu sm">'+esc(h.caption||'')+'</p><div>'+chips+'</div><h2>Vier vloeistoffen</h2><div class="motor-grid">'+cards+'</div><h2>Dagcheck, hardop</h2><ol class="motor-ol">'+dag+'</ol><p class="mu sm">5×: '+esc(M.ritme||RITME_FALLBACK)+'</p><h2>OPEN</h2><p class="mu sm">'+esc(M.noot||'')+'</p>'+opens+'<button class="big" type="button" onclick="motorTik()">Plek oefenen</button>'+(nq?'<button type="button" onclick="motorVragen()">'+nq+' vragen</button>':'')+(ctx.file?'<details><summary>Hele kap van voren</summary><figure class="motor-ex"><img src="'+esc(ctx.file)+'" alt="'+esc(ctx.alt||'')+'" loading="lazy"><figcaption class="mu sm">'+esc(ctx.caption||'')+'</figcaption></figure></details>':'')+'<details><summary>Andere auto\'s · niet deze motor</summary><p class="mu sm">Voorbeelden ter vergelijking. De les en de plek-oefening gaan over de examenwagen hierboven.</p><div class="motor-ex">'+voor+'</div></details><button type="button" onclick="go(\'oefen\')">Menu</button>';
+ return '<h1>'+esc(M.titel||'Motorruimte')+'</h1><p class="mu">'+esc(M.wagen||'')+'</p><p>'+esc(M.spiek||'')+'</p><p class="mu sm">Jouw motor eerst. Tik een vak: cue, check, lamp. Alle motoren oefen je daarna, één voor één.</p><div class="motor-map" id="motor-map"><img id="motor-img" alt="'+esc(h.alt||'Motorruimte')+'" src="'+esc(h.file)+'">'+boxes+'</div><p class="mu sm">'+esc(h.caption||'')+'</p><div>'+chips+'</div><button class="big" type="button" onclick="motorAlle()">Oefen alle motoren</button><p class="mu sm">Plek en benoemen, één motor per scherm. Rem, olie, koel en sproeier even vaak. Geen vak: OPEN, check bij rijinstructeur Martijn.</p><button type="button" onclick="motorHero()">Alleen deze motor</button>'+(nq?'<button type="button" onclick="motorVragen()">'+nq+' vragen</button>':'')+'<h2>Vier vloeistoffen</h2><div class="motor-grid">'+cards+'</div><h2>Dagcheck, hardop</h2><ol class="motor-ol">'+dag+'</ol><p class="mu sm">5×: '+esc(M.ritme||RITME_FALLBACK)+'</p><h2>OPEN</h2><p class="mu sm">'+esc(M.noot||'')+'</p>'+opens+(ctx.file?'<details><summary>Hele kap van voren</summary><figure class="motor-ex"><img src="'+esc(ctx.file)+'" alt="'+esc(ctx.alt||'')+'" loading="lazy"><figcaption class="mu sm">'+esc(ctx.caption||'')+'</figcaption></figure></details>':'')+'<details><summary>Bronnen · andere auto\'s</summary><p class="mu sm">Credits. Oefenen doe je met de knop hierboven, niet als een rij foto\'s.</p><div class="motor-ex">'+voor+'</div></details><button type="button" onclick="go(\'oefen\')">Menu</button>';
 }
 function renderMap(){view='map';$('#app').innerHTML=mapHtml()}
 window.motorKijk=function(key){
@@ -1672,34 +1673,119 @@ window.motorOpen=function(i){
  document.querySelectorAll('[id^=mopen-]').forEach(el=>el.classList.toggle('on',el===row));
  if(row)row.scrollIntoView({behavior:'smooth',block:'nearest'});
 };
-function pickTik(){
- const ks=four().map(v=>v.key);
- let k=ks[Math.floor(Math.random()*ks.length)];
- if(ks.length>1&&k===tikKey)k=ks[(ks.indexOf(k)+1)%ks.length];
- tikKey=k;tikDone=false;
+function metMartijn(s){s=s||'';if(/martijn/i.test(s))return s;return (s?s.replace(/\s+$/,'')+' ':'')+'check bij rijinstructeur Martijn'}
+function fluidKeys(){
+ const all=four().map(v=>v.key),pref=['remvloeistof','motorolie','koelvloeistof','ruitensproeier'];
+ return pref.filter(k=>all.indexOf(k)>=0).concat(all.filter(k=>pref.indexOf(k)<0));
 }
-function renderTik(){
- view='tik';
- const v=vl(tikKey),h=M.hero||{};
- $('#app').innerHTML='<div class="top motor-top"><span>Plek oefenen · '+esc(M.wagen||'')+'</span><span id="motor-score">'+g+' ✓ · '+f+' ✗</span></div><div class="q">Tik waar <mark style="background:var(--ac);color:#111;border-radius:6px;padding:0 4px">'+esc(v.naam)+'</mark> zit.</div><div class="motor-map" id="motor-map"><img id="motor-img" alt="'+esc(h.alt||'')+'" src="'+esc(h.file)+'"></div><div id="motor-fb"></div><button type="button" onclick="motorMap()">Terug naar het overzicht</button>';
- $('#motor-img').addEventListener('click',onTik);
+function boxesOf(map,key){
+ const z=map?map[key]:null;
+ if(!z||z==='unknown')return [];
+ if(Array.isArray(z))return z.filter(b=>b&&typeof b==='object'&&b.x!=null);
+ if(typeof z==='object'&&z.x!=null)return [z];
+ return [];
 }
-function onTik(e){
- if(tikDone||view!=='tik')return;
+function practiceBays(){
+ const heroZones={};
+ four().forEach(v=>{const zs=zones(v);heroZones[v.key]=zs.length?zs:'unknown'});
+ const hero={id:'hero',merk:M.wagen||'Examenwagen',file:(M.hero||{}).file,alt:(M.hero||{}).alt||'',creditHtml:'',twijfel:'',zones:heroZones,opens:(M.openZones||[]).map(z=>{
+  const row=(M.open||[])[z.open]||{};
+  return {id:z.id,x:z.x,y:z.y,w:z.w,h:z.h,punt:row.punt||'OPEN',actie:metMartijn(row.actie),status:row.status||'OPEN'};
+ })};
+ const fotos=(M.fotos||[]).filter(f=>f&&f.file&&f.zones);
+ return [hero].concat(fotos.map(f=>({id:f.file,merk:f.merk||'Motor',file:f.file,alt:f.merk||'Motorruimte',creditHtml:credit(f),twijfel:f.twijfel||'',zones:f.zones||{},opens:[]})));
+}
+function buildDeck(onlyId){
+ let bs=practiceBays();
+ if(onlyId)bs=bs.filter(b=>b.id===onlyId);
+ const keys=fluidKeys(),cols={};
+ keys.forEach(k=>{cols[k]=shuf(bs.map(bay=>{const boxes=boxesOf(bay.zones,k);return {bay:bay,kind:'fluid',key:k,boxes:boxes,open:boxes.length===0}}))});
+ const opens=shuf([].concat.apply([],bs.map(bay=>(bay.opens||[]).map(op=>({bay:bay,kind:'open',key:'open',openPoint:op,boxes:[op],open:true})))));
+ const out=[]; let oi=0; const n=Math.max.apply(null,keys.map(k=>cols[k].length).concat([0]));
+ for(let i=0;i<n;i++){
+  const start=i%keys.length, seq=keys.slice(start).concat(keys.slice(0,start));
+  seq.forEach(k=>{if(cols[k][i])out.push(cols[k][i])});
+  if(opens[oi])out.push(opens[oi++]);
+ }
+ while(oi<opens.length)out.push(opens[oi++]);
+ goal={open:opens.length}; keys.forEach(k=>{goal[k]=cols[k].length});
+ return out;
+}
+function tallyHtml(){
+ return fluidKeys().map(k=>esc((vl(k)||{}).kort||k)+' '+(seen[k]||0)+'/'+(goal[k]||0)).join(' · ')+' · OPEN '+(seen.open||0)+'/'+(goal.open||0);
+}
+function markSeen(it){if(it.kind==='fluid')seen[it.key]=(seen[it.key]||0)+1;else seen.open=(seen.open||0)+1}
+function revealHtml(it){
+ if(it.kind==='open'){
+  const op=it.openPoint;
+  return '<div class="motor-k">Cue</div><p>'+esc(op.punt)+'</p><div class="motor-k">Check</div><p>'+esc(op.actie)+'</p><p><b>Hardop.</b> «'+esc(op.punt)+'. '+esc(op.actie)+'»</p><p class="mu sm">5×: '+esc(M.ritme||RITME_FALLBACK)+'</p>';
+ }
+ const v=vl(it.key);
+ let h='<div class="motor-k">Cue</div><p>'+esc(v.cue)+'</p><div class="motor-k">Check</div><p>'+esc(v.check)+'</p><div class="motor-k">Lamp</div><p>'+esc(v.lamp)+'</p><p><b>Hardop.</b> «'+esc(v.hardop)+'»</p>';
+ if(it.open)h+='<div class="card"><span class="motor-tag">OPEN</span> <b>'+esc(v.naam)+'</b> is op deze foto niet zeker zichtbaar.<div class="mu">'+esc(metMartijn(''))+'</div></div>';
+ if(it.bay.twijfel)h+='<p class="mu sm">'+esc(it.bay.twijfel)+'</p>';
+ if(v.foto)h+='<img class="motor-thumb" src="'+esc(v.foto)+'" alt="'+esc(v.alt||v.naam)+'">';
+ h+='<p class="mu sm">5×: '+esc(M.ritme||RITME_FALLBACK)+'</p>';
+ return h;
+}
+function paintBoxes(it){
+ const map=$('#motor-map'); if(!map)return;
+ const label=it.kind==='open'?'OPEN':esc((vl(it.key)||{}).kort||'');
+ const cls=it.kind==='open'?' open on':' on';
+ it.boxes.forEach(z=>{map.insertAdjacentHTML('beforeend','<div class="motor-hot'+cls+'" style="'+boxStyle(z)+';pointer-events:none"><span>'+label+'</span></div>')});
+}
+function renderPractice(){
+ view='prac';
+ if(!deck||di>=deck.length){
+  $('#app').innerHTML='<h1>'+(practiceOnly?'Alleen deze motor':'Oefen alle motoren')+'</h1><div class="card"><h2>Klaar</h2><p class="motor-bal">'+tallyHtml()+'</p><p>'+g+' plek goed · '+f+' nog niet.</p><p class="mu sm">'+esc(M.spiek||'')+'</p></div><button class="big" type="button" onclick="'+(practiceOnly?'motorHero()':'motorAlle()')+'">Opnieuw</button><button type="button" onclick="motorMap()">Terug naar jouw motor</button>';
+  return;
+ }
+ const it=deck[di], v=it.kind==='fluid'?vl(it.key):null;
+ const naam=v?v.naam:(it.openPoint.punt);
+ let prompt;
+ if(it.kind==='open')prompt=it.boxes.length?'Tik het OPEN-vak. Zeg de check hardop.':'Benoem dit vak. Eerst uit je hoofd, dan Kijk.';
+ else if(it.open)prompt='Benoem <mark style="background:var(--ac);color:#111;border-radius:6px;padding:0 4px">'+esc(naam)+'</mark>. Op deze foto is de plek OPEN.';
+ else prompt='Tik waar <mark style="background:var(--ac);color:#111;border-radius:6px;padding:0 4px">'+esc(naam)+'</mark> zit. Zeg de check hardop.';
+ let fb='';
+ if(!shown){
+  fb='<button class="'+(it.boxes.length?'':'big')+'" type="button" onclick="motorShow()">Gezegd? Kijk</button>';
+ }else{
+  const hit=it._hit;
+  let res='';
+  if(it.boxes.length)res='<div class="res '+(it._skip?'ok':(hit?'ok':'no'))+'">'+(it._skip?'Kijk. Het vak staat op de foto.':(hit?'Goed.':'Net niet.'))+'</div>';
+  else res='<div class="res ok">Kijk.</div>';
+  fb='<div class="fb">'+res+revealHtml(it)+'<button class="big" type="button" onclick="motorPracNext()">Volgende</button></div>';
+ }
+ const head=practiceOnly?'Alleen deze motor':'Oefen alle motoren';
+ $('#app').innerHTML='<div class="top motor-top"><span>'+esc(head)+' · '+(di+1)+'/'+deck.length+'</span><span>'+g+' ✓ · '+f+' ✗</span></div><p class="motor-bal">'+tallyHtml()+'</p><p class="mu sm">'+esc(M.spiek||'')+'</p><h2>'+esc(it.bay.merk)+'</h2><div class="q">'+prompt+'</div><div class="motor-map" id="motor-map"><img id="motor-img" alt="'+esc(it.bay.alt||it.bay.merk)+'" src="'+esc(it.bay.file)+'"></div>'+(it.bay.creditHtml?'<small class="motor-credit">'+it.bay.creditHtml+'</small>':'')+'<div id="motor-fb">'+fb+'</div><button type="button" onclick="motorMap()">Terug naar jouw motor</button>';
+ if(it.boxes.length&&!shown){$('#motor-img').style.cursor='crosshair';$('#motor-img').addEventListener('click',onPrac)}
+ if(shown)paintBoxes(it);
+}
+function onPrac(e){
+ if(shown||view!=='prac'||!deck||!deck[di]||!deck[di].boxes.length)return;
  const img=e.currentTarget,w=img.clientWidth||1,hh=img.clientHeight||1;
  let x=e.offsetX,y=e.offsetY;
  if(typeof x!=='number'||typeof y!=='number'){const r=img.getBoundingClientRect();x=e.clientX-r.left;y=e.clientY-r.top}
  x=x/w*100;y=y/hh*100;
- const v=vl(tikKey);
- const hit=zones(v).some(z=>x>=z.x-4&&y>=z.y-4&&x<=z.x+z.w+4&&y<=z.y+z.h+4);
- tikDone=true;hit?g++:f++;
- const sc=$('#motor-score');if(sc)sc.textContent=g+' ✓ · '+f+' ✗';
- zones(v).forEach(z=>{$('#motor-map').insertAdjacentHTML('beforeend','<div class="motor-hot on" style="'+boxStyle(z)+';pointer-events:none"><span>'+esc(v.kort)+'</span></div>')});
- $('#motor-fb').innerHTML='<div class="fb"><div class="res '+(hit?'ok':'no')+'">'+(hit?'Goed.':'Net niet. Het gele vak is '+esc(v.naam)+'.')+'</div>'+cardHtml(v,true)+'<button class="big" type="button" onclick="motorTikNext()">Volgende</button></div>';
- img.style.cursor='default';
+ const it=deck[di];
+ const hit=it.boxes.some(z=>x>=z.x-4&&y>=z.y-4&&x<=z.x+z.w+4&&y<=z.y+z.h+4);
+ it._hit=hit;it._skip=false;shown=true;hit?g++:f++;markSeen(it);renderPractice();
 }
-window.motorTik=function(){g=0;f=0;pickTik();renderTik();scrollTo(0,0)};
-window.motorTikNext=function(){pickTik();renderTik();scrollTo(0,0)};
+window.motorShow=function(){
+ if(shown||!deck||!deck[di])return;
+ const it=deck[di];
+ if(it.boxes.length){it._hit=false;it._skip=true}else{it._hit=true;it._skip=false}
+ shown=true;markSeen(it);renderPractice();
+};
+window.motorPracNext=function(){di++;shown=false;tapped=false;renderPractice();scrollTo(0,0)};
+function startPractice(onlyId){
+ practiceOnly=onlyId;deck=buildDeck(onlyId);di=0;g=0;f=0;shown=false;tapped=false;
+ seen={open:0};fluidKeys().forEach(k=>{seen[k]=0});
+ renderPractice();scrollTo(0,0);
+}
+window.motorAlle=function(){startPractice(null)};
+window.motorHero=function(){startPractice('hero')};
+window.motorTik=function(){startPractice(null)};
 window.motorMap=function(){renderMap();scrollTo(0,0)};
 function qNorm(q){
  if(q.type==='multi')return {kind:'multi',opts:q.opts||[],correct:(q.ok||[]).slice(),why:typeof q.why==='string'?q.why:'',hint:''};
