@@ -90,7 +90,14 @@
      "a": "Ja, de rollator gaat mee als hulpmiddel. Eerst laat de chauffeur de passagier instappen en zitten. Dan klapt hij de rollator in en bergt hem veilig op.",
      "zeg": "Ja, de rollator gaat mee. Eerst gaat u zitten, dan klap ik hem in en berg ik hem veilig op.",
      "bron": "[2] collega-gids (Wolf)",
-     "open": ""
+     "open": "",
+     "doen": [
+      {
+       "t": "Het is geen rolstoel.",
+       "bron": "Code VVR · SF Mobiliteit",
+       "soort": "bron"
+      }
+     ]
     },
     {
      "kop": "Examenvraag",
@@ -120,7 +127,7 @@
      "open": ""
     }
    ],
-   "hash": "57295eb"
+   "hash": "9c0eb33"
   },
   "ROLSTOEL": {
    "kort": "Rolstoel / fysieke beperking",
@@ -219,7 +226,14 @@
      "a": "Haaksymbool (ISO 7176-19) op de vier vastzetpunten: daar komen de banden. Vastzetten volgens NEN-ISO 10542: vier vloerpunten, spanbanden. Rem erop. Een aparte veiligheidsgordel; de heupband alleen is niet genoeg. Oprijplaat of lift veilig gebruiken. Kan het niet veilig vast: vervoer weigeren.",
      "zeg": "Ik kijk naar het haaksymbool, ik zet de rolstoel op de rem en vast op vier punten, en u krijgt een aparte gordel.",
      "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)",
-     "open": ""
+     "open": "",
+     "doen": [
+      {
+       "t": "Gezicht naar voren.",
+       "bron": "Code VVR",
+       "soort": "bron"
+      }
+     ]
     },
     {
      "kop": "Examenvraag",
@@ -231,7 +245,7 @@
      "open": "BEANTWOORD-BEST-EFFORT · [8] België, geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
     }
    ],
-   "hash": "19c0b02"
+   "hash": "a3aed16"
   },
   "LEERLINGEN": {
    "kort": "Leerlingen",
@@ -246,7 +260,14 @@
      "kw": "tot 12 jaar · volgens de regels · pas dan starten",
      "a": "Kinderen tot 12 jaar: de chauffeur rijdt niet als zij niet volgens de regels vastzitten. Hij start pas als iedereen goed vastzit. Zo nodig een zitverhoger of kinderzitje.",
      "zeg": "Ik rijd pas weg als iedereen goed vastzit.",
-     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)"
+     "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)",
+     "doen": [
+      {
+       "t": "Iedereen een gordel. Voor een kind kleiner dan 1,35 m noemt RVV art. 59 taxi-uitzonderingen: zonder zitje achterin, met gordel, vanaf 3 jaar. De exacte leden zijn niet herlezen.",
+       "bron": "RVV art. 59 · ILT · OPEN",
+       "soort": "open"
+      }
+     ]
     },
     {
      "kop": "Stap 2 · Lijst",
@@ -387,7 +408,7 @@
      "open": ""
     }
    ],
-   "hash": "ee19465"
+   "hash": "2a7c249"
   },
   "DOVEN": {
    "kort": "Doven en slechthorenden",
@@ -489,7 +510,7 @@
      "open": ""
     }
    ],
-   "hash": "0082481"
+   "hash": "8392158"
   },
   "BLINDEN": {
    "kort": "Blinden en slechtzienden",
@@ -606,7 +627,14 @@
      "a": "Nee. De passagier houdt zelf de hond. U raakt de hond niet aan. Ga aan de andere kant dan de hond staan en vraag waar de hond in de taxi moet, meestal bij de voeten van de passagier.",
      "zeg": "Waar wilt u dat uw hond ligt?",
      "bron": "[1] content.json (service-conflict) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR) · [9] Rijksoverheid: Mag ik mijn hulphond overal mee naartoe nemen?",
-     "open": "BEANTWOORD-BEST-EFFORT · [8] België, geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+     "open": "BEANTWOORD-BEST-EFFORT · [8] België, geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf).",
+     "doen": [
+      {
+       "t": "Voorin: gangbare praktijk is de voetenruimte bij de baas. Geen wetsartikel gevonden.",
+       "bron": "KNGF (praktijk) · huisregel · OPEN",
+       "soort": "open"
+      }
+     ]
     },
     {
      "kop": "Examenvraag",
@@ -636,7 +664,7 @@
      "open": ""
     }
    ],
-   "hash": "dfbb3ec"
+   "hash": "deabc4c"
   },
   "VERSTANDELIJK": {
    "kort": "Verstandelijke beperking",
@@ -747,7 +775,7 @@
      "open": ""
     }
    ],
-   "hash": "b220f09"
+   "hash": "5a16fa5"
   },
   "DEMENTIE": {
    "kort": "Dementie · extra",
@@ -832,7 +860,7 @@
      "open": "BEANTWOORD-BEST-EFFORT · geen CBR-sleutel; Alzheimer NL [13] geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
     }
    ],
-   "hash": "c86f559"
+   "hash": "5b7ca60"
   }
  }
 }
