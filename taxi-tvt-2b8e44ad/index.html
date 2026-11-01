@@ -2321,6 +2321,22 @@ window.xfMind=function(from){
   h+=`<button class="big" onclick="mmPlate('all')">Alle drie, volledig</button>`;
   $("#app").innerHTML=h; scrollTo(0,0); nav();
 };
+function vakRow(letter,text){return `<div class="kasrow"><b>${esc(letter)}</b><span>${esc(text)}</span></div>`;}
+window.xfVak=function(open){
+  open=!!open;
+  let h=`<button onclick="xfEzel()">← Ezelsbruggen</button><h1>VAK · KOFTS · 5ID</h1>`;
+  h+=`<div class="mu">Stopplek. Eerst ophalen. De letters zijn een huisregel. De plekken zijn RVV 23 en 24.</div>`;
+  h+=`<div class="card"><div class="q">Waar wel, waar niet stil, waar niet parkeren?</div></div>`;
+  if(!open) h+=`<textarea placeholder="Eerst uit je hoofd. WEL, NIET stil, NIET parkeren."></textarea><button class="big" onclick="xfVak(1)">Gezegd? Kijk</button>`;
+  else{
+    h+=`<div class="card diep-huis"><span class="btag huis">huisregel</span><b>Anker</b><div class="xfzeg">VAK zoeken. KOFTS mijden. Alarm ≠ vrijbrief.</div></div>`;
+    h+=`<div class="card"><div class="xflet">WEL · VAK</div><span class="btag huis">huisregel</span>${vakRow("V","Vak (parkeervak)")}${vakRow("A","Aan de stoepkant")}${vakRow("K","Kant rechts")}<div><span class="btag wet">wet</span> RVV 23 en 24</div></div>`;
+    h+=`<div class="card"><div class="xflet">NIET stil · KOFTS</div><span class="btag huis">huisregel</span>${vakRow("K","Kruispunt / overweg")}${vakRow("O","Oversteek (op of ≤5 m)")}${vakRow("F","Fietsstrook, fietspad, trottoir")}${vakRow("T","Tunnel")}${vakRow("S","Streep geel doorgetrokken")}<div class="sm">Ook niet stil, zonder extra letter: busstrook. Bushalte langer dan meteen in- of uitstappen.</div><div><span class="btag wet">wet</span> RVV 23 en 24</div></div>`;
+    h+=`<div class="card"><div class="xflet">NIET parkeren extra · 5ID</div><span class="btag huis">huisregel</span>${vakRow("5","5 m van een kruispunt")}${vakRow("I","Inrit / uitrit")}${vakRow("D","Dubbel, en langs een gele onderbroken streep")}<div><span class="btag wet">wet</span> RVV 23 en 24</div></div>`;
+    h+=`<div class="card"><span class="btag wet">wet</span> RVV art. 58<div>Alarm is geen vrijbrief. Alleen bij pech of een obstakel.</div></div>`;
+  }
+  paint(h);
+};
 function ezelBack(){return XF.ezelBack||"go('zones')";}
 window.xfEzelHome=function(){XF.ezelBack="go('zones')";xfEzel();};
 window.xfEzel=function(){
@@ -2332,7 +2348,7 @@ window.xfEzel=function(){
   h+=`<article class="card"><div class="xflet">S-K-T</div><div>S start · K kilometer · T tijd. Alleen TVP.</div><div><span class="btag bron">bron</span> starttarief + kilometers + minuten</div><div class="diep-huis"><span class="btag huis">huisregel</span> De letters zijn de ezelsbrug. Wolf is niet het tarief.</div>${diep("Diepte · S-K-T","XF.ret='xfEzel()';xfSkt()")}</article>`;
   h+=`<article class="card"><div class="xflet">FRUIT(+)</div><div>File · Rotonde · Uit-/invoegen (blokmarkering) · Tram · + links voorsorteerder</div><div><span class="btag wet">wet</span> Rechts inhalen alleen hier. RVV 11, 13, 48.</div><div class="diep-huis"><span class="btag huis">huisregel</span> De naam FRUIT+ is huis.</div>${diep("Diepte · tak 2","XF.from='ezel';xfSpiek(2)")}</article>`;
   h+=`<article class="card"><div class="xflet">STOEP</div><div>Stopplek · Trottoirkant · Omzien · Eerst zitten · Portier</div><div class="diep-huis"><span class="btag huis">huisregel</span> De letters zijn huis. Een blauw wet-label staat alleen bij een artikel.</div>${diep("Diepte · per letter","XF.ret='xfEzel()';xfStoep(0)")}</article>`;
-  h+=`<article class="card"><div class="xflet">VAK / KOFTS / 5ID</div><div>Europees schadeformulier, vak 1 tot 15.</div><div class="diep-huis"><span class="btag huis">huisregel</span> KOFTS en 5ID zijn de huisnaam. Ankers die al staan: vak 5 getuige, vak 10 pijl (eerste aanraking).</div><div><span class="btag bron">Europees schadeformulier</span></div>${diep("Diepte · vak 1–15","XF.ret='xfEzel()';xfForm()")}</article>`;
+  h+=`<article class="card"><div class="xflet">VAK / KOFTS / 5ID</div><div>Stopplek. Wel staan, niet stil, niet parkeren.</div><div class="diep-huis"><span class="btag huis">huisregel</span> De letters. De plekken zijn RVV 23 en 24.</div>${diep("Ophalen · lege deur","xfVak(0)")}</article>`;
   h+=`<article class="card"><div class="xflet">KASGTMT</div><div class="xfzeg">«Krijger Altijd Scherp, Gaat Taxi Met Tarief.»</div><div class="diep-huis"><span class="btag huis">huisregel</span> De zin. De zeven zelf zijn CBR ET 1.1.</div>${diep("Ophalen · lege deur","xfPapierVan('ezel')")}</article>`;
   h+=`<article class="card"><div class="xflet">Aanwijzing &gt; licht &gt; bord &gt; regel</div><div>Aanwijzing, dan verkeerslicht, dan voorrangsbord, dan de regel.</div><div><span class="btag wet">wet</span> RVV 84, 64, 63, 63a, 63b.</div><div class="diep-huis"><span class="btag huis">huisregel</span> Handschoen &gt; Lamp &gt; Bord &gt; Regel.</div>${diep("Diepte · tak 2","XF.from='ezel';xfSpiek(2)")}</article>`;
   paint(h);
