@@ -376,6 +376,15 @@
      "zeg": "Stop. In de taxi doen we normaal tegen elkaar. Jij gaat hier zitten.",
      "bron": "[1] content.json (service-conflict) · [2] collega-gids (Wolf)",
      "open": "BEANTWOORD-BEST-EFFORT · Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Vaste zitplaats",
+     "vraag": "Leerlingen hebben een vaste zitplaats, maar er is ruzie om die plek. Wie beslist?",
+     "kw": "rust · conflict · jij beslist",
+     "a": "Een vaste zitplaats geeft rust. Bij conflict over die plek beslis jij.",
+     "zeg": "De vaste plek blijft. Bij ruzie beslis ik.",
+     "bron": "VTO klassikaal · theorie-leren.nl (slides Saidi, 2026-11-01) · slide 19",
+     "open": ""
     }
    ],
    "hash": "ee19465"
@@ -616,6 +625,15 @@
      "zeg": "Ik loop met u mee tot de ingang.",
      "bron": "[2] collega-gids (Wolf) · [8] Brussel Mobiliteit (taxi-info.be), Toegankelijkheid van de taxi (België, geen CBR)",
      "open": "BEANTWOORD-BEST-EFFORT · [8] België, geen CBR. Voor zekerheid: check bij rijinstructeur Martijn (Wolf)."
+    },
+    {
+     "kop": "Hulphond · rust",
+     "vraag": "De hulphond ligt rustig. Mag je aaien of voeren, en wie spreek je aan?",
+     "kw": "niet aaien · niet voeren · baas · rust kan werk zijn",
+     "a": "Niet aaien, niet voeren. Spreek de baas aan, niet de hond. Een rustende hond kan wél aan het werk zijn.",
+     "zeg": "Ik spreek u aan. Uw hond kan aan het werk zijn, ook als hij ligt. Ik aai hem niet en ik geef hem niets.",
+     "bron": "VTO klassikaal · theorie-leren.nl (slides Saidi, 2026-11-01) · slide 28 · huis: niet aaien en niet voeren stond al",
+     "open": ""
     }
    ],
    "hash": "dfbb3ec"

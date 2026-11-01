@@ -1,7 +1,7 @@
 {
  "schema": "tvt-quiz/1",
  "module": "motorruimte",
- "bijgewerkt": "2026-10-30",
+ "bijgewerkt": "2026-11-01",
  "titel": "Motorruimte",
  "wagen": "VW Transporter TDI · examenwagen",
  "spiek": "Eerst ophalen, zonder kijken. Dan Kijk. Hardop. 5×.",
@@ -20,7 +20,16 @@
   "Olie — peilstok MIN–MAX",
   "Koel — koud, MIN–MAX, dop dicht",
   "Rem — DOT 4 MIN–MAX en het pedaal",
-  "Sproeier — blauwe dop, bijvullen mag"
+  "Sproeier — blauwe dop, bijvullen mag",
+  "Brandstof / range — genoeg voor de rit",
+  "Lekkage — niets onder de auto",
+  "Verlichting rondom",
+  "Kindersloten en gordels",
+  "Banden",
+  "Ruiten, wissers, schade",
+  "Dashboard — geen losse voorwerpen",
+  "Zit — stoel, hoofdsteun, stuur, spiegels",
+  "Lampje onbekend — instructieboekje, niet gokken"
  ],
  "open": [
   {
