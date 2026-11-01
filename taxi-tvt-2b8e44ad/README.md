@@ -43,7 +43,7 @@ Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app h
 - Bron tarieven: Regeling maximumtarief taxivervoer art. 1a, tarieven 2026 (Stcrt. 2025, 41618). Bij nieuwe tarieven (1 jan) de sommen opnieuw genereren.
 
 ## Examenflow (2026-11-01)
-Home heeft drie zones: theorie-quiz, Examenflow TVP/TVPC, en Spiek (Papieren, Doelgroepen, Lampjes, Paraat, Motor). Examenflow linkt naar die tools. TVPC slaat opdracht 3 (straattaxi) over.
+Home heeft drie zones: theorie-quiz, Examenflow TVP/TVPC, en Spiek (Papieren KASGTMT, Doelgroepen, Lampjes, Paraat, Motor, Mindmap, Ezelsbruggen). Examenflow linkt naar die tools. TVPC slaat opdracht 3 (straattaxi) over. De ezelsbruggen zijn korte kaarten naar diezelfde tools. De mindmap toont de drie Imagine-platen.
 
 Unieke VTO-feiten zitten in de cheats van tak 1, 4, 5, 6, 7 en 9, in de motor-dagcheck, en in twee extra deuren van de Doelgroepen-spiek (vaste zitplaats, rustende hulphond). `set-vto-01` is een korte casusset voor de opdrachten, bron VTO klassikaal. Geen tweede doelgroepen-, lampjes-, motor- of papierenmodule.
 
