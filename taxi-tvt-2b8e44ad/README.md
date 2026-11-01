@@ -42,6 +42,11 @@ Je voegt een nieuwe set toe door alleen `questions.json` aan te passen. De app h
 - Extra velden per som: `reken: true` (houdt de som uit gewone rondes en het TVT-examen), `kort` (rekentruc, getoond na antwoorden), `inputs` (invoer). `unit` is `€`, `km` of `min`.
 - Bron tarieven: Regeling maximumtarief taxivervoer art. 1a, tarieven 2026 (Stcrt. 2025, 41618). Bij nieuwe tarieven (1 jan) de sommen opnieuw genereren.
 
+## Examenflow (2026-11-01)
+Home heeft drie zones: theorie-quiz, Examenflow TVP/TVPC, en Spiek (Papieren, Doelgroepen, Lampjes, Paraat, Motor). Examenflow linkt naar die tools. TVPC slaat opdracht 3 (straattaxi) over.
+
+Unieke VTO-feiten zitten in de cheats van tak 1, 4, 5, 6, 7 en 9, in de motor-dagcheck, en in twee extra deuren van de Doelgroepen-spiek (vaste zitplaats, rustende hulphond). `set-vto-01` is een korte casusset voor de opdrachten, bron VTO klassikaal. Geen tweede doelgroepen-, lampjes-, motor- of papierenmodule.
+
 ## Set 2 (set-02)
 - 168 vragen (Kruipen 63 · Lopen 51 · Rennen 54), samengesteld, kruiselings gereviewd, strenge tweede audit met wetteksten, daarna handmatige feitencheck en dedupe tegen set-01 / set-reken-01.
 - Bron: `vragenfabriek.py` (`--audit-only`, `--export-set02-only`). Bij een nieuwe set: ook `#qdata` in `index.html` bijwerken.
