@@ -2416,14 +2416,15 @@ window.endRound=endRound=function(){
 })();
 </script>
 <script id="hmspiek">
-/* Handmindmap-beeld op Spiek en Leren. s1–s7 blijven. Eerst de ezelsbrug, dan het beeld. */
+/* Handmindmap-beeld op Spiek en Leren. s1–s7 blijven. Adreswijziging = lift. Uitstap = STOEP. Eerst de ezelsbrug, dan het beeld. */
 (function(){
 "use strict";
 const HM=[
   {id:"rit",titel:"Rit",sub:"S-K-T",ezel:"S-K-T",zin:"Start · Kilometer · Tijd. Starttarief · per km · per tijd.",src:"img/spiek/handmaps/rit-skt.jpg",alt:"Spiek rit S-K-T"},
   {id:"dg",titel:"Doelgroepen",sub:"Tas stok oor hond wiel kraal",ezel:"Tas, stok, oor en hond, wiel en kraal",zin:"Zes op de grond.",src:"img/spiek/handmaps/doelgroepen.jpg",alt:"Spiek doelgroepen"},
   {id:"wagen",titel:"Wagen",sub:"KASGTMT",ezel:"KASGTMT",zin:"Krijger Altijd Scherp, Gaat Taxi Met Tarief.",src:"img/spiek/handmaps/wagen-kasgtmt.jpg",alt:"Spiek wagen KASGTMT"},
-  {id:"adres",titel:"Adreswijziging",sub:"STOEP",ezel:"STOEP",zin:"Stopplek · Trottoirkant · Omzien · Eerst zitten · Portier.",src:"img/spiek/handmaps/adres-stoep.jpg",alt:"Spiek adreswijziging STOEP"},
+  {id:"adres",titel:"Adreswijziging",sub:"lift",ezel:"ADRES-LIFT",zin:"Dat kan, doorrijden. VAK. Niet KOFTS. Nav aanpassen. Ritprijs hoger of lager. Contract: centrale eerst. Alarm ≠ vrijbrief.",src:"img/spiek/handmaps/adres-stoep.jpg",alt:"Spiek adreswijziging lift"},
+  {id:"uitstap",titel:"Uitstap",sub:"STOEP",ezel:"STOEP",zin:"Stopplek · Trottoirkant · Omzien · Eerst zitten · Portier.",src:"img/spiek/handmaps/stoep.jpg",alt:"Spiek uitstap STOEP"},
   {id:"panne",titel:"Panne",sub:"PAMAN",ezel:"PAMAN",zin:"Persoonlijke veiligheid · Andermans veiligheid · Markeren · Alarmeren · Noodzakelijke hulp.",src:"img/spiek/handmaps/panne-paman.jpg",alt:"Spiek panne PAMAN"}
 ];
 let cur=HM[0],seen=false,from="zones";
