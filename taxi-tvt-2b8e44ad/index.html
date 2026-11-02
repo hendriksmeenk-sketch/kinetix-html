@@ -2415,5 +2415,79 @@ window.endRound=endRound=function(){
 };
 })();
 </script>
+<script id="hmspiek">
+/* Handmindmap-beeld op Spiek en Leren. s1–s7 blijven. Eerst de ezelsbrug, dan het beeld. */
+(function(){
+"use strict";
+const HM=[
+  {id:"rit",titel:"Rit",sub:"S-K-T",ezel:"S-K-T",zin:"Start · Kilometer · Tijd. Starttarief · per km · per tijd.",src:"img/spiek/handmaps/rit-skt.jpg",alt:"Spiek rit S-K-T"},
+  {id:"dg",titel:"Doelgroepen",sub:"Tas stok oor hond wiel kraal",ezel:"Tas, stok, oor en hond, wiel en kraal",zin:"Zes op de grond.",src:"img/spiek/handmaps/doelgroepen.jpg",alt:"Spiek doelgroepen"},
+  {id:"wagen",titel:"Wagen",sub:"KASGTMT",ezel:"KASGTMT",zin:"Krijger Altijd Scherp, Gaat Taxi Met Tarief.",src:"img/spiek/handmaps/wagen-kasgtmt.jpg",alt:"Spiek wagen KASGTMT"},
+  {id:"adres",titel:"Adreswijziging",sub:"STOEP",ezel:"STOEP",zin:"Stopplek · Trottoirkant · Omzien · Eerst zitten · Portier.",src:"img/spiek/handmaps/adres-stoep.jpg",alt:"Spiek adreswijziging STOEP"},
+  {id:"panne",titel:"Panne",sub:"PAMAN",ezel:"PAMAN",zin:"Persoonlijke veiligheid · Andermans veiligheid · Markeren · Alarmeren · Noodzakelijke hulp.",src:"img/spiek/handmaps/panne-paman.jpg",alt:"Spiek panne PAMAN"}
+];
+let cur=HM[0],seen=false,from="zones";
+const css=document.createElement("style");
+css.textContent=".hmshot{display:block;width:calc(100% + 28px);margin:8px -14px;padding:0;border:0;border-radius:0;background:#071433;overflow:hidden}.hmshot img{display:block;width:100%;height:auto}.hmcap{margin:14px 0 2px}.hmrow .bz28in{text-align:left}#mm29.hmfull img{width:100%;height:auto}";
+document.head.appendChild(css);
+function byId(id){return HM.find(x=>x.id===id)||HM[0]}
+function hmPaint(){
+  const x=cur;
+  const terug=from==="leren"?"hmTerug()":"go('zones')";
+  const label=from==="leren"?"← Leren":"← Spiek";
+  let h=`<button onclick="${terug}">${label}</button>`;
+  h+=`<h1>${esc(x.titel)} · ${esc(x.sub)}</h1>`;
+  h+=`<div class="card diep-huis"><span class="btag huis">huisregel</span><div class="xflet">${esc(x.ezel)}</div><div>${esc(x.zin)}</div><div class="mu">Eerst de ezelsbrug, hardop. Dan pas het beeld.</div></div>`;
+  if(!seen){
+    h+=`<textarea placeholder="Eerst uit je hoofd."></textarea>`;
+    h+=`<button class="big" onclick="hmKijk()">Gezegd? Kijk</button>`;
+  }else{
+    h+=`<button class="hmshot" type="button" onclick="hmVol()" aria-label="${esc(x.titel)} · ${esc(x.sub)} volledig"><img src="${x.src}" alt="${esc(x.alt)}"></button>`;
+    h+=`<button type="button" onclick="hmVol()">Volledig scherm</button>`;
+  }
+  $("#app").innerHTML=h;
+  scrollTo(0,0);
+  if(typeof nav==="function") nav();
+}
+window.hmOpen=function(id,src){
+  cur=byId(id); seen=false; from=src||"zones";
+  if(from==="leren"){V22.v="hm";TAB="leren";leren();return;}
+  TAB="zones";
+  hmPaint();
+};
+window.hmKijk=function(){seen=true;hmPaint();};
+window.hmTerug=function(){V22.v="home";leren();};
+window.hmVol=function(){
+  const x=cur;
+  let d=document.getElementById("mm29");
+  if(d) d.remove();
+  d=document.createElement("div");
+  d.id="mm29";
+  d.className="hmfull";
+  d.innerHTML=`<button type="button" onclick="this.parentNode.remove()">✕ Sluiten</button><p class="mmcap">${esc(x.titel)} · ${esc(x.sub)}</p><img src="${x.src}" alt="${esc(x.alt)}">`;
+  document.body.appendChild(d);
+  d.scrollTop=0;
+};
+const _zones=window.xfZones;
+window.xfZones=function(){
+  _zones();
+  const grid=document.querySelector("#app .xfgrid");
+  if(!grid||grid.querySelector("[data-hm]")) return;
+  grid.insertAdjacentHTML("beforeend",HM.map(x=>`<button type="button" data-hm="${x.id}" onclick="hmOpen('${x.id}','zones')"><b>${esc(x.titel)}</b><br><span class="mu">${esc(x.sub)}</span></button>`).join(""));
+};
+const _leren=window.leren;
+window.leren=function(){
+  if(window.V22&&V22.v==="hm"){hmPaint();return;}
+  _leren.apply(this,arguments);
+  if(window.V22&&V22.v==="home"){
+    const anchor=document.querySelector("#app .dg30in")||document.querySelector("#app .bz28in")||document.querySelector("#app .h24");
+    if(anchor&&!document.querySelector(".hmrow")){
+      const html=`<p class="mu hmcap">Spiek op beeld. Eerst de ezelsbrug.</p><div class="hmrow">`+HM.map(x=>`<button class="bz28in" type="button" onclick="hmOpen('${x.id}','leren')">${esc(x.titel)} · ${esc(x.sub)}</button>`).join("")+`</div>`;
+      anchor.insertAdjacentHTML("afterend",html);
+    }
+  }
+};
+})();
+</script>
 
 </body></html>
